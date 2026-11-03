@@ -1,0 +1,20 @@
+{
+  "job_id": "hair-E04",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E04.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-5aff8b6a-1431-473b-835e-8748493c0d60.png",
+  "sha256": "ccc1059ed55a6106345d4037d210e6193e2d87e1e5982410de13e0831711659b",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E04; concept: 프렌치 크롭.\nClass: base; domain: hair; entry: CRAFT-hair-2c775fc6ba2b.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Direct a short textured top forward into a horizontal fringe with small separated locks; use neatly blended short sides. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Direct a short textured top forward into a horizontal fringe with small separated locks; use neatly blended short sides..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Forward fringe is textured, with a broken rather than continuous edge.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nConcrete reference roles: Image 1 (hair-E01.png) is the accepted identity B face and hairline anchor. Keep face, marks, camera, crop and lighting fixed while changing only the specified haircut.",
+  "reference_paths": [
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "Viewed the full image at 1024x1536. Identity B and the subject-left cheek mole are preserved; gray shirt and neutral studio setup match E01. The top is short, textured and directed forward with a broken horizontal fringe; sides and nape are blended. Subject-left ear and nape are visible. One state, no text or collage. Not final parent acceptance."
+  }
+}

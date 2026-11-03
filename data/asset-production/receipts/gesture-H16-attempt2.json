@@ -1,0 +1,36 @@
+{
+  "job_id": "gesture-H16",
+  "attempt": 2,
+  "status": "generated",
+  "generation_thread_id": "01a18d13-9501-74a2-bf89-44653d13baa3",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-9501-74a2-bf89-44653d13baa3",
+  "before_source_files": [
+    "exec-0f329d0f-de36-46cb-a8ba-db6a516f92a2.png",
+    "exec-2f02a92b-2d96-4f66-b7c9-9601e7575f6f.png",
+    "exec-4f40980d-7c31-4ae7-969c-d90b05701fa9.png",
+    "exec-72f09d05-85db-4c8e-b1ed-a39077ea9b89.png",
+    "exec-8c5e870a-3357-42db-ae1d-a3e9028c565b.png",
+    "exec-a3405c9a-188c-4dfb-9d55-11e2729e3fc9.png"
+  ],
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H16; concept: 펌프 눌린 접촉 상태.\nClass: base; domain: gesture; entry: CRAFT-gesture-d3ee8382253b.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-N01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Left hand supports one plain pump bottle on the tabletop while right index pad contacts the pump top held visibly depressed. Aim the spout away from the hands; do not add spray or claim return timing. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: Left hand supports one plain pump bottle on the tabletop while right index pad contacts the pump top held visibly depressed. Aim the spout away from the hands; do not add spray or claim return timing.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Depressed pump height and index contact are visible; bottle remains supported and intact.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nRetry attempt 2. Show one plain pump bottle supported securely by the subject's LEFT hand. The subject's RIGHT index finger pad presses directly onto the pump head. The pump head is visibly fully compressed down close to the bottle collar, with no long exposed stem and almost no gap between pump head and collar. Make the compressed position and fingertip contact clear. Keep bottle intact, spout aimed away from hands, and show the right index and left supporting hand distinctly.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/makeup-N01.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "path": "public/generated/frame-assets/gesture-H16.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-9501-74a2-bf89-44653d13baa3/exec-975b1698-59b0-47b5-9807-7f50bd92152e.png",
+  "sha256": "381cdd2080fa3017c57bc027a89c83d7367022cd9190e93fbdfef3057e7b4a9c",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; pump contact and low compressed position visible",
+    "observations": "Viewed actual 1536x1024 output. The left hand supports the upright bottle on the table; the right index pad contacts the pump top. The actuator head is visibly held low, directly above the collar, with only a short pump neck visible and no long exposed stem. No spray is present; the bottle remains intact."
+  }
+}

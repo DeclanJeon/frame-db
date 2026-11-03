@@ -1,0 +1,15 @@
+FRAME authored synthetic reference. Job: makeup-N01; concept: 짧은 내추럴 네일.
+Class: base; domain: makeup; entry: FS-0165.
+Parent entry IDs: []
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["expression-E00"]
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Establish the complete adult right hand of identity A: palm down, thumb angled gently outward, fingers slightly separated on a matte gray tabletop, wrist and forearm continuous. Show five short naturally rounded nails with a narrow even free edge, no pigment, no jewelry and natural sheen. Keep every nail boundary readable in the same oblique top view; establish the hand from the A identity anchor, not by copying another face or hand photograph. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: oblique top view of complete right hand wrist and short forearm. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the N01 hand proportions, skin tone and marks, short nail shape, finger spacing, wrist connection, tabletop and light.
+Change only: Establish the A right hand, short nail shape and uncolored finish.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Natural uncolored nails have visible cuticle, sidewalls and free edge.; Trace five digits to the same wrist; inspect all nail beds, cuticles and contact shadows.
+Output: {"format":"png","height":1024,"width":1536}
+Input images: Image 1: identity anchor, the actual accepted identity A photograph at public/generated/frame-assets/expression-E00.png. Use it only to establish that the hand belongs to identity A; retain the requested independent oblique tabletop hand view.

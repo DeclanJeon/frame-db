@@ -1,0 +1,15 @@
+FRAME authored synthetic reference. Job: makeup-G05; concept: 연결된 풀비어드.
+Class: base; domain: makeup; entry: FS-0163.
+Parent entry IDs: []
+One fictional adult subject, identity B. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["makeup-G01","hair-E01"]
+Reference roles: {"hair-E01":"identity","makeup-G01":"identity"}
+Observable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Use a full beard connecting sideburns, cheeks, mustache and chin with natural regional density variation and an approximately 25 mm visual length target; preserve the underlying B jaw rather than enlarging it. Keep the hair-E01 buzz haircut and the same shallow three-quarter view as G01. Retain a relaxed mouth and plain gray collarless top; use the G01 thin correction level throughout. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: shallow front three-quarter showing lip line both cheek edges and neck. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the B face, cheek mole and buzz haircut; use the same beard growth geography across all beard comparisons.
+Change only: Use a full beard connecting sideburns, cheeks, mustache and chin with natural regional density variation and an approximately 25 mm visual length target; preserve the underlying B jaw rather than enlarging it.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Full connected envelope differs from short box; no pasted uniform hair carpet or altered jaw.; Grooming changes hair state, not skin tone, face proportions or lighting.
+Output: {"format":"png","height":1536,"width":1024}

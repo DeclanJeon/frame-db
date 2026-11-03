@@ -1,0 +1,31 @@
+{
+  "job_id": "expression-E05-moderate",
+  "status": "generated",
+  "path": "public/generated/frame-assets/expression-E05-moderate.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d82-7e99-7bf3-8377-c8d8f6fda3cf/exec-0f27cc5f-a0c2-4ceb-a060-d52d373a6384.png",
+  "sha256": "324baeacc137a25d67deb220513d219c838ff2aac115939e9b91b8714de89ae5",
+  "width": 1024,
+  "height": 1536,
+  "tool": "Codex built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Inspected the actual 1024x1536 output against E05-subtle and E00. Cheek pads and lower eye corners show a modestly larger lift than subtle, with slightly narrowed lower eye apertures. Both lip corners remain close to the neutral E00 contour with lips closed; no clear smile or corner-pull is visible. Brows, upper lids, jaw, head angle, gaze, hair and identity mark appear stable. Provisional pending parent review."
+  },
+  "prompt": "FRAME authored synthetic reference. Job: expression-E05-moderate; concept: 아래 눈가 볼 상승 중.\nClass: base; domain: expression; entry: GEN-asset-expression-E05.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E05-subtle\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"expression-E05-subtle\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted expression-E00 face as the actual identity input. Lift the cheek pads and lower eye corners, gently narrowing the lower eye aperture without pulling the mouth into a smile. Use a clearly larger but still moderate departure than the accepted subtle image of this same action; no extreme distortion. Keep both eyes aimed at the lens, the hair tied back and the full crown, ears, chin and shoulders visible. These are authored relative intensities, not certified FACS grades or internal-emotion labels. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal controlled full face, head yaw pitch roll neutral. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Brows, upper eyelid target, lip corners, lip contact and jaw remain near E00.; Keep E00 identity, skin marks, original eye and lip dimensions, hair, makeup and neutral head orientation.\nChange only: Lift the cheek pads and lower eye corners, gently narrowing the lower eye aperture without pulling the mouth into a smile.; Larger action amplitude than the same-action subtle image, on the same face.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Lower eye region and cheeks rise; mouth corners remain neutral.; Compare E00, subtle and moderate together; reject indistinguishable intensities and record unintended coupled actions.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nLauncher-specific precision: Lift only the cheek pads and lower eye corners slightly farther than the subtle comparison. Keep both mouth corners exactly neutral at E00, lips gently closed and unchanged in shape; no smile, no corner lift or outward pull. Keep brows, upper lids, jaw and head orientation at E00. Image 1 is the same-action subtle comparison; Image 2 is the accepted identity anchor.\n",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E05-subtle.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "generation_thread_id": "01a18d82-7e99-7bf3-8377-c8d8f6fda3cf",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d82-7e99-7bf3-8377-c8d8f6fda3cf",
+  "before_source_files": [
+    "exec-06e51f1e-93b0-4d92-bf73-b277e1e0929f.png"
+  ]
+}

@@ -1,0 +1,7 @@
+Edit the single supplied photo composite for hair-N07. This is a minimal cleanup pass on the existing working photograph, not a new hairstyle generation.
+
+Preserve the complete rear head, both ears, neck, gray shirt, lighting, framing, and background. Preserve every existing hair structure and its location exactly: all six distinct straight-back braids, all six hanging tails, and all six black elastics. Keep the four outer braid/tail structures unchanged. Keep the two central braid/tail structures separate; do not merge them, remove them, add a seventh, or turn six into five.
+
+Make only subtle photographic cleanup along the central vertical-strip seams: blend the visible joins and duplicated patches of skin/scalp texture so they read as one continuous natural surface, matching the surrounding skin tone, lighting, grain, and focus. Do not reshape the head, scalp, hairline, braids, tails, or elastics. Do not regenerate or replace the head. Preserve the existing real-photo appearance and composition.
+
+Use this one input image only as the edit target. No additional references. Output one edited photorealistic image only, with no labels, text, diagram, collage panels, or added objects. The target is still an unaccepted working composite; the generated edit itself must be the result reviewed for acceptance.

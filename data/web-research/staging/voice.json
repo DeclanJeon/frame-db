@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "category_id": "voice",
+  "collector": "voice-primary-collector-st_01a18b17",
+  "collected_at": "2026-10-30T04:44:26.187Z",
+  "shortfall_reason": "12/20 distinct supported concepts; shortfall 8. Five primary content pages were read, including original Zenodo metadata API rather than its browser challenge. Two records enrich matching existing voice IDs; ten are separate metadata concepts. NCVS returned HTTP 403 and is excluded. Wider readable ASHA and Shure primary guidance supplements VCTK. Existing gendered warm/husky/narration directions and further phonation types were not established from readable evidence; no padding with uninspected audio or generic aliases. All 38 facts are source_claim, with no observations, measurements, creative proposals or media candidates. No audio/image/video acquisition, independent review or DB application. Public reading does not grant media rights.",
+  "sources": [
+    {
+      "source_id": "asha-voice",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/voice-disorders/",
+      "title": "Voice Disorders",
+      "publisher": "American Speech-Language-Hearing Association",
+      "authors": [],
+      "checked_at": "2026-10-30T04:43:15Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Auditory-Perceptual Assessment / Voice Quality; Acoustic Assessment / Vocal amplitude and Vocal frequency; Resonant Voice Therapy",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 전문기관 설명을 읽음. 미디어·평가도구 복제 허락 미확인. 임상 용어 설명이며 등장인물이나 실제 화자의 진단 자료가 아니다.",
+        "attribution": "ASHA Practice Portal, Voice Disorders. 짧은 한국어 요약; 원문·도표·CAPE-V 양식 재배포 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "vctk-092",
+      "url": "https://datashare.ed.ac.uk/items/30e7453c-9ea8-48b4-8e18-f96d0dc62928/full",
+      "title": "CSTR VCTK Corpus: English Multi-speaker Corpus for CSTR Voice Cloning Toolkit (version 0.92)",
+      "publisher": "University of Edinburgh, Centre for Speech Technology Research",
+      "authors": [
+        "Junichi Yamagishi",
+        "Christophe Veaux",
+        "Kirsten MacDonald"
+      ],
+      "checked_at": "2026-10-30T04:43:15Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "dc.description.abstract, recording setup and reading-text paragraphs; dc.creator; dc.rights; dc.identifier.citation",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://datashare.ed.ac.uk/items/30e7453c-9ea8-48b4-8e18-f96d0dc62928/full",
+        "scope": "배포 기록 dc.rights는 CC BY 4.0. 라이선스 설명도 읽음: https://creativecommons.org/licenses/by/4.0/ 의 Terms와 Notices. 인격·프라이버시·대사 제3자 권리까지 해결되었다고 하지 않으며 이번 작업은 자료 취득 없이 메타데이터만 기록.",
+        "attribution": "Yamagishi, Veaux, MacDonald (2019), CSTR VCTK v0.92, DOI 10.7488/ds/2645. CC BY 4.0: 출처·라이선스 연결·변경 표시 필요. 이 배치는 원문을 짧게 한국어로 재서술함."
+      }
+    },
+    {
+      "source_id": "ravdess-100",
+      "url": "https://zenodo.org/api/records/1188976",
+      "title": "The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)",
+      "publisher": "Steven R. Livingstone and Frank A. Russo via Zenodo",
+      "authors": [
+        "Steven R. Livingstone",
+        "Frank A. Russo"
+      ],
+      "checked_at": "2026-10-30T04:43:15Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "metadata.version = 1.0.0; metadata.description / File naming convention, Filename identifiers, License information; metadata.license.id",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://zenodo.org/api/records/1188976",
+        "scope": "License information은 CC BY-NC-SA 4.0, 상업 라이선스는 별도라고 명시. 짧은 소개의 Attribution 축약을 상업 허락으로 읽지 않음. https://creativecommons.org/licenses/by-nc-sa/4.0/ 의 Terms와 Notices도 읽음. 미디어 취득·상업 배포 허락 없음.",
+        "attribution": "Livingstone and Russo (2018), RAVDESS v1.0.0, DOI 10.5281/zenodo.1188976. 비상업·출처 표시·변경 고지·개작 시 동일조건 의무. 이 배치는 한국어 사실 요약이며 음성·영상 복제 없음."
+      }
+    },
+    {
+      "source_id": "shure-direction",
+      "url": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics",
+      "title": "Microphone Directionality and Polar Pattern Basics",
+      "publisher": "Shure",
+      "authors": [],
+      "checked_at": "2026-10-30T04:42:54Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What Is Microphone Directionality?; Omnidirectional Microphones; Unidirectional Microphones; Other Things to Consider When Using Unidirectional Mics",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 제조사 교육 본문을 읽음. 사진·도해·본문 재게시 허락은 미확인. 짧은 자체 한국어 설명과 링크만 기록.",
+        "attribution": "Shure, Microphone Directionality and Polar Pattern Basics. 개별 저자·개정일·재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "shure-recording",
+      "url": "https://www.shure.com/en-EU/insights/how-to-record-and-mix-vocals",
+      "title": "How to Record and Mix Vocals",
+      "publisher": "Shure",
+      "authors": [],
+      "checked_at": "2026-10-30T04:42:54Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Choosing the Right Vocal Microphone / Condenser Microphones for Vocals; Vocal Mic Positioning & Distance; Improving Room Acoustics for Vocal Recording",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 제조사 교육 본문 확인. 사진·녹음·기사의 재배포 권리 미확인; 장문 번역·미디어 복제 없이 짧은 한국어 정리만 작성.",
+        "attribution": "Shure, How to Record and Mix Vocals. 개별 저자·개정일·별도 재사용 허락은 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "roughness-perception",
+      "title_ko": "거친 음질의 지각적 기술",
+      "subtype": "음색·평가",
+      "summary": "ASHA의 roughness 기술. 성별별 허스키 연출이나 질환 판정과 같지 않다.",
+      "facts": [
+        {
+          "field": "정의",
+          "value": "발성원의 불규칙성으로 정의한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Auditory-Perceptual Assessment / Voice Quality / roughness",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "평가_성격",
+          "value": "임상가의 주관적 청지각 인상이다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Auditory-Perceptual Assessment / opening paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발화_과제",
+          "value": "지속 모음·문장·연속 발화를 사용한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Auditory-Perceptual Assessment / opening paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "음색",
+        "거침",
+        "지각"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "pitch-and-frequency-range",
+      "title_ko": "지각 음높이와 기본주파수 범위",
+      "subtype": "음역·기술",
+      "summary": "ASHA는 지각 음높이와 음향 주파수를 구별한다. 이 배치의 측정값은 없다.",
+      "facts": [
+        {
+          "field": "지각_대응",
+          "value": "음높이는 기본주파수의 지각적 대응이다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Auditory-Perceptual Assessment / Voice Quality / pitch",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "평균_기술",
+          "value": "연속 발화 F0 추정치 평균을 Hz로 기술한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Acoustic Assessment / Vocal frequency / mean vocal F0",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "범위_기술",
+          "value": "지속 가능한 최저·최고 발성의 F0를 기술한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Acoustic Assessment / Vocal frequency / minimum and maximum vocal F0",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "음역",
+        "F0",
+        "음높이"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "loudness-and-spl-range",
+      "title_ko": "지각 성량과 음압 범위",
+      "subtype": "성량·기술",
+      "summary": "ASHA의 성량·음압 기술 구분. 특정 화자 수치는 미측정이다.",
+      "facts": [
+        {
+          "field": "지각_대응",
+          "value": "성량은 소리 강도의 지각적 대응이다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Auditory-Perceptual Assessment / Voice Quality / loudness",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "상용_음압",
+          "value": "연속 발화의 전형적 음압을 dB로 기술한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Acoustic Assessment / Vocal amplitude / habitual SPL",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "범위_기술",
+          "value": "지속 가능한 최소·최대 발성 음압을 기술한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Acoustic Assessment / Vocal amplitude / minimum and maximum vocal SPL",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "성량",
+        "음압",
+        "기술"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "forward-resonance-sensation",
+      "title_ko": "밝은 전방 공명 인상",
+      "subtype": "공명·감각",
+      "summary": "ASHA의 앞쪽 진동 감각 설명으로 보강한다. 기존 제목의 밝기나 실제 공명 위치를 측정했다는 뜻은 아니다.",
+      "facts": [
+        {
+          "field": "감각_위치",
+          "value": "앞 잇몸능선·입술·얼굴 쪽 진동 감각을 든다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Resonant Voice Therapy / definition",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발성_맥락",
+          "value": "편안한 발성 맥락에서 정의한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Resonant Voice Therapy / definition",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "과제_진행",
+          "value": "기초 발화 동작에서 대화 발화로 확장한다.",
+          "evidence": {
+            "source_id": "asha-voice",
+            "locator": "Resonant Voice Therapy / opening sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "공명",
+        "전방",
+        "감각"
+      ],
+      "existing_entry_id": "CRAFT-voice-2c2f97ccc09c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "vctk-standardized-recording",
+      "title_ko": "VCTK의 통제된 다화자 녹음",
+      "subtype": "녹음 조건",
+      "summary": "CSTR 배포 설명의 v0.92 녹음 조건. 배포 파일을 내려받거나 청취하지 않았다.",
+      "facts": [
+        {
+          "field": "공간",
+          "value": "Edinburgh의 반무향실에서 동일 녹음 구성을 사용했다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / All speech data was recorded paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "마이크",
+          "value": "DPA 4035와 Sennheiser MKH 800을 기재한다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / recording setup",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "원녹음과_배포",
+          "value": "96 kHz·24 bit 녹음을 48 kHz·16 bit로 변환했다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / recording setup and conversion",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "예외",
+          "value": "p280·p315의 MKH 800 녹음 문제를 명시한다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / technical issues parenthesis",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "녹음",
+        "VCTK",
+        "마이크"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "vctk-accent-text-controls",
+      "title_ko": "VCTK의 억양 비교용 대사 조건",
+      "subtype": "발음·비교 조건",
+      "summary": "CSTR는 다양한 영어 억양과 공통·개별 읽기 자료를 구분한다. 한국어 발음이나 화자별 음색 판정은 지원하지 않는다.",
+      "facts": [
+        {
+          "field": "화자_범위",
+          "value": "다양한 억양의 영어 화자 110명을 기재한다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공통_자료",
+          "value": "Rainbow Passage와 elicitation paragraph는 화자 간 같다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / text selection paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "개별_자료",
+          "value": "신문 대사 집합은 화자마다 다르게 선정했다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / Each speaker has a different set",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전사_결손",
+          "value": "p315 전사는 디스크 오류로 소실되어 109명분만 제공한다.",
+          "evidence": {
+            "source_id": "vctk-092",
+            "locator": "dc.description.abstract / final transcript availability sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "발음",
+        "억양",
+        "비교"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "identity-versus-emotional-performance",
+      "title_ko": "고정 음색의 감정 허용 범위",
+      "subtype": "정체성과 연기 구분",
+      "summary": "RAVDESS의 배우·감정·강도 분리 구조로 기존 가이드를 보강한다. 감정 간 음색이 불변임을 증명하지 않는다.",
+      "facts": [
+        {
+          "field": "배우_식별",
+          "value": "파일명은 01~24 배우 ID를 감정 코드와 따로 기록한다.",
+          "evidence": {
+            "source_id": "ravdess-100",
+            "locator": "File naming convention / Actor and Emotion identifiers",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "강도_축",
+          "value": "보통·강한 강도를 구별하되 중립에는 강한 조건이 없다.",
+          "evidence": {
+            "source_id": "ravdess-100",
+            "locator": "Filename identifiers / Emotional intensity",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "대사와_반복",
+          "value": "대사 ID와 반복 차수도 각각 별도 필드다.",
+          "evidence": {
+            "source_id": "ravdess-100",
+            "locator": "Filename identifiers / Statement and Repetition",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "정체성",
+        "감정",
+        "연기",
+        "RAVDESS"
+      ],
+      "existing_entry_id": "CRAFT-voice-bcb95d86dcee",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "microphone-proximity-effect",
+      "title_ko": "근접 효과에 의한 저음 변화",
+      "subtype": "녹음 조건·음색",
+      "summary": "Shure는 가까운 녹음에서 생기는 저음 증가를 설명한다. 화자 고유 저음과 혼동하지 않는 근거다.",
+      "facts": [
+        {
+          "field": "대상",
+          "value": "단일지향 마이크의 근접 효과를 설명한다.",
+          "evidence": {
+            "source_id": "shure-direction",
+            "locator": "Other Things to Consider / Proximity effect",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "거리_반응",
+          "value": "음원에 가까워질수록 저음 응답이 증가한다.",
+          "evidence": {
+            "source_id": "shure-direction",
+            "locator": "Other Things to Consider / Proximity effect",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "출처_조정안",
+          "value": "마이크를 멀리하거나 EQ로 저음을 줄이는 방법을 든다.",
+          "evidence": {
+            "source_id": "shure-direction",
+            "locator": "Other Things to Consider / Proximity effect / final clause",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "녹음",
+        "거리",
+        "저음"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "microphone-direction-and-colouration",
+      "title_ko": "수음 방향과 축외 음색 변화",
+      "subtype": "녹음 조건·방향",
+      "summary": "Shure는 방향과 주파수 응답의 관계를 설명한다. 마이크 변화는 새 화자의 증거가 아니다.",
+      "facts": [
+        {
+          "field": "지향성_정의",
+          "value": "입사 방향·각도에 따른 감도다.",
+          "evidence": {
+            "source_id": "shure-direction",
+            "locator": "What Is Microphone Directionality? / definition",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전방_수음",
+          "value": "단일지향은 정면에 가장 민감하다.",
+          "evidence": {
+            "source_id": "shure-direction",
+            "locator": "Unidirectional Microphones / opening paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "축외_변화",
+          "value": "축외 주파수 응답 변화는 특히 고역에 영향을 준다.",
+          "evidence": {
+            "source_id": "shure-direction",
+            "locator": "Other Things to Consider / Off-axis colouration",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "녹음",
+        "지향성",
+        "축외"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "vocal-pop-filter",
+      "title_ko": "팝 필터와 파열음 기류",
+      "subtype": "녹음 조건·발음",
+      "summary": "Shure가 설명하는 녹음 기류 제어. 발음 정체성 자체를 교정한다는 주장은 아니다.",
+      "facts": [
+        {
+          "field": "용도",
+          "value": "콘덴서 보컬 녹음에서 파열음 감소용으로 권한다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Condenser Microphones for Vocals / pop filter paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발음_예",
+          "value": "P와 B 자음을 예로 든다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Condenser Microphones for Vocals / pop filter paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "설치_설명",
+          "value": "마이크 앞에 두어 급격한 기류를 제어한다고 설명한다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Condenser Microphones for Vocals / pop filter paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "녹음",
+        "파열음",
+        "팝필터"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "consistent-vocal-microphone-distance",
+      "title_ko": "일정한 보컬 마이크 거리",
+      "subtype": "녹음 조건·연속성",
+      "summary": "Shure의 보컬 녹음 출발점과 거리 유지 권고다. 모든 화자의 필수 수치로 일반화하지 않는다.",
+      "facts": [
+        {
+          "field": "출발_거리",
+          "value": "대부분의 가수에게 10~20 cm를 출발점으로 든다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Vocal Mic Positioning & Distance / second paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "유지_권고",
+          "value": "공연 중 거리를 일정하게 유지하도록 권한다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Vocal Mic Positioning & Distance / Most importantly paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "변동_영향",
+          "value": "갑작스런 위치 변화는 음색·레벨·균형을 바꾼다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Vocal Mic Positioning & Distance / Most importantly paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "녹음",
+        "거리",
+        "연속성"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "vocal-room-reflection-control",
+      "title_ko": "보컬 녹음의 실내 반사 제어",
+      "subtype": "녹음 조건·공간",
+      "summary": "Shure는 반사음이 직접 음성과 함께 녹음됨을 설명한다. 샘플의 공간감을 목소리 고유 속성으로 확정하지 않는다.",
+      "facts": [
+        {
+          "field": "반사_수음",
+          "value": "콘덴서는 직접 음성과 실내 반사음을 함께 포착한다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Improving Room Acoustics for Vocal Recording / first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "장비_한계",
+          "value": "마이크 교체만으로 원치 않는 반사를 해결하기 어렵다고 설명한다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Improving Room Acoustics / second paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "출처_흡음안",
+          "value": "가수 뒤 두꺼운 담요로 반사를 줄이는 방법을 제시한다.",
+          "evidence": {
+            "source_id": "shure-recording",
+            "locator": "Improving Room Acoustics / Hang a Duvet",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "녹음",
+        "공간",
+        "반사음"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ]
+}

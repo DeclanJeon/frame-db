@@ -1,0 +1,704 @@
+{
+  "schema_version": 1,
+  "category_id": "makeup",
+  "input_sha256": "218978321dc75ba5992b7c2eeb015d6075b53224a26264a8204966d8b6612864",
+  "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+  "reviewed_at": "2026-10-29T20:54:40+00:00",
+  "accepted_concept_keys": [
+    "natural-dewy-complexion",
+    "soft-matte-complexion",
+    "targeted-concealer",
+    "soft-contour",
+    "warm-bronzer",
+    "cheekbone-highlight",
+    "natural-sparse-brow-fill",
+    "soft-wing-eyeliner",
+    "single-cream-eyeshadow",
+    "separated-natural-lashes",
+    "smoky-evening-eye",
+    "classic-red-lip",
+    "blurred-gradient-lip",
+    "clear-lip-balm",
+    "natural-stubble",
+    "short-boxed-beard",
+    "full-beard",
+    "groomed-mustache",
+    "clean-shaven-face",
+    "french-manicure"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "makeup-mac-strobe",
+      "url": "https://www.maccosmetics.com/products/strobe-cream",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Pinklite 색상 설명; Summary; Product Details; 3 WAYS TO USE STROBE CREAM",
+      "rights_checked": true,
+      "notes": "Read Pinklite selector, Summary and Product Details; dual function, label and layer locations checked. The page contains inconsistent shimmer marketing; no physical finish measurement is claimed. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-bobbi-powder",
+      "url": "https://www.bobbibrowncosmetics.ca/product/14019/118723/makeup/face/powder/sheer-finish-pressed-powder",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "What it is; How it works; How to use; WHAT COLOR SHOULD MY PRESSED POWDER BE?",
+      "rights_checked": true,
+      "notes": "Read product description, use instructions and shade-selection FAQ; matte/soft-focus wording, placement and swatching checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-bobbi-concealer",
+      "url": "https://www.bobbibrowncosmetics.com/product/14018/106004/makeup/face/corrector-concealer/skin-full-cover-concealer/fh22",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "What it is; How it works; How to use, 첫째·셋째 항목",
+      "rights_checked": true,
+      "notes": "Read What it is and all How to use bullets; named-product coverage and two localized application methods checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-ct-contour",
+      "url": "https://www.charlottetilbury.com/us/secrets/how-to-blend-contour-makeup",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "How To Blend Contour on your Cheekbones; Why is my contour not blending? 항목 2",
+      "rights_checked": true,
+      "notes": "Read cheekbone paragraphs and FAQ light-hand item; placement, brush motion and incremental strength checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-ct-bronze-glow",
+      "url": "https://www.charlottetilbury.com/us/secrets/how-to-bronze-sculpt-glow",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "How To Bronze and Sculpt; Discover my Flawless Bronze, Sculpt and Glow System, 2. Bronzer 및 3. Highlighter + Blush",
+      "rights_checked": true,
+      "notes": "Read author byline, Bronze and Sculpt and system steps 2-3; bronzer placement and separate cheekbone-highlight instructions checked. Promotional quantity suggestions remain attributed instructions. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-benefit-brow",
+      "url": "https://www.benefitcosmetics.com/en-us/product/precisely-my-brow-eyebrow-pencil-PRECI.html",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "FAQ: How do I fill in my eyebrows; How do I choose the right shade; Can I use Precisely, My Brow Pencil for sparse or over-tweezed brows?",
+      "rights_checked": true,
+      "notes": "Read filling, shade and sparse-brow FAQs; direction, blending, shade reference and intended sparse-brow use checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-ct-wing",
+      "url": "https://www.charlottetilbury.com/ca/secrets/how-to-apply-eyeliner-winged-liner",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "액상 라이너 Step 2; How to Apply Pencil Eyeliner for a Smokey Winged Eyeiner Look, Steps 1–3",
+      "rights_checked": true,
+      "notes": "Read both liquid and pencil sections; all four cited steps checked independently, without viewing embedded media. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-mac-paintpot",
+      "url": "https://www.maccosmetics.com/products/pro-longwear-paint-pot",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Painterly 색상 설명; Summary; Product Details; How to Use",
+      "rights_checked": true,
+      "notes": "Read Painterly selector, Summary, Product Details and How to Use; color, finish, coverage and eye application checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-ct-mascara",
+      "url": "https://www.charlottetilbury.com/us/product/full-fat-lashes-glossy-black",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "How to apply, 항목 1–2",
+      "rights_checked": true,
+      "notes": "Read How to apply items 1-2; preparation, root motion and separate outer/lower-lash handling checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-ct-smoky",
+      "url": "https://www.charlottetilbury.com/us/secrets/apply-new-smokey-eye-beauty-palette",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Application Tips, Steps 1, 3–4",
+      "rights_checked": true,
+      "notes": "Read Application Tips steps 1, 3 and 4; named shades, eyelid/lash-line placement and upward/outward flick checked. Historical tutorial, not a current-stock verification. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-ct-redlip",
+      "url": "https://www.charlottetilbury.com/eu/secrets/how-to-apply-red-lipstick",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Step 1: Hydrate lips with lip oil; Step 3: Apply lip liner in a heart shape; Step 4: Swipe on your red lipstick",
+      "rights_checked": true,
+      "notes": "Read Steps 1, 3 and 4 including fine-detail continuation; preparation, outline/base and lip-brush precision checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-mac-blurlip",
+      "url": "https://www.maccosmetics.ca/powder-kiss-lipstick",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "ARTIST TIPS FROM BACKSTAGE: THE HAZY LIP; The Ombré Effect",
+      "rights_checked": true,
+      "notes": "Read Artist Tips, The Hazy Lip and The Ombre Effect; edge blurring and two-color placement/blending checked. Lipstick instructions do not establish tint-formula performance. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-glossier-balm",
+      "url": "https://www.glossier.com/en-au/products/balm-dotcom?variant=46731566088437",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Original 변형의 표시 설명(js-product-form-variant-title); HOW TO USE, 항목 1–2",
+      "rights_checked": true,
+      "notes": "Read selected Original descriptor and How to Use items 1-2; fragrance-free/untinted label, small amount and reapplication checked. The visible Original text, not an image or sensory inspection, is the evidence. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-gillette-stubble",
+      "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/how-to-shave-3-day-stubble-beard",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "TL;DR / Quick Answer; How to Achieve the 3-Day Stubble Beard Look, Steps 2–4",
+      "rights_checked": true,
+      "notes": "Read TL;DR and steps 2-4; 1-3 mm is a manufacturer recommendation, not a reviewer measurement. Outline and symmetry instructions checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-gillette-boxed",
+      "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/short-boxed-beard",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Introduction; What Exactly is a Short Boxed Beard; Step 3: Define Your Beard Shape; Step 4: Check for Symmetry as You Go",
+      "rights_checked": true,
+      "notes": "Read Introduction, style definition and Step 3; squared outline, short sides/chin relationship and edge-trimming checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-gillette-fullbeard",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/trim-your-beard-at-home",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Step 2: Take down the length of your beard; Step 3: Define your lines; Step 6: Align your edges, Faheem Alexander 조언",
+      "rights_checked": true,
+      "notes": "Read steps 2, 3 and 6 including named barber quotations; general neckline instruction and Faheem full-beard advice checked. Josh gives anatomy-dependent alternatives; the general rule is not treated as universal. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-gillette-mustache",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shape-your-mustache",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Step 1: Trim your mustache; Step 2: Take it down a notch; Step 3: Shape up your Mustache",
+      "rights_checked": true,
+      "notes": "Read introduction and steps 1-3; Jason Schneidman introduction, comb progression and lip/upper-boundary instructions checked. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-gillette-shave",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shave-your-face",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "How To Shave Your Face Properly at Home, Steps 1–2, 4; What Should You Do Next? (Conclusion)",
+      "rights_checked": true,
+      "notes": "Read steps 1, 2, 4 and Conclusion; shower preparation, lather, light strokes and first-pass direction checked. No clinical or actual-shave inspection. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    },
+    {
+      "source_id": "makeup-opi-french",
+      "url": "https://www.opi.com/blog/nail-trends/the-easiest-diy-french-tip-manicure",
+      "checked_at": "2026-10-29T20:54:40+00:00",
+      "access": "public_body",
+      "locator": "Step 3: Color; Step 4: Tips; Step 5: Top",
+      "rights_checked": true,
+      "notes": "Read GELement-specific steps Color, Tips and Top; neutral pink base, white smile line and top-coat instructions checked. No nail image inspection, curing experiment or cross-system inference. Rights check: the cited public product/tutorial text supplies no explicit reusable-media license. Retain unknown; public access is not permission to copy, adapt, redistribute or commercially use text/media, nor personality-rights clearance. No media fetched or viewed."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "natural-dewy-complexion",
+      "field": "제형",
+      "source_id": "makeup-mac-strobe",
+      "locator": "Summary",
+      "verdict": "supported",
+      "notes": "Summary identifies the dual moisturizer/highlighter role; this is product copy, not independently tested efficacy."
+    },
+    {
+      "concept_key": "natural-dewy-complexion",
+      "field": "색·마감",
+      "source_id": "makeup-mac-strobe",
+      "locator": "Pinklite 색상 설명; Product Details, Finish Shimmer",
+      "verdict": "supported",
+      "notes": "Pinklite selector describes pearlescent pink; Product Details labels Finish Shimmer. Nearby marketing also says no glitter or shimmer: accepted only as the explicitly stated label, not a measured optical property."
+    },
+    {
+      "concept_key": "natural-dewy-complexion",
+      "field": "레이어 위치",
+      "source_id": "makeup-mac-strobe",
+      "locator": "Product Details, worn-alone / under foundation / as a highlighter 문단",
+      "verdict": "supported",
+      "notes": "Product Details explicitly permits wearing alone, beneath foundation, or as a highlighter."
+    },
+    {
+      "concept_key": "soft-matte-complexion",
+      "field": "마감",
+      "source_id": "makeup-bobbi-powder",
+      "locator": "What it is; How it works",
+      "verdict": "supported",
+      "notes": "What it is describes a setting powder and soft-focus appearance; How it works claims immediate mattification. No durability claim is imported."
+    },
+    {
+      "concept_key": "soft-matte-complexion",
+      "field": "적용 부위·강도",
+      "source_id": "makeup-bobbi-powder",
+      "locator": "How to use",
+      "verdict": "supported",
+      "notes": "How to use specifies gentle pressing on the T-zone, or all-over application for a more matte look."
+    },
+    {
+      "concept_key": "soft-matte-complexion",
+      "field": "색 선택 기준",
+      "source_id": "makeup-bobbi-powder",
+      "locator": "FAQ: WHAT COLOR SHOULD MY PRESSED POWDER BE?",
+      "verdict": "supported",
+      "notes": "The pressed-powder color FAQ recommends cheek-to-jawline swatching near skin tone and checking the forehead."
+    },
+    {
+      "concept_key": "targeted-concealer",
+      "field": "커버리지",
+      "source_id": "makeup-bobbi-concealer",
+      "locator": "What it is",
+      "verdict": "supported",
+      "notes": "What it is expressly describes full coverage for this named concealer only."
+    },
+    {
+      "concept_key": "targeted-concealer",
+      "field": "국소 적용",
+      "source_id": "makeup-bobbi-concealer",
+      "locator": "How to use, 첫째 항목의 small imperfections 절",
+      "verdict": "supported",
+      "notes": "The first usage bullet specifies the tapered tip on small imperfections and tapping to blend."
+    },
+    {
+      "concept_key": "targeted-concealer",
+      "field": "붉은 부위 혼합",
+      "source_id": "makeup-bobbi-concealer",
+      "locator": "How to use, 셋째 항목",
+      "verdict": "supported",
+      "notes": "The third usage bullet specifies the central reservoir side on redness/unevenness and finger blending."
+    },
+    {
+      "concept_key": "soft-contour",
+      "field": "적용 부위",
+      "source_id": "makeup-ct-contour",
+      "locator": "How To Blend Contour on your Cheekbones, 첫 문장",
+      "verdict": "supported",
+      "notes": "Cheekbones section places contour in the cheekbone hollows."
+    },
+    {
+      "concept_key": "soft-contour",
+      "field": "경계 혼합",
+      "source_id": "makeup-ct-contour",
+      "locator": "How To Blend Contour on your Cheekbones, 첫째·둘째 문단",
+      "verdict": "supported",
+      "notes": "The first two cheekbone paragraphs specify a dense flat brush, upward circles and outward blending toward the ears."
+    },
+    {
+      "concept_key": "soft-contour",
+      "field": "적용 강도",
+      "source_id": "makeup-ct-contour",
+      "locator": "Why is my contour not blending? 2. Use a light hand when applying contour",
+      "verdict": "supported",
+      "notes": "FAQ item 2 recommends small incremental application and blending while adding product."
+    },
+    {
+      "concept_key": "warm-bronzer",
+      "field": "색 선택",
+      "source_id": "makeup-ct-bronze-glow",
+      "locator": "How To Bronze and Sculpt, Bronzer 문단",
+      "verdict": "supported",
+      "notes": "Bronze and Sculpt contrasts warm-toned bronzer slightly deeper than complexion with cooler contour shadow."
+    },
+    {
+      "concept_key": "warm-bronzer",
+      "field": "적용 부위",
+      "source_id": "makeup-ct-bronze-glow",
+      "locator": "Discover my Flawless Bronze, Sculpt and Glow System, 2. Bronzer",
+      "verdict": "supported",
+      "notes": "Bronzer step identifies forehead, cheeks and bridge of nose as sun-exposed placement."
+    },
+    {
+      "concept_key": "warm-bronzer",
+      "field": "적용 순서·동작",
+      "source_id": "makeup-ct-bronze-glow",
+      "locator": "2. Bronzer, Once you have laid the foundation 문단",
+      "verdict": "supported",
+      "notes": "Bronzer step follows contour and specifies sweeping brush motions. A distinct warming technique, not a renamed contour variant; no original same-category bronzer entry was found."
+    },
+    {
+      "concept_key": "cheekbone-highlight",
+      "field": "적용 부위",
+      "source_id": "makeup-ct-bronze-glow",
+      "locator": "3. Highlighter + Blush, dot precisely onto the cheekbones 절",
+      "verdict": "supported",
+      "notes": "Highlighter + Blush step specifies cushion-applicator dots on cheekbones."
+    },
+    {
+      "concept_key": "cheekbone-highlight",
+      "field": "상황별 적용량",
+      "source_id": "makeup-ct-bronze-glow",
+      "locator": "3. Highlighter + Blush, one dot / two dots / three dots 절",
+      "verdict": "supported",
+      "notes": "The author explicitly suggests one/two/three dots for daytime/date night/disco respectively. These are source-authored instructions, not reviewer measurements or collector proposals."
+    },
+    {
+      "concept_key": "cheekbone-highlight",
+      "field": "경계 혼합",
+      "source_id": "makeup-ct-bronze-glow",
+      "locator": "3. Highlighter + Blush, blend in upward circles 문장",
+      "verdict": "supported",
+      "notes": "The same step specifies upward circular blending. Localized cheekbone highlighting is distinct from diffuse complexion glow and bronzer; no original same-category highlight entry was found."
+    },
+    {
+      "concept_key": "natural-sparse-brow-fill",
+      "field": "적용 대상",
+      "source_id": "makeup-benefit-brow",
+      "locator": "FAQ: Can I use Precisely, My Brow Pencil for sparse or over-tweezed brows?",
+      "verdict": "supported",
+      "notes": "Sparse/over-tweezed-brows FAQ explicitly describes filling thin/sparse brows with hair-like strokes."
+    },
+    {
+      "concept_key": "natural-sparse-brow-fill",
+      "field": "선·혼합",
+      "source_id": "makeup-benefit-brow",
+      "locator": "FAQ의 눈썹 채우기 답변, short, light strokes 문장",
+      "verdict": "supported",
+      "notes": "The filling FAQ specifies short light strokes with natural growth and blending using the built-in spoolie."
+    },
+    {
+      "concept_key": "natural-sparse-brow-fill",
+      "field": "기준 색",
+      "source_id": "makeup-benefit-brow",
+      "locator": "FAQ: How do I choose the right shade of Precisely, My Brow Pencil?",
+      "verdict": "supported",
+      "notes": "The shade FAQ recommends matching hair color and using the fullest brow area as a natural shade reference. Existing FS-0038 is an enrichment target, not a newly counted brow concept."
+    },
+    {
+      "concept_key": "soft-wing-eyeliner",
+      "field": "적용 부위",
+      "source_id": "makeup-ct-wing",
+      "locator": "How to Apply Pencil Eyeliner for a Smokey Winged Eyeiner Look, Step 1",
+      "verdict": "supported",
+      "notes": "Pencil Step 1 specifies the upper lash line and closing visible skin gaps near lashes."
+    },
+    {
+      "concept_key": "soft-wing-eyeliner",
+      "field": "눈꼬리 방향",
+      "source_id": "makeup-ct-wing",
+      "locator": "펜슬 라이너 Step 2: Flick Outwards to Start your Winged Eyeliner",
+      "verdict": "supported",
+      "notes": "Pencil Step 2 specifies upward extension and says a smoky wing need not be precise."
+    },
+    {
+      "concept_key": "soft-wing-eyeliner",
+      "field": "경계",
+      "source_id": "makeup-ct-wing",
+      "locator": "펜슬 라이너 Step 3: Blend Out your Winged Liner with a Brush",
+      "verdict": "supported",
+      "notes": "Pencil Step 3 specifies using the smudger brush to soften edges."
+    },
+    {
+      "concept_key": "soft-wing-eyeliner",
+      "field": "적용 기준 시선",
+      "source_id": "makeup-ct-wing",
+      "locator": "액상 라이너 Step 2: Flick Outwards to create a Winged Eyeliner",
+      "verdict": "supported",
+      "notes": "Liquid Step 2 explicitly says to face the mirror straight on and follow the lower-lash-line extension upward. The batch distinguishes this liquid instruction from the pencil steps; no angle measurement is asserted."
+    },
+    {
+      "concept_key": "single-cream-eyeshadow",
+      "field": "사용 형태",
+      "source_id": "makeup-mac-paintpot",
+      "locator": "Summary",
+      "verdict": "supported",
+      "notes": "Summary describes cream shadow/eye primer worn alone or with other products."
+    },
+    {
+      "concept_key": "single-cream-eyeshadow",
+      "field": "색·마감·커버리지",
+      "source_id": "makeup-mac-paintpot",
+      "locator": "Painterly 색상 설명; Product Details, Finish Matte / Coverage Buildable",
+      "verdict": "supported",
+      "notes": "The selected Painterly descriptor says nude beige; Product Details labels Matte and Buildable. These are manufacturer labels, not visual observations."
+    },
+    {
+      "concept_key": "single-cream-eyeshadow",
+      "field": "적용 부위·도구",
+      "source_id": "makeup-mac-paintpot",
+      "locator": "How to Use",
+      "verdict": "supported",
+      "notes": "How to Use specifies smoothing over the eye area using a finger or brush."
+    },
+    {
+      "concept_key": "separated-natural-lashes",
+      "field": "적용 전 상태",
+      "source_id": "makeup-ct-mascara",
+      "locator": "How to apply, 항목 1 첫 문장",
+      "verdict": "supported",
+      "notes": "How to apply item 1 specifies curling first and beginning at the inner corner."
+    },
+    {
+      "concept_key": "separated-natural-lashes",
+      "field": "가닥 분리 동작",
+      "source_id": "makeup-ct-mascara",
+      "locator": "How to apply, 항목 1 둘째 문장",
+      "verdict": "supported",
+      "notes": "Item 1 describes upward zig-zag motion from the roots to curl and separate; actual lash separation was not inspected."
+    },
+    {
+      "concept_key": "separated-natural-lashes",
+      "field": "부위별 도구 방향",
+      "source_id": "makeup-ct-mascara",
+      "locator": "How to apply, 항목 2",
+      "verdict": "supported",
+      "notes": "Item 2 specifies up-and-out at outer lashes and a vertically held tapered end for lower lashes."
+    },
+    {
+      "concept_key": "smoky-evening-eye",
+      "field": "바탕 적용",
+      "source_id": "makeup-ct-smoky",
+      "locator": "Application Tips, Step 1",
+      "verdict": "supported",
+      "notes": "Application Tips Step 1 specifies a wash of Brighten over the eyelid using the Blender Brush."
+    },
+    {
+      "concept_key": "smoky-evening-eye",
+      "field": "음영 부위·강도",
+      "source_id": "makeup-ct-smoky",
+      "locator": "Application Tips, Step 3",
+      "verdict": "supported",
+      "notes": "Step 3 specifies Smoke along both upper/lower lash lines, built to desired intensity."
+    },
+    {
+      "concept_key": "smoky-evening-eye",
+      "field": "아이라인 방향",
+      "source_id": "makeup-ct-smoky",
+      "locator": "Application Tips, Step 4",
+      "verdict": "supported",
+      "notes": "Step 4 specifies Bedroom Black along the upper lash line extended upward and outward. No charcoal-pigment or complexion result is inferred from the original entry title."
+    },
+    {
+      "concept_key": "classic-red-lip",
+      "field": "적용 전 상태",
+      "source_id": "makeup-ct-redlip",
+      "locator": "Step 1: Hydrate lips with lip oil",
+      "verdict": "supported",
+      "notes": "Step 1 specifies lip oil preparation before red lipstick."
+    },
+    {
+      "concept_key": "classic-red-lip",
+      "field": "경계·바탕",
+      "source_id": "makeup-ct-redlip",
+      "locator": "Step 3: Apply lip liner in a heart shape, 첫 문단",
+      "verdict": "supported",
+      "notes": "Step 3 first paragraph specifies outlining and filling with lip liner to create the base."
+    },
+    {
+      "concept_key": "classic-red-lip",
+      "field": "색 적용·정밀 도구",
+      "source_id": "makeup-ct-redlip",
+      "locator": "Step 4: Swipe on your red lipstick",
+      "verdict": "supported",
+      "notes": "Step 4 specifies staying within the drawn line and using a fine lip brush for detail; the following sentence explicitly mentions mouth corners."
+    },
+    {
+      "concept_key": "blurred-gradient-lip",
+      "field": "색 배치",
+      "source_id": "makeup-mac-blurlip",
+      "locator": "ARTIST TIPS FROM BACKSTAGE, The Ombré Effect",
+      "verdict": "supported",
+      "notes": "The Ombre Effect specifies lighter outer edges and a darker center."
+    },
+    {
+      "concept_key": "blurred-gradient-lip",
+      "field": "색 사이 경계",
+      "source_id": "makeup-mac-blurlip",
+      "locator": "The Ombré Effect, blend the two colours together where they meet 절",
+      "verdict": "supported",
+      "notes": "The same tip specifies the 242S brush where the two colors meet."
+    },
+    {
+      "concept_key": "blurred-gradient-lip",
+      "field": "외곽 경계",
+      "source_id": "makeup-mac-blurlip",
+      "locator": "ARTIST TIPS FROM BACKSTAGE, THE HAZY LIP",
+      "verdict": "supported",
+      "notes": "The Hazy Lip specifies fingertip edge-blurring. Accepted as lipstick technique enriching the existing gradient-lip guide, not proof of a tint formulation or a new wording-derived concept."
+    },
+    {
+      "concept_key": "clear-lip-balm",
+      "field": "색·향",
+      "source_id": "makeup-glossier-balm",
+      "locator": "Original 선택 설명: js-product-form-variant-title",
+      "verdict": "supported",
+      "notes": "The selected Original body descriptor states fragrance-free and untinted. Korean 무향 is read as the fragrance-free product label, not a guarantee of absolutely no inherent ingredient odor."
+    },
+    {
+      "concept_key": "clear-lip-balm",
+      "field": "기준 상태·적용량",
+      "source_id": "makeup-glossier-balm",
+      "locator": "HOW TO USE, 항목 1",
+      "verdict": "supported",
+      "notes": "How to Use item 1 specifies a small amount onto dry/chapped lips or the fingertip; no measured dose is implied."
+    },
+    {
+      "concept_key": "clear-lip-balm",
+      "field": "덧바름 조건",
+      "source_id": "makeup-glossier-balm",
+      "locator": "HOW TO USE, 항목 2",
+      "verdict": "supported",
+      "notes": "How to Use item 2 permits reapplication through the day when extra hydration is needed."
+    },
+    {
+      "concept_key": "natural-stubble",
+      "field": "권장 길이",
+      "source_id": "makeup-gillette-stubble",
+      "locator": "TL;DR / Quick Answer, Trim to 1–3 mm evenly 항목",
+      "verdict": "supported",
+      "notes": "TL;DR explicitly recommends evenly trimming to 1-3 mm. This is Gillette recommendation, not an independently measured sample or universal three-day growth rate."
+    },
+    {
+      "concept_key": "natural-stubble",
+      "field": "길이 정돈",
+      "source_id": "makeup-gillette-stubble",
+      "locator": "How to Achieve the 3-Day Stubble Beard Look, Step 2",
+      "verdict": "supported",
+      "notes": "Step 2 specifies even trimming with the selected comb attachment."
+    },
+    {
+      "concept_key": "natural-stubble",
+      "field": "경계 부위",
+      "source_id": "makeup-gillette-stubble",
+      "locator": "Step 3: Define Your Beard Shape",
+      "verdict": "supported",
+      "notes": "Step 3 specifies removing the comb and defining the stubble outline, especially neck and cheeks."
+    },
+    {
+      "concept_key": "natural-stubble",
+      "field": "대칭 확인",
+      "source_id": "makeup-gillette-stubble",
+      "locator": "Step 4: Check for Symmetry as You Go",
+      "verdict": "supported",
+      "notes": "Step 4 heading calls for symmetry checks and body cautions against over-trimming. The explicit CRAFT mapping avoids making another entry for the overlapping original short-beard guide FS-0161."
+    },
+    {
+      "concept_key": "short-boxed-beard",
+      "field": "외곽 형태",
+      "source_id": "makeup-gillette-boxed",
+      "locator": "Introduction",
+      "verdict": "supported",
+      "notes": "Introduction explicitly describes sharp cheek lines, defined neckline and a squared outline."
+    },
+    {
+      "concept_key": "short-boxed-beard",
+      "field": "부위별 길이 관계",
+      "source_id": "makeup-gillette-boxed",
+      "locator": "What Exactly is a Short Boxed Beard and Why Should You Try It?",
+      "verdict": "supported",
+      "notes": "The style-definition section describes short tidy sides and subtle chin fullness."
+    },
+    {
+      "concept_key": "short-boxed-beard",
+      "field": "경계 손질",
+      "source_id": "makeup-gillette-boxed",
+      "locator": "Step 3: Define Your Beard Shape",
+      "verdict": "supported",
+      "notes": "Step 3 specifies removing the comb to define shape and keeping neck/cheek hair shorter. These anatomical length relationships distinguish this concept from stubble/full beard, rather than merely different wording."
+    },
+    {
+      "concept_key": "full-beard",
+      "field": "길이 조정",
+      "source_id": "makeup-gillette-fullbeard",
+      "locator": "Step 2: Take down the length of your beard",
+      "verdict": "supported",
+      "notes": "Step 2 specifies a longer initial comb followed by shorter attachments to reach the desired length."
+    },
+    {
+      "concept_key": "full-beard",
+      "field": "목 경계",
+      "source_id": "makeup-gillette-fullbeard",
+      "locator": "Step 3: Define your lines, 첫 문단",
+      "verdict": "supported",
+      "notes": "Step 3 specifies two fingers above the Adams apple and a U-shaped line connecting behind both ears. This is one source instruction; the subsequent Josh Pereira quotation allows anatomy-dependent alternatives, so no universal anatomical rule is inferred."
+    },
+    {
+      "concept_key": "full-beard",
+      "field": "풀비어드 볼 경계",
+      "source_id": "makeup-gillette-fullbeard",
+      "locator": "Step 6: Align your edges, Faheem’s go-to razor is SkinGuard 아래 조언",
+      "verdict": "supported",
+      "notes": "Step 6 explicitly attributes the slightly-above-mid-cheek guide and starting higher to Faheem Alexander for a full beard. No density or sideburn continuity observation is claimed."
+    },
+    {
+      "concept_key": "groomed-mustache",
+      "field": "시작 길이",
+      "source_id": "makeup-gillette-mustache",
+      "locator": "Step 1: Trim your mustache",
+      "verdict": "supported",
+      "notes": "Step 1 specifies the longest comb attachment to reduce mustache weight."
+    },
+    {
+      "concept_key": "groomed-mustache",
+      "field": "길이 조절",
+      "source_id": "makeup-gillette-mustache",
+      "locator": "Step 2: Take it down a notch",
+      "verdict": "supported",
+      "notes": "Step 2 lowers the comb by one setting and repeats trimming."
+    },
+    {
+      "concept_key": "groomed-mustache",
+      "field": "입술·윗경계",
+      "source_id": "makeup-gillette-mustache",
+      "locator": "Step 3: Shape up your Mustache",
+      "verdict": "supported",
+      "notes": "Step 3 removes the guard to clean the lip line and define the upper shape. The introduction identifies Jason Schneidman; no embedded video viewing or detached-mustache style inference is claimed."
+    },
+    {
+      "concept_key": "clean-shaven-face",
+      "field": "면도 전 상태",
+      "source_id": "makeup-gillette-shave",
+      "locator": "Step 1: Hydrate your face",
+      "verdict": "supported",
+      "notes": "Step 1 recommends immediately after or during showering while the hair is softened."
+    },
+    {
+      "concept_key": "clean-shaven-face",
+      "field": "도포 준비",
+      "source_id": "makeup-gillette-shave",
+      "locator": "Step 2: Apply Shaving Cream, Gel or Foam",
+      "verdict": "supported",
+      "notes": "Step 2 specifies gel/foam spread evenly before shaving."
+    },
+    {
+      "concept_key": "clean-shaven-face",
+      "field": "면도 방향·강도",
+      "source_id": "makeup-gillette-shave",
+      "locator": "Step 4: Shave With Light, Gentle Strokes; What Should You Do Next? (Conclusion)",
+      "verdict": "supported",
+      "notes": "Step 4 specifies light gentle strokes; Conclusion explicitly says with the grain first. No skin-response or photographic result is inferred."
+    },
+    {
+      "concept_key": "french-manicure",
+      "field": "바탕색·도포",
+      "source_id": "makeup-opi-french",
+      "locator": "Step 3: Color",
+      "verdict": "supported",
+      "notes": "Color step specifies a thin neutral-pink coat, with Made Ya Blush as its example."
+    },
+    {
+      "concept_key": "french-manicure",
+      "field": "끝선 색·경계",
+      "source_id": "makeup-opi-french",
+      "locator": "Step 4: Tips",
+      "verdict": "supported",
+      "notes": "Tips step specifies white Snow Angel and a detail-brush smile line before filling."
+    },
+    {
+      "concept_key": "french-manicure",
+      "field": "마감",
+      "source_id": "makeup-opi-french",
+      "locator": "Step 5: Top",
+      "verdict": "supported",
+      "notes": "Top step names GELement No-Wipe Top Coat for sealing color and shine. Accepted only for the named GELement tutorial, not as a test of durability, curing safety, or other nail systems."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": "No concept-count shortfall: 20 supported metadata concepts (18 enrich existing entries; 2 distinct new concepts). All 62 facts are attributed source claims, with no observations, measurements, proposals or media candidates. Zero media acquired/reviewed; filming conditions, visual results and reusable-media rights remain unverified. This is an independent review, not DB population or media acquisition."
+}

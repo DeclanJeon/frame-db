@@ -1,0 +1,26 @@
+{
+  "job_id": "hair-N05",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [],
+  "path": "public/generated/frame-assets/hair-N05.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+  "sha256": "f9efd721abfd26737948f0902dc54e3d2752e13bdf8934f9f9139a19428aed8a",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "worker",
+    "provisional_decision": "accept",
+    "observations": "One scalp-attached French braid with visible over-middle crossings, one free tail and one black elastic; accepted identity and studio background are consistent."
+  },
+  "requested_dimensions": {"width": 1024, "height": 1536, "format": "png"},
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E23.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-N05-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-N05; concept: 한 줄 프렌치 두피 브레이드.\nClass: base; domain: hair; entry: GEN-asset-hair-N05.\nParent entry IDs: [\"CRAFT-hair-2c3c47d0ace7\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nInput images: Image 1: hair-E23, identity reference; Image 2: expression-E00, identity reference.\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Make one centered scalp-attached three-strand French braid using over-middle crossings with progressive scalp pickup, followed by one free tail and one black end elastic. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: elevated rear three-quarter scalp and full-tail view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.\nChange only: Make one centered scalp-attached three-strand French braid using over-middle crossings with progressive scalp pickup, followed by one free tail and one black end elastic.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Exactly one over-crossing scalp braid; not two raised Dutch rows.; Compare against the named basis; the new structural coverage must be visibly different.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}"
+}

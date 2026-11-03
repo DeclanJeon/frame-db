@@ -1,0 +1,26 @@
+{
+  "job_id": "gesture-H20",
+  "status": "generated",
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H20; concept: 오른 엄지 왼 검지 접촉.\nClass: creative; domain: gesture; entry: GEN-asset-gesture-H20.\nParent entry IDs: [\"CRAFT-gesture-f827f77ddf8a\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"makeup-N01\":\"hand anchor\",\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. In a resting two-hand composition on the tabletop, touch the right thumb pad to the side of the left index finger. Keep remaining fingers relaxed, wrists separate and forearms traceable; do not imply repetitive fidgeting or psychological tension. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: In a resting two-hand composition on the tabletop, touch the right thumb pad to the side of the left index finger. Keep remaining fingers relaxed, wrists separate and forearms traceable; do not imply repetitive fidgeting or psychological tension.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Thumb pad meets left index side, not another thumb or floating gap; no repetition claim.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: hand anchor, accepted A hand at public/generated/frame-assets/makeup-N01.png; retain proportions, skin tone, visible mark and short natural nails. Image 2: identity anchor, accepted A face at public/generated/frame-assets/expression-E00.png; retain face, skin tone, cheek mole and hair.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1024,
+    "width": 1536
+  },
+  "path": "public/generated/frame-assets/gesture-H20.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-a029-7393-9952-bc860b013981/exec-5f64cedb-d292-43c7-a2d5-15312d60c443.png",
+  "sha256": "157c5844949475a3360ef60a3f44abf0eb9f1cf1ad65226bce76c1475f5f61d5",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; parent review required",
+    "observations": "Inspected the full 1536x1024 PNG and a magnified hand crop. The subject-right thumb pad visibly meets the side of the subject-left index finger, rather than another thumb or an empty gap. The remaining digits relax separately on the tabletop, and each hand connects to its own wrist and forearm. No repetitive motion or psychological state is implied."
+  }
+}

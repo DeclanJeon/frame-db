@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: hair-D05; concept: 컬 테일 로우 포니테일.
+Class: creative; domain: hair; entry: GEN-asset-hair-D05.
+Parent entry IDs: ["CRAFT-hair-38b90e4d7b02","FS-0010"]
+One fictional adult subject, identity B. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E19","hair-E01"]
+Reference roles: {"hair-E01":"identity B","hair-E19":"hair geometry"}
+Input images: Image 1: hair-E19, ponytail geometry; Image 2: hair-E01, identity B anchor.
+Observable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Curl only the free tail of E19 into broad defined curls. Keep the nape elastic and gathered scalp hair fixed; preserve underlying hair length while allowing the hanging endpoint to rise with curling. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: rear three-quarter showing nape tie and entire curled tail. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep parent hair geometry, color, hairline, density and length landmarks outside the declared delta.
+Change only: Curl only the free tail of E19 into broad defined curls. Keep the nape elastic and gathered scalp hair fixed; preserve underlying hair length while allowing the hanging endpoint to rise with curling.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Nape tie and straight scalp hair fixed; no cut-length loss.; One diagnostic view only, not a sequence or collage.
+Output: {"format":"png","height":1536,"width":1024}

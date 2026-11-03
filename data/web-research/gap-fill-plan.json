@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "status": "complete_metadata_only",
+  "requested_at": "2026-10-30",
+  "instruction": "수집을 먼저 수행하고 남은 공백은 수집한 내용을 바탕으로 작성한다. 의미상 중복은 추가하지 않는다.",
+  "scope": "DB entries and descriptions only, explicitly confirmed by the user on 2026-10-30. No reference-image production, paid generation, media acquisition or remote deployment.",
+  "coverage": [
+    {
+      "category_id": "hair",
+      "current_entries": 47,
+      "web_reviewed_entries": 18,
+      "entries_without_web_review": 29,
+      "new_web_entries_already_applied": 2,
+      "rejected_source_concepts": [
+        "butterfly-cut",
+        "bixie-cut"
+      ]
+    },
+    {
+      "category_id": "makeup",
+      "current_entries": 42,
+      "web_reviewed_entries": 20,
+      "entries_without_web_review": 22,
+      "new_web_entries_already_applied": 2,
+      "rejected_source_concepts": []
+    }
+  ],
+  "completion_rules": [
+    "Compare the full current category, accepted concepts and aliases before collecting or authoring.",
+    "Enrich the same existing ID when the underlying concept already exists; a translated name, gender label, color change or wording change is not a new concept.",
+    "Collect readable primary evidence for missing factual dimensions before authoring creative directions.",
+    "Use collected facts as explicit inputs to separately labeled creative proposals; never attribute an invented combination or observed result to a source.",
+    "Rejected facts stay rejected unless replacement evidence is independently reviewed against a new input SHA; a proposal cannot launder rejected facts into verified status.",
+    "Keep web-approved, creative-authored, applied and remaining-shortfall counts separate.",
+    "Do not count creative proposals as new verified web concepts or as acquired or reviewed media.",
+    "Review semantic uniqueness and factual-versus-creative labeling before local DB application."
+  ],
+  "description_gap_audit": {
+    "method": "Read every current hair/makeup title, description and detail keys; compare exact approved concept targets. Absence of web review is not absence of a description.",
+    "existing_detailed_guides_without_web_review": 35,
+    "initial_text_entries_needing_structured_directions": 16,
+    "hair_existing_ids": [
+      "FS-0001",
+      "FS-0003",
+      "FS-0007",
+      "FS-0008",
+      "FS-0010",
+      "FS-0012",
+      "FS-0013"
+    ],
+    "makeup_existing_ids": [
+      "FS-0033",
+      "FS-0036",
+      "FS-0037",
+      "FS-0040",
+      "FS-0161",
+      "FS-0165",
+      "FS-0166",
+      "FS-0167",
+      "FS-0168"
+    ],
+    "decision": "Enrich these existing IDs rather than create renamed copies. The other 35 already contain design directions, preservation rules and QA criteria; do not manufacture new entries merely because they lack web review.",
+    "not_yet_done": "None: 16 existing-ID directions independently reviewed, applied, API-checked and representative desktop/mobile rendered."
+  },
+  "remaining_work": [],
+  "completed_at_date": "2026-10-30",
+  "completed_work": [
+    "Audit missing dimensions within the existing 29 hair and 22 makeup entries without web review.",
+    "Collect missing evidence, then author nonduplicative creative directions for genuine remaining gaps.",
+    "Independently review the supplement and integrate through a deterministic, duplicate-safe local path.",
+    "Verify factual and creative labeling on actual API and rendered detail pages."
+  ],
+  "result": {
+    "approved": 16,
+    "applied_existing_ids": 16,
+    "rejected_after_revision": 0,
+    "new_entries": 0,
+    "web_review_count_increase": 0,
+    "media_increase": 0,
+    "parent_verification": "data/web-research/parent-final-verification.json",
+    "input_snapshot_note": "creative-supplement.json remains byte-immutable with its original draft label; effective acceptance is the matching independent review and creative-revision.json, not that historical label."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "job_id": "expression-E02-moderate",
+  "status": "rejected",
+  "path": null,
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18e06-fc85-7c71-aa46-a796d81369a3/exec-69d67821-0319-495c-ab8f-77281dc3a473.png",
+  "sha256": "7a2d024d5cbd2d15b5bf53e3e12353699c615a4b1bb6042cdffeb0764c39ee14",
+  "width": 1024,
+  "height": 1536,
+  "tool": "Codex built-in image_gen",
+  "model": "not exposed",
+  "prompt": "Match the supplied reference face and eyebrow positions exactly. Keep soft neutral studio lighting and natural, unsharpened skin; do not add wrinkles, engraving or decorative texture.",
+  "prompt_snapshot": "data/asset-production/.history/prompts/expression-E02-moderate-native-attempt3.txt",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/expression-E02-outer-brow-layout.png"
+  ],
+  "reference_sha256": [
+    "d8c9f5637b475b56b4c342336d20a96ad23505469621b05bd53ea5117a6cbcb5"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "generation_thread_id": "01a18e06-fc85-7c71-aa46-a796d81369a3",
+  "source_directory": "/home/declan/.codex/generated_images/01a18e06-fc85-7c71-aa46-a796d81369a3",
+  "before_source_files": [],
+  "native_reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/expression-E02-outer-brow-layout.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "rejected",
+    "observations": "Inspected the actual 1024x1536 image against the sole SHA-bound edit_base. The face, brow placement, mole, pose and framing remain close to the input, but conspicuous patterned, etched-looking texture remains across the forehead and cheeks. It does not meet the requested natural soft skin, so no canonical PNG was saved and dependent C05 was not generated."
+  }
+}

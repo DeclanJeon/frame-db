@@ -1,0 +1,53 @@
+import { env } from 'cloudflare:workers';
+import seed from '../data/database-seed.json';
+import revision from '../data/web-research/revision.json';
+import creativeRevision from '../data/web-research/creative-revision.json';
+import assetRevision from '../data/asset-production/revision.json';
+import assetPlan from '../data/asset-production/plan.json';
+export const DATASET_VERSION='frame-reference-db-20261030-v3.4-assets-'+revision.dataset_revision+'-'+creativeRevision.dataset_revision+'-'+assetRevision.dataset_revision;
+export function db(){if(!env.DB)throw new Error('DB_NOT_BOUND');return env.DB}
+const tables=['categories','sources','reference_entries','entry_variants','media_assets','tags','entry_tags','prompt_templates','entry_relations','skill_mappings','import_batches'];
+const keys=['categories','sources','entries','variants','media_assets','tags','entry_tags','prompt_templates','entry_relations','skill_mappings','import_batches'];
+export async function bootstrap(step:number){
+ const database=db();const exists=await database.prepare('SELECT status FROM seed_state WHERE id=?').bind(DATASET_VERSION).first<{status:string}>();if(exists?.status==='complete')return {complete:true,step:tables.length,total:tables.length};
+ if(!Number.isInteger(step)||step<0||step>=tables.length)throw new Error('INVALID_BOOTSTRAP_STEP');
+ const rows=(seed as any)[keys[step]] as Record<string,unknown>[];const chunkSize=rows.length?Math.min(20,Math.floor(100/Object.keys(rows[0]).length)):20;let statements:D1PreparedStatement[]=[];
+ for(let i=0;i<rows.length;i+=chunkSize){const chunk=rows.slice(i,i+chunkSize);const fields=Object.keys(chunk[0]);const columns=fields.map(x=>x==='group'?'group_name':x);const sql=`INSERT OR IGNORE INTO ${tables[step]} (${columns.join(',')}) VALUES `+chunk.map(()=>'('+fields.map(()=>'?').join(',')+')').join(',')+(columns.includes('id')?' ON CONFLICT(id) DO UPDATE SET '+columns.filter(x=>x!=='id').map(x=>x+'=excluded.'+x).join(','):'');statements.push(database.prepare(sql).bind(...chunk.flatMap(row=>fields.map(field=>row[field]))));if(statements.length===25){await database.batch(statements);statements=[]}}
+ if(statements.length)await database.batch(statements);
+ if(step===tables.length-1){for(let i=0;i<tables.length;i++){const count=await database.prepare('SELECT COUNT(*) n FROM '+tables[i]).first<{n:number}>();if((count?.n||0)<(seed as any)[keys[i]].length)throw new Error('INCOMPLETE_SEED')}}
+ if(step===tables.length-1)await database.prepare('INSERT OR REPLACE INTO seed_state (id,status,updated) VALUES (?,?,?)').bind(DATASET_VERSION,'complete',new Date().toISOString()).run();
+ return {complete:step===tables.length-1,step:step+1,total:tables.length};
+}
+export async function ensureSeed(){const exists=await db().prepare('SELECT status FROM seed_state WHERE id=?').bind(DATASET_VERSION).first<{status:string}>();if(exists?.status!=='complete')throw new Error('DATASET_NOT_READY')}
+export const json=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+export function sameOrigin(request:Request){let origin=request.headers.get('origin');return origin===new URL(request.url).origin}
+export function userId(request:Request){return request.headers.get('oai-authenticated-user-id')}
+const webSourcesSQL=`SELECT DISTINCT s.id,s.name,s.url FROM json_each(e.details,'$.web_research') w JOIN json_each(w.value,'$.source_ids') ws JOIN sources s ON s.id=ws.value`;
+const webCountSQL=`(SELECT COUNT(*) FROM json_each(e.details,'$.web_research'))`;
+export async function summary(){await ensureSeed();const database=db();const [counts,categories,sourceRows,importRows]=await Promise.all([
+ database.prepare("SELECT COUNT(*) total,SUM(CASE WHEN status='external' THEN 1 ELSE 0 END) external,SUM(CASE WHEN status='text' THEN 1 ELSE 0 END) text,SUM(CASE WHEN status='guide' THEN 1 ELSE 0 END) guides FROM reference_entries").first(),
+ database.prepare("SELECT c.*,COUNT(e.id) count,SUM(CASE WHEN e.status='external' THEN 1 ELSE 0 END) external_count,SUM(CASE WHEN e.status='text' THEN 1 ELSE 0 END) text_count,SUM(CASE WHEN e.status='guide' THEN 1 ELSE 0 END) guide_count,(SELECT COUNT(*) FROM media_assets m JOIN reference_entries e2 ON e2.id=m.entry_id WHERE e2.category_id=c.id) media_count FROM categories c LEFT JOIN reference_entries e ON e.category_id=c.id GROUP BY c.id ORDER BY c.sort").all(),
+ database.prepare('SELECT * FROM sources').all(),database.prepare('SELECT * FROM import_batches').all()]);
+ const mediaCounts=await database.prepare("SELECT SUM(CASE WHEN availability IN ('external_link','google_drive') THEN 1 ELSE 0 END) external,SUM(CASE WHEN availability='owned_diagram' THEN 1 ELSE 0 END) diagrams,SUM(CASE WHEN url LIKE '/api/media/%' THEN 1 ELSE 0 END) drive,SUM(CASE WHEN availability='generated_image' THEN 1 ELSE 0 END) generated FROM media_assets").first<{external:number,diagrams:number,drive:number,generated:number}>();
+ const web=await database.prepare(`SELECT SUM(${webCountSQL}) reviewed FROM reference_entries e`).first<{reviewed:number}>();
+ const guideCoverage=await database.prepare("SELECT COUNT(*) count FROM reference_entries WHERE json_extract(details,'$.usage_guide.kind')='authored_guide'").first<{count:number}>();
+ const generated=mediaCounts?.generated||0;
+ return {version:DATASET_VERSION,counts,categories:categories.results,sources:sourceRows.results,imports:importRows.results,originalEntries:2485,originalGalleryEntries:1695,webReviewed:web?.reviewed||0,mediaExternal:mediaCounts?.external||0,mediaDrive:mediaCounts?.drive||0,mediaOwned:(mediaCounts?.diagrams||0)+generated,mediaDiagrams:mediaCounts?.diagrams||0,mediaGenerated:generated,mediaReviewed:generated,guideCoverage:guideCoverage?.count||0,production:{planned:assetPlan.jobs.length,accepted:generated,remaining:assetPlan.jobs.length-generated},target:(categories.results as any[]).reduce((n,c)=>n+c.target,0),updated:'2026-10-30'};
+}
+export function filterQuery(params:URLSearchParams){let where:string[]=['1=1'],values:(string|number)[]=[];
+ for(let [param,column] of [['category','category_id'],['status','status'],['subtype','subtype']] as const){let value=params.get(param);if(value){where.push(`e.${column}=?`);values.push(value)}}
+ const source=params.get('source');if(source){where.push(`(e.source_id=? OR EXISTS (SELECT 1 FROM (${webSourcesSQL}) ws WHERE ws.id=?))`);values.push(source,source)}
+ const gender=params.get('gender');if(gender){where.push("(e.gender=? OR e.gender='공용')");values.push(gender)}
+ const angle=params.get('angle');if(angle){where.push('EXISTS (SELECT 1 FROM entry_variants v WHERE v.entry_id=e.id AND v.angle=?)');values.push(angle)}
+ const q=(params.get('q')||'').trim().slice(0,200);for(let term of q.toLowerCase().split(/\s+/).filter(Boolean).slice(0,8)){where.push("e.search_text LIKE ? ESCAPE '\\'");values.push('%'+term.replace(/[\\%_]/g,'\\$&')+'%')}
+ return {clause:where.join(' AND '),values};
+}
+export async function listEntries(params:URLSearchParams){await ensureSeed();const {clause,values}=filterQuery(params);const page=Math.max(1,Math.min(10000,Number(params.get('page'))||1));const limit=Math.min(60,Math.max(1,Number(params.get('limit'))||24));const database=db();let order=params.get('sort')==='name'?'e.title COLLATE NOCASE, e.id':"CASE e.source_id WHEN 'pose-db' THEN 0 WHEN 'costume-db' THEN 1 ELSE 2 END,e.id";
+ const [count,rows,subtypes]=await Promise.all([database.prepare('SELECT COUNT(*) count FROM reference_entries e WHERE '+clause).bind(...values).first<{count:number}>(),database.prepare(`SELECT e.*,${webCountSQL} web_reviewed,(SELECT json_group_array(json_object('id',id,'name',name,'url',url)) FROM (${webSourcesSQL})) web_sources,c.name category_name,s.name source_name,(SELECT COALESCE(json_extract(v.attributes,'$.thumbnail_url'),m.url) FROM media_assets m LEFT JOIN entry_variants v ON v.id=m.variant_id WHERE m.entry_id=e.id AND m.availability IN ('owned_diagram','google_drive','generated_image') ORDER BY CASE WHEN v.angle='정면' THEN 0 ELSE 1 END,m.original_id LIMIT 1) preview_url,(SELECT COUNT(*) FROM media_assets m WHERE m.entry_id=e.id AND m.availability='generated_image') generated_media_count,(SELECT COUNT(*) FROM entry_variants v WHERE v.entry_id=e.id) variant_count,(SELECT COUNT(*) FROM media_assets m WHERE m.entry_id=e.id) media_count FROM reference_entries e JOIN categories c ON c.id=e.category_id JOIN sources s ON s.id=e.source_id WHERE ${clause} ORDER BY ${order} LIMIT ? OFFSET ?`).bind(...values,limit,(page-1)*limit).all(),database.prepare('SELECT DISTINCT subtype FROM reference_entries WHERE (?=\'\' OR category_id=?) ORDER BY subtype').bind(params.get('category')||'',params.get('category')||'').all()]);
+ const items=rows.results.map(row=>({...row,web_sources:JSON.parse(String(row.web_sources))}));
+ return {items,total:count?.count||0,page,limit,subtypes:subtypes.results.map((x:any)=>x.subtype)};
+}
+export async function detail(id:string){await ensureSeed();const database=db();const entry=await database.prepare(`SELECT e.*,${webCountSQL} web_reviewed,(SELECT json_group_array(json_object('id',id,'name',name,'url',url)) FROM (${webSourcesSQL})) web_sources,c.name category_name,s.name source_name,s.url source_url,s.hosting,s.license FROM reference_entries e JOIN categories c ON c.id=e.category_id JOIN sources s ON s.id=e.source_id WHERE e.id=?`).bind(id).first();if(!entry)return null;
+ const [variants,assets,prompts,tags,related,skills]=await Promise.all([database.prepare('SELECT * FROM entry_variants WHERE entry_id=?').bind(id).all(),database.prepare(`SELECT m.*,v.label,COALESCE(json_extract(v.attributes,'$.thumbnail_url'),m.url) thumbnail_url,COALESCE(json_extract(v.attributes,'$.display_url'),m.url) display_url FROM media_assets m LEFT JOIN entry_variants v ON v.id=m.variant_id WHERE m.entry_id=? ORDER BY CASE WHEN v.angle='정면' THEN 0 ELSE 1 END,m.original_id`).bind(id).all(),database.prepare('SELECT * FROM prompt_templates WHERE entry_id=?').bind(id).all(),database.prepare('SELECT t.* FROM tags t JOIN entry_tags et ON et.tag_id=t.id WHERE et.entry_id=? ORDER BY t.label').bind(id).all(),database.prepare('SELECT e.id,e.title,e.category_id,c.name category_name,r.reason FROM entry_relations r JOIN reference_entries e ON e.id=r.to_id JOIN categories c ON c.id=e.category_id WHERE r.from_id=?').bind(id).all(),database.prepare('SELECT * FROM skill_mappings WHERE category_id=?').bind(String(entry.category_id)).all()]);
+ return {...entry,web_sources:JSON.parse(String(entry.web_sources)),details:JSON.parse(String(entry.details)),variants:variants.results,assets:assets.results,prompts:prompts.results,tags:tags.results,related:related.results,skills:skills.results};
+}

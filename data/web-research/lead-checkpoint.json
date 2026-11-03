@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "superseded_by_final_verified_result",
+  "checked_at_date": "2026-10-30",
+  "scope": "Parent directly parsed all 29 current staging/review pairs, matched input hashes and all accepted fields to supported review checks, and ran all 58 official validation commands successfully. This checkpoint is not evidence of final 29-category DB application.",
+  "reviewed_categories": 29,
+  "accepted_concepts": 482,
+  "target_shortfall_within_reviewed_categories": 98,
+  "accepted_facts": 1484,
+  "staging_sha_mismatches": 0,
+  "accepted_fields_without_exact_supported_review_match": 0,
+  "accepted_media_candidates": 0,
+  "pending_categories": [],
+  "creative_supplement": {
+    "draft_existing_id_targets": 16,
+    "new_entries": 0,
+    "reviewed_or_applied": true,
+    "note": "16 directions independently approved after correction and applied to existing IDs; verified through final API and representative actual Catalog renders. No additional media."
+  },
+  "remaining_acceptance": [],
+  "pilot_application_checkpoint": {
+    "categories": [
+      "hair",
+      "makeup"
+    ],
+    "web_reviewed_entries": 38,
+    "new_entries": 4,
+    "existing_id_enrichments": 34,
+    "total_entries": 2489,
+    "media_rows": 2914,
+    "note": "Prior pilot checks included real local bootstrap/status/catalog/details/export and rendered browser. Counts here are pilot results, not the 402 accepted staged concepts."
+  },
+  "final_result": {
+    "manifest": "data/web-research/parent-final-verification.json",
+    "web_approved_and_applied": 482,
+    "new_entries": 264,
+    "existing_enrichments": 218,
+    "target_shortfall": 98,
+    "total_entries": 2749,
+    "creative_approved_and_applied_existing_ids": 16,
+    "creative_new_entries": 0,
+    "media_rows": 2914
+  },
+  "completed_acceptance": [
+    "Apply the full 29-category reviewed pack and verify preservation and repeat-normalization idempotence.",
+    "Independently review and apply the creative supplement without inflating web-review counts.",
+    "Run final tests, typecheck and build after final integration.",
+    "Verify actual local DB/API export and desktop/mobile rendered catalog/details for final content.",
+    "Report actual accepted, applied, creative and remaining shortfall counts separately."
+  ]
+}

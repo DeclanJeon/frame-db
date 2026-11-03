@@ -1,0 +1,20 @@
+{
+  "job_id": "hair-E11",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E11.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-baca7dce-1cc5-4810-a8ec-05c67b8108cc.png",
+  "sha256": "c145cc512aefb21de77db179714fee88b0f40cc36cbc1269a82caf90f6a10926",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E11; concept: 어깨 길이 로브.\nClass: base; domain: hair; entry: CRAFT-hair-fcee59be5f4f.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Make a straight lob whose complete ends touch the shoulders, with a center part and a slight outward turn only at the tips. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Make a straight lob whose complete ends touch the shoulders, with a center part and a slight outward turn only at the tips..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Ends meet shoulders; not a jaw bob or chest-length style.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nConcrete reference roles: Image 1 (expression-E00.png) is the accepted identity A face and skin-mark anchor. Preserve face, marks, camera, crop and lighting while changing only the specified hair geometry.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "The full 1024x1536 output preserves identity A and the neutral setup. Straight center-part lob ends touch the shoulders with a slight outward turn at tips. Provisional pass; not final acceptance."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "job_id": "hair-D04",
+  "status": "rejected",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [
+    "exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+    "exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png",
+    "exec-56d0e7af-6ef9-4308-821b-8f1ef6acd076.png",
+    "exec-94588f8a-f4db-4a40-ae1f-d6663816a129.png",
+    "exec-99d3024b-a7d4-4c83-82e1-ebc7f7e0b325.png",
+    "exec-bb1b24ea-e6e3-4d8f-a5b4-3fac01484557.png",
+    "exec-d5285726-62fb-4002-a8f8-dfaf89ea1568.png"
+  ],
+  "path": "public/generated/frame-assets/hair-D04.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-e441ae64-8205-4bee-845d-aa0d987eb0f3.png",
+  "sha256": "aeefaa2c974d0486b27226719c0e26d9f38ca17f48ad1ee3174c8276658bebdd",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "worker",
+    "provisional_decision": "accept",
+    "observations": "One smooth low pinned knot with temple wisps removed; dark pin is visible on subject-left, identity and framing remain consistent."
+  },
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1536,
+    "width": 1024
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E20.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-D04-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-D04; concept: 매끈한 로우 시뇽.\nClass: creative; domain: hair; entry: GEN-asset-hair-D04.\nParent entry IDs: [\"FS-0003\",\"CRAFT-hair-29e4256f3668\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E20\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"hair-E20\":\"identity\"}\nInput images: hair-E20 (identity reference); expression-E00 (identity reference).\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Tighten E20 into one smooth low pinned knot, remove loose temple wisps and retain the low attachment; place one unobtrusive dark pin on subject-left. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: rear three-quarter showing low knot and subject-left pin. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep parent hair geometry, color, hairline, density and length landmarks outside the declared delta.\nChange only: Tighten E20 into one smooth low pinned knot, remove loose temple wisps and retain the low attachment; place one unobtrusive dark pin on subject-left.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Low sleek knot replaces loose wrap; pin stays on subject-left.; One diagnostic view only, not a sequence or collage.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "parent_rejection": {
+    "reason": "Visible pin is behind the subject-right ear in a right-side portrait; required subject-left pin is not demonstrated.",
+    "reviewer": "parent direct full-image inspection"
+  }
+}

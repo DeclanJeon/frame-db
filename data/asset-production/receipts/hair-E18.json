@@ -1,0 +1,20 @@
+{
+  "job_id": "hair-E18",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E18.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-0c16db4b-4024-4aeb-9493-cf324d4301f7.png",
+  "sha256": "46bed51def609059e33a84405470270f0373a9f0a8091a7e610f536fb45997df",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E18; concept: 하이 포니테일.\nClass: base; domain: hair; entry: FS-0004.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Gather long straight dark-brown hair into one high ponytail tied just behind the crown with one plain black elastic; let the complete tail fall to the upper back. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: rear three-quarter attachment view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Gather long straight dark-brown hair into one high ponytail tied just behind the crown with one plain black elastic; let the complete tail fall to the upper back..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Single high attachment and complete free tail are visible.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nConcrete reference roles: Image 1 (expression-E00.png) is the accepted identity A face and skin-mark anchor. Preserve face, marks, camera, crop and lighting while changing only the specified hair geometry.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "Viewed 1024x1536 output retains identity A and gray studio setup. A single high ponytail is tied behind the crown with a plain black elastic; full tail falls to upper back. Provisional pass; not final acceptance."
+  }
+}

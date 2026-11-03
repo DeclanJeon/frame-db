@@ -1,0 +1,28 @@
+{
+  "job_id": "hair-N07",
+  "status": "rejected",
+  "path": null,
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d2f-16a2-7fb1-ba98-7ad66eca4e4a/exec-b1fd06c0-1a93-499f-a2e0-2f2bb03100e2.png",
+  "sha256": "c1eda72691f3c009693317536b33b5282296bb5f1f5dd4ecbdad7a0a4689c037",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "Photorealistic synthetic reference photograph for hair-N07, a neutral diagnostic hairstyle reference of the same fictional adult woman, identity A. Input Image 1 is the only reference image and is used only as the identity anchor for her natural dark-brown hair, hairline, hair texture, scalp and skin characteristics; do not use any other image or hairstyle geometry reference.\n\nShow the subject from an exact centered elevated REAR whole-scalp camera view, directly behind and above the head, looking down toward the nape. Keep the head centered and aligned symmetrically on the vertical centerline. Show the entire scalp from the front hairline through the nape, with enough margin to include every braid end. The face must not be visible: no face, no profile, no three-quarter view.\n\nCreate exactly SIX distinct close-to-scalp straight-back dark-brown cornrows. A clean center part divides the scalp into two equal sides, with exactly THREE separate parallel cornrows on the left and exactly THREE on the right. Every row follows its own straight front-to-nape path, with visible scalp separation between all six rows. Each of the six rows continues into its own separate complete short tail at the nape, and each tail has one visible black elastic. Keep all six tails and all six elastics individually separated and fully inside frame; do not merge, cross, hide or crop any row, tail or elastic.\n\nUse a matte neutral-gray studio background, broad soft neutral lighting, natural realistic hair and scalp detail, and a plain gray top. One still image only, no text, logo, watermark, split screen, collage, props or extra hairstyle elements. Requested output dimensions: 1024x1536 PNG.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "generation_thread_id": "01a18d2f-16a2-7fb1-ba98-7ad66eca4e4a",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d2f-16a2-7fb1-ba98-7ad66eca4e4a",
+  "before_source_files": [],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "rejected",
+    "observations": "Centered elevated rear whole-scalp view; no face, profile or three-quarter angle. The image has exactly four visible cornrows, two on each side of the center part, and four complete tails with four elastics. It fails the required six rows, three per side, six tails and six elastics. The source dimensions match the requested 1024x1536."
+  }
+}

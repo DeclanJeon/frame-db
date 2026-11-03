@@ -1,0 +1,24 @@
+{
+  "job_id": "makeup-N01",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-N01.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bf6-95c6-7ba0-9ce1-b060036bf3ab/exec-0ec3dea1-b9cc-468f-936f-db32c9716d08.png",
+  "sha256": "ec571e3bc61deecfbd43270d19729462cc2d2922d49cf6cf96df807d337e9703",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Full image visually inspected at 1536x1024. One palm-down hand is connected to a continuous wrist and forearm; five separated digits are visible. Five short naturally rounded uncolored nails show cuticles and narrow free edges. No jewelry; neutral gray tabletop and soft lighting. A small dark mark is visible on the back of the hand near the wrist and is preserved as part of this new hand anchor."
+  },
+  "prompt": "FRAME authored synthetic reference. Job: makeup-N01; concept: 짧은 내추럴 네일.\nClass: base; domain: makeup; entry: FS-0165.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Establish the complete adult right hand of identity A: palm down, thumb angled gently outward, fingers slightly separated on a matte gray tabletop, wrist and forearm continuous. Show five short naturally rounded nails with a narrow even free edge, no pigment, no jewelry and natural sheen. Keep every nail boundary readable in the same oblique top view; establish the hand from the A identity anchor, not by copying another face or hand photograph. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: oblique top view of complete right hand wrist and short forearm. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the N01 hand proportions, skin tone and marks, short nail shape, finger spacing, wrist connection, tabletop and light.\nChange only: Establish the A right hand, short nail shape and uncolored finish.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Natural uncolored nails have visible cuticle, sidewalls and free edge.; Trace five digits to the same wrist; inspect all nail beds, cuticles and contact shadows.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: identity anchor, the actual accepted identity A photograph at public/generated/frame-assets/expression-E00.png. Use it only to establish that the hand belongs to identity A; retain the requested independent oblique tabletop hand view.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1536,
+    "height": 1024
+  }
+}

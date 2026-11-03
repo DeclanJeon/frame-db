@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "batch_key": "frame-db-web-population-20261029-v1",
+  "mode": "one_shot_after_completed_drive_migration",
+  "target_concepts_per_category": 20,
+  "maximum_concepts_per_category": 20,
+  "existing_entries": "enrich_when_same_concept_preserve_original_id_status_and_authorship",
+  "media_policy": "candidates_only_no_media_rows_or_external_img_src_until_rights_and_drive_byte_verification",
+  "paid_generation": false,
+  "remote_deploy": false,
+  "git_commits": false,
+  "categories": [
+    {
+      "id": "pose",
+      "name": "포즈·자세",
+      "group": "인물",
+      "entries": 324,
+      "external": 288,
+      "guides": 24,
+      "text": 12,
+      "media": 1439,
+      "target_concepts": 20,
+      "facets": [
+        "자세",
+        "지지점·무게중심",
+        "시점·각도",
+        "접촉·적용 조건"
+      ],
+      "data_path": "data/web-research/staging/pose.json",
+      "review_path": "data/web-research/reviews/pose.json"
+    },
+    {
+      "id": "costume",
+      "name": "의상·코디",
+      "group": "인물",
+      "entries": 1447,
+      "external": 1407,
+      "guides": 28,
+      "text": 12,
+      "media": 1407,
+      "target_concepts": 20,
+      "facets": [
+        "실루엣",
+        "레이어링·아이템 조합",
+        "배색",
+        "소재에 관한 원출처 주장"
+      ],
+      "data_path": "data/web-research/staging/costume.json",
+      "review_path": "data/web-research/reviews/costume.json"
+    },
+    {
+      "id": "hair",
+      "name": "헤어스타일",
+      "group": "인물",
+      "entries": 45,
+      "external": 0,
+      "guides": 31,
+      "text": 14,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "길이·커트",
+        "레이어·앞머리",
+        "가르마·컬",
+        "스타일링과 보존 조건"
+      ],
+      "data_path": "data/web-research/staging/hair.json",
+      "review_path": "data/web-research/reviews/hair.json"
+    },
+    {
+      "id": "makeup",
+      "name": "메이크업·그루밍",
+      "group": "인물",
+      "entries": 40,
+      "external": 0,
+      "guides": 22,
+      "text": 18,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "적용 부위",
+        "커버리지·경계",
+        "색·마감",
+        "기준 상태와 촬영 조건"
+      ],
+      "data_path": "data/web-research/staging/makeup.json",
+      "review_path": "data/web-research/reviews/makeup.json"
+    },
+    {
+      "id": "expression",
+      "name": "표정·시선",
+      "group": "인물",
+      "entries": 41,
+      "external": 0,
+      "guides": 25,
+      "text": 16,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "연기 의도",
+        "강도",
+        "시선",
+        "원출처가 설명한 얼굴 움직임"
+      ],
+      "data_path": "data/web-research/staging/expression.json",
+      "review_path": "data/web-research/reviews/expression.json"
+    },
+    {
+      "id": "gesture",
+      "name": "손동작·제스처",
+      "group": "인물",
+      "entries": 26,
+      "external": 0,
+      "guides": 18,
+      "text": 8,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "손 모양",
+        "방향·좌우 기준",
+        "접촉점",
+        "행동·의미 맥락"
+      ],
+      "data_path": "data/web-research/staging/gesture.json",
+      "review_path": "data/web-research/reviews/gesture.json"
+    },
+    {
+      "id": "anatomy",
+      "name": "얼굴·체형·실루엣",
+      "group": "인물",
+      "entries": 24,
+      "external": 0,
+      "guides": 16,
+      "text": 8,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "비율·랜드마크",
+        "면·실루엣",
+        "시점",
+        "정체성 보존 요소"
+      ],
+      "data_path": "data/web-research/staging/anatomy.json",
+      "review_path": "data/web-research/reviews/anatomy.json"
+    },
+    {
+      "id": "fashion-items",
+      "name": "패션 아이템",
+      "group": "인물",
+      "entries": 34,
+      "external": 0,
+      "guides": 22,
+      "text": 12,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "아이템 종류",
+        "구성·착용 위치",
+        "크기 관계",
+        "소재·조합 근거"
+      ],
+      "data_path": "data/web-research/staging/fashion-items.json",
+      "review_path": "data/web-research/reviews/fashion-items.json"
+    },
+    {
+      "id": "props",
+      "name": "소품·제품 상호작용",
+      "group": "행동",
+      "entries": 22,
+      "external": 0,
+      "guides": 18,
+      "text": 4,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "잡기·지지",
+        "물건 상태",
+        "상호작용 순서",
+        "접촉·연속성"
+      ],
+      "data_path": "data/web-research/staging/props.json",
+      "review_path": "data/web-research/reviews/props.json"
+    },
+    {
+      "id": "persona",
+      "name": "캐릭터·페르소나",
+      "group": "인물",
+      "entries": 22,
+      "external": 0,
+      "guides": 16,
+      "text": 6,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "동기·가치",
+        "갈등",
+        "조건부 행동 규칙",
+        "가상 캐릭터 적용 범위"
+      ],
+      "data_path": "data/web-research/staging/persona.json",
+      "review_path": "data/web-research/reviews/persona.json"
+    },
+    {
+      "id": "acting",
+      "name": "행동·연기·블로킹",
+      "group": "행동",
+      "entries": 22,
+      "external": 0,
+      "guides": 16,
+      "text": 6,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "목표·비트",
+        "행동 전환",
+        "동선·블로킹",
+        "몸의 반응·타이밍"
+      ],
+      "data_path": "data/web-research/staging/acting.json",
+      "review_path": "data/web-research/reviews/acting.json"
+    },
+    {
+      "id": "interaction",
+      "name": "2인·그룹 상호작용",
+      "group": "행동",
+      "entries": 22,
+      "external": 0,
+      "guides": 16,
+      "text": 6,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "역할",
+        "거리·시선",
+        "주고받기",
+        "접촉·관계 연속성"
+      ],
+      "data_path": "data/web-research/staging/interaction.json",
+      "review_path": "data/web-research/reviews/interaction.json"
+    },
+    {
+      "id": "space",
+      "name": "공간·세트·환경",
+      "group": "장면",
+      "entries": 30,
+      "external": 0,
+      "guides": 22,
+      "text": 8,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "공간 구조",
+        "이용 목적",
+        "깊이·배경",
+        "시간·환경 조건"
+      ],
+      "data_path": "data/web-research/staging/space.json",
+      "review_path": "data/web-research/reviews/space.json"
+    },
+    {
+      "id": "lighting",
+      "name": "조명",
+      "group": "장면",
+      "entries": 36,
+      "external": 0,
+      "guides": 28,
+      "text": 8,
+      "media": 28,
+      "target_concepts": 20,
+      "facets": [
+        "광원 크기·방향",
+        "경도·확산",
+        "명암·색 조건",
+        "측정값과 연출 제안 구분"
+      ],
+      "data_path": "data/web-research/staging/lighting.json",
+      "review_path": "data/web-research/reviews/lighting.json"
+    },
+    {
+      "id": "camera",
+      "name": "카메라·구도",
+      "group": "촬영",
+      "entries": 32,
+      "external": 0,
+      "guides": 24,
+      "text": 8,
+      "media": 24,
+      "target_concepts": 20,
+      "facets": [
+        "샷 크기",
+        "초점거리·시점",
+        "프레이밍",
+        "촬영 조건·버전"
+      ],
+      "data_path": "data/web-research/staging/camera.json",
+      "review_path": "data/web-research/reviews/camera.json"
+    },
+    {
+      "id": "camera-motion",
+      "name": "카메라 이동",
+      "group": "촬영",
+      "entries": 24,
+      "external": 0,
+      "guides": 16,
+      "text": 8,
+      "media": 16,
+      "target_concepts": 20,
+      "facets": [
+        "경로·회전",
+        "속도·구간",
+        "이동 동기",
+        "피사체·공간 관계"
+      ],
+      "data_path": "data/web-research/staging/camera-motion.json",
+      "review_path": "data/web-research/reviews/camera-motion.json"
+    },
+    {
+      "id": "look",
+      "name": "비주얼 스타일·색·재질",
+      "group": "장면",
+      "entries": 26,
+      "external": 0,
+      "guides": 20,
+      "text": 6,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "매체",
+        "팔레트·대비",
+        "재질·표현 기법",
+        "비교 조건"
+      ],
+      "data_path": "data/web-research/staging/look.json",
+      "review_path": "data/web-research/reviews/look.json"
+    },
+    {
+      "id": "motion",
+      "name": "모션·물리·VFX",
+      "group": "행동",
+      "entries": 24,
+      "external": 0,
+      "guides": 18,
+      "text": 6,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "타이밍",
+        "힘·무게",
+        "보조 움직임",
+        "합성·연속성"
+      ],
+      "data_path": "data/web-research/staging/motion.json",
+      "review_path": "data/web-research/reviews/motion.json"
+    },
+    {
+      "id": "voice",
+      "name": "목소리 정체성",
+      "group": "오디오",
+      "entries": 32,
+      "external": 0,
+      "guides": 22,
+      "text": 10,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "음색·공명",
+        "발음·음역 설명",
+        "녹음 조건",
+        "정체성과 연기 구분"
+      ],
+      "data_path": "data/web-research/staging/voice.json",
+      "review_path": "data/web-research/reviews/voice.json"
+    },
+    {
+      "id": "speech",
+      "name": "말투·대사 연기·립싱크",
+      "group": "오디오",
+      "entries": 24,
+      "external": 0,
+      "guides": 18,
+      "text": 6,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "의도·서브텍스트",
+        "강세·쉼",
+        "속도·호흡",
+        "입모양·발화 조건"
+      ],
+      "data_path": "data/web-research/staging/speech.json",
+      "review_path": "data/web-research/reviews/speech.json"
+    },
+    {
+      "id": "sound",
+      "name": "음악·환경음·효과음",
+      "group": "오디오",
+      "entries": 28,
+      "external": 0,
+      "guides": 20,
+      "text": 8,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "소리 종류·기능",
+        "음색·시간 변화",
+        "공간",
+        "음원·이용 조건"
+      ],
+      "data_path": "data/web-research/staging/sound.json",
+      "review_path": "data/web-research/reviews/sound.json"
+    },
+    {
+      "id": "story",
+      "name": "이야기·대본·장르",
+      "group": "서사·후반",
+      "entries": 26,
+      "external": 0,
+      "guides": 18,
+      "text": 8,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "장르·비트",
+        "장면 목적",
+        "정보 공개",
+        "인과·갈등"
+      ],
+      "data_path": "data/web-research/staging/story.json",
+      "review_path": "data/web-research/reviews/story.json"
+    },
+    {
+      "id": "edit",
+      "name": "편집·리듬·전환",
+      "group": "서사·후반",
+      "entries": 26,
+      "external": 0,
+      "guides": 18,
+      "text": 8,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "컷 연결",
+        "동기·리듬",
+        "전환",
+        "연속성·비교 조건"
+      ],
+      "data_path": "data/web-research/staging/edit.json",
+      "review_path": "data/web-research/reviews/edit.json"
+    },
+    {
+      "id": "delivery",
+      "name": "피니싱·자막·납품",
+      "group": "서사·후반",
+      "entries": 26,
+      "external": 0,
+      "guides": 18,
+      "text": 8,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "해상도·프레임률",
+        "색·오디오",
+        "자막·형식",
+        "납품 대상·확인일"
+      ],
+      "data_path": "data/web-research/staging/delivery.json",
+      "review_path": "data/web-research/reviews/delivery.json"
+    },
+    {
+      "id": "brief",
+      "name": "브리프·브랜드·기획",
+      "group": "기획·운영",
+      "entries": 16,
+      "external": 0,
+      "guides": 16,
+      "text": 0,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "목적·관객",
+        "핵심 메시지",
+        "브랜드 제약",
+        "납품물·성공 기준"
+      ],
+      "data_path": "data/web-research/staging/brief.json",
+      "review_path": "data/web-research/reviews/brief.json"
+    },
+    {
+      "id": "ops",
+      "name": "제작운영·에셋관리",
+      "group": "기획·운영",
+      "entries": 18,
+      "external": 0,
+      "guides": 18,
+      "text": 0,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "명명·버전",
+        "파일 계보",
+        "담당·의존성",
+        "실제 비용과 미확인 비용 구분"
+      ],
+      "data_path": "data/web-research/staging/ops.json",
+      "review_path": "data/web-research/reviews/ops.json"
+    },
+    {
+      "id": "evidence",
+      "name": "근거·권리·출처",
+      "group": "기획·운영",
+      "entries": 14,
+      "external": 0,
+      "guides": 14,
+      "text": 0,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "사실·관찰·제안",
+        "출처 계층",
+        "권리·동의 범위",
+        "증빙·확인일"
+      ],
+      "data_path": "data/web-research/staging/evidence.json",
+      "review_path": "data/web-research/reviews/evidence.json"
+    },
+    {
+      "id": "handoff",
+      "name": "AI 생성·참조 인계",
+      "group": "기획·운영",
+      "entries": 16,
+      "external": 0,
+      "guides": 16,
+      "text": 0,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "참조 역할",
+        "입출력 조건",
+        "시간·기능 제한",
+        "버전·수용 기준"
+      ],
+      "data_path": "data/web-research/staging/handoff.json",
+      "review_path": "data/web-research/reviews/handoff.json"
+    },
+    {
+      "id": "qa",
+      "name": "품질·연속성 검수",
+      "group": "기획·운영",
+      "entries": 18,
+      "external": 0,
+      "guides": 18,
+      "text": 0,
+      "media": 0,
+      "target_concepts": 20,
+      "facets": [
+        "정체성",
+        "접촉·물리",
+        "시간·연속성",
+        "실제 검사 파일과 판정"
+      ],
+      "data_path": "data/web-research/staging/qa.json",
+      "review_path": "data/web-research/reviews/qa.json"
+    }
+  ]
+}

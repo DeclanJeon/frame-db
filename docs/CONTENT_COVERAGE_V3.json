@@ -1,0 +1,162 @@
+{
+  "version": "content-v3",
+  "original_records": 1695,
+  "original_media_links": 2846,
+  "added_guides": 576,
+  "technical_diagrams": 68,
+  "total_entries": 2485,
+  "categories": 29,
+  "source_pack": "data/content-packs/production-craft.txt",
+  "per_category": {
+    "pose": {
+      "name": "포즈·자세",
+      "guides": 24,
+      "total": 324
+    },
+    "costume": {
+      "name": "의상·코디",
+      "guides": 28,
+      "total": 1447
+    },
+    "hair": {
+      "name": "헤어스타일",
+      "guides": 31,
+      "total": 45
+    },
+    "makeup": {
+      "name": "메이크업·그루밍",
+      "guides": 22,
+      "total": 40
+    },
+    "expression": {
+      "name": "표정·시선",
+      "guides": 25,
+      "total": 41
+    },
+    "gesture": {
+      "name": "손동작·제스처",
+      "guides": 18,
+      "total": 26
+    },
+    "anatomy": {
+      "name": "얼굴·체형·실루엣",
+      "guides": 16,
+      "total": 24
+    },
+    "fashion-items": {
+      "name": "패션 아이템",
+      "guides": 22,
+      "total": 34
+    },
+    "props": {
+      "name": "소품·제품 상호작용",
+      "guides": 18,
+      "total": 22
+    },
+    "persona": {
+      "name": "캐릭터·페르소나",
+      "guides": 16,
+      "total": 22
+    },
+    "acting": {
+      "name": "행동·연기·블로킹",
+      "guides": 16,
+      "total": 22
+    },
+    "interaction": {
+      "name": "2인·그룹 상호작용",
+      "guides": 16,
+      "total": 22
+    },
+    "space": {
+      "name": "공간·세트·환경",
+      "guides": 22,
+      "total": 30
+    },
+    "lighting": {
+      "name": "조명",
+      "guides": 28,
+      "total": 36
+    },
+    "camera": {
+      "name": "카메라·구도",
+      "guides": 24,
+      "total": 32
+    },
+    "camera-motion": {
+      "name": "카메라 이동",
+      "guides": 16,
+      "total": 24
+    },
+    "look": {
+      "name": "비주얼 스타일·색·재질",
+      "guides": 20,
+      "total": 26
+    },
+    "motion": {
+      "name": "모션·물리·VFX",
+      "guides": 18,
+      "total": 24
+    },
+    "voice": {
+      "name": "목소리 정체성",
+      "guides": 22,
+      "total": 32
+    },
+    "speech": {
+      "name": "말투·대사 연기·립싱크",
+      "guides": 18,
+      "total": 24
+    },
+    "sound": {
+      "name": "음악·환경음·효과음",
+      "guides": 20,
+      "total": 28
+    },
+    "story": {
+      "name": "이야기·대본·장르",
+      "guides": 18,
+      "total": 26
+    },
+    "edit": {
+      "name": "편집·리듬·전환",
+      "guides": 18,
+      "total": 26
+    },
+    "delivery": {
+      "name": "피니싱·자막·납품",
+      "guides": 18,
+      "total": 26
+    },
+    "brief": {
+      "name": "브리프·브랜드·기획",
+      "guides": 16,
+      "total": 16
+    },
+    "ops": {
+      "name": "제작운영·에셋관리",
+      "guides": 18,
+      "total": 18
+    },
+    "evidence": {
+      "name": "근거·권리·출처",
+      "guides": 14,
+      "total": 14
+    },
+    "handoff": {
+      "name": "AI 생성·참조 인계",
+      "guides": 16,
+      "total": 16
+    },
+    "qa": {
+      "name": "품질·연속성 검수",
+      "guides": 18,
+      "total": 18
+    }
+  },
+  "not_claimed": [
+    "각 분야 1400개 완료",
+    "실사 이미지 또는 음성 샘플 생성",
+    "전체 원본 이미지 시각 검수"
+  ]
+}

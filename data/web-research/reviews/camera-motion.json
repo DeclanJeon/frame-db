@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "category_id": "camera-motion",
+  "input_sha256": "7254371871d4c871ea4ba390ad33473d8fcf66fd68d89fe0acc32e5c0e929cad",
+  "reviewer": "camera-motion-independent-reviewer-st_01a18b15",
+  "reviewed_at": "2026-10-30T04:35:17.020463+00:00",
+  "accepted_concept_keys": [
+    "dolly-in",
+    "dolly-out",
+    "side-tracking",
+    "pan-shot",
+    "tilt-shot",
+    "crane-up",
+    "handheld-shot",
+    "steadicam-shot",
+    "circular-pan",
+    "swish-pan",
+    "zoom-versus-dolly",
+    "dolly-zoom",
+    "virtual-camera-movement",
+    "reveal-pan",
+    "establishing-pan",
+    "follow-pan"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "adobe-camera-shots",
+      "url": "https://www.adobe.com/creativecloud/video/production/cinematography/camera-shots-and-angles.html",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Tracking shot; Dolly in/out and zoom shot (Dolly in, Dolly out, Dolly zoom bullets)",
+      "rights_checked": true,
+      "notes": "Read Tracking shot and all three Dolly in/out and zoom shot bullets; matched 11 fact fields. Page heading/title and Adobe publisher match. No credited individual author identified. Public text is not a media license; rights remain unknown. No images or videos downloaded or played."
+    },
+    {
+      "source_id": "adobe-pan",
+      "url": "https://www.adobe.com/creativecloud/video/production/cinematography/camera-shots-and-angles/pan-shot.html",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "What is a pan shot in film?; Pan shot vs. tilt shot.; Reveal pan shot; Tracking or following pan shot; Establishing pan shot",
+      "rights_checked": true,
+      "notes": "Read What is a pan shot in film?, Pan shot vs. tilt shot., and Reveal, Tracking or following, Establishing, Whip pan sections. Named subtypes have different framing purposes, not merely translated labels; whip/swish is one alias pair. Heading matches stored title. No credited individual author identified. No explicit reuse grant established; rights unknown, no media acquisition."
+    },
+    {
+      "source_id": "columbia-pan",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/pan-shot/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Pan Shot; definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Pan Shot definition: swivel head and fixed position; horizontal claim uses Adobe because Columbia also mentions tilt. Columbia institutional attribution verified; no individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-circular-pan",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/circular-pan/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Circular Pan; definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Circular Pan definition: named 360-degree fixed-axis pan, not a translating orbit. Numeric value copied as source_claim, not measurement. No individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-swish-pan",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/swish-pan/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Swish Pan; definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Swish Pan definition sentences 1–2: apparent rapid lateral movement, blur and implied temporal relation. No clip played and no individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-crane",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/crane-shot/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Crane Shot; definition paragraph; common upward ending, paragraph 3",
+      "rights_checked": true,
+      "notes": "Read Term: Crane Shot first sentence and third paragraph final sentence. The unrelated bracketed first-crane historical uncertainty is excluded from the batch and not endorsed. No individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-dolly",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/dolly-dolly-shot/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Dolly (Dolly Shot); definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Dolly (Dolly Shot) definition paragraphs 1–2: platform, wheels, forward/back and crab sideways travel, tracks and smooth movement. No individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-handheld",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/handheld-shot/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Handheld Shot; definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Handheld Shot definition, not linked clip or commentary: operator holds camera and moves while filming. Commentary credit is not assigned as definition authorship. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-steadicam",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/steadicam-shot/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Steadicam Shot; definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Steadicam Shot definition: handheld variant, special harness, smoothing. The broader source wording hydraulic is neither expanded nor treated as a verified universal engineering specification. Commentary credit is not assigned as definition authorship. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-zoom",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/zoom-shot/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Zoom Shot; definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Zoom Shot first two sentences: variable focal length, no camera translation, continuous subject-size change. Unused later equipment/performance generalizations are not endorsed. No individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "columbia-virtual",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/virtual-camera-movement/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Term: Virtual Camera Movement; definition paragraph",
+      "rights_checked": true,
+      "notes": "Read Term: Virtual Camera Movement definition: perceived motion, focal-length manipulation, moving sets and single-frame animation. Stored source title/URL are correct; rights.attribution uses the broader Camera Movement label, not a different copyright holder or a license grant. Institutional credit remains identifiable; no individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    },
+    {
+      "source_id": "film-education-terminology",
+      "url": "https://www.filmeducation.org/resources/primary/teaching_with_film/film_in_the_classroom/terminology/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Terminology > Camera movement: tilt bullet and Hand held bullet",
+      "rights_checked": true,
+      "notes": "Read Terminology > Camera movement, specifically Tilt shot and Hand held bullets; publisher identity comes from Film Education page. No individual author identified. No explicit media reuse grant established; rights unknown, no clips/images inspected."
+    },
+    {
+      "source_id": "columbia-movement",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/camera-movement/",
+      "checked_at": "2026-10-30T04:35:17.020463+00:00",
+      "access": "public_body",
+      "locator": "Post-War Period, paragraphs 3–4; Today, final paragraph",
+      "rights_checked": true,
+      "notes": "Read Camera Movement > Today final paragraph opening two sentences: perceived travel without camera movement. Title and Columbia publisher match. No individual definition author identified. Independently opened https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions: Columbia authorizes education/scholarship, not other uses. Restricted is accurate; short factual metadata/link review is not permission to reproduce text, clips, commentary or captures commercially or upload them to AI. No media downloaded, played or acquired."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "dolly-in",
+      "field": "이동_경로",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly in bullet",
+      "verdict": "supported",
+      "notes": "Adobe Dolly in bullet explicitly describes approaching the subject."
+    },
+    {
+      "concept_key": "dolly-in",
+      "field": "지지_장비",
+      "source_id": "columbia-dolly",
+      "locator": "Definition paragraphs 1–2",
+      "verdict": "supported",
+      "notes": "Columbia definition paragraphs 1–2 identify wheels and tracks for smooth movement."
+    },
+    {
+      "concept_key": "dolly-in",
+      "field": "이동_동기",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly in bullet",
+      "verdict": "supported",
+      "notes": "Adobe attributes realization and anticipation uses; this is not a measured audience effect."
+    },
+    {
+      "concept_key": "dolly-out",
+      "field": "이동_경로",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly out bullet",
+      "verdict": "supported",
+      "notes": "Adobe Dolly out bullet explicitly describes retreat from the subject."
+    },
+    {
+      "concept_key": "dolly-out",
+      "field": "공간_관계",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly out bullet",
+      "verdict": "supported",
+      "notes": "The same bullet relates a smaller subject to background/environment emphasis."
+    },
+    {
+      "concept_key": "dolly-out",
+      "field": "이동_동기",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly out bullet",
+      "verdict": "supported",
+      "notes": "Vulnerability, detachment and revelation are Adobe pedagogical interpretations, not guaranteed effects."
+    },
+    {
+      "concept_key": "side-tracking",
+      "field": "피사체_관계",
+      "source_id": "adobe-camera-shots",
+      "locator": "Tracking shot, opening paragraph",
+      "verdict": "supported",
+      "notes": "Adobe Tracking shot opening defines following a subject through its environment."
+    },
+    {
+      "concept_key": "side-tracking",
+      "field": "상대_위치",
+      "source_id": "adobe-camera-shots",
+      "locator": "Tracking shot, opening paragraph and hallway example",
+      "verdict": "supported",
+      "notes": "The opening lists alongside movement and its hallway example specifies a side position; no constant-distance measurement inferred."
+    },
+    {
+      "concept_key": "side-tracking",
+      "field": "이동_동기",
+      "source_id": "adobe-camera-shots",
+      "locator": "Tracking shot, opening paragraph",
+      "verdict": "supported",
+      "notes": "Momentum and participation are attributed to Adobe. Side tracking enriches the explicit existing side-tracking guide; front/back variants are not additional collected concepts."
+    },
+    {
+      "concept_key": "pan-shot",
+      "field": "회전축",
+      "source_id": "columbia-pan",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "Columbia Pan Shot definition specifies a swivel head and fixed position."
+    },
+    {
+      "concept_key": "pan-shot",
+      "field": "회전_방향",
+      "source_id": "adobe-pan",
+      "locator": "What is a pan shot in film?, opening paragraph",
+      "verdict": "supported",
+      "notes": "Adobe opening definition explicitly specifies horizontal left/right rotation."
+    },
+    {
+      "concept_key": "pan-shot",
+      "field": "공간_관계",
+      "source_id": "adobe-pan",
+      "locator": "What is a pan shot in film?, paragraph 2",
+      "verdict": "supported",
+      "notes": "Adobe paragraph 2 describes gradual information reveal and immersion in a setting. Generic pan maps to FS-0173; it is not counted again for a translated label."
+    },
+    {
+      "concept_key": "tilt-shot",
+      "field": "회전축",
+      "source_id": "adobe-pan",
+      "locator": "Pan shot vs. tilt shot., tilt bullet",
+      "verdict": "supported",
+      "notes": "Adobe tilt bullet states vertical movement while anchored in place."
+    },
+    {
+      "concept_key": "tilt-shot",
+      "field": "회전_방향",
+      "source_id": "film-education-terminology",
+      "locator": "Terminology > Camera movement > Tilt shot bullet",
+      "verdict": "supported",
+      "notes": "Film Education Camera movement > Tilt shot specifies up/down from a fixed axis."
+    },
+    {
+      "concept_key": "tilt-shot",
+      "field": "이동_동기",
+      "source_id": "adobe-pan",
+      "locator": "Pan shot vs. tilt shot., effects > Tilts bullet",
+      "verdict": "supported",
+      "notes": "Adobe effects > Tilts bullet lists height and scale. Up/down are not separate accepted concepts; mapping to FS-0174 retains the existing generic tilt entry."
+    },
+    {
+      "concept_key": "crane-up",
+      "field": "장비_구조",
+      "source_id": "columbia-crane",
+      "locator": "Definition paragraph 1, opening sentence",
+      "verdict": "supported",
+      "notes": "Columbia first definition sentence specifies a platform connected to a mechanical arm."
+    },
+    {
+      "concept_key": "crane-up",
+      "field": "이동_경로",
+      "source_id": "columbia-crane",
+      "locator": "Definition paragraph 1, opening sentence",
+      "verdict": "supported",
+      "notes": "That sentence specifies lift, lower and lateral travel. No speed, distance or trajectory measurement claimed."
+    },
+    {
+      "concept_key": "crane-up",
+      "field": "이동_동기",
+      "source_id": "columbia-crane",
+      "locator": "Definition paragraph 3, final sentence beginning A common crane shot",
+      "verdict": "supported",
+      "notes": "Columbia third paragraph final sentence describes the upward scene-ending reveal, often as characters depart. Existing crane-up guide is the matching enrichment target."
+    },
+    {
+      "concept_key": "handheld-shot",
+      "field": "지지_방식",
+      "source_id": "columbia-handheld",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "Columbia definition explicitly says the operator holds the camera."
+    },
+    {
+      "concept_key": "handheld-shot",
+      "field": "이동_방식",
+      "source_id": "columbia-handheld",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "The same definition states moving through space while filming."
+    },
+    {
+      "concept_key": "handheld-shot",
+      "field": "이동_동기",
+      "source_id": "film-education-terminology",
+      "locator": "Terminology > Camera movement > Hand held bullet",
+      "verdict": "supported",
+      "notes": "Film Education Hand held bullet presents authenticity and eye-witness impressions as possible uses, not measured outcomes. Matching existing dialogue guide is enriched; the other original handheld draft is not a second acquired concept."
+    },
+    {
+      "concept_key": "steadicam-shot",
+      "field": "기법_계열",
+      "source_id": "columbia-steadicam",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "Columbia explicitly classifies the technique as a handheld variant."
+    },
+    {
+      "concept_key": "steadicam-shot",
+      "field": "지지_장비",
+      "source_id": "columbia-steadicam",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "The definition specifies a special harness; no unsupported hardware specifications added."
+    },
+    {
+      "concept_key": "steadicam-shot",
+      "field": "움직임_질감",
+      "source_id": "columbia-steadicam",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "The definition attributes smoothing of typical handheld bumps and jerkiness. No clip was played. Stabilized harness support distinguishes this from ordinary handheld; no exact original Steadicam alias found among 24 entries."
+    },
+    {
+      "concept_key": "circular-pan",
+      "field": "기법_계열",
+      "source_id": "columbia-circular-pan",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "Columbia explicitly identifies a 360-degree pan."
+    },
+    {
+      "concept_key": "circular-pan",
+      "field": "회전_범위",
+      "source_id": "columbia-circular-pan",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "The 360-degree value is source text, correctly labeled source_claim rather than reviewer measurement."
+    },
+    {
+      "concept_key": "circular-pan",
+      "field": "회전축",
+      "source_id": "columbia-circular-pan",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "The definition specifies rotation about a fixed axis. This is not the existing orbit-around-subject guide: its camera translates around the subject."
+    },
+    {
+      "concept_key": "swish-pan",
+      "field": "회전_방향",
+      "source_id": "columbia-swish-pan",
+      "locator": "Definition paragraph 1, sentence 1",
+      "verdict": "supported",
+      "notes": "Columbia definition sentence 1 describes apparent rapid right/left movement."
+    },
+    {
+      "concept_key": "swish-pan",
+      "field": "영상_질감",
+      "source_id": "columbia-swish-pan",
+      "locator": "Definition paragraph 1, sentence 1",
+      "verdict": "supported",
+      "notes": "Sentence 1 describes blur as scenes change."
+    },
+    {
+      "concept_key": "swish-pan",
+      "field": "시간_관계",
+      "source_id": "columbia-swish-pan",
+      "locator": "Definition paragraph 1, sentence 2",
+      "verdict": "supported",
+      "notes": "Sentence 2 explicitly gives simultaneity or immediate succession of intercut scenes. Adobe Whip pan section independently calls whip and swish synonyms; no second whip concept is present."
+    },
+    {
+      "concept_key": "zoom-versus-dolly",
+      "field": "줌_제어",
+      "source_id": "columbia-zoom",
+      "locator": "Definition paragraph 1, sentence 1",
+      "verdict": "supported",
+      "notes": "Columbia Zoom Shot opening specifies a variable-focal-length lens."
+    },
+    {
+      "concept_key": "zoom-versus-dolly",
+      "field": "줌_공간_관계",
+      "source_id": "columbia-zoom",
+      "locator": "Definition paragraph 1, sentences 1–2",
+      "verdict": "supported",
+      "notes": "Its opening two sentences describe continuous apparent subject-size change without camera translation."
+    },
+    {
+      "concept_key": "zoom-versus-dolly",
+      "field": "돌리_방식",
+      "source_id": "columbia-dolly",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "Columbia Dolly paragraph 1 distinguishes forward/back platform travel and sideways crab dollies. Existing zoom-versus-dolly guide matches this comparison, not a second generic dolly concept."
+    },
+    {
+      "concept_key": "dolly-zoom",
+      "field": "복합_동작",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly zoom bullet",
+      "verdict": "supported",
+      "notes": "Adobe Dolly zoom bullet specifies simultaneous dolly and zoom."
+    },
+    {
+      "concept_key": "dolly-zoom",
+      "field": "방향_관계",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly zoom bullet",
+      "verdict": "supported",
+      "notes": "The same bullet specifies zoom in the other direction."
+    },
+    {
+      "concept_key": "dolly-zoom",
+      "field": "이동_동기",
+      "source_id": "adobe-camera-shots",
+      "locator": "Dolly in/out and zoom shot > Dolly zoom bullet",
+      "verdict": "supported",
+      "notes": "The bullet attributes disorientation, shock and sudden realization. Coupled opposing movement distinguishes this from ordinary dolly-in/out or a comparison of zoom and dolly."
+    },
+    {
+      "concept_key": "virtual-camera-movement",
+      "field": "정의",
+      "source_id": "columbia-movement",
+      "locator": "Today, final paragraph, opening two sentences",
+      "verdict": "supported",
+      "notes": "Columbia Camera Movement > Today final paragraph opening explicitly describes perceived travel without physical camera movement."
+    },
+    {
+      "concept_key": "virtual-camera-movement",
+      "field": "광학_방법",
+      "source_id": "columbia-virtual",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "Columbia Virtual Camera Movement definition lists manipulation of focal length."
+    },
+    {
+      "concept_key": "virtual-camera-movement",
+      "field": "제작_방법",
+      "source_id": "columbia-virtual",
+      "locator": "Definition paragraph 1",
+      "verdict": "supported",
+      "notes": "The same definition lists moving sets and single-frame animation. This umbrella describes perceived movement methods, not another measured zoom. No existing exact alias found; rack focus is a different operation."
+    },
+    {
+      "concept_key": "reveal-pan",
+      "field": "공개_대상",
+      "source_id": "adobe-pan",
+      "locator": "Reveal pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "Adobe Reveal pan shot opening specifies initially off-frame subjects/details."
+    },
+    {
+      "concept_key": "reveal-pan",
+      "field": "속도_특성",
+      "source_id": "adobe-pan",
+      "locator": "Reveal pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "That section explicitly describes slow exposure; no numeric speed inferred."
+    },
+    {
+      "concept_key": "reveal-pan",
+      "field": "이동_동기",
+      "source_id": "adobe-pan",
+      "locator": "Reveal pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "The section explicitly links withheld information with suspense/surprise. Adobe names this subtype, distinguishing its off-frame reveal purpose from generic pan and establishing-pan. Existing doorframe reveal guide describes camera translation, not fixed-axis pan."
+    },
+    {
+      "concept_key": "establishing-pan",
+      "field": "사용_구간",
+      "source_id": "adobe-pan",
+      "locator": "Establishing pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "Adobe Establishing pan shot opening says often at the beginning of a scene."
+    },
+    {
+      "concept_key": "establishing-pan",
+      "field": "속도_특성",
+      "source_id": "adobe-pan",
+      "locator": "Establishing pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "The section explicitly specifies slowly panning across a location."
+    },
+    {
+      "concept_key": "establishing-pan",
+      "field": "공간_관계",
+      "source_id": "adobe-pan",
+      "locator": "Establishing pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "The section explicitly lists geography, atmosphere and tone. This is an expressly named source subtype with scene-orientation purpose, not a wording-only duplicate of reveal-pan."
+    },
+    {
+      "concept_key": "follow-pan",
+      "field": "피사체_조건",
+      "source_id": "adobe-pan",
+      "locator": "Tracking or following pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "Adobe Tracking or following pan shot specifies a moving person/car crossing space."
+    },
+    {
+      "concept_key": "follow-pan",
+      "field": "프레이밍_관계",
+      "source_id": "adobe-pan",
+      "locator": "Tracking or following pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "The same section explicitly specifies keeping the subject centered."
+    },
+    {
+      "concept_key": "follow-pan",
+      "field": "이동_방식",
+      "source_id": "adobe-pan",
+      "locator": "Tracking or following pan shot, paragraph 1",
+      "verdict": "supported",
+      "notes": "The section contrasts rotation with physically moving along with the subject (dolly). This distinguishes follow-pan from side-tracking. Existing gaze-following pan changes attention after a gaze cue, rather than continuously centering a moving subject."
+    }
+  ],
+  "accepted_count": 16,
+  "shortfall": 4,
+  "shortfall_reason": "16 of 20 supported concepts accepted; 0 rejected, 4 uncollected. The actual batch contains 16, not 20. All 48 fields were compared with reopened primary text; none is a reviewer observation/measurement. Eight concepts enrich uniquely identified existing entries and eight have no exact same-category alias among the 24 originals; this is not a claim of eight inserted rows. Named pan subtypes retain distinct purposes; tilt directions, tracking front/back positions and whip/swish aliases were not multiplied. No additional concepts invented to fill the target. Proposals and media candidates are both empty; media acquired/played/measured: 0. This is a partial metadata-only result, not target completion, license approval or DB publication."
+}

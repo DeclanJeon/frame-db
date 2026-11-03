@@ -1,0 +1,24 @@
+{
+  "job_id": "gaze-left-level",
+  "status": "generated",
+  "path": "public/generated/frame-assets/gaze-left-level.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bf6-95c6-7ba0-9ce1-b060036bf3ab/exec-dbf49bbd-869b-4274-9e58-73fa3ddeed83.png",
+  "sha256": "d3f526a491fd264fe4e29fcd14f8dd95ece4c9bf222efc69d01c38ba73a734a4",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Full image visually inspected at 1024x1536. Both irises point toward image-right, matching subject-left at lens height; the head remains frontal. Face proportions, cheek mole, brows, closed lips, hair, gray top and neutral background remain consistent with E00. No duplicated pupils or obvious eye anatomy defect at this view."
+  },
+  "prompt": "FRAME authored synthetic reference. Job: gaze-left-level; concept: 왼쪽 수평 시선.\nClass: base; domain: gaze; entry: GEN-asset-gaze-left-level.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted E00 photograph. Keep the head facing forward with no yaw, pitch or roll. Direct both eyes together toward one camera-relative target subject-left at lens height; in the frontal image this reads viewer-right at lens height. Use a modest approximately ten-degree offset on each noncentral axis as an authored target, not a calibrated measurement. Keep brows, cheek height, closed lips and jaw at E00. Do not mirror-copy another output or infer intent or emotion from direction. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, neutral head yaw pitch roll. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 head orientation, hair, makeup, expression and eye anatomy; both eyes address one consistent target.\nChange only: Only eyeball direction toward subject-left at lens height.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Subject-relative target matches subject-left at lens height and image-relative direction viewer-right at lens height.; Both irises move compatibly toward one target; no pupil duplication, invented strabismus or head turn.; Compare to lens-centered E00; no new central job is generated.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nInput images: Image 1: identity anchor, the actual accepted identity A photograph at public/generated/frame-assets/expression-E00.png. Preserve the face and cheek mole; use this image as the identity reference, with the requested eye-direction edit only.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  }
+}

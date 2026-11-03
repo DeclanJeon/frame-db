@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: gaze-right-level; concept: 오른쪽 수평 시선.
+Class: base; domain: gaze; entry: GEN-asset-gaze-right-level.
+Parent entry IDs: []
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["expression-E00"]
+Reference roles: {"expression-E00":"identity anchor, actual accepted identity A"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted E00 photograph. Keep the head facing forward with no yaw, pitch or roll. Direct both eyes together toward one camera-relative target subject-right at lens height; in the frontal image this reads viewer-left at lens height. Use a modest approximately ten-degree offset on each noncentral axis as an authored target, not a calibrated measurement. Keep brows, cheek height, closed lips and jaw at E00. Do not mirror-copy another output or infer intent or emotion from direction. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: frontal full face, neutral head yaw pitch roll. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 head orientation, hair, makeup, expression and eye anatomy; both eyes address one consistent target.
+Change only: Only eyeball direction toward subject-right at lens height.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Subject-relative target matches subject-right at lens height and image-relative direction viewer-left at lens height.; Both irises move compatibly toward one target; no pupil duplication, invented strabismus or head turn.; Compare to lens-centered E00; no new central job is generated.
+Output: {"format":"png","height":1536,"width":1024}
+Input images: Image 1: identity anchor, actual accepted identity A at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png. Preserve the face and head frontal. Both irises must point IMAGE LEFT at lens height for subject-right in this frontal view. Move only both eyeballs; no head yaw, pitch or roll.

@@ -1,0 +1,30 @@
+{
+  "job_id": "expression-C05",
+  "status": "generated",
+  "generation_thread_id": "01a18e14-8d84-7c23-8383-e324a6f26301",
+  "source_directory": "/home/declan/.codex/generated_images/01a18e14-8d84-7c23-8383-e324a6f26301",
+  "before_source_files": [
+    "exec-989b916a-407f-435e-aa29-1778c4ce9c4e.png"
+  ],
+  "path": "public/generated/frame-assets/expression-C05.png",
+  "prompt_snapshot": "data/asset-production/.history/prompts/expression-C05-native.txt",
+  "prompt": "Keep the same person as the reference. Make one natural frontal photo with mildly raised brows, slightly wider eyelids and a small lip gap, looking at the lens.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18e14-8d84-7c23-8383-e324a6f26301/exec-a4ad20e4-0c30-47fd-989c-61d6ced2ceb6.png",
+  "sha256": "a7cd73becaa86cab5ce2deede6fb6c27c4fa8605baaf45783d2e652f1c85ec2a",
+  "width": 1024,
+  "height": 1536,
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "usable",
+    "observations": "Photographic frontal portrait retaining E00 identity, pose, crop, hair, light and backdrop; both brows and upper lids are mildly raised and a small lip gap is visible."
+  }
+}

@@ -1,0 +1,1009 @@
+{
+  "schema_version": 1,
+  "revision_audit": {
+    "previous_input_sha256": "5b4f9bca88c6c21266ed051e50ff0fdb37b888f8e4a2c26132070d60072b515d",
+    "previous_reviewed_at": "2026-10-30T05:57:19.782Z",
+    "changed_entry_ids": [
+      "FS-0007",
+      "FS-0008"
+    ],
+    "unchanged_entry_ids": [
+      "FS-0001",
+      "FS-0003",
+      "FS-0010",
+      "FS-0012",
+      "FS-0013",
+      "FS-0033",
+      "FS-0036",
+      "FS-0037",
+      "FS-0040",
+      "FS-0161",
+      "FS-0165",
+      "FS-0166",
+      "FS-0167",
+      "FS-0168"
+    ],
+    "change_verification": "Parsed comparison confirms ONLY FS-0007 direction 3 and FS-0008 directions changed. No supplement header, ID, category or basis change. All 16 target objects and all other 10 bound input files match the prior completed review. Current target and neighboring guides, plus slick-back and crew-cut staging/field reviews, were read directly for this reassessment.",
+    "prior_rejections": [
+      {
+        "entry_id": "FS-0007",
+        "reason": "The first two directions add useful person-relative part-side and independent volume/ear controls, but direction 3 calls the excluded finish the slick-back wet finish. That characterization is not established by its cited basis. A blanket proposal label cannot repair an inaccurate description of the collected concept."
+      },
+      {
+        "entry_id": "FS-0008",
+        "reason": "Direction 2 says to preserve this entry's forward-flowing fringe, but the actual target specifies only short fringe, matte texture and tidy sides. Forward flow is neither an existing target invariant nor a fact in the cited crew-cut fields. Directions 1-2 then largely repeat the existing French-crop/Caesar guidance; saying not to create duplicates does not resolve that semantic overlap."
+      }
+    ],
+    "decision_basis": "Both earlier rejections stand for the previous SHA. The new SHA removes the unsupported wet-finish characterization and the inherited forward-flow assertion, and adds a concrete texture comparison while preserving the actual target constraints. New acceptance is based on these inspected edits, not a request to reverse decisions."
+  },
+  "status": "reviewed",
+  "kind": "independent_creative_metadata_review",
+  "reviewer": "omo-independent-creative-metadata-reviewer-st_01a18b5b",
+  "reviewed_at": "2026-10-30T06:02:54.749Z",
+  "input_path": "data/web-research/creative-supplement.json",
+  "input_sha256": "5f65e7a6cafb1dd3f32bf5c6807bc5811c26c5d4fcac9b114d1ad4e36edaff56",
+  "scope": "DB entries and descriptions only. None of the supplement directions are verified web facts, media, acquired/reviewed images, or new entries. Acceptance covers only separately labeled creative-description enrichment of the specified existing ID; it does not approve application, new verified-concept counts, or replacement of existing target constraints.",
+  "independence": {
+    "role": "Independent child reviewer; not supplement author",
+    "method": "Read the gap-fill plan, all 16 complete target records, all 47 hair and 42 makeup titles/descriptions and detail keys, close-neighbor full guidance, all 20 distinct cited staging concept records and their field/source review facts, plus hair/makeup accepted snapshots. No draft decision was presumed correct.",
+    "source_access": "Local JSON text only. This audit assesses logical use of previously approved facts; it does not independently re-open or re-verify external primary sources.",
+    "side_effects": "Only data/web-research/creative-supplement-review.json is written. No subagents, commits, paid services, media access, remote writes, staging/review edits, normalized-output edits or pipeline edits."
+  },
+  "input_bindings": [
+    {
+      "path": "data/web-research/creative-supplement.json",
+      "sha256": "5f65e7a6cafb1dd3f32bf5c6807bc5811c26c5d4fcac9b114d1ad4e36edaff56"
+    },
+    {
+      "path": "data/web-research/gap-fill-plan.json",
+      "sha256": "464ddd5d467c98be95406ac4d8b4f77776f03ece5090babb868000c2a1f9469a"
+    },
+    {
+      "path": "data/database-seed.json",
+      "sha256": "142abb3905cf2f43f6a180382207415d39364e4a91d04221ca98da539a9a2526"
+    },
+    {
+      "path": "data/web-research/staging/hair.json",
+      "sha256": "80aff9bcf6335af10e0736e52f325b299b4105243911bf3d309257e68cd4af60"
+    },
+    {
+      "path": "data/web-research/reviews/hair.json",
+      "sha256": "6b3eb3eed2af48c9dbb8f667a2f6c251eb9100b314bda1c7fe2e602a7298a504"
+    },
+    {
+      "path": "data/web-research/staging/makeup.json",
+      "sha256": "218978321dc75ba5992b7c2eeb015d6075b53224a26264a8204966d8b6612864"
+    },
+    {
+      "path": "data/web-research/reviews/makeup.json",
+      "sha256": "c33418e3c1e0823ba7a734a80938de061bea4ae4d5ec145b5da5686c85b9f469"
+    },
+    {
+      "path": "data/web-research/staging/motion.json",
+      "sha256": "3d5a7fae4edccbcd190fbabdc22fdfdf6f17be0b72d1dc385b21452b5b89eca4"
+    },
+    {
+      "path": "data/web-research/reviews/motion.json",
+      "sha256": "28ef0d640650ea45e5758c3d2974c9654766640b629ab0a8b9252a7c79d5e75a"
+    },
+    {
+      "path": "data/web-research/accepted/hair.json",
+      "sha256": "1e08b4a254f7095c6958fbcd8ddea896a02984b9cb793b491275ffe3a11ab0f4"
+    },
+    {
+      "path": "data/web-research/accepted/makeup.json",
+      "sha256": "58027e7679d7b378de322ec51dafc85f0dfeb0098823b545ef3f6cc369649459"
+    }
+  ],
+  "concurrency": {
+    "changed_inputs": [],
+    "changes_since_prior_review": [
+      {
+        "path": "data/web-research/creative-supplement.json",
+        "previous_sha256": "5b4f9bca88c6c21266ed051e50ff0fdb37b888f8e4a2c26132070d60072b515d",
+        "current_sha256": "5f65e7a6cafb1dd3f32bf5c6807bc5811c26c5d4fcac9b114d1ad4e36edaff56",
+        "changed_entry_ids": [
+          "FS-0007",
+          "FS-0008"
+        ]
+      }
+    ],
+    "note": "All 11 current input files were snapshotted for this revision review. Only the supplement differs from the prior completed review; no input changed during the current read comparisons. The earlier concurrent database update remains accounted for by its current hash and the prior review history; all targets are unchanged. These are point-in-time bindings, not a lock against later DAG writes."
+  },
+  "target_audit": {
+    "expected_count": 16,
+    "unique_target_count": 16,
+    "category_counts": {
+      "hair": 7,
+      "makeup": 9
+    },
+    "all_ids_exist_exactly_once": true,
+    "all_category_ids_match": true,
+    "exact_gap_fill_plan_target_set": true,
+    "category_inventory_counts": {
+      "hair": 47,
+      "makeup": 42
+    }
+  },
+  "basis_audit": [
+    {
+      "basis": "hair/chin-blunt-bob",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-hair-172e978476d9",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "길이_분포",
+          "source_id": "haircom-blunt",
+          "locator": "블런트 정의 L103–105",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "끝선_형태",
+          "source_id": "haircom-blunt",
+          "locator": "일반 보브와 차이 L110–112",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "턱선_변형",
+          "source_id": "haircom-blunt",
+          "locator": "턱 길이 변형 L195–197",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "hair/curtain-bangs",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "FS-0006",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "앞머리_형태",
+          "source_id": "lp-curtain",
+          "locator": "정의 문단 L35",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "앞머리_도달점",
+          "source_id": "lp-curtain",
+          "locator": "정의 문단 L35",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "가르마",
+          "source_id": "lp-curtain",
+          "locator": "정의 문단 L35",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "hair/nape-chignon",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-hair-29e4256f3668",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "매듭_위치",
+          "source_id": "lp-fine",
+          "locator": "목록 7번 L42",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "가르마",
+          "source_id": "lp-fine",
+          "locator": "목록 7번 L42",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "제품_적용",
+          "source_id": "lp-fine",
+          "locator": "목록 7번 L42",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "hair/slick-back",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "FS-0009",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "가르마_예시",
+          "source_id": "ghd-slick",
+          "locator": "단계 2, L213–216",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "정돈_방향",
+          "source_id": "ghd-slick",
+          "locator": "단계 7, L240–244",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "형태_유지",
+          "source_id": "ghd-slick",
+          "locator": "단계 8, L246–249",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "hair/crew-cut",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-hair-95f1771af91c",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "측후면_길이",
+          "source_id": "lp-buzz",
+          "locator": "목록 7번 L65, 크루 커트 설명 문장",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "윗머리_차이",
+          "source_id": "lp-buzz",
+          "locator": "목록 7번 L65, 크루 커트 설명 문장",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "앞머리_정리",
+          "source_id": "lp-buzz",
+          "locator": "목록 7번 스타일 조언 L66",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "hair/roller-barrel-waves",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-hair-9bc2665c1374",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "세팅_준비",
+          "source_id": "lp-curtain",
+          "locator": "스타일 목록 5번 L155",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "롤러_섹션",
+          "source_id": "lp-curtain",
+          "locator": "스타일 목록 5번 L155",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "해제_조건",
+          "source_id": "lp-curtain",
+          "locator": "스타일 목록 5번 L156",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "hair/layered-lob",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-hair-fcee59be5f4f",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "길이_기준",
+          "source_id": "lp-wavy",
+          "locator": "목록 4번 L64",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "층의_질감",
+          "source_id": "lp-wavy",
+          "locator": "목록 4번 L64",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "볼륨_설명",
+          "source_id": "lp-wavy",
+          "locator": "목록 4번 L64",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "hair/high-ponytail",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "FS-0004",
+      "reviewer": "hair-independent-reviewer-st_01a18966",
+      "facts_read": [
+        {
+          "field": "결합_앞머리",
+          "source_id": "lp-curtain",
+          "locator": "스타일 목록 2번 L129–133",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "준비_순서",
+          "source_id": "lp-curtain",
+          "locator": "스타일 목록 2번 L133",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "묶는_위치",
+          "source_id": "lp-curtain",
+          "locator": "스타일 목록 2번 L133",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "motion/hair-follow-through",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "FS2-motion-001",
+      "reviewer": "omo-independent-motion-reviewer-20261030-st01a18b21",
+      "facts_read": [
+        {
+          "field": "잔여운동",
+          "source_id": "adobe-principles",
+          "locator": "본문 §5 마지막 문단",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "부분속도",
+          "source_id": "adobe-principles",
+          "locator": "본문 §5 마지막 문단",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "원리적용",
+          "source_id": "adobe-principles",
+          "locator": "본문 §5 둘째 문단",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "motion/hair-wind-shadowing",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": null,
+      "reviewer": "omo-independent-motion-reviewer-20261030-st01a18b21",
+      "facts_read": [
+        {
+          "field": "환경 범위",
+          "source_id": "disney-moana",
+          "locator": "p.1 §3 마지막 문단, 야외 환경 설명",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "구현 위치",
+          "source_id": "disney-moana",
+          "locator": "p.1 §3 마지막 문단, 바람 가림 설명",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "이전 작업",
+          "source_id": "disney-moana",
+          "locator": "p.1 §3 마지막 문단, 기능 도입 전 작업 설명",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/single-cream-eyeshadow",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-makeup-33eae62caae4",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "사용 형태",
+          "source_id": "makeup-mac-paintpot",
+          "locator": "Summary",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "색·마감·커버리지",
+          "source_id": "makeup-mac-paintpot",
+          "locator": "Painterly 색상 설명; Product Details, Finish Matte / Coverage Buildable",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "적용 부위·도구",
+          "source_id": "makeup-mac-paintpot",
+          "locator": "How to Use",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/clear-lip-balm",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-makeup-144e623f091c",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "색·향",
+          "source_id": "makeup-glossier-balm",
+          "locator": "Original 선택 설명: js-product-form-variant-title",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "기준 상태·적용량",
+          "source_id": "makeup-glossier-balm",
+          "locator": "HOW TO USE, 항목 1",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "덧바름 조건",
+          "source_id": "makeup-glossier-balm",
+          "locator": "HOW TO USE, 항목 2",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/cheekbone-highlight",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": null,
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "적용 부위",
+          "source_id": "makeup-ct-bronze-glow",
+          "locator": "3. Highlighter + Blush, dot precisely onto the cheekbones 절",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "상황별 적용량",
+          "source_id": "makeup-ct-bronze-glow",
+          "locator": "3. Highlighter + Blush, one dot / two dots / three dots 절",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "경계 혼합",
+          "source_id": "makeup-ct-bronze-glow",
+          "locator": "3. Highlighter + Blush, blend in upward circles 문장",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/targeted-concealer",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-makeup-5b543f32849d",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "커버리지",
+          "source_id": "makeup-bobbi-concealer",
+          "locator": "What it is",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "국소 적용",
+          "source_id": "makeup-bobbi-concealer",
+          "locator": "How to use, 첫째 항목의 small imperfections 절",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "붉은 부위 혼합",
+          "source_id": "makeup-bobbi-concealer",
+          "locator": "How to use, 셋째 항목",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/natural-sparse-brow-fill",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "FS-0038",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "적용 대상",
+          "source_id": "makeup-benefit-brow",
+          "locator": "FAQ: Can I use Precisely, My Brow Pencil for sparse or over-tweezed brows?",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "선·혼합",
+          "source_id": "makeup-benefit-brow",
+          "locator": "FAQ의 눈썹 채우기 답변, short, light strokes 문장",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "기준 색",
+          "source_id": "makeup-benefit-brow",
+          "locator": "FAQ: How do I choose the right shade of Precisely, My Brow Pencil?",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/soft-matte-complexion",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "FS-0032",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "마감",
+          "source_id": "makeup-bobbi-powder",
+          "locator": "What it is; How it works",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "적용 부위·강도",
+          "source_id": "makeup-bobbi-powder",
+          "locator": "How to use",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "색 선택 기준",
+          "source_id": "makeup-bobbi-powder",
+          "locator": "FAQ: WHAT COLOR SHOULD MY PRESSED POWDER BE?",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/natural-dewy-complexion",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "FS-0031",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "제형",
+          "source_id": "makeup-mac-strobe",
+          "locator": "Summary",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "색·마감",
+          "source_id": "makeup-mac-strobe",
+          "locator": "Pinklite 색상 설명; Product Details, Finish Shimmer",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "레이어 위치",
+          "source_id": "makeup-mac-strobe",
+          "locator": "Product Details, worn-alone / under foundation / as a highlighter 문단",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/natural-stubble",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-makeup-263c281ae2c9",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "권장 길이",
+          "source_id": "makeup-gillette-stubble",
+          "locator": "TL;DR / Quick Answer, Trim to 1–3 mm evenly 항목",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "길이 정돈",
+          "source_id": "makeup-gillette-stubble",
+          "locator": "How to Achieve the 3-Day Stubble Beard Look, Step 2",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "경계 부위",
+          "source_id": "makeup-gillette-stubble",
+          "locator": "Step 3: Define Your Beard Shape",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "대칭 확인",
+          "source_id": "makeup-gillette-stubble",
+          "locator": "Step 4: Check for Symmetry as You Go",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/short-boxed-beard",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-makeup-41c83b63e6a1",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "외곽 형태",
+          "source_id": "makeup-gillette-boxed",
+          "locator": "Introduction",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "부위별 길이 관계",
+          "source_id": "makeup-gillette-boxed",
+          "locator": "What Exactly is a Short Boxed Beard and Why Should You Try It?",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "경계 손질",
+          "source_id": "makeup-gillette-boxed",
+          "locator": "Step 3: Define Your Beard Shape",
+          "review_verdict": "supported"
+        }
+      ]
+    },
+    {
+      "basis": "makeup/french-manicure",
+      "approved": true,
+      "staging_input_sha_matches_review": true,
+      "existing_entry_id": "CRAFT-makeup-2a95075e4ba3",
+      "reviewer": "omo-independent-makeup-reviewer-st_01a1896c",
+      "facts_read": [
+        {
+          "field": "바탕색·도포",
+          "source_id": "makeup-opi-french",
+          "locator": "Step 3: Color",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "끝선 색·경계",
+          "source_id": "makeup-opi-french",
+          "locator": "Step 4: Tips",
+          "review_verdict": "supported"
+        },
+        {
+          "field": "마감",
+          "source_id": "makeup-opi-french",
+          "locator": "Step 5: Top",
+          "review_verdict": "supported"
+        }
+      ]
+    }
+  ],
+  "accepted_snapshot_checks": {
+    "hair": {
+      "staging_bytes_match": true,
+      "review_matches_ignoring_object_key_order": true
+    },
+    "makeup": {
+      "staging_bytes_match": true,
+      "review_matches_ignoring_object_key_order": true
+    }
+  },
+  "accepted_entry_ids": [
+    "FS-0001",
+    "FS-0003",
+    "FS-0007",
+    "FS-0008",
+    "FS-0010",
+    "FS-0012",
+    "FS-0013",
+    "FS-0033",
+    "FS-0036",
+    "FS-0037",
+    "FS-0040",
+    "FS-0161",
+    "FS-0165",
+    "FS-0166",
+    "FS-0167",
+    "FS-0168"
+  ],
+  "rejected_entry_ids": [],
+  "accepted_count": 16,
+  "rejected_count": 0,
+  "decisions": [
+    {
+      "entry_id": "FS-0001",
+      "category_id": "hair",
+      "target_title": "내추럴 단발",
+      "target_description": "턱 아래 보브, 가벼운 앞머리, 귀 뒤로 정리",
+      "target_sha256": "17f409a11a6f45c951708672b63786529240b3ce5fb0940a2f172faa32445f7c",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds a fixed perimeter reference, fringe endpoints and separate tucked/untucked states to a one-line description. Keeps the below-chin bob and hairline rather than introducing another bob entry.",
+      "basis": [
+        "hair/chin-blunt-bob",
+        "hair/curtain-bangs"
+      ],
+      "basis_relationship": "chin-blunt-bob supplies a straight-perimeter comparison, not proof that this natural bob is chin-length, one-length or unlayered. curtain-bangs supplies a fringe-location vocabulary only; the target does not become FS-0006 or acquire its cheekbone length or middle part.",
+      "semantic_duplicate_check": "Near CRAFT-hair-172e978476d9 and FS-0006; added tuck-state and view-matching metadata is useful within FS-0001, not a new haircut.",
+      "claim_boundary_or_required_revision": "The below-chin length comes from the target; all endpoint choices and state controls are creative specifications, not observed source geometry."
+    },
+    {
+      "entry_id": "FS-0003",
+      "category_id": "hair",
+      "target_title": "로우 번",
+      "target_description": "목덜미에서 느슨하게 묶은 머리, 잔머리",
+      "target_sha256": "9d80cd7dddfc5cb29aef445299fed113f2dd5a5332afe05bb057dac53372a462",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds bun center/width and a separate flyaway zone while retaining the original loose nape bun.",
+      "basis": [
+        "hair/nape-chignon"
+      ],
+      "basis_relationship": "nape-chignon explicitly locates a low bun at the nape. Its smooth center-parted gel example is not evidence for looseness, flyaways, hold time or this target. The proposal expressly identifies that adaptation.",
+      "semantic_duplicate_check": "Overlaps FS-0012 and CRAFT-hair-29e4256f3668. This is only enrichment of the already-existing loose-bun ID, not a newly distinct gender/texture concept.",
+      "claim_boundary_or_required_revision": "The loose styling is inherited creative intent; no product performance or actual bun measurement is asserted."
+    },
+    {
+      "entry_id": "FS-0007",
+      "category_id": "hair",
+      "target_title": "내추럴 가르마",
+      "target_description": "6:4 가르마, 부드러운 볼륨, 귀가 보이는 길이",
+      "target_sha256": "df33d0b84dce38c7219ff7251b9b6720d7ce2d9266fbc0f651bc0612e1862314",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Direction 3 now expressly treats grooming as a creative adaptation, retains the natural target finish and does not assume slick-back entails wetness or particular shine. The unchanged person-relative 6:4 part-side and independent root-volume/ear-exposure controls provide useful metadata beyond the one-line target.",
+      "basis": [
+        "hair/slick-back"
+      ],
+      "basis_relationship": "slick-back supports combing/smoothing behind the ear and fixed styling in its particular center-parted tutorial. It does not verify this 6:4 part, natural volume or finish. The revised direction accurately limits the analogy to grooming and no longer misdescribes the approved basis.",
+      "semantic_duplicate_check": "CRAFT-hair-fbf36354c32d already covers classic side-part direction. This existing target retains its own 6:4 natural-volume brief and adds independent state controls; no second side-part, slick-back or wet-look ID is created or counted.",
+      "claim_boundary_or_required_revision": "Accepted as creative metadata only. The natural finish is target styling intent, not a new source fact or a claim that slick-backs can never be wet. No gloss, wetness, hold time or styling result was observed."
+    },
+    {
+      "entry_id": "FS-0008",
+      "category_id": "hair",
+      "target_title": "텍스처 크롭",
+      "target_description": "짧은 앞머리, 매트한 질감, 깔끔한 옆머리",
+      "target_sha256": "7b7491175f003f87c1b71312bc6d2dc27f2a82759467c7eb08feb8e5dc344bbf",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "The revision correctly acknowledges that fringe direction is unspecified in the target and leaves it as a later creative choice. Short fringe, matte finish and tidy sides remain fixed. Comparing chosen bundle thickness and spacing at the same overall length adds a concrete texture-design axis absent from the neighboring crop directions, rather than only repeating fringe endpoints and flow.",
+      "basis": [
+        "hair/crew-cut"
+      ],
+      "basis_relationship": "crew-cut supports comparing cropped top versus short back/sides and a product tip for one buzz/crew combination. It does not establish texture bundle thickness/spacing, fringe direction or matte reflection. The revised text explicitly treats length-region distinctions as a comparison reference and texture choices as authored variables.",
+      "semantic_duplicate_check": "CRAFT-hair-2c775fc6ba2b fixes French-crop fringe endpoints/direction; CRAFT-hair-a950f255b69d specifies forward-flowing Caesar hair; CRAFT-hair-95f1771af91c describes crew-cut length distribution. The revised same-length sparse-versus-close bundle comparison enriches FS-0008 without asserting any of those cut identities or creating direction/name variants.",
+      "claim_boundary_or_required_revision": "Accepted only as proposed visual bundle grouping, not biological hair-density change, a measured texture, or a demonstrated product effect. Length, matte reflection and side boundary must remain fixed during the proposed comparison. No direction is retroactively declared an existing target invariant."
+    },
+    {
+      "entry_id": "FS-0010",
+      "category_id": "hair",
+      "target_title": "웨이브 미디엄",
+      "target_description": "귀를 살짝 덮는 길이, 느슨한 웨이브",
+      "target_sha256": "9c76deb373858e07265d0ec0ce6357e14c6c681bb8a40cbc097f1307dee91472",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds wave-onset height, ear coverage, independent left/right curl direction and end spread to the existing ear-covering loose-wave description.",
+      "basis": [
+        "hair/roller-barrel-waves",
+        "hair/layered-lob"
+      ],
+      "basis_relationship": "This is a weak but disclosed analogy: roller-barrel-waves contains mousse/drying/sectioning instructions, not a measurement of loose waves. layered-lob is a collarbone-length layered cut, not this ear-length target. The proposal explicitly calls the use an adaptation and avoids claiming identical tool results.",
+      "semantic_duplicate_check": "Near the barrel-wave and layered-lob guides, but the target keeps its own ear-level coverage rather than copying their cut lengths, layer structure or roller procedure.",
+      "claim_boundary_or_required_revision": "Accept only as the globally labeled creative metadata already written. No male-specific result, collarbone length, roller suitability or observed curl geometry is verified."
+    },
+    {
+      "entry_id": "FS-0012",
+      "category_id": "hair",
+      "target_title": "장발 로우 번",
+      "target_description": "어깨 길이 모발을 목 뒤에서 묶기",
+      "target_sha256": "ccd52a304a2968616a9fe6d0f441c163384042833ce1715bc7c539c6b1a733b3",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds loose-versus-tied state descriptions and the exposed/folded end distinction that separates a bun from the existing low ponytail.",
+      "basis": [
+        "hair/nape-chignon",
+        "hair/high-ponytail"
+      ],
+      "basis_relationship": "nape-chignon directly supplies the low nape location. high-ponytail is a contrast in tie height and free-tail topology, not evidence that a crown ponytail produces a low bun or that a particular shoulder-length subject can achieve it.",
+      "semantic_duplicate_check": "Near FS-0003 and CRAFT-hair-38b90e4d7b02. Folded versus hanging ends is a useful state distinction; gender alone is not a distinct concept. Retaining both existing IDs is not approval to count new concepts.",
+      "claim_boundary_or_required_revision": "Total length/hairline preservation and bun/flyaway choices are proposed continuity controls, not feasibility measurements or hairstyle observations."
+    },
+    {
+      "entry_id": "FS-0013",
+      "category_id": "hair",
+      "target_title": "바람에 흐르는 머리",
+      "target_description": "약한 측면 바람, 얼굴을 가리지 않는 잔머리",
+      "target_sha256": "312c9dec4003d9260ced9ff4f5af4cdc7f5c3cc72456be45cf74a24bea1b1d27",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds person-relative wind direction, designated moving regions and start/hold/settle phases to the weak-side-wind target.",
+      "basis": [
+        "motion/hair-follow-through",
+        "motion/hair-wind-shadowing"
+      ],
+      "basis_relationship": "hair-follow-through supports only the animation principle of residual motion, not measured wind response. hair-wind-shadowing reports a Disney solver implementation and wind range, not evidence of this subject's motion or an exact duration.",
+      "semantic_duplicate_check": "CRAFT-hair-caef0dc686ae is fringe-only; allowing motion beyond the fringe is a creative scope choice for this target, not a verified property of the original description. The original weak wind and face-clear flyaway requirement must remain in the existing target text.",
+      "claim_boundary_or_required_revision": "No simulation, media observation or measured timing is approved. The whole-hair contrast is a proposed staging distinction, not a claim to have inspected moving hair."
+    },
+    {
+      "entry_id": "FS-0033",
+      "category_id": "makeup",
+      "target_title": "피치 데일리",
+      "target_description": "피치 블러셔, 부드러운 브라운 눈매, 촉촉한 립",
+      "target_sha256": "7fa02c7f00dccf8a2c8d355a18ea4801ef09f5c51479250c709a1b6080ba0750",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Retains the existing peach/brown/moist-lip combination and adds independent cheek-edge, eye-depth and lip-reflection controls.",
+      "basis": [
+        "makeup/single-cream-eyeshadow",
+        "makeup/clear-lip-balm",
+        "makeup/cheekbone-highlight"
+      ],
+      "basis_relationship": "single-cream-eyeshadow supports cream-shadow usage; its selected Painterly shade is nude beige, not this brown. clear-lip-balm supports untinted application, not measured gloss. cheekbone-highlight offers localized placement/blending, not evidence for peach blush or this complete look. The third direction explicitly disclaims source authorship of the combination.",
+      "semantic_duplicate_check": "Whole-look coordination differs from the component CRAFT-makeup-894f4e90c90a peach-blush and cream-shadow/lip guides. No second peach-blush entry or verified combination is approved.",
+      "claim_boundary_or_required_revision": "Colors derive from the existing creative target. Boundary and reflection choices are creative parameters, not observed product effects."
+    },
+    {
+      "entry_id": "FS-0036",
+      "category_id": "makeup",
+      "target_title": "프레시 그루밍",
+      "target_description": "얇은 톤 보정, 정돈된 눈썹, 자연스러운 입술",
+      "target_sha256": "2499e0649b36d2553b996da85b0d0fc1fd6b64148fd625b0949603eb416671b9",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds separate tone-correction, brow-gap and lip-gloss regions while preserving features rather than flattening skin tone.",
+      "basis": [
+        "makeup/targeted-concealer",
+        "makeup/natural-sparse-brow-fill",
+        "makeup/clear-lip-balm"
+      ],
+      "basis_relationship": "targeted-concealer supports localized blending for a named full-coverage product, not a verified thin base. natural-sparse-brow-fill supports filling gaps in hair direction. clear-lip-balm supports untinted small-amount use. Combining them into grooming is explicitly a proposal.",
+      "semantic_duplicate_check": "A full grooming combination rather than copies of FS-0038, local-concealer or balm entries; keep their individual source approvals separate.",
+      "claim_boundary_or_required_revision": "No gender-specific efficacy, measured coverage, retention or durability is established by this review."
+    },
+    {
+      "entry_id": "FS-0037",
+      "category_id": "makeup",
+      "target_title": "촬영용 매트",
+      "target_description": "T존 광택 조절, 피부결과 점 유지",
+      "target_sha256": "6533a9a8087ac87a12095773ab1d643479175e8819927b26a4092df58e0b121b",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Although T-zone mattification already overlaps other guides, separating retained cheek reflection and fixing lighting direction, exposure and white balance adds useful comparison metadata to this existing ID.",
+      "basis": [
+        "makeup/soft-matte-complexion",
+        "makeup/targeted-concealer"
+      ],
+      "basis_relationship": "soft-matte-complexion directly supplies the T-zone application concept. targeted-concealer supplies localized treatment only; it does not prove reflection control, skin-texture retention or photographic performance.",
+      "semantic_duplicate_check": "FS-0032 and CRAFT-makeup-7c60955d1d6a already cover matte/semimatte skin and retained features. Acceptance is for the added controlled-comparison directions within FS-0037, not another matte concept or newly verified male variant.",
+      "claim_boundary_or_required_revision": "Fixed capture conditions and preserved marks/texture are creative constraints, not a completed comparison, efficacy test or new media task."
+    },
+    {
+      "entry_id": "FS-0040",
+      "category_id": "makeup",
+      "target_title": "주근깨 유지",
+      "target_description": "코와 볼의 원래 주근깨, 얇은 베이스",
+      "target_sha256": "cc9595b06f0e4c8f9284bc9c4ab4b323221c0e35ff06fea13ed2e2bb92812b08",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds a freckles-preservation mask and separate surrounding tone-correction region instead of merely repeating thin base.",
+      "basis": [
+        "makeup/targeted-concealer",
+        "makeup/natural-dewy-complexion"
+      ],
+      "basis_relationship": "targeted-concealer supplies localized application, which is adapted by exclusion rather than applied to freckles. natural-dewy-complexion concerns a moisturizer/highlighter and layer placement; its existing review explicitly does not verify thin coverage or freckle retention.",
+      "semantic_duplicate_check": "Related to local concealer and thin-base guides, but this target's protected original freckle region is useful preservation metadata. No duplicate freckle or skin-tone entry is created.",
+      "claim_boundary_or_required_revision": "No freckle observation, product cover test, new freckles or erased marks are approved. Thin-base/freckle preservation remains authored intent."
+    },
+    {
+      "entry_id": "FS-0161",
+      "category_id": "makeup",
+      "target_title": "짧은 수염",
+      "target_description": "고르게 자란 짧은 수염, 입술과 턱의 경계 유지",
+      "target_sha256": "46d77352f0811808f3eb99ad144944532810523cdc6cee5d153c3bc72f867604",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds region-by-region length/connection recording and explicit reference-bound edges to the existing short-beard description.",
+      "basis": [
+        "makeup/natural-stubble",
+        "makeup/short-boxed-beard"
+      ],
+      "basis_relationship": "natural-stubble supplies even-trimming and boundary concepts; short-boxed-beard supplies region/outline comparisons but actually has short sides and fuller chin. Neither establishes the target as a boxed beard, and the proposal imports neither numeric length nor squared outline.",
+      "semantic_duplicate_check": "Strong pre-existing overlap with CRAFT-makeup-263c281ae2c9; the makeup review already acknowledges that overlap. Acceptance is limited to filling this existing ID's length/state metadata, not certifying a new or semantically unique short-beard concept.",
+      "claim_boundary_or_required_revision": "Actual trimming lengths remain unspecified. Do not turn per-region recording into uneven growth or a measured style claim contrary to the original evenly grown short beard."
+    },
+    {
+      "entry_id": "FS-0165",
+      "category_id": "makeup",
+      "target_title": "내추럴 네일",
+      "target_description": "짧고 깨끗한 손톱, 자연스러운 광택",
+      "target_sha256": "3aaf9cfce66e9ca743f2a14ad93c7434bb3a5e79dfea9ec76be3c2d12f12bfba",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds finger-specific free-edge length and natural-color/reflection records, plus handedness, to the original short clean nails.",
+      "basis": [
+        "makeup/french-manicure"
+      ],
+      "basis_relationship": "french-manicure supports separating a painted neutral base, white tip boundary and top-coat finish. It does not verify unpainted nail-bed anatomy, natural free-edge length, natural shine or nail health. The base/end distinction is borrowed as a recording framework only, with French tips explicitly excluded.",
+      "semantic_duplicate_check": "Different state from CRAFT-makeup-2a95075e4ba3 painted French tips and CRAFT-makeup-7a05ffaaf2b6 matte nails; no translated natural/French duplicate is added.",
+      "claim_boundary_or_required_revision": "Natural appearance and finger measurements must be chosen or recorded later, not treated as collected observations. No anatomical or health finding is accepted."
+    },
+    {
+      "entry_id": "FS-0166",
+      "category_id": "makeup",
+      "target_title": "누드 네일",
+      "target_description": "얇은 누드 컬러, 같은 손톱 길이 유지",
+      "target_sha256": "30ab8e6fb0a8032ea084523e57b217b3704b1ac90b87c7c37b4aab0fe16093e7",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds separate nude color, transparency and finish variables and controlled skin/nail color comparison while retaining reference length/shape.",
+      "basis": [
+        "makeup/french-manicure"
+      ],
+      "basis_relationship": "french-manicure directly offers one thin neutral-pink base coat, but its white tips and named top coat are not imported. Neither nude matching to skin nor equal finger lengths are established by the source.",
+      "semantic_duplicate_check": "The existing nude-nail target is retained rather than renamed French nails or a new shade-specific row. Generic shared length controls do not justify a new concept.",
+      "claim_boundary_or_required_revision": "Lighting/exposure matching and chosen transparency are production conditions only, not measured colorimetry or proof of a particular polish result."
+    },
+    {
+      "entry_id": "FS-0167",
+      "category_id": "makeup",
+      "target_title": "컬러 네일",
+      "target_description": "손가락별 색과 장식 위치를 정확하게 기록",
+      "target_sha256": "cce17f28cb3f4f3f7e2a2a9ba6425fb0f88e18b7b0e4b8916b6a391895f50453",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "The first direction largely restates the target, but explicit left/right thumb-to-little-finger indexing, absent-decoration markers and mirror handling add actionable continuity detail.",
+      "basis": [
+        "makeup/french-manicure"
+      ],
+      "basis_relationship": "french-manicure provides a base/tip boundary example only; it supplies no arbitrary per-finger palette, decorative placement, handedness or observed nail measurements. Direction 3 explicitly identifies the layout as creative.",
+      "semantic_duplicate_check": "Do not recast this general color/decoration ledger as a second French or nude-nail concept. No colors or decorations have actually been invented as verified values.",
+      "claim_boundary_or_required_revision": "No media or observed manicure is claimed. This is text metadata for later design/state recording."
+    },
+    {
+      "entry_id": "FS-0168",
+      "category_id": "makeup",
+      "target_title": "타투 위치 고정",
+      "target_description": "기준 도안, 위치, 크기와 방향을 유지",
+      "target_sha256": "37f80848214eb05663716dc6750310e9a01de8fb88c313a0a306248b860539a0",
+      "target_hash_encoding": "UTF-8 JSON.stringify of the entire parsed target object in source property order",
+      "decision": "accepted",
+      "reason": "Adds a tattoo exclusion region for local correction and groups design, subject-side, landmarks and occlusion into one continuity record, beyond the existing size/direction lock.",
+      "basis": [
+        "makeup/targeted-concealer"
+      ],
+      "basis_relationship": "targeted-concealer supports localized application/blending. Excluding tattoos is a negative-use adaptation; the source supplies no tattoo design, location, removal technique, ink behavior or continuity result.",
+      "semantic_duplicate_check": "No new tattoo concept is created; the existing target keeps its reference design, location, scale and direction. Makeup concealment is not substituted for the tattoo lock.",
+      "claim_boundary_or_required_revision": "Explicitly a continuity proposal, not an inspection of a real tattoo or skin. Existing size/direction preservation must remain in the target text; the supplement adds rather than replaces it."
+    }
+  ],
+  "semantic_uniqueness_summary": "No proposal creates a new ID. Existing overlaps remain pre-existing and must not be counted as newly distinct concepts: especially low buns, matte skin and short beard/stubble. Added state/comparison metadata can enrich an existing ID without certifying that the underlying category inventory is duplicate-free. Revised FS-0008 adds a same-length bundle-thickness/spacing comparison and leaves fringe direction explicitly unspecified; it no longer claims a forward-flow invariant or merely repeats neighboring crop definitions.",
+  "factual_boundary_summary": "Global proposal/authorship/basis_policy labels are necessary and must travel with accepted text. Product claims, numeric source instructions and source-specific tutorial geometry are not generalized or promoted. No rejected butterfly-cut or bixie-cut fact is used. Revised FS-0007 no longer attributes wetness to slick-back; revised FS-0008 labels texture and direction choices as creative, not collected facts. No direction becomes a verified fact, media item or new entry.",
+  "validation": {
+    "json_parse": true,
+    "expected_ids": [
+      "FS-0001",
+      "FS-0003",
+      "FS-0007",
+      "FS-0008",
+      "FS-0010",
+      "FS-0012",
+      "FS-0013",
+      "FS-0033",
+      "FS-0036",
+      "FS-0037",
+      "FS-0040",
+      "FS-0161",
+      "FS-0165",
+      "FS-0166",
+      "FS-0167",
+      "FS-0168"
+    ],
+    "decision_count": 16,
+    "unique_decision_count": 16,
+    "accepted_rejected_disjoint": true,
+    "accepted_rejected_union_equals_supplement_ids": true,
+    "supplement_ids_equal_plan_ids": true,
+    "per_entry_decisions_match_id_lists": true,
+    "all_categories_match_existing_targets": true,
+    "all_20_basis_concepts_approved_with_supported_field_checks": true,
+    "accepted_count": 16,
+    "rejected_count": 0
+  }
+}

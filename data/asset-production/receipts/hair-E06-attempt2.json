@@ -1,0 +1,19 @@
+{
+  "job_id": "hair-E06",
+  "attempt": 2,
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E06.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c2b-d0a1-7242-a9a7-6c1b4be43fee/exec-703c8d71-2a25-4c19-b8f1-b3b811af1b5b.png",
+  "sha256": "e59da9c1a7e0b3611e8a9d8fa36738ea91fe45a11534a1cb9ece5666cf847cdd",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E06; concept: soft pixie; retry attempt 2.\nCreate one photorealistic reference photograph of the same fictional adult woman shown in reference image 1, which is the accepted identity A face anchor expression-E00. Preserve only her face identity, facial proportions, dark-brown eyes, medium warm-brown skin, natural asymmetry, subject-left cheek mole, neutral gray background, soft neutral lighting, gray shirt, camera and crop. Hair must change completely: remove the long tied-back hairstyle. Give her a soft shaped short pixie cut with a slightly longer textured top, short sides that clear both ears, and a short neat nape. The nape hairline must end high and visibly short; no ponytail, bun, long side pieces, or strands extending below the ears. Front three-quarter view showing subject-left ear and nape; include entire head and enough shoulders. One image, one state, no collage, no text, labels or watermark.\nReference roles: image 1 (absolute project path expression-E00.png) is identity A face anchor only; it does not supply the target hairstyle.",
+  "reference_paths": ["/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; target geometry visible",
+    "observations": "Viewed actual 1024x1536 output. Face identity, dark-brown eyes, medium warm-brown skin and subject-left cheek mole are consistent with expression-E00. Long tied hair is gone; a soft shaped pixie has a longer textured top, both ears are clear of side hair, and the nape is short and neat. Neutral gray setup and full head framing are visible."
+  }
+}

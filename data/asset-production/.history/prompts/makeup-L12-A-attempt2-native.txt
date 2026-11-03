@@ -1,0 +1,14 @@
+FRAME authored synthetic reference. Job: makeup-L12-A; concept: 컨투어 농도 약화.
+Class: creative; domain: makeup; entry: GEN-asset-makeup-L12-A.
+Parent entry IDs: ["GEN-asset-makeup-L12","FS-0039"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files: Image 1: makeup-L12 is the edit target and must remain the same photograph except for the named makeup delta. Image 2: expression-E00 is the identity anchor.
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L12 photograph of identity A. Reduce only the contour pigment density below the cheekbones; keep highlight intensity, placement and original bone geometry unchanged. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: frontal full face, complete crown, ears, chin and upper shoulders. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks. Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background. Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.
+Change only: Reduce only the contour pigment density below the cheekbones; keep highlight intensity, placement and original bone geometry unchanged.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks: contour is weaker; highlight intensity and placement are unchanged; jaw and cheekbone geometry are identical; compare directly against the actual accepted makeup-L12 input.
+Output: one PNG, 1024x1536.

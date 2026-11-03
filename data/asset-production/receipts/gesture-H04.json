@@ -1,0 +1,29 @@
+{
+  "job_id": "gesture-H04",
+  "status": "generated",
+  "generation_thread_id": "01a18d35-bfd1-7810-95ab-1abef2aec678",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d35-bfd1-7810-95ab-1abef2aec678",
+  "before_source_files": [],
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H04; concept: 화면 한 점 비접촉 지시.\nClass: base; domain: gesture; entry: CRAFT-gesture-b81ea6c29c51.\nParent entry IDs: []\nOne fictional adult subject, identity A, shown only from upper torso to hands; no face or head in frame. No web photograph identity inputs.\nUse the actual accepted makeup-N01 image as the sole input reference, and only as the right-hand identity, skin, proportions, marks, and short natural nail anchor. Do not use or infer from any face reference.\nObservable direction: Support one unbranded phone upright with the left hand and point the right index toward one small neutral gray square on its screen. Leave an approximately 10 mm visible air gap as a staging target; other right fingers remain relaxed. Keep both hands, both wrists, and both forearms continuously visible and anatomically coherent, with every visible finger chain traceable through its joints to the correct palm, wrist, and forearm. The left hand securely supports the phone. The right index fingertip stays in front of the glass plane but does not touch the screen, glass, bezel, or any phone edge.\nCamera / visible region: materially new close side-oblique view across the phone-glass plane, looking across the depth between the right index fingertip and the phone. Do not use a frontal portrait or frontal phone view. Angle the phone so its glass plane and near bezel are visibly separated in depth from the fingertip. Compose the fingertip just beyond the phone silhouette so a clearly visible strip of matte gray studio background lies in the air gap between fingertip and both the glass and bezel; the gap must remain visually inspectable and must not be hidden by finger-phone overlap, reflections, perspective alignment, or the phone edge. Keep both complete hand-to-forearm chains and all phone contact surfaces in frame with margin. No face, head, facial reflection, or portrait crop.\nScene and lighting: matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, plain gray top visible only as needed. Detailed photorealistic diagnostic photograph with natural skin texture.\nPreserve: A hand proportions, skin tone, natural marks, and short uncolored rounded nails established only by makeup-N01; neutral gray background, soft neutral lighting, controlled white balance; one phone; named hand ownership and contact surface; clear anatomy and coherent forearms.\nChange only: the left hand holds one upright phone while the right index points toward one neutral gray square on the screen without touching phone glass or bezel.\nNo collage, labels, watermark, logo, packaging substitution, mirrored duplicate, extra digits, fused or floating hands, object penetration, or invented motion. A still does not verify timing, physical measurements, emotion, or unseen geometry.\nAcceptance checks (not yet performed): inspect full resolution; confirm visible gray-background air strip between fingertip and both phone glass and bezel from the side-oblique camera; confirm no phone-edge contact; trace all visible fingers to both palms, wrists, and forearms; reject occluded or malformed anatomy or unreadable contacts.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: sole hand identity reference, /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/makeup-N01.png. Use only to match the visible hand's proportions, skin tone, natural mark, and short uncolored nails; do not include a face.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png"
+  ],
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1024,
+    "width": 1536
+  },
+  "path": "public/generated/frame-assets/gesture-H04.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d35-bfd1-7810-95ab-1abef2aec678/exec-5b8f0855-fc60-49a5-8920-d9303e9fbd70.png",
+  "sha256": "0299cd77e1dda78c80eba501b3104d1c967ccaae0879d586e4f814b66d9316e3",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; parent review required",
+    "observations": "Inspected the actual full-resolution 1536x1024 PNG. The side-oblique angle exposes the phone glass and bezel in depth; a distinct matte-gray background strip is visibly open between the right index fingertip and both the glass and bezel. The fingertip does not touch the phone edge. No face, head, or facial reflection appears. The left hand visibly grips one upright phone; the right index points toward one neutral gray screen square and its other fingers remain relaxed. Visible digits connect coherently to both palms; both wrists and forearms are continuous with their respective hands. Hand skin, small natural mark, and short uncolored nails follow the sole makeup-N01 reference."
+  },
+  "produced_project_path": "public/generated/frame-assets/gesture-H04-gap-camera.png"
+}

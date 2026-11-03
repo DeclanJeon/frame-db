@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-N02",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-N02.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-b216c3de-74e2-4123-a529-fbb64afce9b3.png",
+  "sha256": "4d597dbe8422f64be2f70dbbe8805ef5cff44169dba781d8dde34f3e5980d910",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-N02; concept: 반투명 토프 네일.\nClass: base; domain: makeup; entry: FS-0166.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-N01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use the accepted makeup-N01 right hand and pose. Apply a thin muted translucent taupe coat matched to the selected hand, leaving nail shape and a hint of natural nail visible; no single beige is prescribed for all skin tones. Keep every nail boundary readable in the same oblique top view; establish the hand from the A identity anchor, not by copying another face or hand photograph. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: oblique top view of complete right hand wrist and short forearm. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the N01 hand proportions, skin tone and marks, short nail shape, finger spacing, wrist connection, tabletop and light.\nChange only: Change nail pigment or finish only as specified.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Muted translucent taupe coat is even, not an opaque recoloring of fingers.; Trace five digits to the same wrist; inspect all nail beds, cuticles and contact shadows.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Same hand shape, skin texture and small dorsal hand mark as N01. All visible nails have a sheer taupe finish with a narrow translucent free edge; image is landscape at requested dimensions."
+  }
+}

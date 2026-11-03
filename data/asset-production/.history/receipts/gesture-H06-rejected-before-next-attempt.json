@@ -1,0 +1,35 @@
+{
+  "job_id": "gesture-H06",
+  "attempt": 2,
+  "attempt": 2,
+  "status": "rejected",
+  "generation_thread_id": "01a18d13-9501-74a2-bf89-44653d13baa3",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-9501-74a2-bf89-44653d13baa3",
+  "before_source_files": [
+    "exec-0f329d0f-de36-46cb-a8ba-db6a516f92a2.png",
+    "exec-2f02a92b-2d96-4f66-b7c9-9601e7575f6f.png",
+    "exec-4f40980d-7c31-4ae7-969c-d90b05701fa9.png",
+    "exec-72f09d05-85db-4c8e-b1ed-a39077ea9b89.png",
+    "exec-a3405c9a-188c-4dfb-9d55-11e2729e3fc9.png"
+  ],
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H06; concept: 세 손가락 컵 손잡이 그립.\nClass: base; domain: gesture; entry: CRAFT-gesture-e81aca01031f.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-N01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Hold one plain empty ceramic mug by its subject-right handle: right index, middle and ring fingers inside the generously sized handle, thumb on the outer upper handle and little finger outside. Keep the left hand resting separately on the tabletop. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: Hold one plain empty ceramic mug by its subject-right handle: right index, middle and ring fingers inside the generously sized handle, thumb on the outer upper handle and little finger outside. Keep the left hand resting separately on the tabletop.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Three named fingers fit inside the same intact handle; thumb and little finger remain outside.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nRetry attempt 2. Make one plain ceramic mug with a large, fully visible handle, positioned close enough and oriented toward camera so the grip can be inspected. The subject's RIGHT hand owns the mug. Show the index, middle and ring fingers as three distinct fingers threaded separately through the handle opening. Keep the thumb and little finger clearly outside the handle, supporting the mug body. No fingers merged, hidden in an unreadable grip, or passing through ceramic.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/makeup-N01.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-9501-74a2-bf89-44653d13baa3/exec-8c5e870a-3357-42db-ae1d-a3e9028c565b.png",
+  "sha256": "405144361bb0f192018fae4fe5fda1d38ae870bba88ead6fc8b1b91f25bf1a7a",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "rejected; no project PNG copied",
+    "observations": "Viewed the actual 1536x1024 output. The right hand grips a small mug handle with a closed fist. The opening is not large enough to show separate index, middle and ring fingers inside, and thumb/little finger placement outside cannot be established. This does not meet the required auditable grip."
+  }
+}

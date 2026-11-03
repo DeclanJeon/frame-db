@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "category_id": "motion",
+  "collector": "omo-motion-collector-20261030",
+  "collected_at": "2026-10-30T04:44:30Z",
+  "sources": [
+    {
+      "source_id": "adobe-principles",
+      "url": "https://www.adobe.com/creativecloud/animation/discover/principles-of-animation.html",
+      "title": "Understanding the 12 principles of animation.",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 번호 절 1, 2, 5, 7, 8, 9. 제작도구 제공자의 자체 교육 설명이며 원저서 직접 열람은 아님.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문 접근만 확인. 짧은 자체 한국어 사실 정리만 수록하며 원문·사진·영상 복제나 재배포 허락은 확보하지 않았다.",
+        "attribution": "Adobe 교육 페이지에 귀속. 개인 필자는 식별되지 않았다. 별도 미디어 이용 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "ibm-classic",
+      "url": "https://www.ibm.com/design/language/animation/classic-principles/",
+      "title": "IBM Design Language – Classic principles",
+      "publisher": "IBM",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Slow in and slow out 제목 아래 첫 문단 및 그 다음 축별 이동 문단. webfetch에서 공개 본문을 읽음.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문 접근만 확인. IBM 그래픽 모션 지침의 요약이며 범용 물리 법칙이나 미디어 재사용 허락으로 확대하지 않는다.",
+        "attribution": "IBM Design Language에 귀속. 개인 저자 및 별도 복제·편집·상업 재배포 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "disney-rapunzel",
+      "url": "https://media.disneyanimation.com/uploads/production/publication_asset/56/asset/rapzHairSim.pdf",
+      "title": "Simulating Rapunzel’s Hair in Disney’s Tangled",
+      "publisher": "Walt Disney Animation Studios",
+      "authors": ["Kelly Ward", "Maryann Simmons", "Andy Milne", "Hidetaka Yosumi", "Xinmin Zhao"],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "PDF p.1, §2 Simulation Features: Hair Piling and Volume Preservation; Effortless Dragging; Simulation Freezing.",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://media.disneyanimation.com/uploads/production/publication_asset/56/asset/rapzHairSim.pdf",
+        "scope": "PDF p.1에 모든 이미지의 Disney Enterprises 저작권 표시. 기술 설명만 짧게 요약. 이미지·PDF 재배포 및 소프트웨어 이용 허락은 확보하지 않았다.",
+        "attribution": "Ward, Simmons, Milne, Yosumi, Zhao 및 Walt Disney Animation Studios. 특정 영화의 구현 사례이며 일반 성능 보장이나 실측 결과가 아니다."
+      }
+    },
+    {
+      "source_id": "disney-moana",
+      "url": "https://media.disneyanimation.com/uploads/production/publication_asset/167/asset/moanaHair_abstract1.pdf",
+      "title": "The Art and Technology of Simulating Hair in Disney's Moana",
+      "publisher": "Walt Disney Animation Studios",
+      "authors": ["Marc Thyng", "Christopher Evart", "Tobias Jones", "Alex McAdams"],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "PDF p.1, §1 Overview, §2 Simulation, §3 Technical Animation. 곱슬머리 모델·동적 연결·바람 가림 설명.",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://media.disneyanimation.com/uploads/production/publication_asset/167/asset/moanaHair_abstract1.pdf",
+        "scope": "PDF p.1에 Disney 이미지 저작권 및 Not for redistribution 표시. 본문 기술 사실의 짧은 요약만 작성; 그림·PDF·영상 재배포 없음.",
+        "attribution": "Thyng, Evart, Jones, McAdams 및 Walt Disney Animation Studios. 그림 저작권은 Disney에 남으며 그림을 취득·검사하지 않았다."
+      }
+    },
+    {
+      "source_id": "adobe-compositing",
+      "url": "https://helpx.adobe.com/after-effects/desktop/work-with-transparency-and-compositing/compositing-in-after-effects/compositing-transparency-overview-resources.html",
+      "title": "Compositing and transparency overview and resources",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 도입부의 여러 이미지 합성 설명, 불투명도 속성 문단, 혼합 모드 문단. 페이지 갱신 표기 2026-04-30.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 도움말의 공개 텍스트만 확인. 연결 영상·이미지·예제 프로젝트의 복제·편집·재배포 권리는 미확인.",
+        "attribution": "Adobe After Effects Help에 귀속. 개인 저자 미표기; 미디어 이용 허락 확보 아님."
+      }
+    },
+    {
+      "source_id": "adobe-alpha",
+      "url": "https://helpx.adobe.com/after-effects/desktop/work-with-transparency-and-compositing/work-with-alpha-channels-and-masks/alpha-channels-masks-mattes.html",
+      "title": "Use alpha channels, masks, and mattes in After Effects | After Effects",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 첫 RGBA 설명, 네 번째 채널 해석 문단, Composition 패널의 흰색·검정·회색 설명. 페이지 갱신 표기 2025-11-13.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 도움말의 공개 텍스트만 확인. 도표·영상·예제 파일 재사용 허락은 미확인.",
+        "attribution": "Adobe After Effects Help에 귀속. 개인 필자와 별도 미디어 재배포 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "adobe-matte",
+      "url": "https://helpx.adobe.com/after-effects/desktop/work-with-transparency-and-compositing/work-with-track-mattes-and-traveling-mattes/track-mattes-and-traveling-mattes.html",
+      "title": "Track Mattes and Traveling Mattes",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Convert a layer into a Track Matte 첫 문단 및 Select Track Matte layer의 Alpha/Luma/Invert 토글 설명. 페이지 갱신 표기 2024-10-14.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 도움말 텍스트만 확인. 시연 영상 미재생, 그림·프로젝트 파일 취득 없음; 미디어 재사용 조건 미확인.",
+        "attribution": "Adobe After Effects Help에 귀속. 공개 열람을 에셋 라이선스로 간주하지 않는다."
+      }
+    },
+    {
+      "source_id": "adobe-keying",
+      "url": "https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/keying/keying.html",
+      "title": "Keying in After Effects | After Effects",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "About keying 절의 투명도 정의와 배경색 설명; Shooting and acquiring footage for keying 첫 항목.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 기술 설명의 짧은 요약만 수록. 링크된 영화·영상·사진·예제 파일의 재사용 권리는 확인하지 않았다.",
+        "attribution": "Adobe After Effects Help에 귀속. 개별 필자 미표기, 별도 미디어 허락 미확인."
+      }
+    },
+    {
+      "source_id": "adobe-tracking",
+      "url": "https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/track-motion/tracking-stabilizing-motion-cs5.html",
+      "title": "Tracking and stabilization motion workflows in After Effects | After Effects",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 첫 추적 데이터 적용 문단; Motion tracking user interface and terminology overview의 추적점 구성 및 1·2·4점 설명.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 도움말 본문만 확인. 실제 클립 추적·검수·오차 측정은 수행하지 않았고 예제 영상 재사용 허락도 미확인.",
+        "attribution": "Adobe After Effects Help에 귀속. 문서 설명은 수집자의 실제 소프트웨어 실행 결과가 아니다."
+      }
+    },
+    {
+      "source_id": "adobe-blur",
+      "url": "https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/assorted-animation-tools/assorted-animation-tools.html",
+      "title": "Assorted animation tools in After Effects | After Effects",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:44:30Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Motion blur 및 Motion blur settings in the Advanced tab of Composition Settings: Shutter Angle, Shutter Phase. 페이지 갱신 표기 2026-05-11.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 기술 본문만 확인. 렌더링·영상 분석·예제 파일 취득 없음. 미디어 복제·재배포 허락은 미확인.",
+        "attribution": "Adobe After Effects Help에 귀속. 아래 수치는 원문 예시를 설명한 출처 주장이지 수집자의 측정값이 아니다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "squash-and-stretch",
+      "title_ko": "스쿼시와 스트레치",
+      "subtype": "힘·무게",
+      "summary": "Adobe는 변형을 무게·유연성 표현으로 설명한다.",
+      "facts": [
+        {"field": "표현대상", "value": "무게와 유연성을 드러낸다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §1 첫 문단", "kind": "source_claim"}},
+        {"field": "접촉예시", "value": "공이 닿으면 납작하고 넓어진다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §1 첫 문단", "kind": "source_claim"}},
+        {"field": "부피조건", "value": "세로로 늘리면 가로폭을 줄인다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §1 마지막 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["힘·무게", "변형"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "anticipation",
+      "title_ko": "본동작 전의 예비 동작",
+      "subtype": "타이밍",
+      "summary": "Adobe는 예비 동작이 관객을 준비시킨다고 설명한다.",
+      "facts": [
+        {"field": "관객기능", "value": "다가올 행동을 예고한다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §2 첫 문단", "kind": "source_claim"}},
+        {"field": "운동예시", "value": "골퍼는 치기 전 팔을 뒤로 뺀다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §2 첫 문단", "kind": "source_claim"}},
+        {"field": "일상적용", "value": "집을 물건으로 미리 주의를 향한다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §2 마지막 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["타이밍", "예비 동작"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "arced-motion",
+      "title_ko": "호를 따르는 운동 경로",
+      "subtype": "힘·무게",
+      "summary": "Adobe는 자연스러운 운동의 호를 설명한다.",
+      "facts": [
+        {"field": "경로성격", "value": "대부분의 실제 행동은 호를 따른다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §7 첫 문단", "kind": "source_claim"}},
+        {"field": "적용예시", "value": "사지와 던진 물체를 예로 든다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §7 첫 문단", "kind": "source_claim"}},
+        {"field": "시간조건", "value": "빠른 호는 흐려져 식별하기 어렵다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §7 둘째 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["운동 경로", "힘·무게"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "secondary-action",
+      "title_ko": "주동작을 돕는 보조 행동",
+      "subtype": "보조 움직임",
+      "summary": "Adobe는 보조 행동의 주의 위계를 설명한다.",
+      "facts": [
+        {"field": "기능", "value": "주동작을 강조한다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §8 첫 문단", "kind": "source_claim"}},
+        {"field": "예시", "value": "걷는 중 팔 흔들기를 든다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §8 첫 문단", "kind": "source_claim"}},
+        {"field": "주의조건", "value": "주동작의 시선을 빼앗지 않아야 한다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §8 마지막 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["보조 움직임", "행동 위계"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "timing-and-perceived-weight",
+      "title_ko": "프레임 수와 무게의 타이밍",
+      "subtype": "타이밍",
+      "summary": "Adobe는 프레임 수와 무게 반응을 연결한다.",
+      "facts": [
+        {"field": "조절수단", "value": "프레임이나 그림 수를 조절한다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §9 둘째 문단", "kind": "source_claim"}},
+        {"field": "느린동작", "value": "느릴수록 더 많은 프레임이 필요하다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §9 둘째 문단", "kind": "source_claim"}},
+        {"field": "무게비교", "value": "밀 때 가벼운 물체가 빨리 반응한다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §9 첫 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["타이밍", "힘·무게"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "hair-follow-through",
+      "title_ko": "머리카락의 지연 반응",
+      "subtype": "보조 움직임",
+      "summary": "Adobe는 정지 후 머리카락의 후속 운동을 설명한다.",
+      "facts": [
+        {"field": "잔여운동", "value": "모발은 몸보다 조금 더 움직인다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §5 마지막 문단", "kind": "source_claim"}},
+        {"field": "부분속도", "value": "신체 부분의 속도는 서로 다르다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §5 마지막 문단", "kind": "source_claim"}},
+        {"field": "원리적용", "value": "후속 운동은 물체에도 적용된다.", "evidence": {"source_id": "adobe-principles", "locator": "본문 §5 둘째 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["보조 움직임", "머리카락", "후속 운동"],
+      "existing_entry_id": "FS2-motion-001",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "ease-in-and-out",
+      "title_ko": "움직임의 시작과 끝 이징",
+      "subtype": "타이밍",
+      "summary": "IBM의 그래픽 모션 지침은 빠른 가속과 부드러운 감속을 권한다. 자연 운동 전체에 대한 규칙은 아니다.",
+      "facts": [
+        {"field": "시작 속도", "value": "일반적으로 빠르게 속도를 올린다.", "evidence": {"source_id": "ibm-classic", "locator": "감속 원리 제목 아래 첫 문단", "kind": "source_claim"}},
+        {"field": "끝 속도", "value": "정지는 부드럽게 감속한다.", "evidence": {"source_id": "ibm-classic", "locator": "감속 원리 제목 아래 첫 문단", "kind": "source_claim"}},
+        {"field": "곡선 제한", "value": "바운스·늘어남·급정지 곡선은 권장하지 않는다.", "evidence": {"source_id": "ibm-classic", "locator": "감속 원리 제목 아래 첫 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["타이밍", "그래픽 모션", "IBM 지침"],
+      "existing_entry_id": "CRAFT-motion-c5b1e630e032",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "axis-sequenced-graphic-motion",
+      "title_ko": "축별로 겹쳐 이어지는 그래픽 이동",
+      "subtype": "타이밍",
+      "summary": "IBM은 유기적인 호 대신 축별 이동을 자체 그래픽 모션 해석으로 제시한다.",
+      "facts": [
+        {"field": "경로 구성", "value": "한 번에 한 축으로 요소를 이동시킨다.", "evidence": {"source_id": "ibm-classic", "locator": "감속 원리 다음 문단: 원래 호 원리와 대조한 축별 이동 설명", "kind": "source_claim"}},
+        {"field": "전환 시간", "value": "각 축의 이동 사이를 조금 겹친다.", "evidence": {"source_id": "ibm-classic", "locator": "감속 원리 다음 문단: 축별 이동 설명", "kind": "source_claim"}},
+        {"field": "표현 의도", "value": "목적성과 매끄러운 조직성을 강조한다.", "evidence": {"source_id": "ibm-classic", "locator": "감속 원리 다음 문단: 축별 이동 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["타이밍", "그래픽 모션", "축별 이동"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "hair-contact-volume-preservation",
+      "title_ko": "모발 접촉 스프링과 부피 보존",
+      "subtype": "보조 움직임",
+      "summary": "Disney는 라푼젤 모발의 접촉·부피 처리를 설명한다.",
+      "facts": [
+        {"field": "접촉 힘", "value": "충돌 구간에 스프링 힘을 추가한다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 모발 쌓임·부피 보존 첫 문단", "kind": "source_claim"}},
+        {"field": "작용 목적", "value": "부피 유지와 가닥 마찰을 돕는다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 모발 쌓임·부피 보존 첫 문단", "kind": "source_claim"}},
+        {"field": "해제 조건", "value": "직접 접촉에서 생기고 거리 임계치를 넘으면 끊긴다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 모발 쌓임·부피 보존 첫 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["보조 움직임", "모발 충돌", "Tangled"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "directional-hair-ground-friction",
+      "title_ko": "모발의 방향별 지면 마찰",
+      "subtype": "힘·무게",
+      "summary": "Disney는 모발 끌림을 방향별 마찰로 조절했다.",
+      "facts": [
+        {"field": "분해 기준", "value": "가닥의 접선 방향 마찰을 분리한다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 쉽게 끌기 둘째 문단", "kind": "source_claim"}},
+        {"field": "이동 조절", "value": "접선 마찰을 낮춰 길이 방향 미끄러짐을 돕는다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 쉽게 끌기 둘째 문단", "kind": "source_claim"}},
+        {"field": "정지 조절", "value": "높은 정지 마찰로 멈춘 뒤 계속 밀리는 것을 억제한다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 쉽게 끌기 둘째 문단 끝", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["힘·무게", "지면 접촉", "Tangled"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "selective-hair-simulation-freezing",
+      "title_ko": "모발의 선택적 시뮬레이션 정지",
+      "subtype": "보조 움직임",
+      "summary": "Disney는 샷별 활성 모발 길이를 조절했다.",
+      "facts": [
+        {"field": "계산 범위", "value": "뒤쪽 시뮬레이션을 꺼 계산 길이를 줄인다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 시뮬레이션 정지 첫 문단", "kind": "source_claim"}},
+        {"field": "무게 보완", "value": "분리로 가벼워 보이면 끝에 당기는 제약을 둔다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 시뮬레이션 정지 둘째 문단", "kind": "source_claim"}},
+        {"field": "경계 연결", "value": "보이는 비활성 구간은 스프링으로 활성 구간과 잇는다.", "evidence": {"source_id": "disney-rapunzel", "locator": "p.1 §2, 시뮬레이션 정지 셋째 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["보조 움직임", "계산 범위", "Tangled"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "curly-hair-elastic-rods",
+      "title_ko": "곱슬모의 탄성 막대 모델",
+      "subtype": "보조 움직임",
+      "summary": "Disney는 모아나의 곱슬모를 위한 모델·자료형을 설명한다.",
+      "facts": [
+        {"field": "굽힘 모델", "value": "Disney Elastic Rods로 곱슬모의 비틀림을 지원했다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §1 첫 문단", "kind": "source_claim"}},
+        {"field": "자료 구조", "value": "Multicurve가 새 비틀림 정보를 저장한다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §1 첫 문단", "kind": "source_claim"}},
+        {"field": "연동 변경", "value": "리그 빌드와 디포머도 새 노드를 지원하도록 바꿨다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §1 첫 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["보조 움직임", "곱슬모", "Moana"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "dynamic-hair-wire-connections",
+      "title_ko": "동적 모발 와이어 연결",
+      "subtype": "보조 움직임",
+      "summary": "Disney는 새 모발 형상을 유지하는 연결을 설명한다.",
+      "facts": [
+        {"field": "연결 방식", "value": "와이어 사이 연결을 동적으로 생성했다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §2, 그룸 사전 시뮬레이션 설명 문단 후반", "kind": "source_claim"}},
+        {"field": "형상 유지", "value": "원래 그룸에서 벗어난 새 형태를 유지할 수 있었다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §2, 그룸 사전 시뮬레이션 설명 문단 후반", "kind": "source_claim"}},
+        {"field": "기존 문제", "value": "기존 방식은 원래 모양으로 당겨 부자연스러웠다고 보고한다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §2, 그룸 사전 시뮬레이션 설명 문단 끝", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["보조 움직임", "형상 유지", "Moana"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "hair-wind-shadowing",
+      "title_ko": "모발 바람의 가림 처리",
+      "subtype": "합성·연속성",
+      "summary": "Disney는 주변 환경에 맞는 모발 바람 처리를 설명한다.",
+      "facts": [
+        {"field": "환경 범위", "value": "약한 유지 운동부터 폭풍까지 바람을 적용했다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §3 마지막 문단, 야외 환경 설명", "kind": "source_claim"}},
+        {"field": "구현 위치", "value": "바람 가림 기능을 솔버에 추가했다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §3 마지막 문단, 바람 가림 설명", "kind": "source_claim"}},
+        {"field": "이전 작업", "value": "그전에는 샷마다 맵과 추가 필드로 가림을 흉내 냈다.", "evidence": {"source_id": "disney-moana", "locator": "p.1 §3 마지막 문단, 기능 도입 전 작업 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["합성·연속성", "바람", "Moana"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "layer-compositing",
+      "title_ko": "레이어별 합성 순서",
+      "subtype": "합성·연속성",
+      "summary": "Adobe의 투명도 합성 설명으로 기존 레이어 합성 항목을 보강한다. 원래 가이드의 그림자·그레인 일치 전체를 검증한 것은 아니다.",
+      "facts": [
+        {"field": "가림 원리", "value": "일부를 투명하게 만들면 다른 이미지가 드러난다.", "evidence": {"source_id": "adobe-compositing", "locator": "본문 첫 합성 원리 문단", "kind": "source_claim"}},
+        {"field": "전체 투명도", "value": "Opacity 속성으로 레이어 전체를 균일하게 투명 또는 반투명하게 만든다.", "evidence": {"source_id": "adobe-compositing", "locator": "본문 목록 다음 불투명도 문단", "kind": "source_claim"}},
+        {"field": "대체 결합", "value": "혼합 모드로 레이어 자체 투명도를 바꾸지 않고 이미지 데이터를 결합할 수도 있다.", "evidence": {"source_id": "adobe-compositing", "locator": "본문 혼합 모드·채널 효과 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["합성·연속성", "레이어", "투명도"],
+      "existing_entry_id": "CRAFT-motion-9efe3510d0a3",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "alpha-channel-transparency",
+      "title_ko": "알파 채널의 투명도",
+      "subtype": "합성·연속성",
+      "summary": "Adobe는 색 채널과 투명도 채널을 구분하고 합성 패널의 알파 표시 기준을 설명한다.",
+      "facts": [
+        {"field": "정보 분리", "value": "RGB는 색 정보를 담고 추가 알파 채널은 투명도 정보를 담을 수 있다.", "evidence": {"source_id": "adobe-alpha", "locator": "본문 첫 RGBA 설명 문단", "kind": "source_claim"}},
+        {"field": "해석 채널", "value": "After Effects는 여러 알파 중 네 번째 채널만 알파로 해석한다.", "evidence": {"source_id": "adobe-alpha", "locator": "본문 다중 알파 채널 문단", "kind": "source_claim"}},
+        {"field": "표시 기준", "value": "Composition 패널의 알파 보기에서 흰색은 불투명, 검정은 투명, 회색은 부분 투명이다.", "evidence": {"source_id": "adobe-alpha", "locator": "본문 Composition 패널 알파 보기 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["합성·연속성", "알파", "RGBA"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "track-matte-transparency",
+      "title_ko": "트랙 매트의 영역 제어",
+      "subtype": "합성·연속성",
+      "summary": "Adobe는 다른 레이어의 채널로 투명 영역을 정하는 트랙 매트를 설명한다. 본문 토글 규격을 따르고 서로 충돌하는 밝기 설명은 채택하지 않았다.",
+      "facts": [
+        {"field": "레이어 위치", "value": "스택 어느 위치의 레이어도 다른 레이어의 매트 소스가 될 수 있다.", "evidence": {"source_id": "adobe-matte", "locator": "레이어를 트랙 매트로 전환하는 절 첫 문단", "kind": "source_claim"}},
+        {"field": "소스 공유", "value": "여러 레이어가 하나의 매트 소스를 함께 참조할 수 있다.", "evidence": {"source_id": "adobe-matte", "locator": "레이어를 트랙 매트로 전환하는 절 첫 문단", "kind": "source_claim"}},
+        {"field": "채널 선택", "value": "소스의 알파 또는 휘도를 선택하고 필요하면 반전한다.", "evidence": {"source_id": "adobe-matte", "locator": "레이어를 트랙 매트로 전환하는 절 첫 문단 및 선택 절의 토글 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["합성·연속성", "매트", "영역 제어"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "chroma-keying",
+      "title_ko": "단색 배경 크로마 키잉",
+      "subtype": "합성·연속성",
+      "summary": "Adobe는 특정 색을 투명하게 만들어 배경을 교체하는 키잉과 촬영 조건을 설명한다.",
+      "facts": [
+        {"field": "투명화 기준", "value": "지정한 색과 유사한 픽셀을 투명하게 만든다.", "evidence": {"source_id": "adobe-keying", "locator": "색·휘도·차분 키 설명 절 첫 문단", "kind": "source_claim"}},
+        {"field": "배경색 범위", "value": "파랑·초록에 한정되지 않고 다른 단색도 사용할 수 있다.", "evidence": {"source_id": "adobe-keying", "locator": "색·휘도·차분 키 설명 절의 단색 스크린 문단", "kind": "source_claim"}},
+        {"field": "촬영 조건", "value": "색 스크린을 균일하게 비추고 주름이 없도록 하라고 안내한다.", "evidence": {"source_id": "adobe-keying", "locator": "키잉용 촬영·소스 확보 절 첫 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["합성·연속성", "키잉", "배경 교체"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "motion-tracking-composite",
+      "title_ko": "모션 추적 데이터로 합성 연결",
+      "subtype": "합성·연속성",
+      "summary": "Adobe는 대상의 움직임 데이터를 다른 레이어나 효과에 적용하는 추적 구조를 설명한다.",
+      "facts": [
+        {"field": "데이터 적용", "value": "한 물체의 움직임을 추적해 다른 레이어나 효과 제어점에 적용한다.", "evidence": {"source_id": "adobe-tracking", "locator": "본문 첫 모션 추적 설명 문단", "kind": "source_claim"}},
+        {"field": "추적점 구조", "value": "추적점은 특징 영역·검색 영역·부착점으로 구성된다.", "evidence": {"source_id": "adobe-tracking", "locator": "추적 인터페이스·용어 절의 추적점 설명", "kind": "source_claim"}},
+        {"field": "변환별 점 수", "value": "위치는 1점, 크기·회전은 2점, 코너 핀은 4점을 사용한다고 설명한다.", "evidence": {"source_id": "adobe-tracking", "locator": "추적 인터페이스·용어 절의 1·2·4점 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["합성·연속성", "모션 추적", "효과 연결"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "motion-blur-temporal-sampling",
+      "title_ko": "모션 블러의 시간 샘플링",
+      "subtype": "합성·연속성",
+      "summary": "Adobe는 모션 블러의 노출 시간과 위상, 레이어 스위치의 적용 범위를 구분한다.",
+      "facts": [
+        {"field": "노출 조절", "value": "셔터 각도와 프레임률이 모의 노출을 결정한다. 문서 예시는 24fps·90도에서 1/96초다.", "evidence": {"source_id": "adobe-blur", "locator": "모션 블러 설정 절의 셔터 각도 항목", "kind": "source_claim"}},
+        {"field": "위상 조절", "value": "셔터 위상은 프레임 시작에 대한 셔터 열림 시점의 오프셋이다.", "evidence": {"source_id": "adobe-blur", "locator": "모션 블러 설정 절의 셔터 위상 항목", "kind": "source_claim"}},
+        {"field": "스위치 한계", "value": "레이어·컴포지션 블러 스위치로는 소스 내부에 이미 있는 운동에 블러를 추가할 수 없다.", "evidence": {"source_id": "adobe-blur", "locator": "모션 블러 절의 레이어 애니메이션과 소스 내부 운동 구분 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["합성·연속성", "타이밍", "모션 블러"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": "개념 수 부족 없음: 서로 다른 20개 개념, 사실 60개, 기존 ID 보강 대상 3개와 기존 항목에 직접 대응하지 않는 개념 17개다. 보강 대상은 FS2-motion-001, CRAFT-motion-c5b1e630e032, CRAFT-motion-9efe3510d0a3이다. 기존 모발 지연 가이드 CRAFT-motion-2658b56f6040을 별도 개념으로 다시 세지 않았다. 전부 source_claim이며 관찰·측정·창작 제안·미디어 후보는 0개다. 수치도 원문 예시이지 직접 측정이 아니다. Toon Boom의 302 빈 본문 응답과 CMU 모캡은 근거로 쓰지 않았다. PDF는 원격 문서의 텍스트를 스트림으로 읽었으며 문서·이미지·시연 파일을 저장하지 않았다. 물리 정확성·효과 품질·미디어 재사용 허락은 검증하지 않았고 DB에는 반영하지 않았다. 자료별 요약은 160단어 미만이며 직접 인용문은 없다."
+}

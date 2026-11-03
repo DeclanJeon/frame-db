@@ -1,0 +1,22 @@
+{
+  "job_id": "makeup-L07-A",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L07-A.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-13df4f7e-a6c4-491b-9743-72ffab31a559.png",
+  "sha256": "57836c562ab896760afe1e87068218a3c0fbbefcabd371b27087131b9a61e1f6",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L07-A; concept: 코만 매트.\nClass: creative; domain: makeup; entry: GEN-asset-makeup-L07-A.\nParent entry IDs: [\"FS-0037\",\"FS-0036\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-L07\",\"makeup-L06\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-L06\":\"identity\",\"makeup-L07\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L07 photograph of identity A. Keep the nose matte but restore the forehead reflectance of makeup-L06, leaving all other makeup-L07 regions unchanged. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.\nChange only: Keep the nose matte but restore the forehead reflectance of makeup-L06, leaving all other makeup-L07 regions unchanged.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Forehead matches L06, nose matches L07, cheeks and pigment remain unchanged.; Compare against the actual accepted parent input, not a separately invented face.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-L07.png",
+    "public/generated/frame-assets/makeup-L06.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, pores, cheek mole and makeup-L07/L06 framing are consistent. T-zone appears more matte than surrounding cheeks; other makeup regions remain visually close to the parent."
+  }
+}

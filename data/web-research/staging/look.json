@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "category_id": "look",
+  "collector": "omo-look-collector-st_01a18b12",
+  "collected_at": "2026-10-30T04:33:24+00:00",
+  "sources": [
+    {
+      "source_id": "look-disney-development",
+      "url": "https://www.disneyanimation.com/process/look-development/",
+      "title": "Look Development",
+      "publisher": "Walt Disney Animation Studios",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "소개; The Process; Deconstructing Materials",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 원문·사진·영상·예제 파일의 복제·편집·재배포 허락과 제3자 권리는 미확인이다. 미디어 취득·생성·시각 검수는 하지 않았다.",
+        "attribution": "Walt Disney Animation Studios, Look Development. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-aces-system",
+      "url": "https://docs.acescentral.com/encodings/introduction/",
+      "title": "Overview of ACES Encodings",
+      "publisher": "Academy Color Encoding System",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What is ACES encoding?; Aren’t there other encodings?; Why are there different spaces?",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 공식 문서의 짧은 한국어 사실 요약이다. 문서 페이지의 CC BY 4.0 표시는 확인했으나 개별 미디어·상표·제3자 권리까지 허용한다고 확정하지 않는다. 미디어는 취득하지 않았다.",
+        "attribution": "Academy Color Encoding System, Overview of ACES Encodings. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-aces-output",
+      "url": "https://docs.acescentral.com/system-components/output-transforms/",
+      "title": "Output Transforms",
+      "publisher": "Academy Color Encoding System",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Output Transform architecture; Rendering Transform; Display Encoding Transform",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 공식 문서의 짧은 한국어 사실 요약이다. 문서 페이지의 CC BY 4.0 표시는 확인했으나 개별 미디어·상표·제3자 권리까지 허용한다고 확정하지 않는다. 미디어는 취득하지 않았다.",
+        "attribution": "Academy Color Encoding System, Output Transforms. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-kodak-50d",
+      "url": "https://www.kodak.com/en/motion/product/camera-films/50d-5203-7203/features/",
+      "title": "VISION3 50D Color Negative Film 5203/7203",
+      "publisher": "Eastman Kodak Company",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "World’s finest grain film; Suitability for Conditions; Suggested filters",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 원문·사진·영상·예제 파일의 복제·편집·재배포 허락과 제3자 권리는 미확인이다. 미디어 취득·생성·시각 검수는 하지 않았다.",
+        "attribution": "Eastman Kodak Company, VISION3 50D Color Negative Film 5203/7203. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-kodak-verita",
+      "url": "https://www.kodak.com/en/motion/product/camera-films/verita-200d-5206-7206/",
+      "title": "KODAK VERITA 200D Color Negative Film 5206/7206",
+      "publisher": "Eastman Kodak Company",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "제품 소개 첫 세 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 원문·사진·영상·예제 파일의 복제·편집·재배포 허락과 제3자 권리는 미확인이다. 미디어 취득·생성·시각 검수는 하지 않았다.",
+        "attribution": "Eastman Kodak Company, KODAK VERITA 200D Color Negative Film 5206/7206. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-fujifilm-flash",
+      "url": "https://www.fujifilm-x.com/en-gb/learning-centre/your-next-steps-with-flash/",
+      "title": "Your Next Steps with Flash",
+      "publisher": "FUJIFILM Corporation",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Bouncing Flash 첫 문단과 마지막 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 원문·사진·영상·예제 파일의 복제·편집·재배포 허락과 제3자 권리는 미확인이다. 미디어 취득·생성·시각 검수는 하지 않았다.",
+        "attribution": "FUJIFILM Corporation, Your Next Steps with Flash. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-adobe-live-paint",
+      "url": "https://helpx.adobe.com/illustrator/desktop/paint-and-fill/learn-painting-basics/about-live-paint.html",
+      "title": "About Live Paint",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "소개; Edges and faces of Live Paint groups; Path editing within Live Paint groups",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 원문·사진·영상·예제 파일의 복제·편집·재배포 허락과 제3자 권리는 미확인이다. 미디어 취득·생성·시각 검수는 하지 않았다.",
+        "attribution": "Adobe, About Live Paint. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-adobe-filter-effects",
+      "url": "https://helpx.adobe.com/photoshop/desktop/effects-filters/blur-sharpen-filters/filter-effects-reference.html",
+      "title": "Filter effects in Photoshop",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Artistic filters: Watercolor; Film Grain",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 원문·사진·영상·예제 파일의 복제·편집·재배포 허락과 제3자 권리는 미확인이다. 미디어 취득·생성·시각 검수는 하지 않았다.",
+        "attribution": "Adobe, Filter effects in Photoshop. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-adobe-layers",
+      "url": "https://helpx.adobe.com/photoshop/desktop/create-manage-layers/get-started-layers/work-with-the-layers-panel.html",
+      "title": "Work with the Layers panel",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 첫 문단과 show/hide, layer order 설명",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 원문·사진·영상·예제 파일의 복제·편집·재배포 허락과 제3자 권리는 미확인이다. 미디어 취득·생성·시각 검수는 하지 않았다.",
+        "attribution": "Adobe, Work with the Layers panel. 개별 미디어 저작자는 미확인."
+      }
+    },
+    {
+      "source_id": "look-blender-toon",
+      "url": "https://docs.blender.org/manual/en/3.0/render/shader_nodes/shader/toon.html",
+      "title": "Toon BSDF",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Toon BSDF 소개; Inputs의 Size와 Smooth; Properties의 Diffuse와 Glossy",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 로고·상표·아이콘·소스코드·Python 스크립트는 제외된다. 이번 배치는 짧은 사실 요약과 링크만 기록한다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-blender-freestyle",
+      "url": "https://docs.blender.org/manual/en/latest/render/freestyle/introduction.html",
+      "title": "Introduction — Freestyle",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Introduction 첫 두 문단; The Big Picture; Known Limitations",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 이미지·예제 파일별 예외와 상표는 별도 확인 대상이며 미디어는 취득하지 않았다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-blender-grease-pencil",
+      "url": "https://docs.blender.org/manual/en/latest/grease_pencil/materials/index.html",
+      "title": "Materials — Grease Pencil",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Materials 소개; Material Shader의 Stroke와 Fill; Setting Up Materials",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 이번 배치는 문서 사실만 요약하고 샘플 이미지·파일을 수집하지 않았다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-blender-noise",
+      "url": "https://docs.blender.org/manual/en/latest/compositing/types/texture/noise.html",
+      "title": "Noise Texture Node",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Noise Texture Node 소개; Inputs의 Scale, Detail, Roughness; Properties의 Dimensions와 Type",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 이번 배치는 절차·파라미터 사실만 요약하고 예제 미디어를 취득하지 않았다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-blender-glossy",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glossy.html",
+      "title": "Glossy BSDF",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Glossy BSDF 소개; Inputs의 Roughness, Anisotropy, Rotation; Properties의 Distribution",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 예제 이미지와 blend 파일의 개별 조건은 별도 확인하며 이번 배치에서 수집하지 않았다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-blender-glass",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glass.html",
+      "title": "Glass BSDF",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Glass BSDF 소개; Inputs의 Roughness와 IOR; Thin Film; Properties의 Distribution",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 샘플 렌더와 파일을 취득하지 않았고 텍스트 사실만 요약했다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-blender-subsurface",
+      "url": "https://docs.blender.org/manual/en/dev/render/shader_nodes/shader/sss.html",
+      "title": "Subsurface Scattering",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Subsurface Scattering 소개; Inputs의 Scale와 Radius; Properties의 Christensen-Burley와 Random Walk",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 개발판 문서 확인일을 기록했으며 샘플 렌더는 취득하지 않았다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-blender-velvet",
+      "url": "https://docs.blender.org/manual/en/3.0/render/shader_nodes/shader/velvet.html",
+      "title": "Velvet BSDF",
+      "publisher": "Blender Documentation Team",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Velvet BSDF 소개; Inputs의 Color와 Sigma; 다른 shader와 함께 사용한다는 설명",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://docs.blender.org/manual/en/dev/copyright.html",
+        "scope": "Blender Manual 본문은 별도 표기가 없는 한 CC BY-SA 4.0 이상이다. 이전 버전 문서의 사실만 사용하고 예제 이미지는 수집하지 않았다.",
+        "attribution": "Blender Documentation Team, 해당 매뉴얼 URL 및 CC BY-SA 4.0 링크를 표시하고, 한국어 요약·변경 사실을 고지한다. 공유시 동일조건과 개별 예외를 확인해야 한다."
+      }
+    },
+    {
+      "source_id": "look-aces-look",
+      "url": "https://docs.acescentral.com/system-components/look-transforms/",
+      "title": "Look Transforms",
+      "publisher": "Academy Color Encoding System",
+      "authors": [],
+      "checked_at": "2026-10-30T04:33:24+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What Is A Look Transform?; Creating a Starting Point for Color Correction; Where Does It Go?; Reusability",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 공식 문서의 짧은 한국어 사실 요약이다. 문서 페이지의 CC BY 4.0 표시는 확인했으나 개별 미디어·상표·제3자 권리까지 허용한다고 확정하지 않는다. 미디어는 취득하지 않았다.",
+        "attribution": "Academy Color Encoding System, Look Transforms. 개별 미디어 권리는 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "look-development-surface-breakdown",
+      "title_ko": "룩 개발의 표면 분해",
+      "subtype": "룩 개발",
+      "summary": "Disney는 형태 세부와 표면 속성을 단계별로 구축하는 룩 개발 과정을 설명한다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "애니메이션 최종 렌더를 위한 색·텍스처·재질 제작 과정이다.",
+          "evidence": {
+            "source_id": "look-disney-development",
+            "locator": "소개 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "표면 구성",
+          "value": "모델에 변위나 절차적 기하를 더한 뒤 색·텍스처·재질 속성을 적용한다.",
+          "evidence": {
+            "source_id": "look-disney-development",
+            "locator": "The Process",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "레이어 결합",
+          "value": "재질을 개별 레이어로 분해하고 셰이더에서 변위·색·반사 기여를 결합한다.",
+          "evidence": {
+            "source_id": "look-disney-development",
+            "locator": "Deconstructing Materials",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "룩개발",
+        "3D",
+        "표면",
+        "변위",
+        "반사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "aces-scene-referred-working-space",
+      "title_ko": "ACES 장면 기준 작업 공간",
+      "subtype": "색 관리",
+      "summary": "ACES 공식 문서는 교환·보관 표현과 제작 도구용 인코딩을 구분한다.",
+      "facts": [
+        {
+          "field": "기준 표현",
+          "value": "ACES2065-1은 선형 광색역 특성으로 교환·보관에 적합하다고 설명된다.",
+          "evidence": {
+            "source_id": "look-aces-system",
+            "locator": "What is ACES encoding?",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "색 인코딩",
+          "value": "ACES2065-1은 AP0, ACEScg는 AP1 원색의 선형 표현이다.",
+          "evidence": {
+            "source_id": "look-aces-system",
+            "locator": "Aren’t there other encodings? 목록",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "비교 조건",
+          "value": "부동소수점 값을 명시적으로 클램핑하지 않으면 이 색공간 사이 변환은 가역적이고 무손실이라고 설명한다.",
+          "evidence": {
+            "source_id": "look-aces-system",
+            "locator": "Aren’t there other encodings? 마지막 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "ACES",
+        "색관리",
+        "장면기준",
+        "워크플로"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "aces-display-output-transform",
+      "title_ko": "디스플레이별 출력 변환",
+      "subtype": "색 관리",
+      "summary": "ACES 문서는 장면 기준 데이터를 특정 표시 장치와 관람 조건에 맞추는 출력 변환을 설명한다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "장면 기준 ACES2065 데이터를 특정 출력 장치용 표시 상태로 변환한다.",
+          "evidence": {
+            "source_id": "look-aces-output",
+            "locator": "What Is An Output Transform?",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "톤·색 단계",
+          "value": "ACES 2 렌더링 변환은 톤매핑과 색채감 조정을 수행한다.",
+          "evidence": {
+            "source_id": "look-aces-output",
+            "locator": "Rendering Transform Structure 마지막 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "표시 조건",
+          "value": "디스플레이 인코딩은 장치 원색·보정 백색점·EOTF 특성을 따른다.",
+          "evidence": {
+            "source_id": "look-aces-output",
+            "locator": "Overall Structure 두 번째 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "ACES",
+        "출력변환",
+        "디스플레이",
+        "톤매핑"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "aces-look-transform-separation",
+      "title_ko": "창작 룩 변환의 분리",
+      "subtype": "색 설계",
+      "summary": "ACES는 전역 창작 룩을 입력·출력 기술 변환과 구분되는 변환으로 설명한다.",
+      "facts": [
+        {
+          "field": "변환 표현",
+          "value": "Look Transform은 ACES 입력을 변경된 ACES 값으로 출력한다.",
+          "evidence": {
+            "source_id": "look-aces-look",
+            "locator": "What Is A Look Transform?",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "팔레트·대비",
+          "value": "전체 샷의 대비와 채도를 낮추는 색보정 시작점으로 활용할 수 있다.",
+          "evidence": {
+            "source_id": "look-aces-look",
+            "locator": "Creating a Starting Point for Color Correction",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "적용 순서",
+          "value": "선택한 Output Transform보다 먼저 적용되며 개별 샷 그레이드와 구분된다.",
+          "evidence": {
+            "source_id": "look-aces-look",
+            "locator": "Where Does It Go?; Reusability",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "ACES",
+        "룩변환",
+        "색보정",
+        "기술변환분리"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "kodak-vision3-50d-daylight-fine-grain",
+      "title_ko": "50D 주광 미세 입자 필름",
+      "subtype": "필름 룩",
+      "summary": "Kodak은 VISION3 50D의 미세 입자와 주광 사용 조건을 설명한다. 실제 촬영 비교는 하지 않았다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "5203/7203은 모션 픽처용 컬러 네거티브 필름이다.",
+          "evidence": {
+            "source_id": "look-kodak-50d",
+            "locator": "제품명; See the difference",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "입자 표현",
+          "value": "제조사는 매우 미세한 입자로 특히 고대비 주광에서 색과 세부를 담는다고 주장한다.",
+          "evidence": {
+            "source_id": "look-kodak-50d",
+            "locator": "World’s finest grain film",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "색 균형 조건",
+          "value": "주광 사용에 색 균형 필터를 지정하지 않는다.",
+          "evidence": {
+            "source_id": "look-kodak-50d",
+            "locator": "Suggested filters: Suggested Filter for Color Balance for Daylight Use",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "필름",
+        "50D",
+        "주광",
+        "미세입자"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "kodak-verita-warm-saturated-film",
+      "title_ko": "따뜻한 필름 룩",
+      "subtype": "필름 룩",
+      "summary": "Kodak이 설명한 VERITA 200D를 따뜻한 필름 룩의 구체적 사례로 기록한다. 모든 필름의 공통 특성은 아니다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "VERITA 200D 5206/7206은 중감도·주광 균형 모션 픽처용 컬러 네거티브다.",
+          "evidence": {
+            "source_id": "look-kodak-verita",
+            "locator": "제품명; 소개 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "팔레트",
+          "value": "제조사는 따뜻한 피부색·높은 색 포화도·깊은 검정을 특성으로 제시한다.",
+          "evidence": {
+            "source_id": "look-kodak-verita",
+            "locator": "소개 두 번째 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "비교 기준",
+          "value": "제조사는 VISION3보다 다이내믹 레인지가 짧다고 설명한다.",
+          "evidence": {
+            "source_id": "look-kodak-verita",
+            "locator": "소개 세 번째 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "필름",
+        "따뜻한팔레트",
+        "포화색",
+        "중간대비"
+      ],
+      "existing_entry_id": "FS2-look-002",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "on-camera-direct-flash",
+      "title_ko": "직접 플래시 스냅",
+      "subtype": "실사 룩",
+      "summary": "FUJIFILM은 카메라 방향의 작은 플래시 광원과 반사광의 외관 차이를 설명한다.",
+      "facts": [
+        {
+          "field": "광원 방향",
+          "value": "내장 플래시 빛은 촬영 방향과 같은 쪽에서 온다.",
+          "evidence": {
+            "source_id": "look-fujifilm-flash",
+            "locator": "Bouncing Flash 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "그림자 표현",
+          "value": "작은 내장 플래시의 경질광은 얼굴에 강한 그림자를 만든다고 설명한다.",
+          "evidence": {
+            "source_id": "look-fujifilm-flash",
+            "locator": "Bouncing Flash 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "색 비교 조건",
+          "value": "천장·벽에 반사하면 그 표면의 색이 빛에 반영된다.",
+          "evidence": {
+            "source_id": "look-fujifilm-flash",
+            "locator": "Bouncing Flash 마지막 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "플래시",
+        "온카메라",
+        "직접광",
+        "반사광"
+      ],
+      "existing_entry_id": "CRAFT-look-ecab95f6aa7a",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "live-paint-flat-vector",
+      "title_ko": "평면 일러스트",
+      "subtype": "일러스트",
+      "summary": "Adobe의 Live Paint는 평면 벡터의 면과 경계선을 나누어 채색하는 구체적 방법이다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Illustrator 경로를 Live Paint 그룹으로 바꾸어 채색한다.",
+          "evidence": {
+            "source_id": "look-adobe-live-paint",
+            "locator": "소개 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "선·면 표현",
+          "value": "교차점 사이 경로는 경계선, 경계선들이 둘러싼 영역은 면으로 구분한다.",
+          "evidence": {
+            "source_id": "look-adobe-live-paint",
+            "locator": "Edges and faces of Live Paint groups",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "편집 조건",
+          "value": "경로 모양을 바꾸면 새 영역에 기존 색이 자동 재적용된다.",
+          "evidence": {
+            "source_id": "look-adobe-live-paint",
+            "locator": "Path editing within Live Paint groups",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "벡터",
+        "평면일러스트",
+        "면",
+        "외곽선"
+      ],
+      "existing_entry_id": "FS2-look-004",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "digital-watercolor-filter",
+      "title_ko": "수채화 스토리 일러스트",
+      "subtype": "일러스트",
+      "summary": "Adobe Watercolor는 수채화 느낌을 내는 디지털 필터 사례다. 실제 종이·안료 결과를 관찰한 기록은 아니다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Photoshop의 Artistic 필터는 전통 회화 매체를 디지털로 모사한다.",
+          "evidence": {
+            "source_id": "look-adobe-filter-effects",
+            "locator": "Artistic filters 소개",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "붓 표현",
+          "value": "Watercolor는 물과 색을 머금은 중간 붓의 표현으로 세부를 단순화한다고 설명한다.",
+          "evidence": {
+            "source_id": "look-adobe-filter-effects",
+            "locator": "Artistic filters: Watercolor",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "명도 경계",
+          "value": "Watercolor는 경계에서 명도가 변하는 이미지에 특히 효과적이라고 설명한다.",
+          "evidence": {
+            "source_id": "look-adobe-filter-effects",
+            "locator": "Artistic filters: Watercolor",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "수채화",
+        "디지털필터",
+        "붓자국",
+        "일러스트"
+      ],
+      "existing_entry_id": "CRAFT-look-8e5bd44badb9",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "layered-editorial-collage",
+      "title_ko": "편집 디자인 콜라주",
+      "subtype": "그래픽",
+      "summary": "Adobe의 레이어 패널 설명을 디지털 콜라주의 분리 편집과 겹침 순서 구성 근거로 기록한다.",
+      "facts": [
+        {
+          "field": "구성 단위",
+          "value": "Layers 패널은 문서의 모든 레이어를 표시한다.",
+          "evidence": {
+            "source_id": "look-adobe-layers",
+            "locator": "본문 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "분리 편집",
+          "value": "다른 요소에 영향을 주지 않고 레이어를 선택·숨김·수정할 수 있다.",
+          "evidence": {
+            "source_id": "look-adobe-layers",
+            "locator": "본문 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "겹침 순서",
+          "value": "패널에서 레이어를 위아래로 끌어 순서를 변경한다.",
+          "evidence": {
+            "source_id": "look-adobe-layers",
+            "locator": "To change layer order 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "콜라주",
+        "레이어",
+        "합성",
+        "편집디자인"
+      ],
+      "existing_entry_id": "CRAFT-look-9e2c8a23abaf",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "toon-diffuse-glossy-shading",
+      "title_ko": "부드러운 셀 애니메이션",
+      "subtype": "애니메이션",
+      "summary": "Blender 3.0 Toon BSDF는 만화식 빛 표현을 위한 셰이더다. 셀 애니메이션 룩의 기술적 보강으로 한정한다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Blender 3.0에서 Cycles 전용 Toon BSDF다.",
+          "evidence": {
+            "source_id": "look-blender-toon",
+            "locator": "소개: Cycles Only",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "음영 성분",
+          "value": "Diffuse나 Glossy 성분을 바탕으로 만화식 빛 효과를 만든다.",
+          "evidence": {
+            "source_id": "look-blender-toon",
+            "locator": "소개; Properties: Component",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "경계 제어",
+          "value": "Size는 반사 각도 범위, Smooth는 완전 반사에서 무반사로의 전이 각도를 제어한다.",
+          "evidence": {
+            "source_id": "look-blender-toon",
+            "locator": "Inputs: Size; Smooth",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "툰셰이딩",
+        "셀애니메이션",
+        "확산",
+        "광택"
+      ],
+      "existing_entry_id": "CRAFT-look-dc86f61e1ed6",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "freestyle-npr-line-render",
+      "title_ko": "잉크 라인 일러스트",
+      "subtype": "일러스트",
+      "summary": "Blender Freestyle은 손그림 같은 선 외관을 만드는 디지털 NPR 사례다. 실제 잉크 사용을 뜻하지 않는다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "메시와 Z 깊이 정보에서 선택한 모서리에 선을 그리는 NPR 엔진이다.",
+          "evidence": {
+            "source_id": "look-blender-freestyle",
+            "locator": "소개 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "선 표현",
+          "value": "선 스타일은 색·알파·두께 등을 결정한다.",
+          "evidence": {
+            "source_id": "look-blender-freestyle",
+            "locator": "The Big Picture 마지막 항목",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "선 선택 구조",
+          "value": "한 뷰 맵에 여러 Line Set을 둘 수 있고 각 세트는 하나의 Line Style을 사용한다.",
+          "evidence": {
+            "source_id": "look-blender-freestyle",
+            "locator": "The Big Picture",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "NPR",
+        "라인렌더",
+        "잉크선",
+        "외곽선"
+      ],
+      "existing_entry_id": "CRAFT-look-b272f1757b70",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "grease-pencil-stroke-fill-material",
+      "title_ko": "그리스 펜슬 선·면 재질",
+      "subtype": "2D·3D 혼합",
+      "summary": "Blender 매뉴얼은 Grease Pencil의 선과 채움에 독립적인 재질 설정을 제공한다고 설명한다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Grease Pencil 스트로크는 선·채움 중 하나 또는 둘 다 가질 수 있다.",
+          "evidence": {
+            "source_id": "look-blender-grease-pencil",
+            "locator": "소개 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "재질 구성",
+          "value": "한 스트로크는 하나의 재질을 참조하며 선과 면의 시각 속성은 따로 설정된다.",
+          "evidence": {
+            "source_id": "look-blender-grease-pencil",
+            "locator": "소개 두 번째 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "변경 전파",
+          "value": "재질 변경은 그 재질을 사용하는 모든 스트로크에 즉시 반영된다.",
+          "evidence": {
+            "source_id": "look-blender-grease-pencil",
+            "locator": "소개 마지막 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "그리스펜슬",
+        "스트로크",
+        "채움",
+        "2D3D"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "procedural-fractal-noise-texture",
+      "title_ko": "절차적 프랙탈 노이즈 질감",
+      "subtype": "절차적 텍스처",
+      "summary": "Blender Noise Texture는 좌표에서 평가하는 Perlin 노이즈로 절차적 세부를 만든다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "입력 텍스처 좌표에서 프랙탈 Perlin 노이즈를 평가한다.",
+          "evidence": {
+            "source_id": "look-blender-noise",
+            "locator": "소개",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "세부 구조",
+          "value": "Detail은 옥타브 수이며 소수 값이면 인접 옥타브 수 사이를 혼합한다.",
+          "evidence": {
+            "source_id": "look-blender-noise",
+            "locator": "Inputs: Detail",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "차원 조건",
+          "value": "2D는 Vector의 Z를 무시하고 4D는 Vector에 W를 네 번째 차원으로 더한다.",
+          "evidence": {
+            "source_id": "look-blender-noise",
+            "locator": "Properties: Dimensions",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "절차적텍스처",
+        "노이즈",
+        "프랙탈",
+        "질감"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "brushed-anisotropic-metal",
+      "title_ko": "브러시드 메탈 재질",
+      "subtype": "재질",
+      "summary": "Blender Glossy BSDF의 이방성 반사는 브러시드 금속 같은 방향성 하이라이트의 디지털 구현 근거다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Glossy BSDF는 금속·거울 등에 쓰는 미세면 분포 반사 셰이더다.",
+          "evidence": {
+            "source_id": "look-blender-glossy",
+            "locator": "소개",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "하이라이트 방향",
+          "value": "양의 Anisotropy는 접선에 수직으로, 음의 값은 접선을 따라 긴 하이라이트를 만든다.",
+          "evidence": {
+            "source_id": "look-blender-glossy",
+            "locator": "Inputs: Anisotropy",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "회전 조건",
+          "value": "Rotation 0.25는 이방성 접선 방향의 90도 회전에 해당한다.",
+          "evidence": {
+            "source_id": "look-blender-glossy",
+            "locator": "Inputs: Rotation",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "금속",
+        "브러시드",
+        "이방성",
+        "하이라이트"
+      ],
+      "existing_entry_id": "CRAFT-look-9334c5f70efd",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "transparent-rough-glass",
+      "title_ko": "투명 유리 재질",
+      "subtype": "재질",
+      "summary": "Blender Glass BSDF 문서의 반사·굴절과 입력 조건을 유리 표현의 디지털 근거로 기록한다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "비스듬한 각도에서 굴절과 반사를 혼합하는 유리 셰이더다.",
+          "evidence": {
+            "source_id": "look-blender-glass",
+            "locator": "소개 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "거칠기",
+          "value": "Roughness 0은 날카로운 굴절, 높은 값은 부드러운 굴절을 만든다.",
+          "evidence": {
+            "source_id": "look-blender-glass",
+            "locator": "Inputs: Roughness",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "굴절률",
+          "value": "IOR 1에서는 광선이 직진하고 높은 값은 굴절을 늘린다.",
+          "evidence": {
+            "source_id": "look-blender-glass",
+            "locator": "Inputs: IOR",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "유리",
+        "투과",
+        "굴절",
+        "거칠기"
+      ],
+      "existing_entry_id": "CRAFT-look-eb62ee900599",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subsurface-soft-material",
+      "title_ko": "표면하 산란의 부드러운 재질",
+      "subtype": "재질",
+      "summary": "Blender 개발판 문서는 내부 산란으로 피부·왁스 등에 부드러운 외관을 부여하는 셰이더를 설명한다.",
+      "facts": [
+        {
+          "field": "대상 재질",
+          "value": "피부·왁스·대리석·우유 등을 위한 다중 표면하 산란 노드다.",
+          "evidence": {
+            "source_id": "look-blender-subsurface",
+            "locator": "소개 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "빛의 경로",
+          "value": "빛이 표면을 통과해 내부에서 산란한 뒤 흡수되거나 가까운 지점으로 나온다.",
+          "evidence": {
+            "source_id": "look-blender-subsurface",
+            "locator": "소개 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "거리 제어",
+          "value": "Radius는 RGB별 평균 산란 거리이며 Scale은 그 반경의 전역 배율이다.",
+          "evidence": {
+            "source_id": "look-blender-subsurface",
+            "locator": "Inputs: Scale; Radius",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "표면하산란",
+        "부드러운재질",
+        "왁스",
+        "피부"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "cloth-velvet-reflection",
+      "title_ko": "직물 벨벳 반사",
+      "subtype": "재질",
+      "summary": "Blender 3.0 Velvet BSDF는 기본 셰이더에 직물 반사를 더하는 방식으로 설명된다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Blender 3.0의 Cycles 전용 Velvet BSDF다.",
+          "evidence": {
+            "source_id": "look-blender-velvet",
+            "locator": "소개: Cycles Only",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "결합 방식",
+          "value": "Diffuse 같은 다른 셰이더와 함께 사용하도록 설계되었다.",
+          "evidence": {
+            "source_id": "look-blender-velvet",
+            "locator": "소개",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반사 제어",
+          "value": "Sigma는 법선 분포의 분산으로 반사 피크의 날카로움을 조절한다.",
+          "evidence": {
+            "source_id": "look-blender-velvet",
+            "locator": "Inputs: Sigma",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "직물",
+        "벨벳",
+        "반사",
+        "Sigma"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "digital-film-grain-filter",
+      "title_ko": "디지털 필름 그레인 필터",
+      "subtype": "후반 질감",
+      "summary": "Adobe의 Artistic Film Grain은 실제 필름 입자와 구분되는 디지털 패턴 효과다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Photoshop Artistic 범주의 Film Grain 필터다.",
+          "evidence": {
+            "source_id": "look-adobe-filter-effects",
+            "locator": "Artistic filters: Film Grain",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "명도별 패턴",
+          "value": "그림자·중간톤에는 고른 패턴, 밝은 영역에는 더 부드럽고 포화된 패턴을 더한다.",
+          "evidence": {
+            "source_id": "look-adobe-filter-effects",
+            "locator": "Artistic filters: Film Grain",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "적용 목적",
+          "value": "그라데이션 밴딩을 줄이고 여러 출처 요소의 외관을 통일하는 용도로 설명한다.",
+          "evidence": {
+            "source_id": "look-adobe-filter-effects",
+            "locator": "Artistic filters: Film Grain",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "그레인",
+        "후반질감",
+        "디지털필터",
+        "필름효과"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "thin-film-iridescent-glass",
+      "title_ko": "박막 간섭 유리 코팅",
+      "subtype": "재질",
+      "summary": "Blender는 유리 위 박막 간섭의 색과 두께 조건을 설명한다. 수치는 출처 주장이다.",
+      "facts": [
+        {
+          "field": "매체",
+          "value": "Glass BSDF의 Cycles 전용 박막 간섭 기능이다.",
+          "evidence": {
+            "source_id": "look-blender-glass",
+            "locator": "Thin Film Cycles Only",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반사색 조건",
+          "value": "시점·막 두께·막과 기재의 굴절률에 반사색이 의존한다.",
+          "evidence": {
+            "source_id": "look-blender-glass",
+            "locator": "Thin Film 소개",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "두께 조건",
+          "value": "두께 0은 효과를 끄며 약 100~1000 nm에서 간섭이 가장 강하다고 설명한다.",
+          "evidence": {
+            "source_id": "look-blender-glass",
+            "locator": "Thin Film: Thickness",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "박막간섭",
+        "유리코팅",
+        "무지개색",
+        "굴절률"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

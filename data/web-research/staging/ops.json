@@ -1,0 +1,844 @@
+{
+  "schema_version": 1,
+  "category_id": "ops",
+  "collector": "ops-primary-collector-20261030",
+  "collected_at": "2026-10-30T05:23:09+00:00",
+  "sources": [
+    {
+      "source_id": "ops-prov",
+      "url": "https://www.w3.org/TR/prov-primer/",
+      "title": "PROV Model Primer",
+      "publisher": "W3C",
+      "authors": [
+        "Yolanda Gil",
+        "Simon Miles"
+      ],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "§2.3–2.9; 2013-04-30 Working Group Note",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문에서 짧은 사실 요약만 수집했다. 미디어 취득·검사·업로드는 하지 않았으며 사진·도표·원문 재배포와 상업 이용 권리는 미확인이다.",
+        "attribution": "W3C — PROV Model Primer에 귀속한다. 별도 미디어 저작자와 이용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ops-disney",
+      "url": "https://www.disneyanimation.com/process/production-management/",
+      "title": "Production Management",
+      "publisher": "Walt Disney Animation Studios",
+      "authors": [],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Production Management 본문 및 The Glue that Binds; 하단 권리 표시",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.disneyanimation.com/process/production-management/",
+        "scope": "하단 Disney Enterprises, Inc. 권리 유보 표시를 확인했다. 제작 운영 설명의 짧은 요약과 링크만 기록하며 추적 화면·이미지 재사용 허락은 확보하지 않았다.",
+        "attribution": "© 2026 Disney Enterprises, Inc. All Rights Reserved. 개별 이미지 저작자·별도 사용 허락은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ops-naming",
+      "url": "https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions",
+      "title": "File Naming Conventions",
+      "publisher": "Harvard Medical School",
+      "authors": [],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Tips for File Naming: Identify metadata, Use versioning, Write down your naming conventions",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문에서 짧은 사실 요약만 수집했다. 미디어 취득·검사·업로드는 하지 않았으며 사진·도표·원문 재배포와 상업 이용 권리는 미확인이다.",
+        "attribution": "Harvard Medical School — File Naming Conventions에 귀속한다. 별도 미디어 저작자와 이용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ops-versions",
+      "url": "https://support.datacite.org/docs/versioning",
+      "title": "Versioning",
+      "publisher": "DataCite",
+      "authors": [],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Minor versions; Major versions; Linking a resource to specific versions",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "페이지의 All content CC-BY 표시는 확인했으나 링크된 라이선스 세부 조건과 제3자 미디어 범위는 검토하지 않았다. 이 배치는 짧은 텍스트 요약·링크만 사용하며 미디어 재사용 권리는 미확인이다.",
+        "attribution": "DataCite — Versioning에 귀속한다. 별도 미디어 저작자와 이용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ops-budgets",
+      "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+      "title": "Managing your costs with AWS Budgets",
+      "publisher": "Amazon Web Services",
+      "authors": [],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "월간 비용 예제; 업데이트 주기 문단; Note: charge/notification delay",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문에서 짧은 사실 요약만 수집했다. 미디어 취득·검사·업로드는 하지 않았으며 사진·도표·원문 재배포와 상업 이용 권리는 미확인이다.",
+        "attribution": "Amazon Web Services — Managing your costs with AWS Budgets에 귀속한다. 별도 미디어 저작자와 이용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ops-estimates",
+      "url": "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html",
+      "title": "What is AWS Pricing Calculator?",
+      "publisher": "Amazon Web Services",
+      "authors": [],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What is AWS Pricing Calculator?; Pricing for AWS Pricing Calculator",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문에서 짧은 사실 요약만 수집했다. 미디어 취득·검사·업로드는 하지 않았으며 사진·도표·원문 재배포와 상업 이용 권리는 미확인이다.",
+        "attribution": "Amazon Web Services — What is AWS Pricing Calculator?에 귀속한다. 별도 미디어 저작자와 이용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ops-bagit",
+      "url": "https://www.rfc-editor.org/rfc/rfc8493.html",
+      "title": "The BagIt File Packaging Format (V1.0)",
+      "publisher": "RFC Editor",
+      "authors": [
+        "J. Kunze",
+        "J. Littman",
+        "E. Madden",
+        "J. Scancella",
+        "C. Adams"
+      ],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "RFC 8493 (Informational), §2.1.3, §3, §5.1",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문에서 짧은 사실 요약만 수집했다. 미디어 취득·검사·업로드는 하지 않았으며 사진·도표·원문 재배포와 상업 이용 권리는 미확인이다.",
+        "attribution": "RFC Editor — The BagIt File Packaging Format (V1.0)에 귀속한다. 별도 미디어 저작자와 이용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ops-archive",
+      "url": "https://www.naa.gov.au/explore-collection/search-people/researching-your-family/caring-your-personal-digital-collection/maintaining-your-digital-archive",
+      "title": "Maintaining your digital archive",
+      "publisher": "National Archives of Australia",
+      "authors": [],
+      "checked_at": "2026-10-30T05:23:09+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Advanced corruption checks: fixity checking; File migration; File Migration tips",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문에서 짧은 사실 요약만 수집했다. 미디어 취득·검사·업로드는 하지 않았으며 사진·도표·원문 재배포와 상업 이용 권리는 미확인이다.",
+        "attribution": "National Archives of Australia — Maintaining your digital archive에 귀속한다. 별도 미디어 저작자와 이용 조건은 미확인이다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "file-naming-convention",
+      "title_ko": "이름 충돌 없는 파일 저장",
+      "subtype": "명명·버전",
+      "summary": "Harvard Medical School은 검색·정렬에 필요한 메타데이터와 버전을 파일명에 일관되게 표현하도록 안내한다. 이 지침만으로 이름의 유일성이 보장되지는 않는다.",
+      "facts": [
+        {
+          "field": "이름_구성",
+          "value": "프로젝트명·실험 날짜·샘플 ID 등을 이름에 포함할 수 있다고 제시한다.",
+          "evidence": {
+            "source_id": "ops-naming",
+            "locator": "Identify metadata",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "버전_접미사",
+          "value": "파일명 끝에 버전 번호 또는 버전 날짜를 붙이는 방식을 설명한다.",
+          "evidence": {
+            "source_id": "ops-naming",
+            "locator": "Use versioning",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "규칙_문서화",
+          "value": "README.txt에 명명 규칙을 적고 파일과 함께 두도록 권고한다.",
+          "evidence": {
+            "source_id": "ops-naming",
+            "locator": "Write down your naming conventions",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "명명·버전",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-a98823c397a3",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "pinned-resource-version",
+      "title_ko": "현재 버전 핀 고정",
+      "subtype": "버전 관리",
+      "summary": "DataCite는 자원 전체를 가리키는 DOI와 특정 버전 DOI를 구분한다. 실제 샷의 입력 버전을 확인한 기록은 아니다.",
+      "facts": [
+        {
+          "field": "전체_식별자",
+          "value": "canonical DOI는 여러 버전을 하나의 그룹으로 나타낼 때 사용한다.",
+          "evidence": {
+            "source_id": "ops-versions",
+            "locator": "Linking a resource to specific versions",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전체에서_버전",
+          "value": "전체 DOI의 HasVersion 관계는 특정 버전 DOI를 가리킨다.",
+          "evidence": {
+            "source_id": "ops-versions",
+            "locator": "Linking a resource to specific versions",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "버전에서_전체",
+          "value": "특정 버전 DOI의 IsVersionOf 관계는 전체 자원을 가리킨다.",
+          "evidence": {
+            "source_id": "ops-versions",
+            "locator": "Linking a resource to specific versions",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "버전 관리",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-0138e60071b7",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "asset-derivation",
+      "title_ko": "마스터에서 상태 파생",
+      "subtype": "에셋 계보",
+      "summary": "W3C는 원자료와 파생물의 의존 관계를 설명한다.",
+      "facts": [
+        {
+          "field": "파생_기준",
+          "value": "존재·내용·특성이 다른 개체에 일부 의존하면 파생이다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.6",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문서_예",
+          "value": "다른 문서의 내용을 포함한 문서도 파생이다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.6",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "차트_예",
+          "value": "차트는 표현하는 데이터에서 파생된다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.6",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "에셋 계보",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-e2838355aa7b",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "execution-input-output",
+      "title_ko": "생성 시도와 결과 연결",
+      "subtype": "생성 기록",
+      "summary": "W3C는 사용·생성을 활동에 연결한다.",
+      "facts": [
+        {
+          "field": "출력",
+          "value": "활동은 새 개체를 생성한다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "입력",
+          "value": "활동은 기존 개체를 사용한다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "중간_결과",
+          "value": "생성은 활동 종료 전에도 일어날 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.3",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "생성 기록",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-e09377871992",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "responsibility-input-output-roles",
+      "title_ko": "담당자별 입력과 출력",
+      "subtype": "담당·의존성",
+      "summary": "W3C는 참여자·입출력 역할을 구분한다.",
+      "facts": [
+        {
+          "field": "담당_연결",
+          "value": "여러 담당 주체를 하나의 활동과 연결할 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.4",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "입출력_역할",
+          "value": "역할은 활동에서 개체가 쓰이거나 생성되는 관계를 한정한다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.5",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "역할_범위",
+          "value": "구체적 역할 목록은 응용별로 정한다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.5",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "담당·의존성",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-54658dae90ca",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "master-and-location-alternates",
+      "title_ko": "마스터 에셋 한 번 등록",
+      "subtype": "에셋 관리",
+      "summary": "W3C는 위치별 복사본을 대체 표현으로 연결한다.",
+      "facts": [
+        {
+          "field": "복사본_관계",
+          "value": "디렉터리가 다른 백업 복사본은 대체 표현으로 연결할 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.9",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공통_대상",
+          "value": "두 복사본은 위치와 독립적인 같은 파일을 나타낸다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.9",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "차이_속성",
+          "value": "이 예에서는 내용이 아니라 위치 맥락이 다르다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.9",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "에셋 관리",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-7ed255f8b9e9",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "provenance-event-times",
+      "title_ko": "활동 시간과 파일 이벤트 시각",
+      "subtype": "시간 기록",
+      "summary": "W3C는 활동 시간과 파일 이벤트를 따로 표현한다.",
+      "facts": [
+        {
+          "field": "생성_시각",
+          "value": "개체 생성 시각을 표현할 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.8",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사용_시각",
+          "value": "개체 사용 시각을 표현할 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.8",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "활동_구간",
+          "value": "활동 시작과 종료 시각을 표현할 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.8",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간 기록",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "revision-lineage",
+      "title_ko": "변경 이력의 근거",
+      "subtype": "감사 기록",
+      "summary": "W3C는 개정 결과를 새 개체로 연결한다.",
+      "facts": [
+        {
+          "field": "개정_결과",
+          "value": "각 개정 결과는 새 개체다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.6",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "개정_차이",
+          "value": "개정 사이에 하나 이상의 속성이 바뀔 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.6",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "이전본_관계",
+          "value": "새 결과를 이전 개체의 개정본으로 연결할 수 있다.",
+          "evidence": {
+            "source_id": "ops-prov",
+            "locator": "§2.6",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "감사 기록",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-8ee10497799e",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "cross-department-production-scheduling",
+      "title_ko": "부서 간 제작 일정 조율",
+      "subtype": "일정·담당",
+      "summary": "Disney Animation은 제작 관리팀이 일일 목표부터 주요 마일스톤까지 전체 일정을 조율한다고 설명한다. 특정 작품의 실제 일정이나 예산 수치는 공개 본문에 없다.",
+      "facts": [
+        {
+          "field": "일정_범위",
+          "value": "일일 목표와 주요 마일스톤을 포함한 전체 제작 일정을 관리한다.",
+          "evidence": {
+            "source_id": "ops-disney",
+            "locator": "Production Management 본문; The Glue that Binds",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "우선순위",
+          "value": "부서 간 요구를 조정하고 우선순위를 정한다.",
+          "evidence": {
+            "source_id": "ops-disney",
+            "locator": "Production Management 본문; The Glue that Binds",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "협력_대상",
+          "value": "아티스트·슈퍼바이저·부서 책임자와 긴밀히 협력한다.",
+          "evidence": {
+            "source_id": "ops-disney",
+            "locator": "Production Management 본문; The Glue that Binds",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "일정·담당",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "planned-versus-actual-cost",
+      "title_ko": "계획 비용과 실제 비용",
+      "subtype": "비용 구분",
+      "summary": "AWS는 계산기 추정과 실제·예측 지출 알림을 구별한다. FRAME_DB의 실제 청구액·사용량·세금은 이번 공개 문서 조사로 확인되지 않았으며 0으로 대체하지 않는다.",
+      "facts": [
+        {
+          "field": "추정_범위",
+          "value": "계산기는 입력한 정보에 대해서만 AWS 요금 추정치를 제공한다.",
+          "evidence": {
+            "source_id": "ops-estimates",
+            "locator": "Pricing for AWS Pricing Calculator",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "세금_경계",
+          "value": "계산기 추정치에는 적용될 수 있는 세금이 포함되지 않는다.",
+          "evidence": {
+            "source_id": "ops-estimates",
+            "locator": "Pricing for AWS Pricing Calculator",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "실제와_예측",
+          "value": "Budgets는 발생 후 실제 지출과 발생 전 예측 지출에 각각 알림을 설정할 수 있다.",
+          "evidence": {
+            "source_id": "ops-budgets",
+            "locator": "Managing your costs with AWS Budgets: monthly cost budget example",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "비용 구분",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-06e8db9747ca",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "budget-alert-not-hard-cap",
+      "title_ko": "실행 전 비용 상한",
+      "subtype": "비용 통제",
+      "summary": "AWS Budgets의 알림 임계치는 즉시 차단되는 비용 상한과 같지 않다. 이 자료는 다른 생성 서비스의 단가·재시도 요금이나 실제 지출을 확정하지 않는다.",
+      "facts": [
+        {
+          "field": "알림_지연",
+          "value": "리소스 사용과 청구 사이의 지연 때문에 비용 발생과 알림 사이에 지연이 생길 수 있다.",
+          "evidence": {
+            "source_id": "ops-budgets",
+            "locator": "Note",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "초과_가능성",
+          "value": "알림 전에 임계치를 넘는 추가 비용·사용량이 발생할 수 있다.",
+          "evidence": {
+            "source_id": "ops-budgets",
+            "locator": "Note",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "별도_조치",
+          "value": "예산 예제는 추가 리소스 생성을 거부하는 사용자 정의 IAM 정책 적용을 별도 조치로 제시한다.",
+          "evidence": {
+            "source_id": "ops-budgets",
+            "locator": "월간 가변 비용 예산 예제",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "비용 통제",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-c73aede8cd0e",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "package-relative-references",
+      "title_ko": "패키지의 상대 참조 확인",
+      "subtype": "패키징",
+      "summary": "RFC 8493은 BagIt 매니페스트 경로를 패키지 기준 디렉터리에 상대적으로 적도록 규정한다. 일반 제작 파일의 내부 참조를 실제로 이식 검사한 결과는 아니다.",
+      "facts": [
+        {
+          "field": "기준_루트",
+          "value": "매니페스트 파일 경로는 bag의 기준 디렉터리에 상대적이다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§2.1.3 Payload Manifest",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "구분자",
+          "value": "경로 구분자는 슬래시를 사용한다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§2.1.3 Payload Manifest",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "경계",
+          "value": "페이로드 매니페스트는 페이로드 디렉터리 밖 파일을 참조하면 안 된다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§2.1.3 Payload Manifest",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "패키징",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-3942d369531f",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "file-presence-versus-validation",
+      "title_ko": "파일과 설계 상태 분리",
+      "subtype": "상태 관리",
+      "summary": "RFC 8493은 구성요소가 갖춰진 complete와 체크섬 검증까지 끝난 valid를 구분한다. 이 구분은 시각 품질이나 사용자 수락을 인증하지 않는다.",
+      "facts": [
+        {
+          "field": "완비_조건",
+          "value": "필수 구성요소와 매니페스트에 나열된 파일이 존재해야 한다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§3 Complete and Valid Bags",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "유효_전제",
+          "value": "valid bag은 먼저 complete여야 한다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§3 Complete and Valid Bags",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "유효_검사",
+          "value": "모든 페이로드·태그 매니페스트 체크섬을 해당 파일 내용과 검증해야 한다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§3 Complete and Valid Bags",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "상태 관리",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-ops-277875aca8f8",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "payload-manifest-inventory",
+      "title_ko": "페이로드 매니페스트 재고 목록",
+      "subtype": "에셋 목록",
+      "summary": "RFC 8493의 매니페스트는 파일 목록과 체크섬을 함께 기록한다. 매니페스트 작성·취득을 이번에 실행한 것은 아니다.",
+      "facts": [
+        {
+          "field": "목록_범위",
+          "value": "각 페이로드 매니페스트는 모든 페이로드 파일명을 정확히 한 번씩 나열한다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§2.1.3 Payload Manifest",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "다중_목록",
+          "value": "서로 다른 체크섬 알고리즘의 매니페스트를 함께 둘 수 있다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§2.1.3 Payload Manifest",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "명명_규칙",
+          "value": "매니페스트 파일명은 알고리즘을 포함한 manifest-algorithm.txt 형태다.",
+          "evidence": {
+            "source_id": "ops-bagit",
+            "locator": "§2.1.3 Payload Manifest",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "에셋 목록",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "file-fixity-comparison",
+      "title_ko": "파일 체크섬 무결성 비교",
+      "subtype": "무결성 관리",
+      "summary": "호주 국립기록원은 보관·이동 전후 해시를 비교하는 fixity 검사를 안내한다. 이번에는 기존 Drive 파일을 새로 원격 검사하지 않았다.",
+      "facts": [
+        {
+          "field": "알고리즘_기록",
+          "value": "선택한 체크섬 종류를 기록한다.",
+          "evidence": {
+            "source_id": "ops-archive",
+            "locator": "Advanced corruption checks: fixity checking, To perform a fixity check",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "기준값_보관",
+          "value": "파일 체크섬을 생성해 안전한 곳에 보관한다.",
+          "evidence": {
+            "source_id": "ops-archive",
+            "locator": "Advanced corruption checks: fixity checking, To perform a fixity check",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시점_비교",
+          "value": "유지관리·이동 시 다시 생성한 체크섬을 이전 값과 비교한다.",
+          "evidence": {
+            "source_id": "ops-archive",
+            "locator": "Advanced corruption checks: fixity checking, To perform a fixity check",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "무결성 관리",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "format-migration-change-control",
+      "title_ko": "포맷 이관과 손실 관리",
+      "subtype": "보존 운영",
+      "summary": "호주 국립기록원은 포맷 이관이 접근성을 유지하지만 내용·구조 변경 위험도 있다고 설명한다. 이 배치는 실제 파일 변환을 수행하지 않았다.",
+      "facts": [
+        {
+          "field": "이관_목적",
+          "value": "오래되거나 폐기된 파일 형식의 데이터를 접근 가능한 새 형식으로 변환한다.",
+          "evidence": {
+            "source_id": "ops-archive",
+            "locator": "File migration",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "손실_위험",
+          "value": "형식 변경으로 메타데이터가 제거되거나 내용이 미세하게 달라질 수 있다.",
+          "evidence": {
+            "source_id": "ops-archive",
+            "locator": "File migration",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "에뮬레이션_구분",
+          "value": "에뮬레이션은 기존 디지털 객체를 바꾸지 않고 예전 환경의 동작을 재현한다.",
+          "evidence": {
+            "source_id": "ops-archive",
+            "locator": "File Migration tips 다음 emulation 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "보존 운영",
+        "텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": "검증 가능한 16개 개념만 수집했다(기존 ID 보강 11개, 신규 개념 5개). 실제 요청문·단일 변수 재시도·생성 길이별 과금·콘티 패널 수 등을 이 원출처들이 입증하지 않아 개수를 채우지 않았다. 차단된 Library of Congress 본문은 제외하고 읽을 수 있는 호주 국립기록원 본문으로 대체했다. 실제 프로젝트 비용·승인·품질·서비스별 과금은 미확인이다. 독립 검수와 DB 적용은 수행하지 않았다."
+}

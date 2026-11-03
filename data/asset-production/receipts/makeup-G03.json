@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-G03",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-G03.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-1a8eca56-56de-4855-9735-23dab8d5748f.png",
+  "sha256": "040c279f866489e1e1e906ca2581015eec477b9f990e08a210e1353c5dd3b509",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-G03; concept: 쇼트 박스 비어드.\nClass: base; domain: makeup; entry: CRAFT-makeup-41c83b63e6a1.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-G01\",\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\",\"makeup-G01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Use a connected short box beard across sideburns, cheeks, jaw and mustache, with a compact tidy outer contour and an approximately 5 mm visual length target, not a measured or brand-standard length. Keep the hair-E01 buzz haircut and the same shallow three-quarter view as G01. Retain a relaxed mouth and plain gray collarless top; use the G01 thin correction level throughout. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: shallow front three-quarter showing lip line both cheek edges and neck. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the B face, cheek mole and buzz haircut; use the same beard growth geography across all beard comparisons.\nChange only: Use a connected short box beard across sideburns, cheeks, jaw and mustache, with a compact tidy outer contour and an approximately 5 mm visual length target, not a measured or brand-standard length.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Mustache and chin/cheek beard connect; contour stays compact and distinct from stubble.; Grooming changes hair state, not skin tone, face proportions or lighting.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-G01.png",
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, pose, crop and buzz cut match G01/E01. A short, defined beard follows the jaw and chin with a connected mustache; cheeks are clipped shorter than the jaw and facial geometry remains stable."
+  }
+}

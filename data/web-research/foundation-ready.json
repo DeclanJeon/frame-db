@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "ready": true,
+  "status": "standalone_ready",
+  "verified_on": "2026-10-29",
+  "contract": "docs/WEB_DB_INGEST_CONTRACT.md",
+  "schema": "data/web-research/schema.json",
+  "module": "scripts/data/web_pack.py",
+  "cli": "scripts/data/web_research.py",
+  "tests": "tests/web_pack_test.py",
+  "commands": [
+    "python3 scripts/data/web_research.py validate-staging --category hair",
+    "python3 scripts/data/web_research.py validate-review --category hair",
+    "python3 scripts/data/web_research.py stage-reviewed --categories hair,makeup",
+    "python3 scripts/data/web_research.py stage-reviewed --all"
+  ],
+  "fixture_cli_verification": {
+    "root_argument": "--root <unique-temporary-directory>/data/web-research",
+    "valid_staging_exit_code": 0,
+    "invalid_staging_exit_code": 1,
+    "valid_review_exit_code": 0,
+    "invalid_review_exit_code": 1,
+    "stage_hair_makeup_exit_code": 0,
+    "stage_all_29_fixture_categories_exit_code": 0,
+    "stage_all_with_missing_category_exit_code": 1,
+    "repeat_staging_identical": true,
+    "stale_sha_and_tampered_accepted_files_rejected": true,
+    "production_accepted_files_written": 0
+  },
+  "checks": [
+    {
+      "command": "python3 tests/web_pack_test.py",
+      "exit_code": 0,
+      "tests_passed": 34,
+      "single_final_run": true,
+      "reported_seconds": 2.161
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 tests/drive_pack_test.py",
+      "exit_code": 0,
+      "tests_passed": 5,
+      "reported_seconds": 0.001
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 tests/database_integrity.py",
+      "exit_code": 0,
+      "tests_passed": 15,
+      "reported_seconds": 0.780
+    }
+  ],
+  "preservation": {
+    "original_entries": 2485,
+    "original_media_assets": 2914,
+    "verified_drive_manifest_files": 7167,
+    "drive_transfer_audit_passed": 7167,
+    "drive_transfer_audit_failed": 0,
+    "original_ids_status_authorship_preserved_in_memory_test": true,
+    "original_media_variants_prompts_and_import_reports_preserved": true,
+    "protected_file_sha256_before_equals_after": {
+      "data/database-seed.json": "ff3560285e71f21ad304f013945b5445169a95de564596bc08220af0cedb7673",
+      "data/drive-assets.json": "8afe001d78880664082ace10ee4449a18649632b118a89a4c8be2df98734cf93",
+      "data/drive-transfer-audit.json": "366e4d014a473b3bfcdc1ccbcbe52b61941c999d24fa82efe5c310de60fed34c",
+      "data/drive-media-index.json": "761d7504c6952475a48f5650ad18b241d70c05ce455e4b5e0c1fe3ddaba063f3",
+      "scripts/data/normalize.py": "1746a0e68aa87f29dd114f92fffcd4a60fbf67a23efb1bb2ac6b9dacb26e931f",
+      "lib/database.ts": "ca01425afe7a8a9654c9d981a8a351c80c797f8c09620ff4ce110e22b95564f0",
+      "db/schema.ts": "ddb5cf1d3c7a77d9366c47ad4ce879fc55a368f8987633098d5682e6d22a61fb"
+    }
+  },
+  "application_hook": {
+    "installed": false,
+    "function": "apply_web(seed, load_approved(research_directory))",
+    "returns": "A deterministic metadata-only deep copy; never mutates the input seed",
+    "future_location": "normalize.py after apply_drive and before saving result",
+    "revision_file": "data/web-research/revision.json",
+    "pilot_requirement": "Retain verified Drive normalization, explicitly enable reviewed web ingestion, and carry dataset_revision into lib/database.ts DATASET_VERSION before actual DB bootstrap."
+  },
+  "scope": {
+    "public_sources_collected": 0,
+    "production_entries_added": 0,
+    "media_downloaded_or_uploaded": 0,
+    "active_website_modified": false,
+    "remote_writes": false,
+    "commits": false,
+    "paid_services": false,
+    "credentials_or_cookies_read": false,
+    "fixtures_are_invented_test_data_not_research": true
+  },
+  "limitations": [
+    "Offline checks verify recorded evidence and independent-review contracts, not live source truth, reviewer identity or media rights acquisition.",
+    "Semantic aliases beyond key/title normalization require reviewer-supplied existing_entry_id.",
+    "Staging and seed application require one writer at a time; interrupted accepted writes fail revision validation.",
+    "Python LSP diagnostics could not run because basedpyright-langserver is not installed; no dependency/package files were changed.",
+    "JSON LSP diagnostics are unavailable because biome is not installed.",
+    "The workspace has no Git repository; protected-file SHA-256 comparison, not git diff, verifies the recorded untouched files.",
+    "No active application integration, website runtime QA, deployment or new Drive byte-transfer verification was performed."
+  ]
+}

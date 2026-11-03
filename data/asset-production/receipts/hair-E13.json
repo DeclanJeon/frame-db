@@ -1,0 +1,20 @@
+{
+  "job_id": "hair-E13",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E13.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-8db1df4a-aab7-4b1c-8914-588d5d003dcb.png",
+  "sha256": "9b682cc91ea0e79a2a6797f1226f103f350053287bff17b4f0020afec225c881",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E13; concept: 롱 레이어드 에스 웨이브.\nClass: base; domain: hair; entry: FS-0002.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use dark-brown long layers ending below the chest, with shorter face-framing layers and soft broad S bends; choose a center part and keep the full ends visible. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Use dark-brown long layers ending below the chest, with shorter face-framing layers and soft broad S bends; choose a center part and keep the full ends visible..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Distributed layers and soft S bends remain distinct from a uniform straight perimeter.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nConcrete reference roles: Image 1 (expression-E00.png) is the accepted identity A face and skin-mark anchor. Preserve face, marks, camera, crop and lighting while changing only the specified hair geometry.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "Viewed 1024x1536 output preserves identity A and studio setup. Long hair has distributed face-framing layers and broad soft S bends; full ends visible. Distinct from straight uniform E12. Provisional pass; not final acceptance."
+  }
+}

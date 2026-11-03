@@ -1,0 +1,15 @@
+FRAME authored synthetic reference. Job: hair-E02; concept: 크루 커트.
+Class: base; domain: hair; entry: CRAFT-hair-95f1771af91c.
+Parent entry IDs: []
+One fictional adult subject, identity B. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E01"]
+Observable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Use a short graduated crew cut: the top is longer at the front and becomes shorter toward the crown; neatly blended short sides and nape remain below the top envelope. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.
+Change only: Use a short graduated crew cut: the top is longer at the front and becomes shorter toward the crown; neatly blended short sides and nape remain below the top envelope..
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Top length decreases toward crown; no long comb-over fringe.; All defining ends, attachment and the named ear/nape region are visible.
+Output: {"format":"png","height":1536,"width":1024}
+Reference roles: Image 1 (hair-E01.png) is the accepted identity B face and hairline anchor. Preserve face, skin marks, scalp curvature, camera, crop, and lighting; use it as the visual identity anchor.

@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "date": "2026-10-30",
+  "scope": "Final local metadata integration; first-pass targets remain partial, not a remote deployment.",
+  "dataset_version": "frame-reference-db-20261029-v3.3-verified-drive-web-c9c7b7db80b88cf8411b1eca350a1a5d47fa472090a045e1b8862afc237f7866-creative-eb55dfc72cc16f4bade66dd9aaa7b3f0af43f10966be677a38d18909909f6793",
+  "seed_sha256": "68877da58436ab95a88fc5d78cd1cbff191ee018396dd4701ecf266af0587860",
+  "counts": {
+    "categories": 29,
+    "target": 580,
+    "submitted": 513,
+    "accepted": 482,
+    "new_entries": 264,
+    "existing_enrichments": 218,
+    "rejected": 31,
+    "not_submitted": 67,
+    "shortfall": 98,
+    "facts": 1484,
+    "total_entries": 2749,
+    "original_ids": 2485,
+    "creative_approved": 16,
+    "creative_applied": 16,
+    "creative_new_entries": 0,
+    "media_rows": 2914,
+    "verified_drive_mappings": 7167
+  },
+  "checks": {
+    "all_58_staging_review_cli_commands_exit_zero": true,
+    "all_29_input_hashes_match": true,
+    "all_accepted_fields_have_exact_supported_review_checks": true,
+    "normalization_twice_exactly_idempotent": true,
+    "parent_test_count": 86,
+    "parent_test_data_exit": 0,
+    "parent_typecheck_exit": 0,
+    "parent_build_exit": 0,
+    "all_29_category_api_counts_match": true,
+    "all_exported_table_values_match_final_seed": true,
+    "all_16_creative_detail_apis_match_approved_directions": true,
+    "all_16_remain_proposals_and_original_source_ids": true,
+    "all_media_urls_are_drive_api": true,
+    "publication_version_matches_actual_api": true
+  },
+  "preservation": {
+    "original_fields_and_nested_details_preserved_except_reviewed_metadata": true,
+    "original_prompt_templates": 2485,
+    "variants": 2914,
+    "drive_assets_sha256": "8afe001d78880664082ace10ee4449a18649632b118a89a4c8be2df98734cf93",
+    "drive_transfer_audit_sha256": "366e4d014a473b3bfcdc1ccbcbe52b61941c999d24fa82efe5c310de60fed34c",
+    "drive_media_index_sha256": "761d7504c6952475a48f5650ad18b241d70c05ce455e4b5e0c1fe3ddaba063f3",
+    "schema_sha256": "ddb5cf1d3c7a77d9366c47ad4ce879fc55a368f8987633098d5682e6d22a61fb"
+  },
+  "visual": {
+    "production_captures_directly_inspected": [
+      "desktop-hair-detail.png",
+      "mobile-hair-detail.png",
+      "desktop-makeup-detail.png",
+      "mobile-makeup-detail.png",
+      "desktop-space-detail.png",
+      "mobile-space-detail.png",
+      "desktop-sound-detail.png",
+      "mobile-sound-detail.png",
+      "desktop-ops-detail.png",
+      "mobile-ops-detail.png",
+      "desktop-sound-catalog.png",
+      "mobile-makeup-catalog.png"
+    ],
+    "production_capture_directory": "/tmp/frame-web-verification-browser-evidence",
+    "additional_creative_targets": [
+      "FS-0007",
+      "FS-0033"
+    ],
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "horizontal_overflow": false,
+    "explicit_authorship_and_proposal_visible": true,
+    "original_component_sha256": "ded1c8e35be20d8b85d66b3c721e933a74fea00cf6dba24cb2ab07c2430e3c12",
+    "additional_capture_sha256": {
+      "hair_desktop": "48633af428de0b35b7e9c06480fb7f3d853d10a41d70546a330ba05757a72462",
+      "hair_mobile": "5d1e5a9e56e95b9c0363b3423fdc69e34a886ca8665e098441664d1cdf8ff0ca",
+      "makeup_desktop": "94ff71449e18d8fe40e22db9064cdb2defc63201a7659d702d513a8e646a5769",
+      "makeup_mobile": "3d6a8d2b44be450f08d27234561eb2380936e109eb1147675fc735808d3db5a1",
+      "makeup_dark_desktop": "94ff71449e18d8fe40e22db9064cdb2defc63201a7659d702d513a8e646a5769",
+      "makeup_dark_mobile": "3d6a8d2b44be450f08d27234561eb2380936e109eb1147675fc735808d3db5a1"
+    },
+    "additional_capture_location": "Inline image tool results in the parent thread",
+    "adapter_scope": "Browser HTTP navigation stalled independently of the healthy production API. Additional creative checks rendered the unchanged Catalog component and original CSS in real Chrome, with every GET delegated to the actual final production API, never fixture data. Only the artificial data-origin history SecurityError and external font import were excluded in this temporary QA document. Production app files were not changed. These additional captures do not claim a successful new HTTP navigation.",
+    "adapter_api_requests": [
+      {
+        "url": "/api/bootstrap?step=0",
+        "method": "GET",
+        "status": 200,
+        "sha256": "8b1b82b257ba45e2e7306f6baf28e4fc35b20c461d093df2f31147c3a3769878"
+      },
+      {
+        "url": "/api/catalog?summary=1",
+        "method": "GET",
+        "status": 200,
+        "sha256": "d09aae1a51d1aa66034d045ed2b9afbf878f3366e8917b9a10864c07627a6b7f"
+      },
+      {
+        "url": "/api/collections",
+        "method": "GET",
+        "status": 200,
+        "sha256": "afbd3f1ae16d19b449378470e090dddb7ff7c4ad4f3fb26efab53ec2734821a8"
+      },
+      {
+        "url": "/api/bootstrap?step=0",
+        "method": "GET",
+        "status": 200,
+        "sha256": "8b1b82b257ba45e2e7306f6baf28e4fc35b20c461d093df2f31147c3a3769878"
+      },
+      {
+        "url": "/api/catalog?summary=1",
+        "method": "GET",
+        "status": 200,
+        "sha256": "d09aae1a51d1aa66034d045ed2b9afbf878f3366e8917b9a10864c07627a6b7f"
+      },
+      {
+        "url": "/api/collections",
+        "method": "GET",
+        "status": 200,
+        "sha256": "afbd3f1ae16d19b449378470e090dddb7ff7c4ad4f3fb26efab53ec2734821a8"
+      },
+      {
+        "url": "/api/catalog?sort=default&page=1",
+        "method": "GET",
+        "status": 200,
+        "sha256": "49fb58e56a4cb89adb3d9a597b1d113a0e83d3e1ea1eb98f69b98b15f2dbf38c"
+      },
+      {
+        "url": "/api/catalog?q=FS-0007&sort=default&page=1",
+        "method": "GET",
+        "status": 200,
+        "sha256": "c470d7c02c624a0a8540c69f00ec6fe203a6d7199d77e9b2b8f793b4a64d0030"
+      },
+      {
+        "url": "/api/entries/FS-0007",
+        "method": "GET",
+        "status": 200,
+        "sha256": "a40ca095cebeec2a662835ffd991ee882b5258ef008933a78e915c2ac94057cd"
+      },
+      {
+        "url": "/api/catalog?q=FS-0033&sort=default&page=1",
+        "method": "GET",
+        "status": 200,
+        "sha256": "80a9d3da3c5b7ce3eddce7c8a40073cc0a53dcb418f3b9864221b2f2e8102330"
+      },
+      {
+        "url": "/api/entries/FS-0033",
+        "method": "GET",
+        "status": 200,
+        "sha256": "049072b85dc000561427a6220b646a7201d553046bf0c9dfe24a19f5d4f8ae40"
+      }
+    ],
+    "theme": "Fixed light theme; dark preference captures are byte-identical at each viewport."
+  },
+  "source_scope": "All 29 actual staging/review pairs were read and contract-checked; primary clauses were directly cross-checked throughout collection. No claim to newly re-fetch every one of 1484 facts at final runtime. The MAC full current HTML confirms product role, checked Pinklite, explicit Finish Shimmer and wear-alone/under-foundation/highlighter usage; the exact pearl-pink shade wording remains the dated independent collection evidence.",
+  "boundaries": {
+    "new_media_acquired": 0,
+    "new_media_visually_reviewed": 0,
+    "paid_generation": 0,
+    "remote_deployments": 0,
+    "remote_db_writes": 0,
+    "commits": 0
+  },
+  "limitations": [
+    "Target coverage is 482/580 across 29 categories; 18 categories remain below target.",
+    "Source rights unknown/restricted are not permission to acquire or reproduce media.",
+    "Drive preservation uses unchanged verified local manifests and database rows, not a new remote file download.",
+    "No git repository exists. Python/Biome LSP unavailable; final tsc, tests and build passed."
+  ],
+  "dag_recovery": "Final node lost its resident session after writing reports. Parent cancelled only that remaining node, preserved 61 completed nodes and will retry its final acceptance against this proof."
+}

@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: makeup-L01; concept: 얇은 내추럴 윤광.
+Class: base; domain: makeup; entry: FS-0031.
+Parent entry IDs: ["CRAFT-makeup-144e623f091c"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["expression-E00"]
+Reference roles: {"expression-E00":"identity"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Apply a thin translucent base with small localized sheen on the high cheekbones, softly groomed hair-stroke brows, faint neutral brown eyes, very faint neutral peach cheeks and clear lip balm. Keep the forehead and nose from becoming a plastic glossy sheet. Keep A hair tied back, head frontal, relaxed closed lips and lens-directed eyes, matched to E00. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 face structure, actual skin-mark map, hair, expression and wardrobe; makeup affects pigment and local reflectance only.
+Change only: Apply a thin translucent base with small localized sheen on the high cheekbones, softly groomed hair-stroke brows, faint neutral brown eyes, very faint neutral peach cheeks and clear lip balm. Keep the forehead and nose from becoming a plastic glossy sheet.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; At full resolution inspect eyelid, lip and brow boundaries; no enlarged eyes or lips.; Compare against E00 for unchanged pores and skin-mark positions.; The specified base, eyes, cheeks, lips and brows are all readable.
+Output: {"format":"png","height":1536,"width":1024}
+Retry attempt 2. Preserve identity A, facial geometry, natural skin texture, the subject-left cheek mole, tied-back hair, pose, framing, lighting and wardrobe from the absolute expression-E00 reference. Apply only the specified makeup finish.

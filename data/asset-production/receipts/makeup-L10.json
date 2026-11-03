@@ -1,0 +1,20 @@
+{
+  "job_id": "makeup-L10",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L10.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-4b19a0b0-a48b-4c23-ae20-a079a50cb390.png",
+  "sha256": "d03cfa631a04d9f260f3b35dbfe890286a2e74708e28aa52da5755ecefe7802f",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L10; concept: 브라운 소프트 이브닝.\nClass: base; domain: makeup; entry: GEN-asset-makeup-L10.\nParent entry IDs: [\"CRAFT-makeup-33eae62caae4\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Compose a warm brown cream-shadow eye with a soft outer boundary, faint neutral cheeks, glossy nude lips, neat natural brows and a semi-matte thin base. Keep contrast lower than the charcoal evening look and retain natural eyelid geometry. Keep A hair tied back, head frontal, relaxed closed lips and lens-directed eyes, matched to E00. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 face structure, actual skin-mark map, hair, expression and wardrobe; makeup affects pigment and local reflectance only.\nChange only: Compose a warm brown cream-shadow eye with a soft outer boundary, faint neutral cheeks, glossy nude lips, neat natural brows and a semi-matte thin base. Keep contrast lower than the charcoal evening look and retain natural eyelid geometry.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; At full resolution inspect eyelid, lip and brow boundaries; no enlarged eyes or lips.; Compare against E00 for unchanged pores and skin-mark positions.; The specified base, eyes, cheeks, lips and brows are all readable.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, eye shape, pores and cheek mole match E00. Soft brown shadow and coordinated restrained blush/lip tint are visible; the eye makeup remains subtle and the iris and facial geometry are unchanged."
+  }
+}

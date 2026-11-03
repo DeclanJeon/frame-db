@@ -1,0 +1,21 @@
+{
+  "job_id": "hair-N02",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-N02.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-24b60fc9-8366-422e-9188-ba04e83e6579.png",
+  "sha256": "008f2d84986a5deca9aa3b2ed5e448f91c46f48e10b0d5bc4904482ffa1fd548",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-N02; concept: 후두부 볼륨 그라데이션 보브.\nClass: base; domain: hair; entry: GEN-asset-hair-N02.\nParent entry IDs: [\"CRAFT-hair-172e978476d9\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E08\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"hair-E08\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Make a jaw-length bob at the front with deliberate rounded weight buildup at the occiput and a shorter graduated nape. Keep dark-brown straight strands and show the back contour clear of the shoulder. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: subject-left side profile revealing posterior weight and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.\nChange only: Make a jaw-length bob at the front with deliberate rounded weight buildup at the occiput and a shorter graduated nape. Keep dark-brown straight strands and show the back contour clear of the shoulder.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Rounded posterior buildup and shorter nape distinguish it from the blunt bob.; Compare against the named basis; the new structural coverage must be visibly different.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nConcrete reference roles: Image 1 (hair-E08.png) is the same-look parent geometry reference; preserve non-target axes and use the first listed basis for geometry. Image 2 (expression-E00.png) is the accepted identity A face and skin-mark anchor; preserve non-target axes and use the first listed basis for geometry.",
+  "reference_paths": [
+    "public/generated/frame-assets/hair-E08.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "Viewed 1024x1536 output retains identity A and setup. Jaw-length front is shown in profile with a rounded occipital weight buildup and shorter graduated nape, distinct from blunt E08. Provisional pass; not final acceptance."
+  }
+}

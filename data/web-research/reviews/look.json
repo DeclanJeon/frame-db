@@ -1,0 +1,659 @@
+{
+  "schema_version": 1,
+  "category_id": "look",
+  "input_sha256": "04b24093753edf6699ab98249cb056dfa2b0531fbbf7420a9ce8b7982bb1d158",
+  "reviewer": "omo-independent-look-reviewer-st_01a18b19",
+  "reviewed_at": "2026-10-30T04:41:45.823809+00:00",
+  "accepted_concept_keys": [
+    "look-development-surface-breakdown",
+    "aces-scene-referred-working-space",
+    "aces-display-output-transform",
+    "aces-look-transform-separation",
+    "kodak-vision3-50d-daylight-fine-grain",
+    "on-camera-direct-flash",
+    "live-paint-flat-vector",
+    "digital-watercolor-filter",
+    "layered-editorial-collage",
+    "toon-diffuse-glossy-shading",
+    "freestyle-npr-line-render",
+    "grease-pencil-stroke-fill-material",
+    "procedural-fractal-noise-texture",
+    "brushed-anisotropic-metal",
+    "transparent-rough-glass",
+    "subsurface-soft-material",
+    "cloth-velvet-reflection",
+    "digital-film-grain-filter",
+    "thin-film-iridescent-glass"
+  ],
+  "rejected": [
+    {
+      "concept_key": "kodak-verita-warm-saturated-film",
+      "reason": "Unsupported factual tag 중간대비 (moderate contrast). Reopened https://www.kodak.com/en/motion/product/camera-films/verita-200d-5206-7206/, introductory paragraphs 1-3: medium speed, daylight balance, warm skin tones, saturation, deep blacks and shorter dynamic range than VISION3 are stated; moderate contrast is not. Dynamic-range length does not establish a contrast classification. All three attributed facts are otherwise supported and FS2-look-002 is the correct existing warm-film guide, but the immutable record cannot publish with this unsupported tag. No producer repair performed."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "look-disney-development",
+      "url": "https://www.disneyanimation.com/process/look-development/",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "소개; The Process; Deconstructing Materials",
+      "rights_checked": true,
+      "notes": "Read introduction, The Process and Deconstructing Materials (web body lines 7-18). Disney process description supports all three fields. Public access is not asset reuse permission; retain unknown rights and no media acquisition."
+    },
+    {
+      "source_id": "look-aces-system",
+      "url": "https://docs.acescentral.com/encodings/introduction/",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "What is ACES encoding?; Aren’t there other encodings?; Why are there different spaces?",
+      "rights_checked": true,
+      "notes": "Read encoding sections and CC BY 4.0 footer (lines 91-126). Checked AP0/AP1, linearity, archive use and unclamped floating-point condition. Keep conservative unknown media rights; document licensing does not clear third-party assets."
+    },
+    {
+      "source_id": "look-aces-output",
+      "url": "https://docs.acescentral.com/system-components/output-transforms/",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Output Transform architecture; Rendering Transform; Display Encoding Transform",
+      "rights_checked": true,
+      "notes": "Read What Is An Output Transform, Overall Structure and Rendering Transform Structure (lines 89-148), including CC BY 4.0 footer. This is ACES 2 documentation, not a measured display comparison; retain unknown media rights."
+    },
+    {
+      "source_id": "look-kodak-50d",
+      "url": "https://www.kodak.com/en/motion/product/camera-films/50d-5203-7203/features/",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "World’s finest grain film; Suitability for Conditions; Suggested filters",
+      "rights_checked": true,
+      "notes": "Read product name, grain claim, suitability caveat and Suggested filters (lines 29-62). Grain quality is manufacturer marketing, not independently measured. No reproduction license established; unknown media rights retained."
+    },
+    {
+      "source_id": "look-kodak-verita",
+      "url": "https://www.kodak.com/en/motion/product/camera-films/verita-200d-5206-7206/",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "제품 소개 첫 세 문단",
+      "rights_checked": true,
+      "notes": "Read heading and all introductory paragraphs (lines 29-42) and copyright footer. Medium speed, daylight balance, warm skin, saturation, black levels and shorter dynamic range are supported manufacturer claims. The 중간대비 tag is absent and cannot be inferred from shorter dynamic range, so the full record is rejected. Rights remain unknown; no media inspected or acquired."
+    },
+    {
+      "source_id": "look-fujifilm-flash",
+      "url": "https://www.fujifilm-x.com/en-gb/learning-centre/your-next-steps-with-flash/",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Bouncing Flash 첫 문단과 마지막 문단",
+      "rights_checked": true,
+      "notes": "Read Bouncing Flash (lines 191-198) and publisher copyright notice. Rechecked direction, small-source hard shadows and bounce color contamination. Existing direct-flash entry ID is preserved; no image comparison or redistribution permission inferred."
+    },
+    {
+      "source_id": "look-adobe-live-paint",
+      "url": "https://helpx.adobe.com/illustrator/desktop/paint-and-fill/learn-painting-basics/about-live-paint.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "소개; Edges and faces of Live Paint groups; Path editing within Live Paint groups",
+      "rights_checked": true,
+      "notes": "Read About Live Paint, Edges and faces, and Path editing (lines 1430-1447). Rechecked flat vector grouping and automatic recoloring. Existing flat-illustration entry is a technique enrichment, not a new media/style count. No media license established; unknown rights retained."
+    },
+    {
+      "source_id": "look-adobe-filter-effects",
+      "url": "https://helpx.adobe.com/photoshop/desktop/effects-filters/blur-sharpen-filters/filter-effects-reference.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Artistic filters: Watercolor; Film Grain",
+      "rights_checked": true,
+      "notes": "Read Artistic filters introduction, Film Grain and Watercolor rows (lines 1885-1901). Both are digital effects, not physical media observations or verified filter runs. Different grain-pattern and painterly mechanisms are not wording variants. Unknown media rights retained; no files acquired."
+    },
+    {
+      "source_id": "look-adobe-layers",
+      "url": "https://helpx.adobe.com/photoshop/desktop/create-manage-layers/get-started-layers/work-with-the-layers-panel.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "본문 첫 문단과 show/hide, layer order 설명",
+      "rights_checked": true,
+      "notes": "Read opening paragraph and layer-order instructions (lines 1862-1873). Panel functions support the staged technical enrichment of the existing collage guide, not proof of a specific artwork or its appearance. Unknown media rights retained."
+    },
+    {
+      "source_id": "look-blender-toon",
+      "url": "https://docs.blender.org/manual/en/3.0/render/shader_nodes/shader/toon.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Toon BSDF 소개; Inputs의 Size와 Smooth; Properties의 Diffuse와 Glossy",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Blender 3.0 version scope retained."
+    },
+    {
+      "source_id": "look-blender-freestyle",
+      "url": "https://docs.blender.org/manual/en/latest/render/freestyle/introduction.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Introduction 첫 두 문단; The Big Picture; Known Limitations",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Latest/dev URL is a mutable document, checked on this review date."
+    },
+    {
+      "source_id": "look-blender-grease-pencil",
+      "url": "https://docs.blender.org/manual/en/latest/grease_pencil/materials/index.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Materials 소개; Material Shader의 Stroke와 Fill; Setting Up Materials",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Latest/dev URL is a mutable document, checked on this review date."
+    },
+    {
+      "source_id": "look-blender-noise",
+      "url": "https://docs.blender.org/manual/en/latest/compositing/types/texture/noise.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Noise Texture Node 소개; Inputs의 Scale, Detail, Roughness; Properties의 Dimensions와 Type",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Latest/dev URL is a mutable document, checked on this review date."
+    },
+    {
+      "source_id": "look-blender-glossy",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glossy.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Glossy BSDF 소개; Inputs의 Roughness, Anisotropy, Rotation; Properties의 Distribution",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Latest/dev URL is a mutable document, checked on this review date."
+    },
+    {
+      "source_id": "look-blender-glass",
+      "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glass.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Glass BSDF 소개; Inputs의 Roughness와 IOR; Thin Film; Properties의 Distribution",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Latest/dev URL is a mutable document, checked on this review date."
+    },
+    {
+      "source_id": "look-blender-subsurface",
+      "url": "https://docs.blender.org/manual/en/dev/render/shader_nodes/shader/sss.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Subsurface Scattering 소개; Inputs의 Scale와 Radius; Properties의 Christensen-Burley와 Random Walk",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Latest/dev URL is a mutable document, checked on this review date."
+    },
+    {
+      "source_id": "look-blender-velvet",
+      "url": "https://docs.blender.org/manual/en/3.0/render/shader_nodes/shader/velvet.html",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "Velvet BSDF 소개; Inputs의 Color와 Sigma; 다른 shader와 함께 사용한다는 설명",
+      "rights_checked": true,
+      "notes": "Read actual cited public body through webfetch after web.run returned a 402 transport error; successful body was read, not inferred from status. Compared the introduction and cited Inputs/Properties or workflow sections. Reopened https://docs.blender.org/manual/en/dev/copyright.html (License): manual text CC BY-SA 4.0 or later except noted material, logos, trademarks, icons, source code and Python scripts. Attribution to Blender Documentation Team, source link, change notice and applicable share-alike obligations remain; no sample image or blend-file was fetched or inspected. Blender 3.0 version scope retained."
+    },
+    {
+      "source_id": "look-aces-look",
+      "url": "https://docs.acescentral.com/system-components/look-transforms/",
+      "checked_at": "2026-10-30T04:41:45.823809+00:00",
+      "access": "public_body",
+      "locator": "What Is A Look Transform?; Creating a Starting Point for Color Correction; Where Does It Go?; Reusability",
+      "rights_checked": true,
+      "notes": "Read definition, grading baseline, placement and Reusability (lines 99-158), including CC BY 4.0 footer. Kept distinct from technical output and encoding operations. Unknown media rights remain conservative."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "look-development-surface-breakdown",
+      "field": "매체",
+      "source_id": "look-disney-development",
+      "locator": "소개 첫 문단",
+      "verdict": "supported",
+      "notes": "The introduction assigns final-render colors, textures and materials to Look Development Artists."
+    },
+    {
+      "concept_key": "look-development-surface-breakdown",
+      "field": "표면 구성",
+      "source_id": "look-disney-development",
+      "locator": "The Process",
+      "verdict": "supported",
+      "notes": "The Process places displacement/procedural geometry before masked color, texture and material properties."
+    },
+    {
+      "concept_key": "look-development-surface-breakdown",
+      "field": "레이어 결합",
+      "source_id": "look-disney-development",
+      "locator": "Deconstructing Materials",
+      "verdict": "supported",
+      "notes": "Deconstructing Materials explicitly combines material layers in a shader balancing displacement, color and reflectivity."
+    },
+    {
+      "concept_key": "aces-scene-referred-working-space",
+      "field": "기준 표현",
+      "source_id": "look-aces-system",
+      "locator": "What is ACES encoding?",
+      "verdict": "supported",
+      "notes": "The encoding introduction identifies ACES2065-1 as linear wide-gamut interchange/archive encoding."
+    },
+    {
+      "concept_key": "aces-scene-referred-working-space",
+      "field": "색 인코딩",
+      "source_id": "look-aces-system",
+      "locator": "Aren’t there other encodings? 목록",
+      "verdict": "supported",
+      "notes": "The encoding list assigns AP0 to linear ACES2065-1 and AP1 to linear ACEScg."
+    },
+    {
+      "concept_key": "aces-scene-referred-working-space",
+      "field": "비교 조건",
+      "source_id": "look-aces-system",
+      "locator": "Aren’t there other encodings? 마지막 문장",
+      "verdict": "supported",
+      "notes": "The final sentence conditions reversible/lossless conversions on floating-point values not being explicitly clamped; this is a document claim, not a measured result."
+    },
+    {
+      "concept_key": "aces-display-output-transform",
+      "field": "매체",
+      "source_id": "look-aces-output",
+      "locator": "What Is An Output Transform?",
+      "verdict": "supported",
+      "notes": "What Is An Output Transform specifies scene-referred ACES-2065 data, output device and viewing conditions."
+    },
+    {
+      "concept_key": "aces-display-output-transform",
+      "field": "톤·색 단계",
+      "source_id": "look-aces-output",
+      "locator": "Rendering Transform Structure 마지막 문단",
+      "verdict": "supported",
+      "notes": "Rendering Transform Structure describes ACES 2 tone mapping and colorfulness adjustment."
+    },
+    {
+      "concept_key": "aces-display-output-transform",
+      "field": "표시 조건",
+      "source_id": "look-aces-output",
+      "locator": "Overall Structure 두 번째 문단",
+      "verdict": "supported",
+      "notes": "Overall Structure states display primaries, calibrated white point and EOTF as display encoding characteristics."
+    },
+    {
+      "concept_key": "aces-look-transform-separation",
+      "field": "변환 표현",
+      "source_id": "look-aces-look",
+      "locator": "What Is A Look Transform?",
+      "verdict": "supported",
+      "notes": "What Is A Look Transform defines ACES-to-ACES modification rather than a display-space output."
+    },
+    {
+      "concept_key": "aces-look-transform-separation",
+      "field": "팔레트·대비",
+      "source_id": "look-aces-look",
+      "locator": "Creating a Starting Point for Color Correction",
+      "verdict": "supported",
+      "notes": "Creating a Starting Point describes project-wide contrast and saturation reduction as an optional grading baseline."
+    },
+    {
+      "concept_key": "aces-look-transform-separation",
+      "field": "적용 순서",
+      "source_id": "look-aces-look",
+      "locator": "Where Does It Go?; Reusability",
+      "verdict": "supported",
+      "notes": "Where Does It Go and Reusability place the transform before output and separate it from individual shot grades."
+    },
+    {
+      "concept_key": "kodak-vision3-50d-daylight-fine-grain",
+      "field": "매체",
+      "source_id": "look-kodak-50d",
+      "locator": "제품명; See the difference",
+      "verdict": "supported",
+      "notes": "The product heading and See the difference identify 5203/7203 as VISION3 50D color negative motion film."
+    },
+    {
+      "concept_key": "kodak-vision3-50d-daylight-fine-grain",
+      "field": "입자 표현",
+      "source_id": "look-kodak-50d",
+      "locator": "World’s finest grain film",
+      "verdict": "supported",
+      "notes": "The grain section attributes fine grain, color and detail in high-contrast daylight to Kodak; no comparative image measurement was made."
+    },
+    {
+      "concept_key": "kodak-vision3-50d-daylight-fine-grain",
+      "field": "색 균형 조건",
+      "source_id": "look-kodak-50d",
+      "locator": "Suggested filters: Suggested Filter for Color Balance for Daylight Use",
+      "verdict": "supported",
+      "notes": "Suggested filters explicitly gives no daylight color-balance filter; this does not mean no ND filter or universal shooting suitability."
+    },
+    {
+      "concept_key": "on-camera-direct-flash",
+      "field": "광원 방향",
+      "source_id": "look-fujifilm-flash",
+      "locator": "Bouncing Flash 첫 문단",
+      "verdict": "supported",
+      "notes": "Bouncing Flash paragraph one describes built-in flash arriving from the photographing direction."
+    },
+    {
+      "concept_key": "on-camera-direct-flash",
+      "field": "그림자 표현",
+      "source_id": "look-fujifilm-flash",
+      "locator": "Bouncing Flash 첫 문단",
+      "verdict": "supported",
+      "notes": "That paragraph links small built-in source size to hard light and harsh facial shadows."
+    },
+    {
+      "concept_key": "on-camera-direct-flash",
+      "field": "색 비교 조건",
+      "source_id": "look-fujifilm-flash",
+      "locator": "Bouncing Flash 마지막 문단",
+      "verdict": "supported",
+      "notes": "The final Bouncing Flash paragraph states wall/ceiling color affects bounced flash color."
+    },
+    {
+      "concept_key": "live-paint-flat-vector",
+      "field": "매체",
+      "source_id": "look-adobe-live-paint",
+      "locator": "소개 첫 문단",
+      "verdict": "supported",
+      "notes": "The introduction converts objects to Live Paint groups and describes Illustrator vector paths on one flat surface."
+    },
+    {
+      "concept_key": "live-paint-flat-vector",
+      "field": "선·면 표현",
+      "source_id": "look-adobe-live-paint",
+      "locator": "Edges and faces of Live Paint groups",
+      "verdict": "supported",
+      "notes": "Edges and faces defines an edge between path intersections and a face enclosed by edges."
+    },
+    {
+      "concept_key": "live-paint-flat-vector",
+      "field": "편집 조건",
+      "source_id": "look-adobe-live-paint",
+      "locator": "Path editing within Live Paint groups",
+      "verdict": "supported",
+      "notes": "Path editing states previously applied colors automatically follow newly formed regions."
+    },
+    {
+      "concept_key": "digital-watercolor-filter",
+      "field": "매체",
+      "source_id": "look-adobe-filter-effects",
+      "locator": "Artistic filters 소개",
+      "verdict": "supported",
+      "notes": "Artistic filters introduction describes digital simulation of traditional art media; not physical paint acquisition."
+    },
+    {
+      "concept_key": "digital-watercolor-filter",
+      "field": "붓 표현",
+      "source_id": "look-adobe-filter-effects",
+      "locator": "Artistic filters: Watercolor",
+      "verdict": "supported",
+      "notes": "The Watercolor row describes detail simplification using a medium brush with water and color."
+    },
+    {
+      "concept_key": "digital-watercolor-filter",
+      "field": "명도 경계",
+      "source_id": "look-adobe-filter-effects",
+      "locator": "Artistic filters: Watercolor",
+      "verdict": "supported",
+      "notes": "The same row explicitly identifies tonal changes at edges as particularly effective."
+    },
+    {
+      "concept_key": "layered-editorial-collage",
+      "field": "구성 단위",
+      "source_id": "look-adobe-layers",
+      "locator": "본문 첫 문단",
+      "verdict": "supported",
+      "notes": "The opening paragraph says the panel represents all document layers."
+    },
+    {
+      "concept_key": "layered-editorial-collage",
+      "field": "분리 편집",
+      "source_id": "look-adobe-layers",
+      "locator": "본문 첫 문단",
+      "verdict": "supported",
+      "notes": "The opening paragraph lists selecting, hiding, reordering and modifying without affecting other elements."
+    },
+    {
+      "concept_key": "layered-editorial-collage",
+      "field": "겹침 순서",
+      "source_id": "look-adobe-layers",
+      "locator": "To change layer order 문장",
+      "verdict": "supported",
+      "notes": "The layer-order instruction specifies dragging up or down; collage is the stated application context, not an observed artwork."
+    },
+    {
+      "concept_key": "toon-diffuse-glossy-shading",
+      "field": "매체",
+      "source_id": "look-blender-toon",
+      "locator": "소개: Cycles Only",
+      "verdict": "supported",
+      "notes": "The versioned Blender 3.0 page explicitly labels Toon BSDF Cycles Only."
+    },
+    {
+      "concept_key": "toon-diffuse-glossy-shading",
+      "field": "음영 성분",
+      "source_id": "look-blender-toon",
+      "locator": "소개; Properties: Component",
+      "verdict": "supported",
+      "notes": "The introduction and Component property specify cartoon lighting from Diffuse or Glossy components."
+    },
+    {
+      "concept_key": "toon-diffuse-glossy-shading",
+      "field": "경계 제어",
+      "source_id": "look-blender-toon",
+      "locator": "Inputs: Size; Smooth",
+      "verdict": "supported",
+      "notes": "Inputs defines Size through reflection angle and Smooth through the full-to-no-reflection transition angle."
+    },
+    {
+      "concept_key": "freestyle-npr-line-render",
+      "field": "매체",
+      "source_id": "look-blender-freestyle",
+      "locator": "소개 첫 문단",
+      "verdict": "supported",
+      "notes": "The introduction describes mesh and Z-depth input for selected-edge NPR lines; no output image was inspected."
+    },
+    {
+      "concept_key": "freestyle-npr-line-render",
+      "field": "선 표현",
+      "source_id": "look-blender-freestyle",
+      "locator": "The Big Picture 마지막 항목",
+      "verdict": "supported",
+      "notes": "The Big Picture assigns color, alpha and thickness to line styles."
+    },
+    {
+      "concept_key": "freestyle-npr-line-render",
+      "field": "선 선택 구조",
+      "source_id": "look-blender-freestyle",
+      "locator": "The Big Picture",
+      "verdict": "supported",
+      "notes": "The Big Picture permits multiple line sets per view map and one style per set, including shared styles."
+    },
+    {
+      "concept_key": "grease-pencil-stroke-fill-material",
+      "field": "매체",
+      "source_id": "look-blender-grease-pencil",
+      "locator": "소개 첫 문단",
+      "verdict": "supported",
+      "notes": "The opening paragraph allows outline, fill or both for each stroke."
+    },
+    {
+      "concept_key": "grease-pencil-stroke-fill-material",
+      "field": "재질 구성",
+      "source_id": "look-blender-grease-pencil",
+      "locator": "소개 두 번째 문단",
+      "verdict": "supported",
+      "notes": "The next paragraph gives one material datablock per stroke with independently configured Stroke and Fill."
+    },
+    {
+      "concept_key": "grease-pencil-stroke-fill-material",
+      "field": "변경 전파",
+      "source_id": "look-blender-grease-pencil",
+      "locator": "소개 마지막 문단",
+      "verdict": "supported",
+      "notes": "The final introduction paragraph states material changes immediately affect all linked strokes."
+    },
+    {
+      "concept_key": "procedural-fractal-noise-texture",
+      "field": "매체",
+      "source_id": "look-blender-noise",
+      "locator": "소개",
+      "verdict": "supported",
+      "notes": "The opening description evaluates fractal Perlin noise at input texture coordinates."
+    },
+    {
+      "concept_key": "procedural-fractal-noise-texture",
+      "field": "세부 구조",
+      "source_id": "look-blender-noise",
+      "locator": "Inputs: Detail",
+      "verdict": "supported",
+      "notes": "Inputs Detail defines octave count and fractional blending; no collector-generated noise sample was measured."
+    },
+    {
+      "concept_key": "procedural-fractal-noise-texture",
+      "field": "차원 조건",
+      "source_id": "look-blender-noise",
+      "locator": "Properties: Dimensions",
+      "verdict": "supported",
+      "notes": "Dimensions defines 2D as ignoring Vector Z and 4D as Vector plus W."
+    },
+    {
+      "concept_key": "brushed-anisotropic-metal",
+      "field": "매체",
+      "source_id": "look-blender-glossy",
+      "locator": "소개",
+      "verdict": "supported",
+      "notes": "The introduction defines microfacet reflection for metal/mirror materials; the brushed-metal wording is limited to a digital anisotropic implementation, not a measured metal specimen."
+    },
+    {
+      "concept_key": "brushed-anisotropic-metal",
+      "field": "하이라이트 방향",
+      "source_id": "look-blender-glossy",
+      "locator": "Inputs: Anisotropy",
+      "verdict": "supported",
+      "notes": "Inputs Anisotropy specifies positive perpendicular and negative tangent-aligned elongation."
+    },
+    {
+      "concept_key": "brushed-anisotropic-metal",
+      "field": "회전 조건",
+      "source_id": "look-blender-glossy",
+      "locator": "Inputs: Rotation",
+      "verdict": "supported",
+      "notes": "Inputs Rotation explicitly maps 0.25 to 90 degrees; this remains a source claim, not an independent measurement."
+    },
+    {
+      "concept_key": "transparent-rough-glass",
+      "field": "매체",
+      "source_id": "look-blender-glass",
+      "locator": "소개 첫 문장",
+      "verdict": "supported",
+      "notes": "The opening description mixes reflection and refraction at grazing angles."
+    },
+    {
+      "concept_key": "transparent-rough-glass",
+      "field": "거칠기",
+      "source_id": "look-blender-glass",
+      "locator": "Inputs: Roughness",
+      "verdict": "supported",
+      "notes": "Inputs Roughness states sharp refraction at zero and smoother refraction at larger values."
+    },
+    {
+      "concept_key": "transparent-rough-glass",
+      "field": "굴절률",
+      "source_id": "look-blender-glass",
+      "locator": "Inputs: IOR",
+      "verdict": "supported",
+      "notes": "Inputs IOR states straight transmission at one and increased refraction at higher values."
+    },
+    {
+      "concept_key": "subsurface-soft-material",
+      "field": "대상 재질",
+      "source_id": "look-blender-subsurface",
+      "locator": "소개 첫 문장",
+      "verdict": "supported",
+      "notes": "The development-version introduction names skin, wax, marble and milk for multiple subsurface scattering."
+    },
+    {
+      "concept_key": "subsurface-soft-material",
+      "field": "빛의 경로",
+      "source_id": "look-blender-subsurface",
+      "locator": "소개 첫 문단",
+      "verdict": "supported",
+      "notes": "The introduction describes entry, internal scattering, absorption or exit near the entry point."
+    },
+    {
+      "concept_key": "subsurface-soft-material",
+      "field": "거리 제어",
+      "source_id": "look-blender-subsurface",
+      "locator": "Inputs: Scale; Radius",
+      "verdict": "supported",
+      "notes": "Scale is a global radius factor; Radius is average distance with separate RGB channels."
+    },
+    {
+      "concept_key": "cloth-velvet-reflection",
+      "field": "매체",
+      "source_id": "look-blender-velvet",
+      "locator": "소개: Cycles Only",
+      "verdict": "supported",
+      "notes": "The versioned Blender 3.0 page explicitly labels Velvet BSDF Cycles Only."
+    },
+    {
+      "concept_key": "cloth-velvet-reflection",
+      "field": "결합 방식",
+      "source_id": "look-blender-velvet",
+      "locator": "소개",
+      "verdict": "supported",
+      "notes": "The introduction recommends combining Velvet with other shaders such as Diffuse rather than using it alone."
+    },
+    {
+      "concept_key": "cloth-velvet-reflection",
+      "field": "반사 제어",
+      "source_id": "look-blender-velvet",
+      "locator": "Inputs: Sigma",
+      "verdict": "supported",
+      "notes": "Inputs Sigma defines normal-distribution variance controlling peak sharpness; no fabric sample was inspected."
+    },
+    {
+      "concept_key": "digital-film-grain-filter",
+      "field": "매체",
+      "source_id": "look-adobe-filter-effects",
+      "locator": "Artistic filters: Film Grain",
+      "verdict": "supported",
+      "notes": "Film Grain is a row under Artistic filters, distinct from actual film stock and captured grain."
+    },
+    {
+      "concept_key": "digital-film-grain-filter",
+      "field": "명도별 패턴",
+      "source_id": "look-adobe-filter-effects",
+      "locator": "Artistic filters: Film Grain",
+      "verdict": "supported",
+      "notes": "Its row specifies even shadow/midtone pattern versus smoother more saturated light-area pattern."
+    },
+    {
+      "concept_key": "digital-film-grain-filter",
+      "field": "적용 목적",
+      "source_id": "look-adobe-filter-effects",
+      "locator": "Artistic filters: Film Grain",
+      "verdict": "supported",
+      "notes": "Its row lists reducing blend banding and unifying elements from different sources as uses, not verified performance here."
+    },
+    {
+      "concept_key": "thin-film-iridescent-glass",
+      "field": "매체",
+      "source_id": "look-blender-glass",
+      "locator": "Thin Film Cycles Only",
+      "verdict": "supported",
+      "notes": "Glass Inputs contains a Thin Film section explicitly marked Cycles Only; this is a distinct interference/coating mechanism, not a color-only duplicate of basic glass."
+    },
+    {
+      "concept_key": "thin-film-iridescent-glass",
+      "field": "반사색 조건",
+      "source_id": "look-blender-glass",
+      "locator": "Thin Film 소개",
+      "verdict": "supported",
+      "notes": "Thin Film introduction conditions reflection color on viewing angle, film thickness and film/material IOR."
+    },
+    {
+      "concept_key": "thin-film-iridescent-glass",
+      "field": "두께 조건",
+      "source_id": "look-blender-glass",
+      "locator": "Thin Film: Thickness",
+      "verdict": "supported",
+      "notes": "Thickness states zero disables simulation and approximately 100-1000 nanometers gives strongest interference; numeric values are source claims, not measured glass."
+    }
+  ],
+  "accepted_count": 19,
+  "shortfall": 1,
+  "shortfall_reason": "19 of 20 concepts accepted; one VERITA record rejected for unsupported moderate-contrast tag despite three supported facts. 18 primary source bodies reopened, 57 accepted source-claim fields checked, zero observations, measurements, proposals or media candidates. Reviewed summaries, titles, subtypes, tags and all 26 original look entries; supplied existing_entry_id links resolve uniquely and preserve authorship. ACES working encodings, device output and creative look transforms are separate operations; base glass versus thin-film interference are distinct mechanisms, not count-padding color variants. No original seed/Drive files, staging or app files edited; no media acquired, measured or visually inspected. Partial metadata result, not adequate completion of the 20-concept target."
+}

@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "category_id": "speech",
+  "input_sha256": "9c628ae5147f4cc7d22baeb4169d03b2b23a00c610d2249173d4d5d5478e0038",
+  "reviewer": "speech-independent-review-st_01a18b2a",
+  "reviewed_at": "2026-10-30T04:58:52.573480+00:00",
+  "accepted_concept_keys": [
+    "dialogue-subtext-objective",
+    "pause-for-emphasis",
+    "breath-during-speaking-pause",
+    "english-focus-word-prominence",
+    "english-thought-group-phrasing",
+    "speaking-rate-context-and-calculation",
+    "clarification-request-intonation",
+    "english-yes-no-question-intonation",
+    "english-contrastive-stress",
+    "number-pronunciation-english-stress",
+    "english-consonant-vowel-linking",
+    "english-connected-speech-palatalization",
+    "english-sarcastic-intonation",
+    "english-certainty-uncertainty-intonation",
+    "dialogue-localization-intent",
+    "offscreen-dialogue-timing",
+    "contextual-dialogue-enunciation",
+    "viseme-phoneme-visual-grouping",
+    "viseme-onset-audio-offset",
+    "performance-vocal-preparation"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "nyfa-subtext",
+      "url": "https://www.nyfa.edu/student-resources/the-importance-of-subtext-for-actors/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "What is Subtext?; Finding the Meaning of the Subtext; Examples of Subtext",
+      "rights_checked": true,
+      "notes": "Read NYFA sections and byline/date; the displayed author is nyfa. Copyright footer is not a reuse grant. Unknown media rights retained."
+    },
+    {
+      "source_id": "tm-pauses",
+      "url": "https://www.toastmasters.org/Magazine/Magazine%20Issues/2023/Aug/Power%20Pauses",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "5 Pausing puts power behind key ideas; 7 Pausing lets you breathe",
+      "rights_checked": true,
+      "notes": "Read sections 5 and 7, Joel Schwartzberg byline and August 2023 date. Distinct emphasis and breathing functions, not duplicate silence variants. No reuse license established."
+    },
+    {
+      "source_id": "cuny-focus",
+      "url": "https://tfcs.baruch.cuny.edu/focus-words-and-prominence/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "본문 첫 문단; Multiple Focus Words",
+      "rights_checked": true,
+      "notes": "Read definition and qualifications. Prominence is distinct from phrase segmentation and contrastive stress. Public text is not permission to reuse recordings."
+    },
+    {
+      "source_id": "cuny-thought",
+      "url": "https://tfcs.baruch.cuny.edu/thought-groups/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "본문 도입부; punctuation 설명 문단; single sentence may be divided 설명 문단",
+      "rights_checked": true,
+      "notes": "Read grouping, punctuation and meaning paragraphs. Segmentation is distinct from prominence. Audio/TED material not played; reuse permission unknown."
+    },
+    {
+      "source_id": "cuny-rate",
+      "url": "https://tfcs.baruch.cuny.edu/speaking-rate/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "What is an effective speaking rate?; What factors affect speaking rate?; How can I figure out my average speaking rate?",
+      "rights_checked": true,
+      "notes": "Web open timed out; webfetch returned the actual lesson body. Read effective rate, context and calculation sections. No rate measured or TED audio inspected; reuse rights remain unknown."
+    },
+    {
+      "source_id": "cuny-clarification",
+      "url": "https://tfcs.baruch.cuny.edu/requests-for-clarification/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입부 상승·하강 억양 비교; Practice 2의 Remember 문단",
+      "rights_checked": true,
+      "notes": "Web open timed out; webfetch returned actual lesson paragraphs and Practice 2 reminder. Existing CRAFT-speech-5997ea7aa83f is an appropriate enrichment target. English explanation only; recording rights unknown."
+    },
+    {
+      "source_id": "cuny-yesno",
+      "url": "https://tfcs.baruch.cuny.edu/yesno-questions/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입 정의; In most cases 문단; rhetorical question 예외 문단",
+      "rights_checked": true,
+      "notes": "Read definition, most-cases qualification and rhetorical exception. Distinct from echo clarification. No recordings heard or reuse permission established."
+    },
+    {
+      "source_id": "cuny-contrast",
+      "url": "https://tfcs.baruch.cuny.edu/contrasting-and-clarifying/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입부; 첫 두 예제 뒤 contrastive stress 해설",
+      "rights_checked": true,
+      "notes": "Web open timed out; webfetch returned actual lesson and example explanations. Contrastive information focus is not merely a renamed general focus word. Recording/text reuse rights unknown."
+    },
+    {
+      "source_id": "cuny-numbers",
+      "url": "https://tfcs.baruch.cuny.edu/stress-in-numbers/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "Practice 1 이전의 세 Click to learn the rule 답변",
+      "rights_checked": true,
+      "notes": "Web open timed out; webfetch returned the three revealed rules in the actual lesson. Existing CRAFT-speech-14dd6c2f5809 receives number-only enrichment, not verified proper-name pronunciation. Rights unknown."
+    },
+    {
+      "source_id": "cuny-linking",
+      "url": "https://tfcs.baruch.cuny.edu/consonant-to-vowel-linking/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입 규칙 설명; Keep in mind 문단; Consonant linking can be helpful 문단",
+      "rights_checked": true,
+      "notes": "Web open timed out; webfetch returned actual linking rule and spelling distinction. Resyllabification is distinct from palatalization. English-only claim; no audio inspected or reuse rights granted."
+    },
+    {
+      "source_id": "cuny-assimilation",
+      "url": "https://tfcs.baruch.cuny.edu/assimilation/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입 정의; 첫 palatalization 규칙 목록; Practice 1 뒤 voiceless counterparts",
+      "rights_checked": true,
+      "notes": "Read definition and voiced/voiceless palatalization lists. Lesson /y/ notation retained rather than misreported as IPA /j/. No audio listening or reuse permission established."
+    },
+    {
+      "source_id": "cuny-sarcasm",
+      "url": "https://tfcs.baruch.cuny.edu/sarcasm/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입 정의; How does sarcastic intonation compare to other types of intonation?",
+      "rights_checked": true,
+      "notes": "Web open timed out; webfetch returned actual definition and comparative intonation explanation. Specific English verbal irony, not a duplicate of the general subtext-analysis method. Rights unknown."
+    },
+    {
+      "source_id": "cuny-certainty",
+      "url": "https://tfcs.baruch.cuny.edu/certainty-and-uncertainty/",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "Practice 이전의 하강·상승 억양 및 Geon 예제 해설",
+      "rights_checked": true,
+      "notes": "Read falling/rising pitch explanations and Geon context paragraph. Distinct certainty function, not a wording-only question variant. No recordings inspected; rights unknown."
+    },
+    {
+      "source_id": "netflix-dub",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/10258693072403-Dubbing-Creative-Guidelines-Films-Series",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "TRANSLATION/ADAPTATION: Colloquialisms, Lip Sync & Intent; VOICE CASTING & PERFORMANCE: Pronunciation & Delivery; EDITING: Off-screen dialogue",
+      "rights_checked": true,
+      "notes": "Read adaptation, delivery and off-screen editing subsections plus All Rights Reserved footer. Six mapped existing IDs across this batch are preserved; these three records cover distinct functions. Unknown rights do not authorize text/stem/film reproduction; no media inspected."
+    },
+    {
+      "source_id": "ms-viseme",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-speech-synthesis-viseme",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입 viseme 정의; Viseme ID; Map phonemes to visemes",
+      "rights_checked": true,
+      "notes": "Read actual public article body despite its authorization notice: definition, Viseme ID and locale mapping are present. Visual grouping and timestamp semantics are separate concepts. No SDK/service call or animation inspection; no reuse license inferred."
+    },
+    {
+      "source_id": "rsc-voice",
+      "url": "https://www.rsc.org.uk/about-us/how-we-make-theatre/voice",
+      "checked_at": "2026-10-30T04:58:52.573480+00:00",
+      "access": "public_body",
+      "locator": "도입부 rehearsal 설명; We work with the body 문단; Vocal warm-ups 문단",
+      "rights_checked": true,
+      "notes": "Read rehearsal, body/voice and pre-performance paragraphs. Photo credit Ellie Kurttz © RSC and licensing link do not grant reuse. Distinct preparation workflow, not duplicate pause breathing; no photo acquired."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "dialogue-subtext-objective",
+      "field": "정의",
+      "source_id": "nyfa-subtext",
+      "locator": "What is Subtext?, 첫 문단",
+      "verdict": "supported",
+      "notes": "NYFA defines dialogue subtext as an underlying message."
+    },
+    {
+      "concept_key": "dialogue-subtext-objective",
+      "field": "분석_단서",
+      "source_id": "nyfa-subtext",
+      "locator": "Finding the Meaning of the Subtext, 첫째·둘째 문단",
+      "verdict": "supported",
+      "notes": "The analysis section explicitly begins with objectives and obstacles."
+    },
+    {
+      "concept_key": "dialogue-subtext-objective",
+      "field": "연기_대상",
+      "source_id": "nyfa-subtext",
+      "locator": "Examples of Subtext, An actor could decide 문단",
+      "verdict": "supported",
+      "notes": "The example advises playing actions rather than emotions; this is teaching advice, not an observed take."
+    },
+    {
+      "concept_key": "pause-for-emphasis",
+      "field": "배치",
+      "source_id": "tm-pauses",
+      "locator": "5 Pausing puts power behind key ideas",
+      "verdict": "supported",
+      "notes": "Section 5 recommends pauses before important points."
+    },
+    {
+      "concept_key": "pause-for-emphasis",
+      "field": "대비",
+      "source_id": "tm-pauses",
+      "locator": "5, classical song 비교 문단",
+      "verdict": "supported",
+      "notes": "Its music analogy links silence and subsequent sound to attention."
+    },
+    {
+      "concept_key": "pause-for-emphasis",
+      "field": "사용_조건",
+      "source_id": "tm-pauses",
+      "locator": "5, Use it deliberately 문단",
+      "verdict": "supported",
+      "notes": "It explicitly distinguishes deliberate emphasis from random pausing."
+    },
+    {
+      "concept_key": "breath-during-speaking-pause",
+      "field": "호흡_기회",
+      "source_id": "tm-pauses",
+      "locator": "7 Pausing lets you breathe",
+      "verdict": "supported",
+      "notes": "Section 7 gives pauses as opportunities to take breath."
+    },
+    {
+      "concept_key": "breath-during-speaking-pause",
+      "field": "발화_상태",
+      "source_id": "tm-pauses",
+      "locator": "7, 첫째·둘째 문장",
+      "verdict": "supported",
+      "notes": "The author describes breathlessness while excited or nervous."
+    },
+    {
+      "concept_key": "breath-during-speaking-pause",
+      "field": "저자_호흡_조언",
+      "source_id": "tm-pauses",
+      "locator": "7, Just keep your mouth closed 문장",
+      "verdict": "supported",
+      "notes": "The closed-mouth, quiet nasal-breathing instruction is attributed advice, not a universal clinical rule."
+    },
+    {
+      "concept_key": "english-focus-word-prominence",
+      "field": "정의",
+      "source_id": "cuny-focus",
+      "locator": "본문 첫 문단, 첫 문장",
+      "verdict": "supported",
+      "notes": "The opening defines focus word by greatest thought-group stress."
+    },
+    {
+      "concept_key": "english-focus-word-prominence",
+      "field": "일반적_위치",
+      "source_id": "cuny-focus",
+      "locator": "본문 첫 문단, last important word 및 content word",
+      "verdict": "supported",
+      "notes": "The opening gives a usual final important content-word position, not an invariant."
+    },
+    {
+      "concept_key": "english-focus-word-prominence",
+      "field": "문맥_변동",
+      "source_id": "cuny-focus",
+      "locator": "본문 첫 문단, meaning and mood",
+      "verdict": "supported",
+      "notes": "The same paragraph allows meaning and mood to change selection."
+    },
+    {
+      "concept_key": "english-thought-group-phrasing",
+      "field": "구성_단위",
+      "source_id": "cuny-thought",
+      "locator": "본문 첫 문단",
+      "verdict": "supported",
+      "notes": "The opening defines word groups expressing one idea."
+    },
+    {
+      "concept_key": "english-thought-group-phrasing",
+      "field": "문장부호_관계",
+      "source_id": "cuny-thought",
+      "locator": "It may not be easy 문단",
+      "verdict": "supported",
+      "notes": "The punctuation paragraph says boundaries need not follow punctuation."
+    },
+    {
+      "concept_key": "english-thought-group-phrasing",
+      "field": "의미_변화",
+      "source_id": "cuny-thought",
+      "locator": "Finally, keep in mind 문단",
+      "verdict": "supported",
+      "notes": "The final introductory paragraph explains that regrouping can change meaning."
+    },
+    {
+      "concept_key": "speaking-rate-context-and-calculation",
+      "field": "명료도_조건",
+      "source_id": "cuny-rate",
+      "locator": "What is an effective speaking rate?, 첫 두 문단",
+      "verdict": "supported",
+      "notes": "The effective-rate section cautions against both extremes."
+    },
+    {
+      "concept_key": "speaking-rate-context-and-calculation",
+      "field": "상황_차이",
+      "source_id": "cuny-rate",
+      "locator": "What factors affect speaking rate?, 첫 문단",
+      "verdict": "supported",
+      "notes": "The factors section contrasts presentation and conversational contexts."
+    },
+    {
+      "concept_key": "speaking-rate-context-and-calculation",
+      "field": "계산_정의",
+      "source_id": "cuny-rate",
+      "locator": "How can I figure out my average speaking rate?, formula 문장",
+      "verdict": "supported",
+      "notes": "The calculation section defines words divided by minutes; no sample was measured."
+    },
+    {
+      "concept_key": "clarification-request-intonation",
+      "field": "영어_재확인_억양",
+      "source_id": "cuny-clarification",
+      "locator": "도입 첫 문단",
+      "verdict": "supported",
+      "notes": "The introduction specifies usually rising phrase-final pitch."
+    },
+    {
+      "concept_key": "clarification-request-intonation",
+      "field": "재확인_이유",
+      "source_id": "cuny-clarification",
+      "locator": "The rising pitch is a signal 문단",
+      "verdict": "supported",
+      "notes": "The repeated-information example supplies both not-heard and disbelief explanations."
+    },
+    {
+      "concept_key": "clarification-request-intonation",
+      "field": "새_정보와의_구별",
+      "source_id": "cuny-clarification",
+      "locator": "Practice 2, Remember 문단",
+      "verdict": "supported",
+      "notes": "Practice 2 contrasts rising clarification with falling requests for additional information; English only."
+    },
+    {
+      "concept_key": "english-yes-no-question-intonation",
+      "field": "응답_형식",
+      "source_id": "cuny-yesno",
+      "locator": "본문 첫 문장",
+      "verdict": "supported",
+      "notes": "The introduction defines the expected binary response."
+    },
+    {
+      "concept_key": "english-yes-no-question-intonation",
+      "field": "일반적_억양",
+      "source_id": "cuny-yesno",
+      "locator": "In most cases 문단",
+      "verdict": "supported",
+      "notes": "The text says most cases use rising intonation."
+    },
+    {
+      "concept_key": "english-yes-no-question-intonation",
+      "field": "수사적_예외",
+      "source_id": "cuny-yesno",
+      "locator": "One notable exception 문단",
+      "verdict": "supported",
+      "notes": "The exception paragraph permits either contour for rhetorical questions."
+    },
+    {
+      "concept_key": "english-contrastive-stress",
+      "field": "기능",
+      "source_id": "cuny-contrast",
+      "locator": "도입 첫 문장",
+      "verdict": "supported",
+      "notes": "The introduction assigns stress a comparison/contrast function."
+    },
+    {
+      "concept_key": "english-contrastive-stress",
+      "field": "정정_대상",
+      "source_id": "cuny-contrast",
+      "locator": "첫 예제 뒤 In the second example 문장",
+      "verdict": "supported",
+      "notes": "The lab example explains correction of an initial belief."
+    },
+    {
+      "concept_key": "english-contrastive-stress",
+      "field": "적용_범위",
+      "source_id": "cuny-contrast",
+      "locator": "Contrastive stress can occur 문장",
+      "verdict": "supported",
+      "notes": "The explanation explicitly covers sentences and dialogue."
+    },
+    {
+      "concept_key": "number-pronunciation-english-stress",
+      "field": "teen_숫자",
+      "source_id": "cuny-numbers",
+      "locator": "첫 Click to learn the rule 답변",
+      "verdict": "supported",
+      "notes": "The first revealed rule stresses both teen-number syllables."
+    },
+    {
+      "concept_key": "number-pronunciation-english-stress",
+      "field": "십단위_숫자",
+      "source_id": "cuny-numbers",
+      "locator": "둘째 Click to learn the rule 답변",
+      "verdict": "supported",
+      "notes": "The second revealed rule stresses the initial syllable of the lesson's ten-number class."
+    },
+    {
+      "concept_key": "number-pronunciation-english-stress",
+      "field": "구말_조건",
+      "source_id": "cuny-numbers",
+      "locator": "셋째 Click to learn the rule 답변",
+      "verdict": "supported",
+      "notes": "The third rule changes teen stress phrase-finally; no proper-name claim is made."
+    },
+    {
+      "concept_key": "english-consonant-vowel-linking",
+      "field": "연결_조건",
+      "source_id": "cuny-linking",
+      "locator": "When a word that ends 문단",
+      "verdict": "supported",
+      "notes": "The consonant-final/vowel-initial paragraph specifies cross-word linking."
+    },
+    {
+      "concept_key": "english-consonant-vowel-linking",
+      "field": "철자와_소리",
+      "source_id": "cuny-linking",
+      "locator": "Keep in mind that the sound 문단",
+      "verdict": "supported",
+      "notes": "The following paragraph distinguishes pronounced sound from spelling."
+    },
+    {
+      "concept_key": "english-consonant-vowel-linking",
+      "field": "음절_구조",
+      "source_id": "cuny-linking",
+      "locator": "When a word that ends 문단, new syllable structure",
+      "verdict": "supported",
+      "notes": "The same rule describes resyllabification across the boundary."
+    },
+    {
+      "concept_key": "english-connected-speech-palatalization",
+      "field": "동화_정의",
+      "source_id": "cuny-assimilation",
+      "locator": "본문 첫 문단",
+      "verdict": "supported",
+      "notes": "The opening defines assimilation through adjacent sounds becoming similar."
+    },
+    {
+      "concept_key": "english-connected-speech-palatalization",
+      "field": "유성_사례",
+      "source_id": "cuny-assimilation",
+      "locator": "첫 palatalization 규칙 목록",
+      "verdict": "supported",
+      "notes": "The first palatalization list explicitly maps /d/ plus the lesson's /y/ to /dʒ/."
+    },
+    {
+      "concept_key": "english-connected-speech-palatalization",
+      "field": "무성_사례",
+      "source_id": "cuny-assimilation",
+      "locator": "Practice 1 뒤 voiceless counterparts 규칙 목록",
+      "verdict": "supported",
+      "notes": "The voiceless list explicitly maps /t/ plus /y/ to /tʃ/; English lesson notation is retained."
+    },
+    {
+      "concept_key": "english-sarcastic-intonation",
+      "field": "의미_관계",
+      "source_id": "cuny-sarcasm",
+      "locator": "본문 첫 문장",
+      "verdict": "supported",
+      "notes": "The opening defines verbal irony by opposed literal and intended meanings."
+    },
+    {
+      "concept_key": "english-sarcastic-intonation",
+      "field": "예제_억양",
+      "source_id": "cuny-sarcasm",
+      "locator": "Sarcasm 예제, Notice the up-and-down intonation 문장",
+      "verdict": "supported",
+      "notes": "The sarcasm example describes an up-and-down contour in text; no listening claimed."
+    },
+    {
+      "concept_key": "english-sarcastic-intonation",
+      "field": "문맥_조건",
+      "source_id": "cuny-sarcasm",
+      "locator": "Sarcasm 예제, Context is very important 문장",
+      "verdict": "supported",
+      "notes": "The same explanation explicitly makes interpretation context-dependent."
+    },
+    {
+      "concept_key": "english-certainty-uncertainty-intonation",
+      "field": "하강_기능",
+      "source_id": "cuny-certainty",
+      "locator": "본문 첫 문장",
+      "verdict": "supported",
+      "notes": "The opening associates falling focus-word pitch with completion or certainty."
+    },
+    {
+      "concept_key": "english-certainty-uncertainty-intonation",
+      "field": "상승_기능",
+      "source_id": "cuny-certainty",
+      "locator": "On the other hand 문단",
+      "verdict": "supported",
+      "notes": "The following paragraph lists uncertainty, surprise and confirmation for rising pitch."
+    },
+    {
+      "concept_key": "english-certainty-uncertainty-intonation",
+      "field": "해석_조건",
+      "source_id": "cuny-certainty",
+      "locator": "In the example above 문단",
+      "verdict": "supported",
+      "notes": "The Geon explanation says context informs interpretation of the underlying reaction."
+    },
+    {
+      "concept_key": "dialogue-localization-intent",
+      "field": "우선순위",
+      "source_id": "netflix-dub",
+      "locator": "TRANSLATION/ADAPTATION > Lip Sync & Intent",
+      "verdict": "supported",
+      "notes": "Lip Sync & Intent prioritizes original intent when perfect synchronization conflicts."
+    },
+    {
+      "concept_key": "dialogue-localization-intent",
+      "field": "예외_조건",
+      "source_id": "netflix-dub",
+      "locator": "TRANSLATION/ADAPTATION > Lip Sync & Intent, However 문장",
+      "verdict": "supported",
+      "notes": "That paragraph explicitly preserves lip-sync at designated Key Moments."
+    },
+    {
+      "concept_key": "dialogue-localization-intent",
+      "field": "구어체_조건",
+      "source_id": "netflix-dub",
+      "locator": "TRANSLATION/ADAPTATION > Colloquialisms",
+      "verdict": "supported",
+      "notes": "Colloquialisms includes period-piece and original-language-style qualifications."
+    },
+    {
+      "concept_key": "offscreen-dialogue-timing",
+      "field": "대상_조건",
+      "source_id": "netflix-dub",
+      "locator": "EDITING > Off-screen dialogue, 첫 구절",
+      "verdict": "supported",
+      "notes": "The editing subsection explicitly concerns audible off-screen speech."
+    },
+    {
+      "concept_key": "offscreen-dialogue-timing",
+      "field": "시간_참조",
+      "source_id": "netflix-dub",
+      "locator": "EDITING > Off-screen dialogue, 첫 문장",
+      "verdict": "supported",
+      "notes": "It recommends matching original-version and dub waveforms."
+    },
+    {
+      "concept_key": "offscreen-dialogue-timing",
+      "field": "음향_여백",
+      "source_id": "netflix-dub",
+      "locator": "EDITING > Off-screen dialogue, 둘째 문장",
+      "verdict": "supported",
+      "notes": "It requires room for music/SFX storytelling; no reaction shot was inspected."
+    },
+    {
+      "concept_key": "contextual-dialogue-enunciation",
+      "field": "긴박한_장면",
+      "source_id": "netflix-dub",
+      "locator": "VOICE CASTING & PERFORMANCE > Pronunciation & Delivery, 첫 항목",
+      "verdict": "supported",
+      "notes": "Pronunciation & Delivery allows imperfect enunciation in intense/action sequences."
+    },
+    {
+      "concept_key": "contextual-dialogue-enunciation",
+      "field": "친밀한_장면",
+      "source_id": "netflix-dub",
+      "locator": "Pronunciation & Delivery, muted projection 문장",
+      "verdict": "supported",
+      "notes": "The same subsection permits muted projection in quiet intimate scenes."
+    },
+    {
+      "concept_key": "contextual-dialogue-enunciation",
+      "field": "연기_기준",
+      "source_id": "netflix-dub",
+      "locator": "Pronunciation & Delivery, Pronunciation should be as natural 문장",
+      "verdict": "supported",
+      "notes": "Its final sentence requires natural pronunciation and screen-performance matching."
+    },
+    {
+      "concept_key": "viseme-phoneme-visual-grouping",
+      "field": "정의",
+      "source_id": "ms-viseme",
+      "locator": "도입 A viseme is 문단",
+      "verdict": "supported",
+      "notes": "The introduction defines viseme as visual phoneme-related facial/mouth position."
+    },
+    {
+      "concept_key": "viseme-phoneme-visual-grouping",
+      "field": "다대일_대응",
+      "source_id": "ms-viseme",
+      "locator": "Viseme ID, There's no one-to-one correspondence 문장",
+      "verdict": "supported",
+      "notes": "Viseme ID explicitly gives s/z as a many-to-one example."
+    },
+    {
+      "concept_key": "viseme-phoneme-visual-grouping",
+      "field": "언어_조건",
+      "source_id": "ms-viseme",
+      "locator": "Map phonemes to visemes, 첫 두 문장",
+      "verdict": "supported",
+      "notes": "Map phonemes to visemes states that sets vary by language and locale."
+    },
+    {
+      "concept_key": "viseme-onset-audio-offset",
+      "field": "식별자",
+      "source_id": "ms-viseme",
+      "locator": "Viseme ID, 첫 문장",
+      "verdict": "supported",
+      "notes": "Viseme ID is defined as an integer specifying the shape."
+    },
+    {
+      "concept_key": "viseme-onset-audio-offset",
+      "field": "음성_시간_연결",
+      "source_id": "ms-viseme",
+      "locator": "Viseme ID, Speech audio output 문단",
+      "verdict": "supported",
+      "notes": "The paragraph permits IDs accompanied by Audio offset in speech output."
+    },
+    {
+      "concept_key": "viseme-onset-audio-offset",
+      "field": "시작시각_단위",
+      "source_id": "ms-viseme",
+      "locator": "Viseme ID, The Audio offset indicates 문장",
+      "verdict": "supported",
+      "notes": "The timestamp describes viseme onset in 100-nanosecond ticks, not a measured synchronization error."
+    },
+    {
+      "concept_key": "performance-vocal-preparation",
+      "field": "리허설_초점",
+      "source_id": "rsc-voice",
+      "locator": "도입부 In rehearsal 문장",
+      "verdict": "supported",
+      "notes": "RSC describes exploring sound and rhythm during rehearsal."
+    },
+    {
+      "concept_key": "performance-vocal-preparation",
+      "field": "훈련_범위",
+      "source_id": "rsc-voice",
+      "locator": "We work with the body 문단",
+      "verdict": "supported",
+      "notes": "Its body-and-voice paragraph names breathing/vocal stamina and flexibility."
+    },
+    {
+      "concept_key": "performance-vocal-preparation",
+      "field": "실시_시점",
+      "source_id": "rsc-voice",
+      "locator": "Vocal warm-ups 문단",
+      "verdict": "supported",
+      "notes": "The warm-up paragraph explicitly says before every performance, for voice preparation and focus."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": "20/20 supported text-only concepts after independent primary-body comparison of all 60 source-claim fields across 16 sources; no rejections. Compared against all 24 original speech entries: six explicit enrichment IDs, fourteen distinct concepts; general methods are not duplicated as specific creative dialogue examples. Titles, summaries, subtypes and tags remain within the cited teaching/provider scope. Prominence versus segmentation, linking versus palatalization, and visual grouping versus onset metadata are distinct, not wording variants. No observations, measurements, creative proposals or media candidates; no media acquired or reviewed. English lessons are not universal Korean rules; numbers enrichment does not verify proper names. Existing IDs and original authorship remain unchanged. Rights remain unknown, not cleared for media or bulk text reuse. No DB population or media acquisition is claimed."
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "gesture-H07",
+  "status": "generated",
+  "path": "public/generated/frame-assets/gesture-H07.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bf6-95c6-7ba0-9ce1-b060036bf3ab/exec-253fc0cb-89cc-40bb-a97e-7b51196ecc0c.png",
+  "sha256": "ff4584b3a155dd2da36ed29ac5f3bc7aa03776177f52b0d78287ee4bd80c9643",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Full image visually inspected at 1536x1024. One plain white ceramic mug is held by the subject's right hand at its handle; the left palm supports the base with visible contact and no apparent gap. Both arms and wrists trace to the same subject. Face retains A's proportions, hair, cheek mole, gray top and neutral gray studio setting. The supporting fingers are partly occluded by the mug but remain visibly connected to the supporting palm."
+  },
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H07; concept: 양손 머그 지지.\nClass: base; domain: gesture; entry: FS-0077.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Hold one plain ceramic mug with the right hand on the handle and left palm directly supporting the base. Keep base and supporting palm touching without a gap; trace both wrists to the same subject. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: Hold one plain ceramic mug with the right hand on the handle and left palm directly supporting the base. Keep base and supporting palm touching without a gap; trace both wrists to the same subject.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Right handle contact and continuous left-palm base contact are visible.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: hand anchor, the actual newly generated and visually inspected A right-hand photograph at public/generated/frame-assets/makeup-N01.png. Use it to preserve A hand proportions, skin tone, visible mark and short natural nail shape. Image 2: identity anchor, the actual accepted identity A face photograph at public/generated/frame-assets/expression-E00.png. Use it to preserve A's face identity, skin undertone, cheek mole and hair.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1536,
+    "height": 1024
+  }
+}

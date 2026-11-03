@@ -1,0 +1,20 @@
+{
+  "job_id": "hair-E05",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E05.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-0a24bd77-e790-4931-8138-0fb85d6ce2c2.png",
+  "sha256": "d117a7d8b049741c2c70bfce8731651b2866ea1dc817d9e95b199af6f94ba590",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E05; concept: 시저 커트.\nClass: base; domain: hair; entry: CRAFT-hair-a950f255b69d.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Keep the top short and forward, ending in a short continuous horizontal Caesar fringe; use compact tidy sides and nape. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Keep the top short and forward, ending in a short continuous horizontal Caesar fringe; use compact tidy sides and nape..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Fringe edge is more continuous and less broken than hair-E04.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nConcrete reference roles: Image 1 (hair-E01.png) is the accepted identity B face and hairline anchor; preserve identity, camera, crop, background and lighting while changing only the named hair geometry.",
+  "reference_paths": [
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "Viewed the 1024x1536 image. Identity B face and cheek mole, gray shirt and neutral setup match E01. The top is short and directed forward, with a compact continuous horizontal edge; sides and nape are tidy and subject-left ear is visible. Provisional visual pass; not final parent acceptance."
+  }
+}

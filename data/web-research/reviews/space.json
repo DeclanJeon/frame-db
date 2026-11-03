@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "category_id": "space",
+  "input_sha256": "dbc3d88ffa71852d8aca389361e1b1aaff37676e251baa903461bac3f0a0f840",
+  "reviewer": "space-independent-primary-reviewer-st_01a18b0a",
+  "reviewed_at": "2026-10-30T04:24:59.164610+00:00",
+  "accepted_concept_keys": [
+    "accessible-lavatory-mirror",
+    "accessible-corridor-door",
+    "rail-platform-vehicle-interface",
+    "home-computer-workstation",
+    "pedestrian-public-plaza",
+    "programmed-open-street",
+    "urban-civil-twilight-street",
+    "wetland-observation-boardwalk",
+    "accessible-coastal-trail",
+    "forest-waterfall-boardwalk",
+    "congaree-floodplain-boardwalk",
+    "environment-model-assembly",
+    "virtual-set-layout-staging",
+    "white-cyclorama"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "ada-2010",
+      "url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "§§403.5.1, 403.5.3, 404.2.3; §§603.2.1, 603.3, 606.2; §§810.5.1–810.5.3 (각 예외 포함). 미국 2010 표준의 한정된 치수 참고이며 한국 법규나 모든 세트의 의무 규격으로 일반화하지 않는다.",
+      "rights_checked": true,
+      "notes": "Read §§403.5.1, 403.5.3, 404.2.3, 603.2.1, 603.3, 606.2 and 810.5.1–3 including the relevant exceptions. US 2010 reference only, not Korean compliance or set measurements. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "osha-workstation",
+      "url": "https://www.osha.gov/etools/computer-workstations",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Introduction, component/posture goals and final disclaimer: eTools do not create new OSHA requirements.",
+      "rights_checked": true,
+      "notes": "Read introduction and eTool disclaimer. Workstation design guidance, not a universal posture or newly created OSHA requirement. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "osha-environment",
+      "url": "https://www.osha.gov/etools/computer-workstations/workstation-environment",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Environment Quick Tips; Lighting > Possible Solutions, window blinds and reorientation bullets.",
+      "rights_checked": true,
+      "notes": "Read Environment Quick Tips and Lighting solutions in actual body. These are recommendations, not measured conditions in a home office. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "nyc-plaza",
+      "url": "https://www.nyc.gov/html/dot/html/pedestrians/nyc-plaza-program.shtml",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Opening three paragraphs below Pedestrian Plazas heading.",
+      "rights_checked": true,
+      "notes": "Read opening three paragraphs: reclaimed streets, community partners, optional amenities. Broad source attribution is supported. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "nyc-open-streets",
+      "url": "https://www.nyc.gov/html/dot/html/pedestrians/openstreets.shtml",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Opening program description; Overview partner list; Full Closure: Schools paragraph.",
+      "rights_checked": true,
+      "notes": "Read opening, Overview partner list and Full Closure: Schools body. Temporary/programmed street use is not synonymous with a permanent plaza. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "nws-twilight",
+      "url": "https://www.weather.gov/lmk/twilight-types",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Three Types of Twilight: general definition and Civil Twilight bullet (including absent fog or other restrictions).",
+      "rights_checked": true,
+      "notes": "Read Three Types of Twilight and Civil Twilight bullet, including fog/restriction qualification. No site luminance observation. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "nps-pahayokee",
+      "url": "https://www.nps.gov/ever/planyourvisit/pa-hay-okee-overlook.htm",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Trail Length; Trail Description; Wheelchair Accessible. Page updated March 6, 2026.",
+      "rights_checked": true,
+      "notes": "Read Trail Length and Trail Description: 0.16-mile/260 m loop and raised platform overlooking river-of-grass landscape. This named wetland viewpoint differs from generic park-path originals. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "nps-mori",
+      "url": "https://planning.nps.gov/projectHome.cfm?projectID=51095",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "ProjectID 51095, two project-description paragraphs. Proposed work, not a completion report; publication date not shown.",
+      "rights_checked": true,
+      "notes": "Read project 51095 first description paragraph. Proposed work only; no completion date or current-site inspection. Named intervention is distinct from generic coastal-walk original. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "nps-dingmans",
+      "url": "https://www.nps.gov/dewa/planyourvisit/dingmans-creek-trail.htm",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Closure banner; Basic Details; Trail Desctription. Page updated May 28, 2025. Conflicting .3/.03-mile accessibility statements are not adopted.",
+      "rights_checked": true,
+      "notes": "Read closure banner, Basic Details and Trail Desctription. 0.3 versus .03 accessible distances conflict and remain unused. Closure is a page statement, not independent present-access certification. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "nps-congaree",
+      "url": "https://www.nps.gov/cong/planyourvisit/trail-information.htm",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "PLEASE READ flooding notice; introductory floodplain paragraph; Boardwalk Trail paragraph. Page updated July 10, 2026; listed conditions are not a site inspection.",
+      "rights_checked": true,
+      "notes": "Read PLEASE READ, mileage preamble and Boardwalk Trail. Flood exceptions and approximate/passable-distance qualification preserved. Named floodplain habitat differs from wetland overlook and waterfall trail, not a wording-only variant. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "disney-modeling",
+      "url": "https://www.disneyanimation.com/process/modeling/",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Opening paragraph; Environment Models; Collaborative Efforts; copyright footer.",
+      "rights_checked": true,
+      "notes": "Read opening, Environment Models, Collaborative Efforts and footer. Footer states © 2026 Disney Enterprises, Inc. All Rights Reserved. Restricted status is supported; no model/image reuse permission obtained. Only short attributed text metadata is reviewed. No media reuse, AI upload or acquisition authorized by this check."
+    },
+    {
+      "source_id": "disney-layout",
+      "url": "https://www.disneyanimation.com/process/layout/",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Opening description; The Process; Layout Finaling; copyright footer.",
+      "rights_checked": true,
+      "notes": "Read The Process, Layout Finaling and footer. Footer states © 2026 Disney Enterprises, Inc. All Rights Reserved. Restricted status is supported; text access does not license film/model/image reuse. Only short attributed text metadata is reviewed. No media reuse, AI upload or acquisition authorized by this check."
+    },
+    {
+      "source_id": "procyc-cyc",
+      "url": "https://www.procyc.com/about-pro-cyc/",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "WHAT IS A CYC? and Understanding the Photography Cyclorama Wall & Its Design paragraphs.",
+      "rights_checked": true,
+      "notes": "Read WHAT IS A CYC and design/coves explanation. Manufacturer primary account, not independent optical/performance testing. Existing exact cyclorama entry selected rather than adding another white-studio variant. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    },
+    {
+      "source_id": "procyc-white",
+      "url": "https://www.procyc.com/products/cyclorama-white-studio-paint/",
+      "checked_at": "2026-10-30T04:24:59.164610+00:00",
+      "access": "public_body",
+      "locator": "Flat White for Seamless Studio Backgrounds; Best for list. Manufacturer description, not independent performance testing.",
+      "rights_checked": true,
+      "notes": "Read Flat White description and full primary HTML Best for / Product details lists. Web excerpt retries timed out; markdown omitted the lists; complete HTML successfully supplied them. Manufacturer claims only, no product test. Rights checked against the limited use recorded: unknown retained; no affirmative media license verified or inferred from public access. Text-only short attribution/link; no media acquired or visually inspected."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "accessible-lavatory-mirror",
+      "field": "회전_공간",
+      "source_id": "ada-2010",
+      "locator": "§603.2.1 Turning Space",
+      "verdict": "supported",
+      "notes": "Section requires turning space within the toilet/bathing room; not every indoor room. Record is scoped to the lavatory context."
+    },
+    {
+      "concept_key": "accessible-lavatory-mirror",
+      "field": "세면대_접근",
+      "source_id": "ada-2010",
+      "locator": "§606.2 Clear Floor Space and Exceptions",
+      "verdict": "supported",
+      "notes": "Forward approach plus knee/toe clearance is the general rule; exceptions remain explicitly excluded from the summary."
+    },
+    {
+      "concept_key": "accessible-lavatory-mirror",
+      "field": "거울_높이",
+      "source_id": "ada-2010",
+      "locator": "§603.3 Mirrors",
+      "verdict": "supported",
+      "notes": "1015 mm is the maximum reflecting-surface bottom edge above a lavatory/countertop, not mirror overall height."
+    },
+    {
+      "concept_key": "accessible-corridor-door",
+      "field": "통로_폭",
+      "source_id": "ada-2010",
+      "locator": "§403.5.1 Clear Width and Exception",
+      "verdict": "supported",
+      "notes": "915 mm general accessible walking-surface width matches; reduction exceptions exist. Not a measurement of the original corridor."
+    },
+    {
+      "concept_key": "accessible-corridor-door",
+      "field": "문_폭",
+      "source_id": "ada-2010",
+      "locator": "§404.2.3 Clear Width",
+      "verdict": "supported",
+      "notes": "815 mm general minimum and 90-degree swinging-door measurement match. Deeper openings have a separate 915 mm rule; record does not claim exhaustive compliance."
+    },
+    {
+      "concept_key": "accessible-corridor-door",
+      "field": "교행_배치",
+      "source_id": "ada-2010",
+      "locator": "§403.5.3 Passing Spaces",
+      "verdict": "supported",
+      "notes": "1525 mm threshold and 61 m maximum passing-space interval match."
+    },
+    {
+      "concept_key": "rail-platform-vehicle-interface",
+      "field": "경사_조건",
+      "source_id": "ada-2010",
+      "locator": "§810.5.1 Slope and Exception",
+      "verdict": "supported",
+      "notes": "1:48 all-direction limit and existing-track parallel-slope exception match."
+    },
+    {
+      "concept_key": "rail-platform-vehicle-interface",
+      "field": "경계_표면",
+      "source_id": "ada-2010",
+      "locator": "§810.5.2 Detectable Warnings",
+      "verdict": "supported",
+      "notes": "Full public-use boarding-edge warning requirement applies where screens or guards do not protect it."
+    },
+    {
+      "concept_key": "rail-platform-vehicle-interface",
+      "field": "차량_접속",
+      "source_id": "ada-2010",
+      "locator": "§810.5.3 Platform and Vehicle Floor Coordination",
+      "verdict": "supported",
+      "notes": "Platform positioning must coordinate with vehicles; no domestic-station or observed clearance claim is made."
+    },
+    {
+      "concept_key": "home-computer-workstation",
+      "field": "사용자_맞춤",
+      "source_id": "osha-workstation",
+      "locator": "Introduction: no single correct posture or arrangement",
+      "verdict": "supported",
+      "notes": "Introduction denies one arrangement/posture fits everyone; matches the attributed summary."
+    },
+    {
+      "concept_key": "home-computer-workstation",
+      "field": "환기_배치",
+      "source_id": "osha-environment",
+      "locator": "Environment Quick Tips: air circulation and air conditioning vents bullets",
+      "verdict": "supported",
+      "notes": "Quick Tips separately recommends circulation and avoiding direct air-conditioning discharge."
+    },
+    {
+      "concept_key": "home-computer-workstation",
+      "field": "창과_화면",
+      "source_id": "osha-environment",
+      "locator": "Lighting > Possible Solutions: Reorient the workstation bullet",
+      "verdict": "supported",
+      "notes": "Lighting solutions explicitly recommends reorienting window light at right angles to the screen. No room dimensions are inferred."
+    },
+    {
+      "concept_key": "pedestrian-public-plaza",
+      "field": "공간_전환",
+      "source_id": "nyc-plaza",
+      "locator": "Opening paragraph: reclaimed streets",
+      "verdict": "supported",
+      "notes": "Reclaimed streets become social public spaces in the opening paragraph."
+    },
+    {
+      "concept_key": "pedestrian-public-plaza",
+      "field": "공간_요소",
+      "source_id": "nyc-plaza",
+      "locator": "Third opening paragraph: amenities",
+      "verdict": "supported",
+      "notes": "Third paragraph lists the stated optional amenities; possibility, not guaranteed installation."
+    },
+    {
+      "concept_key": "pedestrian-public-plaza",
+      "field": "운영_주체",
+      "source_id": "nyc-plaza",
+      "locator": "Second opening paragraph: plaza partners",
+      "verdict": "supported",
+      "notes": "Second paragraph identifies community organizations and partner operation/management. Distinct from temporary Open Streets below."
+    },
+    {
+      "concept_key": "programmed-open-street",
+      "field": "이용_목적",
+      "source_id": "nyc-open-streets",
+      "locator": "Opening program description",
+      "verdict": "supported",
+      "notes": "Opening paragraph names school support, pedestrian/bike mobility and cultural programming."
+    },
+    {
+      "concept_key": "programmed-open-street",
+      "field": "운영_참여",
+      "source_id": "nyc-open-streets",
+      "locator": "Overview: partners list",
+      "verdict": "supported",
+      "notes": "Overview lists community groups, education institutions, business groups and houses of worship."
+    },
+    {
+      "concept_key": "programmed-open-street",
+      "field": "학교앞_조건",
+      "source_id": "nyc-open-streets",
+      "locator": "Types of Open Streets > Full Closure: Schools",
+      "verdict": "supported",
+      "notes": "School closure paragraph specifies temporary vehicle closure and outdoor learning, lunch and assemblies in front of the school."
+    },
+    {
+      "concept_key": "urban-civil-twilight-street",
+      "field": "박명_정의",
+      "source_id": "nws-twilight",
+      "locator": "Three Types of Twilight: introductory paragraph",
+      "verdict": "supported",
+      "notes": "General definition describes partial atmospheric illumination before sunrise/after sunset."
+    },
+    {
+      "concept_key": "urban-civil-twilight-street",
+      "field": "저녁_경계",
+      "source_id": "nws-twilight",
+      "locator": "Civil Twilight: evening begins at sunset and ends at 6 degrees",
+      "verdict": "supported",
+      "notes": "Evening civil twilight runs from sunset to geometric solar-center depression of six degrees."
+    },
+    {
+      "concept_key": "urban-civil-twilight-street",
+      "field": "가시성_제약",
+      "source_id": "nws-twilight",
+      "locator": "Civil Twilight: absent fog or other restrictions clause",
+      "verdict": "supported",
+      "notes": "Fog/restriction caveat and conditional visibility/lighting statement match; not measured street illuminance."
+    },
+    {
+      "concept_key": "wetland-observation-boardwalk",
+      "field": "공간_구조",
+      "source_id": "nps-pahayokee",
+      "locator": "Trail Description",
+      "verdict": "supported",
+      "notes": "Description explicitly places a raised observation platform on a boardwalk loop."
+    },
+    {
+      "concept_key": "wetland-observation-boardwalk",
+      "field": "배경_조망",
+      "source_id": "nps-pahayokee",
+      "locator": "Trail Description: river of grass vistas",
+      "verdict": "supported",
+      "notes": "Sweeping views of the river-of-grass landscape are described by NPS, not independently observed imagery."
+    },
+    {
+      "concept_key": "wetland-observation-boardwalk",
+      "field": "왕복_거리",
+      "source_id": "nps-pahayokee",
+      "locator": "Trail Length",
+      "verdict": "supported",
+      "notes": "Trail Length explicitly gives 0.16 miles (260 m) round trip; these are source numbers, not reviewer measurement."
+    },
+    {
+      "concept_key": "accessible-coastal-trail",
+      "field": "대상_구간",
+      "source_id": "nps-mori",
+      "locator": "Project description, first paragraph, first sentence",
+      "verdict": "supported",
+      "notes": "First sentence proposes approximately 1600 linear feet along both named trails."
+    },
+    {
+      "concept_key": "accessible-coastal-trail",
+      "field": "기존_표면",
+      "source_id": "nps-mori",
+      "locator": "Project description, first paragraph, second sentence",
+      "verdict": "supported",
+      "notes": "Second sentence identifies loose/unstable tread and unmet firm/stable and cross-slope accessibility requirements. Historical document claim only."
+    },
+    {
+      "concept_key": "accessible-coastal-trail",
+      "field": "계획_내용",
+      "source_id": "nps-mori",
+      "locator": "Project description, first paragraph, final sentence",
+      "verdict": "supported",
+      "notes": "Final sentence proposes resurfacing, drainage improvements and erosion reduction; neither completion nor present accessibility is certified."
+    },
+    {
+      "concept_key": "forest-waterfall-boardwalk",
+      "field": "숲_환경",
+      "source_id": "nps-dingmans",
+      "locator": "Trail Desctription: first sentence",
+      "verdict": "supported",
+      "notes": "Trail Desctription names rhododendrons and hemlock/hardwood canopy."
+    },
+    {
+      "concept_key": "forest-waterfall-boardwalk",
+      "field": "동선_목적지",
+      "source_id": "nps-dingmans",
+      "locator": "Trail Desctription: second sentence",
+      "verdict": "supported",
+      "notes": "Same paragraph names both waterfalls as destinations."
+    },
+    {
+      "concept_key": "forest-waterfall-boardwalk",
+      "field": "편도_길이",
+      "source_id": "nps-dingmans",
+      "locator": "Basic Details: Trail Length",
+      "verdict": "supported",
+      "notes": "Basic Details explicitly gives 0.4 mile one-way. Conflicting 0.3/.03 accessible portions are not accepted as distances."
+    },
+    {
+      "concept_key": "forest-waterfall-boardwalk",
+      "field": "이용_공지",
+      "source_id": "nps-dingmans",
+      "locator": "Closure banner above Basic Details; page last updated May 28, 2025",
+      "verdict": "supported",
+      "notes": "Closure banner explicitly starts May 12, 2025 and prohibits pedestrian, vehicle and cyclist traffic for bridge/trail works. Record correctly leaves later reopening unverified."
+    },
+    {
+      "concept_key": "congaree-floodplain-boardwalk",
+      "field": "공간_구조",
+      "source_id": "nps-congaree",
+      "locator": "Boardwalk Trail paragraph: bluff to old-growth bottomland hardwood forest",
+      "verdict": "supported",
+      "notes": "Boardwalk paragraph describes elevated descent from the visitor-center bluff into old-growth bottomland hardwood forest."
+    },
+    {
+      "concept_key": "congaree-floodplain-boardwalk",
+      "field": "경로_거리",
+      "source_id": "nps-congaree",
+      "locator": "Park Trails preamble and Boardwalk Trail: Round Trip Distance",
+      "verdict": "supported",
+      "notes": "2.6-mile round trip matches; preamble makes mileages approximate and assumes passability."
+    },
+    {
+      "concept_key": "congaree-floodplain-boardwalk",
+      "field": "환경_조건",
+      "source_id": "nps-congaree",
+      "locator": "PLEASE READ: flooding notice",
+      "verdict": "supported",
+      "notes": "PLEASE READ warns periodic flooding, exempts elevated Boardwalk and named trails, and says updates may not follow every flood. Not a current-condition inspection."
+    },
+    {
+      "concept_key": "environment-model-assembly",
+      "field": "환경_구성",
+      "source_id": "disney-modeling",
+      "locator": "Environment Models",
+      "verdict": "supported",
+      "notes": "Environment Models lists terrain, architecture, vegetation, vehicles and props."
+    },
+    {
+      "concept_key": "environment-model-assembly",
+      "field": "제작_입력",
+      "source_id": "disney-modeling",
+      "locator": "Opening paragraph",
+      "verdict": "supported",
+      "notes": "Opening describes translating Visual Development concept art into characters and screen worlds."
+    },
+    {
+      "concept_key": "environment-model-assembly",
+      "field": "공간_인계",
+      "source_id": "disney-modeling",
+      "locator": "Collaborative Efforts: Environment Modelers sentence",
+      "verdict": "supported",
+      "notes": "Collaborative Efforts explicitly links environment modelers to the three listed departments. Asset assembly is distinct from shot layout."
+    },
+    {
+      "concept_key": "virtual-set-layout-staging",
+      "field": "입력_구조",
+      "source_id": "disney-layout",
+      "locator": "The Process: first paragraph",
+      "verdict": "supported",
+      "notes": "The Process describes editor-cut boards and first 3D representation using modeling-department assets."
+    },
+    {
+      "concept_key": "virtual-set-layout-staging",
+      "field": "초기_세트",
+      "source_id": "disney-layout",
+      "locator": "The Process: second paragraph",
+      "verdict": "supported",
+      "notes": "Next paragraph describes occasional early self-modeling and temporary effects/lights."
+    },
+    {
+      "concept_key": "virtual-set-layout-staging",
+      "field": "공간_연속성",
+      "source_id": "disney-layout",
+      "locator": "Layout Finaling",
+      "verdict": "supported",
+      "notes": "Layout Finaling follows Animation and completes set composition, continuity and adjacent-shot relationships. No geometry inspection claimed."
+    },
+    {
+      "concept_key": "white-cyclorama",
+      "field": "배경_구조",
+      "source_id": "procyc-cyc",
+      "locator": "WHAT IS A CYC?",
+      "verdict": "supported",
+      "notes": "WHAT IS A CYC describes a curved photo/video background suggesting unlimited space."
+    },
+    {
+      "concept_key": "white-cyclorama",
+      "field": "경계_연결",
+      "source_id": "procyc-cyc",
+      "locator": "Understanding the Photography Cyclorama Wall & Its Design: coves",
+      "verdict": "supported",
+      "notes": "Design section defines coves joining right-angle surface intersections."
+    },
+    {
+      "concept_key": "white-cyclorama",
+      "field": "백색_표면",
+      "source_id": "procyc-white",
+      "locator": "Flat White for Seamless Studio Backgrounds; Product details",
+      "verdict": "supported",
+      "notes": "Description and Product details label ultra-flat white finish for seamless backgrounds; manufacturer assertion, not tested performance."
+    },
+    {
+      "concept_key": "white-cyclorama",
+      "field": "이용_목적",
+      "source_id": "procyc-white",
+      "locator": "Best for",
+      "verdict": "supported",
+      "notes": "Best for HTML list explicitly includes high-key photo/video and product photography/e-commerce studios; full HTML inspected after markdown omitted this list."
+    }
+  ],
+  "accepted_count": 14,
+  "shortfall": 6,
+  "shortfall_reason": "Partial result: 14 supported concepts from 14 reopened public primary sources; 6 of the target 20 are absent from this exact input, not rejected or invented. All 44 factual fields are source_claims, not observations or measurements. No proposals or media candidates; zero media acquired or inspected. Seven explicit existing-entry IDs resolve uniquely in the original 30 space entries; seven named cases/processes are distinct metadata concepts. Existing generic park, coast, lake and white-studio guides are not silently promoted or duplicated. No additional supported concepts were supplied to fill the shortfall. The original 2485 entries and Drive media were not edited."
+}

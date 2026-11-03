@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "category_id": "edit",
+  "input_sha256": "3a790420bbc36eb395c26b1f319fa9c129467e3989002d62abd53ffe10540bd2",
+  "reviewer": "omo-edit-independent-reviewer-st_01a18b3a-20261030",
+  "reviewed_at": "2026-10-30T05:16:43.981572+00:00",
+  "accepted_concept_keys": [
+    "eyeline-match",
+    "match-on-action",
+    "180-degree-rule",
+    "shot-reverse-shot",
+    "insert-shot",
+    "cutaway",
+    "jump-cut",
+    "graphic-match",
+    "straight-cut",
+    "dissolve",
+    "fade",
+    "editing-pace",
+    "audio-bridge",
+    "reaction-shot",
+    "continuity-editing",
+    "cross-cutting",
+    "soviet-montage",
+    "wipe",
+    "freeze-frame",
+    "iris-transition"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "cu-eyeline",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/eye-line-match/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Eye-Line Match, 정의 문단 및 Funeral의 Film/Director/Source 표제",
+      "rights_checked": true,
+      "notes": "Read definition and Funeral Film/Director/Source metadata. Reopened About > Copyrights and Permissions: education/scholarship only; other uses not authorized. Restricted retained; no license for clips, stills or commentary. Individual definition author unidentified. No playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "fa-action",
+      "url": "https://www.filmmakersacademy.com/glossary/cutting-on-action-cut-on-action/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Tags: cut on action, cutting on action 아래 정의 본문 두 문단",
+      "rights_checked": true,
+      "notes": "Read both definition paragraphs, not an HTTP-status check. Lower author area displays Zack Eritz alongside Test Author and test profiles; authorship remains uncertain, not assigned. No reuse grant established: unknown retained. No media acquired."
+    },
+    {
+      "source_id": "cu-axis",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/180-degree-rule/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: 180-Degree Rule, 도입 두 문단 및 There are instances로 시작하는 오즈 설명 문단",
+      "rights_checked": true,
+      "notes": "Read both opening paragraphs and Ozu exception. About > Copyrights and Permissions independently confirms restricted educational/scholarly use, not commercial media permission. Effects remain attributed teaching claims, not observed audience responses. No playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "adobe-reverse",
+      "url": "https://www.adobe.com/in/creativecloud/video/production/cinematography/camera-shots-and-angles/reverse-shot.html",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "도입의 A staple of filmmaking 문단; How to use the shot-reverse shot; Planning for a shot-reverse shot",
+      "rights_checked": true,
+      "notes": "Read introduction, How to use and Planning paragraphs. Contributors are Nick Escobar and Padraic O’Meara, not established sole page authors. Footer reserves rights; no media reuse grant established, unknown retained. No software or playback."
+    },
+    {
+      "source_id": "adobe-shots",
+      "url": "https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Foundational camera shots for story and rhythm 하위 Cut ins/insert shot, Cut away shot, Reaction shot",
+      "rights_checked": true,
+      "notes": "Read Cut ins/insert shot, Cut away shot and Reaction shot bodies. Footer reserves rights; no redistribution grant established, unknown retained. Existing titles are enrichment labels, not source proof of time-bridging duration. Reaction framing is Adobe’s characterization, not a universal restriction. No media inspection."
+    },
+    {
+      "source_id": "cu-jump",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/jump-cut/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Jump Cut, 정의 문단 및 Lunch Date의 Film/Director/Source 표제",
+      "rights_checked": true,
+      "notes": "Read definition and Lunch Date Film/Director/Source metadata. About > Copyrights and Permissions confirms educational/scholarly scope, no other-use authorization. Restricted retained; Winstar listing is provenance, not permission. No playback or timing analysis. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "adobe-match",
+      "url": "https://www.adobe.com/uk/creativecloud/video/discover/match-cut.html",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Graphic match cuts enhance visual storytelling 및 Audio match cuts make dynamic sound bridges",
+      "rights_checked": true,
+      "notes": "Read UK Graphic and Audio match subsections. No example-film claims imported from problematic promotional examples. Footer reserves rights; reuse remains unknown. Graphic and audio connections are distinct mechanisms, not wording variants. J/L claim is only the page’s generic overlap account. No software/playback."
+    },
+    {
+      "source_id": "uf-editing",
+      "url": "https://ask.ifas.ufl.edu/publication/WC126/pdf",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "PDF p.1 title/authors/revision/review label; p.2 Cross-Platform Concepts for Video Editing > A cut and Properly pace paragraphs",
+      "rights_checked": true,
+      "notes": "Read both PDF pages: title/authors, July 2021 revision, Reviewed 09/2024, page-2 cuts and pacing. No open redistribution grant established; unknown retained. Pacing guidance is attributed, educational exception preserved; no universal 5–10-second rule imported. No measured samples or media acquisition."
+    },
+    {
+      "source_id": "cu-dissolve",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/dissolve/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Dissolve, 첫 정의 문단 및 Edwin Porter로 시작하는 문단",
+      "rights_checked": true,
+      "notes": "Read definition and Edwin Porter paragraph. About > Copyrights and Permissions independently confirms educational/scholarly restriction; no commercial-media reuse authorization. Restricted retained. Aliases are one concept, not extra entries; no clip playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "cu-fade",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/fade/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Fade, both opening definition paragraphs; About > Copyrights and Permissions",
+      "rights_checked": true,
+      "notes": "Read both definition paragraphs; collector’s single-paragraph locator encompasses the fade explanation but current body has two. About > Copyrights and Permissions confirms restricted scope. No permission for footage/commentary. Fade-in/out remain one concept; audio ordering is not verified. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "cu-editing",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/editing/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Continuity Editing, 첫 문단",
+      "rights_checked": true,
+      "notes": "Read Continuity Editing opening paragraph, not merely glossary navigation. About > Copyrights and Permissions confirms restricted educational/scholarly scope. No third-party clip grant. Broad editing system is distinct from specific axis, eyeline and action techniques; no playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "adobe-cross",
+      "url": "https://www.adobe.com/creativecloud/video/discover/cross-cutting-film",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "What is cross-cutting in film? below Cut between scenes; When and why should you cross-cut in film? > Build suspense; footer",
+      "rights_checked": true,
+      "notes": "Read What is cross-cutting below Cut between scenes and Build suspense example. Qualified simultaneity, not universal same-time action, is supported. Footer reserves rights; no reuse license established, unknown retained. Film event account remains Adobe’s text, not independently watched footage."
+    },
+    {
+      "source_id": "cu-montage",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/montage/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Montage, 정의 문단 및 Odessa Steps의 Film/Director 표제",
+      "rights_checked": true,
+      "notes": "Read definition and Odessa Steps Film/Director/Source metadata. University’s account of Soviet theory, not direct inspection of the directors’ original treatises. About > Copyrights and Permissions confirms restricted educational/scholarly use; no film/voice reuse authorization. No playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "cu-wipe",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/wipe/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Wipe, 첫 본문 문단",
+      "rights_checked": true,
+      "notes": "Read first two paragraphs: boundary replacement, variation and lateral-wipe geometry. About > Copyrights and Permissions confirms restricted educational/scholarly use, no commercial-media authorization. Related to iris but distinct replacement mechanism, not a duplicated shape variant. No playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "cu-freeze",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/freeze-frame/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Freeze-Frame, 정의 문단 및 Antoine Runs Away의 Film/Director/Source 표제",
+      "rights_checked": true,
+      "notes": "Read definition and Antoine Runs Away Film/Director/Source metadata. About > Copyrights and Permissions confirms restricted educational/scholarly use. Criterion provenance is not reuse permission. Repeated film printing is a historical process description, not tested digital behavior; no playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    },
+    {
+      "source_id": "cu-iris",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/iris-shot/",
+      "checked_at": "2026-10-30T05:16:43.981572+00:00",
+      "access": "public_body",
+      "locator": "Term: Iris Shot, 정의 문단",
+      "rights_checked": true,
+      "notes": "Read full mask definition, alternatives and uses. About > Copyrights and Permissions confirms restricted educational/scholarly scope; no movie/still reuse authorization. Mask forms are one record, not separate counted variants. No playback. Rights evidence independently reopened: https://filmglossary.ccnmtl.columbia.edu/about/ > Copyrights and Permissions."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "eyeline-match",
+      "field": "편집 체계",
+      "source_id": "cu-eyeline",
+      "locator": "정의 문단, method of continuity editing",
+      "verdict": "supported",
+      "notes": "Definition classifies the technique under continuity editing. Same-category enrichment confirmed: CRAFT-edit-2215f56d446b (시선 매치 컷); no new alias row. FS-0145 is related legacy text; exact-title CRAFT target is explicit and preserved. Checked at https://filmglossary.ccnmtl.columbia.edu/term/eye-line-match/ > 정의 문단, method of continuity editing."
+    },
+    {
+      "concept_key": "eyeline-match",
+      "field": "숏 연결 순서",
+      "source_id": "cu-eyeline",
+      "locator": "정의 문단, first shot와 second shot 설명",
+      "verdict": "supported",
+      "notes": "Definition specifies character first and looked-at object second. Checked at https://filmglossary.ccnmtl.columbia.edu/term/eye-line-match/ > 정의 문단, first shot와 second shot 설명."
+    },
+    {
+      "concept_key": "eyeline-match",
+      "field": "문서상 사례",
+      "source_id": "cu-eyeline",
+      "locator": "Funeral 아래 Film 및 Director 표제",
+      "verdict": "supported",
+      "notes": "Funeral metadata identifies The Third Man (1949), directed by Carol Reed; clip not watched. Checked at https://filmglossary.ccnmtl.columbia.edu/term/eye-line-match/ > Funeral 아래 Film 및 Director 표제."
+    },
+    {
+      "concept_key": "match-on-action",
+      "field": "연결 기준",
+      "source_id": "fa-action",
+      "locator": "첫 본문 문단, matches the action and energy",
+      "verdict": "supported",
+      "notes": "Definition explicitly matches action and energy between viewpoints. Same-category enrichment confirmed: CRAFT-edit-515e01b6351d (동작 매치 컷); no new alias row. FS-0146 is related legacy text; exact-title CRAFT target is explicit and preserved. Checked at https://www.filmmakersacademy.com/glossary/cutting-on-action-cut-on-action/ > 첫 본문 문단, matches the action and energy."
+    },
+    {
+      "concept_key": "match-on-action",
+      "field": "행동 단계",
+      "source_id": "fa-action",
+      "locator": "둘째 본문 문단, begin an action 및 continue or complete",
+      "verdict": "supported",
+      "notes": "Second paragraph describes beginning then continuing or completing an action. Checked at https://www.filmmakersacademy.com/glossary/cutting-on-action-cut-on-action/ > 둘째 본문 문단, begin an action 및 continue or complete."
+    },
+    {
+      "concept_key": "match-on-action",
+      "field": "촬영과 서사 시간",
+      "source_id": "fa-action",
+      "locator": "첫 본문 문단, hours apart 및 continuous time and space",
+      "verdict": "supported",
+      "notes": "First paragraph distinguishes separate filming times/locations from apparent continuous screen time/space. Checked at https://www.filmmakersacademy.com/glossary/cutting-on-action-cut-on-action/ > 첫 본문 문단, hours apart 및 continuous time and space."
+    },
+    {
+      "concept_key": "180-degree-rule",
+      "field": "카메라 배치 기준",
+      "source_id": "cu-axis",
+      "locator": "첫 문단, one side of the axis of action",
+      "verdict": "supported",
+      "notes": "Opening paragraph states the same-side axis convention. Same-category enrichment confirmed: FS-0147 (공간 축 유지); no new alias row. Checked at https://filmglossary.ccnmtl.columbia.edu/term/180-degree-rule/ > 첫 문단, one side of the axis of action."
+    },
+    {
+      "concept_key": "180-degree-rule",
+      "field": "좌우 관계 위험",
+      "source_id": "cu-axis",
+      "locator": "둘째 문단, actors' positions reversed",
+      "verdict": "supported",
+      "notes": "Second paragraph describes the risk of apparently reversed actor positions. Checked at https://filmglossary.ccnmtl.columbia.edu/term/180-degree-rule/ > 둘째 문단, actors' positions reversed."
+    },
+    {
+      "concept_key": "180-degree-rule",
+      "field": "의도적 예외",
+      "source_id": "cu-axis",
+      "locator": "There are instances 문단, Ozu 및 cinematic tension",
+      "verdict": "supported",
+      "notes": "Ozu paragraph explicitly presents convention-breaking cinematic tension, not a measured viewer response. Checked at https://filmglossary.ccnmtl.columbia.edu/term/180-degree-rule/ > There are instances 문단, Ozu 및 cinematic tension."
+    },
+    {
+      "concept_key": "shot-reverse-shot",
+      "field": "연결 구조",
+      "source_id": "adobe-reverse",
+      "locator": "도입, A shot-reverse shot starts 문단",
+      "verdict": "supported",
+      "notes": "Opening sequence is character, looked-at subject, then return. Same-category enrichment confirmed: CRAFT-edit-d151876fccf3 (쇼트 리버스 쇼트); no new alias row. Checked at https://www.adobe.com/in/creativecloud/video/production/cinematography/camera-shots-and-angles/reverse-shot.html > 도입, A shot-reverse shot starts 문단."
+    },
+    {
+      "concept_key": "shot-reverse-shot",
+      "field": "대화 시간 인상",
+      "source_id": "adobe-reverse",
+      "locator": "도입 A staple 문단 및 How to use 첫 문단",
+      "verdict": "supported",
+      "notes": "Introduction and How to use describe alternating angles implying an unbroken, real-time conversation. Checked at https://www.adobe.com/in/creativecloud/video/production/cinematography/camera-shots-and-angles/reverse-shot.html > 도입 A staple 문단 및 How to use 첫 문단."
+    },
+    {
+      "concept_key": "shot-reverse-shot",
+      "field": "배경 비교 기준",
+      "source_id": "adobe-reverse",
+      "locator": "Planning for a shot-reverse shot, Depending on your shot size 문단",
+      "verdict": "supported",
+      "notes": "Planning paragraph explicitly requires backgrounds to match master-shot locations. Checked at https://www.adobe.com/in/creativecloud/video/production/cinematography/camera-shots-and-angles/reverse-shot.html > Planning for a shot-reverse shot, Depending on your shot size 문단."
+    },
+    {
+      "concept_key": "insert-shot",
+      "field": "숏 크기",
+      "source_id": "adobe-shots",
+      "locator": "Cut ins/insert shot, 첫 문단",
+      "verdict": "supported",
+      "notes": "Insert subsection describes close-up details including hands and feet. Same-category enrichment confirmed: CRAFT-edit-b8deb1d45113 (인서트로 행동 명료화); no new alias row. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Cut ins/insert shot, 첫 문단."
+    },
+    {
+      "concept_key": "insert-shot",
+      "field": "정보 역할",
+      "source_id": "adobe-shots",
+      "locator": "Cut ins/insert shot, 둘째 문단",
+      "verdict": "supported",
+      "notes": "Second paragraph specifies attention to narratively important details. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Cut ins/insert shot, 둘째 문단."
+    },
+    {
+      "concept_key": "insert-shot",
+      "field": "문서상 예시",
+      "source_id": "adobe-shots",
+      "locator": "Cut ins/insert shot, phone screen 예시",
+      "verdict": "supported",
+      "notes": "First paragraph explicitly uses the phone-screen example. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Cut ins/insert shot, phone screen 예시."
+    },
+    {
+      "concept_key": "cutaway",
+      "field": "연결 대상",
+      "source_id": "adobe-shots",
+      "locator": "Cut away shot, 두 문단",
+      "verdict": "supported",
+      "notes": "Cutaway subsection shifts from subject to another related subject. Same-category enrichment confirmed: CRAFT-edit-2a662f056f44 (컷어웨이로 시간 연결); no new alias row. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Cut away shot, 두 문단."
+    },
+    {
+      "concept_key": "cutaway",
+      "field": "편집 활용",
+      "source_id": "adobe-shots",
+      "locator": "Cut away shot, 첫 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "First paragraph explicitly mentions editing multiple takes together. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Cut away shot, 첫 문단 마지막 문장."
+    },
+    {
+      "concept_key": "cutaway",
+      "field": "정보 범위",
+      "source_id": "adobe-shots",
+      "locator": "Cut away shot, 둘째 문단",
+      "verdict": "supported",
+      "notes": "Second paragraph identifies related off-frame locations, objects and action. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Cut away shot, 둘째 문단."
+    },
+    {
+      "concept_key": "jump-cut",
+      "field": "시간 처리",
+      "source_id": "cu-jump",
+      "locator": "정의 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "Definition explicitly removes frames from a sequence. Same-category enrichment confirmed: CRAFT-edit-5ac077faa6a7 (점프컷의 의도); no new alias row. Checked at https://filmglossary.ccnmtl.columbia.edu/term/jump-cut/ > 정의 문단 첫 문장."
+    },
+    {
+      "concept_key": "jump-cut",
+      "field": "표현 의도",
+      "source_id": "cu-jump",
+      "locator": "정의 문단 둘째 문장",
+      "verdict": "supported",
+      "notes": "Second sentence attributes attention to filmmaking conventions. Checked at https://filmglossary.ccnmtl.columbia.edu/term/jump-cut/ > 정의 문단 둘째 문장."
+    },
+    {
+      "concept_key": "jump-cut",
+      "field": "문서상 사례",
+      "source_id": "cu-jump",
+      "locator": "Lunch Date 아래 Film 및 Director 표제",
+      "verdict": "supported",
+      "notes": "Lunch Date metadata lists Breathless (1960), Jean-Luc Godard; no clip inspection. Checked at https://filmglossary.ccnmtl.columbia.edu/term/jump-cut/ > Lunch Date 아래 Film 및 Director 표제."
+    },
+    {
+      "concept_key": "graphic-match",
+      "field": "연결 기준",
+      "source_id": "adobe-match",
+      "locator": "Graphic match cuts enhance visual storytelling, 첫 문장",
+      "verdict": "supported",
+      "notes": "Graphic subsection connects similar visual elements. Same-category enrichment confirmed: CRAFT-edit-25f9d9249a8b (그래픽 매치); no new alias row. Checked at https://www.adobe.com/uk/creativecloud/video/discover/match-cut.html > Graphic match cuts enhance visual storytelling, 첫 문장."
+    },
+    {
+      "concept_key": "graphic-match",
+      "field": "서사 기능",
+      "source_id": "adobe-match",
+      "locator": "Graphic match cuts enhance visual storytelling, creating symbolic links",
+      "verdict": "supported",
+      "notes": "Same sentence describes symbolic links; no empirical audience claim. Checked at https://www.adobe.com/uk/creativecloud/video/discover/match-cut.html > Graphic match cuts enhance visual storytelling, creating symbolic links."
+    },
+    {
+      "concept_key": "graphic-match",
+      "field": "준비와 정렬",
+      "source_id": "adobe-match",
+      "locator": "Graphic match cuts enhance visual storytelling, Plan the shots 문장",
+      "verdict": "supported",
+      "notes": "Same paragraph recommends advance planning, alignment and colour matching. Checked at https://www.adobe.com/uk/creativecloud/video/discover/match-cut.html > Graphic match cuts enhance visual storytelling, Plan the shots 문장."
+    },
+    {
+      "concept_key": "straight-cut",
+      "field": "전환 방식",
+      "source_id": "uf-editing",
+      "locator": "PDF p.2, A cut 첫 문장",
+      "verdict": "supported",
+      "notes": "Page 2 defines a direct shot-to-shot transition. Same-category enrichment confirmed: CRAFT-edit-97015e6fa292 (하드컷으로 정보 전환); no new alias row. Checked at https://ask.ifas.ufl.edu/publication/WC126/pdf > PDF p.2, A cut 첫 문장."
+    },
+    {
+      "concept_key": "straight-cut",
+      "field": "사용 빈도 설명",
+      "source_id": "uf-editing",
+      "locator": "PDF p.2, A cut 둘째 문장",
+      "verdict": "supported",
+      "notes": "Next sentence calls cuts the most commonly used transition. Checked at https://ask.ifas.ufl.edu/publication/WC126/pdf > PDF p.2, A cut 둘째 문장."
+    },
+    {
+      "concept_key": "straight-cut",
+      "field": "적용 맥락",
+      "source_id": "uf-editing",
+      "locator": "PDF p.2, For example, in video news editing 문장",
+      "verdict": "supported",
+      "notes": "Following sentence explicitly gives video-news editing as an example. Checked at https://ask.ifas.ufl.edu/publication/WC126/pdf > PDF p.2, For example, in video news editing 문장."
+    },
+    {
+      "concept_key": "dissolve",
+      "field": "영상 연결 방식",
+      "source_id": "cu-dissolve",
+      "locator": "첫 정의 문단, fades out 및 fades in",
+      "verdict": "supported",
+      "notes": "Definition describes fading-out/fading-in overlap followed by replacement. Same-category enrichment confirmed: CRAFT-edit-ad8af071fc28 (디졸브의 시간 의미); no new alias row. Checked at https://filmglossary.ccnmtl.columbia.edu/term/dissolve/ > 첫 정의 문단, fades out 및 fades in."
+    },
+    {
+      "concept_key": "dissolve",
+      "field": "용어 별칭",
+      "source_id": "cu-dissolve",
+      "locator": "첫 정의 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "Definition explicitly lists lap-dissolves and British mixes. Checked at https://filmglossary.ccnmtl.columbia.edu/term/dissolve/ > 첫 정의 문단 마지막 문장."
+    },
+    {
+      "concept_key": "dissolve",
+      "field": "서사 연결 용도",
+      "source_id": "cu-dissolve",
+      "locator": "Edwin Porter로 시작하는 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "Porter paragraph attributes location/time changes, flashbacks and dreams to continuity-system usage. Checked at https://filmglossary.ccnmtl.columbia.edu/term/dissolve/ > Edwin Porter로 시작하는 문단 마지막 문장."
+    },
+    {
+      "concept_key": "fade",
+      "field": "장면 경계 기능",
+      "source_id": "cu-fade",
+      "locator": "정의 문단 첫 절",
+      "verdict": "supported",
+      "notes": "Opening sentence describes gradual scene beginnings and endings. Same-category enrichment confirmed: CRAFT-edit-ebe96f603a3e (페이드아웃의 마무리); no new alias row. Checked at https://filmglossary.ccnmtl.columbia.edu/term/fade/ > 정의 문단 첫 절."
+    },
+    {
+      "concept_key": "fade",
+      "field": "전환 방향",
+      "source_id": "cu-fade",
+      "locator": "정의 문단, fade-out 및 fade-in",
+      "verdict": "supported",
+      "notes": "Following paragraph distinguishes disappearing fade-out and emerging fade-in. Checked at https://filmglossary.ccnmtl.columbia.edu/term/fade/ > 정의 문단, fade-out 및 fade-in."
+    },
+    {
+      "concept_key": "fade",
+      "field": "검정과 흰색 비교",
+      "source_id": "cu-fade",
+      "locator": "정의 문단, fade to black 및 fade to white",
+      "verdict": "supported",
+      "notes": "Final clause contrasts darkening to black with lightening to white; audio is outside scope. Checked at https://filmglossary.ccnmtl.columbia.edu/term/fade/ > 정의 문단, fade to black 및 fade to white."
+    },
+    {
+      "concept_key": "editing-pace",
+      "field": "페이싱 정의",
+      "source_id": "uf-editing",
+      "locator": "PDF p.2, Properly pace 문단 첫 두 문장",
+      "verdict": "supported",
+      "notes": "Page 2 defines perceived program speed or rhythm. Same-category enrichment confirmed: CRAFT-edit-270a749549f4 (리듬의 긴장과 완화); no new alias row. Checked at https://ask.ifas.ufl.edu/publication/WC126/pdf > PDF p.2, Properly pace 문단 첫 두 문장."
+    },
+    {
+      "concept_key": "editing-pace",
+      "field": "편집 목적",
+      "source_id": "uf-editing",
+      "locator": "PDF p.2, In order to maintain audience interest 문장",
+      "verdict": "supported",
+      "notes": "Pacing paragraph recommends editing for audience interest and involvement. Checked at https://ask.ifas.ufl.edu/publication/WC126/pdf > PDF p.2, In order to maintain audience interest 문장."
+    },
+    {
+      "concept_key": "editing-pace",
+      "field": "교육 영상 비교 조건",
+      "source_id": "uf-editing",
+      "locator": "PDF p.2, However, for educational videos 및 Instructional videos 문장",
+      "verdict": "supported",
+      "notes": "Educational exception allows longer shots for learning; no universal shot-length rule or measurement accepted. Checked at https://ask.ifas.ufl.edu/publication/WC126/pdf > PDF p.2, However, for educational videos 및 Instructional videos 문장."
+    },
+    {
+      "concept_key": "audio-bridge",
+      "field": "장면 경계 연결",
+      "source_id": "adobe-match",
+      "locator": "Audio match cuts make dynamic sound bridges, 첫 문장",
+      "verdict": "supported",
+      "notes": "Audio subsection specifies continuous sound across scene transitions. Same-category enrichment confirmed: FS-0152 (오디오 브리지); no new alias row. Checked at https://www.adobe.com/uk/creativecloud/video/discover/match-cut.html > Audio match cuts make dynamic sound bridges, 첫 문장."
+    },
+    {
+      "concept_key": "audio-bridge",
+      "field": "대사 겹침",
+      "source_id": "adobe-match",
+      "locator": "Audio match cuts make dynamic sound bridges, J/L cuts 문장",
+      "verdict": "supported",
+      "notes": "J/L sentence describes dialogue overlap between scenes; not a complete independent J-versus-L definition. Checked at https://www.adobe.com/uk/creativecloud/video/discover/match-cut.html > Audio match cuts make dynamic sound bridges, J/L cuts 문장."
+    },
+    {
+      "concept_key": "audio-bridge",
+      "field": "비대사 재료",
+      "source_id": "adobe-match",
+      "locator": "Audio match cuts make dynamic sound bridges, 마지막 문장",
+      "verdict": "supported",
+      "notes": "Final sentence explicitly includes ambient sound and music. Checked at https://www.adobe.com/uk/creativecloud/video/discover/match-cut.html > Audio match cuts make dynamic sound bridges, 마지막 문장."
+    },
+    {
+      "concept_key": "reaction-shot",
+      "field": "프레이밍",
+      "source_id": "adobe-shots",
+      "locator": "Reaction shot, 첫 문장",
+      "verdict": "supported",
+      "notes": "Adobe describes reaction shots as close-ups. Same-category enrichment confirmed: FS-0151 (반응 컷 설계); no new alias row. Reaction-duration guide is narrower; no duration evidence is claimed. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Reaction shot, 첫 문장."
+    },
+    {
+      "concept_key": "reaction-shot",
+      "field": "자극과 반응",
+      "source_id": "adobe-shots",
+      "locator": "Reaction shot, 둘째 문장 앞부분",
+      "verdict": "supported",
+      "notes": "Same paragraph specifies emotional response to off-screen events. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Reaction shot, 둘째 문장 앞부분."
+    },
+    {
+      "concept_key": "reaction-shot",
+      "field": "화자 숏과 비교",
+      "source_id": "adobe-shots",
+      "locator": "Reaction shot, 둘째 문장 뒷부분",
+      "verdict": "supported",
+      "notes": "Same paragraph contrasts revealed feelings with speaker-only coverage. Checked at https://www.adobe.com/creativecloud/video/discover/types-of-shots-in-films.html > Reaction shot, 둘째 문장 뒷부분."
+    },
+    {
+      "concept_key": "continuity-editing",
+      "field": "체계 별칭",
+      "source_id": "cu-editing",
+      "locator": "Continuity Editing 첫 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "Continuity Editing opening sentence gives invisible cutting as an alias. No equivalent among 26 original edit entries; distinct concept, not a translation or parameter variant. Checked at https://filmglossary.ccnmtl.columbia.edu/term/editing/ > Continuity Editing 첫 문단 첫 문장."
+    },
+    {
+      "concept_key": "continuity-editing",
+      "field": "우선순위",
+      "source_id": "cu-editing",
+      "locator": "Continuity Editing 첫 문단, narrative is dominant",
+      "verdict": "supported",
+      "notes": "Next sentence explicitly prioritizes narrative. Checked at https://filmglossary.ccnmtl.columbia.edu/term/editing/ > Continuity Editing 첫 문단, narrative is dominant."
+    },
+    {
+      "concept_key": "continuity-editing",
+      "field": "관객 인식 목표",
+      "source_id": "cu-editing",
+      "locator": "Continuity Editing 첫 문단 마지막 절",
+      "verdict": "supported",
+      "notes": "Same sentence states audiences should not notice changing shots. Checked at https://filmglossary.ccnmtl.columbia.edu/term/editing/ > Continuity Editing 첫 문단 마지막 절."
+    },
+    {
+      "concept_key": "cross-cutting",
+      "field": "연결 구조",
+      "source_id": "adobe-cross",
+      "locator": "Cut between scenes, In film editing으로 시작하는 문단",
+      "verdict": "supported",
+      "notes": "What is cross-cutting paragraph specifies switching between scenes; located below Cut between scenes. No equivalent among 26 original edit entries; distinct concept, not a translation or parameter variant. Checked at https://www.adobe.com/creativecloud/video/discover/cross-cutting-film > Cut between scenes, In film editing으로 시작하는 문단."
+    },
+    {
+      "concept_key": "cross-cutting",
+      "field": "시간과 공간의 인상",
+      "source_id": "adobe-cross",
+      "locator": "Cut between scenes, often giving the impression 문장",
+      "verdict": "supported",
+      "notes": "Same paragraph qualifies simultaneous-event impressions with often. Checked at https://www.adobe.com/creativecloud/video/discover/cross-cutting-film > Cut between scenes, often giving the impression 문장."
+    },
+    {
+      "concept_key": "cross-cutting",
+      "field": "공간 추론의 한계",
+      "source_id": "adobe-cross",
+      "locator": "When and why should you cross-cut in film?, Build suspense 항목",
+      "verdict": "supported",
+      "notes": "Build suspense describes FBI entering the wrong house while Clarice reaches Buffalo Bill; source account only. Checked at https://www.adobe.com/creativecloud/video/discover/cross-cutting-film > When and why should you cross-cut in film?, Build suspense 항목."
+    },
+    {
+      "concept_key": "soviet-montage",
+      "field": "이론적 계보",
+      "source_id": "cu-montage",
+      "locator": "정의 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "Definition names Pudovkin, Eisenstein and Vertov as the theoretical/filmmaking lineage. No equivalent among 26 original edit entries; distinct concept, not a translation or parameter variant. Checked at https://filmglossary.ccnmtl.columbia.edu/term/montage/ > 정의 문단 첫 문장."
+    },
+    {
+      "concept_key": "soviet-montage",
+      "field": "의미 형성 기준",
+      "source_id": "cu-montage",
+      "locator": "정의 문단 둘째 문장",
+      "verdict": "supported",
+      "notes": "Second sentence locates meaning in relationships between shots. Checked at https://filmglossary.ccnmtl.columbia.edu/term/montage/ > 정의 문단 둘째 문장."
+    },
+    {
+      "concept_key": "soviet-montage",
+      "field": "문서상 사례",
+      "source_id": "cu-montage",
+      "locator": "Odessa Steps 아래 Film 및 Director 표제",
+      "verdict": "supported",
+      "notes": "Odessa Steps metadata lists The Battleship Potemkin (1925), Sergei M. Eisenstein; clip not watched. Checked at https://filmglossary.ccnmtl.columbia.edu/term/montage/ > Odessa Steps 아래 Film 및 Director 표제."
+    },
+    {
+      "concept_key": "wipe",
+      "field": "대체 방식",
+      "source_id": "cu-wipe",
+      "locator": "첫 문단 첫 문장, moving boundary line or shape",
+      "verdict": "supported",
+      "notes": "Opening paragraph specifies replacement by a moving boundary or shape. No equivalent among 26 original edit entries; distinct concept, not a translation or parameter variant. Checked at https://filmglossary.ccnmtl.columbia.edu/term/wipe/ > 첫 문단 첫 문장, moving boundary line or shape."
+    },
+    {
+      "concept_key": "wipe",
+      "field": "변형 요소",
+      "source_id": "cu-wipe",
+      "locator": "첫 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "Final sentence of opening paragraph names size and direction as variables. Checked at https://filmglossary.ccnmtl.columbia.edu/term/wipe/ > 첫 문단 마지막 문장."
+    },
+    {
+      "concept_key": "wipe",
+      "field": "수평 이동형",
+      "source_id": "cu-wipe",
+      "locator": "첫 문단, The most common wipe 문장",
+      "verdict": "supported",
+      "notes": "Next paragraph explicitly says the common lateral wipe uses a vertical line. Checked at https://filmglossary.ccnmtl.columbia.edu/term/wipe/ > 첫 문단, The most common wipe 문장."
+    },
+    {
+      "concept_key": "freeze-frame",
+      "field": "필름 제작 방식",
+      "source_id": "cu-freeze",
+      "locator": "정의 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "Definition specifies repeated printing of a single frame on a duplicate film copy. No equivalent among 26 original edit entries; distinct concept, not a translation or parameter variant. Checked at https://filmglossary.ccnmtl.columbia.edu/term/freeze-frame/ > 정의 문단 첫 문장."
+    },
+    {
+      "concept_key": "freeze-frame",
+      "field": "영사 결과 설명",
+      "source_id": "cu-freeze",
+      "locator": "정의 문단 둘째 문장",
+      "verdict": "supported",
+      "notes": "Next sentence describes apparent freezing on projection, not an inspected output. Checked at https://filmglossary.ccnmtl.columbia.edu/term/freeze-frame/ > 정의 문단 둘째 문장."
+    },
+    {
+      "concept_key": "freeze-frame",
+      "field": "문서상 사례",
+      "source_id": "cu-freeze",
+      "locator": "Antoine Runs Away 아래 Film 및 Director 표제",
+      "verdict": "supported",
+      "notes": "Antoine Runs Away metadata lists The 400 Blows (1959), François Truffaut; no playback. Checked at https://filmglossary.ccnmtl.columbia.edu/term/freeze-frame/ > Antoine Runs Away 아래 Film 및 Director 표제."
+    },
+    {
+      "concept_key": "iris-transition",
+      "field": "마스크 형태",
+      "source_id": "cu-iris",
+      "locator": "정의 문단 첫 두 문장",
+      "verdict": "supported",
+      "notes": "Definition lists circular masks and rectangular, triangular and diamond alternatives. No equivalent among 26 original edit entries; distinct concept, not a translation or parameter variant. Checked at https://filmglossary.ccnmtl.columbia.edu/term/iris-shot/ > 정의 문단 첫 두 문장."
+    },
+    {
+      "concept_key": "iris-transition",
+      "field": "장면 경계 용도",
+      "source_id": "cu-iris",
+      "locator": "정의 문단, typically has been employed 문장",
+      "verdict": "supported",
+      "notes": "Definition explicitly describes gradual scene beginnings/endings. Checked at https://filmglossary.ccnmtl.columbia.edu/term/iris-shot/ > 정의 문단, typically has been employed 문장."
+    },
+    {
+      "concept_key": "iris-transition",
+      "field": "주의와 시점 용도",
+      "source_id": "cu-iris",
+      "locator": "정의 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "Final sentence describes attention focus and keyhole-like restricted views. Checked at https://filmglossary.ccnmtl.columbia.edu/term/iris-shot/ > 정의 문단 마지막 문장."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": "20 distinct text-metadata concepts supported, 0 rejected: 14 enrich existing entries and 6 are distinct unmapped concepts. No acquired or inspected media; no measured timings or universal audience-effect claims. Existing titles/guides remain original authorship, not source-verified production results."
+}

@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: expression-E04-subtle; concept: 윗눈꺼풀 상승 약.
+Class: base; domain: expression; entry: GEN-asset-expression-E04.
+Parent entry IDs: []
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["expression-E00"]
+Reference roles: {"expression-E00":"identity anchor, actual accepted identity A"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted expression-E00 face as the actual identity input. Raise the upper eyelids to expose more of the existing irises while keeping eyeball size and lower lids unchanged. Use a small but visible departure from E00, not an unchanged neutral duplicate. Keep both eyes aimed at the lens, the hair tied back and the full crown, ears, chin and shoulders visible. These are authored relative intensities, not certified FACS grades or internal-emotion labels. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: frontal controlled full face, head yaw pitch roll neutral. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Brows, lower lids, cheeks, lips and jaw remain at E00.; Keep E00 identity, skin marks, original eye and lip dimensions, hair, makeup and neutral head orientation.
+Change only: Raise the upper eyelids to expose more of the existing irises while keeping eyeball size and lower lids unchanged.; Small readable action amplitude relative to E00.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; More iris is visible through lid movement; irises and eyeballs are not enlarged.; Compare E00, subtle and moderate together; reject indistinguishable intensities and record unintended coupled actions.
+Output: {"format":"png","height":1536,"width":1024}
+Input images: Image 1: identity anchor, actual accepted identity A at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png. Preserve identity, camera and all non-target facial axes.

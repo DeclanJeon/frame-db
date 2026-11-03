@@ -1,0 +1,42 @@
+{
+  "job_id": "hair-D12",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [
+    "exec-01895a84-b45a-4729-bb9b-f0a1b6a05973.png",
+    "exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+    "exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png",
+    "exec-56d0e7af-6ef9-4308-821b-8f1ef6acd076.png",
+    "exec-930dd740-f24a-4d0d-805f-b98a1b6d66a2.png",
+    "exec-939eff12-1913-4a9e-ab36-546ba0cbc307.png",
+    "exec-94588f8a-f4db-4a40-ae1f-d6663816a129.png",
+    "exec-99d3024b-a7d4-4c83-82e1-ebc7f7e0b325.png",
+    "exec-a646dd30-df27-4a2e-af5b-55cedcfcaf02.png",
+    "exec-b3012510-65f9-4fff-b864-53fc818738e8.png",
+    "exec-bb1b24ea-e6e3-4d8f-a5b4-3fac01484557.png",
+    "exec-d5285726-62fb-4002-a8f8-dfaf89ea1568.png",
+    "exec-de6f8ae4-6ce3-4c69-984a-cf4bd5b4dd12.png",
+    "exec-e441ae64-8205-4bee-845d-aa0d987eb0f3.png",
+    "exec-fd42b12d-4e36-4078-8108-e24424404248.png"
+  ],
+  "path": "public/generated/frame-assets/hair-D12.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-b4b390be-a691-4b7d-9198-27d35b3e3805.png",
+  "sha256": "55cc87d540eaec83ebf1ad2a9a6fbb63074b44dab42750aa89c46f5919d01237",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {"reviewer":"worker","provisional_decision":"accept","observations":"Jawline bob, center part and perimeter remain; fringe has separated wispy strands with small forehead gaps. Single wispy state only."},
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1536,
+    "width": 1024
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E08.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-D12-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-D12; concept: 위스피 앞머리 턱선 보브.\nClass: creative; domain: hair; entry: GEN-asset-hair-D12.\nParent entry IDs: [\"CRAFT-hair-172e978476d9\",\"web-hair-df04af7fd49cc3139c8d4d20\",\"web-hair-68d919205a8f0c5b8449114f\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E08\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity A\",\"hair-E08\":\"bob and fringe geometry\"}\nInput images: Image 1: hair-E08, bob and fringe geometry; Image 2: expression-E00, identity A anchor.\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Keep E08 jawline bob, center part, lengths and hairline; change only the continuous fringe to a sparse wispy edge with small forehead gaps. Produce the wispy variant alone; accepted E08 supplies the blunt comparison. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter matched to hair-E08. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep parent hair geometry, color, hairline, density and length landmarks outside the declared delta.\nChange only: Keep E08 jawline bob, center part, lengths and hairline; change only the continuous fringe to a sparse wispy edge with small forehead gaps. Produce the wispy variant alone; accepted E08 supplies the blunt comparison.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Sparse fringe gaps; fixed bob perimeter and forehead; no comparison collage.; One diagnostic view only, not a sequence or collage.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}"
+}

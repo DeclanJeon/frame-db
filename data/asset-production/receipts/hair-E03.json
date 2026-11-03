@@ -1,0 +1,20 @@
+{
+  "job_id": "hair-E03",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E03.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-fae3288d-92f5-4e2b-a33a-6406ebb3d8fd.png",
+  "sha256": "50fe8d786fd7e32e8dc221dddb505c2a87a40ebf7f4a6ad6066d5dfe5e419494",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E03; concept: 아이비리그 커트.\nClass: base; domain: hair; entry: CRAFT-hair-da40e02a2fb4.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E01\"]\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Make the Ivy League top long enough to comb across, with a fixed subject-left part and smoothly graduated short sides and nape. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Make the Ivy League top long enough to comb across, with a fixed subject-left part and smoothly graduated short sides and nape..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; The subject-left part and combable top distinguish this from the crew.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nReference roles: Image 1 (hair-E01.png) is the accepted identity B face and hairline anchor; keep face, skin marks, camera and lighting fixed while changing only the requested haircut.",
+  "reference_paths": [
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "Viewed the full image at 1024x1536. B face, warm skin tone and cheek mole are consistent with E01; gray shirt, neutral background and light match. The hair has a distinct subject-left part with a combable top, and graduated short sides/nape; subject-left ear and nape are visible. One still without text or collage. Not final parent acceptance."
+  }
+}

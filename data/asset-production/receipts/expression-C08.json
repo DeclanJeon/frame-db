@@ -1,0 +1,38 @@
+{
+  "job_id": "expression-C08",
+  "status": "generated",
+  "generation_thread_id": "01a18da8-6209-7851-8003-528554bb92ab",
+  "source_directory": "/home/declan/.codex/generated_images/01a18da8-6209-7851-8003-528554bb92ab",
+  "prompt": "Edit the actual accepted E00 identity reference, preserving the same fictional adult woman A, exact facial proportions, natural asymmetry, dark-brown eyes, medium warm-brown skin, visible pores, hair pulled back, gray shirt, gray background, camera, crop, exposure, soft neutral lighting, and the small flat mole on her SUBJECT-LEFT cheek (IMAGE RIGHT). Create one photorealistic full head-and-shoulders studio reference photograph, same framing and lens gaze. Make only these changes: raise only her SUBJECT-RIGHT eyebrow (IMAGE LEFT) relative to its own eye by a small, clearly visible amount; roll the HEAD toward SUBJECT RIGHT, which is IMAGE LEFT, by a small uncalibrated amount. The head roll geometry is mandatory and independent of eyebrow height: the crown must lie IMAGE LEFT of the chin, and the IMAGE-LEFT pupil must sit slightly LOWER in the image frame than the IMAGE-RIGHT pupil. This means the pupil line slopes upward from image-left to image-right. Do not infer the head roll from the raised eyebrow. Keep torso upright, shoulders level, head yaw neutral and frontal, both pupils looking directly into the lens, mouth neutral and lightly closed, jaw relaxed. No mirror flip. Preserve A identity and the exact mole location. One image only, no text, no watermark, no collage or split panel.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "reference_sha256": "a9bf81117a682fa947960bf81b0c32d815e095b86a40ae6cb5102f5c7d2bfafb",
+  "reference_dimensions_px": {
+    "width": 1024,
+    "height": 1536
+  },
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "path": "public/generated/frame-assets/expression-C08.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18da8-6209-7851-8003-528554bb92ab/exec-8355c433-ccd0-4880-9480-791b02dfcd07.png",
+  "sha256": "1b22b40f84a43362c69708ff08a002d8aa9fbcb835c1cf3b9dafe966872da424",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "native Codex image_gen",
+  "model": "not exposed by native output",
+  "qa": {
+    "reviewer": "Codex, direct visual inspection of original-size output",
+    "provisional_decision": "generated",
+    "observations": [
+      "Raised eyebrow is the subject-right eyebrow (image-left), elevated relative to its own eye.",
+      "Head roll independently passes the requested direction: crown lies image-left of chin; this is visible along the facial centerline and overall skull/chin axis.",
+      "Pupil-line check passes independently of the brow: image-left pupil is visibly lower than image-right pupil, so the line rises toward image-right.",
+      "Torso remains upright; head stays frontal with no evident yaw; eyes meet the lens; mouth remains neutral and lightly closed.",
+      "Identity A is consistent with E00; the small subject-left cheek mole remains on image-right, with matching skin, hair, shirt, lighting and background."
+    ]
+  }
+}

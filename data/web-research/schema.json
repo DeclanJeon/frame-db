@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FRAME web research batch or independent review v1",
+  "oneOf": [{"$ref": "#/$defs/batch"}, {"$ref": "#/$defs/review"}],
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "maxLength": 2000},
+    "url": {"type": "string", "format": "uri", "minLength": 1},
+    "time": {"type": "string", "format": "date-time"},
+    "key": {"type": "string", "minLength": 1, "maxLength": 160},
+    "rightsStatus": {"type": "string", "enum": ["unknown", "restricted", "explicit_open", "owned"]},
+    "rights": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "evidence_url", "scope", "attribution"],
+      "properties": {
+        "status": {"$ref": "#/$defs/rightsStatus"},
+        "evidence_url": {"type": ["string", "null"], "format": "uri"},
+        "scope": {"$ref": "#/$defs/text"},
+        "attribution": {"$ref": "#/$defs/text"}
+      }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "url", "title", "publisher", "authors", "checked_at", "access", "primary", "locator", "rights"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/key"}, "url": {"$ref": "#/$defs/url"},
+        "title": {"$ref": "#/$defs/text"}, "publisher": {"$ref": "#/$defs/text"},
+        "authors": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+        "checked_at": {"$ref": "#/$defs/time"}, "access": {"const": "public_body", "type": "string"},
+        "primary": {"const": true, "type": "boolean"}, "locator": {"$ref": "#/$defs/text"},
+        "rights": {"$ref": "#/$defs/rights"}
+      }
+    },
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "locator", "kind"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/key"}, "locator": {"$ref": "#/$defs/text"},
+        "kind": {"type": "string", "enum": ["source_claim", "observation", "measurement", "proposal"]},
+        "observer": {"$ref": "#/$defs/text"}, "sample": {"$ref": "#/$defs/text"},
+        "method": {"$ref": "#/$defs/text"}, "unit": {"$ref": "#/$defs/text"}
+      }
+    },
+    "fact": {
+      "type": "object", "additionalProperties": false, "required": ["field", "value", "evidence"],
+      "properties": {
+        "field": {"$ref": "#/$defs/key"}, "value": {"$ref": "#/$defs/text"},
+        "evidence": {"$ref": "#/$defs/evidence"}
+      }
+    },
+    "candidate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "url", "kind", "rights_status", "role", "conditions"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/key"}, "url": {"$ref": "#/$defs/url"},
+        "kind": {"type": "string", "enum": ["image", "video", "audio", "dataset", "diagram"]},
+        "rights_status": {"$ref": "#/$defs/rightsStatus"},
+        "role": {"$ref": "#/$defs/text"}, "conditions": {"$ref": "#/$defs/text"}
+      }
+    },
+    "record": {
+      "type": "object", "additionalProperties": false,
+      "required": ["concept_key", "title_ko", "subtype", "summary", "facts", "proposals", "tags", "media_candidates"],
+      "properties": {
+        "concept_key": {"$ref": "#/$defs/key"},
+        "title_ko": {"type": "string", "minLength": 1, "maxLength": 160, "pattern": "[가-힣]"},
+        "subtype": {"$ref": "#/$defs/text"},
+        "summary": {"type": "string", "minLength": 1, "maxLength": 800},
+        "facts": {"type": "array", "minItems": 3, "maxItems": 30, "items": {"$ref": "#/$defs/fact"}},
+        "proposals": {"type": "array", "maxItems": 20, "items": {"$ref": "#/$defs/fact"}},
+        "tags": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/key"}},
+        "existing_entry_id": {"type": ["string", "null"], "minLength": 1},
+        "media_candidates": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/candidate"}}
+      }
+    },
+    "batch": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_version", "category_id", "collector", "collected_at", "sources", "records", "shortfall_reason"],
+      "properties": {
+        "schema_version": {"type": "integer", "const": 1},
+        "category_id": {"type": "string", "pattern": "^[a-z]+(?:-[a-z]+)*$"},
+        "collector": {"$ref": "#/$defs/key"}, "collected_at": {"$ref": "#/$defs/time"},
+        "sources": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/source"}},
+        "records": {"type": "array", "maxItems": 20, "items": {"$ref": "#/$defs/record"}},
+        "shortfall_reason": {"type": "string", "maxLength": 2000}
+      }
+    },
+    "sourceCheck": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "url", "checked_at", "access", "locator", "rights_checked", "notes"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/key"}, "url": {"$ref": "#/$defs/url"},
+        "checked_at": {"$ref": "#/$defs/time"}, "access": {"type": "string", "const": "public_body"},
+        "locator": {"$ref": "#/$defs/text"}, "rights_checked": {"type": "boolean", "const": true},
+        "notes": {"$ref": "#/$defs/text"}
+      }
+    },
+    "evidenceCheck": {
+      "type": "object", "additionalProperties": false,
+      "required": ["concept_key", "field", "source_id", "locator", "verdict", "notes"],
+      "properties": {
+        "concept_key": {"$ref": "#/$defs/key"}, "field": {"$ref": "#/$defs/key"},
+        "source_id": {"$ref": "#/$defs/key"}, "locator": {"$ref": "#/$defs/text"},
+        "verdict": {"type": "string", "const": "supported"}, "notes": {"$ref": "#/$defs/text"}
+      }
+    },
+    "rejection": {
+      "type": "object", "additionalProperties": false, "required": ["concept_key", "reason"],
+      "properties": {"concept_key": {"$ref": "#/$defs/key"}, "reason": {"$ref": "#/$defs/text"}}
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_version", "category_id", "input_sha256", "reviewer", "reviewed_at", "accepted_concept_keys", "rejected", "source_checks", "evidence_checks", "accepted_count", "shortfall", "shortfall_reason"],
+      "properties": {
+        "schema_version": {"type": "integer", "const": 1},
+        "category_id": {"type": "string", "pattern": "^[a-z]+(?:-[a-z]+)*$"},
+        "input_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "reviewer": {"$ref": "#/$defs/key"}, "reviewed_at": {"$ref": "#/$defs/time"},
+        "accepted_concept_keys": {"type": "array", "uniqueItems": true, "maxItems": 20, "items": {"$ref": "#/$defs/key"}},
+        "rejected": {"type": "array", "maxItems": 20, "items": {"$ref": "#/$defs/rejection"}},
+        "source_checks": {"type": "array", "items": {"$ref": "#/$defs/sourceCheck"}},
+        "evidence_checks": {"type": "array", "items": {"$ref": "#/$defs/evidenceCheck"}},
+        "accepted_count": {"type": "integer", "minimum": 0, "maximum": 20},
+        "shortfall": {"type": "integer", "minimum": 0, "maximum": 20},
+        "shortfall_reason": {"type": "string", "maxLength": 2000}
+      }
+    }
+  }
+}

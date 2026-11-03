@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-L07",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L07.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-c668b074-1bd8-4079-ae62-4a8cc78c1dce.png",
+  "sha256": "a71e6a2395407dae8639f94f14e15d0cbbae3e673d4390f2bdcca123a831420f",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L07; concept: 촬영용 티존 매트.\nClass: base; domain: makeup; entry: FS-0037.\nParent entry IDs: [\"FS-0036\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-L06\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-L06\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Match makeup-L06 tone correction, concealer, brows, uncolored eyes and cheeks and clear lip balm exactly. Reduce reflections only on the forehead and nose T-zone; retain cheek reflections and skin texture. Keep A hair tied back, head frontal, relaxed closed lips and lens-directed eyes, matched to E00. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 face structure, actual skin-mark map, hair, expression and wardrobe; makeup affects pigment and local reflectance only.\nChange only: Match makeup-L06 tone correction, concealer, brows, uncolored eyes and cheeks and clear lip balm exactly. Reduce reflections only on the forehead and nose T-zone; retain cheek reflections and skin texture.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; At full resolution inspect eyelid, lip and brow boundaries; no enlarged eyes or lips.; Compare against E00 for unchanged pores and skin-mark positions.; Compare against makeup-L06: only forehead and nose reflectance is reduced.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-L06.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, skin texture, mole, crop, makeup and clear lips track the viewed L06 parent and E00. Forehead and nose highlights appear reduced while cheek reflectance remains; no visible geometry change."
+  }
+}

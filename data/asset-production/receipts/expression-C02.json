@@ -1,0 +1,37 @@
+{
+  "job_id": "expression-C02",
+  "status": "generated",
+  "path": "public/generated/frame-assets/expression-C02.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d82-7e99-7bf3-8377-c8d8f6fda3cf/exec-54fb6021-15ea-4261-abae-bcc4b87df62a.png",
+  "sha256": "3a1ef627706e8c7475baa3fe25b1ab9010538f6ee364021c44213897eb8a0f22",
+  "width": 1024,
+  "height": 1536,
+  "tool": "Codex built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Inspected the actual 1024x1536 output against the four references in packet order. Cheeks and lower eye corners are raised; both mouth corners lift with a small lip gap. Brows remain relaxed, gaze is lens-directed and head remains frontal. Identity mark, hair and framing appear consistent. No obvious anatomical breakage; this is an authored arrival state, not an emotional diagnosis or verified transition. Provisional pending parent review."
+  },
+  "prompt": "FRAME authored synthetic reference. Job: expression-C02; concept: 볼 눈가 상승 웃음 도착 상태.\nClass: creative; domain: expression; entry: FS-0018.\nParent entry IDs: [\"GEN-asset-expression-E05\",\"GEN-asset-expression-E07\",\"GEN-asset-expression-E11\",\"GEN-asset-expression-E00\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E05-moderate\",\"expression-E07-moderate\",\"expression-E11-subtle\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"expression-E05-moderate\":\"identity\",\"expression-E07-moderate\":\"identity\",\"expression-E11-subtle\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use accepted E00 as the face input and the listed action references as shape guidance. Combine raised cheeks and lower eye corners with upward mouth corners and a slightly open mouth. Keep brows relaxed and lens gaze; do not label this as authentic happiness. Render arrival state B only: no start frame, no before/after layout, no inferred breath, blink, response order, duration or genuine emotional state. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, arrival state B only. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 facial structure, pores, marks, hair, makeup and framing; allow only named action, gaze and the C08 head roll.\nChange only: Combine raised cheeks and lower eye corners with upward mouth corners and a slightly open mouth. Keep brows relaxed and lens gaze; do not label this as authentic happiness.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; The specified brow, eye, lip and jaw combination is visible in the single arrival state.; Do not assert emotional diagnosis or a verified transition from a still.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nReference roles in packet order: Image 1 E05 moderate is cheek/lower-eye action guidance; Image 2 E07 moderate is bilateral mouth-corner shape guidance; Image 3 E11 subtle is slight mouth-opening guidance; Image 4 E00 is the identity anchor and edit base. Preserve one frontal arrival state; do not infer an emotion or a transition.\n",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E05-moderate.png",
+    "public/generated/frame-assets/expression-E07-moderate.png",
+    "public/generated/frame-assets/expression-E11-subtle.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "generation_thread_id": "01a18d82-7e99-7bf3-8377-c8d8f6fda3cf",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d82-7e99-7bf3-8377-c8d8f6fda3cf",
+  "before_source_files": [
+    "exec-06e51f1e-93b0-4d92-bf73-b277e1e0929f.png",
+    "exec-0f27cc5f-a0c2-4ceb-a060-d52d373a6384.png",
+    "exec-2a57ebc3-b412-499f-ac21-5a83f03d1068.png",
+    "exec-3cd4e5be-bf94-458f-b1ea-2383daba4ffa.png",
+    "exec-8973bd11-3bb8-4f76-bb0a-08ce1dbea22d.png"
+  ]
+}

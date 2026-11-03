@@ -1,0 +1,20 @@
+{
+  "job_id": "makeup-L06",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L06.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-7f27b890-7547-4c4e-8ae8-4d49a1a62b61.png",
+  "sha256": "76ed5068c533b17c18afa8185c072c4a95f5046d9957f535cfc7f542b7b30d1e",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L06; concept: 프레시 그루밍.\nClass: base; domain: makeup; entry: FS-0036.\nParent entry IDs: [\"CRAFT-makeup-5b543f32849d\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use very thin tone correction and small localized concealer under the eyes and beside the nose, natural hair-stroke brows, no eye or cheek pigment and clear lip balm. Retain pores and visible skin marks. Keep A hair tied back, head frontal, relaxed closed lips and lens-directed eyes, matched to E00. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 face structure, actual skin-mark map, hair, expression and wardrobe; makeup affects pigment and local reflectance only.\nChange only: Use very thin tone correction and small localized concealer under the eyes and beside the nose, natural hair-stroke brows, no eye or cheek pigment and clear lip balm. Retain pores and visible skin marks.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; At full resolution inspect eyelid, lip and brow boundaries; no enlarged eyes or lips.; Compare against E00 for unchanged pores and skin-mark positions.; The specified base, eyes, cheeks, lips and brows are all readable.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Frontal identity, skin texture, cheek mole and framing match E00. Tone correction is very light and localized concealer is subtle; eyes and cheeks remain unpigmented, brows natural and lips clear. No visible pore blurring."
+  }
+}

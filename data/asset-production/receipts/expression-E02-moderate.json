@@ -1,0 +1,28 @@
+{
+  "job_id": "expression-E02-moderate",
+  "status": "generated",
+  "generation_thread_id": "01a18e14-8d84-7c23-8383-e324a6f26301",
+  "source_directory": "/home/declan/.codex/generated_images/01a18e14-8d84-7c23-8383-e324a6f26301",
+  "before_source_files": [],
+  "path": "public/generated/frame-assets/expression-E02-moderate.png",
+  "prompt_snapshot": "data/asset-production/.history/prompts/expression-E02-moderate-native.txt",
+  "prompt": "Use this reference photo as it is, keeping its face and eyebrow positions. Make a natural studio photo with soft skin detail and the same lighting.",
+  "reference_paths": [
+    "public/generated/frame-assets/controls/expression-E02-soft-photo-layout.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18e14-8d84-7c23-8383-e324a6f26301/exec-989b916a-407f-435e-aa29-1778c4ce9c4e.png",
+  "sha256": "814d83b1e37bd009beaf0605fa7c5944730b83748416c05d712aa553fe4b72cc",
+  "width": 1024,
+  "height": 1536,
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "usable",
+    "observations": "Photographic studio portrait with the same frontal face, pose, hair, lighting, gray background and natural soft skin texture; brows retain the input positions."
+  }
+}

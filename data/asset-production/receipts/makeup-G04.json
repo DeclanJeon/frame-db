@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-G04",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-G04.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-8c0fcec1-e823-4214-8918-8d85961dc6c2.png",
+  "sha256": "2df1b72e3ed4773c46eb3f13b56ae93737993cb61879f1360ff8e89f4a2e09d2",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-G04; concept: 분리된 콧수염.\nClass: base; domain: makeup; entry: CRAFT-makeup-1edb627e697e.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-G01\",\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\",\"makeup-G01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Keep a tidy mustache separate from chin hair, with clearly bare gaps at the mouth corners; trim its lower edge above the lip line. Keep cheeks clean and a small short chin patch visibly disconnected. Keep the hair-E01 buzz haircut and the same shallow three-quarter view as G01. Retain a relaxed mouth and plain gray collarless top; use the G01 thin correction level throughout. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: shallow front three-quarter showing lip line both cheek edges and neck. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the B face, cheek mole and buzz haircut; use the same beard growth geography across all beard comparisons.\nChange only: Keep a tidy mustache separate from chin hair, with clearly bare gaps at the mouth corners; trim its lower edge above the lip line. Keep cheeks clean and a small short chin patch visibly disconnected.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Clear bare gaps separate mustache and chin patch; lips are not covered.; Grooming changes hair state, not skin tone, face proportions or lighting.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-G01.png",
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Same B identity and camera view as hair-E01/G01. A clearly separated mustache is the main visible beard change, with only very light jaw stubble; face shape, haircut and cheek mole remain stable."
+  }
+}

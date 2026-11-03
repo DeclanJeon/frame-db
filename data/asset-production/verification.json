@@ -1,0 +1,1201 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "date": "2026-10-30",
+  "scope": {
+    "unique_photographs": 147,
+    "reference_slots": 148,
+    "base": 103,
+    "creative": 44,
+    "domains": {
+      "expression": {
+        "base": 25,
+        "creative": 12,
+        "accepted": 37
+      },
+      "hair": {
+        "base": 32,
+        "creative": 12,
+        "accepted": 44
+      },
+      "makeup": {
+        "base": 22,
+        "creative": 12,
+        "accepted": 34
+      },
+      "gaze": {
+        "base": 8,
+        "creative": 0,
+        "accepted": 8
+      },
+      "gesture": {
+        "base": 16,
+        "creative": 8,
+        "accepted": 24
+      }
+    },
+    "existing_entries_preserved": 2749,
+    "existing_media_preserved": 2914,
+    "drive_mappings_preserved": 7167
+  },
+  "live": {
+    "origin": "http://127.0.0.1:5190",
+    "entries": 2814,
+    "media_rows": 3061,
+    "guide_coverage": 2814,
+    "accepted_images": 147,
+    "remaining": 0,
+    "version": "frame-reference-db-20261030-v3.4-assets-web-c9c7b7db80b88cf8411b1eca350a1a5d47fa472090a045e1b8862afc237f7866-creative-eb55dfc72cc16f4bade66dd9aaa7b3f0af43f10966be677a38d18909909f6793-assets-8419105e4948e67ebe79cf0f383b88e96390a639a6732ea34facd06e75cd7c75",
+    "asset_revision": "assets-8419105e4948e67ebe79cf0f383b88e96390a639a6732ea34facd06e75cd7c75"
+  },
+  "verification": {
+    "data_tests": 105,
+    "data_test_exit": 0,
+    "typecheck_exit": 0,
+    "build_exit": 0,
+    "actual_database_tables": [
+      {
+        "table": "categories",
+        "rows": 29,
+        "match": true
+      },
+      {
+        "table": "sources",
+        "rows": 316,
+        "match": true
+      },
+      {
+        "table": "reference_entries",
+        "rows": 2814,
+        "match": true
+      },
+      {
+        "table": "entry_variants",
+        "rows": 3061,
+        "match": true
+      },
+      {
+        "table": "media_assets",
+        "rows": 3061,
+        "match": true
+      },
+      {
+        "table": "tags",
+        "rows": 3171,
+        "match": true
+      },
+      {
+        "table": "entry_tags",
+        "rows": 36502,
+        "match": true
+      },
+      {
+        "table": "prompt_templates",
+        "rows": 5446,
+        "match": true
+      },
+      {
+        "table": "entry_relations",
+        "rows": 951,
+        "match": true
+      },
+      {
+        "table": "skill_mappings",
+        "rows": 29,
+        "match": true
+      },
+      {
+        "table": "import_batches",
+        "rows": 32,
+        "match": true
+      }
+    ],
+    "generated_image_http": [
+      {
+        "id": "expression-E00",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2482368,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2412873,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E08",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2514130,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2395142,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-left-level",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2306771,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-N01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2325739,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H07",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2052002,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E07-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2318392,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E07-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2325943,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-left-down",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2292821,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-center-down",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2282339,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-left-up",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2307876,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-center-up",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2309969,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-right-up",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2317991,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2266187,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2282490,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2302078,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E05",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2258039,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E07",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2504352,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E09",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2468888,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E10",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2498996,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E11",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2492453,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E12",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2595012,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E13",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2522625,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E14",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2599263,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E15",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2375873,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E16",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2658525,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E17",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2350357,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E18",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2633938,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E19",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2470596,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E20",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2533313,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E21",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2450225,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E22",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2463992,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E23",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2557404,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E24",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2536278,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2259919,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2414850,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2247861,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2093990,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H05",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2222013,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H08",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2142544,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H09",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2156845,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H10",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2191751,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H11",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2128233,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H12",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2170973,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H13",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2066532,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H14",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2035204,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H15",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2070840,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H17",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2343165,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H18",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2228474,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H19",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2118017,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H20",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2091241,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2505953,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E01-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2300708,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H21",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2146217,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H23",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2202943,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H24",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2148857,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2349076,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2376149,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L05",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2456206,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L06",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2450192,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L07",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2405295,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L08",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2375740,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H06",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 1924493,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2197638,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2067847,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H16",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2183044,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H22",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2238548,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L09",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2379199,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L10",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2376405,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L11",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2423421,
+        "hashMatches": true
+      },
+      {
+        "id": "gesture-H04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 1903065,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2358651,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L12",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2343316,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-G01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2284742,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-G02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2380141,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-G03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2369666,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-G04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2265491,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-G05",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2388222,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-G06",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2277549,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-N02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2194217,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-N03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2154666,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-N04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2209171,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L01-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2280103,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L02-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2337462,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L03-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2335291,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L04-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2352942,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L05-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2367553,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L06-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2415922,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L07-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2335136,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L08-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2323037,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L09-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2302945,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L10-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2379957,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L11-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2321494,
+        "hashMatches": true
+      },
+      {
+        "id": "makeup-L12-A",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2285598,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N07",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2583152,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-E06",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2410199,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N05",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2473453,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N06",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2515710,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-N08",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2486841,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2588090,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2526307,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2628114,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D05",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2441482,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D06",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2408386,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D07",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2213265,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D08",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2231219,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D09",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2461549,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D10",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2487592,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D11",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2551567,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D12",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2455377,
+        "hashMatches": true
+      },
+      {
+        "id": "hair-D04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2515233,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-right-level",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2357879,
+        "hashMatches": true
+      },
+      {
+        "id": "gaze-right-down",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2349006,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E01-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2304636,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E09-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2299057,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E09-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2290712,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C10",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2334968,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E03-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2283262,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E03-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2265311,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E04-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2318371,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E04-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2241777,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E06-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2313776,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E06-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2261979,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E08-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2308913,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E08-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2269060,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E10-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2324966,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E10-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2277779,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E11-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2312562,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E11-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2307042,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C01",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2389244,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C03",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2242533,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C06",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2272892,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C07",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2333516,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C09",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2295971,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C11",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2271379,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C12",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2298418,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C08",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2353668,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E05-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2310979,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E05-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2340793,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E12-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2318991,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E12-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2343319,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C02",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2333895,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C04",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2301649,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E02-subtle",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2286501,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-E02-moderate",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2384230,
+        "hashMatches": true
+      },
+      {
+        "id": "expression-C05",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 2288510,
+        "hashMatches": true
+      }
+    ],
+    "normalization_idempotence": [
+      {
+        "path": "data/database-seed.json",
+        "unchanged": true
+      },
+      {
+        "path": "data/web-research/creative-revision.json",
+        "unchanged": true
+      },
+      {
+        "path": "data/asset-production/revision.json",
+        "unchanged": true
+      }
+    ],
+    "brief_guide_rows": 2814,
+    "max_brief_guide_characters": 70,
+    "screens": [
+      {
+        "device": "desktop",
+        "width": 1440,
+        "overflow": false,
+        "guideLines": 2,
+        "promptBlocks": 0,
+        "variantLabels": [
+          "눈썹 바깥 상승 중",
+          "눈썹 바깥 상승 약"
+        ]
+      },
+      {
+        "device": "iphone-14",
+        "width": 390,
+        "overflow": false,
+        "guideLines": 2,
+        "promptBlocks": 0,
+        "variantLabels": [
+          "눈썹 바깥 상승 중",
+          "눈썹 바깥 상승 약"
+        ]
+      }
+    ],
+    "copy": {
+      "correctArgument": true,
+      "lineCount": 2,
+      "sameContextRoundtrip": true
+    }
+  },
+  "limits": [
+    "Single representative stills, not multiview or motion verification.",
+    "Relative facial-action levels are not clinical FACS certification or emotion inference.",
+    "Auxiliary layout/edit-base images and rejected attempts are excluded from delivered photograph counts.",
+    "Long generation prompts remain internal records, not default usage guidance."
+  ],
+  "artifacts": {
+    "plan": "data/asset-production/plan.json",
+    "results": "data/asset-production/results.json",
+    "report": "docs/ASSET_EXPANSION_RESULT.md"
+  }
+}

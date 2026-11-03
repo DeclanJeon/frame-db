@@ -1,0 +1,1015 @@
+{
+  "schema_version": 1,
+  "category_id": "lighting",
+  "collector": "lighting-primary-collector-frame-db-444eb549-recollection",
+  "collected_at": "2026-10-30T04:13:55.112830+00:00",
+  "sources": [
+    {
+      "source_id": "arri-lighting-handbook",
+      "url": "https://www.arri.com/resource/blob/83996/409091c612f371b0c68b41d9dcb636db/arri-lighting-handbook-english-data.pdf",
+      "title": "ARRI Lighting Handbook, Fourth Edition",
+      "publisher": "ARRI",
+      "authors": [
+        "Bill Holshevnikoff"
+      ],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "인쇄 p.2 저작권; p.5 Light Quality; p.12 Key Light; p.13–14 Fill Light; p.14 Separation Light (Hair Light); p.15 Background Light",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.arri.com/resource/blob/83996/409091c612f371b0c68b41d9dcb636db/arri-lighting-handbook-english-data.pdf",
+        "scope": "본문의 권리 유보 또는 저작권 표시를 확인했다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "이미지·텍스트 저작권: Bill Holshevnikoff, 2016. 공식 배포: ARRI. 무료 열람을 재배포 허락으로 해석하지 않는다."
+      }
+    },
+    {
+      "source_id": "sony-lighting-effects",
+      "url": "https://www.sony.com/electronics/support/articles/00267922",
+      "title": "Lighting and Its Effects",
+      "publisher": "Sony",
+      "authors": [],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "1. Front light; 2. Side light; 3. Back light; 마지막 실내 창문광 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "재사용 허락은 확인하지 않았다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "Sony / Lighting and Its Effects에 귀속한다. 개별 미디어 권리자·재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "sony-white-balance",
+      "url": "https://www.sony.com/electronics/support/articles/00267928",
+      "title": "White Balance",
+      "publisher": "Sony",
+      "authors": [],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 정의 문단; Auto white balance (AWB); Changing the white balance setting",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "재사용 허락은 확인하지 않았다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "Sony / White Balance에 귀속한다. 개별 미디어 권리자·재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "sekonic-metering-mistakes",
+      "url": "https://sekonic.com/classroom/common-metering-mistakes/",
+      "title": "Common Metering Mistakes",
+      "publisher": "Sekonic Corporation USA",
+      "authors": [
+        "Jim Zuckerman"
+      ],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Bright Windows; Shooting in Fog; Shooting in Snow",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "재사용 허락은 확인하지 않았다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "Sekonic Corporation USA / Common Metering Mistakes에 귀속한다. 개별 미디어 권리자·재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "broncolor-light-quality",
+      "url": "https://broncolor.swiss/news/hard-soft-and-diffused-light-what-is-the-difference",
+      "title": "Hard, soft and diffused light - what is the difference?",
+      "publisher": "broncolor",
+      "authors": [],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입의 크기·거리 구분; Soft Light 문단 2–4; Diffused light와 뒤따르는 도구 목록",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "재사용 허락은 확인하지 않았다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "broncolor / Hard, soft and diffused light - what is the difference?에 귀속한다. 개별 미디어 권리자·재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "rosco-filter-facts",
+      "url": "https://us.rosco.com/sites/default/files/content/resource/2022-10/Rosco_FilterFacts09_22.pdf",
+      "title": "Filter Facts",
+      "publisher": "Rosco",
+      "authors": [],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "인쇄 p.9 A Quick Reference Guide to Cinegel Correction Filters, 3202와 3407 행 및 TRANS. 열. PDF 9번째 쪽 표를 시각 대조했다.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "재사용 허락은 확인하지 않았다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "Rosco / Filter Facts에 귀속한다. 개별 미디어 권리자·재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "profoto-rembrandt",
+      "url": "https://www.profoto.com/bg/en/still-photography/tips-tricks/how-to-create-rembrandt-light/",
+      "title": "How to create Rembrandt lighting",
+      "publisher": "Profoto",
+      "authors": [
+        "Profoto"
+      ],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 정의; Step 3; Step 4; Tip; 하단 All rights reserved",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.profoto.com/bg/en/still-photography/tips-tricks/how-to-create-rembrandt-light/",
+        "scope": "본문의 권리 유보 또는 저작권 표시를 확인했다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "글: Profoto, 2020-05-14. 교육 팁: Hannah Couzens. 하단 Profoto AB 권리 유보 표시; 별도 사진·도식 재사용 권리는 확보하지 않았다."
+      }
+    },
+    {
+      "source_id": "profoto-russo-patterns",
+      "url": "https://www.profoto.com/nl/en/still-photography/profoto-stories/character-portraits-with-john-russo-and-profoto-d2",
+      "title": "John Russo reveals his character portrait lighting secrets",
+      "publisher": "Profoto",
+      "authors": [
+        "Clare Gillsäter"
+      ],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Patterns of light; Classic covers의 Short light, Broad light, Loop light, Butterfly light; 하단 All rights reserved",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.profoto.com/nl/en/still-photography/profoto-stories/character-portraits-with-john-russo-and-profoto-d2",
+        "scope": "본문의 권리 유보 또는 저작권 표시를 확인했다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "글: Clare Gillsäter, 2018-06-08. 조명 사례: John Russo. BTS 사진: Justin Miller; 영상: Tas Limur. Profoto AB 권리 유보; 개별 인물 사진·영상의 재사용 권리는 확보하지 않았다."
+      }
+    },
+    {
+      "source_id": "westcott-eyelighter",
+      "url": "https://www.fjwestcott.com/products/eyelighter-3-silver-white-and-sunlight-fabric",
+      "title": "Eyelighter 3 (Silver, White, and Sunlight Fabric)",
+      "publisher": "F.J. Westcott",
+      "authors": [],
+      "checked_at": "2026-10-30T04:13:55.112830+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Description > Stunning Clamshell Lighting with a Single Light; Get More Looks with 3 Reflective Surfaces > Silver Fabric, White Fabric",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "재사용 허락은 확인하지 않았다. 공개 본문의 짧은 한국어 사실 요약과 링크만 기록한다. 원문·사진·도식의 복제·편집·상업 재배포·AI 업로드 권리는 확보하지 않았다. 미디어 파일은 취득·검수하지 않았다.",
+        "attribution": "F.J. Westcott / Eyelighter 3 (Silver, White, and Sunlight Fabric)에 귀속한다. 개별 미디어 권리자·재사용 조건은 미확인이다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "frontal-large-diffused-light",
+      "title_ko": "정면 대형 확산광",
+      "subtype": "광원 크기·방향",
+      "summary": "Sony의 방향과 ARRI의 광질 설명으로 보강한다.",
+      "facts": [
+        {
+          "field": "입사_방향",
+          "value": "카메라 쪽에서 피사체를 비춘다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "1. Front light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "색_재현",
+          "value": "Sony는 색과 형태가 명확하게 재현된다고 설명한다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "1. Front light, 둘째 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "확산_크기",
+          "value": "ARRI는 크고 확산된 광원일수록 부드럽다고 설명한다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.5 Light Quality, 첫 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "정면광",
+        "확산광"
+      ],
+      "existing_entry_id": "CRAFT-lighting-a37c15205f55",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "window-soft-light",
+      "title_ko": "창가 소프트 라이트",
+      "subtype": "광원 크기·방향",
+      "summary": "Sony의 창문광 방향만 보강한다. 실제 확산도는 미확인이다.",
+      "facts": [
+        {
+          "field": "환경_조건",
+          "value": "맑은 날 실내에서 창문광을 활용하는 예시다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "3. Back light 뒤 마지막 문단, For example로 시작",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정면광_조건",
+          "value": "촬영자가 창을 등지면 정면광으로 촬영한다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "마지막 문단, If you stand 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "역광_조건",
+          "value": "카메라를 창 쪽으로 향하면 역광 촬영이 된다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "마지막 문단, If you face 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "창문광",
+        "자연광"
+      ],
+      "existing_entry_id": "FS-0101",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "left-side-light",
+      "title_ko": "좌측 90도 사이드 라이트",
+      "subtype": "광원 크기·방향",
+      "summary": "Sony의 측면광 설명이다. 기존 제목의 좌측·90도는 원문 실측값이 아니다.",
+      "facts": [
+        {
+          "field": "입사_방향",
+          "value": "피사체 옆에서 빛이 들어온다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "2. Side light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "명암_특성",
+          "value": "뚜렷한 그림자와 강한 명암 대비를 만든다고 설명한다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "2. Side light, 둘째 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공간_효과",
+          "value": "그림자를 더해 깊이를 표현한다고 설명한다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "2. Side light, 마지막 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "측면광",
+        "명암"
+      ],
+      "existing_entry_id": "CRAFT-lighting-f96717de59ae",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "rear-backlight",
+      "title_ko": "정후방 역광",
+      "subtype": "광원 크기·방향",
+      "summary": "Sony의 역광 설명이며 전면 밝기는 별도 판단한다.",
+      "facts": [
+        {
+          "field": "입사_방향",
+          "value": "피사체 뒤에서 비춘다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "3. Back light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "피사체_밝기",
+          "value": "피사체가 어두워지기 쉽다고 설명한다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "3. Back light, On the other hand 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "보정_수단",
+          "value": "어두운 피사체는 노출 보정으로 밝기를 조정하도록 안내한다.",
+          "evidence": {
+            "source_id": "sony-lighting-effects",
+            "locator": "3. Back light, If this happens 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역광",
+        "노출보정"
+      ],
+      "existing_entry_id": "CRAFT-lighting-0a6f3b56856f",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "key-light-role",
+      "title_ko": "키 라이트 역할",
+      "subtype": "광원 역할",
+      "summary": "ARRI의 주광 정의를 요약한다.",
+      "facts": [
+        {
+          "field": "기능",
+          "value": "피사체 영역의 주 광원이다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.12 Key Light, 첫 두 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "광질",
+          "value": "장면의 경광·연광 성격을 정한다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.12 Key Light, often establishes 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "모델링",
+          "value": "얼굴 그림자로 형태를 드러낸다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.12 Key Light, modeling 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "키라이트",
+        "모델링"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "fill-light-role",
+      "title_ko": "필 라이트 역할",
+      "subtype": "광원 역할",
+      "summary": "ARRI의 그림자 보조광 정의를 요약한다.",
+      "facts": [
+        {
+          "field": "기능",
+          "value": "키가 만든 그림자를 채운다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.13 Fill Light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "광질",
+          "value": "크고 확산된 연광을 이상적으로 제시한다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.13 Fill Light, Ideally 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "방향",
+          "value": "보통 렌즈 근처 또는 키 반대편에 둔다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.14 Fill Light 계속, The position 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "필라이트",
+        "대비"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "rear-separation-rim-light",
+      "title_ko": "좌측 후방 림 라이트",
+      "subtype": "광원 역할",
+      "summary": "ARRI의 분리광 설명만 보강한다. 좌측 배치의 실측은 아니다.",
+      "facts": [
+        {
+          "field": "기능",
+          "value": "피사체와 배경을 시각적으로 분리한다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.14 Separation Light (Hair Light), 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "모발",
+          "value": "머리카락의 색과 질감도 드러낸다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.14 Separation Light, Use of a separation light 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "배치",
+          "value": "뒤쪽 위부터 프레임 밖 측면 림광까지 가능하다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.14 Separation Light, Position of this source 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "림라이트",
+        "분리광"
+      ],
+      "existing_entry_id": "CRAFT-lighting-0b05fc094245",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "colored-background-neutral-subject",
+      "title_ko": "컬러 배경과 중성 피부",
+      "subtype": "명암·색 조건",
+      "summary": "ARRI의 배경광 기능만 보강한다. 피부 중성화 결과는 미검증이다.",
+      "facts": [
+        {
+          "field": "배경_효과",
+          "value": "배경에 질감과 색을 더한다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.15 Background Light, The addition 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "피사체_분리",
+          "value": "배경광도 피사체 분리에 기여한다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.15 Background Light, added separation 구절",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "광원_동기",
+          "value": "방향으로 키의 방향·동기를 뒷받침한다.",
+          "evidence": {
+            "source_id": "arri-lighting-handbook",
+            "locator": "인쇄 p.15 Background Light, Direction 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "배경광",
+        "색조건"
+      ],
+      "existing_entry_id": "CRAFT-lighting-01e426d3af67",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "shadow-edge-source-size",
+      "title_ko": "광원 크기와 그림자 경계",
+      "subtype": "경도·확산",
+      "summary": "broncolor는 광원 크기·거리와 그림자 변화를 연결한다.",
+      "facts": [
+        {
+          "field": "거리_관계",
+          "value": "같은 면광원은 가까워질수록 크게 보여 부드러워진다.",
+          "evidence": {
+            "source_id": "broncolor-light-quality",
+            "locator": "Soft Light, The closer we get 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "그림자_전이",
+          "value": "연광에도 그림자가 남지만 경계에 계조가 생긴다.",
+          "evidence": {
+            "source_id": "broncolor-light-quality",
+            "locator": "Soft Light, The shadows 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "상대_크기_예시",
+          "value": "100×100 cm/4 m와 50×50 cm/2 m는 같은 경도로 설명한다.",
+          "evidence": {
+            "source_id": "broncolor-light-quality",
+            "locator": "Soft Light, A light of about 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "광원크기",
+        "거리",
+        "그림자"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "diffused-light-enclosure",
+      "title_ko": "라이트 텐트의 둘러싸는 확산광",
+      "subtype": "경도·확산",
+      "summary": "broncolor가 구분한 둘러싸는 확산광이며 모든 소프트박스의 성질은 아니다.",
+      "facts": [
+        {
+          "field": "광원_범위",
+          "value": "이 범주의 큰 광원은 물체 주위를 비춘다.",
+          "evidence": {
+            "source_id": "broncolor-light-quality",
+            "locator": "Diffused light, Now the light source 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "방향_특성",
+          "value": "뚜렷한 방향성이 사라진다고 설명한다.",
+          "evidence": {
+            "source_id": "broncolor-light-quality",
+            "locator": "Diffused light, The light does not show 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "도구_예시",
+          "value": "물체를 감싸는 라이트 텐트를 예로 든다.",
+          "evidence": {
+            "source_id": "broncolor-light-quality",
+            "locator": "Diffused light, 마지막 목록 Light-tents 항목",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "라이트텐트",
+        "전방위확산"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "white-balance-neutralization",
+      "title_ko": "화이트밸런스 중성화",
+      "subtype": "명암·색 조건",
+      "summary": "Sony의 광원색 보정 기능을 요약한다.",
+      "facts": [
+        {
+          "field": "중성_기준",
+          "value": "광원색 영향을 보상해 흰 물체를 희게 재현한다.",
+          "evidence": {
+            "source_id": "sony-white-balance",
+            "locator": "도입 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "자동_보정",
+          "value": "AWB는 인식한 장면에 따라 자동 조정한다.",
+          "evidence": {
+            "source_id": "sony-white-balance",
+            "locator": "Auto white balance (AWB), 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "프리셋_선택",
+          "value": "AWB 색이 기대와 다르면 프리셋을 수동 선택할 수 있다.",
+          "evidence": {
+            "source_id": "sony-white-balance",
+            "locator": "Changing the white balance setting, 첫 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "화이트밸런스",
+        "광원색"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "incident-light-meter-reading",
+      "title_ko": "입사광 측광",
+      "subtype": "측광 절차·측정값 구분",
+      "summary": "Jim Zuckerman의 측광 절차다. 이 배치의 실제 측정값은 없다.",
+      "facts": [
+        {
+          "field": "미터_위치",
+          "value": "미터는 장면과 같은 빛을 받아야 한다.",
+          "evidence": {
+            "source_id": "sekonic-metering-mistakes",
+            "locator": "Shooting in Snow, I used a Sekonic 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "돔_방향",
+          "value": "입사광 측정 시 돔은 카메라 렌즈를 향한다.",
+          "evidence": {
+            "source_id": "sekonic-metering-mistakes",
+            "locator": "Shooting in Snow, The dome 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반사율_영향",
+          "value": "안개 사례에서 입사광 모드는 안개의 반사율에 좌우되지 않는다고 설명한다.",
+          "evidence": {
+            "source_id": "sekonic-metering-mistakes",
+            "locator": "Shooting in Fog, Instead 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "입사광",
+        "노출계"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "reflected-spot-metering-target",
+      "title_ko": "반사광 스폿 측광 대상",
+      "subtype": "측광 절차·측정값 구분",
+      "summary": "Jim Zuckerman의 밝은 창 앞 측광 사례다. 수치는 출처 주장이다.",
+      "facts": [
+        {
+          "field": "창문_영향",
+          "value": "창밖 밝기가 내장 미터를 좌우해 피사체를 어둡게 만들 수 있다.",
+          "evidence": {
+            "source_id": "sekonic-metering-mistakes",
+            "locator": "Bright Windows, 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "표적_선택",
+          "value": "카메라 위치에서 피사체 자체를 1도 스폿으로 읽도록 안내한다.",
+          "evidence": {
+            "source_id": "sekonic-metering-mistakes",
+            "locator": "Bright Windows, 둘째 문단 첫 두 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "노출_절충",
+          "value": "이 방식은 HDR·필 플래시가 없으면 창밖 디테일을 희생할 수 있다.",
+          "evidence": {
+            "source_id": "sekonic-metering-mistakes",
+            "locator": "Bright Windows, Detail outside 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "반사광",
+        "스폿측광",
+        "역광"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "rembrandt-portrait-light",
+      "title_ko": "렘브란트 인물광",
+      "subtype": "인물광 패턴",
+      "summary": "Profoto가 소개한 Hannah Couzens의 렘브란트 설정이다.",
+      "facts": [
+        {
+          "field": "빛_형태",
+          "value": "광원 반대 볼에 작은 빛의 삼각형을 만든다.",
+          "evidence": {
+            "source_id": "profoto-rembrandt",
+            "locator": "도입 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "높이_조정",
+          "value": "광원을 높여 그림자를 아래로 내린다.",
+          "evidence": {
+            "source_id": "profoto-rembrandt",
+            "locator": "Step 3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "측면_조정",
+          "value": "코 그림자와 볼 그림자가 연결될 때까지 광원을 옆으로 옮긴다.",
+          "evidence": {
+            "source_id": "profoto-rembrandt",
+            "locator": "Step 4",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "렘브란트",
+        "삼각형빛"
+      ],
+      "existing_entry_id": "FS-0106",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "butterfly-portrait-light",
+      "title_ko": "정면 위 버터플라이",
+      "subtype": "인물광 패턴",
+      "summary": "Profoto의 John Russo 사례에서 버터플라이 배치를 요약한다.",
+      "facts": [
+        {
+          "field": "광원_위치",
+          "value": "주광을 카메라 바로 뒤 위에 둔다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Butterfly light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "그림자_형태",
+          "value": "코 아래 나비 모양 그림자가 생긴다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Butterfly light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "촬영_위치",
+          "value": "촬영자는 광원 아래에서 촬영한다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Butterfly light, 둘째 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "버터플라이",
+        "코그림자"
+      ],
+      "existing_entry_id": "CRAFT-lighting-d11cff447d68",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "loop-portrait-light",
+      "title_ko": "스튜디오 루프",
+      "subtype": "인물광 패턴",
+      "summary": "Profoto의 루프 패턴 설명이며 각도는 원문 예시다.",
+      "facts": [
+        {
+          "field": "광원_방향",
+          "value": "피사체 앞·위 약 45도로 비춘다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Loop light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "그림자_형태",
+          "value": "코 그림자가 볼 쪽으로 비스듬히 굽는다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Loop light, 둘째 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "밝은_영역",
+          "value": "대부분의 얼굴은 빛을 받는다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Loop light, 셋째 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "루프",
+        "인물광"
+      ],
+      "existing_entry_id": "FS-0105",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "short-portrait-light",
+      "title_ko": "쇼트 라이팅",
+      "subtype": "인물광 패턴",
+      "summary": "Profoto의 카메라 기준 얼굴 면 구분이다.",
+      "facts": [
+        {
+          "field": "주광_면",
+          "value": "카메라에서 먼 얼굴 면이 주광을 받는다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Short light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가까운_면",
+          "value": "카메라 가까운 면은 빛을 덜 받는다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Short light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "면적_효과",
+          "value": "얼굴의 더 넓은 부분이 그림자에 놓인다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Patterns of light, John chose short light 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "쇼트라이팅",
+        "얼굴방향"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "broad-portrait-light",
+      "title_ko": "브로드 라이팅",
+      "subtype": "인물광 패턴",
+      "summary": "Profoto의 카메라 기준 밝은 면 구분이다.",
+      "facts": [
+        {
+          "field": "주광_면",
+          "value": "카메라 쪽으로 향한 얼굴 면이 가장 밝다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Broad light, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "밝은_면적",
+          "value": "더 넓은 얼굴 면을 비춘다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Patterns of light, To shoot Cara 문단 둘째 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "출처_사례",
+          "value": "John Russo가 Ben Affleck 촬영에 사용한 패턴으로 소개된다.",
+          "evidence": {
+            "source_id": "profoto-russo-patterns",
+            "locator": "Classic covers > Broad light, 둘째 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "브로드라이팅",
+        "얼굴방향"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "clamshell-reflector-light",
+      "title_ko": "클램셸 반사판 조합",
+      "subtype": "반사·보조광",
+      "summary": "Westcott Eyelighter 3의 클램셸 활용 설명이다. 일반 반사판 전체로 확대하지 않는다.",
+      "facts": [
+        {
+          "field": "광원_구성",
+          "value": "제조사는 광원 하나와 이 반사판으로 클램셸을 만들 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "westcott-eyelighter",
+            "locator": "Description > Stunning Clamshell Lighting with a Single Light",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "흰색_반사면",
+          "value": "흰 면은 약한 필을 주며 코·턱 아래 그림자를 일부 남긴다고 설명한다.",
+          "evidence": {
+            "source_id": "westcott-eyelighter",
+            "locator": "Get More Looks with 3 Reflective Surfaces > White Fabric",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "은색_반사면",
+          "value": "은 면은 정반사 성격이 강하고 코·턱 아래 그림자를 대부분 채운다고 설명한다.",
+          "evidence": {
+            "source_id": "westcott-eyelighter",
+            "locator": "Get More Looks with 3 Reflective Surfaces > Silver Fabric",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "클램셸",
+        "반사판"
+      ],
+      "existing_entry_id": "CRAFT-lighting-c46e34319d57",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "color-correction-gels",
+      "title_ko": "색온도 보정 젤",
+      "subtype": "명암·색 조건",
+      "summary": "Rosco Cinegel 표의 제품별 보정값이다. 직접 측정하지 않았다.",
+      "facts": [
+        {
+          "field": "CTB_변환",
+          "value": "3202 Full Blue CTB는 3200 K를 5500 K로 보정한다.",
+          "evidence": {
+            "source_id": "rosco-filter-facts",
+            "locator": "인쇄 p.9 Cinegel 표, 3202 행 DESCRIPTION",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "CTO_변환",
+          "value": "3407 Full CTO는 6500 K를 3200 K로 보정한다.",
+          "evidence": {
+            "source_id": "rosco-filter-facts",
+            "locator": "인쇄 p.9 Cinegel 표, 3407 행 DESCRIPTION",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "CTB_투과율",
+          "value": "3202의 표기 투과율은 36%, 광량 감소는 약 1.5스톱이다.",
+          "evidence": {
+            "source_id": "rosco-filter-facts",
+            "locator": "인쇄 p.9 Cinegel 표, 3202 행 TRANS.",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "CTB",
+        "CTO",
+        "광량손실"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

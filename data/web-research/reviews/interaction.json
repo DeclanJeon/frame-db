@@ -1,0 +1,679 @@
+{
+  "schema_version": 1,
+  "category_id": "interaction",
+  "input_sha256": "0c20d0a1bcb42655817b8acf0a4cb24032d681e39ac9545bead37af29b8decfb",
+  "reviewer": "interaction-independent-review-omo-st_01a18aff-20261030",
+  "reviewed_at": "2026-10-30T04:16:19.572Z",
+  "accepted_concept_keys": [
+    "active-listening",
+    "cup-handover",
+    "eye-contact-introduction",
+    "group-count-without-overlap",
+    "one-word-shared-story",
+    "yes-and-offer-acceptance",
+    "conditional-group-standing-response",
+    "alternating-three-count",
+    "guided-tour-partner-trust",
+    "hidden-status-trio",
+    "image-theatre-partner-sculpting",
+    "paired-status-still-image",
+    "three-changes-partner-observation",
+    "group-body-object",
+    "named-action-relay",
+    "paired-mirroring",
+    "conductor-selected-story-turns",
+    "right-handshake-release",
+    "hug-contact-context",
+    "flocking-front-leader-transfer"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "mit-listening",
+      "url": "https://hr.mit.edu/learning-topics/comm/articles/active-listening",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Listening Tips That Aid Understanding, bullets Find a good space / Show interest / Hear / Ask questions / Clarify-Paraphrase (reopened lines 515-527).",
+      "rights_checked": true,
+      "notes": "Read the attributed Jeannette Gerzon guidance, not just the page header. Attention, paraphrase and clarification match. Existing FS-0131 is the exact-title enrichment; the broader speaker/listener guide is not counted separately. Reuse permissions were not established; unknown is retained for text/images. No media inspected or acquired."
+    },
+    {
+      "source_id": "handover-paper",
+      "url": "https://jlupub.ub.uni-giessen.de/bitstreams/fe1c0358-d3d0-4d29-b580-25d2623a1623/download",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "PDF printed p.1 Introduction, three-phase paragraph; p.7 Discussion opening; p.10 Open Access.",
+      "rights_checked": true,
+      "notes": "Initial web reader returned the abstract, then timed out. Direct repository request redirected to its server/api/core/bitstreams/fe1c0358-d3d0-4d29-b580-25d2623a1623/content endpoint; pdftotext read the PDF in memory, exit 0. Compared all three phases and the vertical 1.8 kg limitation. No cup trial or figure inspection is claimed. Existing exact-title CRAFT-interaction-5c12750253b9 is the sole target, not an additional FS-0134 enrichment. P.10 explicitly states CC BY 4.0 with author/source credit, license link, change notice and third-party exceptions. Collector unknown status is conservative, not a denial of that license; no file-specific media clearance or acquisition occurred."
+    },
+    {
+      "source_id": "bc-games",
+      "url": "https://www.britishcouncil.org/voices-magazine/low-preparation-improvisational-theatre-english-language-classroom",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Activity 1: Start the lesson with the ABCs; Activity 2: Do you love your neighbour?; Activity 3: Yes, And...; each Script and procedure.",
+      "rights_checked": true,
+      "notes": "Web reader timed out; direct webfetch returned the complete article body, including all three procedures. Don Merritt describes his own classroom adaptations. Checked introduction/eye-contact restart, conditional standing and offer acceptance as different interaction rules, not alphabet/counting variants. FS-0135 is the existing introduction target. Photo credit and linked Unsplash terms are separate from article rights; no article/media reuse permission inferred. Unknown retained; no image downloaded or inspected."
+    },
+    {
+      "source_id": "dr-count",
+      "url": "https://dramaresource.com/count-to-20/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Count To 20, main rule paragraph and Director’s Notes (reopened lines 57-63).",
+      "rights_checked": true,
+      "notes": "Read circle arrangement, free initiation, one speaker per number and restart on overlap. This is unassigned group turn coordination, distinct from fixed alternating pairs and conductor-selected storytelling. Book attribution and public access do not establish reproduction rights; unknown retained. No media inspection/acquisition."
+    },
+    {
+      "source_id": "dr-word",
+      "url": "https://dramaresource.com/one-word-at-a-time/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "One Word At A Time, introductory rule paragraph (line 53) and Director’s Tips.",
+      "rights_checked": true,
+      "notes": "Read circle arrangement and each participant adding a word to a shared story. Not a second label for Story Orchestra: this constrains contribution size rather than conductor selection/duration. Book-linked teaching text is not an open media license; unknown retained. No media inspection/acquisition."
+    },
+    {
+      "source_id": "dr-123",
+      "url": "https://dramaresource.com/1-2-3/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "1-2-3, numbered steps 1-3 (lines 53-77), Director’s Tips.",
+      "rights_checked": true,
+      "notes": "Read the A/B dialogue pattern, repeated one-to-three sequence, clapping for one and knee-bending for three. Distinct paired alternating task, not a renamed Count To 20 variant. Rights unknown retained; public instructions/book link do not grant media reuse. Embedded video not played or acquired."
+    },
+    {
+      "source_id": "dr-guided",
+      "url": "https://dramaresource.com/guided-tour/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Guided Tour, main two paragraphs (lines 56-58), Director’s Tips (60-62).",
+      "rights_checked": true,
+      "notes": "Read guide/eyes-closed partner roles, imaginary setting narration and obstacles. Collector line numbers differ from this extraction; named paragraphs locate the claims. Safety reminders are present but no safety testing is inferred. Unknown reuse rights retained. No actual partner movement observed or media acquired."
+    },
+    {
+      "source_id": "dr-peck",
+      "url": "https://dramaresource.com/pecking-order/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Pecking Order, two main rule paragraphs (lines 57-59).",
+      "rights_checked": true,
+      "notes": "Read three-character setup, one participant leaving, remaining pair selecting all statuses, re-entry improvisation and subsequent guessing. Distinct concealed-information trio, not a static status-picture variant. A fictional exercise, not real-person hierarchy diagnosis. Book/media reuse permissions unknown; no media inspected/acquired."
+    },
+    {
+      "source_id": "dr-image",
+      "url": "https://dramaresource.com/image-theatre/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Image Theatre, How to do it, pair/small-group bullet and final silent-work bullet (lines 64-66).",
+      "rights_checked": true,
+      "notes": "Read the educator’s specific turn-taking sculpting, shape-combination and silent-work instructions. Accepted as this published teaching activity, not as primary evidence for Boal’s original invention or effectiveness. Distinct from unequal-status paired freeze frames and timed object-building. Copyright footer names David Farmer; no reuse clearance inferred. Unknown retained; photos not inspected/acquired."
+    },
+    {
+      "source_id": "dr-status",
+      "url": "https://dramaresource.com/status-pictures/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Status Pictures, paired freeze-frame instructions and Director’s Tips (lines 61-68).",
+      "rights_checked": true,
+      "notes": "Read higher/lower-status pairing and body-language examples. Relative status is the task, unlike concealed trio guessing or neutral partner sculpting. Audience disagreement is acknowledged by the source; no universally reliable posture decoder is claimed. Unknown text/media reuse retained; embedded video not played, no media acquired."
+    },
+    {
+      "source_id": "dr-changes",
+      "url": "https://dramaresource.com/three-changes/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Three Changes, main rule paragraph (line 55).",
+      "rights_checked": true,
+      "notes": "Read back-to-back sitting, three appearance alterations and turning back to identify them. Count is the source’s rule, not a reviewer measurement. This is a change-detection task, not another mirroring label. Book attribution is not media permission; unknown retained. No actual participants observed or media acquired."
+    },
+    {
+      "source_id": "dr-ten",
+      "url": "https://dramaresource.com/ten-second-objects/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Ten Second Objects, introduction and main rules (lines 58-59).",
+      "rights_checked": true,
+      "notes": "Read small groups joining their bodies to form a called-out object within the specified time. Distinct object-building objective, not a wording-only variant of sculpting/status images. Collector leaves timing as a source claim, not measured execution. Unknown rights retained; no demonstration or image inspected/acquired."
+    },
+    {
+      "source_id": "dr-doing",
+      "url": "https://dramaresource.com/what-are-you-doing/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "What Are You Doing?, main rules and Director’s Tip (lines 56-60).",
+      "rights_checked": true,
+      "notes": "Read mime initiation, question, naming a different activity and the next participant performing that named activity. Distinct mismatch-and-relay mechanism, not ordinary turn-taking or Yes-And. Book/page access does not establish text/video redistribution permission; unknown retained. Video not played or acquired."
+    },
+    {
+      "source_id": "hoopla-mirror",
+      "url": "https://www.hooplaimpro.com/resource/mirroring",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Mirroring, main instructions (lines 24-30).",
+      "rights_checked": true,
+      "notes": "Read face-to-face copying, leader/follower role exchange, then both pretending to follow. Distinct from Flocking’s front-position/direction-dependent group leadership. Source says joint discovery, not measured synchrony or guaranteed connection. No explicit reuse permission established; unknown retained. No demonstration inspected/acquired."
+    },
+    {
+      "source_id": "dr-story-orchestra",
+      "url": "https://dramaresource.com/story-orchestra/",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Story Orchestra, main paragraph and Director’s Tips (lines 57-62).",
+      "rights_checked": true,
+      "notes": "Read group in front of conductor, arbitrary individual selection and variable speaking duration including mid-sentence switches. Distinct from one-word contribution limits and ordinary three-person conversation guides. Unknown reuse retained; public teaching/book access is not media permission. No audio/video listened to or acquired."
+    },
+    {
+      "source_id": "ep-handshake",
+      "url": "https://emilypost.substack.com/p/etiquette-today-job-interview-and",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Introductions, numbered handshake instructions 2-5 (line 27); closing Lizzie and Dan signature.",
+      "rights_checked": true,
+      "notes": "Read the actual interview-introduction instructions including gaze alternative, right hand, 2-3 pumps and release. Existing CRAFT-interaction-ccd3c3d9f2a2 enrichment only; no new handshake row. Numeric repetition remains source advice, not observed contact. Photo credit is separately attributed; article/photo reuse permissions not established. Unknown retained; no media inspected/acquired."
+    },
+    {
+      "source_id": "rh-hug",
+      "url": "https://www.roberthalf.com/us/en/insights/career-development/hugging-etiquette-at-work-advice-from-the-emily-post-institute",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Interview questions on office hugger and first-time business contacts.",
+      "rights_checked": true,
+      "notes": "Direct webfetch supplied the complete interview after later web-reader timeout. Compared Daniel Post Senning’s actual answers about differing comfort, not imposing hugs, body language, yielding initiative and first-meeting handshakes. Existing CRAFT-interaction-9cbc39c0f599 receives context only; no arm-overlap/separation mechanics validated. Footer credits The Creative Group, copyright 2019; no reuse license inferred. Unknown retained; no media inspected/acquired."
+    },
+    {
+      "source_id": "ut-flocking",
+      "url": "https://dbp.theatredance.utexas.edu/teaching-strategies/flocking",
+      "checked_at": "2026-10-30T04:16:19.572Z",
+      "access": "public_body",
+      "locator": "Directions, all three paragraphs (lines 46-48).",
+      "rights_checked": true,
+      "notes": "Read shared facing direction, room to move without contact, controlled front-leader movement and new leadership when direction/visibility changes. Different group-role mechanism from paired Mirroring, not a duplicate name. No measured spacing or motion synchronization inferred. No explicit text/media reuse license established; unknown retained. No media inspected/acquired."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "active-listening",
+      "field": "청자_주의",
+      "source_id": "mit-listening",
+      "locator": "Listening Tips That Aid Understanding (L515–527); 경청 팁 목록: 좋은 대화 공간 및 관심 표시 항목",
+      "verdict": "supported",
+      "notes": "Find a good space and Show interest bullets explicitly address distraction reduction and attention."
+    },
+    {
+      "concept_key": "active-listening",
+      "field": "이해_되돌려주기",
+      "source_id": "mit-listening",
+      "locator": "Listening Tips That Aid Understanding (L515–527); 경청 팁 목록: 이해 확인과 자기 말로 정리하기 항목",
+      "verdict": "supported",
+      "notes": "Clarify/Paraphrase explicitly checks the speaker’s meaning in the listener’s own formulation."
+    },
+    {
+      "concept_key": "active-listening",
+      "field": "질문_역할",
+      "source_id": "mit-listening",
+      "locator": "Listening Tips That Aid Understanding (L515–527); 경청 팁 목록: 질문하기 및 되묻기 항목",
+      "verdict": "supported",
+      "notes": "Hear and Ask questions bullets explicitly request repetition, explanation and confirmation."
+    },
+    {
+      "concept_key": "cup-handover",
+      "field": "전달_전_지지",
+      "source_id": "handover-paper",
+      "locator": "PDF p.1 Introduction, three phases 문단: first phase",
+      "verdict": "supported",
+      "notes": "P.1 first phase explicitly assigns complete object load to the passer."
+    },
+    {
+      "concept_key": "cup-handover",
+      "field": "공동_접촉_전환",
+      "source_id": "handover-paper",
+      "locator": "PDF p.1 Introduction, three phases 문단: handover phase",
+      "verdict": "supported",
+      "notes": "P.1 handover phase explicitly combines simultaneous interaction with receiver force increase and passer reduction."
+    },
+    {
+      "concept_key": "cup-handover",
+      "field": "전달_후_지지",
+      "source_id": "handover-paper",
+      "locator": "PDF p.1 Introduction, three phases 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "P.1 last phase explicitly starts after full release and leaves the receiver alone holding the object."
+    },
+    {
+      "concept_key": "eye-contact-introduction",
+      "field": "참여_행동",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 1의 진행 절차: 게임 재시작 시 눈맞춤·접근·소개·자리 교체 단락",
+      "verdict": "supported",
+      "notes": "Activity 1 restart procedure explicitly has participants approach and introduce themselves."
+    },
+    {
+      "concept_key": "eye-contact-introduction",
+      "field": "시선_연결",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 1의 진행 절차: 게임 재시작 시 눈맞춤·접근·소개·자리 교체 단락",
+      "verdict": "supported",
+      "notes": "Activity 1 restart procedure explicitly calls for silent eye-contact before approaching; no sustained or measured gaze inferred."
+    },
+    {
+      "concept_key": "eye-contact-introduction",
+      "field": "자기_소개",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 1의 진행 절차: 게임 재시작 시 눈맞춤·접근·소개·자리 교체 단락",
+      "verdict": "supported",
+      "notes": "Activity 1 introduction/name-learning context and instruction-checking questions support exchanging introductions."
+    },
+    {
+      "concept_key": "group-count-without-overlap",
+      "field": "집단_배치",
+      "source_id": "dr-count",
+      "locator": "Count To 20, 기본 규칙 L55; 본문 첫 연습 배치",
+      "verdict": "supported",
+      "notes": "Main rules explicitly allow sitting or standing in a circle."
+    },
+    {
+      "concept_key": "group-count-without-overlap",
+      "field": "발화_배정",
+      "source_id": "dr-count",
+      "locator": "Count To 20, 기본 규칙 L55; 숫자 세기 진행 규칙",
+      "verdict": "supported",
+      "notes": "Main rules allow anybody to start, then a different person adds the next number; no preassigned sequence."
+    },
+    {
+      "concept_key": "group-count-without-overlap",
+      "field": "겹침_처리",
+      "source_id": "dr-count",
+      "locator": "Count To 20, 기본 규칙 L55; 동시 발화 시 재시작 규칙",
+      "verdict": "supported",
+      "notes": "Main rules explicitly restart when at least two people speak together."
+    },
+    {
+      "concept_key": "one-word-shared-story",
+      "field": "참여_배치",
+      "source_id": "dr-word",
+      "locator": "One Word At A Time, 기본 규칙 L53; 본문 기본 배치",
+      "verdict": "supported",
+      "notes": "Main rules explicitly arrange a circle and a group story."
+    },
+    {
+      "concept_key": "one-word-shared-story",
+      "field": "차례_단위",
+      "source_id": "dr-word",
+      "locator": "One Word At A Time, 기본 규칙 L53; 한 단어씩 이어 말하기 규칙",
+      "verdict": "supported",
+      "notes": "Main rules explicitly restrict each contribution to one word."
+    },
+    {
+      "concept_key": "one-word-shared-story",
+      "field": "내용_연속성",
+      "source_id": "dr-word",
+      "locator": "One Word At A Time, 기본 규칙 L53; 공동 이야기 구성 설명",
+      "verdict": "supported",
+      "notes": "Main rules connect the successive words into the whole group’s story."
+    },
+    {
+      "concept_key": "yes-and-offer-acceptance",
+      "field": "첫_역할",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 3의 진행 절차: 첫 참여자의 계획 제시",
+      "verdict": "supported",
+      "notes": "Activity 3 A starts with an intent for the day, illustrated by a plan."
+    },
+    {
+      "concept_key": "yes-and-offer-acceptance",
+      "field": "응답_규칙",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 3의 진행 절차: 두 번째 참여자의 수용 응답",
+      "verdict": "supported",
+      "notes": "Activity 3 B must accept with Yes-And; role switching preserves acceptance."
+    },
+    {
+      "concept_key": "yes-and-offer-acceptance",
+      "field": "추가_정보",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 3의 진행 절차: 응답 뒤 새로운 내용 덧붙이기",
+      "verdict": "supported",
+      "notes": "Activity 3 explicitly requires an add-on, not mere agreement."
+    },
+    {
+      "concept_key": "conditional-group-standing-response",
+      "field": "긍정_응답",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 2의 진행 절차: 긍정 응답 시 가까운 두 사람의 반응",
+      "verdict": "supported",
+      "notes": "Activity 2 positive reply requires the two people closest to B to stand."
+    },
+    {
+      "concept_key": "conditional-group-standing-response",
+      "field": "부정_응답",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 2의 진행 절차: 부정 응답 시 설명에 해당하는 사람들의 반응",
+      "verdict": "supported",
+      "notes": "Activity 2 negative reply adds a description; matching participants stand."
+    },
+    {
+      "concept_key": "conditional-group-standing-response",
+      "field": "질문자_교대",
+      "source_id": "bc-games",
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 2의 진행 절차: 가장 늦게 일어난 사람의 질문자 역할",
+      "verdict": "supported",
+      "notes": "Activity 2 in both response branches makes the last standing participant the new A/questioner."
+    },
+    {
+      "concept_key": "alternating-three-count",
+      "field": "역할_교대",
+      "source_id": "dr-123",
+      "locator": "1-2-3, 단계 1–3 L55–79; 첫 단계: 짝의 교대 발화",
+      "verdict": "supported",
+      "notes": "Step 1’s A/B example explicitly alternates the two partners."
+    },
+    {
+      "concept_key": "alternating-three-count",
+      "field": "반복_구조",
+      "source_id": "dr-123",
+      "locator": "1-2-3, 단계 1–3 L55–79; 세 숫자의 반복 규칙",
+      "verdict": "supported",
+      "notes": "Step 1 instructs repeating one through three and shows B restarting at one."
+    },
+    {
+      "concept_key": "alternating-three-count",
+      "field": "반응_변환",
+      "source_id": "dr-123",
+      "locator": "1-2-3, 단계 1–3 L55–79; 숫자를 동작으로 대체하는 단계",
+      "verdict": "supported",
+      "notes": "Steps 2-3 replace spoken numbers with clapping and knee bends."
+    },
+    {
+      "concept_key": "guided-tour-partner-trust",
+      "field": "짝_역할",
+      "source_id": "dr-guided",
+      "locator": "Guided Tour, 기본 진행 L59–60; 기본 진행 첫 단락: 안내하는 짝과 안내받는 짝의 역할",
+      "verdict": "supported",
+      "notes": "First paragraph explicitly separates leading partner and blindfolded/eyes-closed partner."
+    },
+    {
+      "concept_key": "guided-tour-partner-trust",
+      "field": "시각_조건",
+      "source_id": "dr-guided",
+      "locator": "Guided Tour, 기본 진행 L59–60; 기본 진행 첫 단락: 눈가리개 또는 눈 감기",
+      "verdict": "supported",
+      "notes": "First paragraph explicitly allows closed eyes instead of a blindfold while being led."
+    },
+    {
+      "concept_key": "guided-tour-partner-trust",
+      "field": "언어_안내",
+      "source_id": "dr-guided",
+      "locator": "Guided Tour, 기본 진행 L59–60; 기본 진행 첫 두 단락: 상상의 주변 환경과 장애물 설명",
+      "verdict": "supported",
+      "notes": "Second paragraph explicitly adds verbal imaginary surroundings and obstacles to step over/through."
+    },
+    {
+      "concept_key": "hidden-status-trio",
+      "field": "참여자_설정",
+      "source_id": "dr-peck",
+      "locator": "Pecking Order, 기본 진행 L57–59; 기본 규칙 첫 단락: 세 사람의 상황과 인물 설정",
+      "verdict": "supported",
+      "notes": "First paragraph explicitly sets a situation and three characters in groups of three."
+    },
+    {
+      "concept_key": "hidden-status-trio",
+      "field": "숨겨진_지위",
+      "source_id": "dr-peck",
+      "locator": "Pecking Order, 기본 진행 L57–59; 기본 규칙 첫 단락: 한 명의 퇴장과 지위 결정",
+      "verdict": "supported",
+      "notes": "First paragraph explicitly removes one participant while the other two select their own and the absent character’s statuses."
+    },
+    {
+      "concept_key": "hidden-status-trio",
+      "field": "관계_추정",
+      "source_id": "dr-peck",
+      "locator": "Pecking Order, 기본 진행 L57–59; 기본 규칙 둘째 단락: 재입장, 즉흥 진행과 지위 추정",
+      "verdict": "supported",
+      "notes": "Second paragraph explicitly returns the third player, runs improvisation, stops it and asks for all three status guesses."
+    },
+    {
+      "concept_key": "image-theatre-partner-sculpting",
+      "field": "주도권_교대",
+      "source_id": "dr-image",
+      "locator": "Image Theatre, How to do it L62–64; 진행 방법 다음의 짝·소집단 활동 항목: 번갈아 상대 자세 만들기",
+      "verdict": "supported",
+      "notes": "Pair/small-group bullet explicitly instructs taking turns sculpting one another."
+    },
+    {
+      "concept_key": "image-theatre-partner-sculpting",
+      "field": "형태_결합",
+      "source_id": "dr-image",
+      "locator": "Image Theatre, How to do it L62–64; 짝·소집단 활동 항목: 만든 형태를 함께 배치하기",
+      "verdict": "supported",
+      "notes": "Same bullet explicitly asks participants to find a way to combine the resulting shapes."
+    },
+    {
+      "concept_key": "image-theatre-partner-sculpting",
+      "field": "발화_조건",
+      "source_id": "dr-image",
+      "locator": "Image Theatre, How to do it L62–64; 진행 방법 마지막 항목: 말하지 않고 진행하기",
+      "verdict": "supported",
+      "notes": "Final bullet recommends conducting the exercise without talking; recommendation is not independent proof of effectiveness."
+    },
+    {
+      "concept_key": "paired-status-still-image",
+      "field": "작업_단위",
+      "source_id": "dr-status",
+      "locator": "Status Pictures, 기본 진행 및 Director's Tips L61–68; 기본 짝 활동",
+      "verdict": "supported",
+      "notes": "Main paired instruction explicitly creates a freeze frame together."
+    },
+    {
+      "concept_key": "paired-status-still-image",
+      "field": "관계_대비",
+      "source_id": "dr-status",
+      "locator": "Status Pictures, 기본 진행 및 Director's Tips L61–68; 상대적 지위 표현 지침",
+      "verdict": "supported",
+      "notes": "Main instruction explicitly contrasts one higher-status and one lower-status character."
+    },
+    {
+      "concept_key": "paired-status-still-image",
+      "field": "표현_수단",
+      "source_id": "dr-status",
+      "locator": "Status Pictures, 기본 진행 및 Director's Tips L61–68; 정지 장면의 신체 표현 설명",
+      "verdict": "supported",
+      "notes": "Director’s Tips explicitly identify height, body shape, eye contact and body-space as explored expressive choices."
+    },
+    {
+      "concept_key": "three-changes-partner-observation",
+      "field": "짝의_방향",
+      "source_id": "dr-changes",
+      "locator": "Three Changes, 기본 규칙 L55; 기본 규칙 단락: sit back to back",
+      "verdict": "supported",
+      "notes": "Main paragraph explicitly says the partners sit back to back."
+    },
+    {
+      "concept_key": "three-changes-partner-observation",
+      "field": "변경_구간",
+      "source_id": "dr-changes",
+      "locator": "Three Changes, 기본 규칙 L55; 세 가지 변경 지침",
+      "verdict": "supported",
+      "notes": "Same paragraph explicitly requires three appearance details to change outside the partner’s view."
+    },
+    {
+      "concept_key": "three-changes-partner-observation",
+      "field": "재대면_응답",
+      "source_id": "dr-changes",
+      "locator": "Three Changes, 기본 규칙 L55; 재관찰과 변화 찾기 단계",
+      "verdict": "supported",
+      "notes": "Same paragraph explicitly turns them back to spot their partner’s changes."
+    },
+    {
+      "concept_key": "group-body-object",
+      "field": "작업_역할",
+      "source_id": "dr-ten",
+      "locator": "Ten Second Objects, 기본 규칙 L55; 소집단 구성 지침",
+      "verdict": "supported",
+      "notes": "Main instruction explicitly divides participants into small groups."
+    },
+    {
+      "concept_key": "group-body-object",
+      "field": "공동_목표",
+      "source_id": "dr-ten",
+      "locator": "Ten Second Objects, 기본 규칙 L55; 제시된 물건의 신체 표현",
+      "verdict": "supported",
+      "notes": "Main instruction explicitly calls an object that participants form jointly using their bodies."
+    },
+    {
+      "concept_key": "group-body-object",
+      "field": "조정_조건",
+      "source_id": "dr-ten",
+      "locator": "Ten Second Objects, 기본 규칙 L55; 제한 시간 규칙",
+      "verdict": "supported",
+      "notes": "Main instruction explicitly gives a ten-second countdown; batch’s less specific time-limit statement is supported, not measured."
+    },
+    {
+      "concept_key": "named-action-relay",
+      "field": "첫_행동",
+      "source_id": "dr-doing",
+      "locator": "What Are You Doing?, 기본 규칙 L52; 첫 참여자의 행동 시작",
+      "verdict": "supported",
+      "notes": "Main paragraph explicitly starts A miming an activity."
+    },
+    {
+      "concept_key": "named-action-relay",
+      "field": "질문_응답",
+      "source_id": "dr-doing",
+      "locator": "What Are You Doing?, 기본 규칙 L52; 질문과 다른 행동의 명명 규칙",
+      "verdict": "supported",
+      "notes": "Main paragraph explicitly asks what A is doing and requires naming a different activity while continuing the mime."
+    },
+    {
+      "concept_key": "named-action-relay",
+      "field": "행동_이전",
+      "source_id": "dr-doing",
+      "locator": "What Are You Doing?, 기본 규칙 L52; 다음 참여자가 이어받는 행동",
+      "verdict": "supported",
+      "notes": "Main paragraph explicitly makes B perform the named activity, not copy the observed mime."
+    },
+    {
+      "concept_key": "paired-mirroring",
+      "field": "대응_움직임",
+      "source_id": "hoopla-mirror",
+      "locator": "Mirroring, 본문 L24–30; 기본 mirroring 지침",
+      "verdict": "supported",
+      "notes": "Instructions explicitly have one person move and the other mirror their face/emotions/movements."
+    },
+    {
+      "concept_key": "paired-mirroring",
+      "field": "주도권_교환",
+      "source_id": "hoopla-mirror",
+      "locator": "Mirroring, 본문 L24–30; 리더 교환 단계",
+      "verdict": "supported",
+      "notes": "Next instruction explicitly swaps leader and follower roles."
+    },
+    {
+      "concept_key": "paired-mirroring",
+      "field": "공동_주도",
+      "source_id": "hoopla-mirror",
+      "locator": "Mirroring, 본문 L24–30; 공동 주도 확장 단계",
+      "verdict": "supported",
+      "notes": "Following instruction explicitly makes both pretend to follow, supporting joint movement without one designated leader."
+    },
+    {
+      "concept_key": "conductor-selected-story-turns",
+      "field": "역할_배치",
+      "source_id": "dr-story-orchestra",
+      "locator": "Story Orchestra, 기본 진행 및 Director’s Tips L57–62; 기본 진행 단락 첫 문장: 지휘자 앞에 선 집단",
+      "verdict": "supported",
+      "notes": "Main paragraph explicitly places the whole group sitting or standing before one conductor."
+    },
+    {
+      "concept_key": "conductor-selected-story-turns",
+      "field": "화자_선택",
+      "source_id": "dr-story-orchestra",
+      "locator": "Story Orchestra, 기본 진행 및 Director’s Tips L57–62; 기본 진행 단락: 사람을 자유로운 순서로 지목하기",
+      "verdict": "supported",
+      "notes": "Main paragraph explicitly permits any pointing order, one person at a time."
+    },
+    {
+      "concept_key": "conductor-selected-story-turns",
+      "field": "발화_전환",
+      "source_id": "dr-story-orchestra",
+      "locator": "Story Orchestra, 기본 진행 및 Director’s Tips L57–62; 기본 진행 및 지도자 팁: 발화 길이와 문장 도중 화자 교체",
+      "verdict": "supported",
+      "notes": "Main paragraph and tips explicitly leave duration to the conductor and permit mid-sentence switching."
+    },
+    {
+      "concept_key": "right-handshake-release",
+      "field": "인사_시선",
+      "source_id": "ep-handshake",
+      "locator": "Introductions, 악수 순서 항목 2, L27",
+      "verdict": "supported",
+      "notes": "Introductions item 2 explicitly recommends smile/eye contact and the bridge-of-nose alternative."
+    },
+    {
+      "concept_key": "right-handshake-release",
+      "field": "접촉_손",
+      "source_id": "ep-handshake",
+      "locator": "Introductions, 악수 순서 항목 3, L27",
+      "verdict": "supported",
+      "notes": "Introductions item 3 explicitly instructs extending the right hand and grasping the other hand."
+    },
+    {
+      "concept_key": "right-handshake-release",
+      "field": "접촉_종료",
+      "source_id": "ep-handshake",
+      "locator": "Introductions, 악수 순서 항목 4–5, L27",
+      "verdict": "supported",
+      "notes": "Introductions items 4-5 explicitly specify 2-3 up/down movements followed by letting go; advice, not measured motion."
+    },
+    {
+      "concept_key": "hug-contact-context",
+      "field": "상대_차이",
+      "source_id": "rh-hug",
+      "locator": "office hugger 문답, L20",
+      "verdict": "supported",
+      "notes": "Office-hugger answer explicitly warns against assuming equal comfort with hugging."
+    },
+    {
+      "concept_key": "hug-contact-context",
+      "field": "접촉_주도권",
+      "source_id": "rh-hug",
+      "locator": "office hugger 문답, L21",
+      "verdict": "supported",
+      "notes": "Next paragraph explicitly says not to impose hugs, to observe body language and let others take the lead."
+    },
+    {
+      "concept_key": "hug-contact-context",
+      "field": "관계_조건",
+      "source_id": "rh-hug",
+      "locator": "business contacts 문답, L24–26",
+      "verdict": "supported",
+      "notes": "First-time business contacts answer explicitly favors handshakes and reserves hugs until people know each other."
+    },
+    {
+      "concept_key": "flocking-front-leader-transfer",
+      "field": "집단_배치",
+      "source_id": "ut-flocking",
+      "locator": "Directions, 첫 문단 L46",
+      "verdict": "supported",
+      "notes": "Directions paragraph 1 explicitly specifies common facing direction and enough room to move without touching."
+    },
+    {
+      "concept_key": "flocking-front-leader-transfer",
+      "field": "초기_주도권",
+      "source_id": "ut-flocking",
+      "locator": "Directions, 둘째 문단 L47",
+      "verdict": "supported",
+      "notes": "Directions paragraph 2 explicitly gives controlled movement to the frontmost leader for others to mirror."
+    },
+    {
+      "concept_key": "flocking-front-leader-transfer",
+      "field": "방향_교대",
+      "source_id": "ut-flocking",
+      "locator": "Directions, 셋째 문단 L48",
+      "verdict": "supported",
+      "notes": "Directions paragraph 3 explicitly transfers leadership to the new front when changed direction removes the old leader from view."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": "No concept shortfall: 20 distinct concepts accepted after comparing all 60 source-claim fields against 18 reopened primary teaching/research/interview texts and the 22 original interaction entries. Five explicitly mapped existing-entry enrichments and fifteen distinct exercise concepts; not twenty new seed rows. No rejected records, observation/measurement claims, creative proposals or media candidates. Source line-number drift was resolved by named sections and paragraphs, not treated as an unsupported fact. Existing generic guides were not counted again; overlapping subject matter alone is not a duplicate exercise when role, goal and response rules differ. Unknown media rights remain conservative, including the paper whose article-level CC BY 4.0 terms were independently found with exceptions. Metadata-only review: zero media files acquired, inspected, generated or uploaded; no publication, seed change or Drive verification claimed."
+}

@@ -1,0 +1,24 @@
+{
+  "job_id": "makeup-L03",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L03.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bf6-95c6-7ba0-9ce1-b060036bf3ab/exec-5ac658a1-e794-4631-b3b6-d7be23540769.png",
+  "sha256": "9bd9d92995b1afa42e97c468af1e96e8eb9aaeb218526c5eb132af538956b96d",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Original native output recovered from the built-in output store and visually inspected at 1024x1536. Soft peach blush is centered on both cheeks and stays off the nose and chin; brown lash-root line, moist neutral lips and neat brows are visible. E00 face shape, skin texture, subject-left cheek mole, tied-back hair and gray top remain consistent."
+  },
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L03; concept: 피치 데일리.\nClass: base; domain: makeup; entry: FS-0033.\nParent entry IDs: [\"CRAFT-makeup-894f4e90c90a\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use a thin base, soft brown upper lash-root line, softly blended peach cream blush centered on both cheeks, moist neutral lips and neat natural brows. Keep cheek color off nose and chin. Keep A hair tied back, head frontal, relaxed closed lips and lens-directed eyes, matched to E00. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 face structure, actual skin-mark map, hair, expression and wardrobe; makeup affects pigment and local reflectance only.\nChange only: Use a thin base, soft brown upper lash-root line, softly blended peach cream blush centered on both cheeks, moist neutral lips and neat natural brows. Keep cheek color off nose and chin.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; At full resolution inspect eyelid, lip and brow boundaries; no enlarged eyes or lips.; Compare against E00 for unchanged pores and skin-mark positions.; The specified base, eyes, cheeks, lips and brows are all readable.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nInput images: Image 1: identity anchor, the actual accepted identity A photograph at public/generated/frame-assets/expression-E00.png. Preserve this face and the visible cheek mole; use it as the identity reference.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  }
+}

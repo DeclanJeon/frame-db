@@ -1,0 +1,1148 @@
+{
+  "schema_version": 1,
+  "category_id": "speech",
+  "collector": "speech-collector-st_01a18b1d",
+  "collected_at": "2026-10-30T04:54:31.796Z",
+  "shortfall_reason": "20개 개념, 기존 speech ID 보강 대상 6개와 별도 개념 14개. DB 반영 수량이 아니다. 전부 공개 교육·공식 문서 본문의 source_claim이며 관찰·측정·창작 제안·미디어 후보는 0개다. 영어 교육의 억양·연음 규칙을 한국어 보편 규칙으로 확장하지 않는다. 숫자 발음 보강은 영어 숫자 부분에 한정하며 고유명사 발음은 미확인이다. RAVDESS fetch는 브라우저 확인 화면이었고 Animation Mentor fetch는 보안 차단 본문이어서 둘 다 출처에서 제외했다. 입모양과 타이밍은 공개 Microsoft 문서로 대체했다. 실제 음성·입 움직임 검사는 없으며 모든 출처의 미디어 재사용 권리는 미확인이다.",
+  "sources": [
+    {
+      "source_id": "nyfa-subtext",
+      "url": "https://www.nyfa.edu/student-resources/the-importance-of-subtext-for-actors/",
+      "title": "The Importance Of Subtext For Actors",
+      "publisher": "New York Film Academy",
+      "authors": [
+        "nyfa"
+      ],
+      "checked_at": "2026-10-30T04:53:45.638Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What is Subtext?; Finding the Meaning of the Subtext; Examples of Subtext",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문을 짧게 요약했다. 기사·사진·대사 예문의 복제 및 상업 재사용 허락은 확인하지 않았다.",
+        "attribution": "New York Film Academy; HTML author: nyfa, published 2016-03-25. 별도 재사용 조건 미확인."
+      }
+    },
+    {
+      "source_id": "tm-pauses",
+      "url": "https://www.toastmasters.org/Magazine/Magazine%20Issues/2023/Aug/Power%20Pauses",
+      "title": "9 Surprising Ways You Can Benefit From a Pause",
+      "publisher": "Toastmasters International",
+      "authors": [
+        "Joel Schwartzberg"
+      ],
+      "checked_at": "2026-10-30T04:53:46.472Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "5 Pausing puts power behind key ideas; 7 Pausing lets you breathe",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "저자의 화술 조언을 출처 주장으로 요약했다. 기사·이미지·오디오의 재배포 허락은 미확인.",
+        "attribution": "Joel Schwartzberg / Toastmasters International, August 2023. 라이선스 조건 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-focus",
+      "url": "https://tfcs.baruch.cuny.edu/focus-words-and-prominence/",
+      "title": "Focus Words and Prominence",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:47.607Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 첫 문단; Multiple Focus Words",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 교육 본문만 요약했다. 예문 녹음 미청취, 파일 미취득. 텍스트·녹음·제3자 자료의 재사용 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·별도 라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-thought",
+      "url": "https://tfcs.baruch.cuny.edu/thought-groups/",
+      "title": "Thought Groups and Pausing",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:48.404Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 도입부; punctuation 설명 문단; single sentence may be divided 설명 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "대학의 영어 교육 설명만 요약했다. 인용 연설·TED 영상·녹음은 미검사이며 재사용 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자와 재배포 조건 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-rate",
+      "url": "https://tfcs.baruch.cuny.edu/speaking-rate/",
+      "title": "Speaking Rate",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:49.214Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What is an effective speaking rate?; What factors affect speaking rate?; How can I figure out my average speaking rate?",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육 본문의 조언과 계산 정의만 요약. 음성 예제 미청취·미측정. 녹음·연설·전사 재사용 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-clarification",
+      "url": "https://tfcs.baruch.cuny.edu/requests-for-clarification/",
+      "title": "Requests for Clarification",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:50.044Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입부 상승·하강 억양 비교; Practice 2의 Remember 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 교육 텍스트만 요약. 예제 오디오 미청취, 재배포 권리 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·별도 라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-yesno",
+      "url": "https://tfcs.baruch.cuny.edu/yesno-questions/",
+      "title": "Yes/No Questions",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:50.888Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 정의; In most cases 문단; rhetorical question 예외 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 수업 설명만 요약. 예문 녹음 미청취, 텍스트·녹음 재사용 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·별도 라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-contrast",
+      "url": "https://tfcs.baruch.cuny.edu/contrasting-and-clarifying/",
+      "title": "Contrasting and Clarifying",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:51.718Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입부; 첫 두 예제 뒤 contrastive stress 해설",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 교육 본문만 요약. 예제 발화를 직접 듣지 않았고 재배포 허락도 확인하지 않았다.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-numbers",
+      "url": "https://tfcs.baruch.cuny.edu/stress-in-numbers/",
+      "title": "Stress in Numbers",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:52.554Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Practice 1 이전의 세 Click to learn the rule 답변",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 숫자 강세 수업의 텍스트만 요약. 예제 음성 검사·발음 성능 측정·파일 취득 없음. 재사용 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-linking",
+      "url": "https://tfcs.baruch.cuny.edu/consonant-to-vowel-linking/",
+      "title": "Consonant to Vowel Linking",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:53.394Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 규칙 설명; Keep in mind 문단; Consonant linking can be helpful 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 연결 발음 교육 설명만 요약했다. 음성 예제 미청취·미취득, 재사용 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-assimilation",
+      "url": "https://tfcs.baruch.cuny.edu/assimilation/",
+      "title": "Assimilation: When Two Sounds Combine",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:54.225Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 정의; 첫 palatalization 규칙 목록; Practice 1 뒤 voiceless counterparts",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 교육 본문의 음운 규칙만 요약. 녹음 미청취, 미디어·본문 재배포 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-sarcasm",
+      "url": "https://tfcs.baruch.cuny.edu/sarcasm/",
+      "title": "Sarcasm",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:55.046Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 정의; How does sarcastic intonation compare to other types of intonation?",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영어 수업의 텍스트 해설만 요약. 오디오 미청취, 억양 관찰·측정 없음. 재배포 허락 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "cuny-certainty",
+      "url": "https://tfcs.baruch.cuny.edu/certainty-and-uncertainty/",
+      "title": "Certainty and Uncertainty",
+      "publisher": "Baruch College, City University of New York, Tools for Clear Speech",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:55.861Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Practice 이전의 하강·상승 억양 및 Geon 예제 해설",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "직접 fetch한 공개 영어 교육 본문을 요약. 녹음 미청취·재사용 권리 미확인.",
+        "attribution": "Baruch College, Tools for Clear Speech. 개인 저자·라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "netflix-dub",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/10258693072403-Dubbing-Creative-Guidelines-Films-Series",
+      "title": "Dubbing Creative Guidelines - Films & Series",
+      "publisher": "Netflix, Partner Help Center",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:56.384Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "TRANSLATION/ADAPTATION: Colloquialisms, Lip Sync & Intent; VOICE CASTING & PERFORMANCE: Pronunciation & Delivery; EDITING: Off-screen dialogue",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Netflix 영화·시리즈 더빙 지침에 한정한 요약이다. 지침 열람은 원본 영상·대사 스템 사용이나 재배포 허락이 아니다. 파일 취득·납품 작업 없음.",
+        "attribution": "Netflix, Partner Help Center. 개인 저자·본문 및 미디어 재사용 조건 미확인."
+      }
+    },
+    {
+      "source_id": "ms-viseme",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-speech-synthesis-viseme",
+      "title": "Get facial position with viseme - Foundry Tools | Microsoft Learn",
+      "publisher": "Microsoft",
+      "authors": [
+        "PatrickFarley"
+      ],
+      "checked_at": "2026-10-30T04:53:56.849Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 viseme 정의; Viseme ID; Map phonemes to visemes",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 문서의 개념과 타이밍 정의만 요약. 코드 복사·SDK 실행·서비스 호출·음성 생성 없음. 그림·영상·아바타 및 본문 재배포 조건 미확인.",
+        "attribution": "Microsoft Learn; 문서 메타데이터 author: PatrickFarley. 별도 재사용 조건 미확인."
+      }
+    },
+    {
+      "source_id": "rsc-voice",
+      "url": "https://www.rsc.org.uk/about-us/how-we-make-theatre/voice",
+      "title": "Voice coaching for actors",
+      "publisher": "Royal Shakespeare Company",
+      "authors": [],
+      "checked_at": "2026-10-30T04:53:58.456Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입부 rehearsal 설명; We work with the body 문단; Vocal warm-ups 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "극단 자체 제작 과정의 설명만 요약. 사진은 별도 라이선스 경로가 표시되어 있으며 여기서 사용 허락을 취득하지 않았다.",
+        "attribution": "Royal Shakespeare Company. 사진 크레딧: Ellie Kurttz; 사진 미취득. 본문 재사용 조건 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "dialogue-subtext-objective",
+      "title_ko": "대사 속 숨은 의도 찾기",
+      "subtype": "의도·서브텍스트",
+      "summary": "NYFA는 발화된 말과 그 밑의 의도를 구별하는 연기 접근을 설명한다.",
+      "facts": [
+        {
+          "field": "정의",
+          "value": "서브텍스트는 대사 아래 전달되는 메시지다.",
+          "evidence": {
+            "source_id": "nyfa-subtext",
+            "locator": "What is Subtext?, 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "분석_단서",
+          "value": "인물의 목표와 장애물을 먼저 검토한다.",
+          "evidence": {
+            "source_id": "nyfa-subtext",
+            "locator": "Finding the Meaning of the Subtext, 첫째·둘째 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "연기_대상",
+          "value": "예제 해설은 감정 자체보다 행동을 연기하라고 조언한다.",
+          "evidence": {
+            "source_id": "nyfa-subtext",
+            "locator": "Examples of Subtext, An actor could decide 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "의도",
+        "서브텍스트",
+        "대사분석"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "pause-for-emphasis",
+      "title_ko": "쉼을 이용한 강조",
+      "subtype": "강세·쉼",
+      "summary": "Toastmasters의 Schwartzberg는 핵심 생각 앞의 의도적인 침묵을 강조 수단으로 제시한다.",
+      "facts": [
+        {
+          "field": "배치",
+          "value": "중요한 요점 앞에 쉼을 배치한다.",
+          "evidence": {
+            "source_id": "tm-pauses",
+            "locator": "5 Pausing puts power behind key ideas",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "대비",
+          "value": "침묵과 이어지는 소리의 결합으로 주의를 끄는 방식이다.",
+          "evidence": {
+            "source_id": "tm-pauses",
+            "locator": "5, classical song 비교 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사용_조건",
+          "value": "무작위가 아니라 중요한 생각을 골라 사용하라고 조언한다.",
+          "evidence": {
+            "source_id": "tm-pauses",
+            "locator": "5, Use it deliberately 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "강조",
+        "쉼"
+      ],
+      "existing_entry_id": "FS2-speech-004",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "breath-during-speaking-pause",
+      "title_ko": "자연스러운 호흡",
+      "subtype": "속도·호흡",
+      "summary": "Schwartzberg의 발표 조언 중 쉼에서 호흡할 기회를 확보하는 부분을 보강한다.",
+      "facts": [
+        {
+          "field": "호흡_기회",
+          "value": "말하는 중 쉼이 숨을 들이쉴 시간을 제공한다.",
+          "evidence": {
+            "source_id": "tm-pauses",
+            "locator": "7 Pausing lets you breathe",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발화_상태",
+          "value": "흥분하거나 긴장하면 말하다 숨이 부족해지기 쉽다고 설명한다.",
+          "evidence": {
+            "source_id": "tm-pauses",
+            "locator": "7, 첫째·둘째 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "저자_호흡_조언",
+          "value": "입을 닫고 코로 가능한 조용히 호흡하라고 제안한다.",
+          "evidence": {
+            "source_id": "tm-pauses",
+            "locator": "7, Just keep your mouth closed 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "호흡",
+        "쉼",
+        "발표조언"
+      ],
+      "existing_entry_id": "FS2-speech-005",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-focus-word-prominence",
+      "title_ko": "영어 의미 단위의 중심 강세",
+      "subtype": "강세·쉼",
+      "summary": "Baruch의 영어 수업은 의미 단위에서 가장 두드러지는 단어를 focus word로 설명한다.",
+      "facts": [
+        {
+          "field": "정의",
+          "value": "focus word는 의미 단위에서 가장 큰 강세를 받는 단어다.",
+          "evidence": {
+            "source_id": "cuny-focus",
+            "locator": "본문 첫 문단, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "일반적_위치",
+          "value": "대체로 의미 단위의 마지막 중요한 내용어가 해당한다.",
+          "evidence": {
+            "source_id": "cuny-focus",
+            "locator": "본문 첫 문단, last important word 및 content word",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문맥_변동",
+          "value": "화자의 의미와 기분에 따라 선택이 바뀔 수 있다.",
+          "evidence": {
+            "source_id": "cuny-focus",
+            "locator": "본문 첫 문단, meaning and mood",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "강세",
+        "의미단위"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-thought-group-phrasing",
+      "title_ko": "영어 의미 단위 나누기",
+      "subtype": "강세·쉼",
+      "summary": "Baruch는 문장을 의미 묶음으로 구성하는 영어 발화 방식을 가르친다.",
+      "facts": [
+        {
+          "field": "구성_단위",
+          "value": "하나의 생각을 이루는 단어들을 묶어 발화를 조직한다.",
+          "evidence": {
+            "source_id": "cuny-thought",
+            "locator": "본문 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문장부호_관계",
+          "value": "의미 단위 경계가 항상 문장부호와 일치하지는 않는다.",
+          "evidence": {
+            "source_id": "cuny-thought",
+            "locator": "It may not be easy 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "의미_변화",
+          "value": "같은 문장도 묶음 구분에 따라 의미가 달라질 수 있다.",
+          "evidence": {
+            "source_id": "cuny-thought",
+            "locator": "Finally, keep in mind 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "프레이징",
+        "쉼"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "speaking-rate-context-and-calculation",
+      "title_ko": "발화 속도의 문맥과 계산",
+      "subtype": "속도·호흡",
+      "summary": "Baruch의 영어 교육은 빠르기 자체보다 이해 가능성과 상황을 기준으로 속도를 다룬다.",
+      "facts": [
+        {
+          "field": "명료도_조건",
+          "value": "너무 빠르거나 너무 느린 발화 모두 이해 가능성에 불리할 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "cuny-rate",
+            "locator": "What is an effective speaking rate?, 첫 두 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "상황_차이",
+          "value": "발표와 일상 대화 등 발화 유형·상황에 따라 속도가 달라진다.",
+          "evidence": {
+            "source_id": "cuny-rate",
+            "locator": "What factors affect speaking rate?, 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "계산_정의",
+          "value": "분당 단어 수는 단어 수를 분 단위 시간으로 나눈 값이다. 본 배치에서 측정하지 않았다.",
+          "evidence": {
+            "source_id": "cuny-rate",
+            "locator": "How can I figure out my average speaking rate?, formula 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "속도",
+        "영어교육",
+        "명료도"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "clarification-request-intonation",
+      "title_ko": "못 들은 말을 되묻기",
+      "subtype": "의도·서브텍스트",
+      "summary": "기존 되묻기 개념에 Baruch의 영어 재확인 억양 설명을 추가한다. 한국어 대사의 실연 근거는 아니다.",
+      "facts": [
+        {
+          "field": "영어_재확인_억양",
+          "value": "재확인 요청은 보통 구 끝에서 음높이가 오른다.",
+          "evidence": {
+            "source_id": "cuny-clarification",
+            "locator": "도입 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "재확인_이유",
+          "value": "못 들었거나 내용을 믿기 어려워 같은 정보를 반복해 달라고 할 수 있다.",
+          "evidence": {
+            "source_id": "cuny-clarification",
+            "locator": "The rising pitch is a signal 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "새_정보와의_구별",
+          "value": "영어 wh 질문에서 하강 억양은 추가 정보 요청과 대비된다.",
+          "evidence": {
+            "source_id": "cuny-clarification",
+            "locator": "Practice 2, Remember 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "되묻기",
+        "영어",
+        "억양"
+      ],
+      "existing_entry_id": "CRAFT-speech-5997ea7aa83f",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-yes-no-question-intonation",
+      "title_ko": "영어 예·아니요 질문의 억양",
+      "subtype": "의도·서브텍스트",
+      "summary": "Baruch는 응답을 구하는 질문과 수사적 질문의 영어 억양을 구분한다.",
+      "facts": [
+        {
+          "field": "응답_형식",
+          "value": "yes/no 질문은 예 또는 아니요 응답을 유도한다.",
+          "evidence": {
+            "source_id": "cuny-yesno",
+            "locator": "본문 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "일반적_억양",
+          "value": "대부분의 경우 상승 억양을 사용한다.",
+          "evidence": {
+            "source_id": "cuny-yesno",
+            "locator": "In most cases 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "수사적_예외",
+          "value": "답 대신 요점을 전달하는 수사적 질문은 상승 또는 하강 억양이 가능하다.",
+          "evidence": {
+            "source_id": "cuny-yesno",
+            "locator": "One notable exception 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "질문",
+        "수사적질문"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-contrastive-stress",
+      "title_ko": "영어 대조 강세",
+      "subtype": "강세·쉼",
+      "summary": "Baruch는 비교·정정에서 서로 다른 정보를 강세로 구별하는 법을 설명한다.",
+      "facts": [
+        {
+          "field": "기능",
+          "value": "비교하거나 대조하는 두 대상의 차이를 강세로 부각한다.",
+          "evidence": {
+            "source_id": "cuny-contrast",
+            "locator": "도입 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정정_대상",
+          "value": "상대의 기존 생각을 바로잡는 정보에 추가 강세를 줄 수 있다.",
+          "evidence": {
+            "source_id": "cuny-contrast",
+            "locator": "첫 예제 뒤 In the second example 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "적용_범위",
+          "value": "한 문장 내부와 화자 사이 대화 모두에서 나타날 수 있다.",
+          "evidence": {
+            "source_id": "cuny-contrast",
+            "locator": "Contrastive stress can occur 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "대조",
+        "정정"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "number-pronunciation-english-stress",
+      "title_ko": "고유명사와 숫자 발음",
+      "subtype": "입모양·발화 조건",
+      "summary": "기존 항목의 숫자 부분만 Baruch의 영어 강세 수업으로 보강한다. 고유명사 읽기는 미확인이다.",
+      "facts": [
+        {
+          "field": "teen_숫자",
+          "value": "수업은 13~19의 teen 숫자에서 두 음절을 모두 강세 처리하라고 설명한다.",
+          "evidence": {
+            "source_id": "cuny-numbers",
+            "locator": "첫 Click to learn the rule 답변",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "십단위_숫자",
+          "value": "ten 계열 숫자는 첫 음절에 강세를 둔다고 설명한다.",
+          "evidence": {
+            "source_id": "cuny-numbers",
+            "locator": "둘째 Click to learn the rule 답변",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "구말_조건",
+          "value": "구나 문장 끝의 teen 숫자는 둘째 음절에 강세를 둔다고 설명한다.",
+          "evidence": {
+            "source_id": "cuny-numbers",
+            "locator": "셋째 Click to learn the rule 답변",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "숫자",
+        "발음"
+      ],
+      "existing_entry_id": "CRAFT-speech-14dd6c2f5809",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-consonant-vowel-linking",
+      "title_ko": "영어 자음·모음 연결 발음",
+      "subtype": "입모양·발화 조건",
+      "summary": "Baruch는 단어 경계를 넘는 영어 연결 발음을 철자와 구별한다.",
+      "facts": [
+        {
+          "field": "연결_조건",
+          "value": "끝소리가 자음인 단어 뒤에 모음으로 시작하는 단어가 오면 소리를 연결한다.",
+          "evidence": {
+            "source_id": "cuny-linking",
+            "locator": "When a word that ends 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "철자와_소리",
+          "value": "연결 기준은 철자가 아니라 발음되는 소리다.",
+          "evidence": {
+            "source_id": "cuny-linking",
+            "locator": "Keep in mind that the sound 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "음절_구조",
+          "value": "단어 사이 연결로 새로운 음절 구조가 생긴다고 설명한다.",
+          "evidence": {
+            "source_id": "cuny-linking",
+            "locator": "When a word that ends 문단, new syllable structure",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "연음",
+        "발화조건"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-connected-speech-palatalization",
+      "title_ko": "영어 연결 발화의 구개음화",
+      "subtype": "입모양·발화 조건",
+      "summary": "Baruch는 연속된 영어 소리가 닮아가거나 결합하는 동화의 사례로 구개음화를 설명한다.",
+      "facts": [
+        {
+          "field": "동화_정의",
+          "value": "소리 둘을 연속해 발음하며 서로 더 비슷해지는 현상이다.",
+          "evidence": {
+            "source_id": "cuny-assimilation",
+            "locator": "본문 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "유성_사례",
+          "value": "수업 표기에서 /d/와 /y/의 결합은 /dʒ/가 된다.",
+          "evidence": {
+            "source_id": "cuny-assimilation",
+            "locator": "첫 palatalization 규칙 목록",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "무성_사례",
+          "value": "수업 표기에서 /t/와 /y/의 결합은 /tʃ/가 된다.",
+          "evidence": {
+            "source_id": "cuny-assimilation",
+            "locator": "Practice 1 뒤 voiceless counterparts 규칙 목록",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "구개음화",
+        "동화"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-sarcastic-intonation",
+      "title_ko": "영어 반어적 말투",
+      "subtype": "의도·서브텍스트",
+      "summary": "Baruch는 표면 발언과 반대되는 뜻을 전하는 영어 반어의 억양과 문맥을 설명한다.",
+      "facts": [
+        {
+          "field": "의미_관계",
+          "value": "말한 내용과 실제 뜻이 반대인 verbal irony로 정의한다.",
+          "evidence": {
+            "source_id": "cuny-sarcasm",
+            "locator": "본문 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "예제_억양",
+          "value": "반어 예제는 올라갔다 내려가는 억양으로 해설된다. 직접 청취한 관찰은 아니다.",
+          "evidence": {
+            "source_id": "cuny-sarcasm",
+            "locator": "Sarcasm 예제, Notice the up-and-down intonation 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문맥_조건",
+          "value": "반어를 해석할 때 문맥이 매우 중요하다고 명시한다.",
+          "evidence": {
+            "source_id": "cuny-sarcasm",
+            "locator": "Sarcasm 예제, Context is very important 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "반어",
+        "서브텍스트"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "english-certainty-uncertainty-intonation",
+      "title_ko": "영어 확신과 불확실성의 억양",
+      "subtype": "의도·서브텍스트",
+      "summary": "Baruch는 영어 발화에서 확신·불확실성·놀람을 구분하는 억양 단서를 설명한다.",
+      "facts": [
+        {
+          "field": "하강_기능",
+          "value": "중심 단어의 하강 억양은 생각의 마무리나 확신을 표현한다.",
+          "evidence": {
+            "source_id": "cuny-certainty",
+            "locator": "본문 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "상승_기능",
+          "value": "구 끝의 상승은 불확실성·놀람·확인 욕구를 전할 수 있다.",
+          "evidence": {
+            "source_id": "cuny-certainty",
+            "locator": "On the other hand 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "해석_조건",
+          "value": "화자의 내적 반응을 해석할 때 상황 문맥이 단서가 된다.",
+          "evidence": {
+            "source_id": "cuny-certainty",
+            "locator": "In the example above 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "영어",
+        "확신",
+        "억양"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "dialogue-localization-intent",
+      "title_ko": "언어별 대사 각색",
+      "subtype": "의도·서브텍스트",
+      "summary": "Netflix 영화·시리즈 지침의 대사 각색 원칙으로 기존 개념을 보강한다.",
+      "facts": [
+        {
+          "field": "우선순위",
+          "value": "완벽한 립싱크와 충돌하면 원대사 의도를 우선하도록 한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "TRANSLATION/ADAPTATION > Lip Sync & Intent",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "예외_조건",
+          "value": "지정된 Key Moments에서는 립싱크를 타협하지 않도록 한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "TRANSLATION/ADAPTATION > Lip Sync & Intent, However 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "구어체_조건",
+          "value": "시대극이나 원문의 특수한 말씨가 아니라면 내용에 맞는 구어체를 권장한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "TRANSLATION/ADAPTATION > Colloquialisms",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "현지화",
+        "의도",
+        "Netflix지침"
+      ],
+      "existing_entry_id": "FS2-speech-006",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "offscreen-dialogue-timing",
+      "title_ko": "화면 밖 대사와 반응 컷",
+      "subtype": "입모양·발화 조건",
+      "summary": "기존 화면 밖 발화 항목에 Netflix의 더빙 편집 조건을 보강한다. 반응 컷 시청은 하지 않았다.",
+      "facts": [
+        {
+          "field": "대상_조건",
+          "value": "화면 밖에서 들리는 대사를 대상으로 한 지침이다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "EDITING > Off-screen dialogue, 첫 구절",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시간_참조",
+          "value": "원본과 더빙의 파형을 맞추도록 권장한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "EDITING > Off-screen dialogue, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "음향_여백",
+          "value": "음악·효과음이 이야기 역할을 할 여지를 남기도록 한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "EDITING > Off-screen dialogue, 둘째 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "화면밖발화",
+        "더빙",
+        "발화조건"
+      ],
+      "existing_entry_id": "CRAFT-speech-1b8a340c91dd",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "contextual-dialogue-enunciation",
+      "title_ko": "장면 조건에 맞춘 발음 명료도",
+      "subtype": "입모양·발화 조건",
+      "summary": "Netflix는 발음 명료도를 유지하되 장면의 연기 강도를 희생하지 않도록 안내한다.",
+      "facts": [
+        {
+          "field": "긴박한_장면",
+          "value": "액션·강렬한 장면에서는 완벽하지 않은 조음을 허용한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "VOICE CASTING & PERFORMANCE > Pronunciation & Delivery, 첫 항목",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "친밀한_장면",
+          "value": "조용하고 친밀한 장면에서는 억제된 발성을 허용한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "Pronunciation & Delivery, muted projection 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "연기_기준",
+          "value": "자연스러운 발음과 화면 배우의 연기에 맞는 전달을 요구한다.",
+          "evidence": {
+            "source_id": "netflix-dub",
+            "locator": "Pronunciation & Delivery, Pronunciation should be as natural 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "발음",
+        "장면조건",
+        "더빙"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "viseme-phoneme-visual-grouping",
+      "title_ko": "음소와 시각적 입모양의 대응",
+      "subtype": "입모양·발화 조건",
+      "summary": "Microsoft는 비짐을 음소의 시각적 표현으로 설명하며 일대일 대응이 아님을 명시한다.",
+      "facts": [
+        {
+          "field": "정의",
+          "value": "비짐은 말할 때 음소를 나타내는 얼굴·입 위치의 시각적 표현이다.",
+          "evidence": {
+            "source_id": "ms-viseme",
+            "locator": "도입 A viseme is 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "다대일_대응",
+          "value": "s와 z처럼 여러 음소가 같은 비짐에 대응할 수 있다.",
+          "evidence": {
+            "source_id": "ms-viseme",
+            "locator": "Viseme ID, There's no one-to-one correspondence 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "언어_조건",
+          "value": "비짐 집합은 언어와 로캘에 따라 달라진다.",
+          "evidence": {
+            "source_id": "ms-viseme",
+            "locator": "Map phonemes to visemes, 첫 두 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "립싱크",
+        "비짐",
+        "음소"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "viseme-onset-audio-offset",
+      "title_ko": "비짐 시작과 음성 시간 오프셋",
+      "subtype": "입모양·발화 조건",
+      "summary": "Microsoft의 합성 음성 문서는 입모양 식별자와 시작 시각을 별도로 제공한다고 설명한다.",
+      "facts": [
+        {
+          "field": "식별자",
+          "value": "비짐 ID는 입모양을 지정하는 정수다.",
+          "evidence": {
+            "source_id": "ms-viseme",
+            "locator": "Viseme ID, 첫 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "음성_시간_연결",
+          "value": "음성 출력에는 비짐 ID와 Audio offset이 함께 제공될 수 있다.",
+          "evidence": {
+            "source_id": "ms-viseme",
+            "locator": "Viseme ID, Speech audio output 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시작시각_단위",
+          "value": "Audio offset은 비짐 시작 시각을 100나노초 tick 단위로 나타낸다. 수집자가 측정한 값은 아니다.",
+          "evidence": {
+            "source_id": "ms-viseme",
+            "locator": "Viseme ID, The Audio offset indicates 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "립싱크",
+        "비짐",
+        "시간정렬"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "performance-vocal-preparation",
+      "title_ko": "공연 전 발성 준비",
+      "subtype": "속도·호흡",
+      "summary": "RSC는 몸·호흡·텍스트를 연결하는 자체 리허설과 공연 전 준비 과정을 설명한다.",
+      "facts": [
+        {
+          "field": "리허설_초점",
+          "value": "언어의 소리와 리듬 역학을 탐구한다.",
+          "evidence": {
+            "source_id": "rsc-voice",
+            "locator": "도입부 In rehearsal 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "훈련_범위",
+          "value": "몸과 목소리를 함께 다루며 발성·호흡 지구력과 유연성 등을 기른다.",
+          "evidence": {
+            "source_id": "rsc-voice",
+            "locator": "We work with the body 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "실시_시점",
+          "value": "매 공연 전에 발성 워밍업을 하여 목소리 준비와 집중을 돕는다.",
+          "evidence": {
+            "source_id": "rsc-voice",
+            "locator": "Vocal warm-ups 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "호흡",
+        "발성준비",
+        "RSC"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "job_id": "expression-E01-moderate",
+  "status": "generated",
+  "generation_thread_id": "01a18d12-7ca7-7c90-8fe1-01cd0a78fb58",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d12-7ca7-7c90-8fe1-01cd0a78fb58",
+  "before_source_files": [],
+  "prompt": "FRAME authored synthetic reference. Job: expression-E01-moderate; concept: 눈썹 안쪽 상승 중.\nClass: base; domain: expression; entry: GEN-asset-expression-E01.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E01-subtle\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity anchor, actual accepted identity A\",\"expression-E01-subtle\":\"same-look and same-action subtle geometry reference\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted expression-E00 face as the actual identity input. Raise only the inner portions of both brows while keeping their outer endpoints near the E00 position. Use a clearly larger but still moderate departure than the accepted subtle image of this same action; no extreme distortion. Keep both eyes aimed at the lens, the hair tied back and the full crown, ears, chin and shoulders visible. These are authored relative intensities, not certified FACS grades or internal-emotion labels. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal controlled full face, head yaw pitch roll neutral. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Outer brows, eyelid opening, cheeks, lip corners and jaw remain at E00.; Keep E00 identity, skin marks, original eye and lip dimensions, hair, makeup and neutral head orientation.\nChange only: Raise only the inner portions of both brows while keeping their outer endpoints near the E00 position.; Larger action amplitude than the same-action subtle image, on the same face.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Inner brow elevation is visible; outer brow, lids and mouth remain near neutral.; Compare E00, subtle and moderate together; reject indistinguishable intensities and record unintended coupled actions.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nInput images: Image 1 is the same-look and same-action subtle geometry reference at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E01-subtle.png. Image 2 is the identity anchor, actual accepted identity A at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png. Preserve the identity anchor and use the subtle image only to judge the larger authored action amplitude.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E01-subtle.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "path": "public/generated/frame-assets/expression-E01-moderate.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d12-7ca7-7c90-8fe1-01cd0a78fb58/exec-f21d630f-ebbb-48e1-96cc-c17b8018c343.png",
+  "sha256": "5901ea9902f9245ea492f3b8d3f7818337972a339b154a6e5ce3ee1cd9638c80",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Inspected the actual full-resolution 1024x1536 image. Both inner brow portions are visibly elevated with outer ends comparatively close to E00; the mouth and cheeks appear neutral, eyes remain lens-directed, and the face, mole, hair, crop and studio setting appear consistent with the accepted identity anchor."
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "schema_version": 1,
+  "category_id": "sound",
+  "input_sha256": "b57233abf38f3b72525244a283fb5c0439225a66cc296ff2e68f918cbc3d3e2c",
+  "reviewer": "omo-independent-sound-reviewer-st_01a18b32",
+  "reviewed_at": "2026-10-30T05:08:18.965589+00:00",
+  "accepted_concept_keys": [
+    "diegetic-sound",
+    "non-diegetic-sound",
+    "isolated-sound-effects",
+    "specialty-sound-effects",
+    "environmental-ambience",
+    "glitch-sound-effects",
+    "foley-sound",
+    "j-cut-audio-lead",
+    "l-cut-audio-carryover",
+    "replacement-dialogue-roomtone-match",
+    "dialogue-priority-mix",
+    "reverberant-space-continuity",
+    "acoustic-echo",
+    "room-standing-waves",
+    "adsr-amplitude-envelope",
+    "subtractive-synthesis",
+    "bartok-snap-pizzicato",
+    "white-noise",
+    "pink-noise",
+    "brownian-noise"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "columbia-diegetic",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/diegetic-sound/",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Term: Diegetic Sound, definition paragraph; About > Copyrights and Permissions",
+      "rights_checked": true,
+      "notes": "Definition and examples match. About https://filmglossary.ccnmtl.columbia.edu/about/ explicitly limits authorized uses to education/scholarship; restricted retained, not a permission for FRAME_DB or clip reuse. Film distributor and commentary credit are not definition authorship. No playback."
+    },
+    {
+      "source_id": "columbia-nondiegetic",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/non-diegetic-sound/",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Term: Non-Diegetic Sound, definition paragraph; About > Copyrights and Permissions",
+      "rights_checked": true,
+      "notes": "Definition retains typically/usually qualifiers. https://filmglossary.ccnmtl.columbia.edu/about/ restricts other uses; metadata review does not authorize commercial text/media reproduction. Film distributor is distinct from university publisher. No playback."
+    },
+    {
+      "source_id": "adobe-sfx",
+      "url": "https://www.adobe.com/creativecloud/video/discover/sfx-for-video.html",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Types of sound effects, items 1–4; Other styles of sound effects > Glitch",
+      "rights_checked": true,
+      "notes": "Read all five relevant descriptions, including overlap between broad SFX categories and styles. Unknown reuse rights retained: library/royalty-free references do not license any particular file or article. No images/audio acquired or inspected."
+    },
+    {
+      "source_id": "adobe-cuts",
+      "url": "https://www.adobe.com/creativecloud/video/post-production/cuts-in-film",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "J cuts and L cuts using sound transition, paragraphs 1–3; How to use different types of cuts in film effectively > dialogue bullet",
+      "rights_checked": true,
+      "notes": "Read timing, track-shape naming, train example and dialogue recommendation. No measured emotional result asserted. Unknown article/example reuse rights retained; software marketing is not a media license. No video playback."
+    },
+    {
+      "source_id": "izotope-roomtone",
+      "url": "https://www.izotope.com/community/blog/basics-of-room-tone-audio-editing",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Title/byline/date; What is room tone?; Why is it important to consider room tone in music/dialogue editing?; How do you use room tone to your advantage?",
+      "rights_checked": true,
+      "notes": "Nick Messitte and Oct 13th 2021 verified. Natural noise definition, separate-session layering and two-room example read as author claims, not heard results. Unknown article and embedded audio rights retained; no SoundCloud/Spotify playback."
+    },
+    {
+      "source_id": "adobe-ducking",
+      "url": "https://helpx.adobe.com/lt/premiere-pro/how-to/automatic-audio-ducking.html",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "What you learned; Ducking settings; Generate keyframes; Adjust keyframes",
+      "rights_checked": true,
+      "notes": "Read English tutorial body at exact /lt/ URL. Keyframes and four controls are documented behavior, not an installed-version test. Unknown reuse rights retained; ZIP and video links do not authorize redistribution. Neither opened."
+    },
+    {
+      "source_id": "izotope-matching",
+      "url": "https://s3.amazonaws.com/izotopedownloads/docs/dialogue-match/en/matching-dialogue/index.html",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Overview; Creating a Match, steps 1–3; Match with a Dry Apply To Profile; footer",
+      "rights_checked": true,
+      "notes": "Read profile workflow and additive-only reverb limitation. Footer identifies iZotope, 2019, Dialogue Match 1.0.0; not a current availability claim. Unknown document/screenshot/audio reuse rights retained. No software execution or audio."
+    },
+    {
+      "source_id": "izotope-reverb",
+      "url": "https://s3.amazonaws.com/izotopedownloads/docs/dialogue-match/en/reverb/index.html",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Overview; Advanced View > Reverb parameters > Reverb Tail, Time row; footer",
+      "rights_checked": true,
+      "notes": "Read recreation of reference space and tail decay Time row, distinct from Early Reflections Time. Footer 2019/1.0.0 verified. Unknown reuse rights retained; no license to software or sample media inferred, no execution."
+    },
+    {
+      "source_id": "shure-recording",
+      "url": "https://www.shure.com/damfiles/default/global/documents/publications/en/performance-production/microphone_techniques_for_recording_english.pdf-bb0469316afdb6118691d2f3f5e3ff01.pdf",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Printed p.29 Reflection; p.34 Glossary > Echo; p.39 About the Authors; p.40 copyright",
+      "rights_checked": true,
+      "notes": "PDF body verifies both acoustic concepts and approximately 50 msec glossary claim. Author page lists Gino Sigismondi, Rick Waller, Tim Vear; footer ©2014 Shure. Free publication availability is not redistribution permission; unknown retained. No audio measurement."
+    },
+    {
+      "source_id": "ni-subtractive",
+      "url": "https://www.native-instruments.com/blogs/blog/subtractive-synthesis",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Header; What is subtractive synthesis? first two paragraphs; Envelopes > Attack, Decay, Sustain, Release",
+      "rights_checked": true,
+      "notes": "Read synthesis definition and four envelope sections. Visible header March 1, 2023/Native Instruments; publication chronology not independently established from structured data. Unknown article/diagram/music rights retained, no embedded music played or synthesis executed."
+    },
+    {
+      "source_id": "yamaha-bartok",
+      "url": "https://hub.yamaha.com/strings/s-how-to/eight-spooky-string-techniques/",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Byline/date; 2. THE BARTOK SNAP",
+      "rights_checked": true,
+      "notes": "Jenelle Spencer/October 20, 2025 and pluck-release/fingerboard description verified. Loudness is author wording, not reviewer listening or measured amplitude. Unknown article/photo/performance rights retained; linked video not opened."
+    },
+    {
+      "source_id": "audacity-noise",
+      "url": "https://www.audacityteam.org/manual/generators/noise/",
+      "checked_at": "2026-10-30T05:08:18.965589+00:00",
+      "access": "public_body",
+      "locator": "Generators > Noise introduction; Controls; Notes; Last updated and copyright footer",
+      "rights_checked": true,
+      "notes": "Read spectral distinctions, aliases and shared generator uses. Updated 29 October 2026; Muse Group & contributors footer verified. Software openness is not a document/audio license; unknown reuse retained. No generated audio, listening or measurement."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "diegetic-sound",
+      "field": "기원",
+      "source_id": "columbia-diegetic",
+      "locator": "정의 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "이야기 세계 기원 정의와 일치."
+    },
+    {
+      "concept_key": "diegetic-sound",
+      "field": "음성·사물 범위",
+      "source_id": "columbia-diegetic",
+      "locator": "정의 문단 두 번째 문장의 예시",
+      "verdict": "supported",
+      "notes": "등장인물 음성·사물 예시 모두 본문에 있다."
+    },
+    {
+      "concept_key": "diegetic-sound",
+      "field": "음악의 조건",
+      "source_id": "columbia-diegetic",
+      "locator": "정의 문단의 라디오·악기 예시",
+      "verdict": "supported",
+      "notes": "라디오·악기 음악 예시의 이야기 내부 조건 유지."
+    },
+    {
+      "concept_key": "non-diegetic-sound",
+      "field": "기원",
+      "source_id": "columbia-nondiegetic",
+      "locator": "정의 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "이야기 외부 기원 정의와 일치."
+    },
+    {
+      "concept_key": "non-diegetic-sound",
+      "field": "내레이션 관계",
+      "source_id": "columbia-nondiegetic",
+      "locator": "정의 문단 두 번째 문장",
+      "verdict": "supported",
+      "notes": "내레이션 설명의 통상 조건 유지."
+    },
+    {
+      "concept_key": "non-diegetic-sound",
+      "field": "음악 관계",
+      "source_id": "columbia-nondiegetic",
+      "locator": "정의 문단 마지막 문장; Usually 한정",
+      "verdict": "supported",
+      "notes": "음악에 대한 usually를 보통으로 한정했다."
+    },
+    {
+      "concept_key": "isolated-sound-effects",
+      "field": "대상",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 1",
+      "verdict": "supported",
+      "notes": "일상 소음 분류와 일치."
+    },
+    {
+      "concept_key": "isolated-sound-effects",
+      "field": "예시",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 1 예시",
+      "verdict": "supported",
+      "notes": "세 예시가 모두 열거된다."
+    },
+    {
+      "concept_key": "isolated-sound-effects",
+      "field": "조달 설명",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 1 라이브러리 설명",
+      "verdict": "supported",
+      "notes": "라이브러리에서 찾기 쉽다는 출처 주장; 실제 조달 아님."
+    },
+    {
+      "concept_key": "specialty-sound-effects",
+      "field": "제작 범위",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 2 첫 문장",
+      "verdict": "supported",
+      "notes": "작품별 신규 제작 정의와 일치."
+    },
+    {
+      "concept_key": "specialty-sound-effects",
+      "field": "주요 장르",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 2 장르 설명",
+      "verdict": "supported",
+      "notes": "판타지·SF 선호 설명과 일치."
+    },
+    {
+      "concept_key": "specialty-sound-effects",
+      "field": "가상 음원 예시",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 2 현실에 없는 소리 예시",
+      "verdict": "supported",
+      "notes": "용·광선검은 현실에 없는 음원 예시; 실제 청취 아님."
+    },
+    {
+      "concept_key": "environmental-ambience",
+      "field": "역할",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 4 첫 문장",
+      "verdict": "supported",
+      "notes": "환경 배경 소리 정의와 일치."
+    },
+    {
+      "concept_key": "environmental-ambience",
+      "field": "공간 차이",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 4 공간 예시",
+      "verdict": "supported",
+      "notes": "세 공간별 차이 예시와 일치."
+    },
+    {
+      "concept_key": "environmental-ambience",
+      "field": "부재의 효과",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 4 장면의 자연스러움 설명",
+      "verdict": "supported",
+      "notes": "부재 시 부자연스러울 위험이라는 출처 설명; 보장된 효과 아님."
+    },
+    {
+      "concept_key": "glitch-sound-effects",
+      "field": "모사 대상",
+      "source_id": "adobe-sfx",
+      "locator": "기타 스타일의 Glitch 항목 첫 절",
+      "verdict": "supported",
+      "notes": "기술 오작동 모사 정의와 일치."
+    },
+    {
+      "concept_key": "glitch-sound-effects",
+      "field": "시간적 단절 예시",
+      "source_id": "adobe-sfx",
+      "locator": "기타 스타일의 Glitch 항목 skipping 예시",
+      "verdict": "supported",
+      "notes": "레코드·CD 재생 튐 예시 확인."
+    },
+    {
+      "concept_key": "glitch-sound-effects",
+      "field": "표현 기능",
+      "source_id": "adobe-sfx",
+      "locator": "기타 스타일의 Glitch 항목 마지막 문장",
+      "verdict": "supported",
+      "notes": "손상·열화 느낌을 전달할 수 있다는 설명; 검사한 녹음 없음."
+    },
+    {
+      "concept_key": "foley-sound",
+      "field": "시간 관계",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 3 동기화 설명",
+      "verdict": "supported",
+      "notes": "화면 동작과 시간 맞춤 설명 확인."
+    },
+    {
+      "concept_key": "foley-sound",
+      "field": "녹음 예시",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 3 자갈 발걸음 예시",
+      "verdict": "supported",
+      "notes": "자갈 위 걷기를 재현하는 예시 확인."
+    },
+    {
+      "concept_key": "foley-sound",
+      "field": "명칭 유래",
+      "source_id": "adobe-sfx",
+      "locator": "소리 유형 번호 3 마지막 문장",
+      "verdict": "supported",
+      "notes": "초기 효과음 제작자 Jack Foley 명칭 유래 확인."
+    },
+    {
+      "concept_key": "j-cut-audio-lead",
+      "field": "시간 관계",
+      "source_id": "adobe-cuts",
+      "locator": "J/L 소리 전환 절의 세 번째 문단, J컷 정의",
+      "verdict": "supported",
+      "notes": "현재 화면에 다음 샷 소리가 선행하는 정의 확인."
+    },
+    {
+      "concept_key": "j-cut-audio-lead",
+      "field": "명칭 기준",
+      "source_id": "adobe-cuts",
+      "locator": "J/L 소리 전환 절의 세 번째 문단, 트랙 모양 설명",
+      "verdict": "supported",
+      "notes": "겹치는 트랙 모양에 따른 명칭 설명 확인."
+    },
+    {
+      "concept_key": "j-cut-audio-lead",
+      "field": "장면 연결 예시",
+      "source_id": "adobe-cuts",
+      "locator": "J/L 소리 전환 절의 두 번째 문단, 열차 예시",
+      "verdict": "supported",
+      "notes": "달리는 인물·열차 기적·열차 전환 예시 확인; 실제 클립 검사 아님."
+    },
+    {
+      "concept_key": "l-cut-audio-carryover",
+      "field": "시간 관계",
+      "source_id": "adobe-cuts",
+      "locator": "J/L 소리 전환 절의 세 번째 문단, L컷 정의",
+      "verdict": "supported",
+      "notes": "이전 샷 소리가 다음 샷에 남는 정의 확인."
+    },
+    {
+      "concept_key": "l-cut-audio-carryover",
+      "field": "명칭 기준",
+      "source_id": "adobe-cuts",
+      "locator": "J/L 소리 전환 절의 세 번째 문단, 공통 명칭 설명",
+      "verdict": "supported",
+      "notes": "J/L 공통 트랙 모양 명칭 근거 확인."
+    },
+    {
+      "concept_key": "l-cut-audio-carryover",
+      "field": "대화 적용",
+      "source_id": "adobe-cuts",
+      "locator": "효과적 컷 사용 절의 대화용 J/L컷 항목",
+      "verdict": "supported",
+      "notes": "대화에 J/L 오디오 겹침을 권하는 항목 확인; 감정 효과 측정 아님."
+    },
+    {
+      "concept_key": "replacement-dialogue-roomtone-match",
+      "field": "환경 구성",
+      "source_id": "izotope-roomtone",
+      "locator": "What is room tone? 첫 두 문단",
+      "verdict": "supported",
+      "notes": "재료와 기존 배경 소음에 따른 자연 소음 정의 확인."
+    },
+    {
+      "concept_key": "replacement-dialogue-roomtone-match",
+      "field": "편집 문제",
+      "source_id": "izotope-roomtone",
+      "locator": "Why is it important to consider room tone in music/dialogue editing? 첫 설명 문단",
+      "verdict": "supported",
+      "notes": "갑작스러운 룸톤 부재가 편집을 드러낸다는 저자 설명."
+    },
+    {
+      "concept_key": "replacement-dialogue-roomtone-match",
+      "field": "매칭 방법",
+      "source_id": "izotope-roomtone",
+      "locator": "What is room tone? 마지막 문단 및 다음 절의 룸톤 레이어 설명",
+      "verdict": "supported",
+      "notes": "원래 장소 룸톤으로 별도 세션을 맞추는 두 절의 설명 확인; 음원 미청취."
+    },
+    {
+      "concept_key": "dialogue-priority-mix",
+      "field": "기능",
+      "source_id": "adobe-ducking",
+      "locator": "What you learned 설명과 Generate keyframes",
+      "verdict": "supported",
+      "notes": "대사 중 음악을 낮추는 자동 키프레임 설명 확인."
+    },
+    {
+      "concept_key": "dialogue-priority-mix",
+      "field": "감쇠 조건",
+      "source_id": "adobe-ducking",
+      "locator": "Ducking settings의 첫 세 항목",
+      "verdict": "supported",
+      "notes": "유발 종류·민감도·감쇠량 세 설정 확인."
+    },
+    {
+      "concept_key": "dialogue-priority-mix",
+      "field": "시간 변화",
+      "source_id": "adobe-ducking",
+      "locator": "Ducking settings의 마지막 항목 및 Adjust keyframes 첫 문장",
+      "verdict": "supported",
+      "notes": "페이드 길이와 수동 키프레임 조정 설명 확인; 실행 검증 아님."
+    },
+    {
+      "concept_key": "reverberant-space-continuity",
+      "field": "매칭 기준",
+      "source_id": "izotope-matching",
+      "locator": "Creating a Match 단계 1~3",
+      "verdict": "supported",
+      "notes": "두 프로파일의 EQ·잔향·환경음 학습 및 적용 단계 확인."
+    },
+    {
+      "concept_key": "reverberant-space-continuity",
+      "field": "적용 한계",
+      "source_id": "izotope-matching",
+      "locator": "Match with a Dry Apply To Profile",
+      "verdict": "supported",
+      "notes": "건조한 대상과 잔향 기준 권장, 잔향 추가만 가능하다는 제한 확인."
+    },
+    {
+      "concept_key": "reverberant-space-continuity",
+      "field": "감쇠 시간 조절",
+      "source_id": "izotope-reverb",
+      "locator": "Advanced View > Reverb parameters > Reverb Tail 표의 Time 행",
+      "verdict": "supported",
+      "notes": "Reverb Tail Time 행의 감쇠 시간·밀리초 확인; 실제 측정 아님."
+    },
+    {
+      "concept_key": "acoustic-echo",
+      "field": "발생 원인",
+      "source_id": "shure-recording",
+      "locator": "인쇄 p.29 Sound Transmission > Reflection의 Echo 문단",
+      "verdict": "supported",
+      "notes": "먼 반사면이 간접음을 지연한다는 p.29 설명."
+    },
+    {
+      "concept_key": "acoustic-echo",
+      "field": "시간적 지각",
+      "source_id": "shure-recording",
+      "locator": "인쇄 p.29 Echo 정의 마지막 절",
+      "verdict": "supported",
+      "notes": "직접음의 뚜렷한 반복으로 지각된다는 p.29 설명."
+    },
+    {
+      "concept_key": "acoustic-echo",
+      "field": "문서의 지연 설명",
+      "source_id": "shure-recording",
+      "locator": "인쇄 p.34 Glossary > Echo; about 한정 유지",
+      "verdict": "supported",
+      "notes": "p.34의 약 50 msec 초과 한정을 유지한 출처 수치; 직접 측정 아님."
+    },
+    {
+      "concept_key": "room-standing-waves",
+      "field": "공간 조건",
+      "source_id": "shure-recording",
+      "locator": "인쇄 p.29 Reflection의 Standing waves 첫 문장",
+      "verdict": "supported",
+      "notes": "평행 벽 간 거리와 특정 주파수 관계가 p.29에 있다."
+    },
+    {
+      "concept_key": "room-standing-waves",
+      "field": "보강 관계",
+      "source_id": "shure-recording",
+      "locator": "인쇄 p.29 Standing waves 두 번째 문장",
+      "verdict": "supported",
+      "notes": "원음·반사음 보강 설명 확인; 보편적 정량 모델로 확대하지 않음."
+    },
+    {
+      "concept_key": "room-standing-waves",
+      "field": "주파수 경향",
+      "source_id": "shure-recording",
+      "locator": "인쇄 p.29 Standing waves 마지막 문장",
+      "verdict": "supported",
+      "notes": "긴 파장·흡수 어려움으로 저역에 통상 발생한다는 출처 설명."
+    },
+    {
+      "concept_key": "adsr-amplitude-envelope",
+      "field": "어택",
+      "source_id": "ni-subtractive",
+      "locator": "Envelopes > Attack 문단",
+      "verdict": "supported",
+      "notes": "무음부터 초기 최고치까지 시간과 긴 어택의 완만함 확인."
+    },
+    {
+      "concept_key": "adsr-amplitude-envelope",
+      "field": "디케이",
+      "source_id": "ni-subtractive",
+      "locator": "Envelopes > Decay 문단",
+      "verdict": "supported",
+      "notes": "초기 최고치 이후 감소 속도 설명 확인."
+    },
+    {
+      "concept_key": "adsr-amplitude-envelope",
+      "field": "서스테인",
+      "source_id": "ni-subtractive",
+      "locator": "Envelopes > Sustain 문단",
+      "verdict": "supported",
+      "notes": "시간 아닌 유지 음량이며 문서가 dB로 설명함을 확인."
+    },
+    {
+      "concept_key": "adsr-amplitude-envelope",
+      "field": "릴리스",
+      "source_id": "ni-subtractive",
+      "locator": "Envelopes > Release 문단",
+      "verdict": "supported",
+      "notes": "건반을 놓은 뒤 지속 시간 설명 확인."
+    },
+    {
+      "concept_key": "subtractive-synthesis",
+      "field": "음원",
+      "source_id": "ni-subtractive",
+      "locator": "What is subtractive synthesis? 첫 문단",
+      "verdict": "supported",
+      "notes": "오실레이터의 풍부한 파형 생성 설명 확인."
+    },
+    {
+      "concept_key": "subtractive-synthesis",
+      "field": "음색 구성",
+      "source_id": "ni-subtractive",
+      "locator": "What is subtractive synthesis? 첫 문단의 구성 요소",
+      "verdict": "supported",
+      "notes": "필터·엔벌로프를 통한 파형 성형 설명 확인."
+    },
+    {
+      "concept_key": "subtractive-synthesis",
+      "field": "시간 변화",
+      "source_id": "ni-subtractive",
+      "locator": "What is subtractive synthesis? 두 번째 문단",
+      "verdict": "supported",
+      "notes": "주파수·진폭을 시간에 따라 다듬는 정의 확인."
+    },
+    {
+      "concept_key": "bartok-snap-pizzicato",
+      "field": "주법 계열",
+      "source_id": "yamaha-bartok",
+      "locator": "번호 2 THE BARTOK SNAP 첫 절",
+      "verdict": "supported",
+      "notes": "본문이 피치카토 종류로 분류."
+    },
+    {
+      "concept_key": "bartok-snap-pizzicato",
+      "field": "발음 과정",
+      "source_id": "yamaha-bartok",
+      "locator": "번호 2 첫 문장의 plucking 및 fingerboard 설명",
+      "verdict": "supported",
+      "notes": "강한 뜯기·놓기·지판 충돌 과정 확인."
+    },
+    {
+      "concept_key": "bartok-snap-pizzicato",
+      "field": "강도 설명",
+      "source_id": "yamaha-bartok",
+      "locator": "번호 2 첫 문장의 loud 표현; 청취 관찰 아님",
+      "verdict": "supported",
+      "notes": "큰 소리라는 저자의 서술만 채택; 청취 관찰 아님."
+    },
+    {
+      "concept_key": "white-noise",
+      "field": "주파수 분포",
+      "source_id": "audacity-noise",
+      "locator": "Notes의 White noise 문장",
+      "verdict": "supported",
+      "notes": "Notes의 주파수별 같은 전력 설명."
+    },
+    {
+      "concept_key": "white-noise",
+      "field": "음색 설명",
+      "source_id": "audacity-noise",
+      "locator": "Notes의 White noise 음색 설명",
+      "verdict": "supported",
+      "notes": "Notes의 밝고 쉭쉭거리는 서술; 청취 관찰 아님."
+    },
+    {
+      "concept_key": "white-noise",
+      "field": "기능",
+      "source_id": "audacity-noise",
+      "locator": "Noise 제목 아래 소개 문단의 용도 목록",
+      "verdict": "supported",
+      "notes": "도입부의 공통 노이즈 용도 확인; 화이트만의 배타적 기능 아님."
+    },
+    {
+      "concept_key": "pink-noise",
+      "field": "주파수 분포",
+      "source_id": "audacity-noise",
+      "locator": "Notes의 Pink noise 문장",
+      "verdict": "supported",
+      "notes": "Notes의 옥타브당 같은 전력 설명."
+    },
+    {
+      "concept_key": "pink-noise",
+      "field": "음색 설명",
+      "source_id": "audacity-noise",
+      "locator": "Notes의 Pink noise 음색 설명",
+      "verdict": "supported",
+      "notes": "더 균형 있는 소리라는 출처 묘사; 청취 관찰 아님."
+    },
+    {
+      "concept_key": "pink-noise",
+      "field": "효과음 재료",
+      "source_id": "audacity-noise",
+      "locator": "Noise 제목 아래 소개 문단; 핑크만의 배타적 용도는 아님",
+      "verdict": "supported",
+      "notes": "도입부의 타악기·바람·바다 용도; 핑크만의 배타적 기능 아님."
+    },
+    {
+      "concept_key": "brownian-noise",
+      "field": "다른 이름",
+      "source_id": "audacity-noise",
+      "locator": "Notes의 Brownian noise 별칭",
+      "verdict": "supported",
+      "notes": "Notes의 red/brown 별칭 확인."
+    },
+    {
+      "concept_key": "brownian-noise",
+      "field": "주파수 분포",
+      "source_id": "audacity-noise",
+      "locator": "Notes의 Brownian noise 롤오프 비교",
+      "verdict": "supported",
+      "notes": "세 종류 비교에서 고역 감쇠가 가장 빠르다는 문맥 유지."
+    },
+    {
+      "concept_key": "brownian-noise",
+      "field": "음색 설명",
+      "source_id": "audacity-noise",
+      "locator": "Notes의 Brownian noise 마지막 음색 설명",
+      "verdict": "supported",
+      "notes": "깊은 저역 울림이라는 출처 묘사; 청취 관찰 아님."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": "20개 개념·61개 source_claim 사실 채택, 거절 0. 12개 실제 1차 본문과 Columbia 별도 권리 안내를 재열람했다. 기존 sound 28개와 대조하여 명시된 5개 ID는 각각 유일한 동일 개념이며 보강 대상, 나머지 15개는 일반 분류·주법·합성·음향 개념이다. 일반 앰비언스와 특정 카페/비 장면, 일반 폴리와 특정 발걸음 장면은 동일 항목으로 강제 매칭하지 않았다. Glitch는 상위 효과음과 겹치는 하위 스타일이나 별도 정의가 있으며, 세 노이즈는 이름·색상만 다른 변형이 아니라 다른 스펙트럼 분포다. 룸톤 배경 소음 매칭과 잔향 공간 매칭도 구별했다. 관찰·측정·창작 제안·미디어 후보·취득·청취·파일 검수·DB 반영은 모두 0. Columbia restricted 및 나머지 unknown 권리를 유지하며 공개 요약·링크의 근거 검수이지 상업 재배포 허가나 음원 확보가 아니다. 원문 숫자·음색 묘사는 출처 주장으로만 인정한다."
+}

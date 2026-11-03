@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-G06",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-G06.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-8a1c0c67-6293-4c82-b003-b2a46ca157ef.png",
+  "sha256": "38eaf482deb9f75ffe3af3563a2caca8e1652d31503a7d473aabc84c9c74dcd8",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-G06; concept: 브로우 구레나룻 정돈.\nClass: base; domain: makeup; entry: CRAFT-makeup-31514f02e547.\nParent entry IDs: [\"FS-0038\",\"CRAFT-makeup-b968e83aca23\"]\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-G01\",\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\",\"makeup-G01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Keep B clean-shaven elsewhere; comb brows along their native growth, lightly fill sparse gaps inside existing outlines and tidy sideburn ends at the mid-ear landmark. Preserve the original brow arch, endpoints and hairline. Keep the hair-E01 buzz haircut and the same shallow three-quarter view as G01. Retain a relaxed mouth and plain gray collarless top; use the G01 thin correction level throughout. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: shallow front three-quarter showing lip line both cheek edges and neck. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the B face, cheek mole and buzz haircut; use the same beard growth geography across all beard comparisons.\nChange only: Keep B clean-shaven elsewhere; comb brows along their native growth, lightly fill sparse gaps inside existing outlines and tidy sideburn ends at the mid-ear landmark. Preserve the original brow arch, endpoints and hairline.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Brow outline stays fixed; sideburn endpoints are tidy and level with mid-ear.; Grooming changes hair state, not skin tone, face proportions or lighting.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-G01.png",
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "B identity, buzz cut, cheek mole, pose and framing match G01/E01. Beard is removed aside from subtle natural follicle texture; brows and visible temple/sideburn edge look tidied without changing face shape."
+  }
+}

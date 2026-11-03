@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "category_id": "expression",
+  "input_sha256": "cef48bd91c31ce63e714e677e8ee81e9134600a471ad0805ee0d3910b5e1759e",
+  "reviewer": "omo-expression-independent-reviewer-20261030",
+  "reviewed_at": "2026-10-30T03:42:45.393252+00:00",
+  "accepted_concept_keys": [
+    "sudden-surprise",
+    "quiet-sadness",
+    "suppressed-anger",
+    "fear-expression",
+    "disgust-expression",
+    "contempt-expression",
+    "duchenne-smile",
+    "startle-reflex",
+    "smile-mask",
+    "embarrassment-smile",
+    "miserable-smile",
+    "qualifier-smile",
+    "flirtatious-smile",
+    "off-camera-partner-eyeline",
+    "direct-camera-slate",
+    "ravdess-neutral-calm-baseline"
+  ],
+  "rejected": [
+    {
+      "concept_key": "compliance-smile",
+      "reason": "https://www.paulekman.com/blog/science-of-smiling/ | Social smiles, compliance paragraph, final sentence: reopened text says a sight may be heard, not sigh. The 동반 반응 field silently resolves this apparent typo as 한숨. Eyebrow raising, shrugging, unwanted acceptance and head-position comparison are supported, but the sigh component is not unambiguously stated in the exact cited body. Cannot edit staging or mark an inferred correction supported; reject this whole record pending corrected/independently sourced evidence. This is not a claim that sighing cannot occur."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "ekman-surprise",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-surprise/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "WHAT IS SURPRISE?; THE DIFFERENCE BETWEEN STARTLE AND SURPRISE; FACIAL EXPRESSION OF SURPRISE",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/universal-emotions/what-is-surprise/; compared WHAT IS SURPRISE?; THE DIFFERENCE BETWEEN STARTLE AND SURPRISE; FACIAL EXPRESSION OF SURPRISE. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "ekman-sadness",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-sadness/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "FEELING SADNESS; FACIAL EXPRESSION OF SADNESS; POSTURE OF SADNESS",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/universal-emotions/what-is-sadness/; compared FEELING SADNESS; FACIAL EXPRESSION OF SADNESS; POSTURE OF SADNESS. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "ekman-anger",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-anger/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "RECOGNIZING ANGER > FACIAL EXPRESSIONS OF ANGER, first paragraph",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/universal-emotions/what-is-anger/; compared RECOGNIZING ANGER > FACIAL EXPRESSIONS OF ANGER, first paragraph. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "ekman-fear",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-fear/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "FEELING FEAR > coping; THE FACIAL EXPRESSION OF FEAR",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/universal-emotions/what-is-fear/; compared FEELING FEAR > coping; THE FACIAL EXPRESSION OF FEAR. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "ekman-disgust",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-disgust/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "FEELING DISGUST; FACIAL EXPRESSION OF DISGUST; POSTURE OF DISGUST",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/universal-emotions/what-is-disgust/; compared FEELING DISGUST; FACIAL EXPRESSION OF DISGUST; POSTURE OF DISGUST. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "ekman-contempt",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-contempt/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "FEELING CONTEMPT; FACIAL EXPRESSION OF CONTEMPT; POSTURE OF CONTEMPT",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/universal-emotions/what-is-contempt/; compared FEELING CONTEMPT; FACIAL EXPRESSION OF CONTEMPT; POSTURE OF CONTEMPT. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "ekman-duchenne",
+      "url": "https://www.paulekman.com/blog/fake-smile-or-genuine-smile/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "The enjoyment smile; How to tell an enjoyment smile is genuine; Falsified or fake smiles",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/blog/fake-smile-or-genuine-smile/; compared The enjoyment smile; How to tell an enjoyment smile is genuine; Falsified or fake smiles. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "ekman-smile-types",
+      "url": "https://www.paulekman.com/blog/science-of-smiling/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "Non-enjoyment Smiles; Smiles with a gaze; Social smiles > qualifier and compliance paragraphs",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/blog/science-of-smiling/; compared Non-enjoyment Smiles; Smiles with a gaze; Social smiles > qualifier and compliance paragraphs. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired. Compliance accompanying-reaction field rejected: source says sight, not sigh; did not silently correct it. Named social functions and gaze sequences justify retained smile concepts, not intensity/wording variants."
+    },
+    {
+      "source_id": "ekman-mask",
+      "url": "https://www.paulekman.com/blog/smile-mask/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "Telling Lies excerpt credit; The importance of the smile; Who’s lying to whom?; All lies are (not) created equal",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.paulekman.com/blog/smile-mask/; compared Telling Lies excerpt credit; The importance of the smile; Who’s lying to whom?; All lies are (not) created equal. Rights remain unknown for this public article/photos: no reuse grant was found in the inspected article. Also read https://www.paulekman.com/terms-conditions/ > TRAINING TERMS > 3. SCOPE OF USE; TERM: it restricts copying/commercial use of Site/Services content without consent in the registered-user agreement. Applicability to public-article factual summaries is not resolved here; unknown is NOT permission. No media, licensed training materials or books acquired."
+    },
+    {
+      "source_id": "nyfa-audition",
+      "url": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "Acting for Film > Filming Your Audition and Monologue; Musical Theatre > Submitting a Digital Audition Video > Additional Notes > Eye line",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/; compared Acting for Film > Filming Your Audition and Monologue; Musical Theatre > Submitting a Digital Audition Video > Additional Notes > Eye line. Public institutional instructions, not a general filmmaking standard. No article/media reuse grant was identified in the inspected page; rights remain unknown, not permission for copying, commercial media use or AI upload. No example media inspected or acquired."
+    },
+    {
+      "source_id": "ravdess-release",
+      "url": "https://zenodo.org/api/records/1188976",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "metadata.description > Description, Filename identifiers, License information, Commercial Licenses; metadata.license.id; metadata.version; metadata.creators",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://zenodo.org/api/records/1188976; compared metadata.description > Description, Filename identifiers, License information, Commercial Licenses; metadata.license.id; metadata.version; metadata.creators. Official JSON body reopened with webfetch after web.run could not access it. metadata.license.id and License information explicitly say cc-by-nc-sa-4.0; Commercial Licenses is a separate route, not a purchased license. Confirmed version 1.0.0 and both creators. Restricted status is correct; metadata.access_right=open does not authorize commercial media use. No archive/media endpoint followed."
+    },
+    {
+      "source_id": "ravdess-paper",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391",
+      "checked_at": "2026-10-30T03:42:45.393252+00:00",
+      "access": "public_body",
+      "locator": "Introduction > Two baseline emotions; Analysis of validity task; Analysis of test-retest reliability task; front matter Copyright and linked CC BY 4.0 deed",
+      "rights_checked": true,
+      "notes": "Independently read the primary body at https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391; compared Introduction > Two baseline emotions; Analysis of validity task; Analysis of test-retest reliability task; front matter Copyright and linked CC BY 4.0 deed. Front matter Copyright credits Livingstone/Russo 2018; its actual linked deed https://creativecommons.org/licenses/by/4.0/ identifies CC BY 4.0 and attribution/license-link/change-notice conditions, with other rights not guaranteed. This is the article license, NOT the dataset NC-SA license. No attached movies/figures acquired."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "sudden-surprise",
+      "field": "반응 맥락",
+      "source_id": "ekman-surprise",
+      "locator": "놀람 정의 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-surprise/ | WHAT IS SURPRISE?, opening paragraph: unexpected sounds/movements are the stated triggers; not an inspected performance."
+    },
+    {
+      "concept_key": "sudden-surprise",
+      "field": "눈·눈썹",
+      "source_id": "ekman-surprise",
+      "locator": "움찔 반사와 놀람의 차이 절, 놀람의 얼굴을 설명한 마지막 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-surprise/ | THE DIFFERENCE BETWEEN STARTLE AND SURPRISE, final sentence: open eyes and raised brows; shoulder movement in FS-0019 is not validated."
+    },
+    {
+      "concept_key": "sudden-surprise",
+      "field": "턱·입",
+      "source_id": "ekman-surprise",
+      "locator": "움찔 반사와 놀람의 차이 절 마지막 문장 및 놀람의 얼굴 표현 절",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-surprise/ | THE DIFFERENCE BETWEEN STARTLE AND SURPRISE plus FACIAL EXPRESSION OF SURPRISE: dropped/open jaw and comparative relaxation of jaw and upper eyelids."
+    },
+    {
+      "concept_key": "quiet-sadness",
+      "field": "강도 범위",
+      "source_id": "ekman-sadness",
+      "locator": "슬픔 경험 절, 강도 범위 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-sadness/ | FEELING SADNESS, opening paragraph: spans mild disappointment through extreme despair; this is a general range, not proof of a quiet acting intensity."
+    },
+    {
+      "concept_key": "quiet-sadness",
+      "field": "눈썹 움직임",
+      "source_id": "ekman-sadness",
+      "locator": "슬픔의 얼굴 표현 절, 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-sadness/ | FACIAL EXPRESSION OF SADNESS, first paragraph: inner eyebrow corners angle upward; no individual face inspected."
+    },
+    {
+      "concept_key": "quiet-sadness",
+      "field": "시선",
+      "source_id": "ekman-sadness",
+      "locator": "슬픔의 자세 절, 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-sadness/ | POSTURE OF SADNESS: looking away/down is listed. FS-0020 lip tension and restraint remain original unverified guidance."
+    },
+    {
+      "concept_key": "suppressed-anger",
+      "field": "억제·표출",
+      "source_id": "ekman-anger",
+      "locator": "분노의 얼굴 표현 절, 첫 문단 후반의 억제 설명",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-anger/ | FACIAL EXPRESSIONS OF ANGER, suppression/repression sentence: visibility may diminish; no breathing sequence is established."
+    },
+    {
+      "concept_key": "suppressed-anger",
+      "field": "눈썹의 일반 단서",
+      "source_id": "ekman-anger",
+      "locator": "분노의 얼굴 표현 절, 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-anger/ | FACIAL EXPRESSIONS OF ANGER, opening sentence: eyebrows down and together; correctly labeled a general cue rather than a necessary suppressed cue."
+    },
+    {
+      "concept_key": "suppressed-anger",
+      "field": "입의 일반 단서",
+      "source_id": "ekman-anger",
+      "locator": "분노의 얼굴 표현 절, 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-anger/ | FACIAL EXPRESSIONS OF ANGER, opening sentence: narrowing at lip corners supports the short summary, not a measured mouth width."
+    },
+    {
+      "concept_key": "fear-expression",
+      "field": "눈썹",
+      "source_id": "ekman-fear",
+      "locator": "공포의 얼굴 표현 절, 눈썹 비교 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-fear/ | THE FACIAL EXPRESSION OF FEAR: raised brows are described as straighter/more horizontal than surprise."
+    },
+    {
+      "concept_key": "fear-expression",
+      "field": "윗눈꺼풀",
+      "source_id": "ekman-fear",
+      "locator": "공포의 얼굴 표현 절, 윗눈꺼풀 비교 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-fear/ | THE FACIAL EXPRESSION OF FEAR: higher upper eyelid and increased sclera visibility are explicit comparisons, not measured areas."
+    },
+    {
+      "concept_key": "fear-expression",
+      "field": "입술",
+      "source_id": "ekman-fear",
+      "locator": "공포의 얼굴 표현 절, 마지막 입술 비교 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-fear/ | THE FACIAL EXPRESSION OF FEAR: tensed/stretched lips contrasted with slack/open surprise; sideways stretching is a qualitative rendering, not an angle measurement."
+    },
+    {
+      "concept_key": "fear-expression",
+      "field": "강도 관련 조건",
+      "source_id": "ekman-fear",
+      "locator": "공포 경험 절, 대처 가능성과 무력감을 비교한 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-fear/ | FEELING FEAR, coping paragraph: inability to reduce threat intensifies fear; no universal intensity score claimed."
+    },
+    {
+      "concept_key": "disgust-expression",
+      "field": "코 움직임",
+      "source_id": "ekman-disgust",
+      "locator": "혐오의 얼굴 표현 절, 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-disgust/ | FACIAL EXPRESSION OF DISGUST: nose wrinkling is explicitly identified; no image inspection or wrinkle-depth measurement."
+    },
+    {
+      "concept_key": "disgust-expression",
+      "field": "강도 범위",
+      "source_id": "ekman-disgust",
+      "locator": "혐오 경험 절, 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-disgust/ | FEELING DISGUST, opening paragraph: mild dislike through intense loathing is the stated range."
+    },
+    {
+      "concept_key": "disgust-expression",
+      "field": "회피 방향",
+      "source_id": "ekman-disgust",
+      "locator": "혐오의 자세 절, 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-disgust/ | POSTURE OF DISGUST: turning head/body away is explicit; no distance or trajectory inferred."
+    },
+    {
+      "concept_key": "contempt-expression",
+      "field": "관계 의미",
+      "source_id": "ekman-contempt",
+      "locator": "경멸 경험 절, 기본 의미 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-contempt/ | FEELING CONTEMPT, opening paragraph: superiority and devaluation of another are the stated context, not a diagnosis of an actor."
+    },
+    {
+      "concept_key": "contempt-expression",
+      "field": "얼굴 대칭성",
+      "source_id": "ekman-contempt",
+      "locator": "경멸의 얼굴 표현 절, 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-contempt/ | FACIAL EXPRESSION OF CONTEMPT: unilateral/asymmetrical description supports the field. No independent universality claim is endorsed."
+    },
+    {
+      "concept_key": "contempt-expression",
+      "field": "동반 표정",
+      "source_id": "ekman-contempt",
+      "locator": "경멸의 얼굴 표현 절, 두 번째 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-contempt/ | FACIAL EXPRESSION OF CONTEMPT: smile/anger hints can be present or absent."
+    },
+    {
+      "concept_key": "contempt-expression",
+      "field": "시선 관련 행동",
+      "source_id": "ekman-contempt",
+      "locator": "경멸의 자세 절, 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-contempt/ | POSTURE OF CONTEMPT: looking down the nose and rolling eyes are listed. Distinct intent from FS-0028 playful asymmetric smile."
+    },
+    {
+      "concept_key": "duchenne-smile",
+      "field": "근육 조합",
+      "source_id": "ekman-duchenne",
+      "locator": "기쁨 미소 절, 근육 구성을 정의한 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/fake-smile-or-genuine-smile/ | The enjoyment smile, first paragraph: orbicularis oculi with zygomatic major is the named combination; matches FS-0018 cheek/eye cooperation."
+    },
+    {
+      "concept_key": "duchenne-smile",
+      "field": "볼·눈꺼풀",
+      "source_id": "ekman-duchenne",
+      "locator": "기쁨 미소의 진정성 단서 절, 얼굴 변화 열거 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/fake-smile-or-genuine-smile/ | How to tell an enjoyment smile is genuine: raised cheeks/lower eyelids and possible under-eye bulging are listed, not inspected here."
+    },
+    {
+      "concept_key": "duchenne-smile",
+      "field": "눈 바깥쪽",
+      "source_id": "ekman-duchenne",
+      "locator": "기쁨 미소의 진정성 단서 절, 얼굴 변화 열거 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/fake-smile-or-genuine-smile/ | How to tell an enjoyment smile is genuine: possible outer-eye wrinkles are listed; no fixed intensity or age-dependent guarantee."
+    },
+    {
+      "concept_key": "duchenne-smile",
+      "field": "해석 한계",
+      "source_id": "ekman-duchenne",
+      "locator": "거짓 미소 절, 의도적으로 크게 만든 미소의 예외 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/fake-smile-or-genuine-smile/ | Falsified or fake smiles, broad-smile paragraph: posed broad smiles can mimic cues. Correctly avoids treating the face as proof of genuine feeling."
+    },
+    {
+      "concept_key": "startle-reflex",
+      "field": "반응 구분",
+      "source_id": "ekman-surprise",
+      "locator": "움찔 반사와 놀람의 차이 절, 첫 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-surprise/ | THE DIFFERENCE BETWEEN STARTLE AND SURPRISE: physical reflex versus emotion is explicit; not an alias for sudden-surprise."
+    },
+    {
+      "concept_key": "startle-reflex",
+      "field": "눈",
+      "source_id": "ekman-surprise",
+      "locator": "움찔 반사와 놀람의 차이 절, 움찔 얼굴을 설명한 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-surprise/ | THE DIFFERENCE BETWEEN STARTLE AND SURPRISE: tightly closed eyes are stated; contrasts with surprise."
+    },
+    {
+      "concept_key": "startle-reflex",
+      "field": "눈썹·입술",
+      "source_id": "ekman-surprise",
+      "locator": "움찔 반사와 놀람의 차이 절, 움찔 얼굴을 설명한 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/universal-emotions/what-is-surprise/ | THE DIFFERENCE BETWEEN STARTLE AND SURPRISE: lowered brows and tense stretched lips are stated. No timing values or inspected reflex asserted."
+    },
+    {
+      "concept_key": "smile-mask",
+      "field": "표현 의도",
+      "source_id": "ekman-mask",
+      "locator": "미소의 중요성 소제목 아래 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/smile-mask/ | The importance of the smile: smile masks negative emotions. Accepted only as general background for CRAFT-expression-9fedcf77ff03, not proof of its specific embarrassment sequence."
+    },
+    {
+      "concept_key": "smile-mask",
+      "field": "사회적 맥락",
+      "source_id": "ekman-mask",
+      "locator": "거짓말의 대상 소제목 아래 인사·예의 설명 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/smile-mask/ | Who’s lying to whom?: greeting/politeness context and concealment with polite smiles support the summary."
+    },
+    {
+      "concept_key": "smile-mask",
+      "field": "자발적 구성",
+      "source_id": "ekman-mask",
+      "locator": "거짓말의 구분 소제목 아래 마지막 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/smile-mask/ | All lies are (not) created equal, final sentence: deliberate construction is described as easy. The source does not validate the original eye-freeze/side-glance instructions."
+    },
+    {
+      "concept_key": "embarrassment-smile",
+      "field": "시선 방향",
+      "source_id": "ekman-smile-types",
+      "locator": "시선 미소 절, 수줍음 미소 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Smiles with a gaze, embarrassment paragraph: downward/sideward gaze is explicit; no return-to-eye-contact sequence."
+    },
+    {
+      "concept_key": "embarrassment-smile",
+      "field": "눈맞춤",
+      "source_id": "ekman-smile-types",
+      "locator": "시선 미소 절, 수줍음 미소 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Smiles with a gaze, same sentence: avoiding the other person’s eyes is explicit. This complements gaze direction inside ONE concept, not an additional counted variant."
+    },
+    {
+      "concept_key": "embarrassment-smile",
+      "field": "턱 움직임",
+      "source_id": "ekman-smile-types",
+      "locator": "시선 미소 절, 수줍음 미소 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Smiles with a gaze, embarrassment paragraph, final sentence: a momentary chin-boss lift may occur; possibility is retained. FS-0016 is the existing match."
+    },
+    {
+      "concept_key": "miserable-smile",
+      "field": "표현 의도",
+      "source_id": "ekman-smile-types",
+      "locator": "비기쁨 미소 절, 쓴웃음 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Non-enjoyment Smiles, miserable-smile paragraph: acknowledgment rather than concealment of negative experience; distinct from smile-mask."
+    },
+    {
+      "concept_key": "miserable-smile",
+      "field": "대칭성",
+      "source_id": "ekman-smile-types",
+      "locator": "비기쁨 미소 절, 쓴웃음 두 번째 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Non-enjoyment Smiles, paragraph beginning Miserable smiles: asymmetry is qualified as frequent, not necessary."
+    },
+    {
+      "concept_key": "miserable-smile",
+      "field": "눈가",
+      "source_id": "ekman-smile-types",
+      "locator": "비기쁨 미소 절, 쓴웃음 두 번째 문단의 눈둘레근 비교",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Non-enjoyment Smiles, same paragraph: absence of eye-muscle tightening contrasts with dampened enjoyment; source claim only, not individual emotion reading."
+    },
+    {
+      "concept_key": "qualifier-smile",
+      "field": "표현 의도",
+      "source_id": "ekman-smile-types",
+      "locator": "사회적 미소 절, 비판 완화 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Social smiles, qualifier paragraph: softening a critical/unpleasant message is the named social function; not a relabeling of a generic smile."
+    },
+    {
+      "concept_key": "qualifier-smile",
+      "field": "시작 양상",
+      "source_id": "ekman-smile-types",
+      "locator": "사회적 미소 절, 비판 완화 문단 두 번째 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Social smiles, qualifier paragraph: deliberate quick/abrupt onset is explicit; not a stopwatch measurement."
+    },
+    {
+      "concept_key": "qualifier-smile",
+      "field": "머리·시선",
+      "source_id": "ekman-smile-types",
+      "locator": "사회적 미소 절, 비판 완화 문단 마지막 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Social smiles, qualifier paragraph: nod plus slight downward/sideward head tilt is explicitly described as frequent. No fixed angle inferred."
+    },
+    {
+      "concept_key": "flirtatious-smile",
+      "field": "처음 방향",
+      "source_id": "ekman-smile-types",
+      "locator": "시선 미소 절, 호감 미소 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Smiles with a gaze, flirtatious paragraph: felt smile with face/gaze initially away is explicit; no claim about an inspected subject."
+    },
+    {
+      "concept_key": "flirtatious-smile",
+      "field": "중간 시선",
+      "source_id": "ekman-smile-types",
+      "locator": "시선 미소 절, 호감 미소 문단 첫 문장",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Smiles with a gaze, same paragraph: momentary glance at the person is explicit; no duration measured."
+    },
+    {
+      "concept_key": "flirtatious-smile",
+      "field": "끝 방향",
+      "source_id": "ekman-smile-types",
+      "locator": "시선 미소 절, 호감 미소 문단 첫 문장 후반",
+      "verdict": "supported",
+      "notes": "https://www.paulekman.com/blog/science-of-smiling/ | Smiles with a gaze, same paragraph: glance shifts away again. The three phases form ONE sourced sequence, not three concepts; unlike generic static 호감 guidance."
+    },
+    {
+      "concept_key": "off-camera-partner-eyeline",
+      "field": "시선 대상",
+      "source_id": "nyfa-audition",
+      "locator": "영화연기 > 독백 촬영 > 시선 항목",
+      "verdict": "supported",
+      "notes": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/ | Acting for Film > Filming Your Audition and Monologue > Eye line: an off-camera directing point is explicit. Existing ID is uniquely CRAFT-expression-39071166e91c; exact partner position not verified."
+    },
+    {
+      "concept_key": "off-camera-partner-eyeline",
+      "field": "제외 시선",
+      "source_id": "nyfa-audition",
+      "locator": "영화연기 > 독백 촬영 > 시선 항목",
+      "verdict": "supported",
+      "notes": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/ | Acting for Film > Filming Your Audition and Monologue > Eye line: do not look into/above/below camera is explicit, scoped to this audition."
+    },
+    {
+      "concept_key": "off-camera-partner-eyeline",
+      "field": "얼굴 가시성",
+      "source_id": "nyfa-audition",
+      "locator": "뮤지컬 > 디지털 오디션 제출 > 추가 안내의 시선 항목",
+      "verdict": "supported",
+      "notes": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/ | Musical Theatre > Submitting a Digital Audition Video > Additional Notes > Eye line: avoid direct camera performance but keep face visible; no universal production rule."
+    },
+    {
+      "concept_key": "direct-camera-slate",
+      "field": "전달 대상",
+      "source_id": "nyfa-audition",
+      "locator": "영화연기 > 독백 촬영 > 소개 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/ | Acting for Film > Filming Your Audition and Monologue, introduction paragraph: deliver introduction to camera. Title understood as direct-camera address, not proof of exact pupil/lens alignment."
+    },
+    {
+      "concept_key": "direct-camera-slate",
+      "field": "소통 내용",
+      "source_id": "nyfa-audition",
+      "locator": "영화연기 > 독백 촬영 > 소개 첫 문단",
+      "verdict": "supported",
+      "notes": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/ | Acting for Film > Filming Your Audition and Monologue, introduction paragraph: name and piece title are requested."
+    },
+    {
+      "concept_key": "direct-camera-slate",
+      "field": "장면과의 구분",
+      "source_id": "nyfa-audition",
+      "locator": "영화연기 > 독백 촬영 > 시선 항목",
+      "verdict": "supported",
+      "notes": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/ | Acting for Film > Filming Your Audition and Monologue > Eye line: subsequent monologue uses off-camera direction; slate and scene are functionally distinct, not wording-only variants."
+    },
+    {
+      "concept_key": "ravdess-neutral-calm-baseline",
+      "field": "연기 조건 코드",
+      "source_id": "ravdess-release",
+      "locator": "metadata.description > Filename identifiers > Emotion",
+      "verdict": "supported",
+      "notes": "https://zenodo.org/api/records/1188976 | metadata.description > File naming convention > Filename identifiers > Emotion: 01 neutral / 02 calm; labels describe recording conditions, not verified internal emotions."
+    },
+    {
+      "concept_key": "ravdess-neutral-calm-baseline",
+      "field": "강도 조건",
+      "source_id": "ravdess-release",
+      "locator": "metadata.description > Description; Filename identifiers > Emotional intensity",
+      "verdict": "supported",
+      "notes": "https://zenodo.org/api/records/1188976 | metadata.description > Description and Filename identifiers > Emotional intensity: normal/strong and neutral exception are explicit; no new intensity variants counted."
+    },
+    {
+      "concept_key": "ravdess-neutral-calm-baseline",
+      "field": "기준 조건의 목적",
+      "source_id": "ravdess-paper",
+      "locator": "두 기준 감정 절, 평온 조건을 도입한 이유 문단",
+      "verdict": "supported",
+      "notes": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391 | Introduction > Two baseline emotions: added calm resembles neutral but may have mildly positive valence; not a guarantee of audience response."
+    },
+    {
+      "concept_key": "ravdess-neutral-calm-baseline",
+      "field": "지각 구별의 한계",
+      "source_id": "ravdess-paper",
+      "locator": "검증 방법 > 정확도·신뢰도 산출 문단, 중립·평온을 함께 정답으로 인정한 문장",
+      "verdict": "supported",
+      "notes": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391 | Analysis of validity task and Analysis of test-retest reliability task: neutral/calm responses accepted for both because of perceptual similarity. One combined baseline concept, not a generic 무심한 표정 alias."
+    }
+  ],
+  "accepted_count": 16,
+  "shortfall": 4,
+  "shortfall_reason": "Partial metadata result only: 17 staged concepts reviewed, 16 accepted (52 source-claim facts), 1 rejected for an ambiguous source-wording component; target 20 leaves 4 missing (3 uncollected plus 1 rejected). All 12 cited primary bodies were reopened, including the exact Zenodo API via webfetch; no search-index/HTTP-status-only acceptance. Compared all 41 original expression entries: 7 accepted records target existing unique same-category IDs, 9 are distinct additional concepts; this review itself merges none. Startle differs from surprise; smile functions/sequences are not counted as wording/intensity variants; neutral/calm is one recording-baseline concept, not observed generic indifference. Original acting sequences remain unverified where summaries say so. All accepted evidence is source_claim, with 0 observations, measurements, proposals or media candidates; 0 media downloaded, uploaded, acquired or visually reviewed. Unknown rights do not grant reuse; article CC BY and dataset NC-SA remain separate. No claim of completing the 20-concept target or media population."
+}

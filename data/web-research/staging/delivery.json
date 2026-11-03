@@ -1,0 +1,1097 @@
+{
+  "schema_version": 1,
+  "category_id": "delivery",
+  "collector": "omo-delivery-collector",
+  "collected_at": "2026-10-30T05:15:36+00:00",
+  "sources": [
+    {
+      "source_id": "yt-encoding",
+      "url": "https://support.google.com/youtube/answer/1722171?hl=en",
+      "title": "YouTube recommended upload encoding settings",
+      "publisher": "Google / YouTube",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Container; Audio codec; Video codec; Frame rate; Color Space. 상단의 Content Manager 파트너 대상 안내 포함.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Google / YouTube 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "yt-hdr",
+      "url": "https://support.google.com/youtube/answer/7126552?hl=en",
+      "title": "Upload High Dynamic Range (HDR) videos",
+      "publisher": "Google / YouTube",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Upload requirements 표; HDR metadata",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Google / YouTube 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ebu-r128",
+      "url": "https://tech.ebu.ch/publications/r128",
+      "title": "Loudness normalisation and permitted maximum level of audio signals",
+      "publisher": "European Broadcasting Union",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "EBU R 128, 21 Nov 2023; Version 5.0 설명. 연결 PDF는 열지 않았으며 웹 본문만 사용.",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://tech.ebu.ch/publications/r128",
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. 페이지 하단에 Copyright EBU 2026, 권리 유보가 표시된다.",
+        "attribution": "European Broadcasting Union 원문에 귀속한다. 원문 권리 고지와 별도 허락 조건을 유지한다."
+      }
+    },
+    {
+      "source_id": "yt-subtitle-files",
+      "url": "https://support.google.com/youtube/answer/2734698?hl=en",
+      "title": "Supported subtitle and closed caption files",
+      "publisher": "Google / YouTube",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Basic file formats > SubRip 행; 도입부",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Google / YouTube 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "w3c-webvtt",
+      "url": "https://www.w3.org/TR/webvtt1/",
+      "title": "WebVTT: The Web Video Text Tracks Format",
+      "publisher": "World Wide Web Consortium",
+      "authors": [
+        "Gary Katsevman"
+      ],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "2026-05-20 Candidate Recommendation Draft; §4.1 WebVTT file structure",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. 문서 하단 링크의 permissive document license는 별도 전문 검토하지 않았다. 초안이며 최종 Recommendation으로 표시하지 않는다.",
+        "attribution": "World Wide Web Consortium 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "yt-auto-captions",
+      "url": "https://support.google.com/youtube/answer/6373554?hl=en",
+      "title": "Use automatic captioning",
+      "publisher": "Google / YouTube",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 Note; Automatic captions on long-form videos and Shorts",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Google / YouTube 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "netflix-us",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/217350977-English-USA-Timed-Text-Style-Guide",
+      "title": "English (USA) Timed Text Style Guide",
+      "publisher": "Netflix",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "I.2 Character Limitation; I.6 Dual Speakers/Multiple Events; I.14 Reading Speed Limits",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Netflix 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "netflix-ko",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/216001127-Korean-Timed-Text-Style-Guide",
+      "title": "Korean Timed Text Style Guide",
+      "publisher": "Netflix",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "I Korean Subtitles: I.2 Character Limitation; I.8 On-screen Text; I.15 Reading Speed Limits. 비공개 vendor portal은 열지 않았다.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Netflix 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "netflix-general",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/215758617-Timed-Text-Style-Guide-General-Requirements",
+      "title": "Timed Text Style Guide: General Requirements",
+      "publisher": "Netflix",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입부 적용 범위; §1 Duration; §4 Line Treatment; §5 Positioning",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Netflix 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "w3c-captions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+      "title": "Understanding Success Criterion 1.2.2: Captions (Prerecorded)",
+      "publisher": "World Wide Web Consortium / Web Accessibility Initiative",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Success Criterion; Intent. WCAG 2.2 Level A의 비규범적 해설 페이지이며 법적 적합성 판정이 아니다.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "World Wide Web Consortium / Web Accessibility Initiative 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "yt-aspect",
+      "url": "https://support.google.com/youtube/answer/6375112?hl=en",
+      "title": "Video resolution & aspect ratios",
+      "publisher": "Google / YouTube",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Computer > How your video will display; Recommended resolution & aspect ratios",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Google / YouTube 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "yt-shorts",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "title": "Understand three-minute YouTube Shorts",
+      "publisher": "Google / YouTube",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Eligibility for three-minute Shorts > Standard YouTube channels. Official Artist Channels의 다른 기준일과 구분.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Google / YouTube 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "apple-prores",
+      "url": "https://www.apple.com/final-cut-pro/docs/Apple_ProRes.pdf",
+      "title": "Apple ProRes — White Paper, April 2022",
+      "publisher": "Apple Inc.",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "인쇄 p.18 Alpha Channel Support in Apple ProRes 4444 Codecs; p.23 저작권 고지",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.apple.com/final-cut-pro/docs/Apple_ProRes.pdf",
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. PDF p.23은 Apple Inc.의 저작권 및 권리 유보를 표시한다. PDF 원본을 로컬 저장하거나 재배포하지 않았다.",
+        "attribution": "Apple Inc. 원문에 귀속한다. 원문 권리 고지와 별도 허락 조건을 유지한다."
+      }
+    },
+    {
+      "source_id": "netflix-imf",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/16082027231507-New-IMF-Delivery-Workflow",
+      "title": "New IMF Delivery Workflow",
+      "publisher": "Netflix",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:14+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "2023-04-24 workflow upgrade 설명; 마지막 두 본문 문단. Backlot 계정이나 실제 납품은 사용하지 않았다.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. ",
+        "attribution": "Netflix 원문에 귀속한다. 제3자 미디어 권리 및 별도 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "dci-draft",
+      "url": "https://dcss.dcimovies.com/latest/dcss.html",
+      "title": "Digital Cinema System Specification — Draft March 1, 2023 (build eb76caa)",
+      "publisher": "Digital Cinema Initiatives, LLC",
+      "authors": [],
+      "checked_at": "2026-10-30T05:15:36+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "문서 머리의 Draft/Notice; §5.2.3 Packaging Concepts; §5.4.2 File Format",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://dcss.dcimovies.com/latest/dcss.html",
+        "scope": "공개 본문을 읽고 짧은 한국어 사실 요약만 기록했다. 미디어 취득·시청·청취·재배포·AI 업로드 허락을 확보하지 않았다. Notice는 구성원·공급자 외 제3자의 복제에 DCI 허락이 필요하다고 한다. /latest/ 주소라도 실제 본문은 2023-03-01 초안이다. 2026 최종 규격 또는 현행 납품 합격 근거로 사용하지 않는다.",
+        "attribution": "Digital Cinema Initiatives, LLC 원문에 귀속한다. 원문 권리 고지와 별도 허락 조건을 유지한다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "youtube-upload-encoding",
+      "title_ko": "유튜브 업로드 인코딩",
+      "subtype": "코덱·컨테이너",
+      "summary": "YouTube가 안내하는 업로드 설정이다. 페이지의 Content Manager 파트너 대상 안내를 보존하며 다른 납품처의 공통 규격으로 일반화하지 않는다.",
+      "facts": [
+        {
+          "field": "컨테이너",
+          "value": "권장 컨테이너는 MP4다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Container, L23–26",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "영상_코덱",
+          "value": "H.264, 프로그레시브 스캔, High Profile을 제시한다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Video codec, L33–35",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "오디오_샘플률",
+          "value": "오디오 샘플률은 48 kHz로 제시한다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Audio codec, L28–31",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "코덱·컨테이너"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "frame-rate",
+      "title_ko": "프레임레이트",
+      "subtype": "해상도·프레임률",
+      "summary": "YouTube 업로드의 프레임률 취급을 기존 프레임레이트 항목에 보강한다. 프로젝트 전반의 보편 FPS로 단정하지 않는다.",
+      "facts": [
+        {
+          "field": "원본_대응",
+          "value": "녹화한 프레임률 그대로 인코딩·업로드하도록 안내한다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Frame rate, L42–44",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "예시_프레임률",
+          "value": "24·25·30·48·50·60 fps를 흔한 값으로 들며 다른 값도 허용한다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Frame rate, L46",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "인터레이스_처리",
+          "value": "인터레이스 소스는 업로드 전에 디인터레이스한다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Frame rate, L47",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "해상도·프레임률"
+      ],
+      "existing_entry_id": "FS-0187",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "youtube-sdr-color",
+      "title_ko": "유튜브 SDR 색 신호",
+      "subtype": "색·오디오",
+      "summary": "YouTube의 SDR 색 처리 안내를 요약한다. 실제 납품 파일의 색 정확도를 측정하거나 확인한 기록은 아니다.",
+      "facts": [
+        {
+          "field": "권장_색공간",
+          "value": "SDR 업로드의 권장 색공간은 BT.709다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Recommended color space for SDR uploads, L95–101",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "미지정_TRC",
+          "value": "TRC가 미지정이면 BT.709 TRC로 가정한다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Color Space > When/YouTube Action, L105",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "레인지_변환",
+          "value": "풀 레인지는 리미티드 레인지로 변환한다고 설명한다.",
+          "evidence": {
+            "source_id": "yt-encoding",
+            "locator": "Color Space > Note, L111",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "색·오디오"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "youtube-hdr-signaling",
+      "title_ko": "유튜브 HDR 신호 지정",
+      "subtype": "색·오디오",
+      "summary": "YouTube의 HDR 업로드 요구를 기록한다. HDR이라는 제목만으로 이 요구를 충족했다고 판단하지 않는다.",
+      "facts": [
+        {
+          "field": "색_비트깊이",
+          "value": "색 깊이는 10비트 또는 12비트다.",
+          "evidence": {
+            "source_id": "yt-hdr",
+            "locator": "Upload requirements > Color depth, L42",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "원색",
+          "value": "원색은 Rec.2020이다.",
+          "evidence": {
+            "source_id": "yt-hdr",
+            "locator": "Upload requirements > Color primaries, L43",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전달함수",
+          "value": "EOTF는 PQ 또는 HLG(Rec.2100)다.",
+          "evidence": {
+            "source_id": "yt-hdr",
+            "locator": "Upload requirements > EOTF, L45",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "메타데이터",
+          "value": "적절한 재생을 위해 코덱 또는 컨테이너에 HDR 메타데이터가 필요하다.",
+          "evidence": {
+            "source_id": "yt-hdr",
+            "locator": "Upload HDR videos, L25",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "색·오디오"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "ebu-r128-programme-loudness",
+      "title_ko": "EBU R128 프로그램 라우드니스",
+      "subtype": "색·오디오",
+      "summary": "EBU 웹 본문의 R128 버전 5.0 설명이다. 플랫폼 공통 목표 음량이나 실제 음성 명료도 합격값으로 전용하지 않는다.",
+      "facts": [
+        {
+          "field": "프로그램_음량",
+          "value": "평균 프로그램 라우드니스 -23 LUFS를 권고한다.",
+          "evidence": {
+            "source_id": "ebu-r128",
+            "locator": "본문 Recommendation 설명, L32",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "기술_지표",
+          "value": "Loudness Range와 Maximum True Peak Level 기술자를 함께 권고한다.",
+          "evidence": {
+            "source_id": "ebu-r128",
+            "locator": "본문 Recommendation 설명, L32",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문서_버전",
+          "value": "페이지가 설명하는 판은 2023년 11월의 버전 5.0이다.",
+          "evidence": {
+            "source_id": "ebu-r128",
+            "locator": "본문 Version 5.0 및 All versions 표, L32, L56",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "색·오디오"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subrip-youtube-delivery",
+      "title_ko": "유튜브용 SubRip 자막",
+      "subtype": "자막·형식",
+      "summary": "YouTube가 받아들이는 기본 SubRip 범위다. SubRip의 모든 기능이나 다른 재생기의 동작을 보장하는 설명이 아니다.",
+      "facts": [
+        {
+          "field": "확장자",
+          "value": "SubRip 파일 확장자는 .srt다.",
+          "evidence": {
+            "source_id": "yt-subtitle-files",
+            "locator": "Basic file formats > SubRip 행, L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문자_인코딩",
+          "value": "파일은 일반 UTF-8 텍스트여야 한다.",
+          "evidence": {
+            "source_id": "yt-subtitle-files",
+            "locator": "Basic file formats > SubRip 행, L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "스타일_지원",
+          "value": "기본 버전만 지원하며 스타일 마크업을 인식하지 않는다.",
+          "evidence": {
+            "source_id": "yt-subtitle-files",
+            "locator": "Basic file formats > SubRip 행, L27",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·형식"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "webvtt-file-structure",
+      "title_ko": "WebVTT 자막 파일 구조",
+      "subtype": "자막·형식",
+      "summary": "W3C의 2026-05-20 후보 권고 초안 §4.1에 근거한 형식 정보다. 특정 납품처의 전체 지원 여부는 별도다.",
+      "facts": [
+        {
+          "field": "본문_인코딩",
+          "value": "WebVTT 파일 본문은 UTF-8로 인코딩한다.",
+          "evidence": {
+            "source_id": "w3c-webvtt",
+            "locator": "§4.1, L844",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "미디어_타입",
+          "value": "MIME 타입은 text/vtt다.",
+          "evidence": {
+            "source_id": "w3c-webvtt",
+            "locator": "§4.1, L844",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "파일_시작",
+          "value": "선택적 BOM 뒤에 WEBVTT 문자열이 온다.",
+          "evidence": {
+            "source_id": "w3c-webvtt",
+            "locator": "§4.1 구성 요소 1–2, L846–848",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·형식"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "automatic-caption-review",
+      "title_ko": "자동 생성 자막의 교정",
+      "subtype": "자막·검수",
+      "summary": "YouTube는 자동 자막을 완성된 정확한 전사로 보지 않고 검토·수정을 안내한다. 이 배치에서 실제 자막을 검사한 것은 아니다.",
+      "facts": [
+        {
+          "field": "교정_필요",
+          "value": "자동 자막은 항상 검토하고 잘못 전사된 부분을 수정하도록 안내한다.",
+          "evidence": {
+            "source_id": "yt-auto-captions",
+            "locator": "도입 Note 및 본문, L20, L25",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "오인식_요인",
+          "value": "발음·억양·방언·배경 소음이 오인식 요인으로 제시된다.",
+          "evidence": {
+            "source_id": "yt-auto-captions",
+            "locator": "도입 Note, L20",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "생성_시점",
+          "value": "업로드 시점에 준비되지 않을 수 있고 처리 시간은 오디오 복잡도에 좌우된다.",
+          "evidence": {
+            "source_id": "yt-auto-captions",
+            "locator": "Automatic captions on long-form videos and Shorts, L24",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·검수"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "netflix-us-sdh",
+      "title_ko": "넷플릭스 미국 영어 SDH",
+      "subtype": "접근성 자막",
+      "summary": "Netflix의 미국 영어 SDH에 한정한 규칙이다. 번역 자막이나 한국어 자막에 같은 수치를 일괄 적용하지 않는다.",
+      "facts": [
+        {
+          "field": "행_문자수",
+          "value": "한 행 제한은 42자다.",
+          "evidence": {
+            "source_id": "netflix-us",
+            "locator": "I.2 Character Limitation, L24–26",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "두_화자",
+          "value": "두 화자를 한 자막에 넣을 때 행마다 최대 한 화자를 두고 공백 없는 하이픈으로 구별한다.",
+          "evidence": {
+            "source_id": "netflix-us",
+            "locator": "I.6 Dual Speakers/Multiple Events, L73–75",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "읽기_속도",
+          "value": "성인 프로그램은 초당 최대 20자, 아동 프로그램은 최대 17자다.",
+          "evidence": {
+            "source_id": "netflix-us",
+            "locator": "I.14 Reading Speed Limits, L202–205",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "접근성 자막"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "netflix-korean-translation-subtitles",
+      "title_ko": "넷플릭스 한국어 번역 자막",
+      "subtype": "자막·형식",
+      "summary": "Netflix의 비한국어 콘텐츠용 한국어 번역 자막 규칙이다. 같은 문서의 한국어 SDH와 구별한다.",
+      "facts": [
+        {
+          "field": "행_문자수",
+          "value": "한 행 제한은 16자다.",
+          "evidence": {
+            "source_id": "netflix-ko",
+            "locator": "I.2 Character Limitation, L22–24",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반자_계산",
+          "value": "라틴 문자·공백·문장부호는 각각 0.5자로 계산한다.",
+          "evidence": {
+            "source_id": "netflix-ko",
+            "locator": "I.2 Character Limitation, L25",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "읽기_속도",
+          "value": "성인 프로그램은 초당 최대 12자, 아동 프로그램은 최대 9자다.",
+          "evidence": {
+            "source_id": "netflix-ko",
+            "locator": "I.15 Reading Speed Limits, L205–208",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·형식"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subtitle-event-duration",
+      "title_ko": "자막 이벤트 표시 시간",
+      "subtype": "자막·타이밍",
+      "summary": "Netflix 공통 자막 지침의 이벤트 길이다. 실제 영상의 타임코드를 측정한 값이 아니다.",
+      "facts": [
+        {
+          "field": "최소_시간",
+          "value": "이벤트 최소 표시는 5/6초다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§1 Duration, L18",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "최대_시간",
+          "value": "이벤트 최대 표시는 7초다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§1 Duration, L19",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "적용_범위",
+          "value": "별도 안내가 없으면 Netflix용 오리지널·비오리지널 timed text에 적용하며 언어·타이밍·파일 형식 지침도 함께 따른다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "도입부, L15",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·타이밍"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subtitle-semantic-line-breaks",
+      "title_ko": "자막의 의미 단위 분할",
+      "subtype": "자막·줄바꿈",
+      "summary": "기존 의미 단위 분할 항목에 Netflix 공통 지침의 줄바꿈 원칙을 보강한다. 언어별 지침을 함께 참조해야 한다.",
+      "facts": [
+        {
+          "field": "최대_행수",
+          "value": "최대 두 행이다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§4 Line Treatment, L28–30",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "접속사_경계",
+          "value": "두 행으로 나눌 때 접속사 앞을 줄바꿈 위치로 제시한다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§4 Line Treatment, L34–37",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "인명_보존",
+          "value": "이름과 성 사이를 나누지 않도록 한다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§4 Line Treatment, L38–41",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·줄바꿈"
+      ],
+      "existing_entry_id": "CRAFT-delivery-c8f0fb92a4ca",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subtitle-positioning",
+      "title_ko": "자막의 대비와 배치",
+      "subtype": "자막·배치",
+      "summary": "기존 항목 중 배치 부분에 Netflix 공통 지침을 보강한다. 대비 수치나 얼굴·제품의 실제 가림은 검사하지 않았다.",
+      "facts": [
+        {
+          "field": "가로_정렬",
+          "value": "자막을 가운데 정렬하도록 한다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§5 Positioning, L47",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "세로_위치",
+          "value": "상단 또는 하단에 배치하며 일본어 세로 배치는 예외로 안내한다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§5 Positioning, L47",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "화면_문자_중첩",
+          "value": "화면 문자와 겹치지 않게 배치하고 피할 수 없으면 더 읽기 쉬운 쪽을 선택한다.",
+          "evidence": {
+            "source_id": "netflix-general",
+            "locator": "§5 Positioning, L48",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·배치"
+      ],
+      "existing_entry_id": "CRAFT-delivery-48619f865049",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "prerecorded-accessibility-captions",
+      "title_ko": "사전 녹화 영상의 접근성 캡션",
+      "subtype": "접근성 자막",
+      "summary": "W3C의 WCAG 2.2 SC1.2.2 해설에 근거한다. 규격 설명이지 프로젝트의 접근성 합격 또는 법률 판정은 아니다.",
+      "facts": [
+        {
+          "field": "제공_범위",
+          "value": "동기화 미디어의 사전 녹음 오디오에 캡션을 제공하되 명확히 표시된 텍스트 대체 미디어는 예외다.",
+          "evidence": {
+            "source_id": "w3c-captions",
+            "locator": "Success Criterion, L31–33",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "비대사_정보",
+          "value": "캡션에는 의미 있는 효과음 등 비음성 정보도 포함한다.",
+          "evidence": {
+            "source_id": "w3c-captions",
+            "locator": "Intent, L36",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "화자_정보",
+          "value": "대사뿐 아니라 누가 말하는지 식별하는 정보도 포함한다.",
+          "evidence": {
+            "source_id": "w3c-captions",
+            "locator": "Intent, L36",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "접근성 자막"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "landscape-video",
+      "title_ko": "가로 영상",
+      "subtype": "해상도·화면비",
+      "summary": "기존 가로 영상 항목에 YouTube 컴퓨터 재생 기준을 보강한다. 다른 플랫폼의 기본 화면비로 일반화하지 않는다.",
+      "facts": [
+        {
+          "field": "기본_화면비",
+          "value": "컴퓨터에서의 기본 화면비는 16:9다.",
+          "evidence": {
+            "source_id": "yt-aspect",
+            "locator": "How your video will display, L23",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "HD_해상도",
+          "value": "16:9의 1080p 권장 인코딩 해상도는 1920×1080이다.",
+          "evidence": {
+            "source_id": "yt-aspect",
+            "locator": "Recommended resolution & aspect ratios, L29–34",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "패딩_처리",
+          "value": "파일 자체에 패딩이나 검은 띠를 넣지 않도록 권고한다.",
+          "evidence": {
+            "source_id": "yt-aspect",
+            "locator": "How your video will display, L26",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "해상도·화면비"
+      ],
+      "existing_entry_id": "FS-0186",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "vertical-short-form",
+      "title_ko": "세로 숏폼",
+      "subtype": "납품 대상·화면비",
+      "summary": "기존 세로 숏폼 항목에 YouTube 일반 채널의 Shorts 분류 조건을 보강한다. 공식 아티스트 채널의 별도 기준일이나 UI 안전 영역 값으로 혼동하지 않는다.",
+      "facts": [
+        {
+          "field": "대상_화면비",
+          "value": "일반 채널에서는 정사각형 또는 세로 화면비가 Shorts 분류 대상이다.",
+          "evidence": {
+            "source_id": "yt-shorts",
+            "locator": "Eligibility for three-minute Shorts > Standard YouTube channels, L24",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "길이_상한",
+          "value": "해당 분류 조건의 길이 상한은 3분이다.",
+          "evidence": {
+            "source_id": "yt-shorts",
+            "locator": "Eligibility for three-minute Shorts > Standard YouTube channels, L24",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "업로드_기준일",
+          "value": "이 조건은 2024-10-15 이후 해당 날짜를 포함한 업로드에 적용된다.",
+          "evidence": {
+            "source_id": "yt-shorts",
+            "locator": "Eligibility for three-minute Shorts > Standard YouTube channels, L24",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "납품 대상·화면비"
+      ],
+      "existing_entry_id": "FS-0185",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "forced-narrative-subtitles",
+      "title_ko": "화면 문자용 강제 서사 자막",
+      "subtype": "자막·화면 문자",
+      "summary": "Netflix 한국어 번역 지침의 화면 문자 처리다. 화면 문자를 무조건 모두 옮기는 규칙이 아니다.",
+      "facts": [
+        {
+          "field": "포함_조건",
+          "value": "줄거리에 중요한 화면 문자만 강제 서사 자막에 포함한다.",
+          "evidence": {
+            "source_id": "netflix-ko",
+            "locator": "I.8 On-screen Text, L87–88",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "중복_제거",
+          "value": "화면 문자와 같거나 대사에서 다룬 중복 강제 서사 자막은 삭제한다.",
+          "evidence": {
+            "source_id": "netflix-ko",
+            "locator": "I.8 On-screen Text, L91",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "대사_분리",
+          "value": "강제 서사와 대사를 같은 자막에 결합하지 않는다.",
+          "evidence": {
+            "source_id": "netflix-ko",
+            "locator": "I.8 On-screen Text, L94",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "자막·화면 문자"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "prores-4444-alpha",
+      "title_ko": "ProRes 4444 알파 채널 납품",
+      "subtype": "코덱·투명도",
+      "summary": "Apple의 2022년 백서가 설명하는 4444 계열의 알파 지원이다. 색 영상 전체가 수학적 무손실이라는 뜻은 아니다.",
+      "facts": [
+        {
+          "field": "지원_코덱",
+          "value": "ProRes 4444와 4444 XQ는 선택적 알파 채널을 지원한다.",
+          "evidence": {
+            "source_id": "apple-prores",
+            "locator": "인쇄 p.18, L493–495",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "합성_용도",
+          "value": "알파 값은 전경 픽셀과 배경 픽셀을 섞는 비율을 지정한다.",
+          "evidence": {
+            "source_id": "apple-prores",
+            "locator": "인쇄 p.18, L498–501",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "알파_정밀도",
+          "value": "알파 값은 최대 16비트까지 수학적으로 무손실 인코딩한다고 설명한다.",
+          "evidence": {
+            "source_id": "apple-prores",
+            "locator": "인쇄 p.18, L505–515",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "코덱·투명도"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "netflix-imf-package-delivery",
+      "title_ko": "넷플릭스 IMF 패키지 납품",
+      "subtype": "패키지·납품",
+      "summary": "Netflix가 2023-04-24 도입했다고 설명하는 Backlot 납품 흐름이다. 실제 납품·검수 결과나 현행 계정 UI 검사 기록은 아니다.",
+      "facts": [
+        {
+          "field": "선택_단위",
+          "value": "납품마다 하나의 IMP와 CPL 선택을 기본으로 한다.",
+          "evidence": {
+            "source_id": "netflix-imf",
+            "locator": "본문 세 번째 설명 문단, L17",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "요청_연결",
+          "value": "IMP에 든 항목들을 기존 source request와 연결한다고 설명한다.",
+          "evidence": {
+            "source_id": "netflix-imf",
+            "locator": "마지막 본문 문단, L18",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "예상외_트랙",
+          "value": "예상하지 않은 새 트랙을 제공하면 페이지에서 사전 경고한다고 설명한다.",
+          "evidence": {
+            "source_id": "netflix-imf",
+            "locator": "마지막 본문 문단, L18",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "패키지·납품"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "dcp-composition-playlist",
+      "title_ko": "디지털 시네마 DCP 구성 목록",
+      "subtype": "패키지·극장 납품",
+      "summary": "DCI 공개 본문의 2023-03-01 초안을 기준으로 DCP 구성 관계만 기록한다. /latest/ 경로지만 최종·현행 규격이 아니므로 현재 극장 납품 승인 기준으로 사용하지 않는다.",
+      "facts": [
+        {
+          "field": "재생_목록_역할",
+          "value": "CPL은 트랙 파일의 순서와 재생·동기화 정보를 조합한다.",
+          "evidence": {
+            "source_id": "dci-draft",
+            "locator": "§5.2.3 Packaging Concepts, L1153–1158",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "버전별_목록",
+          "value": "영화의 버전 또는 언어 오디오 트랙별로 별도 CPL을 둔다고 설명한다.",
+          "evidence": {
+            "source_id": "dci-draft",
+            "locator": "§5.2.3 Packaging Concepts, L1158",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "목록_파일_형식",
+          "value": "이 초안은 CPL에 디지털 서명된 XML 텍스트 형식을 요구한다.",
+          "evidence": {
+            "source_id": "dci-draft",
+            "locator": "§5.4.2 File Format, L1337–1339",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "패키지·극장 납품"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "date": "2026-10-30",
+  "scope": "Final acceptance of the existing 29-category local metadata first pass, not complete target coverage or remote publication.",
+  "commands_reexecuted": false,
+  "full_suite": {
+    "commands_reexecuted": false,
+    "evidence_owner": "parent",
+    "parent_proof_reference": "data/web-research/parent-final-verification.json",
+    "parent_proof_sha256": "0fb6e024ca3fea7b786a06f56dfeeb907bbdebafee750835ff82684c5eb659c5",
+    "parent_evidence_only": {
+      "category_api_queries": 29,
+      "exact_export_matches_all_seed_table_values": true,
+      "staging_review_contract_commands": 58,
+      "normalizations_with_identical_seed_sha": 2,
+      "tests_passed": 86,
+      "typecheck_exit_code": 0,
+      "production_build_exit_code": 0,
+      "production_desktop_and_390px_captures_inspected": true,
+      "additional_creative_renders_inspected": true
+    }
+  },
+  "current_gate_checks": {
+    "reports_final_pass": true,
+    "reports_honest_shortfall": true,
+    "reports_separate_web_and_creative": true,
+    "seed_byte_sha_matches": true,
+    "actual_counts_match": true,
+    "web_category_counts_match_publication": true,
+    "creative_checks_pass": true,
+    "live_api_version_matches_publication": true,
+    "all_final_versions_agree": true,
+    "all_final_seed_hashes_agree": true,
+    "parent_proof_reference_hash_matches": true,
+    "protected_hashes_match": true,
+    "no_new_media_in_reported_scope": true,
+    "bounded_adapter_scope": true
+  },
+  "actual_seed": {
+    "path": "data/database-seed.json",
+    "read_via": "read",
+    "sha256_method": "SHA-256 of actual file bytes; also matched SHA-256 of the complete UTF-8 text read and parsed",
+    "bytes": 28395754,
+    "expected_sha256": "68877da58436ab95a88fc5d78cd1cbff191ee018396dd4701ecf266af0587860",
+    "actual_sha256": "68877da58436ab95a88fc5d78cd1cbff191ee018396dd4701ecf266af0587860",
+    "counts": {
+      "categories": 29,
+      "entries": 2749,
+      "media": 2914,
+      "original_prompt_templates": 2485,
+      "unique_prompt_entry_ids": 2485,
+      "web_accepted_nested_concept_keys": 482,
+      "unique_web_category_concept_keys": 482,
+      "web_categories": 29,
+      "web_source_claim_facts": 1484,
+      "web_media_candidates": 0,
+      "creative_targets": 16
+    },
+    "web_count_method": "Count keys under each parsed entries[].details.web_research; creative_metadata.basis references are excluded.",
+    "original_preservation_evidence": "Parent preservation proof and original-row tests; this gate directly counted current prompt rows, checked current seed bytes, and matched the four protected hashes, but did not reconstruct the original baseline."
+  },
+  "target_coverage": {
+    "status": "PARTIAL",
+    "target": 580,
+    "accepted_web_concepts": 482,
+    "shortfall": 98,
+    "new_web_entries": 264,
+    "existing_web_enrichments": 218,
+    "creative_descriptions_counted_as_web_concepts": false
+  },
+  "creative": {
+    "input_sha256": "5f65e7a6cafb1dd3f32bf5c6807bc5811c26c5d4fcac9b114d1ad4e36edaff56",
+    "actual_supplement_sha_matches_review_and_revision": true,
+    "review_status": "reviewed",
+    "accepted_count": 16,
+    "rejected_count": 0,
+    "applied_count": 16,
+    "accepted_entry_ids": [
+      "FS-0001",
+      "FS-0003",
+      "FS-0007",
+      "FS-0008",
+      "FS-0010",
+      "FS-0012",
+      "FS-0013",
+      "FS-0033",
+      "FS-0036",
+      "FS-0037",
+      "FS-0040",
+      "FS-0161",
+      "FS-0165",
+      "FS-0166",
+      "FS-0167",
+      "FS-0168"
+    ],
+    "supplement_review_revision_and_seed_target_sets_match": true,
+    "all_targets_existing_FS_studio_ids": true,
+    "all_seed_directions_and_categories_match_exact_approved_supplement": true,
+    "all_seed_targets_have_accepted_review_and_exact_input_sha": true,
+    "all_remain_labeled_proposal": true,
+    "new_creative_entries": 0,
+    "new_verified_web_facts": 0,
+    "new_media": 0,
+    "draft_header_interpretation": "The supplement retains its draft_pending_independent_review authoring header; the later exact-SHA independent review accepts all 16, and creative-revision records their application."
+  },
+  "runtime_version": {
+    "method": "GET",
+    "url": "http://127.0.0.1:5190/api/status",
+    "http_status": 200,
+    "response_sha256": "d6ac6beac67016d536589caad5d0802ac0214ed75d42f09a368345722bff74ac",
+    "actual": "frame-reference-db-20261029-v3.3-verified-drive-web-c9c7b7db80b88cf8411b1eca350a1a5d47fa472090a045e1b8862afc237f7866-creative-eb55dfc72cc16f4bade66dd9aaa7b3f0af43f10966be677a38d18909909f6793",
+    "publication_dataset_version": "frame-reference-db-20261029-v3.3-verified-drive-web-c9c7b7db80b88cf8411b1eca350a1a5d47fa472090a045e1b8862afc237f7866-creative-eb55dfc72cc16f4bade66dd9aaa7b3f0af43f10966be677a38d18909909f6793",
+    "matches": true,
+    "reported_entries": 2749,
+    "reported_categories": 29,
+    "all_29_category_queries_reexecuted": false,
+    "exact_export_reexecuted": false
+  },
+  "protected_files": [
+    {
+      "path": "data/drive-assets.json",
+      "expected_parent_sha256": "8afe001d78880664082ace10ee4449a18649632b118a89a4c8be2df98734cf93",
+      "actual_sha256": "8afe001d78880664082ace10ee4449a18649632b118a89a4c8be2df98734cf93",
+      "matches": true
+    },
+    {
+      "path": "data/drive-transfer-audit.json",
+      "expected_parent_sha256": "366e4d014a473b3bfcdc1ccbcbe52b61941c999d24fa82efe5c310de60fed34c",
+      "actual_sha256": "366e4d014a473b3bfcdc1ccbcbe52b61941c999d24fa82efe5c310de60fed34c",
+      "matches": true
+    },
+    {
+      "path": "data/drive-media-index.json",
+      "expected_parent_sha256": "761d7504c6952475a48f5650ad18b241d70c05ce455e4b5e0c1fe3ddaba063f3",
+      "actual_sha256": "761d7504c6952475a48f5650ad18b241d70c05ce455e4b5e0c1fe3ddaba063f3",
+      "matches": true
+    },
+    {
+      "path": "db/schema.ts",
+      "expected_parent_sha256": "ddb5cf1d3c7a77d9366c47ad4ce879fc55a368f8987633098d5682e6d22a61fb",
+      "actual_sha256": "ddb5cf1d3c7a77d9366c47ad4ce879fc55a368f8987633098d5682e6d22a61fb",
+      "matches": true
+    }
+  ],
+  "checked_input_sha256": {
+    "data/web-research/parent-final-verification.json": "0fb6e024ca3fea7b786a06f56dfeeb907bbdebafee750835ff82684c5eb659c5",
+    "data/web-research/runtime-verification.json": "03c7c61aec35e853b716830bc3bb284c406b542b95cdbeeafd5a126db616bd01",
+    "data/web-research/publication.json": "be5ccb44fdff15a05561151aa2c778b42db0ea8b7c67d68a675fbd7324324820",
+    "data/web-research/creative-supplement.json": "5f65e7a6cafb1dd3f32bf5c6807bc5811c26c5d4fcac9b114d1ad4e36edaff56",
+    "data/web-research/creative-supplement-review.json": "f3eb9b6e7946a42687d4a5447822c034b480957ef50c98c981056213104f58de",
+    "data/web-research/creative-revision.json": "e1abc57effe1dac660f108e29d320e5bc2486dd003f40ba039577c2e5ef722ba",
+    "docs/WEB_DB_POPULATION_RESULT.md": "2dc758e229f98d9d098cdc24198d23c4ca92b4363452f3e5ff46f95fc583a182",
+    "data/database-seed.json": "68877da58436ab95a88fc5d78cd1cbff191ee018396dd4701ecf266af0587860",
+    "data/drive-assets.json": "8afe001d78880664082ace10ee4449a18649632b118a89a4c8be2df98734cf93",
+    "data/drive-transfer-audit.json": "366e4d014a473b3bfcdc1ccbcbe52b61941c999d24fa82efe5c310de60fed34c",
+    "data/drive-media-index.json": "761d7504c6952475a48f5650ad18b241d70c05ce455e4b5e0c1fe3ddaba063f3",
+    "db/schema.ts": "ddb5cf1d3c7a77d9366c47ad4ce879fc55a368f8987633098d5682e6d22a61fb"
+  },
+  "evidence_limits": {
+    "additional_render_adapter_scope": "Parent evidence only: unchanged Catalog and original CSS rendered in Chrome; every GET delegated to the actual final production API, not fixtures. Temporary QA excluded only artificial data-origin history SecurityError and external font import. No renewed successful browser HTTP navigation is claimed.",
+    "historical_report_values": "Original web-only seed SHA, 72-test snapshots, transient build failure and prior FAIL findings remain historical. Final composition, reconciled runtime verdict, parent proof and final Markdown acceptance agree on PASS with 98 short.",
+    "media_rights": "No reproduction, commercial, personality or AI-upload permission is inferred from public access or attribution.",
+    "media_acquisition": "Zero new media acquisition is recorded by the parent/publication/runtime evidence; this gate made no media requests or downloads.",
+    "source_recollection": false,
+    "full_suite_or_browser_rerun": false,
+    "upstream_61_completed_nodes": "Untouched by this gate.",
+    "sole_written_path": "data/web-research/final-acceptance.json"
+  },
+  "failures": [],
+  "parent_cleanup": {
+    "owned_preview_5190_stopped": true,
+    "owned_temporary_browser_sessions_stopped": true,
+    "user_browser_not_stopped": true,
+    "tracked_test_tabs_closed": []
+  },
+  "parent_completion_audit": {
+    "dag_counts": {
+      "total": 62,
+      "pending": 0,
+      "blocked": 0,
+      "scheduled": 0,
+      "running": 0,
+      "completed": 62,
+      "failed": 0,
+      "cancelled": 0,
+      "skipped": 0
+    },
+    "current_checked_input_hashes": 12,
+    "current_hash_mismatches": 0,
+    "requested_scope": "29-category reviewed web population plus 16 metadata-only creative gap enrichments; all original local/API/data/render gates proven, with target shortfall and adapter limits explicit.",
+    "final_report": "docs/WEB_DB_POPULATION_RESULT.md"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "category_id": "handoff",
+  "collector": "handoff-primary-collector-st_01a18b4e",
+  "collected_at": "2026-10-30T05:44:30.423763+00:00",
+  "shortfall_reason": "목표 20개 중 6개만 근거를 확보했다. Runway 후보 4페이지는 HTTP 403, Google 문서 후보는 OAuth 리디렉션으로 본문이 읽히지 않아 전부 제외했다. 대체한 Google 공식 SDK 원문 두 파일에서 구별되는 6개 개념만 채택했다. 5개는 기존 가이드 보강이고 1개는 별도 크롭·패딩 개념이다. 페이지당 재서술 160단어 미만을 유지하며 같은 기능을 모델별로 중복 집계하지 않았다. SDK 필드와 README 예제는 특정 모델의 현재 가용성·지원 조합·품질 보장이 아니다. 모델 호출·미디어 취득·독립 검수·DB 반영은 하지 않았다. SDK source와 README를 메모리에서 전체 읽었고 검색 색인만으로 채택한 사실은 없다.",
+  "sources": [
+    {
+      "source_id": "sdk-types",
+      "url": "https://raw.githubusercontent.com/googleapis/python-genai/main/google/genai/types.py",
+      "title": "google/genai/types.py",
+      "publisher": "Google / googleapis",
+      "authors": [],
+      "checked_at": "2026-10-30T05:44:30.423763+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "VideoGenerationReferenceType; VideoGenerationReferenceImage; GenerateVideosSource; GenerateVideosConfig; ImageResizeMode; fetched file SHA-256 1a435d319fb2cd9da117ab962433c53783c3e5ab71851762574700ec975a5350",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://raw.githubusercontent.com/googleapis/python-genai/main/LICENSE",
+        "scope": "파일 헤더는 Apache License 2.0을 명시한다. 라이선스 원문 §4의 배포 조건을 읽었다. 코드 전체는 복제하지 않고 한국어 사실 요약만 기록한다.",
+        "attribution": "Google / googleapis, Google Gen AI Python SDK. 한국어 요약 작성. 코드 재배포 시 라이선스 사본·저작권 표시·변경 고지 및 해당 NOTICE 조건을 준수해야 한다. 미디어·인격권은 별도 미확인."
+      }
+    },
+    {
+      "source_id": "sdk-readme",
+      "url": "https://raw.githubusercontent.com/googleapis/python-genai/main/README.md",
+      "title": "Google Gen AI SDK — README.md",
+      "publisher": "Google / googleapis",
+      "authors": [],
+      "checked_at": "2026-10-30T05:44:30.423763+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Veo > Generate Videos (Text to Video), (Image to Video), (Video to Video); fetched file SHA-256 9548e07e90f9f35aeed69c16e532c6156d40c103d3136c59e1640b86dd05e2e2",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 README의 짧은 사실 요약만 기록한다. 저장소 LICENSE는 읽었지만 개별 예시 입력·생성물·제3자 미디어 권리는 확인하지 않았다. 문서 라이선스를 생성물에 확대하지 않는다.",
+        "attribution": "Google / googleapis, Google Gen AI Python SDK. 한국어 요약 작성. README 개별 저자 표시는 확인되지 않았다. 미디어 재사용 조건은 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "reference-role-mapping",
+      "title_ko": "복합 참조 역할표",
+      "subtype": "참조 역할",
+      "summary": "Google SDK의 역할 정의이며 모델별 지원은 미확인이다.",
+      "facts": [
+        {
+          "field": "자산 역할",
+          "value": "ASSET은 장면·물체·인물 참조다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "VideoGenerationReferenceType.ASSET docstring",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "스타일 역할",
+          "value": "STYLE은 색·조명·질감 등의 미적 참조다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "VideoGenerationReferenceType.STYLE docstring",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "역할 필드",
+          "value": "VideoGenerationReferenceImage는 image와 reference_type을 가진다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "VideoGenerationReferenceImage.image / reference_type",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "Google Gen AI SDK",
+        "참조 역할"
+      ],
+      "existing_entry_id": "CRAFT-handoff-eb58291cfb8c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "first-last-frame-state",
+      "title_ko": "첫 프레임과 끝 상태",
+      "subtype": "입출력 조건",
+      "summary": "Google SDK의 시작·종료 입력 구분을 보강한다.",
+      "facts": [
+        {
+          "field": "시작 입력",
+          "value": "입력 이미지는 GenerateVideosSource.image로 전달한다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "GenerateVideosSource.image",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "종료 입력",
+          "value": "last_frame은 마지막 프레임 이미지다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "GenerateVideosConfig.last_frame docstring",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사용 제한",
+          "value": "last_frame은 이미지→영상 용도만 지원한다고 설명한다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "GenerateVideosConfig.last_frame docstring",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "Google Gen AI SDK",
+        "입출력 조건"
+      ],
+      "existing_entry_id": "CRAFT-handoff-d3d4fda428f7",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "input-output-aspect-crop",
+      "title_ko": "입출력 화면비와 참조 크롭",
+      "subtype": "입출력 조건",
+      "summary": "Google SDK의 크롭·패딩은 같은 참조 입력의 변형 규칙이다.",
+      "facts": [
+        {
+          "field": "크롭",
+          "value": "CROP은 화면비에 맞추며 이미지 일부를 잃는다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "ImageResizeMode.CROP docstring",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "패딩",
+          "value": "PAD는 화면비를 맞추되 이미지 부분을 잃지 않는다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "ImageResizeMode.PAD docstring",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "설정 필드",
+          "value": "GenerateVideosConfig.resize_mode는 입력 이미지 크기 조정 모드다.",
+          "evidence": {
+            "source_id": "sdk-types",
+            "locator": "GenerateVideosConfig.resize_mode docstring",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "Google Gen AI SDK",
+        "입출력 조건"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "true-video-extension",
+      "title_ko": "실제 확장과 이어지는 새 클립",
+      "subtype": "입출력 조건",
+      "summary": "README의 확장 예제이며 현재 서비스 지원은 별도 확인이 필요하다.",
+      "facts": [
+        {
+          "field": "모드",
+          "value": "Video to Video 절은 기존 생성 영상의 확장을 설명한다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Video to Video), opening paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "입력 슬롯",
+          "value": "예제는 GenerateVideosSource.video에 Video 객체를 넣는다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Video to Video), source argument",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "주소 조건",
+          "value": "예제 주석은 Enterprise에 GCS, Gemini에 URI 입력을 요구한다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Video to Video), comment above video=types.Video",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "Google Gen AI SDK",
+        "입출력 조건"
+      ],
+      "existing_entry_id": "CRAFT-handoff-39267db718a0",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "generation-duration-envelope",
+      "title_ko": "보드 시간과 생성 시간",
+      "subtype": "시간·기능 제한",
+      "summary": "README의 길이 설정 예제일 뿐 보편적 상한은 아니다.",
+      "facts": [
+        {
+          "field": "예제 모델",
+          "value": "텍스트→영상 예제는 veo-3.1-generate-preview를 지정한다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Text to Video), model argument",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "길이 전달",
+          "value": "같은 예제는 duration_seconds=5를 전달한다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Text to Video), config argument",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "출력 수",
+          "value": "같은 예제는 number_of_videos=1을 전달한다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Text to Video), config argument",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "Google Gen AI SDK",
+        "시간·기능 제한"
+      ],
+      "existing_entry_id": "CRAFT-handoff-c83f6c54766c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "generation-versus-scene-success",
+      "title_ko": "생성 성공과 장면 성공",
+      "subtype": "버전·수용 기준",
+      "summary": "README의 완료 확인은 장면 품질 판정이 아니다.",
+      "facts": [
+        {
+          "field": "생성 반환",
+          "value": "generate_videos 호출 결과를 operation으로 받는다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Text to Video), Create operation",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "완료 확인",
+          "value": "operation.done 전까지 client.operations.get으로 상태를 갱신한다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Text to Video), Poll operation",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "출력 접근",
+          "value": "완료 후 response.generated_videos[0].video에 접근한다.",
+          "evidence": {
+            "source_id": "sdk-readme",
+            "locator": "Veo > Generate Videos (Text to Video), after polling loop",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "Google Gen AI SDK",
+        "버전·수용 기준"
+      ],
+      "existing_entry_id": "CRAFT-handoff-48508f79f57b",
+      "media_candidates": []
+    }
+  ]
+}

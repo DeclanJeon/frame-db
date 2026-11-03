@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: makeup-L01-A; concept: 광대 윤광 면적 축소.
+Class: creative; domain: makeup; entry: GEN-asset-makeup-L01-A.
+Parent entry IDs: ["FS-0031","CRAFT-makeup-144e623f091c"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["makeup-L01","expression-E00"]
+Reference roles: {"expression-E00":"identity","makeup-L01":"identity"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L01 photograph of identity A. Reduce only the area of the cheekbone sheen patches, keeping their peak reflection intensity and all pigment unchanged. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.
+Change only: Reduce only the area of the cheekbone sheen patches, keeping their peak reflection intensity and all pigment unchanged.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Cheekbone sheen area is visibly smaller; brightness at its center and other makeup match the parent.; Compare against the actual accepted parent input, not a separately invented face.
+Output: {"format":"png","height":1536,"width":1024}
+Preserve every feature of identity A, her natural skin texture and marks, all makeup colors and boundaries, lighting, pose, crop and clothing from the makeup-L01 parent reference except the requested reduction in the area of cheekbone sheen. Keep the peak brightness at the center of each sheen patch unchanged.

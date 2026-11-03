@@ -1,0 +1,30 @@
+{
+  "job_id": "makeup-L01-A",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-9501-74a2-bf89-44653d13baa3",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-9501-74a2-bf89-44653d13baa3",
+  "before_source_files": [
+    "exec-4f40980d-7c31-4ae7-969c-d90b05701fa9.png"
+  ],
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L01-A; concept: 광대 윤광 면적 축소.\nClass: creative; domain: makeup; entry: GEN-asset-makeup-L01-A.\nParent entry IDs: [\"FS-0031\",\"CRAFT-makeup-144e623f091c\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-L01\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-L01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L01 photograph of identity A. Reduce only the area of the cheekbone sheen patches, keeping their peak reflection intensity and all pigment unchanged. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.\nChange only: Reduce only the area of the cheekbone sheen patches, keeping their peak reflection intensity and all pigment unchanged.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Cheekbone sheen area is visibly smaller; brightness at its center and other makeup match the parent.; Compare against the actual accepted parent input, not a separately invented face.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nPreserve every feature of identity A, her natural skin texture and marks, all makeup colors and boundaries, lighting, pose, crop and clothing from the makeup-L01 parent reference except the requested reduction in the area of cheekbone sheen. Keep the peak brightness at the center of each sheen patch unchanged.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/makeup-L01.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "path": "public/generated/frame-assets/makeup-L01-A.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-9501-74a2-bf89-44653d13baa3/exec-72f09d05-85db-4c8e-b1ed-a39077ea9b89.png",
+  "sha256": "3dc588aaddbf9dcd6ae91fc0283d59c949007b6b6de10cdebd726ce2a26df6ae",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; requested finish delta visible",
+    "observations": "Viewed the actual 1024x1536 output against makeup-L01 and expression-E00. Identity A, skin texture, subject-left cheek mole, facial geometry, hair, expression, wardrobe and gray setup remain consistent. The cheekbone sheen is concentrated into a smaller bright patch while its center remains bright; other makeup pigment and boundaries appear unchanged."
+  }
+}

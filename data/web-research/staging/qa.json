@@ -1,0 +1,945 @@
+{
+  "schema_version": 1,
+  "category_id": "qa",
+  "collector": "omo-qa-collector-20261030",
+  "collected_at": "2026-10-30T05:32:47.011723+00:00",
+  "sources": [
+    {
+      "source_id": "vbench2",
+      "url": "https://arxiv.org/html/2503.21755",
+      "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness (arXiv v2, 2025-08-20)",
+      "publisher": "VBench-2.0 연구진 / arXiv",
+      "authors": [
+        "Dian Zheng",
+        "Ziqi Huang",
+        "Hongbo Liu",
+        "Kai Zou",
+        "Yinan He",
+        "Fan Zhang",
+        "Lulu Gu",
+        "Yuanhan Zhang",
+        "Jingwen He",
+        "Wei-Shi Zheng",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "checked_at": "2026-10-30T05:32:47.011723+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "III-A (1-a), (1-b), (1-c), (3-c), (4-d), (5-a), (5-b)",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문 열람·요약만 수행. 미디어 취득·재배포·상업 이용·AI 업로드 허락은 미확인.",
+        "attribution": "VBench-2.0 연구진 / arXiv 및 기재 저자에게 귀속. 개별 미디어 권리·추가 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "vbench",
+      "url": "https://arxiv.org/html/2311.17982",
+      "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models (arXiv v1, 2023-11-29)",
+      "publisher": "VBench 연구진 / arXiv",
+      "authors": [
+        "Ziqi Huang",
+        "Yinan He",
+        "Jiashuo Yu",
+        "Fan Zhang",
+        "Chenyang Si",
+        "Yuming Jiang",
+        "Yuanhan Zhang",
+        "Tianxing Wu",
+        "Qingyang Jin",
+        "Nattapol Chanpaisit",
+        "Yaohui Wang",
+        "Xinyuan Chen",
+        "Limin Wang",
+        "Dahua Lin",
+        "Yu Qiao",
+        "Ziwei Liu"
+      ],
+      "checked_at": "2026-10-30T05:32:47.011723+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "G.1 Temporal Flickering; Motion Smoothness; Dynamic Degree",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문 열람·요약만 수행. 미디어 취득·재배포·상업 이용·AI 업로드 허락은 미확인.",
+        "attribution": "VBench 연구진 / arXiv 및 기재 저자에게 귀속. 개별 미디어 권리·추가 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "videophy",
+      "url": "https://arxiv.org/html/2406.03520",
+      "title": "VideoPhy: Evaluating Physical Commonsense for Video Generation (arXiv v2, 2024-10-03)",
+      "publisher": "VideoPhy 연구진 / arXiv",
+      "authors": [
+        "Hritik Bansal",
+        "Zongyu Lin",
+        "Tianyi Xie",
+        "Zeshun Zong",
+        "Michal Yarom",
+        "Yonatan Bitton",
+        "Chenfanfu Jiang",
+        "Yizhou Sun",
+        "Kai-Wei Chang",
+        "Aditya Grover"
+      ],
+      "checked_at": "2026-10-30T05:32:47.011723+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "3.1 Metrics; 3.2 Human Evaluation",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문 열람·요약만 수행. 미디어 취득·재배포·상업 이용·AI 업로드 허락은 미확인.",
+        "attribution": "VideoPhy 연구진 / arXiv 및 기재 저자에게 귀속. 개별 미디어 권리·추가 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "columbia-axis",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/180-degree-rule/",
+      "title": "180-Degree Rule",
+      "publisher": "Columbia University Center for Teaching & Learning",
+      "authors": [],
+      "checked_at": "2026-10-30T05:32:47.011723+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입 두 문단; Ozu 사례 문단; 권리: About > Copyrights and Permissions",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 이외 사용은 허가하지 않는다고 명시. 클립·캡처 취득이나 재게시 없음.",
+        "attribution": "Columbia University Center for Teaching & Learning 및 기재 저자에게 귀속. 개별 미디어 권리·추가 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "netflix-sdh",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/217350977-English-USA-Timed-Text-Style-Guide",
+      "title": "English (USA) Timed Text Style Guide",
+      "publisher": "Netflix",
+      "authors": [],
+      "checked_at": "2026-10-30T05:32:47.011723+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "I.1 Accuracy of content; I.2 Character Limitation; I.3 Continuity; I.10 Line Treatment; I.14 Reading Speed Limits",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문 열람·요약만 수행. 미디어 취득·재배포·상업 이용·AI 업로드 허락은 미확인.",
+        "attribution": "Netflix 및 기재 저자에게 귀속. 개별 미디어 권리·추가 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "qctools-use",
+      "url": "https://bavc.github.io/qctools/how_to_use.html",
+      "title": "How to Use",
+      "publisher": "Bay Area Video Coalition (BAVC)",
+      "authors": [],
+      "checked_at": "2026-10-30T05:32:47.011723+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Playback and Visual Analysis; Create/Export a Report; Comments; View and Navigate Graphs",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문 열람·요약만 수행. 미디어 취득·재배포·상업 이용·AI 업로드 허락은 미확인.",
+        "attribution": "Bay Area Video Coalition (BAVC) 및 기재 저자에게 귀속. 개별 미디어 권리·추가 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "qctools-filters",
+      "url": "https://bavc.github.io/qctools/filter_descriptions.html",
+      "title": "Filter Descriptions",
+      "publisher": "Bay Area Video Coalition (BAVC)",
+      "authors": [],
+      "checked_at": "2026-10-30T05:32:47.011723+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Y Value Filters: Y MIN, Y AVG, Y MAX; Audio > Audio Diffs",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문 열람·요약만 수행. 미디어 취득·재배포·상업 이용·AI 업로드 허락은 미확인.",
+        "attribution": "Bay Area Video Coalition (BAVC) 및 기재 저자에게 귀속. 개별 미디어 권리·추가 허락은 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "identity-anchor-comparison",
+      "title_ko": "정체성 앵커 대조",
+      "subtype": "정체성",
+      "summary": "VBench-2.0 방법론. 미실행.",
+      "facts": [
+        {
+          "field": "특징_추출",
+          "value": "RetinaFace·ArcFace를 사용한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-c) Human Temporal Consistency - Identity",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "기준_프레임",
+          "value": "첫 프레임이 기본 앵커다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-c) Human Temporal Consistency - Identity",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "제외_구간",
+          "value": "다인·무인 구간은 제외한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-c) Human Temporal Consistency - Identity",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "정체성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-70cf9d6dd5f5",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "clothing-structure-continuity",
+      "title_ko": "옷의 구조 연속성",
+      "subtype": "정체성",
+      "summary": "VBench-2.0 방법론. 미실행.",
+      "facts": [
+        {
+          "field": "평가_목표",
+          "value": "의상의 시간적 유지를 평가한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-b) Human Temporal Consistency - Clothes",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "평가_방법",
+          "value": "다중 질문 영상 질의응답을 사용한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-b) Human Temporal Consistency - Clothes",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가림_쟁점",
+          "value": "가림·신체 변화가 특징 비교를 방해한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-b) Human Temporal Consistency - Clothes",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "정체성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-604000c85316",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "hand-anatomy-contact-check",
+      "title_ko": "손가락 수와 접촉",
+      "subtype": "접촉·물리",
+      "summary": "VBench-2.0 방법론. 미실행.",
+      "facts": [
+        {
+          "field": "검출_대상",
+          "value": "몸·손·얼굴 검출기를 구분한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-a) Human Anatomy; Figure 3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "분석_입력",
+          "value": "입력은 프레임별 검출 패치다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-a) Human Anatomy; Figure 3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "이상_집계",
+          "value": "어느 검출기든 이상이면 인물도 이상이다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (1-a) Human Anatomy; Figure 3",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "접촉·물리",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-40c316f85e92",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "prop-instance-preservation",
+      "title_ko": "소품 수량과 소유",
+      "subtype": "시간·연속성",
+      "summary": "VBench-2.0 방법론. 미실행.",
+      "facts": [
+        {
+          "field": "이상_유형",
+          "value": "합쳐짐·복제·소실을 다룬다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (5-b) Instance Preservation",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "검사_단위",
+          "value": "클립 단위 검출기를 학습한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (5-b) Instance Preservation",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정상_조건",
+          "value": "모든 클립 정상이어야 점수 1이다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (5-b) Instance Preservation",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-93f802d0434c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "completed-action-state-preservation",
+      "title_ko": "완료 상태의 보존",
+      "subtype": "접촉·물리",
+      "summary": "VBench-2.0 방법론. 미실행.",
+      "facts": [
+        {
+          "field": "평가_대상",
+          "value": "동작의 현실적 결과를 평가한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (5-a) Motion Rationality",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "오류_사례",
+          "value": "절단해도 안 나뉘는 오류를 예시한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (5-a) Motion Rationality",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "판정_방법",
+          "value": "다중 질문으로 동작 효과를 확인한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (5-a) Motion Rationality",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "접촉·물리",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-eb3b24265e5d",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "ordered-action-verification",
+      "title_ko": "동작 순서 일치 검사",
+      "subtype": "시간·연속성",
+      "summary": "VBench-2.0 방법론. 미실행.",
+      "facts": [
+        {
+          "field": "기준_분해",
+          "value": "요청을 두 동작으로 분리한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (3-c) Event - Motion Order Understanding",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "영상_추출",
+          "value": "영상 모델이 동작 순서를 기술한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (3-c) Event - Motion Order Understanding",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "통과_조건",
+          "value": "두 동작의 순차 일치가 정답이다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (3-c) Event - Motion Order Understanding",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "spatial-landmark-consistency",
+      "title_ko": "공간 랜드마크 일치",
+      "subtype": "시간·연속성",
+      "summary": "VBench-2.0 방법론. 미실행.",
+      "facts": [
+        {
+          "field": "평가_대상",
+          "value": "시점별 구조 유지를 본다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (4-d) Geometry - Multi-View Consistency",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "평가_요소",
+          "value": "매칭 안정성·카메라 속도를 고려한다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (4-d) Geometry - Multi-View Consistency",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "검증_한계",
+          "value": "3D 정답 부재로 직접 검증은 불가하다.",
+          "evidence": {
+            "source_id": "vbench2",
+            "locator": "III-A (4-d) Geometry - Multi-View Consistency",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-3f28a6a4a6a9",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "temporal-flicker-check",
+      "title_ko": "시간적 깜박임 검사",
+      "subtype": "시간·연속성",
+      "summary": "VBench는 국소 세부의 시간적 불안정을 별도 평가한다. 파일 측정은 미실시.",
+      "facts": [
+        {
+          "field": "검사_조건",
+          "value": "움직임 영향을 분리하려고 정적 장면을 사용한다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Temporal Flickering; equations (3)-(4)",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "장면_선별",
+          "value": "광학 흐름으로 움직임이 없는 영상을 남긴다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Temporal Flickering; equations (3)-(4)",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "비교_값",
+          "value": "인접 프레임 전체 픽셀의 평균 절대 오차를 계산한다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Temporal Flickering; equations (3)-(4)",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "motion-smoothness-check",
+      "title_ko": "동작 매끄러움 검사",
+      "subtype": "시간·연속성",
+      "summary": "VBench는 보간 복원 오차로 동작의 매끄러움을 평가한다. 실행하지 않았다.",
+      "facts": [
+        {
+          "field": "검사_구성",
+          "value": "홀수 프레임을 제거해 낮은 프레임률 영상을 만든다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Motion Smoothness",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "복원_단계",
+          "value": "영상 프레임 보간으로 제거한 프레임을 추정한다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Motion Smoothness",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "판정_지표",
+          "value": "복원본과 원래 프레임의 평균 절대 오차를 정규화한다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Motion Smoothness",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "dynamic-degree-static-shortcut",
+      "title_ko": "정지 영상 편향과 동적 정도",
+      "subtype": "시간·연속성",
+      "summary": "VBench는 정지 영상의 시간 일관성 점수상 이점을 별도로 점검한다.",
+      "facts": [
+        {
+          "field": "평가_이유",
+          "value": "정지 영상은 다른 시간 일관성 지표에서 유리할 수 있다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Dynamic Degree",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "운동_추정",
+          "value": "RAFT로 인접 프레임 광학 흐름을 추정한다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Dynamic Degree",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "집계_단위",
+          "value": "생성 영상 중 비정적 영상의 비율을 보고한다.",
+          "evidence": {
+            "source_id": "vbench",
+            "locator": "G.1 Dynamic Degree",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "physical-semantic-separate-verdicts",
+      "title_ko": "물리 타당성과 내용 일치의 분리 판정",
+      "subtype": "접촉·물리",
+      "summary": "VideoPhy의 내용·물리 이원 평가다. 이 배치에서 영상 판정은 하지 않았다.",
+      "facts": [
+        {
+          "field": "내용_기준",
+          "value": "SA는 동작·사건·개체·관계가 요청 내용에 맞는지 평가한다.",
+          "evidence": {
+            "source_id": "videophy",
+            "locator": "3.1 Semantic Adherence (SA)",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "물리_기준",
+          "value": "PC는 묘사된 움직임과 물체 상태의 물리 상식 부합을 평가한다.",
+          "evidence": {
+            "source_id": "videophy",
+            "locator": "3.1 Physical Commonsense (PC)",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "독립_판정",
+          "value": "검사자는 SA와 PC를 독립적인 0/1 점수로 부여한다.",
+          "evidence": {
+            "source_id": "videophy",
+            "locator": "3.2 Human Evaluation",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "접촉·물리",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "eyeline-dialogue-axis",
+      "title_ko": "시선과 대화 축",
+      "subtype": "시간·연속성",
+      "summary": "Columbia의 축 설명을 보강했다. 예제 클립은 재생하지 않았다.",
+      "facts": [
+        {
+          "field": "기본_배치",
+          "value": "카메라를 행동 축 한쪽에 두어 화면상 인물 위치를 유지한다.",
+          "evidence": {
+            "source_id": "columbia-axis",
+            "locator": "도입 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "축_횡단_위험",
+          "value": "축을 넘으면 인물 위치가 뒤바뀐 인상을 줄 수 있다.",
+          "evidence": {
+            "source_id": "columbia-axis",
+            "locator": "도입 두 번째 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "의도적_예외",
+          "value": "Ozu 사례는 축·시선 관례를 깨면서도 장면 연속성을 유지한다고 설명한다.",
+          "evidence": {
+            "source_id": "columbia-axis",
+            "locator": "Ozu 사례 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-1139d892b607",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subtitle-audio-transcript-comparison",
+      "title_ko": "자막 원문과 음성 대조",
+      "subtype": "실제 검사 파일과 판정",
+      "summary": "Netflix 미국 영어 SDH의 원음 대조 기준이다. 한국어 기준이나 실제 전사 검증이 아니다.",
+      "facts": [
+        {
+          "field": "원문_보존",
+          "value": "SDH는 대사를 의역하지 않고 음성에 가깝게 전사한다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.1 Accuracy of content",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발화_순서",
+          "value": "원어 방언의 어휘 선택과 문장 순서를 따른다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.1 Accuracy of content",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "더빙_기준",
+          "value": "영어 더빙은 더빙 대본·음성을 SDH의 기준으로 삼는다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.1 Accuracy of content",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "실제 검사 파일과 판정",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-351d51611609",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subtitle-continuation-pause-check",
+      "title_ko": "자막 문장 연결과 쉼 검사",
+      "subtype": "시간·연속성",
+      "summary": "Netflix 미국 영어 SDH의 문장 연결 규칙이다. 실제 타이밍은 미측정.",
+      "facts": [
+        {
+          "field": "연속_문장",
+          "value": "쉼이 2초 미만인 연속 자막 사이에는 말줄임표·대시를 쓰지 않는다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.3 Continuity",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "쉼_기준",
+          "value": "2초 이상 쉼이나 말끝 흐림에는 말줄임표를 쓴다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.3 Continuity",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "급작_중단",
+          "value": "행동·소리·다른 화자에 의한 급작 중단은 하이픈 두 개로 표시한다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.3 Continuity",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시간·연속성",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subtitle-readability-limit-check",
+      "title_ko": "자막 가독성 한도 검사",
+      "subtype": "실제 검사 파일과 판정",
+      "summary": "Netflix 미국 영어 SDH 한도다. 측정 결과나 보편적 한국어 한도가 아니다.",
+      "facts": [
+        {
+          "field": "줄당_문자",
+          "value": "한 줄은 42자까지다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.2 Character Limitation",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "최대_줄수",
+          "value": "두 줄을 넘지 않는다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.10 Line Treatment",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "읽기_속도",
+          "value": "성인용은 초당 20자, 아동용은 초당 17자까지다.",
+          "evidence": {
+            "source_id": "netflix-sdh",
+            "locator": "I.14 Reading Speed Limits",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "실제 검사 파일과 판정",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "frame-linked-inspection-report",
+      "title_ko": "프레임 연결 검사 보고서",
+      "subtype": "실제 검사 파일과 판정",
+      "summary": "QCTools 문서는 검사 데이터와 프레임별 의견의 저장 방식을 설명한다. 보고서는 생성하지 않았다.",
+      "facts": [
+        {
+          "field": "결과_파일",
+          "value": "분석 데이터는 .qctools.xml.gz 압축 XML로 내보낼 수 있다.",
+          "evidence": {
+            "source_id": "qctools-use",
+            "locator": "Create/Export a Report",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "위치_추적",
+          "value": "그래프 탐색 시 대응 프레임 번호와 타임스탬프가 표시된다.",
+          "evidence": {
+            "source_id": "qctools-use",
+            "locator": "View and Navigate Graphs",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "판정_메모",
+          "value": "댓글은 선택 프레임에 연결되고 XML에서 그 프레임 아래 저장된다.",
+          "evidence": {
+            "source_id": "qctools-use",
+            "locator": "Comments",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "실제 검사 파일과 판정",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "playback-coverage-audibility",
+      "title_ko": "재생 검사 범위와 청취 한계",
+      "subtype": "실제 검사 파일과 판정",
+      "summary": "QCTools 문서는 모든 프레임 표시와 정속 재생을 구별한다. 실제 재생·청취는 미실시.",
+      "facts": [
+        {
+          "field": "전수_표시",
+          "value": "Play All Frames는 필요하면 느리게 재생하여 모든 프레임을 표시한다.",
+          "evidence": {
+            "source_id": "qctools-use",
+            "locator": "Playback and Visual Analysis",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정속_누락",
+          "value": "Play at Frame Rate는 속도 유지를 위해 프레임을 버릴 수 있다.",
+          "evidence": {
+            "source_id": "qctools-use",
+            "locator": "Playback and Visual Analysis",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "청취_제한",
+          "value": "이 문서의 재생기는 오디오를 시각화하지만 들려주지 않는다고 명시한다.",
+          "evidence": {
+            "source_id": "qctools-use",
+            "locator": "Playback and Visual Analysis",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "실제 검사 파일과 판정",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "black-frame-audio-discontinuity",
+      "title_ko": "검은 프레임과 오디오 단절",
+      "subtype": "실제 검사 파일과 판정",
+      "summary": "QCTools의 휘도·오디오 차분 지표 설명이다. 실제 출력 파일의 결함 판정은 없다.",
+      "facts": [
+        {
+          "field": "휘도_변화",
+          "value": "장면 전환 외 급격한 평균 Y 변화는 영상 오류의 징후일 수 있다.",
+          "evidence": {
+            "source_id": "qctools-filters",
+            "locator": "Y Value Filters: Y MIN, Y AVG, Y MAX",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정상_변화",
+          "value": "페이드나 카메라 플래시도 휘도 급변을 만들 수 있다.",
+          "evidence": {
+            "source_id": "qctools-filters",
+            "locator": "Y Value Filters: Y MIN, Y AVG, Y MAX",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "음성_단절_징후",
+          "value": "연속 오디오 샘플 최대 차이의 급증은 중간 오류의 징후일 수 있다.",
+          "evidence": {
+            "source_id": "qctools-filters",
+            "locator": "Audio > Audio Diffs",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "실제 검사 파일과 판정",
+        "출처 방법론",
+        "실제 파일 미검사"
+      ],
+      "existing_entry_id": "CRAFT-qa-e3cf469359eb",
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": "18개 개념만 채택했다. 20개를 맞추기 위한 유사 개념 분할은 하지 않았다. 발 접지·체중 이동, 광원 위치, 발화자 입 움직임, 청자 반응, 음색, 수정 후 재검사·사용자 수락·실제 프리비즈는 이번 열람 자료로 각각 최소 3개 사실을 충분히 뒷받침하지 못해 보류했다. Netflix QC Error Codes 접근 실패는 공개 QCTools 문서로 보완했고 검색 색인만의 주장은 제외했다. 모든 사실은 출처 방법론 설명이다. 실제 검사 파일·구간·관찰·측정·합격 판정과 미디어 확보는 0건이다."
+}

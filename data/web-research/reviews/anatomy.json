@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "category_id": "anatomy",
+  "input_sha256": "e50d8391c572011bdfc5858b1a38c6eda7aef436b13e93abaff2016fcf33e99a",
+  "reviewer": "anatomy-independent-reviewer-st_01a18af3",
+  "reviewed_at": "2026-10-30T04:00:27.098341+00:00",
+  "accepted_concept_keys": [
+    "feature-location-map",
+    "anatomical-section-planes",
+    "loomis-cranium-jaw-masses",
+    "face-multiview-reference",
+    "frontal-face-reference",
+    "eye-spacing-reference",
+    "eyelid-planes-reference",
+    "nose-front-profile-continuity",
+    "lip-volume-reference",
+    "hand-scale-shape-reference",
+    "shoulder-pelvis-reference",
+    "limb-length-relationships",
+    "skeletal-versus-soft-landmarks",
+    "anterior-torso-centerline",
+    "posterior-torso-landmarks",
+    "figure-envelope-perimeter",
+    "figure-negative-shape-comparison"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "nci-seer-terminology",
+      "url": "https://training.seer.cancer.gov/anatomy/body/terminology.html",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Directional Terms L132-141; Planes of the Body L146-153",
+      "rights_checked": true,
+      "notes": "NCI SEER 제목·기관 표시와 방향·평면 본문을 재개방했다. 공개 본문은 확인했으나 도판별 재사용 허가를 확인하지 않았다. unknown/null을 유지하며 정부 사이트를 미디어 공개 라이선스로 추정하지 않는다."
+    },
+    {
+      "source_id": "proko-head",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-the-head-from-any-angle",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes > Drawing the Head L82-88; Assignments > Draw the Loomis Head L134-135",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 두 덩어리 모델, 회전, 개인차 본문을 확인했다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-front",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-the-head-front-view",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes > Drawing the Head - Front View L85-91",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 귀·눈썹, 중심선, 귀 배치 문단을 확인했다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-side",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-the-head-side-view",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes L79-84",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 정측면 측면 원형·개인 윤곽 차이 본문을 확인했다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-eyes",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-eyes-anatomy-and-structure",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes > Placement L85-89; Eyelids L97-103",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 배치 경험칙·눈꺼풀 면 구성을 확인했다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-nose",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-a-nose-anatomy-and-structure",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes > Major Planes L81-85",
+      "rights_checked": true,
+      "notes": "정규 URL의 최초 요청은 시간초과였다. /notes를 열자 같은 정규 URL로 연결되어 Stan Prokopenko의 실제 Major Planes 본문을 읽었다. 정면·회전·상향 문단을 확인했다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-lips",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-lips-anatomy-and-structure",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes > Basic Forms L79-80; Minor Forms L96-98",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 치열 원통·입술 덩어리·겹침 본문을 확인했다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-hand",
+      "url": "https://www.proko.com/course-lesson/how-to-draw-hand-bones-anatomy-for-artists",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes > Drawing the Hand Bones L120-122",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 길이 근사·반분법·손바닥 물갈퀴 본문을 확인했다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-landmarks",
+      "url": "https://www.proko.com/course-lesson/landmarks-of-the-human-body",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes L67-71; Centerline of the Front L74-77; Lateral landmarks of the Front L82-86; Lateral landmarks of the Back L89-95",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 골성/연부조직·앞/뒤 몸통 기준점을 확인했다. 체형 분류나 개인 실측의 검증으로 확대하지 않는다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    },
+    {
+      "source_id": "proko-measuring",
+      "url": "https://www.proko.com/course-lesson/measuring-techniques",
+      "checked_at": "2026-10-30T04:00:27.098341+00:00",
+      "access": "public_body",
+      "locator": "Lesson Notes L65; Measure with your Pencil L75-77; Shapes and Angles L87-89; Each Pose is Unique L105-107; Negative Shapes L108-110",
+      "rights_checked": true,
+      "notes": "Stan Prokopenko 저자·제목과 단축·비례 비교·외곽법·음형 본문을 확인했다. 외곽법과 음형은 구별되는 방법이며 신체 실측은 수행하지 않았다. 공개 Lesson Notes만 확인했다. https://www.proko.com/terms-of-use 는 제목·사이트 셸만 반환하여 이용조건 본문은 검증하지 못했다. 명시적 재사용 라이선스는 확인되지 않았으므로 unknown/null이 타당하다. 짧은 출처 귀속 요약·링크만 채택하며 사진·도해·영상·전문·상업 재배포 또는 AI 업로드 허가로 해석하지 않는다. 미디어 다운로드·재생·검사 없음."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "feature-location-map",
+      "field": "위쪽_방향",
+      "source_id": "nci-seer-terminology",
+      "locator": "Directional Terms > Superior or cranial",
+      "verdict": "supported",
+      "notes": "Directional Terms L134: superior/cranial의 머리쪽·위쪽 정의와 일치. FS-0155의 위치 기술 보강일 뿐 점·흉터 관찰은 아님."
+    },
+    {
+      "concept_key": "feature-location-map",
+      "field": "전면_방향",
+      "source_id": "nci-seer-terminology",
+      "locator": "Directional Terms > Anterior or ventral",
+      "verdict": "supported",
+      "notes": "Directional Terms L137: anterior/ventral의 앞쪽 정의와 일치."
+    },
+    {
+      "concept_key": "feature-location-map",
+      "field": "안쪽_방향",
+      "source_id": "nci-seer-terminology",
+      "locator": "Directional Terms > Medial",
+      "verdict": "supported",
+      "notes": "Directional Terms L141: medial의 정중선 방향 정의와 일치."
+    },
+    {
+      "concept_key": "anatomical-section-planes",
+      "field": "시상면",
+      "source_id": "nci-seer-terminology",
+      "locator": "Planes of the Body > Sagittal Plane (Lateral Plane)",
+      "verdict": "supported",
+      "notes": "Planes of the Body L150: 앞뒤 수직면·좌우 분할과 일치. 정중면의 동일한 양분으로 확대하지 않음."
+    },
+    {
+      "concept_key": "anatomical-section-planes",
+      "field": "관상면",
+      "source_id": "nci-seer-terminology",
+      "locator": "Planes of the Body > Coronal Plane (Frontal Plane)",
+      "verdict": "supported",
+      "notes": "Planes of the Body L148: 좌우 수직면·앞뒤 분할과 일치."
+    },
+    {
+      "concept_key": "anatomical-section-planes",
+      "field": "횡단면",
+      "source_id": "nci-seer-terminology",
+      "locator": "Planes of the Body > Axial Plane (Transverse Plane)",
+      "verdict": "supported",
+      "notes": "Planes of the Body L151: 수평면·상하 분할과 일치. 촬영 시점과 별개."
+    },
+    {
+      "concept_key": "loomis-cranium-jaw-masses",
+      "field": "두개_기본형",
+      "source_id": "proko-head",
+      "locator": "Lesson Notes, 두 번째 문단의 두 기본 덩어리 설명",
+      "verdict": "supported",
+      "notes": "Drawing the Head L84: 두개를 구로 단순화하는 저자의 모델과 일치."
+    },
+    {
+      "concept_key": "loomis-cranium-jaw-masses",
+      "field": "측면_평탄화",
+      "source_id": "proko-head",
+      "locator": "Lesson Notes, 두 기본 덩어리 다음 문단의 두개 양옆 설명",
+      "verdict": "supported",
+      "notes": "Drawing the Head L86: 양옆 절단으로 평탄한 측면을 만드는 설명과 일치."
+    },
+    {
+      "concept_key": "loomis-cranium-jaw-masses",
+      "field": "턱_기본형",
+      "source_id": "proko-head",
+      "locator": "Lesson Notes, 두 번째 문단의 두 기본 덩어리 설명",
+      "verdict": "supported",
+      "notes": "Drawing the Head L84: 턱을 상자형 덩어리로 구분한 설명과 일치. 개인 턱각의 계측 아님."
+    },
+    {
+      "concept_key": "face-multiview-reference",
+      "field": "좌우_회전_표현",
+      "source_id": "proko-head",
+      "locator": "Drawing the Head, Finding the Left and Right turn paragraph",
+      "verdict": "supported",
+      "notes": "Drawing the Head L88: 앞면·측면 크기 비교로 좌우 회전을 찾는 설명과 일치. FS-0154 보강이며 5장 촬영 규격의 근거는 아님."
+    },
+    {
+      "concept_key": "face-multiview-reference",
+      "field": "측면_기본형",
+      "source_id": "proko-side",
+      "locator": "Lesson Notes, paragraph beginning Start with the ball",
+      "verdict": "supported",
+      "notes": "Side View Lesson Notes L80: 정측면의 측면 원형 구성과 일치. 그림을 직접 관찰한 결과가 아닌 본문 주장."
+    },
+    {
+      "concept_key": "face-multiview-reference",
+      "field": "개인_비례_차이",
+      "source_id": "proko-head",
+      "locator": "Assignments > Draw the Loomis Head, first paragraph",
+      "verdict": "supported",
+      "notes": "Draw the Loomis Head L135: 개인 비례와 평균 모델의 차이를 명시함. 보편 치수로 바꾸지 않음."
+    },
+    {
+      "concept_key": "frontal-face-reference",
+      "field": "정면_중심선",
+      "source_id": "proko-front",
+      "locator": "Lesson Notes, 단축 설명 직전 턱 부착·중심선 문단",
+      "verdict": "supported",
+      "notes": "Drawing the Head - Front View L91: 정면의 중심선 중앙 배치와 일치. FS-0153 보강이며 확산광 효과 검증은 아님."
+    },
+    {
+      "concept_key": "frontal-face-reference",
+      "field": "수평_머리_기준",
+      "source_id": "proko-front",
+      "locator": "Lesson Notes, 귀와 눈썹 높이 비교 문단의 마지막 문장",
+      "verdict": "supported",
+      "notes": "Drawing the Head - Front View L89: 귀·눈썹 동높이의 straight-ahead 기준과 일치. 평균 구성 설명으로 한정."
+    },
+    {
+      "concept_key": "frontal-face-reference",
+      "field": "귀_배치",
+      "source_id": "proko-front",
+      "locator": "Lesson Notes, 단축 설명 직전 턱 부착·중심선 문단의 마지막 문장",
+      "verdict": "supported",
+      "notes": "Drawing the Head - Front View L91: 귀의 가운데 삼분 구간 배치와 일치. 개인 실측 아님."
+    },
+    {
+      "concept_key": "eye-spacing-reference",
+      "field": "눈_사이_근사",
+      "source_id": "proko-eyes",
+      "locator": "Placement, 첫 문단 다음의 눈 너비 경험칙 문장",
+      "verdict": "supported",
+      "notes": "Placement L89: 눈 너비와 눈 사이 거리의 대략적 경험칙과 일치. 기존 눈 간격 항목 보강이며 불변 비율 아님."
+    },
+    {
+      "concept_key": "eye-spacing-reference",
+      "field": "눈_높이_조건",
+      "source_id": "proko-eyes",
+      "locator": "Placement, 첫 문단의 눈 높이 설명",
+      "verdict": "supported",
+      "notes": "Placement L88: 상하 기울임 없는 눈 중심의 대체적 얼굴 중앙 배치와 일치."
+    },
+    {
+      "concept_key": "eye-spacing-reference",
+      "field": "안쪽_위치_관계",
+      "source_id": "proko-eyes",
+      "locator": "Placement, 첫 문단의 콧방울·눈물길 수직 관계 설명",
+      "verdict": "supported",
+      "notes": "Placement L88: 정면 콧방울에서 눈 안쪽으로 올라가는 배치 단서와 일치. 개인 좌표 측정 아님."
+    },
+    {
+      "concept_key": "eyelid-planes-reference",
+      "field": "눈꺼풀_감싸기",
+      "source_id": "proko-eyes",
+      "locator": "Eyelids, first paragraph",
+      "verdict": "supported",
+      "notes": "Eyelids L98: 구형 안구를 감싸는 눈꺼풀 설명과 일치. 기존 눈꺼풀 항목 보강."
+    },
+    {
+      "concept_key": "eyelid-planes-reference",
+      "field": "단순화_면_개수",
+      "source_id": "proko-eyes",
+      "locator": "Eyelids, first paragraph",
+      "verdict": "supported",
+      "notes": "Eyelids L98: 저자가 쓰는 윗눈꺼풀 3면·아랫눈꺼풀 2면 구성과 일치. 수집자의 측정 아님."
+    },
+    {
+      "concept_key": "eyelid-planes-reference",
+      "field": "측면_돌출",
+      "source_id": "proko-eyes",
+      "locator": "Eyelids, 눈꺼풀 두께·음영 문단 다음의 측면 돌출 문장",
+      "verdict": "supported",
+      "notes": "Eyelids L103: 측면 윗눈꺼풀의 전방 돌출 설명과 일치. 눈꼬리 각도 값은 주장하지 않음."
+    },
+    {
+      "concept_key": "nose-front-profile-continuity",
+      "field": "정면_코끝",
+      "source_id": "proko-nose",
+      "locator": "Major Planes, 상자 원근 설명 다음의 정면·좌우 회전 문단",
+      "verdict": "supported",
+      "notes": "Major Planes L84: 단순 모델의 정면 코끝 중심 정렬·양옆 면 동폭과 일치. 기존 코 항목 보강."
+    },
+    {
+      "concept_key": "nose-front-profile-continuity",
+      "field": "회전_가림",
+      "source_id": "proko-nose",
+      "locator": "Major Planes, 정면·좌우 회전 문단의 반측면 가림 설명",
+      "verdict": "supported",
+      "notes": "Major Planes L84: 회전 시 먼 면 축소·약 3/4에서 가림과 일치. 관찰·회전각 계측 아님."
+    },
+    {
+      "concept_key": "nose-front-profile-continuity",
+      "field": "올려다본_아랫면",
+      "source_id": "proko-nose",
+      "locator": "Major Planes, 정면·좌우 회전 다음 문단의 위 기울임 설명",
+      "verdict": "supported",
+      "notes": "Major Planes L85: 상향 기울임의 아랫면 확대·눈과 코끝의 투영상 접근과 일치. 실제 코 길이 변화 아님."
+    },
+    {
+      "concept_key": "lip-volume-reference",
+      "field": "입_기저_덩어리",
+      "source_id": "proko-lips",
+      "locator": "Basic Forms, first paragraph",
+      "verdict": "supported",
+      "notes": "Basic Forms L80: 코와 턱 사이 부푼 원통형 단순화와 일치. 기존 입술 비율 항목 보강이나 고정 개인 비율은 아님."
+    },
+    {
+      "concept_key": "lip-volume-reference",
+      "field": "입술_덩어리_구분",
+      "source_id": "proko-lips",
+      "locator": "Minor Forms, first paragraph",
+      "verdict": "supported",
+      "notes": "Minor Forms L98: 윗입술 3덩어리·아랫입술 2덩어리 설명과 일치."
+    },
+    {
+      "concept_key": "lip-volume-reference",
+      "field": "비스듬한_시점",
+      "source_id": "proko-lips",
+      "locator": "Minor Forms, 첫 문단의 비스듬한 시점·겹침 설명",
+      "verdict": "supported",
+      "notes": "Minor Forms L98: 비스듬한 시점에서 덩어리 겹침이 생기는 설명과 일치."
+    },
+    {
+      "concept_key": "hand-scale-shape-reference",
+      "field": "얼굴과_손_근사",
+      "source_id": "proko-hand",
+      "locator": "Lesson Notes, 손목·손바닥·손가락 세 구분 도입 문단",
+      "verdict": "supported",
+      "notes": "Drawing the Hand Bones L120: 손 전체와 얼굴 길이의 근사 설명과 일치. 기존 손 항목 보강이며 인체 실측 데이터 아님."
+    },
+    {
+      "concept_key": "hand-scale-shape-reference",
+      "field": "반분_기준점",
+      "source_id": "proko-hand",
+      "locator": "Lesson Notes, 세 구분 도입 다음의 반분 절차 문단",
+      "verdict": "supported",
+      "notes": "Drawing the Hand Bones L121: 손목~중지 끝의 반분이 손허리뼈 끝 마디인 기준과 일치."
+    },
+    {
+      "concept_key": "hand-scale-shape-reference",
+      "field": "표면별_손가락_길이",
+      "source_id": "proko-hand",
+      "locator": "Lesson Notes, 반분 절차 다음의 손바닥 물갈퀴 설명 문단",
+      "verdict": "supported",
+      "notes": "Drawing the Hand Bones L122: 손바닥 물갈퀴로 손등·손바닥에서 손가락 길이가 달라 보인다는 설명과 일치."
+    },
+    {
+      "concept_key": "shoulder-pelvis-reference",
+      "field": "어깨_기준점",
+      "source_id": "proko-landmarks",
+      "locator": "Lateral landmarks of the Front, first paragraph",
+      "verdict": "supported",
+      "notes": "Lateral landmarks of the Front L84: 견봉의 어깨 각도 기준과 일치. 기존 어깨·골반 항목 보강이며 너비 비율은 제공하지 않음."
+    },
+    {
+      "concept_key": "shoulder-pelvis-reference",
+      "field": "독립적_어깨_운동",
+      "source_id": "proko-landmarks",
+      "locator": "앞면 가쪽 기준점 절, 두 번째 문단의 어깨 올리기 예시",
+      "verdict": "supported",
+      "notes": "Lateral landmarks of the Front L85: 어깨 올리기 때 흉곽과 독립적인 각도 변화 설명과 일치."
+    },
+    {
+      "concept_key": "shoulder-pelvis-reference",
+      "field": "골반_기준점",
+      "source_id": "proko-landmarks",
+      "locator": "앞면 가쪽 기준점 절, 세 번째 문단의 ASIS 설명",
+      "verdict": "supported",
+      "notes": "Lateral landmarks of the Front L86: ASIS를 골반 각도 기준으로 쓰는 설명과 일치."
+    },
+    {
+      "concept_key": "limb-length-relationships",
+      "field": "단축_영향",
+      "source_id": "proko-measuring",
+      "locator": "Lesson Notes introduction, paragraph beginning In the last lesson",
+      "verdict": "supported",
+      "notes": "Lesson Notes L65: 정적 자세 이탈 시 단축에 따른 보이는 비례 변화와 일치. 기존 팔다리 항목 보강."
+    },
+    {
+      "concept_key": "limb-length-relationships",
+      "field": "부위_간_비교",
+      "source_id": "proko-measuring",
+      "locator": "Measure with your Pencil, final sentences about arm and lower leg",
+      "verdict": "supported",
+      "notes": "Measure with your Pencil L75-77: 연필 단위로 팔·종아리 관계를 비교하는 방법과 일치. 모든 팔과 종아리가 같다는 뜻 아님."
+    },
+    {
+      "concept_key": "limb-length-relationships",
+      "field": "자세별_비례",
+      "source_id": "proko-measuring",
+      "locator": "Each Pose is Unique, first paragraph",
+      "verdict": "supported",
+      "notes": "Each Pose is Unique L106: 팔꿈치~손끝의 머리 단위 값이 자세별로 다른 예시와 일치. 실제 사진 측정 아님."
+    },
+    {
+      "concept_key": "skeletal-versus-soft-landmarks",
+      "field": "골성_기준점_정의",
+      "source_id": "proko-landmarks",
+      "locator": "Lesson Notes 도입부, 측정·제스처와 표면 뼈 기준점 문단",
+      "verdict": "supported",
+      "notes": "Lesson Notes L67: 표면에 드러난 뼈 부위를 기준점으로 쓰는 정의와 일치. 기존 특정 체형 분류와는 다른 일반 원리."
+    },
+    {
+      "concept_key": "skeletal-versus-soft-landmarks",
+      "field": "체형_변화_구분",
+      "source_id": "proko-landmarks",
+      "locator": "Lesson Notes 도입부, 마른·근육질·큰 체형을 비교한 문단",
+      "verdict": "supported",
+      "notes": "Lesson Notes L68: 근육·지방의 더 큰 체형 차이라는 저자 설명과 일치. 골격 동일성을 절대화하지 않음."
+    },
+    {
+      "concept_key": "skeletal-versus-soft-landmarks",
+      "field": "연부조직_기준점",
+      "source_id": "proko-landmarks",
+      "locator": "Lesson Notes 도입부, 앞면 중심선 절 직전의 연부조직 기준점 문단",
+      "verdict": "supported",
+      "notes": "Lesson Notes L71: 배꼽·유두 등 연부조직 기준점의 더 큰 변이와 일치."
+    },
+    {
+      "concept_key": "anterior-torso-centerline",
+      "field": "상단_기준점",
+      "source_id": "proko-landmarks",
+      "locator": "앞면 중심선 절, 첫 문단의 상단 기준점",
+      "verdict": "supported",
+      "notes": "Centerline of the Front L76: 빗장뼈 사이 목아래 오목점에서 시작하는 순서와 일치."
+    },
+    {
+      "concept_key": "anterior-torso-centerline",
+      "field": "아래쪽_순서",
+      "source_id": "proko-landmarks",
+      "locator": "앞면 중심선 절, 첫 문단의 아래쪽 점 순서",
+      "verdict": "supported",
+      "notes": "Centerline of the Front L76: 복장뼈 아래끝→배꼽→두덩뼈 순서와 일치."
+    },
+    {
+      "concept_key": "anterior-torso-centerline",
+      "field": "연결_곡선",
+      "source_id": "proko-landmarks",
+      "locator": "앞면 중심선 절, 두 번째 문단",
+      "verdict": "supported",
+      "notes": "Centerline of the Front L77: 해당 점의 C/S 곡선 연결과 일치. 후면 점이나 전신 외곽법과 별개."
+    },
+    {
+      "concept_key": "posterior-torso-landmarks",
+      "field": "어깨뼈_능선",
+      "source_id": "proko-landmarks",
+      "locator": "뒷면 가쪽 기준점 절, 어깨뼈 능선과 안쪽 모서리 문단",
+      "verdict": "supported",
+      "notes": "Lateral landmarks of the Back L92: 견봉부터 안쪽 모서리까지 어깨뼈가시 능선 설명과 일치."
+    },
+    {
+      "concept_key": "posterior-torso-landmarks",
+      "field": "목_기준점",
+      "source_id": "proko-landmarks",
+      "locator": "뒷면 가쪽 기준점 절, 어깨뼈 문단 다음의 일곱째 목뼈 문장",
+      "verdict": "supported",
+      "notes": "Lateral landmarks of the Back L94: 일곱째 목뼈의 자주 쓰는 기준점 지위와 일치."
+    },
+    {
+      "concept_key": "posterior-torso-landmarks",
+      "field": "엉치_삼각형",
+      "source_id": "proko-landmarks",
+      "locator": "뒷면 가쪽 기준점 절, 마지막 엉치뼈 문단",
+      "verdict": "supported",
+      "notes": "Lateral landmarks of the Back L95: 꼬리뼈·양쪽 PSIS 오목점의 삼각형과 일치. 앞면 중심점과 중복 아님."
+    },
+    {
+      "concept_key": "figure-envelope-perimeter",
+      "field": "외곽_연결",
+      "source_id": "proko-measuring",
+      "locator": "Shapes and Angles, first paragraph",
+      "verdict": "supported",
+      "notes": "Shapes and Angles L89: 전체 바깥 점을 큰 각도로 연결하는 절차와 일치. 기존 인물 실루엣 식별법과 다른 작도법."
+    },
+    {
+      "concept_key": "figure-envelope-perimeter",
+      "field": "전체_경계",
+      "source_id": "proko-measuring",
+      "locator": "Shapes and Angles, first paragraph",
+      "verdict": "supported",
+      "notes": "Shapes and Angles L89: 저자의 전체 외곽 구성 명칭 Envelope와 일치."
+    },
+    {
+      "concept_key": "figure-envelope-perimeter",
+      "field": "내부_배치",
+      "source_id": "proko-measuring",
+      "locator": "Shapes and Angles, first paragraph, final sentence",
+      "verdict": "supported",
+      "notes": "Shapes and Angles L89: 나머지 형태를 경계 내부에 넣는 설명과 일치. 인물 식별 성능은 미검증."
+    },
+    {
+      "concept_key": "figure-negative-shape-comparison",
+      "field": "음형_정의",
+      "source_id": "proko-measuring",
+      "locator": "Negative Shapes, first two sentences",
+      "verdict": "supported",
+      "notes": "Negative Shapes L110: 대상 주변·사이 배경 공간의 정의와 일치. 외곽 엔벌로프와 다른 비교 대상."
+    },
+    {
+      "concept_key": "figure-negative-shape-comparison",
+      "field": "부위_예시",
+      "source_id": "proko-measuring",
+      "locator": "Negative Shapes, sentence beginning The shape here between the thighs",
+      "verdict": "supported",
+      "notes": "Negative Shapes L110: 양 허벅지 사이 삼각형을 저자가 본문에서 예시함. 수집자의 이미지 관찰로 바꾸지 않음."
+    },
+    {
+      "concept_key": "figure-negative-shape-comparison",
+      "field": "비교_이유",
+      "source_id": "proko-measuring",
+      "locator": "Negative Shapes, final two sentences",
+      "verdict": "supported",
+      "notes": "Negative Shapes L110: 신체 선입견이 적은 공간을 판단한다는 저자의 설명과 일치. 실증된 정확도 수치 아님."
+    }
+  ],
+  "accepted_count": 17,
+  "shortfall": 3,
+  "shortfall_reason": "17/20개 채택, 3개 부족인 부분 배치다. 입력 17개 모두의 51개 source_claim을 10개 원출처 공개 본문과 독립 대조했다. 기존 anatomy 24개와 비교하여 명시된 기존 ID 10개는 각 1회만 보강 대상으로 확인했으며, 나머지 7개는 별도 개념이다. 전/후면 기준점, 골성/연부조직 구분, 외곽 엔벌로프와 음형은 단순 명칭 변형이 아니다. 거절 0개는 목표 충족을 뜻하지 않는다. 입력에 없는 3개를 채우거나 수집자가 제외했다고 적은 OpenStax 자료를 다시 채택하지 않았다. 피부결·연령·개인 치수·동일 인물 실사·정체성 보존 성능은 검증 범위 밖이다. 원출처의 근사·작도 설명이며 수집자 observation/measurement가 아니다. 제안 0개, 미디어 후보 0개, 취득·시청·청취·측정 미디어 0개. 전체 권리는 unknown이며 재배포 허가 확보가 아니다. 시드·원본·Drive 파일·앱을 수정하거나 DB에 반영하지 않았다."
+}

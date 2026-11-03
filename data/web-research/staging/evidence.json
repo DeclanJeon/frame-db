@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "category_id": "evidence",
+  "collector": "evidence-collector-st_01a18b41",
+  "collected_at": "2026-10-30T05:33:51.661797+00:00",
+  "shortfall_reason": "",
+  "sources": [
+    {
+      "source_id": "loc-copyright",
+      "url": "https://www.loc.gov/legal/security-copyright-and-privacy/understanding-copyright/",
+      "title": "Using Items from the Library’s Website: Understanding Copyright",
+      "publisher": "Library of Congress",
+      "authors": [],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입부의 공개·재사용 구별; 소장품 이용 여부 안내; 항목별 권리 기록 안내",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "기관의 공개 안내 본문만 읽었다. 개별 소장품의 사진·녹음·영상에는 이 안내 자체가 이용 허락이 되지 않는다. 수집 대상 미디어별 권리·허락은 미확인이고 파일을 취득하지 않았다.",
+        "attribution": "Library of Congress, Using Items from the Library’s Website: Understanding Copyright. 짧은 한국어 요약이며 원문·소장품 미디어를 재배포하지 않는다."
+      }
+    },
+    {
+      "source_id": "cc-by4",
+      "url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+      "title": "Deed - Attribution 4.0 International",
+      "publisher": "Creative Commons",
+      "authors": [],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "공유·개작 허용 목록; 저작자 표시 조건과 변경 표시 각주; 보증·별도 권리 경고; 안내문 지위; 페이지 하단 라이선스",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+        "scope": "페이지 하단은 별도 표시가 없는 사이트 콘텐츠에 CC BY 4.0을 고지한다. 여기서는 안내 텍스트만 요약했다. 아이콘의 별도 크레딧, 다른 사이트의 파일 및 인격·프라이버시 권리를 이 허락에 포함하지 않는다. 미디어 취득은 하지 않았다.",
+        "attribution": "Creative Commons, Deed - Attribution 4.0 International, CC BY 4.0. 한국어로 축약·재서술했으며 원문과 라이선스 주소는 이 출처 URL로 연결한다. 저작자의 보증·지지를 암시하지 않는다."
+      }
+    },
+    {
+      "source_id": "prov-o",
+      "url": "https://raw.githubusercontent.com/w3c/prov/main/ontology/Overview.html",
+      "title": "PROV-O: The PROV Ontology",
+      "publisher": "W3C",
+      "authors": ["Timothy Lebo", "Satya Sahoo", "Deborah McGuinness"],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "§3.1 기본 용어; §4.1 wasDerivedFrom/wasAttributedTo; §4.2 hadPrimarySource/wasRevisionOf",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "정규 TR 주소와 날짜별 TR 주소가 403을 반환하여 W3C 소유 저장소의 공개 HTML 본문으로 대체했다. 이 파일은 2013-03-12 Proposed Recommendation이며 최종 Recommendation을 직접 확인했다고 주장하지 않는다. W3C 권리 고지는 있으나 도식·예제의 재배포 허락 범위는 미확인이다. 미디어 취득 없음.",
+        "attribution": "W3C PROV-O 저장소 본문, 편집자 Timothy Lebo·Satya Sahoo·Deborah McGuinness, 2013-03-12 Proposed Recommendation. 해당 판본의 개념 정의만 짧게 한국어로 정리했다."
+      }
+    },
+    {
+      "source_id": "web-annotation",
+      "url": "https://w3c.github.io/web-annotation/model/wd2/",
+      "title": "Web Annotation Data Model",
+      "publisher": "W3C",
+      "authors": ["Robert Sanderson", "Paolo Ciccarese", "Benjamin Young"],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "§4.2.5 문자 위치 선택자; §4.3.1 시간 상태의 sourceDate/cached",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "정규 TR 주소와 날짜별 TR 주소가 403을 반환하여 W3C 소유 GitHub Pages의 공개 본문으로 대체했다. 주소 경로명은 wd2이나 본문은 Recommendation으로 표시한다. 원문·도표·예제 전체의 재배포 권리는 이 배치에서 확정하지 않았다. 파일·미디어 취득 없음.",
+        "attribution": "W3C, Web Annotation Data Model, 편집자 Robert Sanderson·Paolo Ciccarese·Benjamin Young. 선택자와 시간 상태의 정의만 한국어로 축약했다. 페이지 예제 데이터를 실제 검사 결과로 사용하지 않았다."
+      }
+    },
+    {
+      "source_id": "ssn-sosa",
+      "url": "https://raw.githubusercontent.com/w3c/sdw/gh-pages/ssn/integrated/sosa.ttl",
+      "title": "Sensor, Observation, Sample, and Actuator (SOSA) Ontology",
+      "publisher": "W3C/OGC Spatial Data on the Web Working Group",
+      "authors": ["W3C/OGC Spatial Data on the Web Working Group"],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "sosa:ObservableProperty의 skos:example; sosa:Observation과 sosa:Sensor의 skos:definition; 온톨로지 헤더의 dcterms:title/creator/created",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "TR 페이지는 403이어서 W3C 소유 저장소의 공개 Turtle 본문으로 대체했다. rdf/sosa.ttl의 폐기 고지를 따라 integrated/sosa.ttl을 읽었다. 이 파일의 생성일 표시는 2017-04-17이며 최신 개정판 전체를 검토한 것은 아니다. 헤더의 W3C/OGC 라이선스 링크는 확인했지만 별도 미디어 권리까지 확정하지 않았다. 실험·미디어 취득 없음.",
+        "attribution": "W3C/OGC Spatial Data on the Web Working Group, Sensor, Observation, Sample, and Actuator (SOSA) Ontology, integrated/sosa.ttl. 실제 관찰이 아니라 정의의 한국어 요약이다."
+      }
+    },
+    {
+      "source_id": "nist-uncertainty",
+      "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-7-reporting-uncertainty",
+      "title": "NIST TN 1297: 7. Reporting Uncertainty",
+      "publisher": "National Institute of Standards and Technology",
+      "authors": [],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "§7.1 보고 항목과 확률 해석; §7.2 참조 문서 갱신",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "NIST TN 1297의 §7 공개 웹 본문을 읽었다. 해당 보고 지침에 한정하며 현재의 모든 측정 표준을 대신한다고 주장하지 않는다. 미디어별 재사용 조건은 미확인이고 미디어 취득은 하지 않았다.",
+        "attribution": "NIST, NIST Technical Note 1297, §7 Reporting Uncertainty. 출처의 보고 지침을 요약했으며 FRAME_DB 실측 결과가 아니다."
+      }
+    },
+    {
+      "source_id": "ico-consent",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/how-should-we-obtain-record-and-manage-consent/",
+      "title": "How should we obtain, record and manage consent?",
+      "publisher": "Information Commissioner’s Office",
+      "authors": [],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "동의 기록 방법 절의 주체·시점·고지 문서 목록; 동의 철회 관리 절; 도입부 검토 중 고지",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "영국 UK GDPR 안내를 읽었다. 본문은 법 개정으로 검토 중임을 고지하며 한국·미국의 모든 초상권 계약에 일반화하지 않는다. 텍스트·이미지·제3자 자료의 재배포 범위는 이 배치에서 확정하지 않았다. 동의서나 개인정보를 수집하지 않았다.",
+        "attribution": "Information Commissioner’s Office, How should we obtain, record and manage consent? 짧은 한국어 요약이며 안내의 법역과 검토 중 상태를 보존한다."
+      }
+    },
+    {
+      "source_id": "ftc-advertising",
+      "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+      "title": "Advertising FAQ's: A Guide for Small Business",
+      "publisher": "Federal Trade Commission",
+      "authors": [],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "기만 광고 판단 절의 문구·그림·명시·암시 주장 목록; 광고 주장에 필요한 증거 절; 만족 고객 편지의 입증력에 관한 문답",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "미국 FTC의 공개 광고 안내 본문만 읽었다. 특정 제품 효능이나 FRAME_DB의 광고 적법성을 검증한 것은 아니다. 예시 사진·미디어의 재사용 허락은 미확인이고 취득하지 않았다.",
+        "attribution": "Federal Trade Commission, Advertising FAQ's: A Guide for Small Business. 미국 광고 근거 지침으로 귀속하고 짧게 한국어로 정리했다."
+      }
+    },
+    {
+      "source_id": "ftc-testimonials",
+      "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "title": "The Consumer Reviews and Testimonials Rule: Questions and Answers",
+      "publisher": "Federal Trade Commission",
+      "authors": [],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "§465.2의 명백한 허구 극화 문답; 경험과 의견 구별 문답; 자체 사이트의 허위 추천 증언 호스팅 문답",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "미국 FTC의 규칙 해설 본문을 읽었다. 모든 배우 광고가 허용된다는 뜻으로 확대하지 않는다. 광고·후기 원본 파일은 읽거나 취득하지 않았고 미디어 재배포 권리는 미확인이다.",
+        "attribution": "Federal Trade Commission, The Consumer Reviews and Testimonials Rule: Questions and Answers. 규칙 해설만 짧게 한국어로 요약했다."
+      }
+    },
+    {
+      "source_id": "copyright-protect",
+      "url": "https://www.copyright.gov/help/faq/faq-protect.html",
+      "title": "What Does Copyright Protect? (FAQ)",
+      "publisher": "U.S. Copyright Office",
+      "authors": [],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What does copyright protect? 첫 답변",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "미국 저작권청의 공개 설명만 읽었다. 개별 작품의 권리 소멸이나 인물·상표 사용 허락을 판정하지 않았다. 사이트 미디어 재배포 조건은 별도 확인하지 않았고 파일 취득 없음.",
+        "attribution": "U.S. Copyright Office, What Does Copyright Protect? 미국 저작권 설명을 한국어로 축약했다."
+      }
+    },
+    {
+      "source_id": "dqv",
+      "url": "https://w3c.github.io/dwbp/vocab-dqg.html",
+      "title": "Data on the Web Best Practices: Data Quality Vocabulary",
+      "publisher": "W3C",
+      "authors": ["Riccardo Albertoni", "Antoine Isaac"],
+      "checked_at": "2026-10-30T05:33:51.661797+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "초록; respecConfig의 문서 상태·발행일; #dqv:QualityMeasurement; #dqv:isMeasurementOf; #dqv:computedOn",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "TR 주소는 403이어서 W3C 소유 GitHub Pages의 본문으로 대체했다. 페이지 설정은 WG-NOTE와 2016-12-15를 명시한다. 실제 데이터 품질 인증이 아니다. 도식·예제 재배포 조건은 미확인이고 미디어 취득 없음.",
+        "attribution": "W3C, Data on the Web Best Practices: Data Quality Vocabulary, 편집자 Riccardo Albertoni·Antoine Isaac. 해당 저장소 본문의 정의만 한국어로 요약했다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "public-access-versus-reuse",
+      "title_ko": "공개 자료와 재배포 허락",
+      "subtype": "사용 범위",
+      "summary": "미국 의회도서관은 온라인 열람과 사이트 밖 재사용을 구별한다. 소장기관이 곧 저작권자라는 전제도 피한다.",
+      "existing_entry_id": "CRAFT-evidence-ffa9facb46ec",
+      "facts": [
+        {"field": "공개와_재사용", "value": "온라인에 공개한 작품도 자유로운 재사용이 보장되지는 않는다.", "evidence": {"source_id": "loc-copyright", "locator": "도입부 둘째 문단, 온라인 공개와 자유로운 재사용을 구별하는 괄호 문장", "kind": "source_claim"}},
+        {"field": "권한_주체", "value": "도서관은 보통 소장품 저작권을 소유하지 않아 이용 허락을 줄 수 없다고 안내한다.", "evidence": {"source_id": "loc-copyright", "locator": "소장품 이용 여부 안내의 소장품 저작권 비소유·허락 불가 문단", "kind": "source_claim"}},
+        {"field": "항목별_권리_단서", "value": "개별 항목의 Rights and Access 또는 Rights Advisory에서 권리 정보를 찾도록 안내한다.", "evidence": {"source_id": "loc-copyright", "locator": "항목별 권리 기록 안내의 첫 문단, 두 권리 표제 안내", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["공개 열람", "권리 확인", "기관 안내"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "unknown-rights-record",
+      "title_ko": "미확인 슬롯 남기기",
+      "subtype": "불확실성",
+      "summary": "의회도서관의 권리 기록도 원자료 오류·상태 변화·불완전성의 영향을 받는다. 이 보강의 범위는 권리 정보의 불확실성이며 모델·비용의 검증은 아니다.",
+      "existing_entry_id": "CRAFT-evidence-5079712f48dd",
+      "facts": [
+        {"field": "원자료_오류", "value": "소장 기록의 저작권 정보는 원출처의 잘못된 정보로 부정확할 수 있다.", "evidence": {"source_id": "loc-copyright", "locator": "항목별 권리 기록 안내의 부정확성 경고 괄호, 원출처 오류 부분", "kind": "source_claim"}},
+        {"field": "상태_변화", "value": "항목의 권리 상태 변화도 기록이 부정확해지는 이유로 명시한다.", "evidence": {"source_id": "loc-copyright", "locator": "항목별 권리 기록 안내의 부정확성 경고 괄호, 상태 변화 부분", "kind": "source_claim"}},
+        {"field": "기록_완전성", "value": "도서관은 자체 권리 기록이 불완전할 수도 있다고 밝힌다.", "evidence": {"source_id": "loc-copyright", "locator": "항목별 권리 기록 안내의 부정확성 경고 괄호, 기록 불완전성 부분", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["권리 미확인", "출처 한계", "불확실성"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "ideas-versus-expression",
+      "title_ko": "레퍼런스 원리의 새 적용",
+      "subtype": "창작 재사용",
+      "summary": "미국 저작권청은 사실·아이디어·방법과 그 표현을 구분한다. 이 구분 자체가 특정 작품의 복제 허락을 뜻하지는 않는다.",
+      "existing_entry_id": "CRAFT-evidence-d99abfe70321",
+      "facts": [
+        {"field": "보호_대상", "value": "저작권은 문학·극·음악·미술 등 독창적인 저작물을 보호한다고 설명한다.", "evidence": {"source_id": "copyright-protect", "locator": "What does copyright protect?, 첫 문장", "kind": "source_claim"}},
+        {"field": "비보호_원리", "value": "사실·아이디어·체계·작동 방법은 저작권의 보호 대상이 아니라고 설명한다.", "evidence": {"source_id": "copyright-protect", "locator": "같은 답변, Copyright does not protect 문장", "kind": "source_claim"}},
+        {"field": "표현_구별", "value": "그 사실이나 방법을 표현한 방식은 보호될 수 있다고 덧붙인다.", "evidence": {"source_id": "copyright-protect", "locator": "같은 문장, although it may protect 절", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["미국 저작권", "아이디어", "표현"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "cc-by-attribution",
+      "title_ko": "CC BY 4.0 출처와 변경 표시",
+      "subtype": "라이선스 의무",
+      "summary": "Creative Commons는 BY 4.0 안내에서 크레딧·라이선스 연결·변경 표시를 요구한다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "크레딧", "value": "적절한 저작자 표시를 해야 한다.", "evidence": {"source_id": "cc-by4", "locator": "조건 목록의 저작자 표시 항목, 크레딧 부분", "kind": "source_claim"}},
+        {"field": "라이선스_연결", "value": "라이선스 링크를 제공해야 한다.", "evidence": {"source_id": "cc-by4", "locator": "조건 목록의 저작자 표시 항목, 라이선스 링크 부분", "kind": "source_claim"}},
+        {"field": "변경_고지", "value": "수정 여부를 알리고 이전 수정 표시도 유지해야 한다.", "evidence": {"source_id": "cc-by4", "locator": "조건 목록의 변경 표시 및 #ref-indicate-changes 각주", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["CC BY 4.0", "저작자 표시", "변경 이력"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "cc-by-permission-scope",
+      "title_ko": "CC BY 4.0 공유와 개작 범위",
+      "subtype": "공개 라이선스 범위",
+      "summary": "CC BY 4.0 안내는 조건 준수를 전제로 공유·개작과 상업 목적 이용을 설명한다. 특정 파일의 라이선스 적용 여부는 별도다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "공유", "value": "자료의 복제·재배포를 상업 목적에도 허용한다.", "evidence": {"source_id": "cc-by4", "locator": "허용 범위 목록 첫째 항목, 공유", "kind": "source_claim"}},
+        {"field": "개작", "value": "리믹스·변형·기반 작업을 상업 목적에도 허용한다.", "evidence": {"source_id": "cc-by4", "locator": "허용 범위 목록 둘째 항목, 개작", "kind": "source_claim"}},
+        {"field": "허락_철회_조건", "value": "조건을 지키는 동안 라이선스 제공자는 이 자유를 철회할 수 없다고 안내한다.", "evidence": {"source_id": "cc-by4", "locator": "허용 범위 목록 셋째 항목, 조건 준수와 철회 불가", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["CC BY 4.0", "공유", "개작"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "cc-other-rights-limits",
+      "title_ko": "공개 라이선스와 별도 인격권",
+      "subtype": "권리의 경계",
+      "summary": "CC 안내는 라이선스가 모든 권리를 해결하거나 보증하지 않는다고 명시한다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "보증", "value": "라이선스 안내는 보증을 제공하지 않는다고 밝힌다.", "evidence": {"source_id": "cc-by4", "locator": "조건 목록 뒤의 보증 부인 문단", "kind": "source_claim"}},
+        {"field": "별도_권리", "value": "퍼블리시티·프라이버시·저작인격권이 이용을 제한할 수 있다.", "evidence": {"source_id": "cc-by4", "locator": "보증 부인 문단의 별도 권리 경고와 해당 각주", "kind": "source_claim"}},
+        {"field": "안내문_지위", "value": "Deed는 주요 조건의 요약이며 그 자체가 라이선스 법문은 아니다.", "evidence": {"source_id": "cc-by4", "locator": "하단 안내문 지위 고지의 첫 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["인격권", "프라이버시", "라이선스 한계"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "primary-source-relation",
+      "title_ko": "일차 출처와 이차 출처의 연결",
+      "subtype": "출처 계층",
+      "summary": "W3C PROV-O는 직접 경험에 근거한 선행 자료와 이를 사용한 이차 자료의 관계를 정의한다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "일차_출처_기준", "value": "주제를 직접 경험하고 아는 주체가 연구 당시 만든 자료를 일차 출처로 설명한다.", "evidence": {"source_id": "prov-o", "locator": "§4.2 Property hadPrimarySource, 정의 첫 문장", "kind": "source_claim"}},
+        {"field": "이차_자료_연결", "value": "hadPrimarySource는 이차 자료에서 일차 자료로의 파생 관계를 나타낸다.", "evidence": {"source_id": "prov-o", "locator": "§4.2 Property hadPrimarySource, 두 번째 문단", "kind": "source_claim"}},
+        {"field": "판정_맥락", "value": "일차 출처 판정은 해석과 해당 분야의 관행에 따를 수 있다.", "evidence": {"source_id": "prov-o", "locator": "§4.2 Property hadPrimarySource, determination 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["일차 출처", "이차 출처", "PROV-O"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "derivation-quotation-revision",
+      "title_ko": "파생·인용·개정의 구별",
+      "subtype": "자료 계보",
+      "summary": "PROV-O는 파생 관계 안에서 복사 인용과 개정판을 구별한다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "파생", "value": "기존 개체의 변환·갱신 또는 이를 바탕으로 새 개체를 구성하는 것이 파생이다.", "evidence": {"source_id": "prov-o", "locator": "§4.1 Property wasDerivedFrom, 정의", "kind": "source_claim"}},
+        {"field": "인용", "value": "wasQuotedFrom은 원자료의 일부나 전부를 반복하여 만든 자료의 출처를 연결한다.", "evidence": {"source_id": "prov-o", "locator": "§3.2 Expanded Terms, Three subproperties 문단", "kind": "source_claim"}},
+        {"field": "개정", "value": "wasRevisionOf는 원본의 상당한 내용을 포함한 수정판의 관계다.", "evidence": {"source_id": "prov-o", "locator": "§4.2 Property wasRevisionOf, 정의", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["파생본", "인용", "개정판"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "provenance-responsibility",
+      "title_ko": "자료 귀속과 작업 책임의 구별",
+      "subtype": "출처 책임 주체",
+      "summary": "PROV-O는 자료의 귀속, 활동 참여 책임, 대리 수행 관계를 서로 다른 속성으로 표현한다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "자료_귀속", "value": "wasAttributedTo는 개체를 책임 주체에 귀속한다.", "evidence": {"source_id": "prov-o", "locator": "§4.1 Property wasAttributedTo, 정의", "kind": "source_claim"}},
+        {"field": "활동_책임", "value": "wasAssociatedWith는 활동에 대한 주체의 책임을 나타낸다.", "evidence": {"source_id": "prov-o", "locator": "§3.1 기본 용어의 주체 책임 문단, 활동과 개체 귀속의 구별", "kind": "source_claim"}},
+        {"field": "대리_수행", "value": "actedOnBehalfOf는 다른 책임 주체를 대신한 수행을 표현한다.", "evidence": {"source_id": "prov-o", "locator": "§3.1 기본 용어의 주체 책임 문단, 대리 수행 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["출처 귀속", "책임", "대리 수행"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "provenance-entity-activity-agent",
+      "title_ko": "근거 계보의 자료·활동·주체",
+      "subtype": "계보 기본 요소",
+      "summary": "W3C는 근거 계보의 기본 요소로 Entity·Activity·Agent를 정의한다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "자료_개체", "value": "Entity는 일부 고정된 측면을 가진 물리적·디지털·개념적 대상이다.", "evidence": {"source_id": "prov-o", "locator": "§4.1의 첫째 클래스, Entity 정의", "kind": "source_claim"}},
+        {"field": "작업_활동", "value": "Activity는 시간에 걸쳐 개체를 사용하거나 변환·생성하는 활동이다.", "evidence": {"source_id": "prov-o", "locator": "§4.1의 둘째 클래스, Activity 정의", "kind": "source_claim"}},
+        {"field": "책임_주체", "value": "Agent는 활동·개체의 존재·다른 주체의 활동에 책임을 지는 대상이다.", "evidence": {"source_id": "prov-o", "locator": "§4.1의 셋째 클래스, Agent 정의", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["자료 계보", "Entity", "Activity", "Agent"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "precise-source-location",
+      "title_ko": "원본 위치의 정확한 기록",
+      "subtype": "출처 위치",
+      "summary": "Web Annotation의 문자 위치 선택자는 문서 전체 대신 근거 구간을 시작·끝 위치로 특정한다. 이 보강은 텍스트 위치 규칙에 한정한다.",
+      "existing_entry_id": "CRAFT-evidence-29e1d06dcb67",
+      "facts": [
+        {"field": "구간_표현", "value": "문자 위치 선택자는 텍스트 흐름의 시작·끝 위치로 범위를 기록한다.", "evidence": {"source_id": "web-annotation", "locator": "§4.2.5 문자 위치 선택자, 첫 문장", "kind": "source_claim"}},
+        {"field": "위치_원점", "value": "위치 0은 첫 문자 바로 앞을 뜻한다.", "evidence": {"source_id": "web-annotation", "locator": "§4.2.5, Position 0 문장", "kind": "source_claim"}},
+        {"field": "경계_포함", "value": "시작 문자는 포함하고 끝 위치의 문자는 제외한다.", "evidence": {"source_id": "web-annotation", "locator": "§4.2.5, start character 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["근거 위치", "문자 범위", "선택자"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "source-temporal-state",
+      "title_ko": "원본 링크의 변경 상태",
+      "subtype": "출처 확인 시점",
+      "summary": "W3C의 TimeState는 주석이 가리킨 시점과 그때의 표현을 연결한다. 이 배치는 보관 사본을 만들지 않았다.",
+      "existing_entry_id": "CRAFT-evidence-64ae860304c1",
+      "facts": [
+        {"field": "상태_역할", "value": "TimeState는 주석에 시간적으로 적절한 원자료 표현을 얻는 방법을 기술한다.", "evidence": {"source_id": "web-annotation", "locator": "§4.3.1 시간 상태, TimeState 정의", "kind": "source_claim"}},
+        {"field": "시점_형식", "value": "sourceDate는 해석할 원자료 시점이며 UTC의 Z 표기를 사용한다.", "evidence": {"source_id": "web-annotation", "locator": "§4.3.1, sourceDate 속성", "kind": "source_claim"}},
+        {"field": "사본_연결", "value": "cached는 해당 주석에 적절한 원자료 표현의 사본 링크다.", "evidence": {"source_id": "web-annotation", "locator": "§4.3.1, cached 속성", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["확인일", "버전", "링크 상태"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "observation-interpretation-proposal",
+      "title_ko": "관찰·해석·제안 분리",
+      "subtype": "근거 구분",
+      "summary": "SOSA의 관찰 정의는 대상 속성·수행 절차·관찰 주체를 연결한다. FRAME_DB의 사실·관찰·측정·제안 분리는 이 정의를 참고한 자체 적용 제안으로 따로 둔다.",
+      "existing_entry_id": "CRAFT-evidence-6ded80bc6f1b",
+      "facts": [
+        {"field": "관찰_행위", "value": "Observation은 대상 속성 값을 추정·계산하기 위해 절차를 수행하는 행위다.", "evidence": {"source_id": "ssn-sosa", "locator": "sosa:Observation, skos:definition", "kind": "source_claim"}},
+        {"field": "관찰과_주장", "value": "ObservableProperty 예시는 나무 높이와 달리 클래식 자동차의 가치를 직접 관찰값이 아닌 주장으로 구별한다.", "evidence": {"source_id": "ssn-sosa", "locator": "sosa:ObservableProperty, skos:example", "kind": "source_claim"}},
+        {"field": "관찰_주체", "value": "Sensor는 장치뿐 아니라 사람과 소프트웨어도 포함할 수 있다.", "evidence": {"source_id": "ssn-sosa", "locator": "sosa:Sensor, skos:definition", "kind": "source_claim"}}
+      ],
+      "proposals": [
+        {"field": "기록_분리_제안", "value": "FRAME_DB 적용 제안: 출처 설명·직접 관찰·측정·창작 제안을 별도 슬롯으로 두고, 직접 관찰에는 실제 검사 대상과 관찰자를 남긴다.", "evidence": {"source_id": "ssn-sosa", "locator": "sosa:Observation의 대상·절차·주체 연결을 참고한 수집자 제안; W3C가 정한 FRAME_DB 규칙은 아님", "kind": "proposal"}}
+      ],
+      "tags": ["관찰", "출처 설명", "자체 제안"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "measurement-reporting",
+      "title_ko": "수치의 측정과 제안",
+      "subtype": "측정 보고",
+      "summary": "NIST TN 1297의 측정 보고 지침은 불확실성의 산정 방법과 해석 근거를 요구한다. 이 배치에는 직접 측정값이 없다.",
+      "existing_entry_id": "CRAFT-evidence-a36d19decb39",
+      "facts": [
+        {"field": "불확실성_표시", "value": "확장불확실성 U를 보고할 때 사용한 포함인자 k를 함께 보고하거나 합성표준불확실성 uc를 보고하도록 한다.", "evidence": {"source_id": "nist-uncertainty", "locator": "§7.1 첫 보고 지침", "kind": "source_claim"}},
+        {"field": "평가_방법", "value": "각 표준불확실성 성분을 어떻게 평가했는지 자세히 설명하도록 한다.", "evidence": {"source_id": "nist-uncertainty", "locator": "§7.1, A detailed description 항목", "kind": "source_claim"}},
+        {"field": "확률_해석_근거", "value": "불확실성 구간에 신뢰수준 등 확률 해석을 붙이면 그 근거도 제시해야 한다.", "evidence": {"source_id": "nist-uncertainty", "locator": "§7.1 마지막 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["측정 보고", "불확실성", "NIST"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "consent-evidence-record",
+      "title_ko": "동의 증빙의 주체·시점·문서 버전",
+      "subtype": "동의 증빙",
+      "summary": "ICO의 UK GDPR 안내는 동의가 있었음을 입증할 기록을 설명한다. 실제 동의를 확보한 기록이 아니라 검토 중인 기관 지침의 요약이다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "동의_주체", "value": "누가 동의했는지 이름이나 다른 식별자로 기록한다.", "evidence": {"source_id": "ico-consent", "locator": "동의 기록 방법 절의 첫째 기록 항목, 동의 주체", "kind": "source_claim"}},
+        {"field": "동의_시점", "value": "날짜가 있는 문서나 타임스탬프 등으로 동의 시점을 남긴다.", "evidence": {"source_id": "ico-consent", "locator": "동의 기록 방법 절의 둘째 기록 항목, 동의 시점", "kind": "source_claim"}},
+        {"field": "고지_버전", "value": "당시 사용한 동의 문구와 개인정보 안내의 버전·날짜에 맞는 사본을 유지한다.", "evidence": {"source_id": "ico-consent", "locator": "동의 기록 방법 절의 셋째 기록 항목, 당시 제공한 고지", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["UK GDPR", "동의 기록", "증빙 버전"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "consent-withdrawal",
+      "title_ko": "동의 철회와 처리 중단",
+      "subtype": "동의의 지속 범위",
+      "summary": "ICO는 UK GDPR 동의를 철회할 수 있고, 동의에 의존한 처리는 그에 맞게 중단해야 한다고 안내한다. 저작권 라이선스 철회 규칙과는 별개다.",
+      "existing_entry_id": null,
+      "facts": [
+        {"field": "철회_가능성", "value": "동의자는 언제든지 동의를 철회할 수 있다.", "evidence": {"source_id": "ico-consent", "locator": "동의 철회 관리 절의 제7조 제3항 해설", "kind": "source_claim"}},
+        {"field": "철회_접근성", "value": "동의를 줄 때만큼 철회도 쉬워야 한다.", "evidence": {"source_id": "ico-consent", "locator": "동의 철회 관리 절의 동의와 철회 절차 접근성 비교 문단", "kind": "source_claim"}},
+        {"field": "처리_중단_범위", "value": "철회 후에는 동의를 법적 근거로 삼던 처리를 중단해야 한다.", "evidence": {"source_id": "ico-consent", "locator": "동의 철회 관리 절의 철회 후 동의 기반 처리 중단 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["UK GDPR", "동의 철회", "처리 범위"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "product-claim-substantiation",
+      "title_ko": "제품 사실 원장",
+      "subtype": "제품 근거",
+      "summary": "FTC는 미국 광고의 주장에 객관적 근거를 요구한다. 이 보강은 제품별 성분·성능 자체를 확인한 원장이 아니라 그 근거 요건이다.",
+      "existing_entry_id": "CRAFT-evidence-fbf1c4da4966",
+      "facts": [
+        {"field": "근거_시점", "value": "광고를 내보내기 전에 주장을 뒷받침할 근거를 갖추어야 한다.", "evidence": {"source_id": "ftc-advertising", "locator": "기만 광고 판단 절의 마지막 항목, 광고 이전의 입증", "kind": "source_claim"}},
+        {"field": "근거_성격", "value": "합리적 근거란 해당 주장을 지지하는 객관적 증거를 뜻한다.", "evidence": {"source_id": "ftc-advertising", "locator": "광고 주장에 필요한 증거 절의 첫 문단, 합리적 근거 정의", "kind": "source_claim"}},
+        {"field": "표방한_증거수준", "value": "최소한 광고에서 보유했다고 말한 수준의 증거를 실제로 갖추어야 한다.", "evidence": {"source_id": "ftc-advertising", "locator": "광고 주장에 필요한 증거 절의 최소 증거수준 설명 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["미국 광고", "제품 주장", "객관적 증거"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "visual-implied-claims",
+      "title_ko": "효능 주장과 시각 비유",
+      "subtype": "광고 근거",
+      "summary": "FTC는 말과 그림의 전체 맥락 및 명시·암시 주장을 함께 본다. 특정 시각 연출이 곧 효능 시험이 되는 것은 아니다.",
+      "existing_entry_id": "CRAFT-evidence-feba84334eb4",
+      "facts": [
+        {"field": "그림의_맥락", "value": "FTC는 개별 단어만이 아니라 문구와 그림을 포함한 광고 전체 맥락을 검토한다.", "evidence": {"source_id": "ftc-advertising", "locator": "기만 광고 판단 절의 첫째 항목, 소비자 시점과 그림 맥락", "kind": "source_claim"}},
+        {"field": "암시_주장", "value": "소비자가 받아들이는 명시적 주장과 암시적 주장 모두 근거가 필요하다.", "evidence": {"source_id": "ftc-advertising", "locator": "기만 광고 판단 절의 둘째 항목, 명시·암시 주장", "kind": "source_claim"}},
+        {"field": "후기_근거_한계", "value": "만족 고객의 말만으로는 보통 객관적 평가가 필요한 주장을 입증하기에 부족하다.", "evidence": {"source_id": "ftc-advertising", "locator": "만족 고객 편지로 주장 입증이 충분한지 묻는 문답의 답변", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["시각 표현", "암시 주장", "광고 근거"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "fiction-versus-testimonial",
+      "title_ko": "허구의 인물과 실제 경험",
+      "subtype": "표현 근거",
+      "summary": "FTC의 미국 후기 규칙 해설은 명백한 허구 극화와 실제 경험을 전달하는 추천을 구별한다. 배우 사용이 모든 기만 판단에서 면제되는 것은 아니다.",
+      "existing_entry_id": "CRAFT-evidence-b643a1417f13",
+      "facts": [
+        {"field": "명백한_허구", "value": "명백히 허구인 극화 광고에서 배우가 제품을 칭찬하는 것은 추천 증언에 해당하지 않는다고 설명한다.", "evidence": {"source_id": "ftc-testimonials", "locator": "§465.2의 극화된 TV 광고 배우가 가짜 추천을 하는지 묻는 문답", "kind": "source_claim"}},
+        {"field": "경험과_의견", "value": "§465.2는 단순 취향보다 실제 사용 경험을 허위로 나타내는 문제를 다룬다.", "evidence": {"source_id": "ftc-testimonials", "locator": "§465.2의 실제 의견을 허위로 나타내는 경우에 관한 문답", "kind": "source_claim"}},
+        {"field": "자체_사이트_추천", "value": "사업자가 자기 사이트에 추천 증언을 싣는 것은 단순 후기 호스팅이 아닌 광고 메시지 배포로 본다.", "evidence": {"source_id": "ftc-testimonials", "locator": "§465.2의 자체 사이트 허위 추천 증언 호스팅 책임 문답", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["허구", "실제 경험", "미국 추천 광고"],
+      "media_candidates": []
+    },
+    {
+      "concept_key": "quality-assessment-scope",
+      "title_ko": "검수 범위와 완료 주장",
+      "subtype": "검증 보고",
+      "summary": "W3C DQV Note는 품질 평가를 특정 대상과 지표에 연결한다. 실제 FRAME_DB 파일이 합격했다는 증거는 아니다.",
+      "existing_entry_id": "CRAFT-evidence-8ca6af0d57f9",
+      "facts": [
+        {"field": "평가_단위", "value": "QualityMeasurement는 특정 데이터셋 또는 배포본을 특정 품질 지표로 평가한 것이다.", "evidence": {"source_id": "dqv", "locator": "Class: Quality Measurement, Definition; #dqv:QualityMeasurement", "kind": "source_claim"}},
+        {"field": "평가_지표", "value": "isMeasurementOf는 어떤 지표를 관찰했는지 나타낸다.", "evidence": {"source_id": "dqv", "locator": "Property: Is Measurement Of, Definition; #dqv:isMeasurementOf", "kind": "source_claim"}},
+        {"field": "실제_평가_대상", "value": "computedOn은 품질 측정을 수행한 자원을 가리킨다.", "evidence": {"source_id": "dqv", "locator": "Property: Computed On, Definition; #dqv:computedOn", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["검수 범위", "평가 지표", "품질 근거"],
+      "media_candidates": []
+    }
+  ]
+}

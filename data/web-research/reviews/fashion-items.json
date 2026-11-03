@@ -1,0 +1,816 @@
+{
+  "schema_version": 1,
+  "category_id": "fashion-items",
+  "input_sha256": "a06511a7f72a826b9984767802d8a11f5d7a72525e4946770a9d3175dd3949c2",
+  "reviewer": "fashion-items-independent-reviewer-st_01a18af2",
+  "reviewed_at": "2026-10-30T03:59:49+00:00",
+  "accepted_concept_keys": [
+    "oxford-shoes",
+    "derby-shoes",
+    "penny-loafers",
+    "chelsea-boots",
+    "canvas-high-top-sneakers",
+    "strap-sandals",
+    "rolltop-backpack",
+    "half-moon-shoulder-bag",
+    "small-hoop-earrings",
+    "silver-chain-necklace",
+    "thin-silver-ring",
+    "wool-beanie",
+    "narrow-leather-belt",
+    "natural-canvas-tote",
+    "folding-umbrella",
+    "leather-strap-watch",
+    "metal-bracelet-watch",
+    "silk-scarf",
+    "silk-pocket-square",
+    "leather-briefcase"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "sweeney-shoes",
+      "url": "https://www.oliversweeney.com/pages/whats-the-difference-derbies-vs-oxfords",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "What's an Oxford Shoe? 두 문단; What's a Derby Shoe? 두 문단",
+      "rights_checked": true,
+      "notes": "Read the Oxford and Derby definition paragraphs independently, including different lacing construction, naming account, materials and styling context. These are two structurally distinct existing concepts, not translated aliases. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "bass-loafers",
+      "url": "https://www.ghbass.com/pages/loafer-guide",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "What's a loafer?; Loafer Style Guide > Penny Loafer; Discover Weejuns > Classic Weejuns",
+      "rights_checked": true,
+      "notes": "Read the loafer definition, Penny Loafer entry and both Classic Weejuns construction paragraphs. Kept the manufacturer's particular sole/heel construction separate from the general penny-loafer definition. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "blundstone-500",
+      "url": "https://www.blundstone.co.uk/products/blundstone-500-stout-brown",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Description 사양 표; Original Thinking > 2.5mm WATER-RESISTANT LEATHER, DURABLE TPU OUTSOLE, KEY FEATURES",
+      "rights_checked": true,
+      "notes": "Read Description specification rows and Original Thinking key features for #500, including pull-on, upper, lining, sole and elastic reinforcement. Product title and introduction identify the Chelsea example. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "converse-canvas",
+      "url": "https://www.converse.com/shop/p/chuck-taylor-all-star-canvas-unisex-high-top-shoe/M9006MP.html?dwvar_1U646F_width=standard&dwvar_M9006MP_color=incensed+brown",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Unisex High Top Shoe; WHY YOU SHOULD BE DOWN, SKU M9160",
+      "rights_checked": true,
+      "notes": "Read the actual returned high-top product body and feature bullets, including SKU M9160. The incensed-brown query does not match the returned black example; staging explicitly scopes its summary to M9160 and asserts no brown colour. Not a second concept. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "teva-universal",
+      "url": "https://www.teva.com/p/men-sandals/original-universal-sandal/887278599913",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Details > Item No. 887278599913, straps/closure/midsole/outsole 항목",
+      "rights_checked": true,
+      "notes": "Read Details for item 887278599913: adjustment, fastening, webbing, midsole and outsole. No performance testing or visual inspection was inferred from promotional claims. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "rains-rolltop",
+      "url": "https://us.rains.com/products/rolltop-rucksack",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Description; Details > Dimensions, Composition, Closure type, Features",
+      "rights_checked": true,
+      "notes": "Read Description and Details, including closure instructions, straps, dimensions, capacity, composition and PU-fabric wording. Distinguish listed polyester composition from the named PU fabric; no coating ratio was supplied or inferred. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "row-halfmoon",
+      "url": "https://www.therow.com/products/half-moon-black",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "제품 소개 문장; Details, W1249L52BLPL; Copyright terms",
+      "rights_checked": true,
+      "notes": "Read Half Moon introduction and Details for shape, closure, dimensions, lining, exterior and hardware. Also read Copyright terms on the same cited page: unauthorized reproduction/distribution of works is prohibited. The recorded restricted status is supported; no permission obtained and no media acquired. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "tiffany-hoops",
+      "url": "https://www.tiffany.com/jewelry/earrings/tiffany-1837-sterling-silver-earrings-1151151750.html",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "제품 설명 및 More details > Sterling silver, Size small, Narrow; SKU 25225732",
+      "rights_checked": true,
+      "notes": "Read the material/size/width bullets and SKU 25225732. Small and narrow are nominal descriptors, not measured diameter/thickness. They remain facts within one existing hoop concept, not wording-derived variants. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "tiffany-chain",
+      "url": "https://www.tiffany.com/jewelry/necklaces-pendants/sterling-silver-necklaces-pendants-1179338824.html",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Length (in) 선택 표; 제품 설명 Chain in sterling silver, 18 inches long / Links, size small; SKU 21771961",
+      "rights_checked": true,
+      "notes": "Read description, selected eighteen-inch length table and SKU 21771961. Distinguish link grade from physical wire gauge and listed length from actual neck placement. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "mejuri-ring",
+      "url": "https://mejuri.com/us/en/products/thin-dome-ring?Material=Sterling+Silver&Size=4&variant=49640345272605",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Sterling Silver 선택; Materials & Specifications > Sterling Silver, Specifications",
+      "rights_checked": true,
+      "notes": "Read Sterling Silver selection, introductory nesting intent and Materials & Specifications. Top and shank widths differ; the manufacturer's Thin name does not establish a uniform thin band. This is a bounded example for the existing ring, not a measurement of that original draft. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "muji-beanie",
+      "url": "https://www.muji.us/products/excess-yarn-beanie-db0qra3a",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "제품 소개; Product Details > Measurements; Material & Care; Style Code DB0QRA3A",
+      "rights_checked": true,
+      "notes": "Read introduction, Product Details measurements and Material & Care for DB0QRA3A. Wool and surplus-yarn statements are manufacturer claims; dimensions and fitting range are not reviewer measurements. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "uniqlo-belt",
+      "url": "https://www.uniqlo.com/us/en/products/E466622-000/00?colorDisplayCode=09&sizeDisplayCode=999",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Description > Details, Size; Materials / Care > Fabric details; Product ID 466622",
+      "rights_checked": true,
+      "notes": "Read Description Details and Size for product 466622, plus Materials / Care. The tool supplied a dated fetched body, not a present-stock inspection; no current availability or price is accepted. Footer reserves rights, so unknown reuse permission is not treated as open licensing. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "llbean-tote",
+      "url": "https://global.llbean.com/llb/shop/0M19852001.html",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Product Details; Specs > Medium; Construction; Additional Features",
+      "rights_checked": true,
+      "notes": "Read Specs for Medium, Construction and Additional Features. Selected page imagery labels a different size/handle colour; no image was inspected. The factual text describes the natural body and contrast handles, and staging does not claim an exact ivory/unpatterned draft match. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "fulton-minilite",
+      "url": "https://www.fultonumbrellas.ca/product/minilite-1/",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Minilite 1 제목 아래 제품 설명 단락: frame, fabric, closed length, open span",
+      "rights_checked": true,
+      "notes": "Read the complete Minilite 1 description below the title, separating frame stages/materials, canopy material and the two dimensional states. Footer reserves rights; unknown reuse permission is not an open licence. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "timex-leather",
+      "url": "https://timex.com/products/marlin-quartz-34mm-leather-strap-watch-tw2y37600",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Stainless Steel Case 사양; Leather Strap 사양; Band Size",
+      "rights_checked": true,
+      "notes": "Read exact Product ID TW2Y37600, Stainless Steel Case and Leather Strap specifications, and Band Size. Used exact black-strap specs, not the introduction's alternative colours or unrelated crystal/pressure examples elsewhere on the page. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "tissot-metal",
+      "url": "https://www.tissotwatches.com/en-us/T1374101103100.html",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Watch technical data > Case width, Case material, Crystal; Strap > material, buckle",
+      "rights_checked": true,
+      "notes": "Read technical data and Strap for T1374101103100, distinguishing case length from width/thickness and the attached steel bracelet from optional compatible straps. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "hermes-scarf",
+      "url": "https://www.hermes.com/us/en/product/chevaux-d-hephaistos-scarf-90-H004365Sv03/",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Product description > silk twill, hand-rolled edges, Dimensions; Care; reference H004365S 03",
+      "rights_checked": true,
+      "notes": "Read Product description, designer, dimensions and hand-rolling qualification, product reference H004365S 03 and Care. Designer Elias Kafouros is supported in the summary; the sources authors array does not claim an identified prose author. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "drakes-pocket",
+      "url": "https://us.drakes.com/products/navy-polka-dot-print-silk-pocket-square",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "제품 설명: crepe de chine, folded/stuffed in pocket; 100% Silk, Made in Italy, 45cm x 45cm",
+      "rights_checked": true,
+      "notes": "Read product title, navy label, introductory fabric/folding description and composition/dimension bullets. Pattern is a named product example within the existing pocket-square concept, not an extra concept. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    },
+    {
+      "source_id": "satchel-briefcase",
+      "url": "https://www.satchel-page.com/products/counselor",
+      "checked_at": "2026-10-30T03:59:49+00:00",
+      "access": "public_body",
+      "locator": "Product Details > Description, Leather, Materials, Specifications",
+      "rights_checked": true,
+      "notes": "Read Product Details Description, Leather, Materials and Specifications. Checked both leather weights, all three fittings/lining components, dimensions, and the actual-width versus diagonal laptop distinction. Rights review: public product/guide text supplies attribution, not a media-reuse grant. Recorded unknown permission is retained; no open licence, third-party/personality clearance, or AI-upload permission was verified. Only short attributed factual paraphrases and the source link are accepted. No media files were downloaded, acquired, watched or visually inspected."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "oxford-shoes",
+      "field": "레이싱 구성",
+      "source_id": "sweeney-shoes",
+      "locator": "What's an Oxford Shoe? 두 번째 문단",
+      "verdict": "supported",
+      "notes": "The Oxford construction paragraph places the eyelet panels beneath the vamp and identifies closed lacing; Korean construction wording agrees."
+    },
+    {
+      "concept_key": "oxford-shoes",
+      "field": "명칭 유래",
+      "source_id": "sweeney-shoes",
+      "locator": "What's an Oxford Shoe? 첫 번째 문단: university students / 1800s",
+      "verdict": "supported",
+      "notes": "The opening Oxford paragraph links the name to university students in the nineteenth century; retained as this manufacturer's account, not independently proved history."
+    },
+    {
+      "concept_key": "oxford-shoes",
+      "field": "코디 맥락",
+      "source_id": "sweeney-shoes",
+      "locator": "What's an Oxford Shoe? 첫 번째 문단",
+      "verdict": "supported",
+      "notes": "The opening paragraph contrasts formal/business use with chinos; the Korean styling context is supported without claiming a measured effect."
+    },
+    {
+      "concept_key": "derby-shoes",
+      "field": "레이싱 구성",
+      "source_id": "sweeney-shoes",
+      "locator": "What's a Derby Shoe? 두 번째 문단",
+      "verdict": "supported",
+      "notes": "The Derby construction paragraph identifies open lacing and panels above the vamp, unlike Oxford construction."
+    },
+    {
+      "concept_key": "derby-shoes",
+      "field": "소재 선택",
+      "source_id": "sweeney-shoes",
+      "locator": "What's a Derby Shoe? 첫 번째 문단",
+      "verdict": "supported",
+      "notes": "The opening Derby paragraph presents suede and leather as material choices; no claim about an inspected shoe's composition."
+    },
+    {
+      "concept_key": "derby-shoes",
+      "field": "코디 맥락",
+      "source_id": "sweeney-shoes",
+      "locator": "What's a Derby Shoe? 첫 번째 문단",
+      "verdict": "supported",
+      "notes": "The same paragraph explicitly spans smart and casual use; the Korean statement preserves that scope."
+    },
+    {
+      "concept_key": "penny-loafers",
+      "field": "착탈 방식",
+      "source_id": "bass-loafers",
+      "locator": "What's a loafer? 첫 문단",
+      "verdict": "supported",
+      "notes": "The introductory definition describes a lace-free slip-on; the record does not infer fit or comfort from photographs."
+    },
+    {
+      "concept_key": "penny-loafers",
+      "field": "발등 구성",
+      "source_id": "bass-loafers",
+      "locator": "Loafer Style Guide > Penny Loafer",
+      "verdict": "supported",
+      "notes": "The Penny Loafer style entry identifies a vamp strap with a coin slot; this distinguishes the concept from other loafer styles."
+    },
+    {
+      "concept_key": "penny-loafers",
+      "field": "사례 밑창",
+      "source_id": "bass-loafers",
+      "locator": "Discover Weejuns > Classic Weejuns 첫 문단",
+      "verdict": "supported",
+      "notes": "The Classic Weejuns paragraph specifies Blake construction and a replaceable leather outsole; accepted only for the named example, not every penny loafer."
+    },
+    {
+      "concept_key": "penny-loafers",
+      "field": "사례 굽 조합",
+      "source_id": "bass-loafers",
+      "locator": "Discover Weejuns > Classic Weejuns 두 번째 문단",
+      "verdict": "supported",
+      "notes": "The following Classic paragraph identifies a rubber heel cap. Its pairing with the preceding leather-outsole example is supported."
+    },
+    {
+      "concept_key": "chelsea-boots",
+      "field": "사례 착탈",
+      "source_id": "blundstone-500",
+      "locator": "Description > Fastening Type",
+      "verdict": "supported",
+      "notes": "The #500 Description table identifies pull-on fastening; this is the stated product specification."
+    },
+    {
+      "concept_key": "chelsea-boots",
+      "field": "사례 소재",
+      "source_id": "blundstone-500",
+      "locator": "Description > Upper Material, Lining Material",
+      "verdict": "supported",
+      "notes": "The table lists full-grain leather above and no lining; both parts of the compound Korean field agree."
+    },
+    {
+      "concept_key": "chelsea-boots",
+      "field": "사례 밑창",
+      "source_id": "blundstone-500",
+      "locator": "Description > Sole Material",
+      "verdict": "supported",
+      "notes": "The Sole Material row specifies TPU. No unsupported traction or lifetime claim is imported."
+    },
+    {
+      "concept_key": "chelsea-boots",
+      "field": "사례 옆면 구성",
+      "source_id": "blundstone-500",
+      "locator": "Original Thinking > KEY FEATURES",
+      "verdict": "supported",
+      "notes": "The Original Thinking key-features text describes a heel panel and reinforcement around elastic. This supports the component statement without image observation."
+    },
+    {
+      "concept_key": "canvas-high-top-sneakers",
+      "field": "아이템 형식",
+      "source_id": "converse-canvas",
+      "locator": "제품 제목 아래 Unisex High Top Shoe",
+      "verdict": "supported",
+      "notes": "The actual returned product body identifies a unisex high-top. Query parameters do not establish a brown variant; the summary correctly limits the example to returned SKU M9160."
+    },
+    {
+      "concept_key": "canvas-high-top-sneakers",
+      "field": "사례 갑피",
+      "source_id": "converse-canvas",
+      "locator": "WHY YOU SHOULD BE DOWN > Canvas upper",
+      "verdict": "supported",
+      "notes": "The product feature list explicitly identifies a canvas upper; no image-based fabric inference is needed."
+    },
+    {
+      "concept_key": "canvas-high-top-sneakers",
+      "field": "사례 밑창",
+      "source_id": "converse-canvas",
+      "locator": "WHY YOU SHOULD BE DOWN > Diamond-pattern rubber outsole",
+      "verdict": "supported",
+      "notes": "The feature list identifies rubber tread with a diamond pattern; this is manufacturer text, not visual inspection."
+    },
+    {
+      "concept_key": "canvas-high-top-sneakers",
+      "field": "사례 쿠션",
+      "source_id": "converse-canvas",
+      "locator": "WHY YOU SHOULD BE DOWN > OrthoLite cushioning",
+      "verdict": "supported",
+      "notes": "The feature list names OrthoLite cushioning. The field asserts its presence, not independently tested comfort."
+    },
+    {
+      "concept_key": "strap-sandals",
+      "field": "스트랩 조절",
+      "source_id": "teva-universal",
+      "locator": "Details > Universal Strapping System",
+      "verdict": "supported",
+      "notes": "The Details list describes multiple adjustment points in the named strapping system; the Korean text does not invent their number or locations."
+    },
+    {
+      "concept_key": "strap-sandals",
+      "field": "여밈 구성",
+      "source_id": "teva-universal",
+      "locator": "Details > Easy hook-and-loop closure",
+      "verdict": "supported",
+      "notes": "The closure bullet specifies hook-and-loop fastening. No fastening action was observed."
+    },
+    {
+      "concept_key": "strap-sandals",
+      "field": "스트랩 소재",
+      "source_id": "teva-universal",
+      "locator": "Details > Sustainability Initiative(s), Webbing",
+      "verdict": "supported",
+      "notes": "The sustainability bullet identifies REPREVE recycled polyester yarn for webbing, supporting the material attribution without independent environmental certification."
+    },
+    {
+      "concept_key": "strap-sandals",
+      "field": "밑창 소재 조합",
+      "source_id": "teva-universal",
+      "locator": "Details > Molded EVA midsole; Rubber outsole",
+      "verdict": "supported",
+      "notes": "Separate Details bullets list molded EVA at the midsole and rubber at the outsole; both components match."
+    },
+    {
+      "concept_key": "rolltop-backpack",
+      "field": "상단 여밈",
+      "source_id": "rains-rolltop",
+      "locator": "Description > To protect essentials from rain 문장",
+      "verdict": "supported",
+      "notes": "The Description instructs tightly rolling the opening and fastening the carabiner. This supports the closure sequence as an instruction, not an observed action."
+    },
+    {
+      "concept_key": "rolltop-backpack",
+      "field": "어깨끈 구성",
+      "source_id": "rains-rolltop",
+      "locator": "Details > Features, Adjustable padded shoulder straps; Adjustable chest strap",
+      "verdict": "supported",
+      "notes": "The Features list includes adjustable padded shoulder straps and an adjustable chest strap; both clauses agree."
+    },
+    {
+      "concept_key": "rolltop-backpack",
+      "field": "사례 치수",
+      "source_id": "rains-rolltop",
+      "locator": "Details > Dimensions, Capacity",
+      "verdict": "supported",
+      "notes": "Details states dimensions 48 by 11 by 32 centimetres and capacity 19 litres. These are product claims, not reviewer measurements."
+    },
+    {
+      "concept_key": "rolltop-backpack",
+      "field": "소재 구성",
+      "source_id": "rains-rolltop",
+      "locator": "Details > Composition; Features > Waterproof signature PU fabric",
+      "verdict": "supported",
+      "notes": "Composition states polyester while Description and Features name PU fabric. The Korean field preserves these separately rather than inventing a coating percentage."
+    },
+    {
+      "concept_key": "half-moon-shoulder-bag",
+      "field": "형태와 여밈",
+      "source_id": "row-halfmoon",
+      "locator": "Half Moon Bag > 제품 소개 문장",
+      "verdict": "supported",
+      "notes": "The Half Moon introduction specifies a curved body, flat shoulder strap and top zip. All three components agree."
+    },
+    {
+      "concept_key": "half-moon-shoulder-bag",
+      "field": "사례 치수",
+      "source_id": "row-halfmoon",
+      "locator": "Details > 8 x 13.5 x 2.5 in.",
+      "verdict": "supported",
+      "notes": "Details lists the three inch dimensions in the recorded order without axis labels there. The review does not assign height/width/depth from pictures."
+    },
+    {
+      "concept_key": "half-moon-shoulder-bag",
+      "field": "겉감과 안감",
+      "source_id": "row-halfmoon",
+      "locator": "Details > 100% Calfskin Leather; Lined in 100% Nappa Leather",
+      "verdict": "supported",
+      "notes": "Details gives calfskin for the body and nappa for the lining, each at 100 percent; the compound material field agrees."
+    },
+    {
+      "concept_key": "half-moon-shoulder-bag",
+      "field": "금속 조합",
+      "source_id": "row-halfmoon",
+      "locator": "Details > Palladium-plated hardware",
+      "verdict": "supported",
+      "notes": "Details specifies palladium plating for the hardware. This is not a claim that the hardware is solid palladium."
+    },
+    {
+      "concept_key": "small-hoop-earrings",
+      "field": "사례 소재",
+      "source_id": "tiffany-hoops",
+      "locator": "제품 설명 아래 불릿 > Sterling silver; SKU 25225732",
+      "verdict": "supported",
+      "notes": "The material bullet and SKU 25225732 identify sterling silver; product availability text is irrelevant to this fact."
+    },
+    {
+      "concept_key": "small-hoop-earrings",
+      "field": "크기 등급",
+      "source_id": "tiffany-hoops",
+      "locator": "제품 설명 아래 불릿 > Size small",
+      "verdict": "supported",
+      "notes": "The size bullet labels the earrings small. This is a nominal manufacturer size, not a diameter measurement."
+    },
+    {
+      "concept_key": "small-hoop-earrings",
+      "field": "폭 구분",
+      "source_id": "tiffany-hoops",
+      "locator": "제품 설명 아래 불릿 > Narrow",
+      "verdict": "supported",
+      "notes": "The next bullet labels the design narrow. This is a separate width descriptor, not another concept or an inferred millimetre thickness."
+    },
+    {
+      "concept_key": "silver-chain-necklace",
+      "field": "사례 소재",
+      "source_id": "tiffany-chain",
+      "locator": "제품 설명 > Chain in sterling silver; SKU 21771961",
+      "verdict": "supported",
+      "notes": "The description and SKU 21771961 identify a sterling-silver chain; not merely a silver-coloured visual inference."
+    },
+    {
+      "concept_key": "silver-chain-necklace",
+      "field": "사례 길이",
+      "source_id": "tiffany-chain",
+      "locator": "제품 설명 > 18 inches long; Length (in) > 18 selected",
+      "verdict": "supported",
+      "notes": "The description specifies an eighteen-inch chain and the size table selects 18; both support the chosen length without claiming a neck position."
+    },
+    {
+      "concept_key": "silver-chain-necklace",
+      "field": "링크 크기",
+      "source_id": "tiffany-chain",
+      "locator": "제품 설명 > Links, size small",
+      "verdict": "supported",
+      "notes": "The description identifies small links. The field is a manufacturer grade, not a measured wire gauge."
+    },
+    {
+      "concept_key": "thin-silver-ring",
+      "field": "사례 합금",
+      "source_id": "mejuri-ring",
+      "locator": "Materials & Specifications > Sterling Silver",
+      "verdict": "supported",
+      "notes": "The Sterling Silver material paragraph states fineness 925 and silver content 92.5 percent; both numbers agree."
+    },
+    {
+      "concept_key": "thin-silver-ring",
+      "field": "윗부분 폭",
+      "source_id": "mejuri-ring",
+      "locator": "Specifications > Top Width",
+      "verdict": "supported",
+      "notes": "Specifications gives a top width of 6.2 millimetres. This is distinct from shank width, so 'thin' is not treated as a uniform two-millimetre band."
+    },
+    {
+      "concept_key": "thin-silver-ring",
+      "field": "아랫부분 폭",
+      "source_id": "mejuri-ring",
+      "locator": "Specifications > Shank Width",
+      "verdict": "supported",
+      "notes": "Specifications gives a shank width of two millimetres. The field preserves the bottom/shank distinction from the wider top."
+    },
+    {
+      "concept_key": "thin-silver-ring",
+      "field": "반지 조합",
+      "source_id": "mejuri-ring",
+      "locator": "제품 소개 > designed to fit perfectly with the Organic Dôme Nesting Rings",
+      "verdict": "supported",
+      "notes": "The introduction describes intended nesting with Organic Dôme Nesting Rings; accepted as the maker's design intent, not tested fit."
+    },
+    {
+      "concept_key": "wool-beanie",
+      "field": "사례 소재",
+      "source_id": "muji-beanie",
+      "locator": "Material & Care > 100% Wool",
+      "verdict": "supported",
+      "notes": "Material & Care identifies wool at 100 percent. This applies to the named product, not all beanies."
+    },
+    {
+      "concept_key": "wool-beanie",
+      "field": "원사 구성 근거",
+      "source_id": "muji-beanie",
+      "locator": "제품 소개 > upcycled scraps of 100% wool yarn",
+      "verdict": "supported",
+      "notes": "The introduction attributes production to upcycled surplus wool yarn. The record preserves the maker's claim without independently certifying waste reduction."
+    },
+    {
+      "concept_key": "wool-beanie",
+      "field": "머리 둘레 범위",
+      "source_id": "muji-beanie",
+      "locator": "Product Details > Measurements > One Size",
+      "verdict": "supported",
+      "notes": "Measurements gives the one-size fitting range 55.0 to 59.0 centimetres. No actual head fitting was performed."
+    },
+    {
+      "concept_key": "wool-beanie",
+      "field": "사례 치수",
+      "source_id": "muji-beanie",
+      "locator": "Product Details > Measurements > Dimensions",
+      "verdict": "supported",
+      "notes": "Measurements lists 23.5 by 24.5 centimetres; Korean numbers and units agree without assigning unprovided geometry."
+    },
+    {
+      "concept_key": "narrow-leather-belt",
+      "field": "사례 소재",
+      "source_id": "uniqlo-belt",
+      "locator": "Description > Details > Made of 100% leather",
+      "verdict": "supported",
+      "notes": "Description Details explicitly identifies 100-percent leather; no specific hide or tanning method is inferred."
+    },
+    {
+      "concept_key": "narrow-leather-belt",
+      "field": "여밈 형식",
+      "source_id": "uniqlo-belt",
+      "locator": "Description > Details > double-ring design",
+      "verdict": "supported",
+      "notes": "Details identifies the double-ring design, consistent with the product title and fastening field."
+    },
+    {
+      "concept_key": "narrow-leather-belt",
+      "field": "사례 치수",
+      "source_id": "uniqlo-belt",
+      "locator": "Description > Size > Total Length, Panel Width",
+      "verdict": "supported",
+      "notes": "The Size section gives total length 44.9 inches and panel width 0.7 inches. Values and their distinct roles agree."
+    },
+    {
+      "concept_key": "narrow-leather-belt",
+      "field": "여분 끝 처리",
+      "source_id": "uniqlo-belt",
+      "locator": "Description > Details 마지막 문장",
+      "verdict": "supported",
+      "notes": "The last Details sentence describes the hanging extra length as a styling accent. No belt-loop route or observed wearing position is invented."
+    },
+    {
+      "concept_key": "natural-canvas-tote",
+      "field": "사례 원단",
+      "source_id": "llbean-tote",
+      "locator": "Construction > Heavy-duty 24 oz. cotton canvas",
+      "verdict": "supported",
+      "notes": "Construction identifies US-made 24-ounce cotton canvas. This is the maker's fabric specification, not the weight of the finished tote."
+    },
+    {
+      "concept_key": "natural-canvas-tote",
+      "field": "사례 치수",
+      "source_id": "llbean-tote",
+      "locator": "Specs > Medium > Dimensions",
+      "verdict": "supported",
+      "notes": "Specs under Medium gives height 12, width 13 and depth 6 inches. The chosen size is explicit; other size dimensions are not mixed in."
+    },
+    {
+      "concept_key": "natural-canvas-tote",
+      "field": "봉제와 바닥",
+      "source_id": "llbean-tote",
+      "locator": "Construction > Overlapped seams; Double-layer base",
+      "verdict": "supported",
+      "notes": "Construction specifies overlapping nylon double stitching and a double-layer base. Both clauses match the Korean compound field."
+    },
+    {
+      "concept_key": "natural-canvas-tote",
+      "field": "배색 구성",
+      "source_id": "llbean-tote",
+      "locator": "Additional Features > Natural color, with contrast-tone handles",
+      "verdict": "supported",
+      "notes": "Additional Features describes a natural-colour body with contrasting handles. The summary explicitly avoids equating this with the original unpatterned ivory draft."
+    },
+    {
+      "concept_key": "folding-umbrella",
+      "field": "접이 구조",
+      "source_id": "fulton-minilite",
+      "locator": "Minilite 1 제품 설명 > 3 stage manual frame",
+      "verdict": "supported",
+      "notes": "The Minilite 1 description identifies a manual three-stage frame; not an automatic model or a separate open/closed concept."
+    },
+    {
+      "concept_key": "folding-umbrella",
+      "field": "프레임 소재",
+      "source_id": "fulton-minilite",
+      "locator": "Minilite 1 제품 설명 > aluminum/fibreglass frame",
+      "verdict": "supported",
+      "notes": "The same description identifies aluminium and fibreglass in the frame. No proportions are inferred."
+    },
+    {
+      "concept_key": "folding-umbrella",
+      "field": "차양 원단",
+      "source_id": "fulton-minilite",
+      "locator": "Minilite 1 제품 설명 > polyester fabric",
+      "verdict": "supported",
+      "notes": "The description identifies polyester fabric for the umbrella canopy; no unprovided waterproof-test result is imported."
+    },
+    {
+      "concept_key": "folding-umbrella",
+      "field": "접힘과 펼침 크기",
+      "source_id": "fulton-minilite",
+      "locator": "Minilite 1 제품 설명 > long when closed; Span when open",
+      "verdict": "supported",
+      "notes": "The description gives closed length 25 centimetres and open span 96 centimetres. Distinct states and units agree; no collector measurement occurred."
+    },
+    {
+      "concept_key": "leather-strap-watch",
+      "field": "사례 케이스",
+      "source_id": "timex-leather",
+      "locator": "Stainless Steel Case > Case Material, Case Diameter",
+      "verdict": "supported",
+      "notes": "Product ID TW2Y37600 and Stainless Steel Case specifications give steel and a 34-millimetre diameter; the field matches the exact example."
+    },
+    {
+      "concept_key": "leather-strap-watch",
+      "field": "스트랩 소재와 색",
+      "source_id": "timex-leather",
+      "locator": "Leather Strap > Band Material, Band Color",
+      "verdict": "supported",
+      "notes": "Leather Strap specifications give leather material and black colour; the model's broader introductory colour alternatives are not substituted."
+    },
+    {
+      "concept_key": "leather-strap-watch",
+      "field": "결합부 폭과 여밈",
+      "source_id": "timex-leather",
+      "locator": "Leather Strap > Band / Lug Width, Band Buckle",
+      "verdict": "supported",
+      "notes": "Leather Strap lists band/lug width 18 millimetres and buckle fastening. Both parts of the field agree."
+    },
+    {
+      "concept_key": "leather-strap-watch",
+      "field": "손목 범위",
+      "source_id": "timex-leather",
+      "locator": "Band Size > wrist circumferences",
+      "verdict": "supported",
+      "notes": "Band Size gives wrist circumferences 135 to 190 millimetres. Accepted only as the manufacturer's fit range, not a wear test."
+    },
+    {
+      "concept_key": "metal-bracelet-watch",
+      "field": "케이스 소재",
+      "source_id": "tissot-metal",
+      "locator": "Watch technical data > Case material",
+      "verdict": "supported",
+      "notes": "Watch technical data for T1374101103100 identifies 316L stainless steel as the case material."
+    },
+    {
+      "concept_key": "metal-bracelet-watch",
+      "field": "사례 케이스 크기",
+      "source_id": "tissot-metal",
+      "locator": "Watch technical data > Case width, Case thickness",
+      "verdict": "supported",
+      "notes": "Technical data separately gives case width 40.00 and thickness 10.40 millimetres. Case length 39.50 is not substituted for width."
+    },
+    {
+      "concept_key": "metal-bracelet-watch",
+      "field": "밴드와 여밈",
+      "source_id": "tissot-metal",
+      "locator": "Strap > Strap material, Buckle",
+      "verdict": "supported",
+      "notes": "Strap lists stainless steel and a butterfly clasp operated by push-buttons; material and closure both agree."
+    },
+    {
+      "concept_key": "metal-bracelet-watch",
+      "field": "유리 소재",
+      "source_id": "tissot-metal",
+      "locator": "Watch technical data > Crystal",
+      "verdict": "supported",
+      "notes": "The Crystal field specifies sapphire. No scratch testing or image-derived transparency claim is asserted."
+    },
+    {
+      "concept_key": "silk-scarf",
+      "field": "사례 직물",
+      "source_id": "hermes-scarf",
+      "locator": "Product description > silk twill, 100% silk",
+      "verdict": "supported",
+      "notes": "Product description identifies silk twill and 100-percent silk; both fabric structure and composition agree."
+    },
+    {
+      "concept_key": "silk-scarf",
+      "field": "가장자리 구성",
+      "source_id": "hermes-scarf",
+      "locator": "Product description > hand-rolled edges",
+      "verdict": "supported",
+      "notes": "The same product description explicitly states hand-rolled edges, supporting the finishing method."
+    },
+    {
+      "concept_key": "silk-scarf",
+      "field": "사례 치수",
+      "source_id": "hermes-scarf",
+      "locator": "Product description > Dimensions",
+      "verdict": "supported",
+      "notes": "Dimensions gives 34.8 inches on each side and warns of variation from hand rolling. The Korean field preserves the qualification."
+    },
+    {
+      "concept_key": "silk-scarf",
+      "field": "보관 상태",
+      "source_id": "hermes-scarf",
+      "locator": "Care > Store it flat and untied",
+      "verdict": "supported",
+      "notes": "Care instructs flat, untied storage. The summary's additional designer attribution is also present: Elias Kafouros, reference H004365S 03."
+    },
+    {
+      "concept_key": "silk-pocket-square",
+      "field": "사례 직물",
+      "source_id": "drakes-pocket",
+      "locator": "제품 설명 > vintage crepe de chine silk; 100% Silk",
+      "verdict": "supported",
+      "notes": "The description identifies crepe-de-chine silk and the composition bullet states 100-percent silk; both support the field."
+    },
+    {
+      "concept_key": "silk-pocket-square",
+      "field": "사례 치수",
+      "source_id": "drakes-pocket",
+      "locator": "제품 설명 불릿 > 45cm x 45cm",
+      "verdict": "supported",
+      "notes": "The dimensions bullet gives 45 centimetres on each side. No folded exposure height is inferred."
+    },
+    {
+      "concept_key": "silk-pocket-square",
+      "field": "포켓 배치",
+      "source_id": "drakes-pocket",
+      "locator": "제품 설명 > folded or stuffed in one’s pocket",
+      "verdict": "supported",
+      "notes": "The description permits folding or stuffing into a pocket; the record does not invent a particular fold or jacket relationship."
+    },
+    {
+      "concept_key": "silk-pocket-square",
+      "field": "무늬 구분",
+      "source_id": "drakes-pocket",
+      "locator": "제품 제목 > Navy Polka Dot Print Silk Pocket Square",
+      "verdict": "supported",
+      "notes": "The product title and navy colour label support the navy polka-dot example. This colour/pattern remains an example within one concept, not a new variant count."
+    },
+    {
+      "concept_key": "leather-briefcase",
+      "field": "사례 가죽",
+      "source_id": "satchel-briefcase",
+      "locator": "Leather > Hide Origin; Thickness; Tanning/Grain",
+      "verdict": "supported",
+      "notes": "Leather lists cowhide, full grain, vegetable tanning, six ounces for the bag and eight for handles/straps. The compound field retains those separate specifications."
+    },
+    {
+      "concept_key": "leather-briefcase",
+      "field": "안감과 부속",
+      "source_id": "satchel-briefcase",
+      "locator": "Materials > zipper, lining, hardware",
+      "verdict": "supported",
+      "notes": "Materials names a number-eight YKK Excella zipper, tobacco suede lining and antique brass hardware. All three components agree."
+    },
+    {
+      "concept_key": "leather-briefcase",
+      "field": "사례 크기",
+      "source_id": "satchel-briefcase",
+      "locator": "Specifications > Dimensions / Weight",
+      "verdict": "supported",
+      "notes": "Specifications gives height 12, width 16.5 and depth 3.75 inches. Axes and values match the Korean field."
+    },
+    {
+      "concept_key": "leather-briefcase",
+      "field": "노트북 크기 관계",
+      "source_id": "satchel-briefcase",
+      "locator": "Specifications > Padded laptop compartment",
+      "verdict": "supported",
+      "notes": "The padded compartment instruction explicitly uses actual laptop width no greater than 14.3 inches, not diagonal screen size. The important distinction is preserved."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": "No concept shortfall: 20 distinct concepts accepted after independently reopening all 19 cited primary-source bodies and checking all 76 factual fields. All 20 existing_entry_id values resolve exactly once among 34 original fashion-items entries and match their Korean titles; this is enrichment of existing concepts, not 20 newly acquired items. Oxford/Derby have different construction; watches differ by strap construction; scarf/pocket square differ by item/use. Product colour, nominal size and open/closed states are not separately counted. Product-example specifications do not verify the original guides' products, exact colours, observed fit, contact or performance. All numerical facts remain source claims; observations, reviewer measurements, proposals and media candidates are zero. No media acquired or licence granted. No unsupported field required rejecting a concept. This review does not stage accepted files, modify seed data or claim the broader category is complete."
+}

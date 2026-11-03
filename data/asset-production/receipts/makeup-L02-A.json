@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-L02-A",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L02-A.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-c8104d27-10c8-44bc-9999-97e004c37ac6.png",
+  "sha256": "3be9ebb27d537fd04d2723bfeb86bf8a3021c95f2878e3fba2ce8fe5cd0fefd8",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L02-A; concept: 세미매트 뉴트럴.\nClass: creative; domain: makeup; entry: GEN-asset-makeup-L02-A.\nParent entry IDs: [\"FS-0032\",\"CRAFT-makeup-c7a3c2432bb0\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-L02\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-L02\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L02 photograph of identity A. Change only the skin finish from soft matte to semi-matte with a restrained diffuse sheen; do not alter pigment, coverage or pore detail. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.\nChange only: Change only the skin finish from soft matte to semi-matte with a restrained diffuse sheen; do not alter pigment, coverage or pore detail.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Skin finish differs without a white-balance, exposure or color change.; Compare against the actual accepted parent input, not a separately invented face.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-L02.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, pores, cheek mole, makeup pigment and framing match makeup-L02/E00. Skin has a slightly more diffuse semi-matte sheen than L02 without a white-balance shift or visible coverage change."
+  }
+}

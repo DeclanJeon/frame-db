@@ -1,0 +1,1192 @@
+{
+  "schema_version": 1,
+  "category_id": "interaction",
+  "collector": "interaction-primary-collector-omo-20261030",
+  "collected_at": "2026-10-30T04:07:31.605193+00:00",
+  "shortfall_reason": "",
+  "sources": [
+    {
+      "source_id": "mit-listening",
+      "url": "https://hr.mit.edu/learning-topics/comm/articles/active-listening",
+      "title": "Key Tips for Active Listening",
+      "publisher": "MIT Human Resources",
+      "authors": [
+        "Jeannette Gerzon"
+      ],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Listening Tips That Aid Understanding (L515–527)",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문의 짧은 사실 정리만 사용. 원문·이미지 재배포와 상업 이용 허락은 확인하지 않았다.",
+        "attribution": "Jeannette Gerzon / MIT Human Resources. 원문·매체 재사용 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "handover-paper",
+      "url": "https://jlupub.ub.uni-giessen.de/bitstreams/fe1c0358-d3d0-4d29-b580-25d2623a1623/download",
+      "title": "Grip-force modulation in human-to-human object handovers: effects of sensory and kinematic manipulations",
+      "publisher": "Scientific Reports (Springer Nature); Justus-Liebig-Universität Gießen 공식 저장소 사본",
+      "authors": [
+        "Falko R. Döhring",
+        "Hermann Müller",
+        "Michael Joch"
+      ],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "PDF p.1 Introduction, 세 전달 단계 설명 문단; p.7 Discussion, 수직 1.8 kg 실험 조건",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "대학 저장소의 논문 본문을 읽었다. 원 출판사 HTML·PDF의 접근 전환 화면과 PMC의 브라우저 확인 화면은 근거로 사용하지 않았다. 이 배치에서 라이선스 절은 검토하지 않았으므로 매체 재사용 조건은 미확인이다. 파일 저장·도표 복제는 하지 않았다.",
+        "attribution": "Döhring, Müller, Joch (2020), Scientific Reports 10, 22381. 한국어로 짧게 재서술했으며 개별 도표·제3자 권리는 미확인."
+      }
+    },
+    {
+      "source_id": "bc-games",
+      "url": "https://www.britishcouncil.org/voices-magazine/low-preparation-improvisational-theatre-english-language-classroom",
+      "title": "Three low-preparation drama activities for the English language classroom",
+      "publisher": "British Council",
+      "authors": [
+        "Don Merritt"
+      ],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 설명을 짧게 정리. 기사·사진·수업 자료의 재배포 허락은 확인하지 않았다.",
+        "attribution": "British Council / Don Merritt. 공개 열람과 미디어 재사용 허락을 구분한다."
+      }
+    },
+    {
+      "source_id": "dr-count",
+      "url": "https://dramaresource.com/count-to-20/",
+      "title": "Count To 20",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Count To 20, 기본 규칙 L55",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 연습 규칙의 짧은 요약만 사용. 본문·사진·도서의 복제나 상업적 재사용 허락 미확인.",
+        "attribution": "Drama Resource. 페이지의 저작권 표시를 재사용 허락으로 해석하지 않는다."
+      }
+    },
+    {
+      "source_id": "dr-word",
+      "url": "https://dramaresource.com/one-word-at-a-time/",
+      "title": "One Word At A Time",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "One Word At A Time, 기본 규칙 L53",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육자가 제시한 규칙의 짧은 정리만 사용. 원문·사진·도서 재배포 허락 미확인.",
+        "attribution": "Drama Resource. 적용 라이선스와 매체별 재사용 권리는 미확인."
+      }
+    },
+    {
+      "source_id": "dr-123",
+      "url": "https://dramaresource.com/1-2-3/",
+      "title": "1-2-3",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "1-2-3, 단계 1–3 L55–79",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 연습 지침의 짧은 정리만 사용. 원문·이미지·도서 재사용 허락 미확인.",
+        "attribution": "Drama Resource. 공개 접근은 복제·상업 이용 허락이 아니다."
+      }
+    },
+    {
+      "source_id": "dr-guided",
+      "url": "https://dramaresource.com/guided-tour/",
+      "title": "Guided Tour",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Guided Tour, 기본 진행 L59–60",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육 연습의 원문 지침만 요약. 실제 수행·안전성 검사나 매체 권리 확보는 하지 않았다.",
+        "attribution": "Drama Resource. 본문·이미지의 재배포와 상업적 이용 허락 미확인."
+      }
+    },
+    {
+      "source_id": "dr-peck",
+      "url": "https://dramaresource.com/pecking-order/",
+      "title": "Pecking Order",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Pecking Order, 기본 진행 L57–59",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "연기 연습 규칙만 짧게 정리. 실제 인물의 서열·성격에 관한 판단 근거로 사용하지 않는다. 매체 재배포 허락 미확인.",
+        "attribution": "Drama Resource. 라이선스 및 매체별 권리 미확인."
+      }
+    },
+    {
+      "source_id": "dr-image",
+      "url": "https://dramaresource.com/image-theatre/",
+      "title": "Image Theatre",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Image Theatre, How to do it L62–64",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육자의 연습 규칙만 짧게 정리. 실제 신체 접촉 관찰이나 동의·재사용 권리 확인으로 간주하지 않는다.",
+        "attribution": "Drama Resource. 본문·사진·도서의 재배포 허락 미확인."
+      }
+    },
+    {
+      "source_id": "dr-status",
+      "url": "https://dramaresource.com/status-pictures/",
+      "title": "Status Pictures",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Status Pictures, 기본 진행 및 Director's Tips L61–68",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "허구 인물의 지위 표현 연습에 한정한 요약. 사진·교육 자료 재배포와 상업 이용 허락 미확인.",
+        "attribution": "Drama Resource. 별도 매체 권리 미확인."
+      }
+    },
+    {
+      "source_id": "dr-changes",
+      "url": "https://dramaresource.com/three-changes/",
+      "title": "Three Changes",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Three Changes, 기본 규칙 L55",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육 연습의 짧은 사실 정리만 사용. 실제 관찰 샘플·측정·미디어 확보는 없다.",
+        "attribution": "Drama Resource. 원문·사진·도서의 재배포 허락 미확인."
+      }
+    },
+    {
+      "source_id": "dr-ten",
+      "url": "https://dramaresource.com/ten-second-objects/",
+      "title": "Ten Second Objects",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Ten Second Objects, 기본 규칙 L55",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공동 신체 구성 연습의 지침만 요약. 촬영물·그림·도서 재배포 허락 미확인.",
+        "attribution": "Drama Resource. 공개 열람 외의 권리는 미확인."
+      }
+    },
+    {
+      "source_id": "dr-doing",
+      "url": "https://dramaresource.com/what-are-you-doing/",
+      "title": "What Are You Doing?",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What Are You Doing?, 기본 규칙 L52",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "즉흥 연습의 규칙만 짧게 정리. 원문·사진·영상·도서 재배포 허락 미확인.",
+        "attribution": "Drama Resource. 재사용 라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "hoopla-mirror",
+      "url": "https://www.hooplaimpro.com/resource/mirroring",
+      "title": "Mirroring",
+      "publisher": "Hoopla Impro",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Mirroring, 본문 L24–30",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교습자가 공개한 연습 규칙의 짧은 요약만 사용. 매체·원문 재배포와 상업 이용 허락은 확인하지 않았다.",
+        "attribution": "Hoopla Impro. 저자 별도 표기 및 재사용 권리는 미확인."
+      }
+    },
+    {
+      "source_id": "dr-story-orchestra",
+      "url": "https://dramaresource.com/story-orchestra/",
+      "title": "Story Orchestra",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Story Orchestra, 기본 진행 및 Director’s Tips L57–62",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "집단 반응 연습의 규칙만 정리. 녹음·영상의 청취·검수·수집이나 재사용 권리 확보는 없다.",
+        "attribution": "Drama Resource. 원문·사진·도서·녹음 재배포 허락 미확인."
+      }
+    },
+    {
+      "source_id": "ep-handshake",
+      "url": "https://emilypost.substack.com/p/etiquette-today-job-interview-and",
+      "title": "Etiquette Today: Job Interview & Follow-Up",
+      "publisher": "The Emily Post Institute",
+      "authors": [
+        "Lizzie",
+        "Dan"
+      ],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Introductions, 악수 순서 항목 2–5 (L27); 서명 L76–77",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 원문 본문을 읽고 지침만 짧게 정리했다. 본문·사진·영상의 복제·재배포·상업 이용 및 초상권 허락은 확인하지 않았다. 미디어는 취득·검수하지 않았다.",
+        "attribution": "The Emily Post Institute / Etiquette Today: Job Interview & Follow-Up. 한국어 재서술. 개별 매체 저작자와 재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "rh-hug",
+      "url": "https://www.roberthalf.com/us/en/insights/career-development/hugging-etiquette-at-work-advice-from-the-emily-post-institute",
+      "title": "Hugging Etiquette at Work: Advice from The Emily Post Institute",
+      "publisher": "Robert Half / The Creative Group",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Daniel Post Senning 직접 인터뷰, office hugger 및 first-time contacts 문답 (L18–26)",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 원문 본문을 읽고 지침만 짧게 정리했다. 본문·사진·영상의 복제·재배포·상업 이용 및 초상권 허락은 확인하지 않았다. 미디어는 취득·검수하지 않았다.",
+        "attribution": "Robert Half / The Creative Group / Hugging Etiquette at Work: Advice from The Emily Post Institute. 한국어 재서술. 개별 매체 저작자와 재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "ut-flocking",
+      "url": "https://dbp.theatredance.utexas.edu/teaching-strategies/flocking",
+      "title": "Flocking",
+      "publisher": "The University of Texas at Austin, Drama-Based Pedagogy",
+      "authors": [],
+      "checked_at": "2026-10-30T04:07:31.605193+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Directions, L46–48",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 원문 본문을 읽고 지침만 짧게 정리했다. 본문·사진·영상의 복제·재배포·상업 이용 및 초상권 허락은 확인하지 않았다. 미디어는 취득·검수하지 않았다.",
+        "attribution": "The University of Texas at Austin, Drama-Based Pedagogy / Flocking. 한국어 재서술. 개별 매체 저작자와 재사용 조건은 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "active-listening",
+      "title_ko": "친구의 이야기 듣기",
+      "subtype": "화자·청자",
+      "summary": "MIT의 적극적 경청 안내는 주의 집중, 이해 확인과 질문을 청자의 행동으로 설명한다. 특정 촬영 장면을 관찰한 기록은 아니다.",
+      "facts": [
+        {
+          "field": "청자_주의",
+          "value": "MIT는 말하는 상대에게 주의를 집중하고 방해 요인을 줄이도록 안내한다.",
+          "evidence": {
+            "source_id": "mit-listening",
+            "locator": "Listening Tips That Aid Understanding (L515–527); 경청 팁 목록: 좋은 대화 공간 및 관심 표시 항목",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "이해_되돌려주기",
+          "value": "상대의 말을 자기 말로 다시 정리하여 이해를 확인하는 방법을 제시한다.",
+          "evidence": {
+            "source_id": "mit-listening",
+            "locator": "Listening Tips That Aid Understanding (L515–527); 경청 팁 목록: 이해 확인과 자기 말로 정리하기 항목",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "질문_역할",
+          "value": "분명하지 않은 내용을 질문으로 확인하도록 안내한다.",
+          "evidence": {
+            "source_id": "mit-listening",
+            "locator": "Listening Tips That Aid Understanding (L515–527); 경청 팁 목록: 질문하기 및 되묻기 항목",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "경청"
+      ],
+      "existing_entry_id": "FS-0131",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "cup-handover",
+      "title_ko": "컵을 건네고 받기",
+      "subtype": "접촉·소유 이전",
+      "summary": "Döhring 등의 사람 간 물체 전달 논문은 주는 사람의 단독 지지, 공동 접촉, 받는 사람의 단독 지지를 구분한다. 기존 컵 전달 가이드의 지지 변화만 보강한다. 연구는 수직 1.8 kg 실험 물체를 사용했으며 컵의 실제 접촉을 관찰한 자료는 아니다.",
+      "facts": [
+        {
+          "field": "전달_전_지지",
+          "value": "첫 단계에서는 주는 사람이 물체의 전체 하중을 혼자 지지한다.",
+          "evidence": {
+            "source_id": "handover-paper",
+            "locator": "PDF p.1 Introduction, three phases 문단: first phase",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공동_접촉_전환",
+          "value": "전달 단계에서는 두 사람이 동시에 물체와 상호작용하며 받는 쪽은 쥐는 힘을 늘리고 주는 쪽은 줄인다.",
+          "evidence": {
+            "source_id": "handover-paper",
+            "locator": "PDF p.1 Introduction, three phases 문단: handover phase",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전달_후_지지",
+          "value": "주는 사람이 완전히 놓으면 마지막 단계가 시작되고 받는 사람만 물체를 든다.",
+          "evidence": {
+            "source_id": "handover-paper",
+            "locator": "PDF p.1 Introduction, three phases 문단 마지막 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "접촉·관계 연속성",
+        "물체 전달",
+        "사람 간 전달 연구"
+      ],
+      "existing_entry_id": "CRAFT-interaction-5c12750253b9",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "eye-contact-introduction",
+      "title_ko": "처음 만난 인사",
+      "subtype": "인사·시선",
+      "summary": "British Council의 드라마 수업 인사 연습을 정리했다. 첫 만남의 시선과 상호 소개에 한정한 근거이며 적정 거리의 수치나 문화권 전체의 규범은 제시하지 않는다.",
+      "facts": [
+        {
+          "field": "참여_행동",
+          "value": "참여자가 서로 만나 인사를 나누는 연습을 제시한다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 1의 진행 절차: 게임 재시작 시 눈맞춤·접근·소개·자리 교체 단락",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시선_연결",
+          "value": "인사를 주고받을 때 상대와 눈을 맞추도록 안내한다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 1의 진행 절차: 게임 재시작 시 눈맞춤·접근·소개·자리 교체 단락",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "자기_소개",
+          "value": "이름을 주고받는 소개가 연습에 포함된다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 1의 진행 절차: 게임 재시작 시 눈맞춤·접근·소개·자리 교체 단락",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "거리·시선",
+        "주고받기",
+        "인사"
+      ],
+      "existing_entry_id": "FS-0135",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "group-count-without-overlap",
+      "title_ko": "겹치지 않게 함께 숫자 세기",
+      "subtype": "집단 발화 조정",
+      "summary": "Drama Resource가 제시한 집단 숫자 세기에서는 정해진 발화 순서 없이 참여하고 발화가 겹치면 다시 시작한다.",
+      "facts": [
+        {
+          "field": "집단_배치",
+          "value": "참여자들이 원을 이루어 연습한다.",
+          "evidence": {
+            "source_id": "dr-count",
+            "locator": "Count To 20, 기본 규칙 L55; 본문 첫 연습 배치",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발화_배정",
+          "value": "미리 정한 순서 없이 한 번에 한 사람이 다음 숫자를 말한다.",
+          "evidence": {
+            "source_id": "dr-count",
+            "locator": "Count To 20, 기본 규칙 L55; 숫자 세기 진행 규칙",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "겹침_처리",
+          "value": "둘 이상이 동시에 말하면 처음부터 다시 센다.",
+          "evidence": {
+            "source_id": "dr-count",
+            "locator": "Count To 20, 기본 규칙 L55; 동시 발화 시 재시작 규칙",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "그룹"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "one-word-shared-story",
+      "title_ko": "한 단어씩 공동 이야기 잇기",
+      "subtype": "공동 발화",
+      "summary": "Drama Resource의 공동 이야기 연습은 앞사람이 말한 내용에 이어 각자 한 단어를 보탠다.",
+      "facts": [
+        {
+          "field": "참여_배치",
+          "value": "참여자들이 원을 이루어 이야기를 함께 만든다.",
+          "evidence": {
+            "source_id": "dr-word",
+            "locator": "One Word At A Time, 기본 규칙 L53; 본문 기본 배치",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "차례_단위",
+          "value": "각 사람은 자기 차례에 한 단어씩 말한다.",
+          "evidence": {
+            "source_id": "dr-word",
+            "locator": "One Word At A Time, 기본 규칙 L53; 한 단어씩 이어 말하기 규칙",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "내용_연속성",
+          "value": "앞서 나온 단어에 이어 공동 이야기가 되도록 말을 보탠다.",
+          "evidence": {
+            "source_id": "dr-word",
+            "locator": "One Word At A Time, 기본 규칙 L53; 공동 이야기 구성 설명",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "공동 이야기"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "yes-and-offer-acceptance",
+      "title_ko": "상대의 제안을 받아 확장하기",
+      "subtype": "즉흥 제안 교환",
+      "summary": "British Council의 즉흥 연습은 상대의 제안을 받아들인 뒤 내용을 추가하는 방식으로 설명된다.",
+      "facts": [
+        {
+          "field": "첫_역할",
+          "value": "한 참여자가 제안이나 상황을 먼저 제시한다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 3의 진행 절차: 첫 참여자의 계획 제시",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "응답_규칙",
+          "value": "상대는 앞선 제안을 받아들이는 응답을 한다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 3의 진행 절차: 두 번째 참여자의 수용 응답",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "추가_정보",
+          "value": "응답자는 수용에 그치지 않고 새로운 내용을 보탠다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 3의 진행 절차: 응답 뒤 새로운 내용 덧붙이기",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "즉흥"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "conditional-group-standing-response",
+      "title_ko": "답변 조건에 맞는 참여자만 일어서기",
+      "subtype": "질문자·집단 조건 반응",
+      "summary": "Don Merritt가 British Council에 제시한 교실 연습에서는 응답 내용에 따라 일어설 참여자가 달라진다. 이웃을 대신 소개하는 과제가 아니다.",
+      "facts": [
+        {
+          "field": "긍정_응답",
+          "value": "긍정 응답이면 응답자에게 가장 가까이 앉은 두 사람이 일어선다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 2의 진행 절차: 긍정 응답 시 가까운 두 사람의 반응",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "부정_응답",
+          "value": "부정 응답 뒤에는 대상을 덧붙이며 그 설명에 해당하는 참여자가 일어선다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 2의 진행 절차: 부정 응답 시 설명에 해당하는 사람들의 반응",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "질문자_교대",
+          "value": "가장 늦게 일어선 사람이 다음 질문자가 된다.",
+          "evidence": {
+            "source_id": "bc-games",
+            "locator": "Activity 1 L35–48 / Activity 2 L79–97 / Activity 3 L150–163; 활동 2의 진행 절차: 가장 늦게 일어난 사람의 질문자 역할",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "그룹 조건 반응"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "alternating-three-count",
+      "title_ko": "둘이 번갈아 세고 동작으로 바꾸기",
+      "subtype": "짝 반응 조정",
+      "summary": "Drama Resource의 짝 연습은 세 숫자의 반복을 주고받다가 숫자를 신체 동작으로 대체한다.",
+      "facts": [
+        {
+          "field": "역할_교대",
+          "value": "두 사람이 번갈아 숫자를 말한다.",
+          "evidence": {
+            "source_id": "dr-123",
+            "locator": "1-2-3, 단계 1–3 L55–79; 첫 단계: 짝의 교대 발화",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반복_구조",
+          "value": "하나부터 셋까지 센 뒤 다시 하나로 돌아온다.",
+          "evidence": {
+            "source_id": "dr-123",
+            "locator": "1-2-3, 단계 1–3 L55–79; 세 숫자의 반복 규칙",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반응_변환",
+          "value": "다음 단계에서는 숫자를 박수 같은 동작으로 바꾼다.",
+          "evidence": {
+            "source_id": "dr-123",
+            "locator": "1-2-3, 단계 1–3 L55–79; 숫자를 동작으로 대체하는 단계",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "짝"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "guided-tour-partner-trust",
+      "title_ko": "눈을 감은 상대 안내하기",
+      "subtype": "안내자·방문자",
+      "summary": "Drama Resource의 안내 연습은 눈을 감은 참여자와 그 상대의 역할을 나눈다. 실제 이동 장면을 검사하거나 안전성을 측정한 기록은 아니다.",
+      "facts": [
+        {
+          "field": "짝_역할",
+          "value": "한 사람은 안내자, 다른 사람은 안내받는 참여자가 된다.",
+          "evidence": {
+            "source_id": "dr-guided",
+            "locator": "Guided Tour, 기본 진행 L59–60; 기본 진행 첫 단락: 안내하는 짝과 안내받는 짝의 역할",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시각_조건",
+          "value": "안내받는 사람은 눈을 감고 상대의 안내를 따른다.",
+          "evidence": {
+            "source_id": "dr-guided",
+            "locator": "Guided Tour, 기본 진행 L59–60; 기본 진행 첫 단락: 눈가리개 또는 눈 감기",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "언어_안내",
+          "value": "안내자는 상상의 주변 환경이나 넘어갈 장애물을 말로 설명한다.",
+          "evidence": {
+            "source_id": "dr-guided",
+            "locator": "Guided Tour, 기본 진행 L59–60; 기본 진행 첫 두 단락: 상상의 주변 환경과 장애물 설명",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "거리·시선",
+        "짝"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "hidden-status-trio",
+      "title_ko": "숨겨진 지위에 따라 집단 관계 만들기",
+      "subtype": "집단 지위 연기",
+      "summary": "Drama Resource의 세 사람 즉흥 연습은 한 명에게 지위를 숨긴 채 장면을 진행하고 관계를 추정하게 한다. 실제 사람의 사회적 지위 판정법은 아니다.",
+      "facts": [
+        {
+          "field": "참여자_설정",
+          "value": "세 사람이 하나의 상황과 세 인물을 정한다.",
+          "evidence": {
+            "source_id": "dr-peck",
+            "locator": "Pecking Order, 기본 진행 L57–59; 기본 규칙 첫 단락: 세 사람의 상황과 인물 설정",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "숨겨진_지위",
+          "value": "한 명이 나간 동안 나머지 두 사람이 세 인물의 지위를 정하고 돌아온 사람에게 알리지 않는다.",
+          "evidence": {
+            "source_id": "dr-peck",
+            "locator": "Pecking Order, 기본 진행 L57–59; 기본 규칙 첫 단락: 한 명의 퇴장과 지위 결정",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "관계_추정",
+          "value": "재입장 후 즉흥 장면을 진행하고 멈춘 뒤 돌아온 사람이 자신과 나머지의 지위를 추정한다.",
+          "evidence": {
+            "source_id": "dr-peck",
+            "locator": "Pecking Order, 기본 진행 L57–59; 기본 규칙 둘째 단락: 재입장, 즉흥 진행과 지위 추정",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "거리·시선",
+        "집단 관계"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "image-theatre-partner-sculpting",
+      "title_ko": "서로 자세를 빚고 공동 장면 만들기",
+      "subtype": "이미지 시어터 짝 활동",
+      "summary": "Drama Resource는 짝이나 소집단이 번갈아 상대의 자세를 만들고 그 형태를 결합하는 이미지 시어터 활동을 안내한다. 실제 접촉 관찰값이나 원기법의 효과 검증은 아니다.",
+      "facts": [
+        {
+          "field": "주도권_교대",
+          "value": "짝이나 소집단에서 번갈아 상대의 몸을 하나의 형태로 만든다.",
+          "evidence": {
+            "source_id": "dr-image",
+            "locator": "Image Theatre, How to do it L62–64; 진행 방법 다음의 짝·소집단 활동 항목: 번갈아 상대 자세 만들기",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "형태_결합",
+          "value": "각자 만든 신체 형태를 함께 배치하는 방법을 찾는다.",
+          "evidence": {
+            "source_id": "dr-image",
+            "locator": "Image Theatre, How to do it L62–64; 짝·소집단 활동 항목: 만든 형태를 함께 배치하기",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발화_조건",
+          "value": "교육자는 이 연습을 말하지 않고 진행할 것을 권한다.",
+          "evidence": {
+            "source_id": "dr-image",
+            "locator": "Image Theatre, How to do it L62–64; 진행 방법 마지막 항목: 말하지 않고 진행하기",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "접촉·관계 연속성",
+        "신체 구성"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "paired-status-still-image",
+      "title_ko": "둘의 지위 차이를 정지 장면으로 만들기",
+      "subtype": "짝 관계 정지 장면",
+      "summary": "Drama Resource의 지위 정지 장면은 두 사람의 상대적인 관계를 신체 배치로 표현하는 연습이다.",
+      "facts": [
+        {
+          "field": "작업_단위",
+          "value": "짝이 함께 정지 장면을 만든다.",
+          "evidence": {
+            "source_id": "dr-status",
+            "locator": "Status Pictures, 기본 진행 및 Director's Tips L61–68; 기본 짝 활동",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "관계_대비",
+          "value": "두 인물 사이의 높고 낮은 지위 차이를 표현한다.",
+          "evidence": {
+            "source_id": "dr-status",
+            "locator": "Status Pictures, 기본 진행 및 Director's Tips L61–68; 상대적 지위 표현 지침",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "표현_수단",
+          "value": "자세와 신체의 배치가 지위 관계를 드러내는 수단으로 다뤄진다.",
+          "evidence": {
+            "source_id": "dr-status",
+            "locator": "Status Pictures, 기본 진행 및 Director's Tips L61–68; 정지 장면의 신체 표현 설명",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "거리·시선",
+        "정지 장면"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "three-changes-partner-observation",
+      "title_ko": "상대의 세 가지 변화 찾아내기",
+      "subtype": "관찰·재대면",
+      "summary": "Drama Resource의 짝 연습은 등을 맞댄 동안 외형을 바꾼 뒤 돌아서서 변화를 찾게 한다. 실제 수행자나 검사 파일을 관찰한 기록은 아니다.",
+      "facts": [
+        {
+          "field": "짝의_방향",
+          "value": "두 참여자는 등을 맞대고 앉아 변경을 진행한다.",
+          "evidence": {
+            "source_id": "dr-changes",
+            "locator": "Three Changes, 기본 규칙 L55; 기본 규칙 단락: sit back to back",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "변경_구간",
+          "value": "상대가 보지 않는 동안 외형에서 세 가지를 바꾼다.",
+          "evidence": {
+            "source_id": "dr-changes",
+            "locator": "Three Changes, 기본 규칙 L55; 세 가지 변경 지침",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "재대면_응답",
+          "value": "다시 마주한 뒤 상대에게서 달라진 부분을 찾는다.",
+          "evidence": {
+            "source_id": "dr-changes",
+            "locator": "Three Changes, 기본 규칙 L55; 재관찰과 변화 찾기 단계",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "거리·시선",
+        "주고받기",
+        "상태 비교"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "group-body-object",
+      "title_ko": "여럿이 몸으로 하나의 물건 구성하기",
+      "subtype": "집단 신체 협업",
+      "summary": "Drama Resource의 제한 시간 연습에서는 소집단이 각자의 몸을 결합해 제시된 물건을 표현한다.",
+      "facts": [
+        {
+          "field": "작업_역할",
+          "value": "참여자들이 소집단을 이루어 공동으로 작업한다.",
+          "evidence": {
+            "source_id": "dr-ten",
+            "locator": "Ten Second Objects, 기본 규칙 L55; 소집단 구성 지침",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공동_목표",
+          "value": "진행자가 제시한 물건을 몸으로 함께 만든다.",
+          "evidence": {
+            "source_id": "dr-ten",
+            "locator": "Ten Second Objects, 기본 규칙 L55; 제시된 물건의 신체 표현",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "조정_조건",
+          "value": "과제는 제한된 시간 안에 공동 형태를 완성하도록 제시된다.",
+          "evidence": {
+            "source_id": "dr-ten",
+            "locator": "Ten Second Objects, 기본 규칙 L55; 제한 시간 규칙",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "접촉·관계 연속성",
+        "그룹 협업"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "named-action-relay",
+      "title_ko": "말로 지목한 다른 행동 이어받기",
+      "subtype": "질문·행동 릴레이",
+      "summary": "Drama Resource의 행동 릴레이는 보이는 행동과 말로 지목하는 행동을 다르게 하며 다음 참여자가 말의 내용을 이어받는다.",
+      "facts": [
+        {
+          "field": "첫_행동",
+          "value": "첫 참여자가 어떤 행동을 몸으로 보여준다.",
+          "evidence": {
+            "source_id": "dr-doing",
+            "locator": "What Are You Doing?, 기본 규칙 L52; 첫 참여자의 행동 시작",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "질문_응답",
+          "value": "상대가 무엇을 하는지 물으면 실제와 다른 행동 이름으로 답한다.",
+          "evidence": {
+            "source_id": "dr-doing",
+            "locator": "What Are You Doing?, 기본 규칙 L52; 질문과 다른 행동의 명명 규칙",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "행동_이전",
+          "value": "다음 참여자는 눈앞의 행동이 아니라 말로 지목된 행동을 수행한다.",
+          "evidence": {
+            "source_id": "dr-doing",
+            "locator": "What Are You Doing?, 기본 규칙 L52; 다음 참여자가 이어받는 행동",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "행동 릴레이"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "paired-mirroring",
+      "title_ko": "서로 거울처럼 움직임 맞추기",
+      "subtype": "시각적 동조",
+      "summary": "Hoopla Impro의 거울 연습은 짝의 움직임을 따라 하다가 리더 역할을 바꾸고 공동으로 움직이는 단계로 확장한다.",
+      "facts": [
+        {
+          "field": "대응_움직임",
+          "value": "한 참여자가 움직이면 다른 참여자가 거울처럼 따라 한다.",
+          "evidence": {
+            "source_id": "hoopla-mirror",
+            "locator": "Mirroring, 본문 L24–30; 기본 mirroring 지침",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "주도권_교환",
+          "value": "두 참여자가 리더 역할을 교환한다.",
+          "evidence": {
+            "source_id": "hoopla-mirror",
+            "locator": "Mirroring, 본문 L24–30; 리더 교환 단계",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공동_주도",
+          "value": "명확한 한 명의 리더 없이 함께 움직이는 단계가 제시된다.",
+          "evidence": {
+            "source_id": "hoopla-mirror",
+            "locator": "Mirroring, 본문 L24–30; 공동 주도 확장 단계",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "거리·시선",
+        "상호 동조"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "conductor-selected-story-turns",
+      "title_ko": "지휘자가 이야기 화자를 지목해 바꾸기",
+      "subtype": "지휘자·집단 발화 전환",
+      "summary": "Drama Resource의 이야기 오케스트라에서는 지휘자가 사람을 지목하고 발화 길이를 조정한다. 한 단어씩 차례대로 말하는 과제와는 다른 역할 구조다.",
+      "facts": [
+        {
+          "field": "역할_배치",
+          "value": "집단이 지휘자 한 사람 앞에 앉거나 선다.",
+          "evidence": {
+            "source_id": "dr-story-orchestra",
+            "locator": "Story Orchestra, 기본 진행 및 Director’s Tips L57–62; 기본 진행 단락 첫 문장: 지휘자 앞에 선 집단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "화자_선택",
+          "value": "지휘자가 순서를 자유롭게 정해 한 번에 한 사람을 지목한다.",
+          "evidence": {
+            "source_id": "dr-story-orchestra",
+            "locator": "Story Orchestra, 기본 진행 및 Director’s Tips L57–62; 기본 진행 단락: 사람을 자유로운 순서로 지목하기",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발화_전환",
+          "value": "지휘자가 각 화자의 발화 길이를 정하며 문장 끝이 아니어도 다른 화자로 바꿀 수 있다.",
+          "evidence": {
+            "source_id": "dr-story-orchestra",
+            "locator": "Story Orchestra, 기본 진행 및 Director’s Tips L57–62; 기본 진행 및 지도자 팁: 발화 길이와 문장 도중 화자 교체",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "주고받기",
+        "그룹 발화"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "right-handshake-release",
+      "title_ko": "악수 후 손 놓기",
+      "subtype": "인사 접촉",
+      "summary": "Emily Post의 면접 인사 지침은 오른손 악수와 짧은 위아래 움직임, 손 놓기를 순서로 제시한다. 면접 맥락의 예절 안내이며 보편적 문화 규칙이나 실제 접촉 관찰값은 아니다.",
+      "facts": [
+        {
+          "field": "인사_시선",
+          "value": "미소와 눈맞춤을 권하며 눈맞춤이 어려우면 콧등을 보는 대안을 제시한다.",
+          "evidence": {
+            "source_id": "ep-handshake",
+            "locator": "Introductions, 악수 순서 항목 2, L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "접촉_손",
+          "value": "오른손을 내밀어 상대 손을 잡도록 안내한다.",
+          "evidence": {
+            "source_id": "ep-handshake",
+            "locator": "Introductions, 악수 순서 항목 3, L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "접촉_종료",
+          "value": "위아래로 2–3회 움직인 뒤 손을 놓도록 안내한다.",
+          "evidence": {
+            "source_id": "ep-handshake",
+            "locator": "Introductions, 악수 순서 항목 4–5, L27",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "거리·시선",
+        "접촉·관계 연속성",
+        "악수"
+      ],
+      "existing_entry_id": "CRAFT-interaction-ccd3c3d9f2a2",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "hug-contact-context",
+      "title_ko": "가벼운 포옹과 분리",
+      "subtype": "친밀한 접촉",
+      "summary": "Robert Half가 직접 진행한 Daniel Post Senning 인터뷰는 업무상 포옹을 관계와 상대 반응에 따라 판단하도록 안내한다. 기존 가이드의 접촉 허용 맥락만 보강하며 팔의 겹침이나 분리 동작을 검증한 자료는 아니다.",
+      "facts": [
+        {
+          "field": "상대_차이",
+          "value": "인터뷰이는 모든 사람이 포옹을 똑같이 편하게 여긴다고 가정하지 말라고 조언한다.",
+          "evidence": {
+            "source_id": "rh-hug",
+            "locator": "office hugger 문답, L20",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "접촉_주도권",
+          "value": "업무 상황에서 포옹을 강요하지 말고 몸짓을 살피며 상대가 주도하게 하라고 조언한다.",
+          "evidence": {
+            "source_id": "rh-hug",
+            "locator": "office hugger 문답, L21",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "관계_조건",
+          "value": "처음 만나는 업무 상대에게는 악수를 권하고 포옹은 서로 알게 된 뒤의 선택지로 둔다.",
+          "evidence": {
+            "source_id": "rh-hug",
+            "locator": "business contacts 문답, L24–26",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "접촉·관계 연속성",
+        "포옹",
+        "업무 맥락"
+      ],
+      "existing_entry_id": "CRAFT-interaction-9cbc39c0f599",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "flocking-front-leader-transfer",
+      "title_ko": "무리의 방향에 따라 리더 바꾸기",
+      "subtype": "그룹 이동·주도권",
+      "summary": "UT Austin의 Flocking 연습은 같은 방향을 향한 집단이 맨 앞 사람의 동작을 따르다가 방향 변화로 리더를 교대한다. 짝 거울 연습과 달리 집단의 앞쪽 위치와 시야가 주도권을 정한다.",
+      "facts": [
+        {
+          "field": "집단_배치",
+          "value": "참여자들은 같은 방향을 향해 서며 서로 닿지 않고 움직일 공간을 둔다.",
+          "evidence": {
+            "source_id": "ut-flocking",
+            "locator": "Directions, 첫 문단 L46",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "초기_주도권",
+          "value": "집단의 맨 앞 사람이 통제된 동작을 이끌고 다른 참여자들이 따라 한다.",
+          "evidence": {
+            "source_id": "ut-flocking",
+            "locator": "Directions, 둘째 문단 L47",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "방향_교대",
+          "value": "방향이 바뀌어 기존 리더가 집단 시야에서 벗어나면 새 앞쪽 사람이 리더가 된다.",
+          "evidence": {
+            "source_id": "ut-flocking",
+            "locator": "Directions, 셋째 문단 L48",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "역할",
+        "거리·시선",
+        "주고받기",
+        "그룹 이동"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ]
+}

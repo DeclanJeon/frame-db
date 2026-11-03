@@ -1,0 +1,35 @@
+{
+  "job_id": "hair-D01",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [
+    "exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+    "exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png",
+    "exec-56d0e7af-6ef9-4308-821b-8f1ef6acd076.png",
+    "exec-bb1b24ea-e6e3-4d8f-a5b4-3fac01484557.png"
+  ],
+  "path": "public/generated/frame-assets/hair-D01.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-99d3024b-a7d4-4c83-82e1-ebc7f7e0b325.png",
+  "sha256": "cd48c3176b012d83b033de52561d77d54be931374e1520771fa0b0c91e4b94ae",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "worker",
+    "provisional_decision": "accept",
+    "observations": "Subject-left ear is exposed while the blunt bob edge and length remain; opposite side and accepted identity marks remain consistent."
+  },
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1536,
+    "width": 1024
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E08.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-D01-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-D01; concept: 왼쪽 귀 뒤로 넘긴 블런트 보브.\nClass: creative; domain: hair; entry: GEN-asset-hair-D01.\nParent entry IDs: [\"CRAFT-hair-172e978476d9\",\"FS-0001\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E08\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"hair-E08\":\"identity\"}\nInput images: hair-E08 (identity reference); expression-E00 (identity reference).\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Tuck only the subject-left side behind the left ear; retain the blunt jaw perimeter and full length of the tucked strands. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep parent hair geometry, color, hairline, density and length landmarks outside the declared delta.\nChange only: Tuck only the subject-left side behind the left ear; retain the blunt jaw perimeter and full length of the tucked strands.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Left ear exposed without shortening left bob or tucking right side.; One diagnostic view only, not a sequence or collage.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}"
+}

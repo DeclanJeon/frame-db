@@ -1,0 +1,18 @@
+{
+  "job_id": "hair-E01",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E01.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bf6-6065-7223-9d18-e1e18c59f881/exec-50636979-6ce1-458e-9b30-30d6e55ebf94.png",
+  "sha256": "d7c37787ab3a7bfb81c3f909269039f217cb4ab5053594c1d0f85a43708f0943",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E01; concept: 버즈 커트.\nClass: base; domain: hair; entry: FS-0011.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: []\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Uniform short visible buzz stubble covers the scalp, following its natural curvature; keep the natural hairline, temples and occipital outline intact. Establish identity B as a synthetic adult man in his early thirties with dark-brown irises, naturally textured skin without a prescribed ethnicity or forced match to A, a small flat mole on the subject-right cheek, clean-shaven cheeks and chin, and no glasses or jewelry. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Uniform short visible buzz stubble covers the scalp, following its natural curvature; keep the natural hairline, temples and occipital outline intact.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Visible projecting buzz stubble, not a smooth shaved scalp.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; parent review required",
+    "observations": "Full image inspected. Visible short projecting stubble covers the scalp; natural hairline and temple outline remain intact. Subject-left ear and rear nape are visible. Head and visible haircut fit within the frame."
+  }
+}

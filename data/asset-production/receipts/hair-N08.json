@@ -1,0 +1,34 @@
+{
+  "job_id": "hair-N08",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [
+    "exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+    "exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png",
+    "exec-bb1b24ea-e6e3-4d8f-a5b4-3fac01484557.png"
+  ],
+  "path": "public/generated/frame-assets/hair-N08.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-56d0e7af-6ef9-4308-821b-8f1ef6acd076.png",
+  "sha256": "bdebb6a329360f4c60b3f9717cb6aad834f44bb7191bbda445fd777bf99ec08e",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "worker",
+    "provisional_decision": "accept",
+    "observations": "One low nape rope twist with two visible wrapped sections, a continuous tail and black elastics; identity and framing match the reference."
+  },
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1536,
+    "width": 1024
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E18.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-N08-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-N08; concept: 두 가닥 로프 로우 테일.\nClass: base; domain: hair; entry: GEN-asset-hair-N08.\nParent entry IDs: [\"CRAFT-hair-b81cfe2d0898\",\"FS-0004\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E18\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"hair-E18\":\"identity\"}\nInput images: hair-E18 (identity reference); expression-E00 (identity reference).\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Gather long dark-brown hair at the nape with one black elastic. Twist two sections individually clockwise as viewed from attachment toward tips, then wrap them together counterclockwise; show two distinct strands and one end elastic. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: rear three-quarter attachment and rope-crossing view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.\nChange only: Gather long dark-brown hair at the nape with one black elastic. Twist two sections individually clockwise as viewed from attachment toward tips, then wrap them together counterclockwise; show two distinct strands and one end elastic.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Two sections wrap opposite to their own twists; no third plait strand.; Compare against the named basis; the new structural coverage must be visibly different.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}"
+}

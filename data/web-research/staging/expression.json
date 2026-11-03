@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "category_id": "expression",
+  "collector": "omo-expression-collector-20261030",
+  "collected_at": "2026-10-30T03:33:53.926348+00:00",
+  "sources": [
+    {
+      "source_id": "ekman-surprise",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-surprise/",
+      "title": "Surprise",
+      "publisher": "Paul Ekman Group",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "놀람 정의 첫 문단; 움찔 반사와 놀람의 차이 절; 놀람의 얼굴 표현 절",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문의 짧은 한국어 요약만 기록한다. 사진·원문 재배포, 상업 이용, 초상권 및 AI 업로드 허락은 미확인이다. 이미지·영상은 취득하거나 검사하지 않았다.",
+        "attribution": "Paul Ekman Group, Surprise. 페이지 개별 저자와 사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ekman-sadness",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-sadness/",
+      "title": "Sadness",
+      "publisher": "Paul Ekman Group",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "슬픔의 범위 절; 슬픔의 얼굴 표현 절; 슬픔의 자세 절",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 열람했다. 사진·본문 복제와 상업 재사용 허락은 확인하지 않았다. 미디어와 실제 배우의 표정은 검사하지 않았다.",
+        "attribution": "Paul Ekman Group, Sadness. 개별 저자·사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ekman-anger",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-anger/",
+      "title": "Anger",
+      "publisher": "Paul Ekman Group",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "분노의 얼굴 표현 절, 첫 문단의 일반 표정 및 억제 설명",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문만 읽었다. 원문·사진·영상의 복제·편집·상업 재사용 허락은 미확인이다. 미디어 검수나 감정 판독 실험은 수행하지 않았다.",
+        "attribution": "Paul Ekman Group, Anger. 개별 저자·사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ekman-fear",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-fear/",
+      "title": "Fear",
+      "publisher": "Paul Ekman Group",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "공포 경험 절, 위협 대처 문단; 공포의 얼굴 표현 절, 놀람과 비교한 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 출처의 설명만 요약했다. 사진·원문 재배포와 상업 이용 권리는 미확인이다. 실제 눈의 노출 면적을 측정하지 않았다.",
+        "attribution": "Paul Ekman Group, Fear. 개별 저자·사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ekman-disgust",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-disgust/",
+      "title": "Disgust",
+      "publisher": "Paul Ekman Group",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "혐오 경험 절, 강도 문단; 혐오의 얼굴 표현 절; 혐오의 자세 절",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트만 열람했다. 원문·사진의 재배포·상업 사용·초상권 허락은 미확인이다. 시각 자료를 검사하지 않았다.",
+        "attribution": "Paul Ekman Group, Disgust. 개별 저자·사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ekman-contempt",
+      "url": "https://www.paulekman.com/universal-emotions/what-is-contempt/",
+      "title": "Contempt",
+      "publisher": "Paul Ekman Group",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "경멸 경험 절; 경멸의 얼굴 표현 절; 경멸의 자세 절",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "연구자 측 공개 설명만 요약했다. 사진·본문의 재사용 및 상업 이용 허락은 미확인이다. 문화권 전반의 보편성이나 배우의 내면을 검증한 결과로 사용하지 않는다.",
+        "attribution": "Paul Ekman Group, Contempt. 개별 저자·사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ekman-duchenne",
+      "url": "https://www.paulekman.com/blog/fake-smile-or-genuine-smile/",
+      "title": "Fake Smile or Genuine Smile?",
+      "publisher": "Paul Ekman Group",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "기쁨 미소 절; 기쁨 미소의 진정성 단서 절; 거짓 미소 절",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "정규 공개 URL로 연결되는 본문을 읽었다. 사진·원문 재배포와 AI 업로드 허락은 미확인이다. 얼굴 영상 검사나 진정성 판정은 하지 않았다.",
+        "attribution": "Paul Ekman Group, Fake Smile or Genuine Smile? 개별 게시물 저자·사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "ekman-smile-types",
+      "url": "https://www.paulekman.com/blog/science-of-smiling/",
+      "title": "The Science of Smiling",
+      "publisher": "Paul Ekman Group",
+      "authors": ["Paul Ekman"],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "비기쁨 미소 절의 쓴웃음 두 문단; 시선 미소 절의 호감·수줍음 문단; 사회적 미소 절의 비판 완화·수용 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "저자의 분류를 짧게 요약한다. 사진·원문 재배포 허락은 미확인이다. 실제 영상·시선 좌표는 검사하지 않았다.",
+        "attribution": "Paul Ekman / Paul Ekman Group, The Science of Smiling. 본문이 Ekman의 설명으로 소개한다. 사진 권리는 별도 미확인."
+      }
+    },
+    {
+      "source_id": "ekman-mask",
+      "url": "https://www.paulekman.com/blog/smile-mask/",
+      "title": "Smile Mask",
+      "publisher": "Paul Ekman Group",
+      "authors": ["Paul Ekman"],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "저자 Telling Lies 발췌 표시; 미소의 중요성·거짓말의 대상·자발적 구성 절",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "저자가 공개한 발췌의 짧은 사실 요약만 작성한다. 책·사진·발췌문 재배포와 상업 이용 허락은 미확인이다. 사람의 기만 여부를 판독하지 않는다.",
+        "attribution": "Paul Ekman, Telling Lies 발췌, Paul Ekman Group의 Smile Mask. 사진 권리자는 미확인이다."
+      }
+    },
+    {
+      "source_id": "nyfa-audition",
+      "url": "https://www.nyfa.edu/admissions/audition-requirements-at-nyfa/",
+      "title": "Performing Arts Audition Requirements at NYFA",
+      "publisher": "New York Film Academy",
+      "authors": [],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "영화연기 > 독백 촬영 > 소개·시선 항목; 뮤지컬 > 디지털 오디션 제출 > 추가 안내의 시선 항목",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "학교가 직접 정한 오디션 지침의 공개 본문을 읽었다. 지침을 모든 제작의 보편 규칙으로 확장하지 않는다. 본문·예시 미디어 재배포 허락은 미확인이며 파일은 취득하지 않았다.",
+        "attribution": "New York Film Academy, Performing Arts Audition Requirements at NYFA. 개별 집필자는 미표시."
+      }
+    },
+    {
+      "source_id": "ravdess-release",
+      "url": "https://zenodo.org/api/records/1188976",
+      "title": "The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)",
+      "publisher": "Zenodo; 원배포자 Steven R. Livingstone 및 Frank A. Russo",
+      "authors": ["Steven R. Livingstone", "Frank A. Russo"],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "공개 JSON metadata.description: 설명 및 파일명 식별자 감정·강도 항목; metadata.license.id; metadata.version",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://zenodo.org/api/records/1188976",
+        "scope": "원배포 API를 실제 읽어 cc-by-nc-sa-4.0을 확인했다. 데이터 이용은 비상업·동일조건 등 라이선스 조건에 제한된다. 상업 사용은 별도 안내 대상이며 이번에는 링크와 메타데이터만 기록한다. 미디어 취득·재생·AI 업로드는 하지 않았다.",
+        "attribution": "Livingstone SR, Russo FA (2018), RAVDESS v1.0.0, DOI 10.5281/zenodo.1188976. 이용 시 출처·라이선스·변경 고지를 유지해야 하며 초상·기타 권리는 별도 확인이 필요하다."
+      }
+    },
+    {
+      "source_id": "ravdess-paper",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391",
+      "title": "The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English",
+      "publisher": "PLOS ONE",
+      "authors": ["Steven R. Livingstone", "Frank A. Russo"],
+      "checked_at": "2026-10-30T03:33:53.926348+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "두 기준 감정 절; 검증 방법 중 정확도·신뢰도 산출 문단; 논문 앞부분 Copyright 문단",
+      "rights": {
+        "status": "explicit_open",
+        "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391",
+        "scope": "논문 Copyright 문단은 논문을 CC BY 4.0으로 제공한다. 논문 자체와 원배포 데이터의 NC-SA 조건은 별개로 기록하며 데이터 상업 사용 허락으로 확장하지 않는다. 첨부 영화·그림은 취득하지 않았다.",
+        "attribution": "Livingstone SR, Russo FA (2018), PLOS ONE 13(5): e0196391, DOI 10.1371/journal.pone.0196391. 논문 이용 시 저자·출처·CC BY 4.0 및 변경 여부를 표시한다. 개별 미디어·초상권은 별도 확인한다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "sudden-surprise",
+      "title_ko": "갑작스러운 놀람",
+      "subtype": "자극 반응·놀람",
+      "summary": "Paul Ekman Group은 예기치 않은 자극에 대한 놀람을 설명한다. 기존 항목의 어깨 반응은 이 근거로 검증하지 않는다.",
+      "facts": [
+        {"field": "반응 맥락", "value": "갑작스럽고 예상하지 못한 소리나 움직임을 계기로 설명한다.", "evidence": {"source_id": "ekman-surprise", "locator": "놀람 정의 첫 문단", "kind": "source_claim"}},
+        {"field": "눈·눈썹", "value": "눈이 크게 열리고 눈썹이 올라간다고 설명한다.", "evidence": {"source_id": "ekman-surprise", "locator": "움찔 반사와 놀람의 차이 절, 놀람의 얼굴을 설명한 마지막 문장", "kind": "source_claim"}},
+        {"field": "턱·입", "value": "턱이 내려가 입이 열리며, 공포보다 턱과 윗눈꺼풀이 이완된다고 설명한다.", "evidence": {"source_id": "ekman-surprise", "locator": "움찔 반사와 놀람의 차이 절 마지막 문장 및 놀람의 얼굴 표현 절", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["놀람", "눈썹", "턱", "출처 설명"],
+      "existing_entry_id": "FS-0019",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "quiet-sadness",
+      "title_ko": "고요한 슬픔",
+      "subtype": "슬픔·절제",
+      "summary": "Paul Ekman Group의 슬픔 설명을 기존 항목에 보강한다. 절제된 연기의 입술 긴장이나 실제 감정은 확인하지 않았다.",
+      "facts": [
+        {"field": "강도 범위", "value": "슬픔의 범위에 가벼운 실망부터 극심한 절망까지 포함한다고 설명한다.", "evidence": {"source_id": "ekman-sadness", "locator": "슬픔 경험 절, 강도 범위 첫 문단", "kind": "source_claim"}},
+        {"field": "눈썹 움직임", "value": "눈썹 안쪽 모서리가 위로 기울어지는 모습을 단서로 제시한다.", "evidence": {"source_id": "ekman-sadness", "locator": "슬픔의 얼굴 표현 절, 첫 문단", "kind": "source_claim"}},
+        {"field": "시선", "value": "시선을 피하거나 아래로 향하는 경우가 흔하다고 설명한다.", "evidence": {"source_id": "ekman-sadness", "locator": "슬픔의 자세 절, 첫 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["슬픔", "강도", "시선 하강", "출처 설명"],
+      "existing_entry_id": "FS-0020",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "suppressed-anger",
+      "title_ko": "분노를 절제하기",
+      "subtype": "억제된 감정",
+      "summary": "Paul Ekman Group은 분노 억제 시 표출이 덜 뚜렷할 수 있다고 설명한다. 기존 가이드의 호흡 순서는 미검증이다.",
+      "facts": [
+        {"field": "억제·표출", "value": "의식적 억제나 무의식적 억압 상태에서는 분노 표정이 덜 뚜렷할 수 있다고 설명한다.", "evidence": {"source_id": "ekman-anger", "locator": "분노의 얼굴 표현 절, 첫 문단 후반의 억제 설명", "kind": "source_claim"}},
+        {"field": "눈썹의 일반 단서", "value": "일반적인 분노 표현에서는 눈썹이 내려가고 서로 가까워진다고 설명한다.", "evidence": {"source_id": "ekman-anger", "locator": "분노의 얼굴 표현 절, 첫 문장", "kind": "source_claim"}},
+        {"field": "입의 일반 단서", "value": "일반적인 분노 표현에서 입꼬리가 좁아지는 양상을 제시한다.", "evidence": {"source_id": "ekman-anger", "locator": "분노의 얼굴 표현 절, 첫 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["분노", "억제", "눈썹", "출처 설명"],
+      "existing_entry_id": "CRAFT-expression-c83039aba39f",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "fear-expression",
+      "title_ko": "공포 표정",
+      "subtype": "공포·위협 반응",
+      "summary": "Paul Ekman Group이 제시한 공포와 놀람의 얼굴 차이이다. 특정 배우의 표정이나 시선 방향을 관찰한 기록은 아니다.",
+      "facts": [
+        {"field": "눈썹", "value": "놀람보다 눈썹이 곧고 수평에 가까운 형태로 올라간다고 설명한다.", "evidence": {"source_id": "ekman-fear", "locator": "공포의 얼굴 표현 절, 눈썹 비교 문장", "kind": "source_claim"}},
+        {"field": "윗눈꺼풀", "value": "놀람보다 더 높이 올라가 흰자위가 더 드러난다고 설명한다.", "evidence": {"source_id": "ekman-fear", "locator": "공포의 얼굴 표현 절, 윗눈꺼풀 비교 문장", "kind": "source_claim"}},
+        {"field": "입술", "value": "놀람의 느슨하게 열린 입과 달리 긴장하며 옆으로 늘어난다고 설명한다.", "evidence": {"source_id": "ekman-fear", "locator": "공포의 얼굴 표현 절, 마지막 입술 비교 문장", "kind": "source_claim"}},
+        {"field": "강도 관련 조건", "value": "위협을 줄일 수 없는 무력감은 공포를 강화할 수 있다고 설명한다.", "evidence": {"source_id": "ekman-fear", "locator": "공포 경험 절, 대처 가능성과 무력감을 비교한 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["공포", "눈꺼풀", "입술", "강도"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "disgust-expression",
+      "title_ko": "혐오 표정",
+      "subtype": "혐오·회피 반응",
+      "summary": "Paul Ekman Group의 혐오 표현 설명이다. 강도별 배우 사례나 코 주름의 깊이는 검사하지 않았다.",
+      "facts": [
+        {"field": "코 움직임", "value": "코를 찡그려 주름지게 하는 것을 뚜렷한 얼굴 단서로 제시한다.", "evidence": {"source_id": "ekman-disgust", "locator": "혐오의 얼굴 표현 절, 첫 문장", "kind": "source_claim"}},
+        {"field": "강도 범위", "value": "가벼운 싫어함부터 강렬한 혐오감까지의 범위를 설명한다.", "evidence": {"source_id": "ekman-disgust", "locator": "혐오 경험 절, 첫 문단", "kind": "source_claim"}},
+        {"field": "회피 방향", "value": "혐오 대상에서 머리나 몸을 돌려 멀리하는 반응이 흔하다고 설명한다.", "evidence": {"source_id": "ekman-disgust", "locator": "혐오의 자세 절, 첫 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["혐오", "코", "회피", "강도"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "contempt-expression",
+      "title_ko": "경멸 표정",
+      "subtype": "경멸·관계 신호",
+      "summary": "Paul Ekman Group이 설명한 비대칭 관계 신호이다. 비대칭 입꼬리만으로 기존의 장난스러운 미소와 동일시하지 않는다.",
+      "facts": [
+        {"field": "관계 의미", "value": "상대를 낮게 평가하고 자신이 우월하다고 느끼는 맥락으로 설명한다.", "evidence": {"source_id": "ekman-contempt", "locator": "경멸 경험 절, 기본 의미 첫 문단", "kind": "source_claim"}},
+        {"field": "얼굴 대칭성", "value": "한쪽에 나타나는 비대칭 얼굴 표현으로 설명한다.", "evidence": {"source_id": "ekman-contempt", "locator": "경멸의 얼굴 표현 절, 첫 문장", "kind": "source_claim"}},
+        {"field": "동반 표정", "value": "미소나 분노의 기색이 동반될 수도, 없을 수도 있다고 설명한다.", "evidence": {"source_id": "ekman-contempt", "locator": "경멸의 얼굴 표현 절, 두 번째 문장", "kind": "source_claim"}},
+        {"field": "시선 관련 행동", "value": "눈을 굴리거나 상대를 내려다보는 행동을 흔한 예로 든다.", "evidence": {"source_id": "ekman-contempt", "locator": "경멸의 자세 절, 첫 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["경멸", "비대칭", "시선", "출처 설명"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "duchenne-smile",
+      "title_ko": "활짝 웃음",
+      "subtype": "기쁨·눈가와 볼의 미소",
+      "summary": "Paul Ekman Group의 뒤셴 미소 설명으로 기존의 볼·눈가 협응 항목을 보강한다. 얼굴만으로 실제 기쁨을 확정하지 않는다.",
+      "facts": [
+        {"field": "근육 조합", "value": "큰광대근과 눈둘레근이 함께 작용하는 구성을 뒤셴 미소로 설명한다.", "evidence": {"source_id": "ekman-duchenne", "locator": "기쁨 미소 절, 근육 구성을 정의한 첫 문단", "kind": "source_claim"}},
+        {"field": "볼·눈꺼풀", "value": "볼과 아래 눈꺼풀이 올라가고 눈 아래 피부가 부풀 수 있다고 설명한다.", "evidence": {"source_id": "ekman-duchenne", "locator": "기쁨 미소의 진정성 단서 절, 얼굴 변화 열거 문장", "kind": "source_claim"}},
+        {"field": "눈 바깥쪽", "value": "눈 바깥쪽에 잔주름이 생길 수 있다고 설명한다.", "evidence": {"source_id": "ekman-duchenne", "locator": "기쁨 미소의 진정성 단서 절, 얼굴 변화 열거 문장", "kind": "source_claim"}},
+        {"field": "해석 한계", "value": "의도적으로 크게 만든 미소도 여러 유사 단서를 만들 수 있어 구별이 어렵다고 설명한다.", "evidence": {"source_id": "ekman-duchenne", "locator": "거짓 미소 절, 의도적으로 크게 만든 미소의 예외 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["미소", "뒤셴", "볼", "눈가"],
+      "existing_entry_id": "FS-0018",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "startle-reflex",
+      "title_ko": "반사적으로 움찔한 얼굴",
+      "subtype": "반사 반응",
+      "summary": "Paul Ekman Group은 움찔 반사를 감정으로서의 놀람과 구별한다. 두 개념을 눈을 크게 뜨는 표정으로 합치지 않는다.",
+      "facts": [
+        {"field": "반응 구분", "value": "예상 밖 사건에 대한 감정인 놀람과 달리 신체 반사로 분류한다.", "evidence": {"source_id": "ekman-surprise", "locator": "움찔 반사와 놀람의 차이 절, 첫 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "눈", "value": "눈을 단단히 감는다고 설명한다.", "evidence": {"source_id": "ekman-surprise", "locator": "움찔 반사와 놀람의 차이 절, 움찔 얼굴을 설명한 문장", "kind": "source_claim"}},
+        {"field": "눈썹·입술", "value": "눈썹은 내려가고 입술은 긴장하며 늘어난다고 설명한다.", "evidence": {"source_id": "ekman-surprise", "locator": "움찔 반사와 놀람의 차이 절, 움찔 얼굴을 설명한 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["움찔", "반사", "눈 감기", "놀람과 구별"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "smile-mask",
+      "title_ko": "당황을 숨기는 미소",
+      "subtype": "감정 은폐·미소",
+      "summary": "Ekman의 미소 가면 설명을 기존 은폐 연기의 일반 근거로 연결한다. 가이드에 적힌 눈 정지·옆 시선의 순서는 미검증이다.",
+      "facts": [
+        {"field": "표현 의도", "value": "미소를 부정적 감정을 감추는 가면으로 사용할 수 있다고 설명한다.", "evidence": {"source_id": "ekman-mask", "locator": "미소의 중요성 소제목 아래 첫 문단", "kind": "source_claim"}},
+        {"field": "사회적 맥락", "value": "예의상 인사나 교류에서는 불편한 감정을 공손한 미소로 가리는 상황을 설명한다.", "evidence": {"source_id": "ekman-mask", "locator": "거짓말의 대상 소제목 아래 인사·예의 설명 문단", "kind": "source_claim"}},
+        {"field": "자발적 구성", "value": "미소는 의도적으로 만들기 쉬운 감정 얼굴 표현이라고 저자는 설명한다.", "evidence": {"source_id": "ekman-mask", "locator": "거짓말의 구분 소제목 아래 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["감정 은폐", "미소", "연기 의도", "출처 설명"],
+      "existing_entry_id": "CRAFT-expression-9fedcf77ff03",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "embarrassment-smile",
+      "title_ko": "수줍은 웃음",
+      "subtype": "수줍음·시선 회피",
+      "summary": "Ekman의 수줍음 미소 설명이다. 이후 다시 눈맞추는 순서는 미확인이다.",
+      "facts": [
+        {"field": "시선 방향", "value": "아래나 옆으로 향한다.", "evidence": {"source_id": "ekman-smile-types", "locator": "시선 미소 절, 수줍음 미소 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "눈맞춤", "value": "상대 눈을 피한다.", "evidence": {"source_id": "ekman-smile-types", "locator": "시선 미소 절, 수줍음 미소 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "턱 움직임", "value": "턱끝 융기가 잠깐 올라가기도 한다.", "evidence": {"source_id": "ekman-smile-types", "locator": "시선 미소 절, 수줍음 미소 문단 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["수줍음", "미소", "시선 회피"],
+      "existing_entry_id": "FS-0016",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "miserable-smile",
+      "title_ko": "괴로움을 인정하는 쓴웃음",
+      "subtype": "비기쁨 미소",
+      "summary": "Ekman은 괴로움의 인정과 은폐를 구별한다.",
+      "facts": [
+        {"field": "표현 의도", "value": "괴로움을 숨기지 않고 인정한다.", "evidence": {"source_id": "ekman-smile-types", "locator": "비기쁨 미소 절, 쓴웃음 첫 문단", "kind": "source_claim"}},
+        {"field": "대칭성", "value": "흔히 비대칭이다.", "evidence": {"source_id": "ekman-smile-types", "locator": "비기쁨 미소 절, 쓴웃음 두 번째 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "눈가", "value": "억제된 기쁨 미소와 달리 눈둘레근 긴장 단서가 없다.", "evidence": {"source_id": "ekman-smile-types", "locator": "비기쁨 미소 절, 쓴웃음 두 번째 문단의 눈둘레근 비교", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["쓴웃음", "비대칭", "감정 인정"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "qualifier-smile",
+      "title_ko": "비판을 완화하는 미소",
+      "subtype": "사회적 미소·메시지 완화",
+      "summary": "Ekman의 비판 완화 미소 분류이다.",
+      "facts": [
+        {"field": "표현 의도", "value": "비판의 거친 느낌을 줄인다.", "evidence": {"source_id": "ekman-smile-types", "locator": "사회적 미소 절, 비판 완화 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "시작 양상", "value": "의도적으로 빠르고 갑작스럽게 시작한다.", "evidence": {"source_id": "ekman-smile-types", "locator": "사회적 미소 절, 비판 완화 문단 두 번째 문장", "kind": "source_claim"}},
+        {"field": "머리·시선", "value": "끄덕이며 고개를 아래·옆으로 기울이는 경우가 흔하다.", "evidence": {"source_id": "ekman-smile-types", "locator": "사회적 미소 절, 비판 완화 문단 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["사회적 미소", "비판", "메시지 완화"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "compliance-smile",
+      "title_ko": "마지못한 수용의 미소",
+      "subtype": "사회적 미소·수용",
+      "summary": "Ekman의 마지못한 수용 미소 분류이다.",
+      "facts": [
+        {"field": "표현 의도", "value": "원치 않는 결과를 항의 없이 받아들인다.", "evidence": {"source_id": "ekman-smile-types", "locator": "사회적 미소 절, 수용 미소 문단 첫 두 문장", "kind": "source_claim"}},
+        {"field": "머리 자세", "value": "비판 완화 미소의 특징적 머리 자세는 없다.", "evidence": {"source_id": "ekman-smile-types", "locator": "사회적 미소 절, 수용 미소 문단의 머리 자세 비교", "kind": "source_claim"}},
+        {"field": "동반 반응", "value": "짧은 눈썹 상승·한숨·어깨 으쓱임이 동반될 수 있다.", "evidence": {"source_id": "ekman-smile-types", "locator": "사회적 미소 절, 수용 미소 문단 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["사회적 미소", "수용", "눈썹"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "flirtatious-smile",
+      "title_ko": "곁눈질을 섞는 호감 미소",
+      "subtype": "호감·시선 전환",
+      "summary": "Ekman은 호감 미소의 짧은 곁눈질을 설명한다.",
+      "facts": [
+        {"field": "처음 방향", "value": "웃으며 관심 대상에서 얼굴·시선을 돌린다.", "evidence": {"source_id": "ekman-smile-types", "locator": "시선 미소 절, 호감 미소 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "중간 시선", "value": "상대를 잠깐 흘끗 본다.", "evidence": {"source_id": "ekman-smile-types", "locator": "시선 미소 절, 호감 미소 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "끝 방향", "value": "다시 시선을 돌려 피한다.", "evidence": {"source_id": "ekman-smile-types", "locator": "시선 미소 절, 호감 미소 문단 첫 문장 후반", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["호감", "미소", "곁눈질"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "off-camera-partner-eyeline",
+      "title_ko": "카메라 옆 상대 바라보기",
+      "subtype": "시선·셀프테이프",
+      "summary": "NYFA의 오디션 시선 지침으로 기존 항목을 보강한다. 학교는 카메라 밖 지점을 요구하지만 렌즈 옆 상대의 정확한 거리·각도는 명시하지 않는다.",
+      "facts": [
+        {"field": "시선 대상", "value": "영화연기 독백은 카메라 밖의 정한 지점으로 향하도록 안내한다.", "evidence": {"source_id": "nyfa-audition", "locator": "영화연기 > 독백 촬영 > 시선 항목", "kind": "source_claim"}},
+        {"field": "제외 시선", "value": "영화연기 독백에서 렌즈 안이나 카메라 위·아래를 보지 않도록 안내한다.", "evidence": {"source_id": "nyfa-audition", "locator": "영화연기 > 독백 촬영 > 시선 항목", "kind": "source_claim"}},
+        {"field": "얼굴 가시성", "value": "뮤지컬 디지털 오디션에서도 직접 카메라를 보지 않되 얼굴은 보여야 한다고 안내한다.", "evidence": {"source_id": "nyfa-audition", "locator": "뮤지컬 > 디지털 오디션 제출 > 추가 안내의 시선 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["시선", "오프카메라", "얼굴 가시성", "셀프테이프"],
+      "existing_entry_id": "CRAFT-expression-39071166e91c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "direct-camera-slate",
+      "title_ko": "렌즈를 향한 자기소개 시선",
+      "subtype": "시선·오디션 소개",
+      "summary": "NYFA는 소개를 카메라에 전달하고 독백은 다른 시선으로 구분한다. 특정 감정·얼굴 움직임은 이 지침에서 확인되지 않는다.",
+      "facts": [
+        {"field": "전달 대상", "value": "오디션 시작의 자기소개 부분은 카메라에 전달하도록 안내한다.", "evidence": {"source_id": "nyfa-audition", "locator": "영화연기 > 독백 촬영 > 소개 첫 문단", "kind": "source_claim"}},
+        {"field": "소통 내용", "value": "이름과 연기할 작품 제목을 말하도록 요구한다.", "evidence": {"source_id": "nyfa-audition", "locator": "영화연기 > 독백 촬영 > 소개 첫 문단", "kind": "source_claim"}},
+        {"field": "장면과의 구분", "value": "뒤의 독백에서는 시선을 카메라 밖 지점에 두도록 별도로 안내한다.", "evidence": {"source_id": "nyfa-audition", "locator": "영화연기 > 독백 촬영 > 시선 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["시선", "직접 카메라", "자기소개", "셀프테이프"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "ravdess-neutral-calm-baseline",
+      "title_ko": "RAVDESS 중립·평온 기준 연기",
+      "subtype": "기준 표정·연기 조건",
+      "summary": "Livingstone·Russo의 기준 연기 조건을 한 개념으로 묶었다. 서로 다른 라벨을 별개 시각 개념으로 세지 않으며 시선·얼굴 움직임은 미관찰이다.",
+      "facts": [
+        {"field": "연기 조건 코드", "value": "원배포 파일명에서 중립은 감정 코드 01, 평온은 02로 구별한다.", "evidence": {"source_id": "ravdess-release", "locator": "metadata.description > Filename identifiers > Emotion", "kind": "source_claim"}},
+        {"field": "강도 조건", "value": "평온은 보통·강한 강도 조건을 갖고, 중립에는 강한 강도가 없다고 원배포가 명시한다.", "evidence": {"source_id": "ravdess-release", "locator": "metadata.description > Description; Filename identifiers > Emotional intensity", "kind": "source_claim"}},
+        {"field": "기준 조건의 목적", "value": "저자들은 중립과 비슷하되 약한 긍정 정서로 지각될 수 있는 평온을 추가 기준으로 도입했다고 설명한다.", "evidence": {"source_id": "ravdess-paper", "locator": "두 기준 감정 절, 평온 조건을 도입한 이유 문단", "kind": "source_claim"}},
+        {"field": "지각 구별의 한계", "value": "검증에서는 지각적 유사성 때문에 중립·평온 응답을 두 조건 모두에서 정답으로 인정했다.", "evidence": {"source_id": "ravdess-paper", "locator": "검증 방법 > 정확도·신뢰도 산출 문단, 중립·평온을 함께 정답으로 인정한 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["기준 연기", "중립", "평온", "강도", "RAVDESS"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": "확실히 구별되고 세 개 이상의 사실을 뒷받침할 수 있는 17개만 기록해 목표 20개보다 3개 부족하다. 기존 표정 41개를 대조해 7개는 기존 ID 보강으로 연결했다. RAVDESS 중립·평온은 원논문이 지각적 유사성을 명시하므로 하나의 기준 연기 개념으로 묶었고 강도·반복·모달리티 차이를 개념 수로 늘리지 않았다. 미소 분류도 사회적 의도나 시선 순서가 다른 경우만 남겼다. Backstage의 자기 테이프 기사는 차단 화면이어서 제외하고 NYFA 원지침으로 대체했다. Zenodo 랜딩 페이지의 브라우저 검사 화면 대신 본문 설명과 권리를 모두 읽을 수 있는 공식 공개 API를 출처로 사용했다. 출처 매트릭스의 RAVDESS 외에 원논문, 연구자 측 공개 설명, 학교의 원지침으로 확장했지만 나머지 기존 연기 가이드의 고유한 시간 순서·강도·시선과 동일성을 확인할 근거는 확보하지 못했다. 모든 사실은 source_claim이며 관찰·측정·창작 제안은 0개다. 공개 텍스트 열람을 미디어 확보나 상업 재사용 허락으로 간주하지 않았다."
+}

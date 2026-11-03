@@ -1,0 +1,624 @@
+{
+  "schema_version": 1,
+  "category_id": "evidence",
+  "input_sha256": "5d7c0307eb86d49ae1089488ceea984bee1223799e737f28b178b6879125d07a",
+  "reviewer": "independent-evidence-reviewer-st_01a18b53",
+  "reviewed_at": "2026-10-30T05:44:31.153516+00:00",
+  "accepted_concept_keys": [
+    "public-access-versus-reuse",
+    "unknown-rights-record",
+    "ideas-versus-expression",
+    "cc-by-attribution",
+    "cc-by-permission-scope",
+    "cc-other-rights-limits",
+    "primary-source-relation",
+    "derivation-quotation-revision",
+    "provenance-responsibility",
+    "provenance-entity-activity-agent",
+    "precise-source-location",
+    "source-temporal-state",
+    "observation-interpretation-proposal",
+    "measurement-reporting",
+    "consent-evidence-record",
+    "consent-withdrawal",
+    "product-claim-substantiation",
+    "visual-implied-claims",
+    "fiction-versus-testimonial",
+    "quality-assessment-scope"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "loc-copyright",
+      "url": "https://www.loc.gov/legal/security-copyright-and-privacy/understanding-copyright/",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "Introduction; How do I know whether I can use materials; What does the Library say about rights for the item",
+      "rights_checked": true,
+      "notes": "Read the actual LOC body in the web reader, including the uncertainty parenthesis. Unknown collection-media rights are conservative: LOC access is not permission, and LOC generally is not the rightsholder. Its government-work notice is not blanket collection licensing. Two concepts concern permission and record uncertainty, not wording variants. Direct urllib independently returned 403; public body was read through the web reader, not inferred from HTTP status."
+    },
+    {
+      "source_id": "cc-by4",
+      "url": "https://creativecommons.org/licenses/by/4.0/deed.en",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "You are free to; Under the following terms; Notices; Notice; Footnotes; footer",
+      "rights_checked": true,
+      "notes": "Read all operative deed summaries, footnotes and the footer. Footer confirms site content is CC BY 4.0 except as noted; icons are separately credited. This does not license unrelated files or clear personality/privacy rights. Permission scope, attribution obligations and residual rights are distinct concepts, not three licenses or acquired assets. Direct urllib independently returned 403; public body was read through the web reader, not inferred from HTTP status."
+    },
+    {
+      "source_id": "prov-o",
+      "url": "https://raw.githubusercontent.com/w3c/prov/main/ontology/Overview.html",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "Header; sections 3.1, 3.2, 4.1 and 4.2; Entity/Activity/Agent; derivation, responsibility and primary-source properties",
+      "rights_checked": true,
+      "notes": "Read W3C-owned raw HTML, not search snippets. Header identifies the three recorded editors and 12 March 2013 Proposed Recommendation. Copyright/document-use links do not establish unrestricted media reuse; unknown is retained. Four concepts cover components, responsibility, derivation types and source hierarchy, not aliases."
+    },
+    {
+      "source_id": "web-annotation",
+      "url": "https://w3c.github.io/web-annotation/model/wd2/",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "Header; sections 4.2.5 Text Position Selector and 4.3.1 Time State",
+      "rights_checked": true,
+      "notes": "Read the actual HTML body and source. Header identifies the three recorded editors and Recommendation status despite the wd2 path. Character-range selection and temporal representation are distinct. Document-use notices do not clear arbitrary annotated content; unknown media rights retained. No cached resource or media was acquired."
+    },
+    {
+      "source_id": "ssn-sosa",
+      "url": "https://raw.githubusercontent.com/w3c/sdw/gh-pages/ssn/integrated/sosa.ttl",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "Ontology header; sosa:ObservableProperty, sosa:Observation and sosa:Sensor definitions/examples",
+      "rights_checked": true,
+      "notes": "Read W3C-owned Turtle. Header confirms title, working-group creator, 2017-04-17 creation and W3C/OGC license links. Unknown media rights retained; these links are not inspection or consent evidence. Facts are ontology claims; FRAME_DB adaptation remains one separate proposal, not measured or observed data."
+    },
+    {
+      "source_id": "nist-uncertainty",
+      "url": "https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-7-reporting-uncertainty",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "NIST TN 1297 section 7.1; page maintenance warning",
+      "rights_checked": true,
+      "notes": "Read section 7.1 and the warning that this page is no longer updated and may be out of date. Acceptance is the expressly attributed TN 1297 reporting guidance, not current universal metrology requirements or actual measurement. Unknown media reuse remains unknown. Existing measurement/proposal guide mapping is appropriate. Direct urllib independently returned 403; public body was read through the web reader, not inferred from HTTP status."
+    },
+    {
+      "source_id": "ico-consent",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/how-should-we-obtain-record-and-manage-consent/",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "Under-review notice; How should we record consent; How should we manage the right to withdraw consent",
+      "rights_checked": true,
+      "notes": "Read the UK GDPR guidance body and its Data (Use and Access) Act under-review notice. Recordkeeping and withdrawal are distinct duties, not duplicate wording. Acceptance is attributed UK guidance only, not universal release/portrait law. Unknown media rights retained; no personal consent records or permissions were obtained. Direct urllib independently returned 403; public body was read through the web reader, not inferred from HTTP status."
+    },
+    {
+      "source_id": "ftc-advertising",
+      "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "How does the FTC determine if an ad is deceptive; What kind of evidence; Are letters from satisfied customers sufficient",
+      "rights_checked": true,
+      "notes": "Read the FTC guidance body. Objective substantiation and assessment of implied visual claims are distinct enrichments of two existing guides. No product efficacy was verified. Unknown media rights retained, not presumed public-domain clearance for third-party material. Direct urllib independently returned 403; public body was read through the web reader, not inferred from HTTP status."
+    },
+    {
+      "source_id": "ftc-testimonials",
+      "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "Section 465.2: false testimonials on own website; opinion versus experience; actors in dramatized commercials; introductory staff-guidance caveat",
+      "rights_checked": true,
+      "notes": "Read the exact FAQ answers, including the distinction between fictional dramatization and actors portraying actual testimonialists. Staff guidance is not a safe harbor; possible FTC Act deception remains. Existing fiction/experience mapping is appropriate. Unknown media rights retained; no testimonial or actor asset was acquired. Direct urllib independently returned 403; public body was read through the web reader, not inferred from HTTP status."
+    },
+    {
+      "source_id": "copyright-protect",
+      "url": "https://www.copyright.gov/help/faq/faq-protect.html",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "What does copyright protect, first answer",
+      "rights_checked": true,
+      "notes": "Read the Copyright Office answer itself. All three fields reflect its expression/idea distinction without concluding that a particular reference can be copied. The existing creative-reuse guide mapping is appropriate. Unknown media reuse retained; this explanatory page grants no third-party work permission. Direct urllib independently returned 403; public body was read through the web reader, not inferred from HTTP status."
+    },
+    {
+      "source_id": "dqv",
+      "url": "https://w3c.github.io/dwbp/vocab-dqg.html",
+      "checked_at": "2026-10-30T05:44:31.153516+00:00",
+      "access": "public_body",
+      "locator": "Source respecConfig; Class Quality Measurement; properties Is Measurement Of and Computed On",
+      "rights_checked": true,
+      "notes": "Read the actual W3C GitHub Pages body and HTML configuration: recorded editors, WG-NOTE and 2016-12-15 match. Definitions do not certify FRAME_DB files. Unknown media rights retained; diagrams/examples were not acquired or republished. The existing inspection-scope guide mapping is appropriate."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "public-access-versus-reuse",
+      "field": "공개와_재사용",
+      "source_id": "loc-copyright",
+      "locator": "도입부 둘째 문단, 온라인 공개와 자유로운 재사용을 구별하는 괄호 문장",
+      "verdict": "supported",
+      "notes": "Introduction, paragraph 2 explicitly distinguishes online access from free reuse."
+    },
+    {
+      "concept_key": "public-access-versus-reuse",
+      "field": "권한_주체",
+      "source_id": "loc-copyright",
+      "locator": "소장품 이용 여부 안내의 소장품 저작권 비소유·허락 불가 문단",
+      "verdict": "supported",
+      "notes": "How do I know whether I can use materials: LOC generally lacks collection copyrights and cannot grant permission."
+    },
+    {
+      "concept_key": "public-access-versus-reuse",
+      "field": "항목별_권리_단서",
+      "source_id": "loc-copyright",
+      "locator": "항목별 권리 기록 안내의 첫 문단, 두 권리 표제 안내",
+      "verdict": "supported",
+      "notes": "What does the Library say about rights for the item: both named item-level rights headings occur."
+    },
+    {
+      "concept_key": "unknown-rights-record",
+      "field": "원자료_오류",
+      "source_id": "loc-copyright",
+      "locator": "항목별 권리 기록 안내의 부정확성 경고 괄호, 원출처 오류 부분",
+      "verdict": "supported",
+      "notes": "Item-rights section parenthesis names incorrect original-source information."
+    },
+    {
+      "concept_key": "unknown-rights-record",
+      "field": "상태_변화",
+      "source_id": "loc-copyright",
+      "locator": "항목별 권리 기록 안내의 부정확성 경고 괄호, 상태 변화 부분",
+      "verdict": "supported",
+      "notes": "The same parenthesis separately names changes in item status."
+    },
+    {
+      "concept_key": "unknown-rights-record",
+      "field": "기록_완전성",
+      "source_id": "loc-copyright",
+      "locator": "항목별 권리 기록 안내의 부정확성 경고 괄호, 기록 불완전성 부분",
+      "verdict": "supported",
+      "notes": "The parenthesis also names incomplete records; accepted as uncertainty enrichment, not three independent concepts."
+    },
+    {
+      "concept_key": "ideas-versus-expression",
+      "field": "보호_대상",
+      "source_id": "copyright-protect",
+      "locator": "What does copyright protect?, 첫 문장",
+      "verdict": "supported",
+      "notes": "First FAQ answer lists original literary, dramatic, musical and artistic works."
+    },
+    {
+      "concept_key": "ideas-versus-expression",
+      "field": "비보호_원리",
+      "source_id": "copyright-protect",
+      "locator": "같은 답변, Copyright does not protect 문장",
+      "verdict": "supported",
+      "notes": "The answer excludes facts, ideas, systems and methods of operation."
+    },
+    {
+      "concept_key": "ideas-versus-expression",
+      "field": "표현_구별",
+      "source_id": "copyright-protect",
+      "locator": "같은 문장, although it may protect 절",
+      "verdict": "supported",
+      "notes": "The same answer distinguishes potentially protected expression; no specific-work permission inferred."
+    },
+    {
+      "concept_key": "cc-by-attribution",
+      "field": "크레딧",
+      "source_id": "cc-by4",
+      "locator": "조건 목록의 저작자 표시 항목, 크레딧 부분",
+      "verdict": "supported",
+      "notes": "Under the following terms, Attribution requires appropriate credit."
+    },
+    {
+      "concept_key": "cc-by-attribution",
+      "field": "라이선스_연결",
+      "source_id": "cc-by4",
+      "locator": "조건 목록의 저작자 표시 항목, 라이선스 링크 부분",
+      "verdict": "supported",
+      "notes": "The Attribution condition separately requires a license link."
+    },
+    {
+      "concept_key": "cc-by-attribution",
+      "field": "변경_고지",
+      "source_id": "cc-by4",
+      "locator": "조건 목록의 변경 표시 및 #ref-indicate-changes 각주",
+      "verdict": "supported",
+      "notes": "Attribution and the changes footnote require modification notice and retention of prior modification indications."
+    },
+    {
+      "concept_key": "cc-by-permission-scope",
+      "field": "공유",
+      "source_id": "cc-by4",
+      "locator": "허용 범위 목록 첫째 항목, 공유",
+      "verdict": "supported",
+      "notes": "You are free to, Share permits copying and redistribution, including commercially, subject to terms."
+    },
+    {
+      "concept_key": "cc-by-permission-scope",
+      "field": "개작",
+      "source_id": "cc-by4",
+      "locator": "허용 범위 목록 둘째 항목, 개작",
+      "verdict": "supported",
+      "notes": "Adapt permits remixing, transformation and building upon material, including commercially."
+    },
+    {
+      "concept_key": "cc-by-permission-scope",
+      "field": "허락_철회_조건",
+      "source_id": "cc-by4",
+      "locator": "허용 범위 목록 셋째 항목, 조건 준수와 철회 불가",
+      "verdict": "supported",
+      "notes": "The third freedom is irrevocable only while license terms are followed."
+    },
+    {
+      "concept_key": "cc-other-rights-limits",
+      "field": "보증",
+      "source_id": "cc-by4",
+      "locator": "조건 목록 뒤의 보증 부인 문단",
+      "verdict": "supported",
+      "notes": "Notices disclaims warranties."
+    },
+    {
+      "concept_key": "cc-other-rights-limits",
+      "field": "별도_권리",
+      "source_id": "cc-by4",
+      "locator": "보증 부인 문단의 별도 권리 경고와 해당 각주",
+      "verdict": "supported",
+      "notes": "Notices and its rights footnote retain publicity, privacy and moral-rights limitations."
+    },
+    {
+      "concept_key": "cc-other-rights-limits",
+      "field": "안내문_지위",
+      "source_id": "cc-by4",
+      "locator": "하단 안내문 지위 고지의 첫 문단",
+      "verdict": "supported",
+      "notes": "Notice identifies the deed as a summary rather than the operative license."
+    },
+    {
+      "concept_key": "primary-source-relation",
+      "field": "일차_출처_기준",
+      "source_id": "prov-o",
+      "locator": "§4.2 Property hadPrimarySource, 정의 첫 문장",
+      "verdict": "supported",
+      "notes": "Section 4.2 hadPrimarySource defines direct experience at the time of study."
+    },
+    {
+      "concept_key": "primary-source-relation",
+      "field": "이차_자료_연결",
+      "source_id": "prov-o",
+      "locator": "§4.2 Property hadPrimarySource, 두 번째 문단",
+      "verdict": "supported",
+      "notes": "The definition specifies derivation from primary to secondary material, with the property pointing to the primary entity."
+    },
+    {
+      "concept_key": "primary-source-relation",
+      "field": "판정_맥락",
+      "source_id": "prov-o",
+      "locator": "§4.2 Property hadPrimarySource, determination 문장",
+      "verdict": "supported",
+      "notes": "The definition expressly leaves primary-source determination to interpretation and domain conventions."
+    },
+    {
+      "concept_key": "derivation-quotation-revision",
+      "field": "파생",
+      "source_id": "prov-o",
+      "locator": "§4.1 Property wasDerivedFrom, 정의",
+      "verdict": "supported",
+      "notes": "Section 4.1 wasDerivedFrom covers transformation, update and construction from an existing entity."
+    },
+    {
+      "concept_key": "derivation-quotation-revision",
+      "field": "인용",
+      "source_id": "prov-o",
+      "locator": "§3.2 Expanded Terms, Three subproperties 문단",
+      "verdict": "supported",
+      "notes": "Section 3.2 explains wasQuotedFrom as repetition of some or all of a preceding entity."
+    },
+    {
+      "concept_key": "derivation-quotation-revision",
+      "field": "개정",
+      "source_id": "prov-o",
+      "locator": "§4.2 Property wasRevisionOf, 정의",
+      "verdict": "supported",
+      "notes": "Section 4.2 wasRevisionOf requires a revised version retaining substantial original content."
+    },
+    {
+      "concept_key": "provenance-responsibility",
+      "field": "자료_귀속",
+      "source_id": "prov-o",
+      "locator": "§4.1 Property wasAttributedTo, 정의",
+      "verdict": "supported",
+      "notes": "Section 4.1 wasAttributedTo assigns an entity to an agent."
+    },
+    {
+      "concept_key": "provenance-responsibility",
+      "field": "활동_책임",
+      "source_id": "prov-o",
+      "locator": "§3.1 기본 용어의 주체 책임 문단, 활동과 개체 귀속의 구별",
+      "verdict": "supported",
+      "notes": "Section 3.1 assigns activity responsibility via wasAssociatedWith, separately from entity attribution."
+    },
+    {
+      "concept_key": "provenance-responsibility",
+      "field": "대리_수행",
+      "source_id": "prov-o",
+      "locator": "§3.1 기본 용어의 주체 책임 문단, 대리 수행 문장",
+      "verdict": "supported",
+      "notes": "Section 3.1 assigns delegated responsibility through actedOnBehalfOf."
+    },
+    {
+      "concept_key": "provenance-entity-activity-agent",
+      "field": "자료_개체",
+      "source_id": "prov-o",
+      "locator": "§4.1의 첫째 클래스, Entity 정의",
+      "verdict": "supported",
+      "notes": "Section 4.1 Entity definition includes physical, digital and conceptual things with fixed aspects."
+    },
+    {
+      "concept_key": "provenance-entity-activity-agent",
+      "field": "작업_활동",
+      "source_id": "prov-o",
+      "locator": "§4.1의 둘째 클래스, Activity 정의",
+      "verdict": "supported",
+      "notes": "Section 4.1 Activity definition covers time-extended use, transformation and generation."
+    },
+    {
+      "concept_key": "provenance-entity-activity-agent",
+      "field": "책임_주체",
+      "source_id": "prov-o",
+      "locator": "§4.1의 셋째 클래스, Agent 정의",
+      "verdict": "supported",
+      "notes": "Section 4.1 Agent definition concerns responsibility for activities, entities or another agent."
+    },
+    {
+      "concept_key": "precise-source-location",
+      "field": "구간_표현",
+      "source_id": "web-annotation",
+      "locator": "§4.2.5 문자 위치 선택자, 첫 문장",
+      "verdict": "supported",
+      "notes": "Section 4.2.5 defines a text range using stream start and end positions."
+    },
+    {
+      "concept_key": "precise-source-location",
+      "field": "위치_원점",
+      "source_id": "web-annotation",
+      "locator": "§4.2.5, Position 0 문장",
+      "verdict": "supported",
+      "notes": "The section explicitly locates position zero immediately before the first character."
+    },
+    {
+      "concept_key": "precise-source-location",
+      "field": "경계_포함",
+      "source_id": "web-annotation",
+      "locator": "§4.2.5, start character 문장",
+      "verdict": "supported",
+      "notes": "The same paragraph includes the start character and excludes the end character."
+    },
+    {
+      "concept_key": "source-temporal-state",
+      "field": "상태_역할",
+      "source_id": "web-annotation",
+      "locator": "§4.3.1 시간 상태, TimeState 정의",
+      "verdict": "supported",
+      "notes": "Section 4.3.1 TimeState class describes retrieval of a temporally appropriate representation."
+    },
+    {
+      "concept_key": "source-temporal-state",
+      "field": "시점_형식",
+      "source_id": "web-annotation",
+      "locator": "§4.3.1, sourceDate 속성",
+      "verdict": "supported",
+      "notes": "The sourceDate property requires xsd:dateTime and UTC expressed as Z."
+    },
+    {
+      "concept_key": "source-temporal-state",
+      "field": "사본_연결",
+      "source_id": "web-annotation",
+      "locator": "§4.3.1, cached 속성",
+      "verdict": "supported",
+      "notes": "The cached relationship links an appropriate representation copy; no actual archive was created."
+    },
+    {
+      "concept_key": "observation-interpretation-proposal",
+      "field": "관찰_행위",
+      "source_id": "ssn-sosa",
+      "locator": "sosa:Observation, skos:definition",
+      "verdict": "supported",
+      "notes": "sosa:Observation skos:definition links procedure execution to estimating or calculating a property value."
+    },
+    {
+      "concept_key": "observation-interpretation-proposal",
+      "field": "관찰과_주장",
+      "source_id": "ssn-sosa",
+      "locator": "sosa:ObservableProperty, skos:example",
+      "verdict": "supported",
+      "notes": "sosa:ObservableProperty skos:example contrasts observable tree height with asserted classic-car value."
+    },
+    {
+      "concept_key": "observation-interpretation-proposal",
+      "field": "관찰_주체",
+      "source_id": "ssn-sosa",
+      "locator": "sosa:Sensor, skos:definition",
+      "verdict": "supported",
+      "notes": "sosa:Sensor skos:definition includes devices, humans and software."
+    },
+    {
+      "concept_key": "observation-interpretation-proposal",
+      "field": "기록_분리_제안",
+      "source_id": "ssn-sosa",
+      "locator": "sosa:Observation의 대상·절차·주체 연결을 참고한 수집자 제안; W3C가 정한 FRAME_DB 규칙은 아님",
+      "verdict": "supported",
+      "notes": "The separately labeled FRAME_DB proposal is an adaptation of these links, not a W3C requirement or an inspected-media result."
+    },
+    {
+      "concept_key": "measurement-reporting",
+      "field": "불확실성_표시",
+      "source_id": "nist-uncertainty",
+      "locator": "§7.1 첫 보고 지침",
+      "verdict": "supported",
+      "notes": "Section 7.1 states the alternative U plus k or combined standard uncertainty uc."
+    },
+    {
+      "concept_key": "measurement-reporting",
+      "field": "평가_방법",
+      "source_id": "nist-uncertainty",
+      "locator": "§7.1, A detailed description 항목",
+      "verdict": "supported",
+      "notes": "Section 7.1 requires a detailed explanation of each standard-uncertainty component evaluation."
+    },
+    {
+      "concept_key": "measurement-reporting",
+      "field": "확률_해석_근거",
+      "source_id": "nist-uncertainty",
+      "locator": "§7.1 마지막 문단",
+      "verdict": "supported",
+      "notes": "Section 7.1 requires a basis when giving a probability interpretation; no measured value is asserted."
+    },
+    {
+      "concept_key": "consent-evidence-record",
+      "field": "동의_주체",
+      "source_id": "ico-consent",
+      "locator": "동의 기록 방법 절의 첫째 기록 항목, 동의 주체",
+      "verdict": "supported",
+      "notes": "How should we record consent, Who consented allows a name or another identifier."
+    },
+    {
+      "concept_key": "consent-evidence-record",
+      "field": "동의_시점",
+      "source_id": "ico-consent",
+      "locator": "동의 기록 방법 절의 둘째 기록 항목, 동의 시점",
+      "verdict": "supported",
+      "notes": "When they consented lists dated documents, timestamped online records and contemporaneous oral-consent notes."
+    },
+    {
+      "concept_key": "consent-evidence-record",
+      "field": "고지_버전",
+      "source_id": "ico-consent",
+      "locator": "동의 기록 방법 절의 셋째 기록 항목, 당시 제공한 고지",
+      "verdict": "supported",
+      "notes": "What they were told at the time requires historical notice/form copies with matching versions and dates."
+    },
+    {
+      "concept_key": "consent-withdrawal",
+      "field": "철회_가능성",
+      "source_id": "ico-consent",
+      "locator": "동의 철회 관리 절의 제7조 제3항 해설",
+      "verdict": "supported",
+      "notes": "Withdrawal section quotes Article 7(3), permitting withdrawal at any time."
+    },
+    {
+      "concept_key": "consent-withdrawal",
+      "field": "철회_접근성",
+      "source_id": "ico-consent",
+      "locator": "동의 철회 관리 절의 동의와 철회 절차 접근성 비교 문단",
+      "verdict": "supported",
+      "notes": "The section requires withdrawal to be as easy as giving consent."
+    },
+    {
+      "concept_key": "consent-withdrawal",
+      "field": "처리_중단_범위",
+      "source_id": "ico-consent",
+      "locator": "동의 철회 관리 절의 철회 후 동의 기반 처리 중단 문단",
+      "verdict": "supported",
+      "notes": "The final paragraphs require stopping consent-based processing; different-purpose retention is not a general exemption."
+    },
+    {
+      "concept_key": "product-claim-substantiation",
+      "field": "근거_시점",
+      "source_id": "ftc-advertising",
+      "locator": "기만 광고 판단 절의 마지막 항목, 광고 이전의 입증",
+      "verdict": "supported",
+      "notes": "How does the FTC determine if an ad is deceptive, final bullet requires proof before the ad runs."
+    },
+    {
+      "concept_key": "product-claim-substantiation",
+      "field": "근거_성격",
+      "source_id": "ftc-advertising",
+      "locator": "광고 주장에 필요한 증거 절의 첫 문단, 합리적 근거 정의",
+      "verdict": "supported",
+      "notes": "What kind of evidence defines reasonable basis as objective supporting evidence."
+    },
+    {
+      "concept_key": "product-claim-substantiation",
+      "field": "표방한_증거수준",
+      "source_id": "ftc-advertising",
+      "locator": "광고 주장에 필요한 증거 절의 최소 증거수준 설명 문장",
+      "verdict": "supported",
+      "notes": "That same answer requires at least the evidence level actually claimed in the advertisement."
+    },
+    {
+      "concept_key": "visual-implied-claims",
+      "field": "그림의_맥락",
+      "source_id": "ftc-advertising",
+      "locator": "기만 광고 판단 절의 첫째 항목, 소비자 시점과 그림 맥락",
+      "verdict": "supported",
+      "notes": "Deception inquiry first bullet includes words, phrases and pictures in the overall consumer context."
+    },
+    {
+      "concept_key": "visual-implied-claims",
+      "field": "암시_주장",
+      "source_id": "ftc-advertising",
+      "locator": "기만 광고 판단 절의 둘째 항목, 명시·암시 주장",
+      "verdict": "supported",
+      "notes": "The next bullet requires proof of both express and implied claims."
+    },
+    {
+      "concept_key": "visual-implied-claims",
+      "field": "후기_근거_한계",
+      "source_id": "ftc-advertising",
+      "locator": "만족 고객 편지로 주장 입증이 충분한지 묻는 문답의 답변",
+      "verdict": "supported",
+      "notes": "Are letters from satisfied customers sufficient: usually not for claims requiring objective evaluation."
+    },
+    {
+      "concept_key": "fiction-versus-testimonial",
+      "field": "명백한_허구",
+      "source_id": "ftc-testimonials",
+      "locator": "§465.2의 극화된 TV 광고 배우가 가짜 추천을 하는지 묻는 문답",
+      "verdict": "supported",
+      "notes": "Section 465.2 dramatized-commercial question excludes obviously fictional actor dramatizations from testimonials, not all FTC Act liability."
+    },
+    {
+      "concept_key": "fiction-versus-testimonial",
+      "field": "경험과_의견",
+      "source_id": "ftc-testimonials",
+      "locator": "§465.2의 실제 의견을 허위로 나타내는 경우에 관한 문답",
+      "verdict": "supported",
+      "notes": "The opinion question distinguishes false experience from mere opinion."
+    },
+    {
+      "concept_key": "fiction-versus-testimonial",
+      "field": "자체_사이트_추천",
+      "source_id": "ftc-testimonials",
+      "locator": "§465.2의 자체 사이트 허위 추천 증언 호스팅 책임 문답",
+      "verdict": "supported",
+      "notes": "The false-testimonials-on-own-website question calls this advertising dissemination rather than mere hosting."
+    },
+    {
+      "concept_key": "quality-assessment-scope",
+      "field": "평가_단위",
+      "source_id": "dqv",
+      "locator": "Class: Quality Measurement, Definition; #dqv:QualityMeasurement",
+      "verdict": "supported",
+      "notes": "Quality Measurement definition specifies a dataset/distribution and a particular quality metric."
+    },
+    {
+      "concept_key": "quality-assessment-scope",
+      "field": "평가_지표",
+      "source_id": "dqv",
+      "locator": "Property: Is Measurement Of, Definition; #dqv:isMeasurementOf",
+      "verdict": "supported",
+      "notes": "Is Measurement Of definition identifies the metric observed."
+    },
+    {
+      "concept_key": "quality-assessment-scope",
+      "field": "실제_평가_대상",
+      "source_id": "dqv",
+      "locator": "Property: Computed On, Definition; #dqv:computedOn",
+      "verdict": "supported",
+      "notes": "Computed On definition identifies the resource measured; no FRAME_DB quality pass is implied."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": ""
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "hair-N07",
+  "status": "rejected",
+  "generation_thread_id": "01a18d52-d998-7293-a16f-7be580ba7483",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d52-d998-7293-a16f-7be580ba7483",
+  "before_source_files": [],
+  "path": null,
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d52-d998-7293-a16f-7be580ba7483/exec-75b050ce-a8ad-450c-9014-9d394ec0139b.png",
+  "sha256": "cfa2a3adb9a3c984faf2ef3c8d1d60c5d7e150aae3ac5b75c55ccf5668f23984",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "rejected",
+    "visible_distinct_tails": 5,
+    "visible_black_elastics": 5,
+    "observation": "The returned photorealistic image shows five distinct full braid tails with five black elastics. It fails the required count of exactly six, so it is rejected and was not copied into the project output directory."
+  },
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-N07-center-split-exact.txt",
+  "prompt": "Use case: precise-object-edit\nAsset type: one photorealistic synthetic diagnostic reference photograph for hair-N07\nPrimary request: Locally edit Image 1. Preserve its photographic working-base appearance. In the central strip only, split the single central braid and its tail into two narrower, independent braids and full tails separated by a clear center part. Preserve the four outer braids and tails unchanged. The finished image must have exactly six distinct complete braid tails and exactly six black elastics, arranged as two outer braids on the left, two narrower central braids flanking the center part, and two outer braids on the right (2+2+2). Do not leave the original central tail in addition to the two new central tails; no seventh braid or tail. If needed, adjust only the central strip so the count is exactly six while keeping the four outer braids/tails unchanged.\nInput images: Image 1, /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-five-row-edit-base.png — photographic edit target; preserve the head, ears, neck, four outer braids/tails, shirt, lighting, framing, and background. Image 2, /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-six-rows.png — count and center-part layout guide only; use only its six-lane topology. Do not copy its schematic style, colors, marks, or flat geometry.\nScene/backdrop: preserve Image 1 exactly outside the central hair strip.\nSubject: the same photographed head and hair in Image 1.\nStyle/medium: photorealistic natural studio reference photograph; match Image 1.\nComposition/framing: retain Image 1's exact rear view, crop, and framing; keep all six complete tails and all six elastics visible.\nLighting/mood: preserve Image 1's existing lighting and exposure.\nColor palette: preserve Image 1's natural dark-brown hair, skin, gray shirt, and neutral background.\nMaterials/textures: preserve natural scalp separation and real braided hair texture; the two central braids are narrower and independently readable.\nConstraints: local edit of Image 1 only; preserve the four outer braids/tails, head, ears, neck, shirt, lighting, and background; final count exactly six distinct full tails and six elastics. Image 2 is a layout/count guide only. One image only.\nAvoid: whole-head resynthesis, changing or removing any of the four outer braids/tails, seventh tail, extra elastics, copied schematic style/colors, text, labels, collage, watermark, or changes outside the central hair strip.\nOutput: PNG, 1024x1536 pixels.\n",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-five-row-edit-base.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-six-rows.png"
+  ],
+  "reference_sha256": [
+    "63730c26e926fb53f10a18b2e16929224539280119977735163761fac2dd0657",
+    "fdd9a5b11545adc218359ab5f1696eeb8ffea4955368a96c5d325866a99f2551"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  }
+}

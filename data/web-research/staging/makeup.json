@@ -1,0 +1,636 @@
+{
+  "schema_version": 1,
+  "category_id": "makeup",
+  "collector": "omo-makeup-collector-st_01a18961",
+  "collected_at": "2026-10-29T20:41:15+00:00",
+  "sources": [
+    {
+      "source_id": "makeup-mac-strobe",
+      "url": "https://www.maccosmetics.com/products/strobe-cream",
+      "title": "Strobe Cream | Moisturizer + Highlighter",
+      "publisher": "M·A·C Cosmetics",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Pinklite 색상 설명; Summary; Product Details; 3 WAYS TO USE STROBE CREAM",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 제품 본문을 열람했다. 텍스트·이미지의 재배포 및 상업 이용 허락은 확인하지 않았다. 이미지 파일 취득·검수와 영상 시청은 하지 않았다.",
+        "attribution": "출처 표기: M·A·C Cosmetics, Strobe Cream. 개별 사진 저작자와 재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-bobbi-powder",
+      "url": "https://www.bobbibrowncosmetics.ca/product/14019/118723/makeup/face/powder/sheer-finish-pressed-powder",
+      "title": "Sheer Finish Pressed Powder",
+      "publisher": "Bobbi Brown Cosmetics Canada",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What it is; How it works; How to use; WHAT COLOR SHOULD MY PRESSED POWDER BE?",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 제품 설명만 근거로 사용했다. 사진·본문 재배포 허락은 미확인이고 미디어는 취득하지 않았다.",
+        "attribution": "출처 표기: Bobbi Brown Cosmetics Canada. 사진별 저작자·라이선스 의무는 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-bobbi-concealer",
+      "url": "https://www.bobbibrowncosmetics.com/product/14018/106004/makeup/face/corrector-concealer/skin-full-cover-concealer/fh22",
+      "title": "Skin Full Cover Concealer",
+      "publisher": "Bobbi Brown Cosmetics",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What it is; How it works; How to use, 첫째·셋째 항목",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "읽을 수 있는 제조사 본문으로 차단된 다른 컨실러 안내를 대체했다. 공개 열람을 사진·텍스트 복제나 상업 이용 허락으로 보지 않는다.",
+        "attribution": "출처 표기: Bobbi Brown Cosmetics, Skin Full Cover Concealer. 미디어 권리자와 재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-ct-contour",
+      "url": "https://www.charlottetilbury.com/us/secrets/how-to-blend-contour-makeup",
+      "title": "How To Blend Contour Makeup",
+      "publisher": "Charlotte Tilbury Beauty",
+      "authors": ["Charlotte Tilbury"],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "How To Blend Contour on your Cheekbones; Why is my contour not blending? 항목 2",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "저자 명시 공식 교육 본문만 요약했다. 이미지·영상·본문의 재게시나 제3자 업로드 권한은 확인하지 않았다.",
+        "attribution": "출처 표기: Charlotte Tilbury, How To Blend Contour Makeup. 별도 미디어 크레딧과 라이선스는 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-ct-bronze-glow",
+      "url": "https://www.charlottetilbury.com/us/secrets/how-to-bronze-sculpt-glow",
+      "title": "How To Sculpt, Bronze + Glow: Save a Magical 45%* with Charlotte’s Sculpt, Bronze and Glow Kit",
+      "publisher": "Charlotte Tilbury Beauty",
+      "authors": ["Charlotte Tilbury"],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "How To Bronze and Sculpt; Discover my Flawless Bronze, Sculpt and Glow System, 2. Bronzer 및 3. Highlighter + Blush",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제품 판매를 겸한 저자 교육 설명이다. 할인·효능을 검증하거나 이미지를 취득하지 않았다. 미디어와 원문 재사용 허락은 미확인.",
+        "attribution": "출처 표기: Charlotte Tilbury, How To Sculpt, Bronze + Glow. 사진별 권리와 재사용 의무는 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-benefit-brow",
+      "url": "https://www.benefitcosmetics.com/en-us/product/precisely-my-brow-eyebrow-pencil-PRECI.html",
+      "title": "Precisely, My Brow Pencil",
+      "publisher": "Benefit Cosmetics",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "FAQ: How do I fill in my eyebrows; How do I choose the right shade; Can I use Precisely, My Brow Pencil for sparse or over-tweezed brows?",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 FAQ 본문만 열람했다. 전후 사진의 촬영 조건·보정 여부를 검사하지 않았으며 사진 재사용 허락은 미확인.",
+        "attribution": "출처 표기: Benefit Cosmetics, Precisely, My Brow Pencil. 개별 사진 저작자·라이선스 의무는 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-ct-wing",
+      "url": "https://www.charlottetilbury.com/ca/secrets/how-to-apply-eyeliner-winged-liner",
+      "title": "How To Apply Eyeliner Winged Liner",
+      "publisher": "Charlotte Tilbury Beauty",
+      "authors": ["Charlotte Tilbury"],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "액상 라이너 Step 2; How to Apply Pencil Eyeliner for a Smokey Winged Eyeiner Look, Steps 1–3",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "구체적인 적용 절차가 있는 공식 텍스트를 사용했다. 영상 시청·캡처나 모델 이미지 검수를 하지 않았다. 재사용 권리는 미확인.",
+        "attribution": "출처 표기: Charlotte Tilbury, How To Apply Eyeliner Winged Liner. 모델 초상·사진·영상 이용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-mac-paintpot",
+      "url": "https://www.maccosmetics.com/products/pro-longwear-paint-pot",
+      "title": "Pro Longwear Paint Pot",
+      "publisher": "M·A·C Cosmetics",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Painterly 색상 설명; Summary; Product Details; How to Use",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사가 명시한 제형·색·사용법만 기록했다. 지속력 실험이나 이미지 검수는 하지 않았다. 사진·텍스트 재배포 권리는 미확인.",
+        "attribution": "출처 표기: M·A·C Cosmetics, Pro Longwear Paint Pot. 사진 저작자와 라이선스는 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-ct-mascara",
+      "url": "https://www.charlottetilbury.com/us/product/full-fat-lashes-glossy-black",
+      "title": "Full Fat Lashes - Buildable Volumising Mascara",
+      "publisher": "Charlotte Tilbury Beauty",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "How to apply, 항목 1–2",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "읽을 수 있는 정규 제품 URL의 사용법을 사용했다. 시간 초과한 다른 URL은 출처로 채택하지 않았다. 미디어 재사용 허락·전후 결과는 미확인.",
+        "attribution": "출처 표기: Charlotte Tilbury Beauty, Full Fat Lashes. 별도 사진 저작자·권리 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-ct-smoky",
+      "url": "https://www.charlottetilbury.com/us/secrets/apply-new-smokey-eye-beauty-palette",
+      "title": "How to Apply NEW! Smokey Eye Beauty Palette",
+      "publisher": "Charlotte Tilbury Beauty",
+      "authors": ["Charlotte Tilbury"],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Application Tips, Steps 1, 3–4",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "2018년 팔레트 교육 본문으로 기법만 요약한다. 제품의 현재 판매 상태나 촬영 재현성은 주장하지 않는다. 영상·사진 재사용 허락은 미확인.",
+        "attribution": "출처 표기: Charlotte Tilbury, How to Apply NEW! Smokey Eye Beauty Palette. 이미지·영상별 권리 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-ct-redlip",
+      "url": "https://www.charlottetilbury.com/eu/secrets/how-to-apply-red-lipstick",
+      "title": "How To Apply Red Lipstick",
+      "publisher": "Charlotte Tilbury Beauty",
+      "authors": ["Charlotte Tilbury"],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Step 1: Hydrate lips with lip oil; Step 3: Apply lip liner in a heart shape; Step 4: Swipe on your red lipstick",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "저자의 레드 립 적용법을 텍스트로만 요약했다. 지속 시간·효능 실험은 수행하지 않았다. 미디어·원문 재사용 권리는 미확인.",
+        "attribution": "출처 표기: Charlotte Tilbury, How To Apply Red Lipstick. 모델·사진·영상 권리는 별도 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-mac-blurlip",
+      "url": "https://www.maccosmetics.ca/powder-kiss-lipstick",
+      "title": "Powder Kiss LP NOAM",
+      "publisher": "M·A·C Cosmetics Canada",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "ARTIST TIPS FROM BACKSTAGE: THE HAZY LIP; The Ombré Effect",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 아티스트 팁의 본문만 읽었다. 특정 틴트 제형의 효과나 미디어 재사용 허락은 확인하지 않았다.",
+        "attribution": "출처 표기: M·A·C Cosmetics Canada, Powder Kiss. 팁의 개인 저자·사진 권리자·재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-glossier-balm",
+      "url": "https://www.glossier.com/en-au/products/balm-dotcom?variant=46731566088437",
+      "title": "Balm Dotcom",
+      "publisher": "Glossier",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Original 변형의 표시 설명(js-product-form-variant-title); HOW TO USE, 항목 1–2",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 HTML의 Original 선택 설명과 사용법을 읽었다. 페이지의 이미지 주소는 요청하지 않았으며 사진·본문 재배포 권리는 미확인.",
+        "attribution": "출처 표기: Glossier, Balm Dotcom, Original. 이미지 저작자와 재사용·초상권 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-gillette-stubble",
+      "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/how-to-shave-3-day-stubble-beard",
+      "title": "How to Maintain the 3-Day Stubble Beard (Scruff Look)",
+      "publisher": "Gillette",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "TL;DR / Quick Answer; How to Achieve the 3-Day Stubble Beard Look, Steps 2–4",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 스타일 안내 텍스트만 열람했다. 길이는 제조사의 권장 범위이지 수집자의 측정값이 아니다. 사진·영상 재사용 권리는 미확인.",
+        "attribution": "출처 표기: Gillette, How to Maintain the 3-Day Stubble Beard. 사진·영상 저작자와 별도 허락은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-gillette-boxed",
+      "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/short-boxed-beard",
+      "title": "Short Boxed Beard Style – How to Trim, Shape & Maintain the look",
+      "publisher": "Gillette",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Introduction; What Exactly is a Short Boxed Beard; Step 3: Define Your Beard Shape; Step 4: Check for Symmetry as You Go",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "스타일 형태와 손질 설명의 본문만 요약한다. 얼굴형별 효과·미디어 결과는 검증하지 않았다. 사진·영상 재사용 허락은 미확인.",
+        "attribution": "출처 표기: Gillette, Short Boxed Beard Style. 이미지·영상의 제작자 및 재사용 의무는 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-gillette-fullbeard",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/trim-your-beard-at-home",
+      "title": "How To Trim and Edge Your Beard at Home",
+      "publisher": "Gillette",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Step 2: Take down the length of your beard; Step 3: Define your lines; Step 6: Align your edges, Faheem Alexander 조언",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 Barber Council 본문을 읽었다. 조언자로 Faheem Alexander와 Josh Pereira가 표시되지만 페이지 전체 저자로 추정하지 않는다. 사진·영상 재사용 권리는 미확인.",
+        "attribution": "출처 표기: Gillette; 풀비어드 볼 경계 조언: Faheem Alexander. 별도 미디어 저작자와 이용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-gillette-mustache",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shape-your-mustache",
+      "title": "How to Shape Your Mustache",
+      "publisher": "Gillette",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Step 1: Trim your mustache; Step 2: Take it down a notch; Step 3: Shape up your Mustache",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Jason Schneidman의 시연을 소개하는 공개 단계별 본문만 사용했다. 삽입 영상은 시청하지 않았고 재사용 허락도 미확인.",
+        "attribution": "출처 표기: Gillette, How to Shape Your Mustache; 소개된 이발사: Jason Schneidman. 영상·사진 권리는 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-gillette-shave",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shave-your-face",
+      "title": "How to Shave Your Face: Step-by-step guide for Men",
+      "publisher": "Gillette",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "How To Shave Your Face Properly at Home, Steps 1–2, 4; What Should You Do Next? (Conclusion)",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사의 면도 절차 설명만 기록했다. 실제 면도·피부 반응 검사나 촬영 비교를 수행하지 않았다. 미디어·원문 재사용 권리는 미확인.",
+        "attribution": "출처 표기: Gillette, How to Shave Your Face. 사진·영상 저작자와 재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "makeup-opi-french",
+      "url": "https://www.opi.com/blog/nail-trends/the-easiest-diy-french-tip-manicure",
+      "title": "The Easiest DIY French Tip Manicure",
+      "publisher": "OPI",
+      "authors": [],
+      "checked_at": "2026-10-29T20:41:15+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Step 3: Color; Step 4: Tips; Step 5: Top",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "GELement 시스템을 대상으로 한 제조사 텍스트 절차다. 경화·내구성 시험이나 다른 시스템 적용 검증은 하지 않았다. 사진·영상 재사용 권리는 미확인.",
+        "attribution": "출처 표기: OPI, The Easiest DIY French Tip Manicure. 개별 사진·삽입 게시물의 저작자와 재사용 조건은 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "natural-dewy-complexion",
+      "title_ko": "내추럴 윤광",
+      "subtype": "피부 표현",
+      "summary": "M·A·C의 Strobe Cream 설명으로 윤광의 색·제형·레이어 위치를 보강한다. 기존 가이드의 얇은 커버리지 전체를 검증한 것은 아니며, 촬영 조명과 전후 피부결 비교는 미확인이다.",
+      "facts": [
+        {"field": "제형", "value": "M·A·C는 Strobe Cream을 보습제와 하이라이터를 겸하는 제품으로 설명한다.", "evidence": {"source_id": "makeup-mac-strobe", "locator": "Summary", "kind": "source_claim"}},
+        {"field": "색·마감", "value": "선택된 Pinklite는 진주광 분홍으로, 제품 마감은 쉬머로 표시된다.", "evidence": {"source_id": "makeup-mac-strobe", "locator": "Pinklite 색상 설명; Product Details, Finish Shimmer", "kind": "source_claim"}},
+        {"field": "레이어 위치", "value": "단독 또는 파운데이션 아래에 쓰거나 하이라이터로 사용할 수 있다고 안내한다.", "evidence": {"source_id": "makeup-mac-strobe", "locator": "Product Details, worn-alone / under foundation / as a highlighter 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["피부 표현", "윤광", "제조사 설명", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0031",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "soft-matte-complexion",
+      "title_ko": "소프트 매트",
+      "subtype": "피부 표현",
+      "summary": "Bobbi Brown의 프레스드 파우더 안내로 매트 마감과 색 선택 기준을 보강한다. 지속 효과는 실험하지 않았으며 촬영 조명별 차이는 미확인이다.",
+      "facts": [
+        {"field": "마감", "value": "제조사는 Sheer Finish Pressed Powder를 피부를 매트하게 하고 소프트 포커스 표현을 주는 세팅 파우더로 설명한다.", "evidence": {"source_id": "makeup-bobbi-powder", "locator": "What it is; How it works", "kind": "source_claim"}},
+        {"field": "적용 부위·강도", "value": "광이 잘 나는 T존은 부드럽게 눌러 바르고, 더 매트하게 하려면 얼굴 전체에 적용하도록 안내한다.", "evidence": {"source_id": "makeup-bobbi-powder", "locator": "How to use", "kind": "source_claim"}},
+        {"field": "색 선택 기준", "value": "피부색에 가까운 색을 볼에서 턱선까지 시험하고 이마에서도 확인하도록 권한다.", "evidence": {"source_id": "makeup-bobbi-powder", "locator": "FAQ: WHAT COLOR SHOULD MY PRESSED POWDER BE?", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["피부 표현", "매트", "파우더", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0032",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "targeted-concealer",
+      "title_ko": "국소 컨실러 보정",
+      "subtype": "피부 표현",
+      "summary": "Bobbi Brown의 컨실러 사용법으로 국소 적용과 경계 혼합을 보강한다. 특정 제품의 풀 커버 설명이며 모든 컨실러의 공통 성능으로 확대하지 않는다.",
+      "facts": [
+        {"field": "커버리지", "value": "Skin Full Cover Concealer는 제조사 설명상 풀 커버리지 제품이다.", "evidence": {"source_id": "makeup-bobbi-concealer", "locator": "What it is", "kind": "source_claim"}},
+        {"field": "국소 적용", "value": "작은 잡티에는 뾰족한 팁으로 점을 찍고 가볍게 두드려 섞도록 안내한다.", "evidence": {"source_id": "makeup-bobbi-concealer", "locator": "How to use, 첫째 항목의 small imperfections 절", "kind": "source_claim"}},
+        {"field": "붉은 부위 혼합", "value": "붉거나 고르지 않은 부위는 어플리케이터 중앙 면으로 바른 뒤 손가락으로 섞는 방법을 제시한다.", "evidence": {"source_id": "makeup-bobbi-concealer", "locator": "How to use, 셋째 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["국소 보정", "컨실러", "커버리지", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-5b543f32849d",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "soft-contour",
+      "title_ko": "소프트 컨투어",
+      "subtype": "음영",
+      "summary": "Charlotte Tilbury의 컨투어 혼합 안내 중 볼의 위치·방향·소량 적용을 보강한다. 실제 얼굴 구조 변화나 촬영 결과를 측정한 기록은 아니다.",
+      "facts": [
+        {"field": "적용 부위", "value": "볼 컨투어를 광대 아래의 오목한 부위에 놓도록 안내한다.", "evidence": {"source_id": "makeup-ct-contour", "locator": "How To Blend Contour on your Cheekbones, 첫 문장", "kind": "source_claim"}},
+        {"field": "경계 혼합", "value": "밀도 높은 납작한 브러시로 위쪽 원을 그리며 풀고 귀 쪽으로 바깥 방향 혼합을 제시한다.", "evidence": {"source_id": "makeup-ct-contour", "locator": "How To Blend Contour on your Cheekbones, 첫째·둘째 문단", "kind": "source_claim"}},
+        {"field": "적용 강도", "value": "한 번에 많이 바르지 말고 소량씩 더하면서 섞으라고 권한다.", "evidence": {"source_id": "makeup-ct-contour", "locator": "Why is my contour not blending? 2. Use a light hand when applying contour", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["컨투어", "볼 음영", "부드러운 경계", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0039",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "warm-bronzer",
+      "title_ko": "웜톤 브론저",
+      "subtype": "치크·브론징",
+      "summary": "Charlotte Tilbury가 설명하는 브론저는 따뜻한 색을 더하는 단계로, 컨투어의 그림자 표현과 구별된다. 피부색 변화나 촬영 결과를 직접 관찰한 것은 아니다.",
+      "facts": [
+        {"field": "색 선택", "value": "피부보다 약간 짙은 웜톤 색을 브론저로 선택하도록 안내한다.", "evidence": {"source_id": "makeup-ct-bronze-glow", "locator": "How To Bronze and Sculpt, Bronzer 문단", "kind": "source_claim"}},
+        {"field": "적용 부위", "value": "이마·볼·콧등처럼 햇빛이 닿는 부위에 적용하는 방법을 제시한다.", "evidence": {"source_id": "makeup-ct-bronze-glow", "locator": "Discover my Flawless Bronze, Sculpt and Glow System, 2. Bronzer", "kind": "source_claim"}},
+        {"field": "적용 순서·동작", "value": "컨투어 다음 단계에서 브러시를 쓸어 바르도록 안내한다.", "evidence": {"source_id": "makeup-ct-bronze-glow", "locator": "2. Bronzer, Once you have laid the foundation 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["브론저", "웜톤", "치크", "촬영 조건 미확인"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "cheekbone-highlight",
+      "title_ko": "광대 국소 하이라이트",
+      "subtype": "치크·하이라이트",
+      "summary": "Charlotte Tilbury의 Beauty Light Wand 안내에서 국소 광택의 위치·양·혼합 방향을 기록한다. 얼굴 전체 윤광이나 브론저와는 적용 목적이 다르다.",
+      "facts": [
+        {"field": "적용 부위", "value": "쿠션 어플리케이터로 광대에 정확히 점을 찍는 방법을 제시한다.", "evidence": {"source_id": "makeup-ct-bronze-glow", "locator": "3. Highlighter + Blush, dot precisely onto the cheekbones 절", "kind": "source_claim"}},
+        {"field": "상황별 적용량", "value": "저자는 낮에는 한 점, 데이트에는 두 점, 디스코 광택에는 세 점을 제안한다. 이는 연출 지침이지 측정값이 아니다.", "evidence": {"source_id": "makeup-ct-bronze-glow", "locator": "3. Highlighter + Blush, one dot / two dots / three dots 절", "kind": "source_claim"}},
+        {"field": "경계 혼합", "value": "브러시로 위를 향하는 원을 그리며 섞도록 안내한다.", "evidence": {"source_id": "makeup-ct-bronze-glow", "locator": "3. Highlighter + Blush, blend in upward circles 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["하이라이트", "광대", "국소 광택", "촬영 조건 미확인"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "natural-sparse-brow-fill",
+      "title_ko": "내추럴 브로우",
+      "subtype": "브로우",
+      "summary": "Benefit의 펜슬 FAQ로 빈 눈썹 부위 채움과 자연스러운 색 선택을 보강한다. 전후 사진은 검사하지 않아 촬영 조건과 보정 여부는 미확인이다.",
+      "facts": [
+        {"field": "적용 대상", "value": "제조사는 가늘거나 빈 곳이 있는 눈썹을 털 모양 선으로 채우는 용도를 설명한다.", "evidence": {"source_id": "makeup-benefit-brow", "locator": "FAQ: Can I use Precisely, My Brow Pencil for sparse or over-tweezed brows?", "kind": "source_claim"}},
+        {"field": "선·혼합", "value": "본래 털이 자라는 방향으로 짧고 가볍게 그린 다음 내장 스풀리로 섞도록 안내한다.", "evidence": {"source_id": "makeup-benefit-brow", "locator": "FAQ의 눈썹 채우기 답변, short, light strokes 문장", "kind": "source_claim"}},
+        {"field": "기준 색", "value": "모발색과 맞는 색을 권하며 눈썹이 가장 풍성한 부위의 색을 자연스러운 비교 기준으로 제시한다.", "evidence": {"source_id": "makeup-benefit-brow", "locator": "FAQ: How do I choose the right shade of Precisely, My Brow Pencil?", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["눈썹", "빈 부분 채움", "털 방향", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0038",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "soft-wing-eyeliner",
+      "title_ko": "소프트 윙 아이라인",
+      "subtype": "아이 메이크업",
+      "summary": "Charlotte Tilbury의 펜슬 윙 튜토리얼로 부드러운 눈꼬리 선을 보강한다. 액상 라이너 절의 정면 거울 기준도 함께 기록하되 실제 영상 각도나 선 두께는 측정하지 않았다.",
+      "facts": [
+        {"field": "적용 부위", "value": "펜슬을 위 속눈썹 선 가까이에 그어 피부 틈이 드러나지 않게 하는 방법을 제시한다.", "evidence": {"source_id": "makeup-ct-wing", "locator": "How to Apply Pencil Eyeliner for a Smokey Winged Eyeiner Look, Step 1", "kind": "source_claim"}},
+        {"field": "눈꼬리 방향", "value": "윙은 위쪽으로 뻗으며, 스모키 표현에서는 정밀한 선이 필수는 아니라고 안내한다.", "evidence": {"source_id": "makeup-ct-wing", "locator": "펜슬 라이너 Step 2: Flick Outwards to Start your Winged Eyeliner", "kind": "source_claim"}},
+        {"field": "경계", "value": "스머저 브러시로 선 가장자리를 부드럽게 풀도록 안내한다.", "evidence": {"source_id": "makeup-ct-wing", "locator": "펜슬 라이너 Step 3: Blend Out your Winged Liner with a Brush", "kind": "source_claim"}},
+        {"field": "적용 기준 시선", "value": "액상 라이너 절에서는 거울을 정면으로 보고 아래 속눈썹 선의 연장 방향을 따라 윙을 그리도록 설명한다.", "evidence": {"source_id": "makeup-ct-wing", "locator": "액상 라이너 Step 2: Flick Outwards to create a Winged Eyeliner", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["윙 아이라인", "스머징", "눈꼬리", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-2dc747ea56a9",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "single-cream-eyeshadow",
+      "title_ko": "단색 크림 섀도",
+      "subtype": "아이 메이크업",
+      "summary": "M·A·C Paint Pot의 단독 사용·색·마감 안내로 단색 크림 섀도를 보강한다. 특정 제품의 Painterly 예시이며 모든 크림 섀도의 광택이나 지속성을 일반화하지 않는다.",
+      "facts": [
+        {"field": "사용 형태", "value": "Paint Pot은 단독 또는 다른 제품과 함께 쓸 수 있는 크림 섀도 겸 아이 프라이머로 설명된다.", "evidence": {"source_id": "makeup-mac-paintpot", "locator": "Summary", "kind": "source_claim"}},
+        {"field": "색·마감·커버리지", "value": "선택된 Painterly는 누드 베이지이며 페이지는 매트 마감과 덧바르기 가능한 커버리지를 표시한다.", "evidence": {"source_id": "makeup-mac-paintpot", "locator": "Painterly 색상 설명; Product Details, Finish Matte / Coverage Buildable", "kind": "source_claim"}},
+        {"field": "적용 부위·도구", "value": "손가락 또는 브러시로 눈 부위에 매끈하게 펴 바르도록 안내한다.", "evidence": {"source_id": "makeup-mac-paintpot", "locator": "How to Use", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["크림 섀도", "단색", "매트", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-33eae62caae4",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "separated-natural-lashes",
+      "title_ko": "분리된 내추럴 속눈썹",
+      "subtype": "아이 메이크업",
+      "summary": "Charlotte Tilbury Full Fat Lashes의 사용법으로 가닥 분리 동작을 보강한다. 실제 속눈썹 길이·두께·분리 결과나 촬영 전후 차이는 검사하지 않았다.",
+      "facts": [
+        {"field": "적용 전 상태", "value": "속눈썹을 컬링한 뒤 안쪽 눈구석에서 마스카라를 시작하도록 안내한다.", "evidence": {"source_id": "makeup-ct-mascara", "locator": "How to apply, 항목 1 첫 문장", "kind": "source_claim"}},
+        {"field": "가닥 분리 동작", "value": "속눈썹 뿌리에서 브러시를 지그재그로 위로 움직여 컬과 분리를 만드는 방법을 설명한다.", "evidence": {"source_id": "makeup-ct-mascara", "locator": "How to apply, 항목 1 둘째 문장", "kind": "source_claim"}},
+        {"field": "부위별 도구 방향", "value": "바깥쪽 속눈썹은 위·밖으로 당기고, 아래 속눈썹은 봉을 세워 가는 끝으로 바르도록 안내한다.", "evidence": {"source_id": "makeup-ct-mascara", "locator": "How to apply, 항목 2", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["속눈썹", "분리", "마스카라", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-9e6745f7b961",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "smoky-evening-eye",
+      "title_ko": "스모키 이브닝",
+      "subtype": "아이 메이크업",
+      "summary": "Charlotte Tilbury의 스모키 팔레트 적용 절차로 눈 부위의 층과 강도를 보강한다. 기존 가이드의 차콜 색소나 피부결 결과 전체를 확인한 것은 아니다.",
+      "facts": [
+        {"field": "바탕 적용", "value": "Brighten 색을 블렌더 브러시로 눈꺼풀 전체에 얇게 펴는 단계로 시작한다.", "evidence": {"source_id": "makeup-ct-smoky", "locator": "Application Tips, Step 1", "kind": "source_claim"}},
+        {"field": "음영 부위·강도", "value": "Smoke 색을 위·아래 속눈썹 선에 바르며 원하는 강도까지 쌓도록 안내한다.", "evidence": {"source_id": "makeup-ct-smoky", "locator": "Application Tips, Step 3", "kind": "source_claim"}},
+        {"field": "아이라인 방향", "value": "Bedroom Black 라이너를 위 속눈썹 선을 따라 그리고 위·밖으로 연장하는 절차를 제시한다.", "evidence": {"source_id": "makeup-ct-smoky", "locator": "Application Tips, Step 4", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["스모키", "아이 음영", "중첩 강도", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0035",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "classic-red-lip",
+      "title_ko": "클래식 레드 립",
+      "subtype": "립",
+      "summary": "Charlotte Tilbury의 레드 립 튜토리얼로 바탕과 정밀한 입술 경계를 보강한다. 절제된 아이 메이크업까지 해당 출처가 검증한 것으로 보지 않는다.",
+      "facts": [
+        {"field": "적용 전 상태", "value": "레드 립스틱 전에 립 오일로 입술을 준비하는 방법을 제시한다.", "evidence": {"source_id": "makeup-ct-redlip", "locator": "Step 1: Hydrate lips with lip oil", "kind": "source_claim"}},
+        {"field": "경계·바탕", "value": "립 라이너로 윤곽을 그린 뒤 안쪽도 채워 바탕색을 만들도록 안내한다.", "evidence": {"source_id": "makeup-ct-redlip", "locator": "Step 3: Apply lip liner in a heart shape, 첫 문단", "kind": "source_claim"}},
+        {"field": "색 적용·정밀 도구", "value": "그린 경계 밖으로 벗어나지 않게 레드 립스틱을 채우고, 입꼬리 같은 세부에는 립 브러시 사용을 제시한다.", "evidence": {"source_id": "makeup-ct-redlip", "locator": "Step 4: Swipe on your red lipstick", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["레드 립", "립 경계", "립 브러시", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0034",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "blurred-gradient-lip",
+      "title_ko": "블러 처리한 틴트 립",
+      "subtype": "립",
+      "summary": "M·A·C의 립스틱 아티스트 팁으로 중앙 농도와 흐린 가장자리 기법을 보강한다. 출처의 립스틱 기법이며 기존 제목의 틴트 제형 자체를 검증한 것은 아니다.",
+      "facts": [
+        {"field": "색 배치", "value": "옴브레 팁은 입술 가장자리에 밝은 색, 중앙에 더 짙은 색을 배치한다.", "evidence": {"source_id": "makeup-mac-blurlip", "locator": "ARTIST TIPS FROM BACKSTAGE, The Ombré Effect", "kind": "source_claim"}},
+        {"field": "색 사이 경계", "value": "두 색이 만나는 곳을 242S 브러시로 섞는 방법을 제시한다.", "evidence": {"source_id": "makeup-mac-blurlip", "locator": "The Ombré Effect, blend the two colours together where they meet 절", "kind": "source_claim"}},
+        {"field": "외곽 경계", "value": "흐린 립 표현에는 손끝으로 립스틱 가장자리를 풀어 소프트 포커스 효과를 만드는 팁을 제시한다.", "evidence": {"source_id": "makeup-mac-blurlip", "locator": "ARTIST TIPS FROM BACKSTAGE, THE HAZY LIP", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["블러 립", "그라데이션", "립 경계", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-1f808c195aa3",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "clear-lip-balm",
+      "title_ko": "클리어 립밤",
+      "subtype": "립",
+      "summary": "Glossier Original의 무색 설명과 소량 사용법으로 클리어 립밤을 보강한다. 반사광 크기·입술 부피·촬영 광택은 관찰하지 않았다.",
+      "facts": [
+        {"field": "색·향", "value": "Glossier는 Balm Dotcom Original을 무향·무색으로 표시한다.", "evidence": {"source_id": "makeup-glossier-balm", "locator": "Original 선택 설명: js-product-form-variant-title", "kind": "source_claim"}},
+        {"field": "기준 상태·적용량", "value": "건조하고 갈라진 입술이나 손끝에 소량을 짜서 적용하도록 안내한다.", "evidence": {"source_id": "makeup-glossier-balm", "locator": "HOW TO USE, 항목 1", "kind": "source_claim"}},
+        {"field": "덧바름 조건", "value": "보습이 더 필요할 때 하루 중 다시 바를 수 있다고 안내한다.", "evidence": {"source_id": "makeup-glossier-balm", "locator": "HOW TO USE, 항목 2", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["립밤", "무색", "보습", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-144e623f091c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "natural-stubble",
+      "title_ko": "남성 자연스러운 스터블",
+      "subtype": "수염 그루밍",
+      "summary": "Gillette의 3일 스터블 안내로 길이와 볼·목 경계 손질을 보강한다. 길이는 제조사의 스타일 권장값이며 실제 인물의 성장 기간·밀도·촬영 결과를 측정하지 않았다.",
+      "facts": [
+        {"field": "권장 길이", "value": "제조사는 스터블을 고르게 1–3 mm로 다듬는 범위를 제시한다.", "evidence": {"source_id": "makeup-gillette-stubble", "locator": "TL;DR / Quick Answer, Trim to 1–3 mm evenly 항목", "kind": "source_claim"}},
+        {"field": "길이 정돈", "value": "선택한 빗 부착물로 얼굴의 수염 길이를 고르게 맞추도록 안내한다.", "evidence": {"source_id": "makeup-gillette-stubble", "locator": "How to Achieve the 3-Day Stubble Beard Look, Step 2", "kind": "source_claim"}},
+        {"field": "경계 부위", "value": "빗을 떼고 트리머로 외곽선을 잡으며 목과 볼 부위를 정리하도록 안내한다.", "evidence": {"source_id": "makeup-gillette-stubble", "locator": "Step 3: Define Your Beard Shape", "kind": "source_claim"}},
+        {"field": "대칭 확인", "value": "손질 중 대칭을 확인하되 맞추려고 지나치게 잘라내지 말라고 권한다.", "evidence": {"source_id": "makeup-gillette-stubble", "locator": "Step 4: Check for Symmetry as You Go", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["스터블", "짧은 수염", "목·볼 경계", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-263c281ae2c9",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "short-boxed-beard",
+      "title_ko": "남성 쇼트 박스 비어드",
+      "subtype": "수염 그루밍",
+      "summary": "Gillette의 쇼트 박스 비어드 설명으로 각진 외곽과 짧은 옆부분을 보강한다. 단순 스터블이나 길게 기른 풀비어드와 구별하며 실제 턱 구조 변화는 주장하지 않는다.",
+      "facts": [
+        {"field": "외곽 형태", "value": "선명한 볼·목 경계와 정돈된 사각 실루엣을 갖는 스타일로 설명한다.", "evidence": {"source_id": "makeup-gillette-boxed", "locator": "Introduction", "kind": "source_claim"}},
+        {"field": "부위별 길이 관계", "value": "옆부분은 짧게 정리하고 턱끝은 약간 더 풍성하게 두는 형태로 설명한다.", "evidence": {"source_id": "makeup-gillette-boxed", "locator": "What Exactly is a Short Boxed Beard and Why Should You Try It?", "kind": "source_claim"}},
+        {"field": "경계 손질", "value": "빗 부착물을 제거해 형태를 잡고 목과 볼의 털은 더 짧게 유지하도록 안내한다.", "evidence": {"source_id": "makeup-gillette-boxed", "locator": "Step 3: Define Your Beard Shape", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["쇼트 박스 비어드", "사각 경계", "수염", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-41c83b63e6a1",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "full-beard",
+      "title_ko": "풀비어드",
+      "subtype": "수염 그루밍",
+      "summary": "Gillette Barber Council의 풀비어드 볼 경계 조언과 수염 정돈 절차로 보강한다. 밀도·구레나룻 연결과 촬영 연속성은 실제 미디어에서 확인하지 않았다.",
+      "facts": [
+        {"field": "길이 조정", "value": "처음에는 예상보다 긴 빗 부착물로 시작하고 다음 패스에서 더 짧은 것으로 바꾸며 목표 길이에 맞추도록 안내한다.", "evidence": {"source_id": "makeup-gillette-fullbeard", "locator": "Step 2: Take down the length of your beard", "kind": "source_claim"}},
+        {"field": "목 경계", "value": "일반 절차는 목젖 위 두 손가락 위치를 기준으로 양 귀 뒤를 잇는 U자 경계를 제시한다.", "evidence": {"source_id": "makeup-gillette-fullbeard", "locator": "Step 3: Define your lines, 첫 문단", "kind": "source_claim"}},
+        {"field": "풀비어드 볼 경계", "value": "Faheem Alexander는 풀비어드를 위해 볼 중앙보다 약간 높은 곳에 가이드를 잡고, 낮게 시작하기보다 높게 시작하라고 조언한다.", "evidence": {"source_id": "makeup-gillette-fullbeard", "locator": "Step 6: Align your edges, Faheem’s go-to razor is SkinGuard 아래 조언", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["풀비어드", "볼 경계", "수염 정돈", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0163",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "groomed-mustache",
+      "title_ko": "정돈된 콧수염",
+      "subtype": "수염 그루밍",
+      "summary": "Gillette의 Jason Schneidman 소개 본문으로 콧수염 길이 조절과 입술 경계 정돈을 보강한다. 삽입 영상은 시청하지 않았고 특정 분리형 스타일로 해석하지 않는다.",
+      "facts": [
+        {"field": "시작 길이", "value": "가장 긴 빗 부착물로 시작해 콧수염의 부피를 줄이도록 안내한다.", "evidence": {"source_id": "makeup-gillette-mustache", "locator": "Step 1: Trim your mustache", "kind": "source_claim"}},
+        {"field": "길이 조절", "value": "빗 설정을 한 단계 낮춰 다시 다듬는 방법으로 길이를 세밀하게 조절하도록 안내한다.", "evidence": {"source_id": "makeup-gillette-mustache", "locator": "Step 2: Take it down a notch", "kind": "source_claim"}},
+        {"field": "입술·윗경계", "value": "원하는 길이가 되면 가드를 떼어 입술선을 정리하고 콧수염 윗부분의 형태도 잡도록 안내한다.", "evidence": {"source_id": "makeup-gillette-mustache", "locator": "Step 3: Shape up your Mustache", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["콧수염", "입술 경계", "트리밍", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0162",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "clean-shaven-face",
+      "title_ko": "면도한 얼굴",
+      "subtype": "면도 그루밍",
+      "summary": "Gillette의 얼굴 면도 안내로 면도 전 준비와 기본 동작을 보강한다. 실제 피부결 보존·자극 반응·촬영 시 잔여 수염은 검사하지 않았다.",
+      "facts": [
+        {"field": "면도 전 상태", "value": "털이 부드러워진 샤워 직후나 샤워 중 면도를 권한다.", "evidence": {"source_id": "makeup-gillette-shave", "locator": "Step 1: Hydrate your face", "kind": "source_claim"}},
+        {"field": "도포 준비", "value": "젤이나 폼을 고르게 펴 바른 뒤 면도하도록 안내한다.", "evidence": {"source_id": "makeup-gillette-shave", "locator": "Step 2: Apply Shaving Cream, Gel or Foam", "kind": "source_claim"}},
+        {"field": "면도 방향·강도", "value": "가볍고 부드러운 동작을 사용하고 첫 패스는 털이 자라는 방향을 따르도록 권한다.", "evidence": {"source_id": "makeup-gillette-shave", "locator": "Step 4: Shave With Light, Gentle Strokes; What Should You Do Next? (Conclusion)", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["면도", "수염 제거", "기준 상태", "촬영 조건 미확인"],
+      "existing_entry_id": "FS-0164",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "french-manicure",
+      "title_ko": "프렌치 네일",
+      "subtype": "네일 그루밍",
+      "summary": "OPI의 GELement 프렌치 팁 안내로 바탕·끝선·마감을 보강한다. 특정 젤 시스템의 예시이며 손가락별 선 너비나 촬영 결과를 측정한 기록은 아니다.",
+      "facts": [
+        {"field": "바탕색·도포", "value": "중성 분홍 계열인 Made Ya Blush 같은 색을 얇게 한 겹 바르는 예시를 제시한다.", "evidence": {"source_id": "makeup-opi-french", "locator": "Step 3: Color", "kind": "source_claim"}},
+        {"field": "끝선 색·경계", "value": "손톱 끝은 Snow Angel 같은 흰색으로 칠하고, 디테일 브러시로 스마일 라인을 먼저 만든 뒤 채우는 팁을 제시한다.", "evidence": {"source_id": "makeup-opi-french", "locator": "Step 4: Tips", "kind": "source_claim"}},
+        {"field": "마감", "value": "GELement No-Wipe Top Coat로 색을 덮어 광택을 마무리하도록 안내한다.", "evidence": {"source_id": "makeup-opi-french", "locator": "Step 5: Top", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["프렌치 네일", "흰 팁", "스마일 라인", "촬영 조건 미확인"],
+      "existing_entry_id": "CRAFT-makeup-2a95075e4ba3",
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

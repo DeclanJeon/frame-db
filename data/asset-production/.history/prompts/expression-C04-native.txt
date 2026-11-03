@@ -1,0 +1,15 @@
+FRAME authored synthetic reference. Job: expression-C04; concept: 오른쪽 입꼬리 미소 도착 상태.
+Class: creative; domain: expression; entry: FS-0028.
+Parent entry IDs: ["GEN-asset-expression-E07","GEN-asset-expression-E00"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["expression-E00"]
+Reference roles: {"expression-E00":"identity"}
+Observable direction: Use ONLY the neutral E00 image, never a bilateral-smile reference. Make a small local edit at the IMAGE-LEFT mouth corner (SUBJECT RIGHT): move that corner slightly upward, around eight pixels in the 1024-wide image as an uncalibrated art target. Hold the IMAGE-RIGHT corner at the exact neutral baseline height. Keep mouth center, lip width, brows, eyes, head and identity unchanged. Show clear ONE-sided asymmetry, not a bilateral smile, pucker or mirror flip. No emotion diagnosis.
+Camera / visible region: frontal full face, arrival state B only. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 facial structure, pores, marks, hair, makeup and framing; allow only named action, gaze and the C08 head roll.
+Change only: Lift only the subject-right mouth corner slightly, leaving the subject-left corner close to E00. Keep head frontal and eyes at lens; this asymmetry is not evidence of contempt.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; The specified brow, eye, lip and jaw combination is visible in the single arrival state.; Do not assert emotional diagnosis or a verified transition from a still.
+Output: {"format":"png","height":1536,"width":1024}

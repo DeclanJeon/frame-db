@@ -1,0 +1,18 @@
+{
+  "job_id": "hair-N04",
+  "attempt": 2,
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-N04.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c2b-d0a1-7242-a9a7-6c1b4be43fee/exec-00844d64-081c-49f8-8b4f-83eb9ae514da.png",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-N04; concept: compact rounded tight-coil silhouette; retry attempt 2.\nCreate one photorealistic reference photograph of the same fictional adult woman shown in reference image 2, the accepted identity A face anchor expression-E00. Preserve her face identity, facial proportions, dark-brown eyes, medium warm-brown skin, natural asymmetry, subject-left cheek mole, gray studio background, soft neutral light, gray shirt, camera and crop. Reference image 1 (hair-E16) is only a comparison for hair color, natural hairline, curl texture and photographic presentation; do not copy its shoulder-length silhouette. Replace that hair with a compact rounded natural style of individually varied, clearly tight dark-brown coils. The crown and sides must form one full rounded envelope close to the head, ending above a clearly visible short nape. Show small distinct coil loops across the surface, not loose curls or waves, not straight strands, and no shoulder-length hair. Front three-quarter view with nape visible; include full crown and both sides. One image, one state, no collage, no text, labels or watermark.\nReference roles: image 1 (absolute project path hair-E16.png) is hair texture/color and photo-style comparison only; image 2 (absolute project path expression-E00.png) is the identity A face anchor. Identity anchor wins for face; new silhouette replaces the old hair entirely.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E16.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "sha256": "6652bf692034690bb99eb5a97e805226002b7ad6523d538c4eb9b2e149f5a386",
+  "recovery": "Exact source path recovered from original native tool output; image copied without a new generation."
+}

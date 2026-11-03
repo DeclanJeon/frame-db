@@ -1,0 +1,11 @@
+FRAME authored synthetic reference. Job: hair-N07; concept: 여섯 줄 스트레이트백 콘로우.
+Class: base; domain: hair; entry: GEN-asset-hair-N07.
+Parent entry IDs: ["CRAFT-hair-2c3c47d0ace7"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Input images: Image 1: accepted A hairstyle reference from hair-E23; use for hair color, texture, and end-elastic appearance only. Image 2: accepted A identity anchor from expression-E00.
+Primary request: Create one photorealistic reference photograph of the same fictional adult woman, identity A, with her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry, subject-left cheek mole, and natural dark-brown hairline. Her hair has EXACTLY SIX distinct close-to-scalp raised straight-back cornrows, three on each side of the center line. Each of the six rows runs separately and continuously from the front hairline straight back to the nape, with visible scalp separation between all rows. Each row continues into one distinct full free-hanging tail; show all SIX complete separate tails and six separate black elastics at their ends. The tails must be long enough to be unmistakably free-hanging, not cropped short or fused together.
+Composition/framing: materially changed elevated near-rear/top camera angle, looking down from just behind the crown. Show the ENTIRE scalp from frontal hairline through nape, both sides of the head, and every tail and elastic fully inside frame with margin. Keep the part paths and all six individual tail continuations traceable. Include enough profile/face to retain identity without turning away from the scalp.
+Scene/backdrop: matte neutral-gray studio background; plain gray top. Broad soft neutral key and fill, fixed exposure and white balance.
+Style/medium: photorealistic diagnostic reference photograph, natural scalp, hair texture, and braid detail.
+Constraints: exactly six rows, three on each side of the center line, exactly six full free tails, exactly six elastics. No labels or text, no added braids, no extra rows, no box-grid braid pattern, no fused tails, no cropped scalp or tails, no watermark, no collage or split screen. Preserve identity from the viewed face reference.
+Output: one PNG, 1024x1536.

@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: hair-D11; concept: 후드 해제 직후 눌린 어깨 머리.
+Class: creative; domain: hair; entry: GEN-asset-hair-D11.
+Parent entry IDs: ["CRAFT-hair-e0695130136f","CRAFT-hair-4c22870f9fb5","CRAFT-hair-1011c8796893"]
+One fictional adult subject, identity B. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E12","hair-E01"]
+Reference roles: {"hair-E01":"identity","hair-E12":"geometry"}
+Input images: Image 1: hair-E12, straight centerpart geometry only; Image 2: hair-E01, identity B anchor.
+Observable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Adapt the straight centerpart geometry of E12 to identity B and shoulder length. Show one released-hood compression still: hood rests behind the neck, with a shallow compressed band in the shoulder-length hair above it. Keep all strands outside fabric; no hood-on or recovery frame. Use the B face anchor for identity, not the A model in the geometric basis. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: rear three-quarter showing hood behind neck and entire hair ends. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Use hair-E12 only for straight centerpart geometry; identity, skin marks and head proportions come from hair-E01.
+Change only: Adapt the straight centerpart geometry of E12 to identity B and shoulder length. Show one released-hood compression still: hood rests behind the neck, with a shallow compressed band in the shoulder-length hair above it. Keep all strands outside fabric; no hood-on or recovery frame. Use the B face anchor for identity, not the A model in the geometric basis.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Hood down behind neck; hair outside fabric; compression visible in one state.; One diagnostic view only, not a sequence or collage.
+Output: {"format":"png","height":1536,"width":1024}

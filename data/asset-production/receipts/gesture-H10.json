@@ -1,0 +1,26 @@
+{
+  "job_id": "gesture-H10",
+  "status": "generated",
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H10; concept: 오른손 트라이포드 필기.\nClass: base; domain: gesture; entry: FS-0081.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"makeup-N01\":\"hand anchor\",\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Hold a plain unbranded pen with the right thumb and index contacting the shaft and middle-finger side supporting below it; pen tip contacts blank paper on the tabletop. Left hand pins the paper at its left edge; no writing text is needed. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: Hold a plain unbranded pen with the right thumb and index contacting the shaft and middle-finger side supporting below it; pen tip contacts blank paper on the tabletop. Left hand pins the paper at its left edge; no writing text is needed.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Pen tip touches paper, middle finger supports shaft, left hand stabilizes same sheet.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: hand anchor, accepted A hand at public/generated/frame-assets/makeup-N01.png; retain proportions, skin tone, visible mark and short natural nails. Image 2: identity anchor, accepted A face at public/generated/frame-assets/expression-E00.png; retain face, skin tone, cheek mole and hair.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1024,
+    "width": 1536
+  },
+  "path": "public/generated/frame-assets/gesture-H10.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-a029-7393-9952-bc860b013981/exec-f82b32d2-a194-4c1f-8af7-61dc6eb884a3.png",
+  "sha256": "98779233ed75dac99f75978aa069e55495bb5b2c1867f96daf95a21b3513f6c7",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; parent review required",
+    "observations": "Inspected the actual 1536x1024 PNG. The subject-right thumb and index hold the pen shaft with a visible middle-finger support beneath; the pen tip contacts the blank paper. The subject-left hand presses the same sheet at its right-side edge in this view. Both hands trace into separate continuous forearms; the visible digits remain distinct and the pen does not intersect the hand or table."
+  }
+}

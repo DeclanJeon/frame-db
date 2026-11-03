@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "engine": "native_workflow",
+  "run_id": "dag_b08d0f3b-1ff6-41f3-9a7e-4ca08ea7013b",
+  "run_key": "frame-db-web-population-20261029-v1",
+  "definition_fingerprint": "16b74180e373ef89ce9d5fb0bf8b31dd8ef6abcda16ef3ed12f09b03197428f4",
+  "registered_at": "2026-10-29T20:20:02.254Z",
+  "observed_at": "2026-10-29T20:22:35.650Z",
+  "state_at_registration": "running",
+  "mode": "one_shot_dependency_queue",
+  "definition_path": ".omo/dags/frame-db-web-population.json",
+  "plan_path": "docs/WEB_DB_POPULATION_PLAN.md",
+  "source_research_path": "docs/WEB_DB_SOURCE_RESEARCH.md",
+  "node_count": 62,
+  "completion_notifications": true,
+  "recovery": {
+    "verified_on": "2026-10-29",
+    "failure_node_id": "pilot-publish",
+    "failure": "403: Upstream request failed: Model access is disabled",
+    "first_attempt_tool_calls": 0,
+    "same_route_send_result": "revived, then failed again with the same provider error",
+    "action": "amend_same_run",
+    "previous_category": "unspecified-high",
+    "replacement_category": "deep-low",
+    "current_definition_fingerprint": "007cc42ff4372f8ba438c50849919bd055cd14706d42114c30f2075daab9ac20",
+    "observed_state": "running",
+    "observed_pilot_task_id": "st_01a18974",
+    "cached_completed_nodes": 5,
+    "pending_downstream_nodes": 56,
+    "direct_verification_report": "docs/WEB_DB_RECOVERY_STATUS.md",
+    "population_complete": false
+  },
+  "categories": [
+    {
+      "category_id": "pose",
+      "name": "포즈·자세",
+      "target_concepts": 20,
+      "collect_node_id": "collect-pose",
+      "review_node_id": "review-pose",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "costume",
+      "name": "의상·코디",
+      "target_concepts": 20,
+      "collect_node_id": "collect-costume",
+      "review_node_id": "review-costume",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "hair",
+      "name": "헤어스타일",
+      "target_concepts": 20,
+      "collect_node_id": "collect-hair",
+      "review_node_id": "review-hair",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "makeup",
+      "name": "메이크업·그루밍",
+      "target_concepts": 20,
+      "collect_node_id": "collect-makeup",
+      "review_node_id": "review-makeup",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "expression",
+      "name": "표정·시선",
+      "target_concepts": 20,
+      "collect_node_id": "collect-expression",
+      "review_node_id": "review-expression",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "gesture",
+      "name": "손동작·제스처",
+      "target_concepts": 20,
+      "collect_node_id": "collect-gesture",
+      "review_node_id": "review-gesture",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "anatomy",
+      "name": "얼굴·체형·실루엣",
+      "target_concepts": 20,
+      "collect_node_id": "collect-anatomy",
+      "review_node_id": "review-anatomy",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "fashion-items",
+      "name": "패션 아이템",
+      "target_concepts": 20,
+      "collect_node_id": "collect-fashion-items",
+      "review_node_id": "review-fashion-items",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "props",
+      "name": "소품·제품 상호작용",
+      "target_concepts": 20,
+      "collect_node_id": "collect-props",
+      "review_node_id": "review-props",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "persona",
+      "name": "캐릭터·페르소나",
+      "target_concepts": 20,
+      "collect_node_id": "collect-persona",
+      "review_node_id": "review-persona",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "acting",
+      "name": "행동·연기·블로킹",
+      "target_concepts": 20,
+      "collect_node_id": "collect-acting",
+      "review_node_id": "review-acting",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "interaction",
+      "name": "2인·그룹 상호작용",
+      "target_concepts": 20,
+      "collect_node_id": "collect-interaction",
+      "review_node_id": "review-interaction",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "space",
+      "name": "공간·세트·환경",
+      "target_concepts": 20,
+      "collect_node_id": "collect-space",
+      "review_node_id": "review-space",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "lighting",
+      "name": "조명",
+      "target_concepts": 20,
+      "collect_node_id": "collect-lighting",
+      "review_node_id": "review-lighting",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "camera",
+      "name": "카메라·구도",
+      "target_concepts": 20,
+      "collect_node_id": "collect-camera",
+      "review_node_id": "review-camera",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "camera-motion",
+      "name": "카메라 이동",
+      "target_concepts": 20,
+      "collect_node_id": "collect-camera-motion",
+      "review_node_id": "review-camera-motion",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "look",
+      "name": "비주얼 스타일·색·재질",
+      "target_concepts": 20,
+      "collect_node_id": "collect-look",
+      "review_node_id": "review-look",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "motion",
+      "name": "모션·물리·VFX",
+      "target_concepts": 20,
+      "collect_node_id": "collect-motion",
+      "review_node_id": "review-motion",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "voice",
+      "name": "목소리 정체성",
+      "target_concepts": 20,
+      "collect_node_id": "collect-voice",
+      "review_node_id": "review-voice",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "speech",
+      "name": "말투·대사 연기·립싱크",
+      "target_concepts": 20,
+      "collect_node_id": "collect-speech",
+      "review_node_id": "review-speech",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "sound",
+      "name": "음악·환경음·효과음",
+      "target_concepts": 20,
+      "collect_node_id": "collect-sound",
+      "review_node_id": "review-sound",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "story",
+      "name": "이야기·대본·장르",
+      "target_concepts": 20,
+      "collect_node_id": "collect-story",
+      "review_node_id": "review-story",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "edit",
+      "name": "편집·리듬·전환",
+      "target_concepts": 20,
+      "collect_node_id": "collect-edit",
+      "review_node_id": "review-edit",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "delivery",
+      "name": "피니싱·자막·납품",
+      "target_concepts": 20,
+      "collect_node_id": "collect-delivery",
+      "review_node_id": "review-delivery",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "brief",
+      "name": "브리프·브랜드·기획",
+      "target_concepts": 20,
+      "collect_node_id": "collect-brief",
+      "review_node_id": "review-brief",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "ops",
+      "name": "제작운영·에셋관리",
+      "target_concepts": 20,
+      "collect_node_id": "collect-ops",
+      "review_node_id": "review-ops",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "evidence",
+      "name": "근거·권리·출처",
+      "target_concepts": 20,
+      "collect_node_id": "collect-evidence",
+      "review_node_id": "review-evidence",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "handoff",
+      "name": "AI 생성·참조 인계",
+      "target_concepts": 20,
+      "collect_node_id": "collect-handoff",
+      "review_node_id": "review-handoff",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    },
+    {
+      "category_id": "qa",
+      "name": "품질·연속성 검수",
+      "target_concepts": 20,
+      "collect_node_id": "collect-qa",
+      "review_node_id": "review-qa",
+      "collect_state_at_registration": "pending",
+      "review_state_at_registration": "pending"
+    }
+  ]
+}

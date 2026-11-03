@@ -1,0 +1,20 @@
+{
+  "job_id": "makeup-L05",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L05.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-b8eafeef-969f-4fee-b710-ce54fa4f973b.png",
+  "sha256": "5e7099df36033065b504ff01e9ee442cf874fe86801207f267f695398c471f79",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L05; concept: 차콜 스모키 이브닝.\nClass: base; domain: makeup; entry: FS-0035.\nParent entry IDs: [\"CRAFT-makeup-c7a3c2432bb0\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use a semi-matte base, charcoal shadow concentrated near upper lashes and diffused toward the crease with matching soft outer boundaries on both eyes, faint neutral cheeks, nude satin lips and tidy brows. Keep eye contour and iris unchanged. Keep A hair tied back, head frontal, relaxed closed lips and lens-directed eyes, matched to E00. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 face structure, actual skin-mark map, hair, expression and wardrobe; makeup affects pigment and local reflectance only.\nChange only: Use a semi-matte base, charcoal shadow concentrated near upper lashes and diffused toward the crease with matching soft outer boundaries on both eyes, faint neutral cheeks, nude satin lips and tidy brows. Keep eye contour and iris unchanged.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; At full resolution inspect eyelid, lip and brow boundaries; no enlarged eyes or lips.; Compare against E00 for unchanged pores and skin-mark positions.; The specified base, eyes, cheeks, lips and brows are all readable.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, crop, pores and cheek mole remain consistent with E00. Charcoal shadow is visible close to both upper lash lines and diffused toward the creases with soft boundaries; iris and eye contours are unchanged."
+  }
+}

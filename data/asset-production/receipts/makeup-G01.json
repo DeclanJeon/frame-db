@@ -1,0 +1,20 @@
+{
+  "job_id": "makeup-G01",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-G01.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-f334f963-d9c4-4b9e-af1c-f7aa2608c7a8.png",
+  "sha256": "8fc15e715b2b31e03d68fe962e55387ecfeb0a9aca25b39f6f6269c39b3c2255",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-G01; concept: 클린 셰이브.\nClass: base; domain: makeup; entry: FS-0164.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Remove visible beard hairs while preserving original jaw geometry, pores, cheek mole and natural skin variation. Use thin tone correction, small under-eye concealer, natural brows and clear lip balm without eye or cheek pigment. Keep the hair-E01 buzz haircut and the same shallow three-quarter view as G01. Retain a relaxed mouth and plain gray collarless top; use the G01 thin correction level throughout. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: shallow front three-quarter showing lip line both cheek edges and neck. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the B face, cheek mole and buzz haircut; use the same beard growth geography across all beard comparisons.\nChange only: Remove visible beard hairs while preserving original jaw geometry, pores, cheek mole and natural skin variation. Use thin tone correction, small under-eye concealer, natural brows and clear lip balm without eye or cheek pigment.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; No facial hair; no softened or narrowed jaw.; Grooming changes hair state, not skin tone, face proportions or lighting.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Same B identity, 3/4 pose, crop, buzz cut, skin texture and cheek mole match hair-E01. Beard and mustache shadow is substantially reduced to a clean-shaven appearance; very fine follicle texture remains at close view."
+  }
+}

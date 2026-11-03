@@ -1,0 +1,1 @@
+Match the supplied reference face and eyebrow positions exactly. Keep soft neutral studio lighting and natural, unsharpened skin; do not add wrinkles, engraving or decorative texture.

@@ -1,0 +1,15 @@
+FRAME authored synthetic reference. Job: gaze-center-up; concept: 중앙 위 시선.
+Class: base; domain: gaze; entry: GEN-asset-gaze-center-up.
+Parent entry IDs: []
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference file for this job: ["expression-E00"]
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, edited from the actual accepted expression-E00 photograph. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Direct both eyeballs together toward one target horizontally centered and up; in the frontal image this reads center and up. Move only the eyeballs. Keep the head frontal and still, with no rotation or tilt. Keep eyelids, brows, cheek height, closed lips and jaw at E00. Do not infer intent or emotion from gaze direction. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: frontal full face, head neutral and still. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep accepted identity, facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to E00.; Keep E00 head orientation, hair, makeup, expression and eye anatomy; both eyes address one consistent target.
+Change only: Eyeball direction toward horizontally centered and up; subject-left is viewer-right and subject-right is viewer-left in this frontal view.
+No head turn, head tilt, mirrored output, pupil duplication, invented strabismus, text, logo, watermark, collage or invented motion.
+A still does not verify timing, physical measurements or unseen geometry.
+Acceptance checks: Inspect the actual full-resolution output; verify both irises move compatibly toward one target, the image-relative direction is correct, and the head and all non-target features remain consistent with E00.
+Output: {"format":"png","height":1536,"width":1024}
+Additional execution constraint: Gaze means eyeballs only. Do not rotate the head to fake a gaze direction. No calibrated angle or emotion claim.

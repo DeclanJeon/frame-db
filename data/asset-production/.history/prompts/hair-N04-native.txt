@@ -1,0 +1,15 @@
+FRAME authored synthetic reference. Job: hair-N04; concept: 둥근 타이트 코일 실루엣.
+Class: base; domain: hair; entry: GEN-asset-hair-N04.
+Parent entry IDs: ["CRAFT-hair-db6e266cbccc"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E16","expression-E00"]
+Reference roles: {"expression-E00":"identity anchor","hair-E16":"same-look parent and coil geometry"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Arrange tightly coiled dark-brown strands into a compact rounded crown and side envelope above a clear nape. Maintain individually varied tight coils, without straightening or repeating identical corkscrews. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: front three-quarter with nape visible. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.
+Change only: Arrange tightly coiled dark-brown strands into a compact rounded crown and side envelope above a clear nape. Maintain individually varied tight coils, without straightening or repeating identical corkscrews.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Compact round envelope and tight varied coils differ from shoulder-length small curls.; Compare against the named basis; the new structural coverage must be visibly different.
+Output: {"format":"png","height":1536,"width":1024}

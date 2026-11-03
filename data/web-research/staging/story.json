@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "category_id": "story",
+  "collector": "omo-story-collector-20261030",
+  "collected_at": "2026-10-30T05:04:36.189Z",
+  "sources": [
+    {
+      "source_id": "disney-story",
+      "url": "https://www.disneyanimation.com/process/story/",
+      "title": "Story",
+      "publisher": "Walt Disney Animation Studios",
+      "authors": [],
+      "checked_at": "2026-10-30T04:57:06.800Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Development 본문과 대본 썸네일·정제 단계 설명",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 제작 설명을 읽고 짧은 사실 요약과 링크만 기록했다. 대본·보드·캐릭터 이미지의 복제·재배포·AI 업로드 허락은 확인하지 않았다. 이미지 파일을 취득하거나 검사하지 않았다.",
+        "attribution": "제작 설명: Walt Disney Animation Studios. 개별 보드 작가와 미디어 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "august-scene",
+      "url": "https://johnaugust.com/2007/write-scene",
+      "title": "How to write a scene",
+      "publisher": "John August",
+      "authors": ["John August"],
+      "checked_at": "2026-10-30T04:57:06.800Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "번호 절 1~4와 7",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "작가가 직접 설명한 집필 방법만 짧게 요약했다. 본문·예시 대사·첨부 문서의 재배포 허락은 확인하지 않았고 예시 대본은 복제하지 않았다.",
+        "attribution": "John August, How to write a scene. 별도 라이선스 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nyfa-logline",
+      "url": "https://www.nyfa.edu/student-resources/so-what-exactly-is-a-logline-and-why-do-i-need-one/",
+      "title": "So What Exactly Is A Logline (And Why Do I Need One?)",
+      "publisher": "New York Film Academy",
+      "authors": [],
+      "checked_at": "2026-10-30T04:57:06.800Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "로그라인 작성 방법 절의 네 요소 목록과 결말 공개 설명",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육기관의 집필 지침만 요약했다. 영화별 로그라인 예문·사진·영상은 복제하지 않았다. 원문과 미디어 재사용 허락은 미확인이다.",
+        "attribution": "New York Film Academy. 개인 저자 및 예시 미디어별 권리 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "scriptnotes-632",
+      "url": "https://johnaugust.com/2024/scriptnotes-episode-632-mystery-and-suspense-transcript",
+      "title": "Scriptnotes, Episode 632: Mystery and Suspense, Transcript",
+      "publisher": "John August / Scriptnotes",
+      "authors": ["John August", "Craig Mazin"],
+      "checked_at": "2026-10-30T05:04:36.189Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "269회 재수록 구간의 혼란·거짓말 논의; 332회 재수록 구간의 예측 가능한 결말 논의",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 전사에서 두 작가의 집필 견해만 요약했다. 오디오를 청취·다운로드하지 않았으며 전사·녹음·소개 영화의 재사용 허락은 확인하지 않았다.",
+        "attribution": "발언자 John August와 Craig Mazin, Scriptnotes 632 공개 전사. 전사 작업자와 녹음별 권리 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "wgf-suspense",
+      "url": "https://www.wgfoundation.org/blog/2021/1/12/writing-your-screenplay-while-social-distancing-suspense",
+      "title": "WRITING YOUR SCREENPLAY: SUSPENSE",
+      "publisher": "The Writers Guild Foundation",
+      "authors": ["Lauren O'Connor"],
+      "checked_at": "2026-10-30T04:57:47.542Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "미스터리와 서스펜스의 독자 지식 차이를 비교하는 본문",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "재단의 교육 설명을 짧게 요약했다. 삽입 인용·대본·영상·이미지의 재사용 허락은 미확인이다. 링크된 영상을 시청하거나 취득하지 않았다.",
+        "attribution": "Lauren O'Connor / The Writers Guild Foundation. 별도 미디어 권리자와 라이선스 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "hitchcock-methods",
+      "url": "https://www.bfi.org.uk/sight-and-sound/features/alfred-hitchcock-my-own-methods",
+      "title": "Alfred Hitchcock: my own methods",
+      "publisher": "British Film Institute / Sight and Sound",
+      "authors": ["Alfred Hitchcock"],
+      "checked_at": "2026-10-30T04:57:06.800Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Blackmail의 사랑·의무 대비; Sabotage의 칼과 손 설명; 끝부분 코미디·드라마 병행 논의",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "1937년 기고문의 공개 재게재 본문을 읽었다. 감독 자신의 설명이며 영화 장면을 직접 관찰한 결과가 아니다. 사이트 하단 권리 유보 표시는 확인했으나 본문·스틸·영화의 재사용 허락은 확보하지 않았다.",
+        "attribution": "Alfred Hitchcock, Sight and Sound 원기고; 공개 재게재 British Film Institute. 영화·스틸별 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nyfa-projects",
+      "url": "https://www.nyfa.edu/screenwriting/projects/",
+      "title": "Screenwriting Projects",
+      "publisher": "New York Film Academy",
+      "authors": [],
+      "checked_at": "2026-10-30T04:57:47.542Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "학위 과정별 프로젝트 목록의 장르 트리트먼트·TV 바이블·트랜스미디어 바이블 항목",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "기관이 설명한 교육 과제의 구성만 요약했다. 학교별·과정별 예시이며 보편 납품 규격으로 확장하지 않는다. 대본·교육 자료·미디어 재사용 허락은 미확인이다.",
+        "attribution": "New York Film Academy. 개인 저자·학생 작품 권리자·재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nyfa-structure",
+      "url": "https://www.nyfa.edu/student-resources/how-to-master-the-structure-of-script-writing/",
+      "title": "How To Master The Structure Of Script Writing",
+      "publisher": "New York Film Academy",
+      "authors": [],
+      "checked_at": "2026-10-30T04:57:47.542Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "구조 선택 절과 형식 절의 장면 표제 설명",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육기관의 구조·장면 표제 설명만 요약했다. 소프트웨어·제출 관행의 현재 유효성을 검증한 자료가 아니다. 원문·예문·사진 재사용 허락은 미확인이다.",
+        "attribution": "New York Film Academy. 개인 저자와 미디어별 권리 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nyfa-sequences",
+      "url": "https://www.nyfa.edu/student-resources/screenplay-sequences-underpin-three-act-structure/",
+      "title": "How Screenplay Sequences Underpin Three Act Structure",
+      "publisher": "New York Film Academy",
+      "authors": ["Alex", "Scott", "Rebecca", "David"],
+      "checked_at": "2026-10-30T04:57:47.542Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "도입부와 A·C·D 시퀀스 절",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "교육 기사 저자들이 제시한 시퀀스 모델만 요약했다. 모든 영화의 실측 구조로 주장하지 않는다. 본문의 영화별 예시를 검증된 관찰로 옮기지 않았으며 재사용 허락은 미확인이다.",
+        "attribution": "기사 말미 서명 Alex, Scott, Rebecca, David / New York Film Academy. 성명 전체와 별도 라이선스 조건은 미확인이다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "script-to-storyboard",
+      "title_ko": "대본에서 스토리보드로 전개",
+      "subtype": "장르·비트 / 시각 서사 개발",
+      "summary": "Disney가 설명한 대본의 시각화 과정이다.",
+      "facts": [
+        {"field": "협업", "value": "스토리 아티스트는 작가·편집자 등과 감독의 구상을 시각화한다.", "evidence": {"source_id": "disney-story", "locator": "Development 첫 문단", "kind": "source_claim"}},
+        {"field": "출발자료", "value": "대본에 기반한 작은 스케치에서 시작하는 경우가 많다.", "evidence": {"source_id": "disney-story", "locator": "대본 썸네일 설명", "kind": "source_claim"}},
+        {"field": "정제과정", "value": "썸네일을 다듬고 선명한 그림과 명암으로 더 구체화한다.", "evidence": {"source_id": "disney-story", "locator": "썸네일 정제와 명암 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장르·비트", "대본", "스토리보드"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "scene-necessity",
+      "title_ko": "장면의 필수 기능과 삭제 검사",
+      "subtype": "장면 목적 / 필요성",
+      "summary": "John August가 제시한 장면 필요성 판단법이다.",
+      "facts": [
+        {"field": "필수사건", "value": "가능한 사건보다 반드시 일어나야 할 일을 먼저 묻는다.", "evidence": {"source_id": "august-scene", "locator": "1절", "kind": "source_claim"}},
+        {"field": "삭제검사", "value": "장면을 빼도 영화가 이해되는지 검사한다.", "evidence": {"source_id": "august-scene", "locator": "2절", "kind": "source_claim"}},
+        {"field": "등장필요", "value": "말이나 행동 없이 머무는 불필요한 인물을 점검한다.", "evidence": {"source_id": "august-scene", "locator": "3절", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장면 목적", "삭제 검사", "등장인물"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "scene-setting-context",
+      "title_ko": "장소와 병행 행동의 극적 맥락",
+      "subtype": "장면 목적 / 맥락",
+      "summary": "August는 장소가 같은 대사의 맥락을 바꾼다고 설명한다.",
+      "facts": [
+        {"field": "장소선택", "value": "가장 뻔한 장소로 즉시 결정하지 말라고 조언한다.", "evidence": {"source_id": "august-scene", "locator": "4절", "kind": "source_claim"}},
+        {"field": "병행행동", "value": "대화의 초점과 직접 무관한 활동도 함께 고려한다.", "evidence": {"source_id": "august-scene", "locator": "4절", "kind": "source_claim"}},
+        {"field": "비교예시", "value": "부자간 교감도 도축장과 잔디 볼링 대회에서는 다르게 작동한다고 예시한다.", "evidence": {"source_id": "august-scene", "locator": "4절 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장면 목적", "장소", "병행 행동"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "late-scene-entry",
+      "title_ko": "늦게 진입하는 장면 도입",
+      "subtype": "장면 목적 / 진입점",
+      "summary": "August가 설명하는 장면 시작점 탐색법이다.",
+      "facts": [
+        {"field": "진입원칙", "value": "가능한 늦은 순간에 장면에 진입하는 관행을 소개한다.", "evidence": {"source_id": "august-scene", "locator": "7절", "kind": "source_claim"}},
+        {"field": "선행정보", "value": "진입점을 정하려면 앞 장면의 끝을 알아야 한다.", "evidence": {"source_id": "august-scene", "locator": "7절", "kind": "source_claim"}},
+        {"field": "대안탐색", "value": "첫 이미지나 첫 대사의 시작안을 세 가지로 탐색한다.", "evidence": {"source_id": "august-scene", "locator": "7절 제목과 본문", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장면 목적", "도입", "진입점"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "logline-goal-obstacle",
+      "title_ko": "로그라인의 목표와 장애",
+      "subtype": "인과·갈등 / 로그라인",
+      "summary": "NYFA의 로그라인 지침으로 기존 목표·장애 가이드를 보강한다.",
+      "facts": [
+        {"field": "주인공", "value": "주어진 상황과 명확한 목표를 가진 주인공을 포함하도록 권한다.", "evidence": {"source_id": "nyfa-logline", "locator": "작성 방법 절 네 요소 목록", "kind": "source_claim"}},
+        {"field": "대립", "value": "대항하는 인물과 양측의 갈등 지점을 포함한다.", "evidence": {"source_id": "nyfa-logline", "locator": "작성 방법 절 네 요소 목록", "kind": "source_claim"}},
+        {"field": "결말정보", "value": "대본과 달리 로그라인에는 해결을 밝힐 필요가 없다고 설명한다.", "evidence": {"source_id": "nyfa-logline", "locator": "네 요소 목록 다음 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["인과·갈등", "로그라인", "목표", "장애"],
+      "existing_entry_id": "CRAFT-story-2750b4175fe4",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "mystery-versus-confusion",
+      "title_ko": "의도된 미스터리와 혼란 구별",
+      "subtype": "정보 공개 / 관객의 질문",
+      "summary": "Scriptnotes의 두 작가가 구분한 정보 유보의 조건이다.",
+      "facts": [
+        {"field": "기대", "value": "미스터리는 답을 얻을 수 있다는 기대를 만든다고 설명한다.", "evidence": {"source_id": "scriptnotes-632", "locator": "269클립: 호기심 논의", "kind": "source_claim"}},
+        {"field": "답의조건", "value": "Mazin은 답의 관련성과 논리성을 강조한다.", "evidence": {"source_id": "scriptnotes-632", "locator": "269클립: 관객과의 약속", "kind": "source_claim"}},
+        {"field": "혼란징후", "value": "알아야 할 정보를 놓쳤다고 느끼는 상태를 혼란으로 구별한다.", "evidence": {"source_id": "scriptnotes-632", "locator": "269클립: 혼란 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["정보 공개", "미스터리", "혼란"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "obvious-lie-mystery",
+      "title_ko": "드러난 거짓말로 동기 질문 만들기",
+      "subtype": "정보 공개 / 거짓말",
+      "summary": "Mazin과 August가 설명한 거짓말의 서사 기능이다.",
+      "facts": [
+        {"field": "지식차", "value": "관객은 거짓임을 알아도 동기를 모를 수 있다.", "evidence": {"source_id": "scriptnotes-632", "locator": "269클립: 거짓말 논의", "kind": "source_claim"}},
+        {"field": "공개순서", "value": "참으로 믿은 말을 나중에 거짓으로 드러내는 순서도 설명한다.", "evidence": {"source_id": "scriptnotes-632", "locator": "269클립: 거짓말의 다른 순서", "kind": "source_claim"}},
+        {"field": "대본표시", "value": "August는 거짓임을 짧은 지문으로 표시할 필요를 지적한다.", "evidence": {"source_id": "scriptnotes-632", "locator": "269클립: 거짓말의 지문 표시", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["정보 공개", "거짓말", "동기"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "known-outcome-suspense",
+      "title_ko": "예측된 결말에 이르는 서스펜스",
+      "subtype": "장르·비트 / 기대",
+      "summary": "Scriptnotes는 결말 예측과 서스펜스를 양립 가능한 것으로 설명한다.",
+      "facts": [
+        {"field": "질문", "value": "결말을 짐작해도 도달 방식이 질문으로 남는다.", "evidence": {"source_id": "scriptnotes-632", "locator": "332클립: 알려진 결말", "kind": "source_claim"}},
+        {"field": "적용장르", "value": "코미디·로맨스에도 적용한다고 말한다.", "evidence": {"source_id": "scriptnotes-632", "locator": "332클립: 장르 범위", "kind": "source_claim"}},
+        {"field": "시간기대", "value": "언제 결과가 실현될지 기다리는 감각으로도 설명한다.", "evidence": {"source_id": "scriptnotes-632", "locator": "332클립: 케첩 비유", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장르·비트", "서스펜스", "기대"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "audience-character-information",
+      "title_ko": "공개와 유보의 설계",
+      "subtype": "정보 공개 / 지식 비대칭",
+      "summary": "WGF 교육 설명으로 관객·인물의 지식 차이 가이드를 보강한다.",
+      "facts": [
+        {"field": "위협공개", "value": "서스펜스에서는 독자가 인물보다 잠재적 위협을 먼저 아는 경우가 많다고 설명한다.", "evidence": {"source_id": "wgf-suspense", "locator": "미스터리·서스펜스 비교 문단", "kind": "source_claim"}},
+        {"field": "유보방향", "value": "미스터리에서는 인물이 독자보다 더 아는 상황을 대조해 제시한다.", "evidence": {"source_id": "wgf-suspense", "locator": "미스터리·서스펜스 비교 문단", "kind": "source_claim"}},
+        {"field": "감정대상", "value": "인물의 목표와 안전에 대한 독자의 관심을 긴장의 바탕으로 설명한다.", "evidence": {"source_id": "wgf-suspense", "locator": "비교 뒤 인물 목표·안전 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["정보 공개", "지식 비대칭", "서스펜스"],
+      "existing_entry_id": "CRAFT-story-d3dc694729ca",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "love-versus-duty-conflict",
+      "title_ko": "사랑과 의무의 가치 충돌",
+      "subtype": "인과·갈등 / 가치 대립",
+      "summary": "Hitchcock이 직접 설명한 Blackmail의 갈등 설계다.",
+      "facts": [
+        {"field": "가치축", "value": "감독은 사랑과 의무의 충돌을 출발점으로 삼았다고 썼다.", "evidence": {"source_id": "hitchcock-methods", "locator": "도입 뒤 Blackmail 설명", "kind": "source_claim"}},
+        {"field": "도입순서", "value": "의무와 사랑을 각각 소개한 뒤 중반에 대립시켰다고 설명한다.", "evidence": {"source_id": "hitchcock-methods", "locator": "Blackmail 도입 순서", "kind": "source_claim"}},
+        {"field": "구체적충돌", "value": "형사가 연인이 저지른 살인 사건을 맡는 상황으로 두 가치를 충돌시킨다.", "evidence": {"source_id": "hitchcock-methods", "locator": "Blackmail 사건 배정 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["인과·갈등", "가치 대립", "주제"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "object-led-visual-story",
+      "title_ko": "무언의 물건 이야기",
+      "subtype": "정보 공개 / 소품 서사",
+      "summary": "Hitchcock의 소품 설명으로 시각 전달 층을 보강한다. 장면 전체가 무성이라는 주장은 아니다.",
+      "facts": [
+        {"field": "핵심소품", "value": "Sabotage의 칼을 인물의 살해 생각과 연결한다고 설명한다.", "evidence": {"source_id": "hitchcock-methods", "locator": "Sabotage 저녁 식사 설명", "kind": "source_claim"}},
+        {"field": "행동정보", "value": "채소를 담으면서도 손이 칼을 놓지 않는 행동을 설명한다.", "evidence": {"source_id": "hitchcock-methods", "locator": "Sabotage 채소·칼 문단", "kind": "source_claim"}},
+        {"field": "심리전달", "value": "과장된 표정보다 칼을 쥔 손으로 마음을 드러냈다고 썼다.", "evidence": {"source_id": "hitchcock-methods", "locator": "Sabotage 손·표정 대비", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["정보 공개", "소품", "시각 서사"],
+      "existing_entry_id": "CRAFT-story-5e8cf68b9ba2",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "comedy-drama-interweaving",
+      "title_ko": "코미디와 드라마의 병행",
+      "subtype": "장르·비트 / 톤 혼합",
+      "summary": "Hitchcock의 1937년 글에 나타난 장르 톤에 관한 견해다.",
+      "facts": [
+        {"field": "병행가능성", "value": "영화에서는 코미디와 드라마를 함께 엮을 수 있다고 썼다.", "evidence": {"source_id": "hitchcock-methods", "locator": "끝부분 코미디·드라마 논의", "kind": "source_claim"}},
+        {"field": "매체대조", "value": "막과 휴지로 나뉘는 연극과 영화의 흐르는 행동을 대조한다.", "evidence": {"source_id": "hitchcock-methods", "locator": "끝부분 연극·영화 대비", "kind": "source_claim"}},
+        {"field": "기대변화", "value": "당시 관객이 급격한 분위기 변화에 더 익숙해졌다는 견해를 제시한다.", "evidence": {"source_id": "hitchcock-methods", "locator": "끝부분 관객·분위기 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장르·비트", "코미디", "드라마", "톤"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "genre-feature-treatment",
+      "title_ko": "장르 장편의 트리트먼트",
+      "subtype": "장르·비트 / 개발 문서",
+      "summary": "NYFA가 안내한 장르 장편 개발 과제의 구성이다.",
+      "facts": [
+        {"field": "내용", "value": "집필 전 인물·주제·줄거리를 정리한다.", "evidence": {"source_id": "nyfa-projects", "locator": "장르 장편 트리트먼트 항목", "kind": "source_claim"}},
+        {"field": "장르범위", "value": "장르 수업에서 다룬 특정 장르를 대상으로 한다.", "evidence": {"source_id": "nyfa-projects", "locator": "장르 장편 트리트먼트 항목", "kind": "source_claim"}},
+        {"field": "목적", "value": "제작자에게 제안하고 작가가 대본 집필을 계획하는 데 쓴다고 설명한다.", "evidence": {"source_id": "nyfa-projects", "locator": "장르 장편 트리트먼트 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장르·비트", "트리트먼트", "장편"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "television-series-bible",
+      "title_ko": "TV 시리즈 바이블과 반복 갈등",
+      "subtype": "인과·갈등 / 시리즈 개발",
+      "summary": "NYFA가 설명한 시리즈 바이블의 서사 구성이다.",
+      "facts": [
+        {"field": "세계구성", "value": "인물·주제·세계를 기술한다.", "evidence": {"source_id": "nyfa-projects", "locator": "TV 파일럿·시리즈 바이블 항목", "kind": "source_claim"}},
+        {"field": "이야기엔진", "value": "반복되는 갈등의 원천을 이야기 엔진으로 설명한다.", "evidence": {"source_id": "nyfa-projects", "locator": "TV 파일럿·시리즈 바이블 항목", "kind": "source_claim"}},
+        {"field": "선행역할", "value": "파일럿 집필 전 시리즈를 계획하고 제작자에게 제안하는 문서다.", "evidence": {"source_id": "nyfa-projects", "locator": "TV 파일럿·시리즈 바이블 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["인과·갈등", "시리즈", "바이블", "반복 갈등"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "transmedia-franchise-bible",
+      "title_ko": "트랜스미디어 이야기 세계 바이블",
+      "subtype": "장르·비트 / 매체 확장",
+      "summary": "NYFA의 매체 간 이야기 세계 개발 과제다.",
+      "facts": [
+        {"field": "서사범위", "value": "여러 매체에서 이야기를 지속할 수 있는 세계를 대상으로 한다.", "evidence": {"source_id": "nyfa-projects", "locator": "트랜스미디어 프랜차이즈 바이블 항목", "kind": "source_claim"}},
+        {"field": "계획내용", "value": "그 세계에서 전개할 서로 다른 매체의 제안을 포함한다.", "evidence": {"source_id": "nyfa-projects", "locator": "트랜스미디어 프랜차이즈 바이블 항목", "kind": "source_claim"}},
+        {"field": "과제구성", "value": "웹시리즈 바이블과 만화 또는 게임의 한 장 제안서를 요구한다.", "evidence": {"source_id": "nyfa-projects", "locator": "트랜스미디어 프랜차이즈 바이블 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장르·비트", "트랜스미디어", "이야기 세계"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "three-act-structure",
+      "title_ko": "설정·갈등·해결의 삼막 구조",
+      "subtype": "장르·비트 / 전체 구조",
+      "summary": "NYFA는 삼막을 여러 구조 방식 중 고전적인 모델로 소개한다.",
+      "facts": [
+        {"field": "첫막", "value": "첫 단계의 기능을 설정으로 제시한다.", "evidence": {"source_id": "nyfa-structure", "locator": "구조 선택 절", "kind": "source_claim"}},
+        {"field": "중간막", "value": "중간 단계의 기능을 갈등으로 제시한다.", "evidence": {"source_id": "nyfa-structure", "locator": "구조 선택 절", "kind": "source_claim"}},
+        {"field": "끝막", "value": "마지막 단계의 기능을 해결로 제시한다.", "evidence": {"source_id": "nyfa-structure", "locator": "구조 선택 절", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장르·비트", "삼막 구조", "갈등", "해결"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "scene-heading-boundaries",
+      "title_ko": "씬 경계의 장소·시간 표기",
+      "subtype": "장면 목적 / 장면 구분",
+      "summary": "기존 씬 경계 가이드에 NYFA의 장소·시간 표제 기준을 보강한다.",
+      "facts": [
+        {"field": "실내외", "value": "장면 표제에서 먼저 실내인지 실외인지 밝힌다.", "evidence": {"source_id": "nyfa-structure", "locator": "형식 절 첫 장면 표제 항목", "kind": "source_claim"}},
+        {"field": "장소", "value": "실내외 표시 뒤에 장면의 장소를 적는다.", "evidence": {"source_id": "nyfa-structure", "locator": "형식 절 첫 장면 표제 항목", "kind": "source_claim"}},
+        {"field": "시간대", "value": "장소 뒤에 하루 중 시간대를 표시한다.", "evidence": {"source_id": "nyfa-structure", "locator": "형식 절 첫 장면 표제 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장면 목적", "씬 경계", "장소", "시간"],
+      "existing_entry_id": "CRAFT-story-87640c0467a2",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "inciting-incident",
+      "title_ko": "촉발 사건과 주인공의 인지",
+      "subtype": "인과·갈등 / 촉발",
+      "summary": "NYFA 시퀀스 모델이 제시한 촉발 사건 설명이다.",
+      "facts": [
+        {"field": "기능", "value": "이야기를 움직이게 하는 출발 사건으로 소개한다.", "evidence": {"source_id": "nyfa-sequences", "locator": "A절 첫 문단", "kind": "source_claim"}},
+        {"field": "형태", "value": "주인공 삶의 큰 변화나 주인공이 아직 모르는 사건일 수 있다.", "evidence": {"source_id": "nyfa-sequences", "locator": "A절 첫 문단", "kind": "source_claim"}},
+        {"field": "위치조건", "value": "각본이 이 사건으로 시작하는 경우가 많지만 항상 그렇지는 않다고 명시한다.", "evidence": {"source_id": "nyfa-sequences", "locator": "A절 첫 문단의 단서", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["인과·갈등", "촉발 사건", "정보 공개"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "sequence-goal-progress",
+      "title_ko": "시퀀스 단위의 목표 진전",
+      "subtype": "장르·비트 / 중간 단위",
+      "summary": "NYFA의 시퀀스 모델에서 목표의 진전 단위를 정리했다.",
+      "facts": [
+        {"field": "모델규모", "value": "삼막을 일곱 또는 여덟 시퀀스로 나누는 모델을 소개한다.", "evidence": {"source_id": "nyfa-sequences", "locator": "도입부", "kind": "source_claim"}},
+        {"field": "단위역할", "value": "각 시퀀스를 다루기 쉬운 작은 영화에 비유한다.", "evidence": {"source_id": "nyfa-sequences", "locator": "도입부", "kind": "source_claim"}},
+        {"field": "막과구별", "value": "C절 끝은 막 경계가 아니어도 주목표의 진전이나 후퇴가 된다고 설명한다.", "evidence": {"source_id": "nyfa-sequences", "locator": "C절 마지막 설명 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["장르·비트", "시퀀스", "목표"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "midpoint-goal-turn",
+      "title_ko": "미드포인트의 목표 전환",
+      "subtype": "인과·갈등 / 중간 전환",
+      "summary": "NYFA 모델의 중간 전환점이며 모든 작품의 고정 규칙은 아니다.",
+      "facts": [
+        {"field": "모델위치", "value": "D절 끝을 미드포인트에 대응시킨다.", "evidence": {"source_id": "nyfa-sequences", "locator": "D절", "kind": "source_claim"}},
+        {"field": "전환성격", "value": "성공·실패 방향의 전환이며 보통 뜻밖의 변화라고 설명한다.", "evidence": {"source_id": "nyfa-sequences", "locator": "D절 중간 문단", "kind": "source_claim"}},
+        {"field": "목표관계", "value": "대항 세력의 힘을 느끼면서 기존 또는 변형된 목표에 전념한다고 설명한다.", "evidence": {"source_id": "nyfa-sequences", "locator": "D절 목표 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["인과·갈등", "미드포인트", "목표 전환"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

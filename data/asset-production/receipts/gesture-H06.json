@@ -1,0 +1,28 @@
+{
+  "job_id": "gesture-H06",
+  "status": "generated",
+  "generation_thread_id": "01a18d2b-bda1-7f31-ac37-ecd0f65d38f5",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d2b-bda1-7f31-ac37-ecd0f65d38f5",
+  "before_source_files": [],
+  "prompt": "Use case: photorealistic-natural\nAsset type: diagnostic reference photograph\nPrimary request: Create one photorealistic close diagnostic photograph of the subject-right hand gripping one plain, empty mug by its handle. Show a generously oversized, fully open D-shaped handle. The right index, middle, and ring fingers must be three separate, clearly visible chains inside that same handle; the thumb rests outside over the upper handle, and the little finger stays outside. The mug is opaque ceramic.\nInput images: Image 1: hand-identity reference only, accepted makeup-N01 hand at public/generated/frame-assets/makeup-N01.png; use only to match hand proportions, warm-brown skin, small hand mark, and short natural nails. No face or other input image.\nScene/backdrop: matte neutral-gray studio background; plain gray clothing.\nSubject: one fictional adult woman's right hand, wrist, forearm, and a small continuous edge of her right shoulder. Head and face are entirely outside the frame.\nStyle/medium: crisp photorealistic studio diagnostic photography with natural skin texture and opaque ceramic.\nComposition/framing: close hand-and-handle view, camera near hand height with a slight three-quarter angle that makes the handle opening and each finger chain easy to inspect. Keep the complete mug handle, all five fingers, palm, wrist, forearm, and a connected shoulder edge in frame. The visible right forearm leads continuously through the wrist into the gripping hand; include the shoulder edge as a connected upper-body cue. No medium-wide portrait.\nLighting/mood: broad, soft neutral key and fill; fixed neutral exposure and white balance.\nConstraints: one mug and one right-hand grip; one intact, large open D handle. Exactly index, middle, and ring fingers inside the opening, visibly distinct from each other; thumb and little finger outside. Trace each visible digit through its joints to the palm, wrist, and forearm. Preserve the hand reference's proportions, skin tone, small mark, and short natural nails. Head out of frame; no face input.\nAvoid: small handle, medium-wide woman portrait, face, extra hands, extra digits, fused or hidden finger chains, cropped wrist, disconnected arm, finger penetration, floating grip, translucent mug, text, logo, watermark, collage, or split screen.\nOutput: PNG, 1536x1024.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png"
+  ],
+  "path": "public/generated/frame-assets/gesture-H06.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d2b-bda1-7f31-ac37-ecd0f65d38f5/exec-930bdf15-c123-429b-8201-40f4ade3bc04.png",
+  "sha256": "0782eef3ae56ea49502edbbb8f55aef8d10c5461d0a0812d9fe257cd76b78f83",
+  "width": 1536,
+  "height": 1024,
+  "requested_dimensions": {
+    "format": "png",
+    "width": 1536,
+    "height": 1024
+  },
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; visual target met",
+    "observations": "Inspected the actual 1536x1024 PNG. It is a close hand-and-mug diagnostic view with the head and face outside the frame. The intact opaque ceramic handle is large and open; three separate curled finger chains are visible inside, with the thumb resting over the upper handle and the little finger outside below. The palm, wrist and forearm are continuous; a shoulder/clothing edge is visible at frame right. Hand proportions, warm-brown skin, small mark and short natural nails are consistent with the sole makeup-N01 hand reference."
+  }
+}

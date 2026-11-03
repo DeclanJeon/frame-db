@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-N03",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-N03.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-4c86132f-8574-46fa-943a-e949763388cc.png",
+  "sha256": "e47a5f898285f9fb5dc73290c5e4b9635d226fb43caab082478e48a06a6c7e80",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-N03; concept: 뮤트 브릭 레드 네일.\nClass: base; domain: makeup; entry: FS-0167.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-N01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use the accepted makeup-N01 right hand and pose. Paint every nail the same muted brick red with restrained gloss, no pattern, glitter, gems or nail extensions. Keep every nail boundary readable in the same oblique top view; establish the hand from the A identity anchor, not by copying another face or hand photograph. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: oblique top view of complete right hand wrist and short forearm. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the N01 hand proportions, skin tone and marks, short nail shape, finger spacing, wrist connection, tabletop and light.\nChange only: Change nail pigment or finish only as specified.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; All five nail plates have matching brick-red color and gloss within their boundaries.; Trace five digits to the same wrist; inspect all nail beds, cuticles and contact shadows.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "N01 hand geometry and dorsal mark are preserved. Deep muted brick red satin polish is evenly applied to all visible nails; no polish spill is visible and the requested landscape crop is maintained."
+  }
+}

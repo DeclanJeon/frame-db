@@ -1,0 +1,1338 @@
+{
+  "schema_version": 1,
+  "category_id": "fashion-items",
+  "collector": "fashion-items-collector-st_01a18ae7",
+  "collected_at": "2026-10-30T03:54:16+00:00",
+  "sources": [
+    {
+      "source_id": "sweeney-shoes",
+      "url": "https://www.oliversweeney.com/pages/whats-the-difference-derbies-vs-oxfords",
+      "title": "What's the Difference: Oxford And Derby Shoes",
+      "publisher": "Oliver Sweeney",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What's an Oxford Shoe? 두 문단; What's a Derby Shoe? 두 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Oliver Sweeney 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "bass-loafers",
+      "url": "https://www.ghbass.com/pages/loafer-guide",
+      "title": "Loafer Guide",
+      "publisher": "G.H.BASS",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What's a loafer?; Loafer Style Guide > Penny Loafer; Discover Weejuns > Classic Weejuns",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "G.H.BASS 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "blundstone-500",
+      "url": "https://www.blundstone.co.uk/products/blundstone-500-stout-brown",
+      "title": "Blundstone #500 Stout Brown",
+      "publisher": "Blundstone UK",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Description 사양 표; Original Thinking > 2.5mm WATER-RESISTANT LEATHER, DURABLE TPU OUTSOLE, KEY FEATURES",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Blundstone UK 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "converse-canvas",
+      "url": "https://www.converse.com/shop/p/chuck-taylor-all-star-canvas-unisex-high-top-shoe/M9006MP.html?dwvar_1U646F_width=standard&dwvar_M9006MP_color=incensed+brown",
+      "title": "Chuck Taylor All Star Canvas",
+      "publisher": "Converse",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Unisex High Top Shoe; WHY YOU SHOULD BE DOWN, SKU M9160",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Converse 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "teva-universal",
+      "url": "https://www.teva.com/p/men-sandals/original-universal-sandal/887278599913",
+      "title": "Men's Original Universal Sandal",
+      "publisher": "Teva",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Details > Item No. 887278599913, straps/closure/midsole/outsole 항목",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Teva 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "rains-rolltop",
+      "url": "https://us.rains.com/products/rolltop-rucksack",
+      "title": "Rolltop Rucksack",
+      "publisher": "Rains",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Description; Details > Dimensions, Composition, Closure type, Features",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Rains 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "row-halfmoon",
+      "url": "https://www.therow.com/products/half-moon-black",
+      "title": "Half Moon Bag",
+      "publisher": "The Row",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "제품 소개 문장; Details, W1249L52BLPL; Copyright terms",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.therow.com/products/half-moon-black",
+        "scope": "페이지 Copyright terms는 권리자 허락 없는 작품 복제·전달·배포 등을 금지한다. 짧은 사실 요약과 원출처 링크만 기록하며 미디어 재사용 허락이나 취득은 없다.",
+        "attribution": "The Row에 출처를 표시한다. Copyright terms의 권리 유보를 유지하며 별도 재사용 허락은 받지 않았다."
+      }
+    },
+    {
+      "source_id": "tiffany-hoops",
+      "url": "https://www.tiffany.com/jewelry/earrings/tiffany-1837-sterling-silver-earrings-1151151750.html",
+      "title": "Tiffany 1837®: Hoop Earrings in Silver, Small",
+      "publisher": "Tiffany & Co.",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "제품 설명 및 More details > Sterling silver, Size small, Narrow; SKU 25225732",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Tiffany & Co. 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "tiffany-chain",
+      "url": "https://www.tiffany.com/jewelry/necklaces-pendants/sterling-silver-necklaces-pendants-1179338824.html",
+      "title": "Sterling Silver Chain",
+      "publisher": "Tiffany & Co.",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Length (in) 선택 표; 제품 설명 Chain in sterling silver, 18 inches long / Links, size small; SKU 21771961",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Tiffany & Co. 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "mejuri-ring",
+      "url": "https://mejuri.com/us/en/products/thin-dome-ring?Material=Sterling+Silver&Size=4&variant=49640345272605",
+      "title": "Thin Dôme Ring",
+      "publisher": "Mejuri",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Sterling Silver 선택; Materials & Specifications > Sterling Silver, Specifications",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Mejuri 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "muji-beanie",
+      "url": "https://www.muji.us/products/excess-yarn-beanie-db0qra3a",
+      "title": "Excess Yarn Beanie",
+      "publisher": "MUJI USA",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "제품 소개; Product Details > Measurements; Material & Care; Style Code DB0QRA3A",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "MUJI USA 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "uniqlo-belt",
+      "url": "https://www.uniqlo.com/us/en/products/E466622-000/00?colorDisplayCode=09&sizeDisplayCode=999",
+      "title": "Double Ring Narrow Leather Belt",
+      "publisher": "UNIQLO US",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Description > Details, Size; Materials / Care > Fabric details; Product ID 466622",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "UNIQLO US 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "llbean-tote",
+      "url": "https://global.llbean.com/llb/shop/0M19852001.html",
+      "title": "Boat and Tote®, Open-Top",
+      "publisher": "L.L.Bean",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Product Details; Specs > Medium; Construction; Additional Features",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "L.L.Bean 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "fulton-minilite",
+      "url": "https://www.fultonumbrellas.ca/product/minilite-1/",
+      "title": "Minilite 1",
+      "publisher": "Fulton Umbrellas Canada",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Minilite 1 제목 아래 제품 설명 단락: frame, fabric, closed length, open span",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Fulton Umbrellas Canada 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "timex-leather",
+      "url": "https://timex.com/products/marlin-quartz-34mm-leather-strap-watch-tw2y37600",
+      "title": "Marlin® Quartz 34mm Leather Strap Watch - TW2Y37600",
+      "publisher": "Timex",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Stainless Steel Case 사양; Leather Strap 사양; Band Size",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Timex 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "tissot-metal",
+      "url": "https://www.tissotwatches.com/en-us/T1374101103100.html",
+      "title": "Tissot PRX 40mm | Model T1374101103100",
+      "publisher": "Tissot",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Watch technical data > Case width, Case material, Crystal; Strap > material, buckle",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Tissot 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "hermes-scarf",
+      "url": "https://www.hermes.com/us/en/product/chevaux-d-hephaistos-scarf-90-H004365Sv03/",
+      "title": "Chevaux d'Hephaistos scarf 90",
+      "publisher": "Hermès",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Product description > silk twill, hand-rolled edges, Dimensions; Care; reference H004365S 03",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Hermès 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "drakes-pocket",
+      "url": "https://us.drakes.com/products/navy-polka-dot-print-silk-pocket-square",
+      "title": "Navy Polka Dot Print Silk Pocket Square",
+      "publisher": "Drake's",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "제품 설명: crepe de chine, folded/stuffed in pocket; 100% Silk, Made in Italy, 45cm x 45cm",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Drake's 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    },
+    {
+      "source_id": "satchel-briefcase",
+      "url": "https://www.satchel-page.com/products/counselor",
+      "title": "Counselor",
+      "publisher": "Satchel & Page",
+      "authors": [],
+      "checked_at": "2026-10-30T03:50:40+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Product Details > Description, Leather, Materials, Specifications",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 읽고 짧은 한국어 사실 요약과 링크를 기록했다. 원문·사진·영상의 복제·편집·재배포·상업 이용·AI 업로드 허락은 미확인이다. 미디어 취득·시각 검수는 하지 않았다.",
+        "attribution": "Satchel & Page 원문에 귀속한다. 개인 집필자 및 개별 미디어 권리자·추가 표시 의무는 미확인이다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "oxford-shoes",
+      "title_ko": "옥스퍼드 구두",
+      "subtype": "신발",
+      "summary": "Oliver Sweeney는 옥스퍼드의 닫힌 끈 구조와 치노 조합을 설명한다. 일반 구조 설명이며 기존 초안의 앞코·굽 치수나 실제 착화는 검증하지 않았다.",
+      "facts": [
+        {
+          "field": "레이싱 구성",
+          "value": "닫힌 레이싱으로, 끈 구멍이 있는 옆 패널을 앞부분 뱀프 아래에 봉제한다.",
+          "evidence": {
+            "source_id": "sweeney-shoes",
+            "locator": "What's an Oxford Shoe? 두 번째 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "명칭 유래",
+          "value": "옥스퍼드라는 이름을 1800년대 해당 도시 대학생들의 착용과 연결해 설명한다.",
+          "evidence": {
+            "source_id": "sweeney-shoes",
+            "locator": "What's an Oxford Shoe? 첫 번째 문단: university students / 1800s",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "코디 맥락",
+          "value": "포멀·비즈니스뿐 아니라 치노 같은 캐주얼 차림에도 조합하는 예를 든다.",
+          "evidence": {
+            "source_id": "sweeney-shoes",
+            "locator": "What's an Oxford Shoe? 첫 번째 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "신발",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-cd7e72c07c67",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "derby-shoes",
+      "title_ko": "더비 구두",
+      "subtype": "신발",
+      "summary": "Oliver Sweeney의 더비 설명으로 열린 끈 구조·소재·착장 범위를 보강한다. 사이즈와 발등의 실제 압박은 미확인이다.",
+      "facts": [
+        {
+          "field": "레이싱 구성",
+          "value": "열린 레이싱이며 옆 패널이 뱀프 위에 봉제된다.",
+          "evidence": {
+            "source_id": "sweeney-shoes",
+            "locator": "What's a Derby Shoe? 두 번째 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "소재 선택",
+          "value": "가죽과 스웨이드를 더비의 소재 선택지로 제시한다.",
+          "evidence": {
+            "source_id": "sweeney-shoes",
+            "locator": "What's a Derby Shoe? 첫 번째 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "코디 맥락",
+          "value": "스마트한 차림과 캐주얼 차림 모두의 활용을 설명한다.",
+          "evidence": {
+            "source_id": "sweeney-shoes",
+            "locator": "What's a Derby Shoe? 첫 번째 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "신발",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-1244414f41b3",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "penny-loafers",
+      "title_ko": "페니 로퍼",
+      "subtype": "신발",
+      "summary": "G.H.BASS 안내의 페니 로퍼 정의와 Classic Weejuns 구조를 분리해 기록한다. 해당 제조사의 밑창 구성을 모든 페니 로퍼에 일반화하지 않는다.",
+      "facts": [
+        {
+          "field": "착탈 방식",
+          "value": "로퍼는 끈 없이 발을 넣는 슬립온으로 정의한다.",
+          "evidence": {
+            "source_id": "bass-loafers",
+            "locator": "What's a loafer? 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "발등 구성",
+          "value": "페니 로퍼에는 발등을 가로지르는 스트랩과 동전 슬롯이 있다.",
+          "evidence": {
+            "source_id": "bass-loafers",
+            "locator": "Loafer Style Guide > Penny Loafer",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 밑창",
+          "value": "Classic Weejuns는 블레이크 봉제로 갑피와 교체 가능한 가죽 밑창을 연결한다고 설명한다.",
+          "evidence": {
+            "source_id": "bass-loafers",
+            "locator": "Discover Weejuns > Classic Weejuns 첫 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 굽 조합",
+          "value": "같은 클래식 사례의 뒤꿈치에는 고무 힐 캡을 더한다.",
+          "evidence": {
+            "source_id": "bass-loafers",
+            "locator": "Discover Weejuns > Classic Weejuns 두 번째 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "신발",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-e2af0089b71b",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "chelsea-boots",
+      "title_ko": "첼시 부츠",
+      "subtype": "신발",
+      "summary": "Blundstone UK의 #500을 첼시 부츠 구조 예시로 기록한다. 기존 가이드 속 부츠의 브랜드나 발목 높이를 식별한 것은 아니다.",
+      "facts": [
+        {
+          "field": "사례 착탈",
+          "value": "#500의 여밈 방식은 풀온이다.",
+          "evidence": {
+            "source_id": "blundstone-500",
+            "locator": "Description > Fastening Type",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 소재",
+          "value": "갑피는 풀그레인 가죽, 안감은 없는 사양이다.",
+          "evidence": {
+            "source_id": "blundstone-500",
+            "locator": "Description > Upper Material, Lining Material",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 밑창",
+          "value": "밑창 소재는 TPU로 기재한다.",
+          "evidence": {
+            "source_id": "blundstone-500",
+            "locator": "Description > Sole Material",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 옆면 구성",
+          "value": "고무 부분 주변의 보강 봉제와 뒤꿈치 패널을 설명한다.",
+          "evidence": {
+            "source_id": "blundstone-500",
+            "locator": "Original Thinking > KEY FEATURES",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "신발",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-41136716d3e6",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "canvas-high-top-sneakers",
+      "title_ko": "캔버스 하이톱",
+      "subtype": "신발",
+      "summary": "Converse의 Chuck Taylor All Star Canvas 하이톱을 소재 조합 예시로 쓴다. 열람 본문 SKU M9160 기준이며 실제 신발·사진을 검사하지 않았다.",
+      "facts": [
+        {
+          "field": "아이템 형식",
+          "value": "남녀 공용 하이톱 신발로 표시한다.",
+          "evidence": {
+            "source_id": "converse-canvas",
+            "locator": "제품 제목 아래 Unisex High Top Shoe",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 갑피",
+          "value": "갑피 소재를 캔버스로 명시한다.",
+          "evidence": {
+            "source_id": "converse-canvas",
+            "locator": "WHY YOU SHOULD BE DOWN > Canvas upper",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 밑창",
+          "value": "다이아몬드 무늬 고무 아웃솔을 기재한다.",
+          "evidence": {
+            "source_id": "converse-canvas",
+            "locator": "WHY YOU SHOULD BE DOWN > Diamond-pattern rubber outsole",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 쿠션",
+          "value": "OrthoLite 쿠션을 제품 구성으로 명시한다.",
+          "evidence": {
+            "source_id": "converse-canvas",
+            "locator": "WHY YOU SHOULD BE DOWN > OrthoLite cushioning",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "신발",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-00fc8ebed546",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "strap-sandals",
+      "title_ko": "스트랩 샌들",
+      "subtype": "신발",
+      "summary": "Teva Original Universal의 스트랩과 밑창 사양으로 보강한다. 제조사 설명이지 수집자의 착화감·마찰력 시험 결과가 아니다.",
+      "facts": [
+        {
+          "field": "스트랩 조절",
+          "value": "Universal Strapping System은 여러 조절 지점이 있다고 설명한다.",
+          "evidence": {
+            "source_id": "teva-universal",
+            "locator": "Details > Universal Strapping System",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "여밈 구성",
+          "value": "후크앤루프 방식으로 여민다.",
+          "evidence": {
+            "source_id": "teva-universal",
+            "locator": "Details > Easy hook-and-loop closure",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "스트랩 소재",
+          "value": "웨빙은 REPREVE 재생 폴리에스터 원사로 만든다고 명시한다.",
+          "evidence": {
+            "source_id": "teva-universal",
+            "locator": "Details > Sustainability Initiative(s), Webbing",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "밑창 소재 조합",
+          "value": "성형 EVA 미드솔과 고무 아웃솔을 기재한다.",
+          "evidence": {
+            "source_id": "teva-universal",
+            "locator": "Details > Molded EVA midsole; Rubber outsole",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "신발",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-557e2a90222a",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "rolltop-backpack",
+      "title_ko": "롤톱 백팩",
+      "subtype": "가방",
+      "summary": "Rains Rolltop Rucksack의 말아 닫는 구조와 공식 치수를 기록한다. 수치·방수 관련 설명은 제품별 제조사 주장에 한정한다.",
+      "facts": [
+        {
+          "field": "상단 여밈",
+          "value": "상단을 단단히 말아 카라비너로 고정하도록 설명한다.",
+          "evidence": {
+            "source_id": "rains-rolltop",
+            "locator": "Description > To protect essentials from rain 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "어깨끈 구성",
+          "value": "패딩이 있는 길이 조절 어깨끈과 조절식 가슴끈을 기재한다.",
+          "evidence": {
+            "source_id": "rains-rolltop",
+            "locator": "Details > Features, Adjustable padded shoulder straps; Adjustable chest strap",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 치수",
+          "value": "공식 표기 치수는 48 × 11 × 32 cm, 용량은 19 L이다.",
+          "evidence": {
+            "source_id": "rains-rolltop",
+            "locator": "Details > Dimensions, Capacity",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "소재 구성",
+          "value": "조성은 폴리에스터 100%로, 제품 원단은 PU 원단으로 설명한다.",
+          "evidence": {
+            "source_id": "rains-rolltop",
+            "locator": "Details > Composition; Features > Waterproof signature PU fabric",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "가방",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-ee3371ac16dd",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "half-moon-shoulder-bag",
+      "title_ko": "반달 숄더백",
+      "subtype": "가방",
+      "summary": "The Row Half Moon을 곡선 몸체 숄더백의 구체적 예시로 기록한다. 치수는 해당 페이지의 순서 그대로이며 기존 가이드의 끈 길이나 착용 위치를 측정하지 않았다.",
+      "facts": [
+        {
+          "field": "형태와 여밈",
+          "value": "곡선 실루엣, 납작한 어깨끈, 상단 지퍼를 설명한다.",
+          "evidence": {
+            "source_id": "row-halfmoon",
+            "locator": "Half Moon Bag > 제품 소개 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 치수",
+          "value": "8 × 13.5 × 2.5 인치로 표기하며 각 축 명칭은 따로 명시하지 않는다.",
+          "evidence": {
+            "source_id": "row-halfmoon",
+            "locator": "Details > 8 x 13.5 x 2.5 in.",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "겉감과 안감",
+          "value": "겉감은 송아지 가죽 100%, 안감은 나파 가죽 100%이다.",
+          "evidence": {
+            "source_id": "row-halfmoon",
+            "locator": "Details > 100% Calfskin Leather; Lined in 100% Nappa Leather",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "금속 조합",
+          "value": "금속 부속은 팔라듐 도금으로 기재한다.",
+          "evidence": {
+            "source_id": "row-halfmoon",
+            "locator": "Details > Palladium-plated hardware",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "가방",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-4a017cb707c7",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "small-hoop-earrings",
+      "title_ko": "작은 후프 귀걸이",
+      "subtype": "주얼리",
+      "summary": "Tiffany 1837 소형 후프의 소재와 명목 크기 구분을 기록한다. small·narrow는 제조사 라벨이며 지름·두께의 mm 값과 귓불 접촉 위치는 미확인이다.",
+      "facts": [
+        {
+          "field": "사례 소재",
+          "value": "스털링 실버로 명시한다.",
+          "evidence": {
+            "source_id": "tiffany-hoops",
+            "locator": "제품 설명 아래 불릿 > Sterling silver; SKU 25225732",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "크기 등급",
+          "value": "크기 등급은 small로 기재한다.",
+          "evidence": {
+            "source_id": "tiffany-hoops",
+            "locator": "제품 설명 아래 불릿 > Size small",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "폭 구분",
+          "value": "형상 폭 구분을 narrow로 기재한다.",
+          "evidence": {
+            "source_id": "tiffany-hoops",
+            "locator": "제품 설명 아래 불릿 > Narrow",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "주얼리",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-c522ce01fd1b",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "silver-chain-necklace",
+      "title_ko": "실버 체인 목걸이",
+      "subtype": "주얼리",
+      "summary": "Tiffany의 작은 링크 체인 사례로 은 소재·길이·링크 등급을 보강한다. 실제 목선에서의 위치나 체인 굵기는 측정하지 않았다.",
+      "facts": [
+        {
+          "field": "사례 소재",
+          "value": "체인은 스털링 실버 소재이다.",
+          "evidence": {
+            "source_id": "tiffany-chain",
+            "locator": "제품 설명 > Chain in sterling silver; SKU 21771961",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 길이",
+          "value": "선택된 체인 길이는 18인치로 설명한다.",
+          "evidence": {
+            "source_id": "tiffany-chain",
+            "locator": "제품 설명 > 18 inches long; Length (in) > 18 selected",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "링크 크기",
+          "value": "연결 고리의 크기는 small로 구분한다.",
+          "evidence": {
+            "source_id": "tiffany-chain",
+            "locator": "제품 설명 > Links, size small",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "주얼리",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-05e4f2347356",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "thin-silver-ring",
+      "title_ko": "얇은 실버 링",
+      "subtype": "주얼리",
+      "summary": "Mejuri Thin Dôme의 실버 버전을 좁은 반지의 치수 예시로 쓴다. 윗부분과 손바닥 쪽 폭이 다른 사례이며 기존 초안의 장식·반사 상태를 검사한 것은 아니다.",
+      "facts": [
+        {
+          "field": "사례 합금",
+          "value": "925 스털링 실버를 순은 92.5%의 금속으로 설명한다.",
+          "evidence": {
+            "source_id": "mejuri-ring",
+            "locator": "Materials & Specifications > Sterling Silver",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "윗부분 폭",
+          "value": "공식 윗부분 폭은 6.2 mm이다.",
+          "evidence": {
+            "source_id": "mejuri-ring",
+            "locator": "Specifications > Top Width",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "아랫부분 폭",
+          "value": "공식 샹크 폭은 2 mm이다.",
+          "evidence": {
+            "source_id": "mejuri-ring",
+            "locator": "Specifications > Shank Width",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반지 조합",
+          "value": "Organic Dôme Nesting Rings와 맞춰 조합하도록 설계했다고 설명한다.",
+          "evidence": {
+            "source_id": "mejuri-ring",
+            "locator": "제품 소개 > designed to fit perfectly with the Organic Dôme Nesting Rings",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "주얼리",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "FS-0056",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "wool-beanie",
+      "title_ko": "울 비니",
+      "subtype": "모자",
+      "summary": "MUJI Excess Yarn Beanie를 울 소재 모자의 예시로 기록한다. 머리 둘레 범위는 제조사 표기이며 접힌 밑단·귀 덮임이나 실제 헤어 눌림은 확인하지 않았다.",
+      "facts": [
+        {
+          "field": "사례 소재",
+          "value": "울 100%로 기재한다.",
+          "evidence": {
+            "source_id": "muji-beanie",
+            "locator": "Material & Care > 100% Wool",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "원사 구성 근거",
+          "value": "남은 울 원사를 업사이클링해 만든다고 소개한다.",
+          "evidence": {
+            "source_id": "muji-beanie",
+            "locator": "제품 소개 > upcycled scraps of 100% wool yarn",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "머리 둘레 범위",
+          "value": "원사이즈의 표기 적용 범위는 55.0–59.0 cm이다.",
+          "evidence": {
+            "source_id": "muji-beanie",
+            "locator": "Product Details > Measurements > One Size",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 치수",
+          "value": "모자 치수는 23.5 × 24.5 cm로 기재한다.",
+          "evidence": {
+            "source_id": "muji-beanie",
+            "locator": "Product Details > Measurements > Dimensions",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "모자",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-f442fdd3412e",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "narrow-leather-belt",
+      "title_ko": "얇은 가죽 벨트",
+      "subtype": "벨트",
+      "summary": "UNIQLO 더블 링 벨트의 소재·폭·여분 끝 처리 설명을 보강한다. 이 여밈 예시는 원래 가이드의 특정 버클 모양이나 벨트 고리 경로를 검증하지 않는다.",
+      "facts": [
+        {
+          "field": "사례 소재",
+          "value": "가죽 100%로 설명한다.",
+          "evidence": {
+            "source_id": "uniqlo-belt",
+            "locator": "Description > Details > Made of 100% leather",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "여밈 형식",
+          "value": "두 개의 링을 사용하는 디자인이다.",
+          "evidence": {
+            "source_id": "uniqlo-belt",
+            "locator": "Description > Details > double-ring design",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 치수",
+          "value": "전체 길이 44.9인치, 벨트 폭 0.7인치로 표기한다.",
+          "evidence": {
+            "source_id": "uniqlo-belt",
+            "locator": "Description > Size > Total Length, Panel Width",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "여분 끝 처리",
+          "value": "긴 여분 끝이 아래로 늘어져 스타일 포인트가 되도록 설명한다.",
+          "evidence": {
+            "source_id": "uniqlo-belt",
+            "locator": "Description > Details 마지막 문장",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "벨트",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-36d545c907f7",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "natural-canvas-tote",
+      "title_ko": "아이보리 캔버스 토트",
+      "subtype": "가방",
+      "summary": "L.L.Bean 내추럴 바탕 Boat and Tote를 캔버스 토트의 구조 예시로 쓴다. 대비색 손잡이를 가진 사례이므로 기존 초안의 무지·아이보리 색 일치나 같은 제품임을 주장하지 않는다.",
+      "facts": [
+        {
+          "field": "사례 원단",
+          "value": "미국산 24온스 면 캔버스를 사용한다고 기재한다.",
+          "evidence": {
+            "source_id": "llbean-tote",
+            "locator": "Construction > Heavy-duty 24 oz. cotton canvas",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 치수",
+          "value": "Medium 본체는 높이 12 × 너비 13 × 깊이 6인치로 표기한다.",
+          "evidence": {
+            "source_id": "llbean-tote",
+            "locator": "Specs > Medium > Dimensions",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "봉제와 바닥",
+          "value": "겹친 이음부는 나일론으로 이중 봉제하며 바닥은 이중층이다.",
+          "evidence": {
+            "source_id": "llbean-tote",
+            "locator": "Construction > Overlapped seams; Double-layer base",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "배색 구성",
+          "value": "내추럴 바탕에 대비색 손잡이를 조합한다고 명시한다.",
+          "evidence": {
+            "source_id": "llbean-tote",
+            "locator": "Additional Features > Natural color, with contrast-tone handles",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "가방",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "FS-0053",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "folding-umbrella",
+      "title_ko": "폴딩 우산",
+      "subtype": "휴대 아이템",
+      "summary": "Fulton Minilite 1의 수동 접이 구조와 펼침·접힘 치수를 기록한다. 젖은 상태나 실제 펼침 동작을 관찰한 자료는 아니다.",
+      "facts": [
+        {
+          "field": "접이 구조",
+          "value": "3단 수동 프레임으로 설명한다.",
+          "evidence": {
+            "source_id": "fulton-minilite",
+            "locator": "Minilite 1 제품 설명 > 3 stage manual frame",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "프레임 소재",
+          "value": "알루미늄과 유리섬유 프레임을 기재한다.",
+          "evidence": {
+            "source_id": "fulton-minilite",
+            "locator": "Minilite 1 제품 설명 > aluminum/fibreglass frame",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "차양 원단",
+          "value": "원단 소재를 폴리에스터로 설명한다.",
+          "evidence": {
+            "source_id": "fulton-minilite",
+            "locator": "Minilite 1 제품 설명 > polyester fabric",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "접힘과 펼침 크기",
+          "value": "접었을 때 길이 25 cm, 펼쳤을 때 폭 96 cm로 기재한다.",
+          "evidence": {
+            "source_id": "fulton-minilite",
+            "locator": "Minilite 1 제품 설명 > long when closed; Span when open",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "휴대 아이템",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-834c6ecf7761",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "leather-strap-watch",
+      "title_ko": "가죽 스트랩 시계",
+      "subtype": "시계",
+      "summary": "Timex Marlin Quartz TW2Y37600의 가죽 스트랩·케이스 사양을 기록한다. 실제 손목 착용·회전이나 피부 밀착 상태는 검사하지 않았다.",
+      "facts": [
+        {
+          "field": "사례 케이스",
+          "value": "케이스는 스테인리스 스틸이며 직경 34 mm로 기재한다.",
+          "evidence": {
+            "source_id": "timex-leather",
+            "locator": "Stainless Steel Case > Case Material, Case Diameter",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "스트랩 소재와 색",
+          "value": "스트랩은 검은색 가죽이다.",
+          "evidence": {
+            "source_id": "timex-leather",
+            "locator": "Leather Strap > Band Material, Band Color",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "결합부 폭과 여밈",
+          "value": "밴드·러그 폭은 18 mm이며 버클 여밈이다.",
+          "evidence": {
+            "source_id": "timex-leather",
+            "locator": "Leather Strap > Band / Lug Width, Band Buckle",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "손목 범위",
+          "value": "밴드가 맞는 손목 둘레를 135–190 mm로 안내한다.",
+          "evidence": {
+            "source_id": "timex-leather",
+            "locator": "Band Size > wrist circumferences",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시계",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-5e67e5171dcf",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "metal-bracelet-watch",
+      "title_ko": "메탈 손목시계",
+      "subtype": "시계",
+      "summary": "Tissot PRX T1374101103100의 금속 케이스·브레이슬릿 사양을 예시로 기록한다. 기존 초안의 무지 디자인과 동일 제품이라는 뜻은 아니다.",
+      "facts": [
+        {
+          "field": "케이스 소재",
+          "value": "케이스는 316L 스테인리스 스틸이다.",
+          "evidence": {
+            "source_id": "tissot-metal",
+            "locator": "Watch technical data > Case material",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 케이스 크기",
+          "value": "케이스 너비 40.00 mm, 두께 10.40 mm로 기재한다.",
+          "evidence": {
+            "source_id": "tissot-metal",
+            "locator": "Watch technical data > Case width, Case thickness",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "밴드와 여밈",
+          "value": "스테인리스 스틸 밴드에 푸시 버튼이 있는 버터플라이 잠금장치를 쓴다.",
+          "evidence": {
+            "source_id": "tissot-metal",
+            "locator": "Strap > Strap material, Buckle",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "유리 소재",
+          "value": "시계 유리는 사파이어로 기재한다.",
+          "evidence": {
+            "source_id": "tissot-metal",
+            "locator": "Watch technical data > Crystal",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시계",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "FS-0055",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "silk-scarf",
+      "title_ko": "실크 스카프",
+      "subtype": "스카프",
+      "summary": "Hermès Chevaux d’Hephaistos 90의 소재·가장자리·치수를 예시로 보강한다. 디자이너는 Elias Kafouros로 명시되며 기존 초안의 기하학 무늬와 동일함을 주장하지 않는다.",
+      "facts": [
+        {
+          "field": "사례 직물",
+          "value": "실크 100%의 실크 트윌이다.",
+          "evidence": {
+            "source_id": "hermes-scarf",
+            "locator": "Product description > silk twill, 100% silk",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가장자리 구성",
+          "value": "가장자리를 손으로 말아 마감한다고 설명한다.",
+          "evidence": {
+            "source_id": "hermes-scarf",
+            "locator": "Product description > hand-rolled edges",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 치수",
+          "value": "34.8 × 34.8인치로 표기하며 수작업 말기 때문에 치수가 달라질 수 있다고 단서를 둔다.",
+          "evidence": {
+            "source_id": "hermes-scarf",
+            "locator": "Product description > Dimensions",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "보관 상태",
+          "value": "매듭을 풀고 평평하게 보관하도록 안내한다.",
+          "evidence": {
+            "source_id": "hermes-scarf",
+            "locator": "Care > Store it flat and untied",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "스카프",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "FS-0063",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "silk-pocket-square",
+      "title_ko": "실크 포켓스퀘어",
+      "subtype": "포멀 소품",
+      "summary": "Drake’s Navy Polka Dot 사례로 실크 포켓스퀘어의 직물·크기·포켓 배치를 보강한다. 접힌 노출 높이와 재킷 라펠과의 겹침은 측정하지 않았다.",
+      "facts": [
+        {
+          "field": "사례 직물",
+          "value": "실크 100%이며 크레이프 드 신 직물로 설명한다.",
+          "evidence": {
+            "source_id": "drakes-pocket",
+            "locator": "제품 설명 > vintage crepe de chine silk; 100% Silk",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 치수",
+          "value": "정사각형 치수는 45 × 45 cm이다.",
+          "evidence": {
+            "source_id": "drakes-pocket",
+            "locator": "제품 설명 불릿 > 45cm x 45cm",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "포켓 배치",
+          "value": "접거나 포켓에 넣어 구기는 배치 방식을 언급한다.",
+          "evidence": {
+            "source_id": "drakes-pocket",
+            "locator": "제품 설명 > folded or stuffed in one’s pocket",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "무늬 구분",
+          "value": "해당 예시는 네이비색 물방울 프린트 포켓스퀘어로 명명한다.",
+          "evidence": {
+            "source_id": "drakes-pocket",
+            "locator": "제품 제목 > Navy Polka Dot Print Silk Pocket Square",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "포멀 소품",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-a3aba6b74dc7",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "leather-briefcase",
+      "title_ko": "가죽 브리프케이스",
+      "subtype": "가방",
+      "summary": "Satchel & Page Counselor의 가죽·수납·치수를 예시로 기록한다. 기존 가이드 속 손잡이 개수·장력이나 실제 들었을 때 무게감을 관찰하지 않았다.",
+      "facts": [
+        {
+          "field": "사례 가죽",
+          "value": "식물성 무두질한 풀그레인 소가죽을 쓰며 몸체는 6온스, 손잡이·스트랩은 8온스로 기재한다.",
+          "evidence": {
+            "source_id": "satchel-briefcase",
+            "locator": "Leather > Hide Origin; Thickness; Tanning/Grain",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "안감과 부속",
+          "value": "담배색 스웨이드 안감, YKK #8 Excella 지퍼, 앤티크 황동 부속을 기재한다.",
+          "evidence": {
+            "source_id": "satchel-briefcase",
+            "locator": "Materials > zipper, lining, hardware",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사례 크기",
+          "value": "높이 12 × 너비 16.5 × 깊이 3.75인치로 기재한다.",
+          "evidence": {
+            "source_id": "satchel-briefcase",
+            "locator": "Specifications > Dimensions / Weight",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "노트북 크기 관계",
+          "value": "패딩 수납부는 실제 가로 폭이 14.3인치 이하인 노트북을 수납한다고 안내하며 대각선 길이와 구분한다.",
+          "evidence": {
+            "source_id": "satchel-briefcase",
+            "locator": "Specifications > Padded laptop compartment",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "가방",
+        "공식 텍스트 근거",
+        "미디어 미취득"
+      ],
+      "existing_entry_id": "CRAFT-fashion-items-4ae89877e11f",
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": "수량 부족 없음: 구별되는 아이템 개념 20개, 동일 분류 기존 ID 보강 대상 20개, 신규 개념 0개다. 19개 제조사 공개 본문에서 사실 76개를 수집했다. 수치는 모두 출처 주장이고 관찰·측정·창작 제안·미디어 후보는 0개다. 제품별 예시 사양을 원래 초안 제품의 식별·색·브랜드·착용 결과 검증으로 일반화하지 않는다. 미기재 치수·소재·착용 위치는 추정하지 않았고 재사용 허락은 The Row의 명시 제한 외에는 미확인이다. 미디어 취득·DB 반영·독립 검수는 수행하지 않았다."
+}

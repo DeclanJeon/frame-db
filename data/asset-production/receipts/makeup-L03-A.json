@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-L03-A",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L03-A.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-c3f81d35-05e6-472b-a8d9-cf86485fb16a.png",
+  "sha256": "e40cc44b68905e93293f9d5f6c216648d467c01f87cc7bac017abd6f28ca76b1",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L03-A; concept: 로즈 치크 데일리.\nClass: creative; domain: makeup; entry: GEN-asset-makeup-L03-A.\nParent entry IDs: [\"FS-0033\",\"CRAFT-makeup-894f4e90c90a\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-L03\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-L03\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L03 photograph of identity A. Replace only the peach cheek pigment with muted rose at the same density, edge softness and cheek placement. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.\nChange only: Replace only the peach cheek pigment with muted rose at the same density, edge softness and cheek placement.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Rose replaces peach only on the cheeks; eyes and lips match the parent.; Compare against the actual accepted parent input, not a separately invented face.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-L03.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, framing, skin texture, mole and parent makeup-L03 are consistent. Rose pigment is visibly placed on both cheeks with soft borders; other makeup regions remain similar."
+  }
+}

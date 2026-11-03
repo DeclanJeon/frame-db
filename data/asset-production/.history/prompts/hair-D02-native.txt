@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: hair-D02; concept: 커튼뱅 롱 레이어드.
+Class: creative; domain: hair; entry: GEN-asset-hair-D02.
+Parent entry IDs: ["FS-0002","FS-0006"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E13","expression-E00"]
+Reference roles: {"expression-E00":"identity","hair-E13":"identity"}
+Input images: hair-E13 (identity reference); expression-E00 (identity reference).
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Add a symmetric split curtain fringe flowing along the cheekbones to E13; keep the back below-chest length, S bends and layer structure unchanged. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: front three-quarter showing split fringe and full ends. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep parent hair geometry, color, hairline, density and length landmarks outside the declared delta.
+Change only: Add a symmetric split curtain fringe flowing along the cheekbones to E13; keep the back below-chest length, S bends and layer structure unchanged.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Split fringe clears both eyes; rear length and layers stay fixed.; One diagnostic view only, not a sequence or collage.
+Output: {"format":"png","height":1536,"width":1024}

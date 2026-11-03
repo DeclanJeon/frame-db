@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "category_id": "acting",
+  "collector": "acting-collector-st_01a18af8",
+  "collected_at": "2026-10-30T04:05:25.037746+00:00",
+  "shortfall_reason": "15/20 distinct supported concepts; shortfall 5. Re-read seven retained HTML sources and two replacement primary pages in this session. The existing draft’s three OCR/Trestle concepts were removed because the official PDF timed out; the Routledge blocking-key PDF returned 403 and supplied no retained facts. Two readable replacements cover a tension-scale exercise and a movement director’s ensemble blocking process. Did not multiply examples, workflow stages or aliases to reach 20 or attach generic theory to unmatched existing scenario IDs. Four records enrich matching existing acting IDs. All 45 facts are attributed source_claim, with no performance observation, measurement, media acquisition, permission clearance or DB application.",
+  "sources": [
+    {
+      "source_id": "prosser-terms",
+      "url": "https://thomasprosseractorsstudio.com/acting-terms",
+      "title": "Acting Terms",
+      "publisher": "Thomas Prosser Actors Studio",
+      "authors": [],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "GIVEN CIRCUMSTANCES; SENSORY AWARENESS; PHYSICAL ACTIONS; OBJECTIVES",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Public instructional body read; reuse license not established. Short original summaries only; no article or media reproduction authorization inferred.",
+        "attribution": "Credit Thomas Prosser Actors Studio and link the page. No individual byline identified; license and additional obligations unknown."
+      }
+    },
+    {
+      "source_id": "nwtw-character",
+      "url": "https://www.nwtw.org/home/insights/the-actors-role-in-play-production-building-a-character-creating-a-role",
+      "title": "The Actor’s Role in Play Production: Building a Character and Creating a Role",
+      "publisher": "Northwest Theatre Workshop",
+      "authors": [
+        "Ciji Guerin"
+      ],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Beats; Objective, Obstacle, Intention, Motivation; Plotting Actions",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Public theatre-company description of its actors' process; text/media reuse permission unverified. No production photos inspected or copied.",
+        "attribution": "Credit Ciji Guerin, Northwest Theatre Workshop, and source URL; license obligations unknown."
+      }
+    },
+    {
+      "source_id": "jory-tactics",
+      "url": "https://schooltheatre.org/tactics/?campaign=687125",
+      "title": "Tactics — How to get what you want",
+      "publisher": "Educational Theatre Association",
+      "authors": [
+        "Jon Jory"
+      ],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Tactics definition; curfew example; paragraphs beginning Now, you obviously and The actions",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Author's public instructional article read. No license for article, dialogue or image republication established; no dialogue reproduced.",
+        "attribution": "Credit Jon Jory and Educational Theatre Association with page link; further conditions unknown."
+      }
+    },
+    {
+      "source_id": "miller-listening",
+      "url": "https://schooltheatre.org/listeningandreacting/",
+      "title": "Listening and reacting — Telling a story through actions",
+      "publisher": "Educational Theatre Association",
+      "authors": [
+        "Bruce Miller"
+      ],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Three kinds of listening, three category paragraphs",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Public article body read; republication and classroom exercise/media rights not established. No performance viewed.",
+        "attribution": "Credit Bruce Miller and Educational Theatre Association, with original URL; additional conditions unknown."
+      }
+    },
+    {
+      "source_id": "marshall-blocking",
+      "url": "https://www.nyfa.edu/film-school-blog/the-5-stages-of-blocking-a-scene/",
+      "title": "The 5 Stages of Blocking a Scene",
+      "publisher": "New York Film Academy",
+      "authors": [
+        "Peter D. Marshall"
+      ],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Five-part shoot list; blocking definition; five blocking tips",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Public educational body read; article/photo reuse rights unverified. No shooting examples or media inspected.",
+        "attribution": "Credit Peter D. Marshall and New York Film Academy and link source; additional conditions unknown."
+      }
+    },
+    {
+      "source_id": "napa-frame",
+      "url": "https://napagc.squarespace.com/napablog/tip-acting-for-film",
+      "title": "PERFORMANCE TIP — Acting for Film—Less is More!",
+      "publisher": "National Academy of Performing Arts (NAPA)",
+      "authors": [
+        "Kim Reynolds"
+      ],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Keep It Natural; Know Your Frame",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Public performing-arts school's instructional text read. Reuse license and media permissions unknown; no claim of tested audience response.",
+        "attribution": "Credit Kim Reynolds, National Academy of Performing Arts (NAPA), and original page; license and additional obligations unknown."
+      }
+    },
+    {
+      "source_id": "nyfa-technique",
+      "url": "https://www.nyfa.edu/student-resources/developing-your-core-acting-technique/",
+      "title": "Developing Your Core Acting Technique",
+      "publisher": "New York Film Academy",
+      "authors": [],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "1. Relaxation",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "Public instructional text read; medical efficacy not assessed and article/media reuse license not established.",
+        "attribution": "Credit New York Film Academy and original page; individual byline and additional obligations unknown."
+      }
+    },
+    {
+      "source_id": "drama-tension",
+      "url": "https://dramaresource.com/seven-levels-of-tension/",
+      "title": "7 LEVELS OF TENSION",
+      "publisher": "Drama Resource",
+      "authors": [],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Opening adaptation disclaimer; numbered tension states 1–7; slow transition practice paragraph",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 원문 텍스트를 읽고 짧게 요약했다. 본문·사진·영상의 복제, 재배포, 상업 이용 및 AI 업로드 허락은 확인하지 않았다. 링크된 시연은 재생·취득하지 않았다.",
+        "attribution": "Drama Resource 원문과 David Farmer 저작권 표기를 유지한다. 본문에 개별 서명은 확인하지 않았으며 제시된 단계는 저자의 실습용 제안으로 귀속한다. 추가 이용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "rsc-moving",
+      "url": "https://www.rsc.org.uk/blogs/whispers-from-the-wings/archive/starting-to-move",
+      "title": "Starting to move",
+      "publisher": "Royal Shakespeare Company",
+      "authors": [
+        "Ayse Tashkiran"
+      ],
+      "checked_at": "2026-10-30T04:05:25.037746+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Whisper #120; paragraph beginning I introduce some ensemble movement",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 원문 텍스트를 읽고 짧게 요약했다. 본문·사진·영상의 복제, 재배포, 상업 이용 및 AI 업로드 허락은 확인하지 않았다. 링크된 시연은 재생·취득하지 않았다.",
+        "attribution": "Ayse Tashkiran, Royal Shakespeare Company와 원문 링크를 표기한다. 사진에는 Pete Le May © RSC 및 별도 라이선스 안내가 있으나 이용 허락을 취득하지 않았다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "scene-objective",
+      "title_ko": "장면에서 상대에게 얻으려는 목표",
+      "subtype": "목표·비트",
+      "summary": "Prosser 스튜디오는 상대에게 얻으려는 결과를 목표로 설명한다.",
+      "facts": [
+        {
+          "field": "목표_대상",
+          "value": "장면에서 다른 인물에게 얻고 싶은 결과다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "OBJECTIVES, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "행동과의_관계",
+          "value": "행동은 목표를 이루는 방법을 드러낸다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "OBJECTIVES, last sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "구체화_사례",
+          "value": "포옹을 얻는 과제를 단순한 목표의 예로 든다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "OBJECTIVES, pat on the head or a hug example",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "목표",
+        "장면 분석"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "given-circumstances",
+      "title_ko": "행동 이전의 주어진 상황",
+      "subtype": "목표·비트",
+      "summary": "Prosser 스튜디오는 장면 전의 이력을 행동의 배경으로 묻는다.",
+      "facts": [
+        {
+          "field": "작품_이전",
+          "value": "극 시작 전에 일어난 일을 검토한다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "GIVEN CIRCUMSTANCES, first question",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "장면_이전",
+          "value": "각 장면 직전에 생긴 일도 검토한다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "GIVEN CIRCUMSTANCES, second question",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정보_구성",
+          "value": "작가가 제공하지 않은 이력은 배우와 연출이 구성하기도 한다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "GIVEN CIRCUMSTANCES, final two sentences",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "주어진 상황",
+        "행동 배경"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "sensory-awareness",
+      "title_ko": "가상의 환경에 대한 감각 반응",
+      "subtype": "몸의 반응·타이밍",
+      "summary": "Prosser 스튜디오는 장면 조건에 맞춘 감각 재현을 설명한다.",
+      "facts": [
+        {
+          "field": "감각_범위",
+          "value": "무대에서 오감을 활용할 수 있다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "SENSORY AWARENESS, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "환경_예시",
+          "value": "연기·추위·더위를 재현할 수 있다고 든다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "SENSORY AWARENESS, second sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "선택_기준",
+          "value": "감각 재현은 해당 장면의 요구에 맞춘다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "SENSORY AWARENESS, to fit the requirements in a scene",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "감각",
+        "환경 반응"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "physical-stage-business",
+      "title_ko": "정서를 드러내는 물리 행동",
+      "subtype": "행동 전환",
+      "summary": "Prosser 스튜디오는 일상 행동의 방식이 정서를 전달한다고 설명한다.",
+      "facts": [
+        {
+          "field": "용어_범위",
+          "value": "물리 행동은 인물이 하는 활동이며 무대 비즈니스라고도 한다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "PHYSICAL ACTIONS, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "행동_대조",
+          "value": "문을 살며시 닫기와 세게 닫기를 대조한다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "PHYSICAL ACTIONS, door example",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전달_대상",
+          "value": "행동 방식이 다른 인물과 관객에게 정서를 드러낸다고 설명한다.",
+          "evidence": {
+            "source_id": "prosser-terms",
+            "locator": "PHYSICAL ACTIONS, final clause",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "물리 행동",
+        "무대 비즈니스"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "objective-change-beat",
+      "title_ko": "목표가 바뀌는 비트",
+      "subtype": "목표·비트",
+      "summary": "NWTW는 목표의 성패와 전술 변화 등을 비트 경계로 설명한다.",
+      "facts": [
+        {
+          "field": "분석_단위",
+          "value": "이 극단은 비트를 대본의 가장 작은 행동 단위로 정의한다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Beats, For our purposes paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "목표_경계",
+          "value": "인물이 목표를 이루거나 이루지 못하는 지점이 경계가 될 수 있다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Beats, Beats are often designated paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "기타_경계",
+          "value": "전술·주도 인물·대화 주제의 변화도 경계로 든다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Beats, Beats are often designated paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "비트",
+        "목표 변화"
+      ],
+      "existing_entry_id": "CRAFT-acting-26635d0f2ec2",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "motivation-for-action",
+      "title_ko": "행동을 선택하는 동기",
+      "subtype": "목표·비트",
+      "summary": "NWTW는 동기를 목표와 행동의 이유로 구분한다.",
+      "facts": [
+        {
+          "field": "동기_질문",
+          "value": "무엇을 원하는지보다 왜 원하는지를 묻는다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Objective, Obstacle, Intention, Motivation; Motivation definition",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "추론_근거",
+          "value": "동기는 목표·의도·전술·행동에 암시되어 있다고 설명한다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "A character’s motivation is a bit more difficult paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "분석_규모",
+          "value": "비트·장면·이야기 수준에서 동기를 찾는다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Finding the character’s objective paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "동기",
+        "행동 선택"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "motivated-action-arc",
+      "title_ko": "동기 있는 행동을 잇는 인물 아크",
+      "subtype": "행동 전환",
+      "summary": "NWTW는 다음 행동으로 이어지는 동기의 연결로 아크를 구성한다.",
+      "facts": [
+        {
+          "field": "배열_범위",
+          "value": "개별 행동을 비트별·장면별로 배치한다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Plotting Actions, first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "연결_원리",
+          "value": "동기가 있는 행동 하나를 다음 행동에 연결하며 아크를 만든다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Plotting Actions, As an actor works paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "사전_탐색",
+          "value": "비트 선택을 위해 극 이전 경험과 인물 간 공유 이력을 탐색한다.",
+          "evidence": {
+            "source_id": "nwtw-character",
+            "locator": "Plotting Actions, As an actor works paragraph, last sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "행동 연결",
+        "인물 아크"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "persuading-partner",
+      "title_ko": "상대에게 설득하기",
+      "subtype": "행동 전환",
+      "summary": "Jory는 귀가 시간 협상을 통해 설득 전술을 비교한다.",
+      "facts": [
+        {
+          "field": "설득_목표",
+          "value": "예시 인물은 부모에게 늦은 귀가 허락을 얻으려 한다.",
+          "evidence": {
+            "source_id": "jory-tactics",
+            "locator": "Tactics definition, first-date example",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시도_종류",
+          "value": "논리·애원·분노·유머·협상을 가능한 시도로 든다.",
+          "evidence": {
+            "source_id": "jory-tactics",
+            "locator": "First, you might try logic paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반응에_따른_변경",
+          "value": "분노가 도움이 안 됨을 보고 억제한 뒤 다른 방법을 시도한다고 설명한다.",
+          "evidence": {
+            "source_id": "jory-tactics",
+            "locator": "One important thing about tactics paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "설득",
+        "전술"
+      ],
+      "existing_entry_id": "CRAFT-acting-c221173dfdfe",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "tactic-selection-and-change",
+      "title_ko": "목표를 유지하며 전술 바꾸기",
+      "subtype": "행동 전환",
+      "summary": "Jory는 목표와 그 목표에 이르는 수단을 구분한다.",
+      "facts": [
+        {
+          "field": "전술_기능",
+          "value": "전술은 장애를 넘어 원하는 결과를 얻는 방법이다.",
+          "evidence": {
+            "source_id": "jory-tactics",
+            "locator": "That concludes our review paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "비트와의_관계",
+          "value": "하나의 비트 안에서도 여러 전술을 사용할 수 있다.",
+          "evidence": {
+            "source_id": "jory-tactics",
+            "locator": "Now, you obviously paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "선택의_제약",
+          "value": "대본이 허용하는 전술을 고르고 리허설에서 상대나 연출에 맞춰 바꿀 수 있다.",
+          "evidence": {
+            "source_id": "jory-tactics",
+            "locator": "Now, you obviously paragraph; The actions paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "전술 전환",
+        "리허설"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "listen-then-react",
+      "title_ko": "듣고 난 뒤 반응하기",
+      "subtype": "몸의 반응·타이밍",
+      "summary": "Miller는 새 정보를 받아 반응하는 순간을 대본과 상대에게서 찾는다.",
+      "facts": [
+        {
+          "field": "사전_준비",
+          "value": "대본에서 새 언어·비언어 정보에 반응할 순간을 찾는다.",
+          "evidence": {
+            "source_id": "miller-listening",
+            "locator": "Three kinds of listening, An actor must be able to listen to the script paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "상대_주의",
+          "value": "상대가 무엇을 말하는지와 어떻게 말하는지에 주의를 둔다.",
+          "evidence": {
+            "source_id": "miller-listening",
+            "locator": "Three kinds of listening, An actor listening on stage paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "감각_범위",
+          "value": "대사뿐 아니라 상대와 환경이 내놓는 정보를 보고 듣고 반응한다.",
+          "evidence": {
+            "source_id": "miller-listening",
+            "locator": "Three kinds of listening, An actor must be able to listen with all her senses paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "듣기",
+        "반응",
+        "새 정보"
+      ],
+      "existing_entry_id": "CRAFT-acting-dee4b8360731",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "actor-camera-blocking",
+      "title_ko": "배우와 카메라의 동선 블로킹",
+      "subtype": "동선·블로킹",
+      "summary": "Marshall은 배우의 이동을 카메라와의 관계 속에서 설계한다.",
+      "facts": [
+        {
+          "field": "배치_대상",
+          "value": "블로킹 단계에서 배우 위치와 첫 카메라 위치를 정한다.",
+          "evidence": {
+            "source_id": "marshall-blocking",
+            "locator": "Every film shoot list, 1. Block",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "배우_참여",
+          "value": "배우가 먼저 행동을 보여준 뒤 그에 근거해 제안하라고 권한다.",
+          "evidence": {
+            "source_id": "marshall-blocking",
+            "locator": "Five important blocking tips, item 2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "제작_순서",
+          "value": "블로킹 뒤 조명·카메라 리허설·조정·촬영을 거친다고 설명한다.",
+          "evidence": {
+            "source_id": "marshall-blocking",
+            "locator": "Every film shoot list, items 1–5",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "블로킹",
+        "배우 동선",
+        "카메라"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "performance-scale-for-frame",
+      "title_ko": "샷 크기에 맞춘 연기 조절",
+      "subtype": "몸의 반응·타이밍",
+      "summary": "NAPA는 프레임 범위에 따라 움직임의 전달 방식을 조절하라고 권한다.",
+      "facts": [
+        {
+          "field": "클로즈업",
+          "value": "클로즈업에서는 작은 움직임도 크게 전달될 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "napa-frame",
+            "locator": "Know Your Frame",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "와이드_샷",
+          "value": "와이드 샷에서는 몸 전체가 이야기를 전달한다고 설명한다.",
+          "evidence": {
+            "source_id": "napa-frame",
+            "locator": "Know Your Frame",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "표현_주의",
+          "value": "극장 뒤편을 향한 투사 대신 자연스러운 반응에 집중하라고 권한다.",
+          "evidence": {
+            "source_id": "napa-frame",
+            "locator": "Keep It Natural",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "샷 크기",
+        "연기 강도"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "release-muscular-tension",
+      "title_ko": "긴장한 몸이 풀리기",
+      "subtype": "몸의 반응·타이밍",
+      "summary": "NYFA는 근육 긴장 해제를 연기 훈련의 한 기술로 소개한다.",
+      "facts": [
+        {
+          "field": "기술_정의",
+          "value": "이완을 근육의 긴장을 푸는 기술로 설명한다.",
+          "evidence": {
+            "source_id": "nyfa-technique",
+            "locator": "1. Relaxation, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시작_자세",
+          "value": "초보 연습으로 조용한 곳에서 팔을 옆에 두고 손바닥을 위로 한 누운 자세를 든다.",
+          "evidence": {
+            "source_id": "nyfa-technique",
+            "locator": "1. Relaxation, If you’re just starting out sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "호흡_예시",
+          "value": "다섯 박자 들숨과 다섯 박자 날숨을 예로 제시한다.",
+          "evidence": {
+            "source_id": "nyfa-technique",
+            "locator": "1. Relaxation, Take several long deep breaths sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "이완",
+        "근육 긴장",
+        "호흡"
+      ],
+      "existing_entry_id": "CRAFT-acting-4df817143b1c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "physical-tension-levels",
+      "title_ko": "신체 긴장 수준을 바꾸는 연기 훈련",
+      "subtype": "몸의 반응·타이밍",
+      "summary": "Drama Resource는 신체 긴장 단계를 고정 규범이 아닌 조정 가능한 연습 지침으로 제시한다.",
+      "facts": [
+        {
+          "field": "단계_범위",
+          "value": "이 글은 탈진·느긋함·중립·경계·서스펜스·격정·비극의 일곱 수준을 제시한다.",
+          "evidence": {
+            "source_id": "drama-tension",
+            "locator": "Numbered levels 1–7",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "적용_제약",
+          "value": "단계 수와 해석은 바꿀 수 있는 지침이며 저자의 제안이라고 명시한다.",
+          "evidence": {
+            "source_id": "drama-tension",
+            "locator": "Opening paragraphs: The following are my suggestions; There can of course be as many or as few",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "연습_진행",
+          "value": "긴장 상태 사이를 천천히 이동해 익숙해진 뒤 장면 안에서 탐색하도록 권한다.",
+          "evidence": {
+            "source_id": "drama-tension",
+            "locator": "Paragraph beginning There can of course, Train your actors sentences",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "신체 긴장",
+        "단계 전환",
+        "연기 훈련"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "ensemble-walk-stop-look-run",
+      "title_ko": "걷기·정지·응시·달리기의 앙상블 동선",
+      "subtype": "동선·블로킹",
+      "summary": "RSC의 Tashkiran은 The Provoked Wife 리허설에서 사용한 집단 이동 구조를 설명한다.",
+      "facts": [
+        {
+          "field": "행동_구성",
+          "value": "걷기·멈추기·서로 바라보기·달리기를 네 구성 요소로 삼았다.",
+          "evidence": {
+            "source_id": "rsc-moving",
+            "locator": "I introduce some ensemble movement paragraph, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "참여_확장",
+          "value": "두 명에서 네 명, 여덟 명으로 늘려 변형하고 전체 배우로 확장했다.",
+          "evidence": {
+            "source_id": "rsc-moving",
+            "locator": "I introduce some ensemble movement paragraph, It starts with two sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공간_경로",
+          "value": "전체 배우가 공간 중앙을 따라 가로지르는 이동으로 발전시켰다.",
+          "evidence": {
+            "source_id": "rsc-moving",
+            "locator": "I introduce some ensemble movement paragraph, travelling across the space down the centre",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "앙상블",
+        "블로킹",
+        "동선"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ]
+}

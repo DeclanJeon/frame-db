@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: hair-E22; concept: 왼쪽 어깨 세 가닥 브레이드.
+Class: base; domain: hair; entry: CRAFT-hair-b81cfe2d0898.
+Parent entry IDs: []
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["expression-E00"]
+Reference roles: {"expression-E00":"identity"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Make one free three-strand dark-brown braid draped over the subject-left shoulder, with readable alternating crossings and one black elastic near the complete tail tip. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: subject-left rear three-quarter with braid over left shoulder. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.
+Change only: Make one free three-strand dark-brown braid draped over the subject-left shoulder, with readable alternating crossings and one black elastic near the complete tail tip..
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Exactly three interlaced sections; braid stays on subject-left.; All defining ends, attachment and the named ear/nape region are visible.
+Output: {"format":"png","height":1536,"width":1024}
+Concrete reference roles: Image 1 (expression-E00.png) is the accepted identity A face and skin-mark anchor. Preserve face, marks, camera, crop and lighting while changing only the specified hair geometry.

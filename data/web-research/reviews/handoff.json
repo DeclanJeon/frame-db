@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "category_id": "handoff",
+  "input_sha256": "978b27014e60d761526f6f994990c965b9a25386737379144546f17731118414",
+  "reviewer": "handoff-independent-reviewer-st_01a18b57",
+  "reviewed_at": "2026-10-30T05:46:44.011289+00:00",
+  "accepted_concept_keys": [
+    "reference-role-mapping",
+    "first-last-frame-state",
+    "input-output-aspect-crop",
+    "true-video-extension",
+    "generation-duration-envelope",
+    "generation-versus-scene-success"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "sdk-types",
+      "url": "https://raw.githubusercontent.com/googleapis/python-genai/main/google/genai/types.py",
+      "checked_at": "2026-10-30T05:46:44.011289+00:00",
+      "access": "public_body",
+      "locator": "Header lines 1-16; VideoGenerationReferenceType lines 1211-1220; ImageResizeMode lines 1254-1262; GenerateVideosSource lines 12149-12166; VideoGenerationReferenceImage lines 12190-12200; GenerateVideosConfig.last_frame lines 12348-12352 and resize_mode lines 12377-12380",
+      "rights_checked": true,
+      "notes": "Independently fetched and read the cited definitions, not merely an HTTP status or index. Exact fetched SHA-256: 1a435d319fb2cd9da117ab962433c53783c3e5ab71851762574700ec975a5350, matching the collector. Header credits Google LLC (2025) and Apache 2.0. Independently reopened https://raw.githubusercontent.com/googleapis/python-genai/main/LICENSE (SHA-256 cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30): sections 2 and 4 cover the licensed work and redistribution conditions; sections 6-7 exclude general trademark permission and warranties. explicit_open is limited to SDK code, not reference media, identity rights or generated output. Summaries are short attributed metadata; no media acquired. Reference role, start/end inputs and resize operations are distinct mechanisms, not wording variants. SDK field existence and docstrings do not verify any selected model's present endpoint support."
+    },
+    {
+      "source_id": "sdk-readme",
+      "url": "https://raw.githubusercontent.com/googleapis/python-genai/main/README.md",
+      "checked_at": "2026-10-30T05:46:44.011289+00:00",
+      "access": "public_body",
+      "locator": "Veo > Generate Videos (Text to Video), lines 1411-1436; Generate Videos (Image to Video), lines 1438-1469; Generate Videos (Video to Video), lines 1471-1507",
+      "rights_checked": true,
+      "notes": "Independently fetched and read all three Veo subsections. Exact fetched SHA-256: 9548e07e90f9f35aeed69c16e532c6156d40c103d3136c59e1640b86dd05e2e2, matching the collector. Compared model literal, duration/count config, extension paragraph, video URI comment, operation polling and response access. Reopened repository LICENSE, sections 1-4 and 6-7; retain conservative unknown status for example inputs, outputs and third-party media rather than expanding the software license into media rights. No example was executed or downloaded. The model name and five-second value are README example literals, not a current availability or duration-support claim. Polling and output access are not scene-quality inspection or a guaranteed successful response. Extension, duration configuration and completion handling are distinct concepts, not three counts of one generated clip."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "reference-role-mapping",
+      "field": "자산 역할",
+      "source_id": "sdk-types",
+      "locator": "VideoGenerationReferenceType.ASSET docstring",
+      "verdict": "supported",
+      "notes": "At the source URL in source_checks, lines 1214-1216 describe asset references using scene, object and character examples. Korean summary matches this definition, not an observed identity-preservation result. Correctly enriches the existing reference-role guide CRAFT-handoff-eb58291cfb8c."
+    },
+    {
+      "concept_key": "reference-role-mapping",
+      "field": "스타일 역할",
+      "source_id": "sdk-types",
+      "locator": "VideoGenerationReferenceType.STYLE docstring",
+      "verdict": "supported",
+      "notes": "Lines 1217-1220 describe aesthetics including colors, lighting and texture. The field reports that role definition only; it does not claim support for mixing arbitrary role combinations in a currently available model."
+    },
+    {
+      "concept_key": "reference-role-mapping",
+      "field": "역할 필드",
+      "source_id": "sdk-types",
+      "locator": "VideoGenerationReferenceImage.image / reference_type",
+      "verdict": "supported",
+      "notes": "Lines 12190-12200 define image and reference_type as optional fields on VideoGenerationReferenceImage. The record says these fields exist, not that either is universally mandatory or that a particular model supports them."
+    },
+    {
+      "concept_key": "first-last-frame-state",
+      "field": "시작 입력",
+      "source_id": "sdk-types",
+      "locator": "GenerateVideosSource.image",
+      "verdict": "supported",
+      "notes": "Lines 12157-12161 define image as the input image for video generation; the README Image to Video example independently uses that source slot. This supports the input-slot statement, not exact pose or end-state adherence. Existing entry CRAFT-handoff-d3d4fda428f7 is the matching guide, not a new row."
+    },
+    {
+      "concept_key": "first-last-frame-state",
+      "field": "종료 입력",
+      "source_id": "sdk-types",
+      "locator": "GenerateVideosConfig.last_frame docstring",
+      "verdict": "supported",
+      "notes": "Lines 12348-12350 explicitly describe an image used as the last frame. This is a documented input role, not proof of a generated ending inspected by this reviewer."
+    },
+    {
+      "concept_key": "first-last-frame-state",
+      "field": "사용 제한",
+      "source_id": "sdk-types",
+      "locator": "GenerateVideosConfig.last_frame docstring",
+      "verdict": "supported",
+      "notes": "Line 12351 limits last_frame to image-to-video use cases. The value explicitly attributes the limitation to the SDK description; no current endpoint or live interpolation support was tested."
+    },
+    {
+      "concept_key": "input-output-aspect-crop",
+      "field": "크롭",
+      "source_id": "sdk-types",
+      "locator": "ImageResizeMode.CROP docstring",
+      "verdict": "supported",
+      "notes": "Lines 1257-1259 state that cropping fits the aspect ratio and loses image portions. This is a source claim, not a measured crop or inspected image. Compared all 16 original handoff entries: automatic aspect-ratio resizing is distinct from selecting a sheet versus one view or checking model input support."
+    },
+    {
+      "concept_key": "input-output-aspect-crop",
+      "field": "패딩",
+      "source_id": "sdk-types",
+      "locator": "ImageResizeMode.PAD docstring",
+      "verdict": "supported",
+      "notes": "Lines 1260-1262 describe fitting the aspect ratio without losing image portions. CROP and PAD remain two fields of one resize concept, not separate concepts or acquired image variants."
+    },
+    {
+      "concept_key": "input-output-aspect-crop",
+      "field": "설정 필드",
+      "source_id": "sdk-types",
+      "locator": "GenerateVideosConfig.resize_mode docstring",
+      "verdict": "supported",
+      "notes": "Lines 12377-12380 define resize_mode as optional ImageResizeMode for the video-generation image input. No numerical output ratio, crop geometry or provider-independent availability is asserted."
+    },
+    {
+      "concept_key": "true-video-extension",
+      "field": "모드",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Video to Video), opening paragraph",
+      "verdict": "supported",
+      "notes": "At the README source URL, lines 1471-1474 discuss video extension, including previously generated videos. The summary expressly limits this to the README example; its current-service support statements were not adopted as verified availability. Existing CRAFT-handoff-39267db718a0 is the matching extension guide."
+    },
+    {
+      "concept_key": "true-video-extension",
+      "field": "입력 슬롯",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Video to Video), source argument",
+      "verdict": "supported",
+      "notes": "Lines 1485-1492 place a types.Video object in GenerateVideosSource.video. Source types.py lines 12162-12165 also name video-extension use cases. This does not verify inclusion of original frames or seam continuity in any output."
+    },
+    {
+      "concept_key": "true-video-extension",
+      "field": "주소 조건",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Video to Video), comment above video=types.Video",
+      "verdict": "supported",
+      "notes": "Line 1488 states GCS for Gemini Enterprise Agent Platform or URI for Gemini; lines 1489-1491 instantiate the video URI. The record accurately says the example comment requires this, not that URI schemes or present API acceptance were independently exercised."
+    },
+    {
+      "concept_key": "generation-duration-envelope",
+      "field": "예제 모델",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Text to Video), model argument",
+      "verdict": "supported",
+      "notes": "Line 1418 uses veo-3.1-generate-preview. Accepted strictly as the example's literal identifier, not a recommended or presently available model. Existing CRAFT-handoff-c83f6c54766c is enriched with example configuration, not proof of its global/shot-local timing guide."
+    },
+    {
+      "concept_key": "generation-duration-envelope",
+      "field": "길이 전달",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Text to Video), config argument",
+      "verdict": "supported",
+      "notes": "Line 1424 supplies duration_seconds=5. The wording and summary correctly identify a passed example argument, not measured output duration, an accepted endpoint value or a universal maximum. No generated video was inspected."
+    },
+    {
+      "concept_key": "generation-duration-envelope",
+      "field": "출력 수",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Text to Video), config argument",
+      "verdict": "supported",
+      "notes": "Line 1423 supplies number_of_videos=1 in the same example. This is requested configuration only, not an acquired-video count or a promise that one output was produced."
+    },
+    {
+      "concept_key": "generation-versus-scene-success",
+      "field": "생성 반환",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Text to Video), Create operation",
+      "verdict": "supported",
+      "notes": "Lines 1416-1427 assign client.models.generate_videos to operation. This supports documented operation handling only. Existing CRAFT-handoff-48508f79f57b is the matching result-assessment guide; its scene-quality criteria remain original guidance, not SDK-verified outcomes."
+    },
+    {
+      "concept_key": "generation-versus-scene-success",
+      "field": "완료 확인",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Text to Video), Poll operation",
+      "verdict": "supported",
+      "notes": "Lines 1429-1432 loop while operation.done is false and refresh operation using client.operations.get. The reviewer read but did not execute this polling code. Completion alone is not success, identity, contact, acting or scene-quality verification."
+    },
+    {
+      "concept_key": "generation-versus-scene-success",
+      "field": "출력 접근",
+      "source_id": "sdk-readme",
+      "locator": "Veo > Generate Videos (Text to Video), after polling loop",
+      "verdict": "supported",
+      "notes": "Line 1434 accesses operation.response.generated_videos[0].video after the loop. The record describes example access, not a guarantee against errors or missing output. No media playback, visual review, measurement or quality pass is implied."
+    }
+  ],
+  "accepted_count": 6,
+  "shortfall": 14,
+  "shortfall_reason": "Only six distinct metadata concepts were submitted and independently supported: five enrich existing same-category guides and one covers input aspect-ratio crop/pad behavior. All 18 factual fields match the reopened primary definitions or README examples; no individual rejection is warranted. The 16 original handoff entries were compared for semantic aliases, and all five explicit target IDs exist uniquely. Start/end-frame inputs, reference roles, resizing, extension, duration configuration and completion handling are distinct rather than spelling/model variants. This is a partial 6/20 result, not adequate completion of the category target. No additional concepts were invented to fill the remaining 14. Public SDK text does not establish current service availability, tested parameter combinations, output quality or generated-media rights. No proposals, observations, measurements or media candidates are present; acquired or reviewed media count is zero. Collector-reported blocked alternatives were not independently rechecked and are not accepted sources."
+}

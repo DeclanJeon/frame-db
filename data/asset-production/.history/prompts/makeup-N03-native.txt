@@ -1,0 +1,15 @@
+FRAME authored synthetic reference. Job: makeup-N03; concept: 뮤트 브릭 레드 네일.
+Class: base; domain: makeup; entry: FS-0167.
+Parent entry IDs: []
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["makeup-N01","expression-E00"]
+Reference roles: {"expression-E00":"identity","makeup-N01":"identity"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use the accepted makeup-N01 right hand and pose. Paint every nail the same muted brick red with restrained gloss, no pattern, glitter, gems or nail extensions. Keep every nail boundary readable in the same oblique top view; establish the hand from the A identity anchor, not by copying another face or hand photograph. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: oblique top view of complete right hand wrist and short forearm. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the N01 hand proportions, skin tone and marks, short nail shape, finger spacing, wrist connection, tabletop and light.
+Change only: Change nail pigment or finish only as specified.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; All five nail plates have matching brick-red color and gloss within their boundaries.; Trace five digits to the same wrist; inspect all nail beds, cuticles and contact shadows.
+Output: {"format":"png","height":1024,"width":1536}

@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "category_id": "lighting",
+  "input_sha256": "106ccf71db49b450eb5949e3c3a36ba31e35cef52f256b4ef9102fc04d7c6777",
+  "reviewer": "lighting-independent-primary-review-st_01a18b07",
+  "reviewed_at": "2026-10-30T04:29:31.627053+00:00",
+  "accepted_concept_keys": [
+    "frontal-large-diffused-light",
+    "rear-backlight",
+    "key-light-role",
+    "fill-light-role",
+    "shadow-edge-source-size",
+    "diffused-light-enclosure",
+    "white-balance-neutralization",
+    "incident-light-meter-reading",
+    "reflected-spot-metering-target",
+    "rembrandt-portrait-light",
+    "butterfly-portrait-light",
+    "loop-portrait-light",
+    "short-portrait-light",
+    "broad-portrait-light",
+    "clamshell-reflector-light",
+    "color-correction-gels"
+  ],
+  "rejected": [
+    {
+      "concept_key": "left-side-light",
+      "reason": "Rejected whole record: title_ko 좌측 90도 사이드 라이트 and target CRAFT-lighting-f96717de59ae assert left-side orientation and an exact 90-degree placement. https://www.sony.com/electronics/support/articles/00267922, section 2. Side light, supports only illumination from the side, clear shadows/strong light-dark contrast, and depth from shadows. All three cited fact values are generic and none establishes left or 90 degrees. The existing target repeats the title but its details identify an authored creative/practical guide, expressly not an original-source observation or measurement; its diagram is not an actual lighting result. The summary disclaimer cannot substantiate the more specific title/target. No producer correction was made; the exact staging bytes remain rejected for this record."
+    },
+    {
+      "concept_key": "window-soft-light",
+      "reason": "Rejected whole record: title_ko 창가 소프트 라이트 and target FS-0101 require soft window light. https://www.sony.com/electronics/support/articles/00267922, final indoor-window paragraph after section 3. Back light, supports sunny-day indoor window use and front/back direction relative to the window only. The three cited values do not establish softness, diffusion, source extent or a soft-shadow result. FS-0101 repeats wide/soft daylight as 제작 지침 but its 검토 범위 says initial text draft before actual media review, with media unavailable; this is not independent evidence. The summary admitting unverified diffusion does not support the title. Narrow window-direction facts remain in unchanged staging but are not an accepted soft-light concept. Requires a corrected producer revision and fresh SHA-bound review."
+    },
+    {
+      "concept_key": "rear-separation-rim-light",
+      "reason": "Rejected whole record: title_ko 좌측 후방 림 라이트 and target CRAFT-lighting-0b05fc094245 specify left-rear rim geometry. https://www.arri.com/resource/blob/83996/409091c612f371b0c68b41d9dcb636db/arri-lighting-handbook-english-data.pdf, printed p.14 Separation Light (Hair Light), supports separation, hair color/texture, and a placement range from behind/above to outside-frame side rim light. None of the three cited values identifies a left-side arrangement. The target identifies its left-rear instruction as an authored creative guide, not a source observation/measurement, and its diagram is not a real lighting result. A possible placement range and summary disclaimer cannot verify the specific title/target. Narrow general separation-light claims remain in staging, pending corrected producer scope/target and fresh SHA-bound review."
+    },
+    {
+      "concept_key": "colored-background-neutral-subject",
+      "reason": "Rejected whole record: title_ko 컬러 배경과 중성 피부 and target CRAFT-lighting-01e426d3af67 require the conjunction of a colored background and neutral skin. https://www.arri.com/resource/blob/83996/409091c612f371b0c68b41d9dcb636db/arri-lighting-handbook-english-data.pdf, printed p.15 Background Light, supports background texture/color, subject separation and support for key-light direction/motivation only. None of the three cited fields specifies a neutral face key, control of colored spill on skin, or verified neutral-skin rendering. The target states these as authored creative instructions and expressly not source observations/measurements; its diagram is not a photographed result. The summary admitting unverified neutralization does not support the composite title. Narrow background-treatment facts remain in staging, pending a corrected producer revision and fresh SHA-bound review."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "arri-lighting-handbook",
+      "url": "https://www.arri.com/resource/blob/83996/409091c612f371b0c68b41d9dcb636db/arri-lighting-handbook-english-data.pdf",
+      "checked_at": "2026-10-30T04:29:31.627053+00:00",
+      "access": "public_body",
+      "locator": "인쇄 p.2 저작권; p.5 Light Quality; p.12 Key Light; p.13–14 Fill Light; p.14 Separation Light (Hair Light); p.15 Background Light",
+      "rights_checked": true,
+      "notes": "Web open timed out; reopened exact PDF URL with direct public HTTP fetch and extracted printed pp.14-15 in memory. Separation Light gives a placement range, not left-side geometry; Background Light does not establish neutral skin. All six values and both authored-guide targets checked. Whole rear-separation-rim-light and colored-background-neutral-subject records remain rejected; supported subsets cannot validate titles/targets. Earlier copyright check retained: Bill Holshevnikoff 2016, restricted; no media permission."
+    },
+    {
+      "source_id": "sony-lighting-effects",
+      "url": "https://www.sony.com/electronics/support/articles/00267922",
+      "checked_at": "2026-10-30T04:29:31.627053+00:00",
+      "access": "public_body",
+      "locator": "1. Front light; 2. Side light; 3. Back light; 마지막 실내 창문광 문단",
+      "rights_checked": true,
+      "notes": "Reopened actual Sony article with direct webfetch. Section 2. Side light supports side illumination/contrast/depth, not left orientation or 90 degrees; final indoor-window paragraph supports front/back directions, not softness. Full titles and targets FS-0101 (unverified text draft) and CRAFT-lighting-f96717de59ae (authored guide) were compared with all six cited values. Both whole records remain rejected, with no accepted-field checks. Supported subsets do not validate titles/targets. Reuse remains unknown; no photos inspected."
+    },
+    {
+      "source_id": "sony-white-balance",
+      "url": "https://www.sony.com/electronics/support/articles/00267928",
+      "checked_at": "2026-10-30T04:23:01.180223+00:00",
+      "access": "public_body",
+      "locator": "도입 정의 문단; Auto white balance (AWB); Changing the white balance setting",
+      "rights_checked": true,
+      "notes": "Web open timed out; direct webfetch returned the actual article body. Read definition, AWB and setting-change paragraphs. No reuse license established; unknown retained. Text claims only, not image comparisons."
+    },
+    {
+      "source_id": "sekonic-metering-mistakes",
+      "url": "https://sekonic.com/classroom/common-metering-mistakes/",
+      "checked_at": "2026-10-30T04:23:01.180223+00:00",
+      "access": "public_body",
+      "locator": "Bright Windows; Shooting in Fog; Shooting in Snow",
+      "rights_checked": true,
+      "notes": "Read Jim Zuckerman byline, Bright Windows, Shooting in Fog and Shooting in Snow. These are author procedure claims, not measured readings. No reuse license established; unknown retained. No photographs inspected."
+    },
+    {
+      "source_id": "broncolor-light-quality",
+      "url": "https://broncolor.swiss/news/hard-soft-and-diffused-light-what-is-the-difference",
+      "checked_at": "2026-10-30T04:23:01.180223+00:00",
+      "access": "public_body",
+      "locator": "도입의 크기·거리 구분; Soft Light 문단 2–4; Diffused light와 뒤따르는 도구 목록",
+      "rights_checked": true,
+      "notes": "Read Soft Light and Diffused light with their lists and source-size example. Attribution is manufacturer-specific; enclosing diffusion is not every softbox. No reuse license established; unknown retained. No sample images assessed."
+    },
+    {
+      "source_id": "rosco-filter-facts",
+      "url": "https://us.rosco.com/sites/default/files/content/resource/2022-10/Rosco_FilterFacts09_22.pdf",
+      "checked_at": "2026-10-30T04:23:01.180223+00:00",
+      "access": "public_body",
+      "locator": "인쇄 p.9 A Quick Reference Guide to Cinegel Correction Filters, 3202와 3407 행 및 TRANS. 열. PDF 9번째 쪽 표를 시각 대조했다.",
+      "rights_checked": true,
+      "notes": "Opened PDF and visually read printed p.9 table (PDF page 9, zero-based index 8). Rows 3202/3407 and DESCRIPTION/TRANS. columns support the numbers. No reuse permission established; unknown retained. Document inspection only, no media acquisition."
+    },
+    {
+      "source_id": "profoto-rembrandt",
+      "url": "https://www.profoto.com/bg/en/still-photography/tips-tricks/how-to-create-rembrandt-light/",
+      "checked_at": "2026-10-30T04:23:01.180223+00:00",
+      "access": "public_body",
+      "locator": "도입 정의; Step 3; Step 4; Tip; 하단 All rights reserved",
+      "rights_checked": true,
+      "notes": "Read byline/date, opening definition, Steps 3-4 and footer. Profoto, 14 May 2020; Hannah Couzens tips. Footer reserves rights, supporting restricted status. No photo/diagram reuse or visual inspection claimed."
+    },
+    {
+      "source_id": "profoto-russo-patterns",
+      "url": "https://www.profoto.com/nl/en/still-photography/profoto-stories/character-portraits-with-john-russo-and-profoto-d2",
+      "checked_at": "2026-10-30T04:23:01.180223+00:00",
+      "access": "public_body",
+      "locator": "Patterns of light; Classic covers의 Short light, Broad light, Loop light, Butterfly light; 하단 All rights reserved",
+      "rights_checked": true,
+      "notes": "Earlier check read byline/date, Patterns of light, Classic covers and credits/footer. Reserved rights support restricted status, not media reuse. The no-added-left/right-variants statement applies only to this source and its accepted portrait-pattern records; it does not substantiate or approve Sony/ARRI direction-specific titles. The four title-scope failures are explicitly rejected."
+    },
+    {
+      "source_id": "westcott-eyelighter",
+      "url": "https://www.fjwestcott.com/products/eyelighter-3-silver-white-and-sunlight-fabric",
+      "checked_at": "2026-10-30T04:23:01.180223+00:00",
+      "access": "public_body",
+      "locator": "Description > Stunning Clamshell Lighting with a Single Light; Get More Looks with 3 Reflective Surfaces > Silver Fabric, White Fabric",
+      "rights_checked": true,
+      "notes": "Read manufacturer body and complete public HTML. Full HTML includes Get More Looks with 3 Reflective Surfaces and White/Silver Fabric paragraphs missing from shortened extracts. No reuse license established; unknown retained. Product claims only; no photos inspected."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "frontal-large-diffused-light",
+      "field": "입사_방향",
+      "source_id": "sony-lighting-effects",
+      "locator": "1. Front light, 첫 문장",
+      "verdict": "supported",
+      "notes": "Sony front-light definition matches camera-side illumination."
+    },
+    {
+      "concept_key": "frontal-large-diffused-light",
+      "field": "색_재현",
+      "source_id": "sony-lighting-effects",
+      "locator": "1. Front light, 둘째 문장",
+      "verdict": "supported",
+      "notes": "Sony directly describes clear color and shape rendering."
+    },
+    {
+      "concept_key": "frontal-large-diffused-light",
+      "field": "확산_크기",
+      "source_id": "arri-lighting-handbook",
+      "locator": "인쇄 p.5 Light Quality, 첫 문단",
+      "verdict": "supported",
+      "notes": "ARRI p.5 links larger diffused sources with softer light; combined with Sony direction, not an observed setup."
+    },
+    {
+      "concept_key": "rear-backlight",
+      "field": "입사_방향",
+      "source_id": "sony-lighting-effects",
+      "locator": "3. Back light, 첫 문장",
+      "verdict": "supported",
+      "notes": "Sony defines illumination from behind; no exact rear angle was measured."
+    },
+    {
+      "concept_key": "rear-backlight",
+      "field": "피사체_밝기",
+      "source_id": "sony-lighting-effects",
+      "locator": "3. Back light, On the other hand 문장",
+      "verdict": "supported",
+      "notes": "Sony says the subject tends to become dark."
+    },
+    {
+      "concept_key": "rear-backlight",
+      "field": "보정_수단",
+      "source_id": "sony-lighting-effects",
+      "locator": "3. Back light, If this happens 문장",
+      "verdict": "supported",
+      "notes": "Sony recommends exposure compensation when the subject is dark."
+    },
+    {
+      "concept_key": "key-light-role",
+      "field": "기능",
+      "source_id": "arri-lighting-handbook",
+      "locator": "인쇄 p.12 Key Light, 첫 두 문장",
+      "verdict": "supported",
+      "notes": "ARRI identifies the primary illumination of the subject area."
+    },
+    {
+      "concept_key": "key-light-role",
+      "field": "광질",
+      "source_id": "arri-lighting-handbook",
+      "locator": "인쇄 p.12 Key Light, often establishes 문장",
+      "verdict": "supported",
+      "notes": "ARRI says key light often establishes hard/soft quality; read as its usual role, not an unconditional guarantee."
+    },
+    {
+      "concept_key": "key-light-role",
+      "field": "모델링",
+      "source_id": "arri-lighting-handbook",
+      "locator": "인쇄 p.12 Key Light, modeling 문장",
+      "verdict": "supported",
+      "notes": "ARRI describes revealing facial shape through shadow modeling."
+    },
+    {
+      "concept_key": "fill-light-role",
+      "field": "기능",
+      "source_id": "arri-lighting-handbook",
+      "locator": "인쇄 p.13 Fill Light, 첫 문장",
+      "verdict": "supported",
+      "notes": "ARRI defines fill as filling key-light shadows."
+    },
+    {
+      "concept_key": "fill-light-role",
+      "field": "광질",
+      "source_id": "arri-lighting-handbook",
+      "locator": "인쇄 p.13 Fill Light, Ideally 문장",
+      "verdict": "supported",
+      "notes": "ARRI explicitly presents a larger diffused soft source as ideal."
+    },
+    {
+      "concept_key": "fill-light-role",
+      "field": "방향",
+      "source_id": "arri-lighting-handbook",
+      "locator": "인쇄 p.14 Fill Light 계속, The position 문단",
+      "verdict": "supported",
+      "notes": "ARRI normally places fill near the lens or opposite the key; this is guidance, not a measured position."
+    },
+    {
+      "concept_key": "shadow-edge-source-size",
+      "field": "거리_관계",
+      "source_id": "broncolor-light-quality",
+      "locator": "Soft Light, The closer we get 문단",
+      "verdict": "supported",
+      "notes": "broncolor relates proximity to greater apparent source size and softer light."
+    },
+    {
+      "concept_key": "shadow-edge-source-size",
+      "field": "그림자_전이",
+      "source_id": "broncolor-light-quality",
+      "locator": "Soft Light, The shadows 문단",
+      "verdict": "supported",
+      "notes": "Soft Light retains visible shadows with gradated boundaries."
+    },
+    {
+      "concept_key": "shadow-edge-source-size",
+      "field": "상대_크기_예시",
+      "source_id": "broncolor-light-quality",
+      "locator": "Soft Light, A light of about 문단",
+      "verdict": "supported",
+      "notes": "The stated 100 by 100 cm at 4 m and 50 by 50 cm at 2 m comparison matches exactly. Source numbers, not reviewer measurements."
+    },
+    {
+      "concept_key": "diffused-light-enclosure",
+      "field": "광원_범위",
+      "source_id": "broncolor-light-quality",
+      "locator": "Diffused light, Now the light source 문단",
+      "verdict": "supported",
+      "notes": "Diffused light describes a source large enough to illuminate around the subject."
+    },
+    {
+      "concept_key": "diffused-light-enclosure",
+      "field": "방향_특성",
+      "source_id": "broncolor-light-quality",
+      "locator": "Diffused light, The light does not show 문단",
+      "verdict": "supported",
+      "notes": "That section says directionality disappears in this enclosing-light case; not generalized to every softbox."
+    },
+    {
+      "concept_key": "diffused-light-enclosure",
+      "field": "도구_예시",
+      "source_id": "broncolor-light-quality",
+      "locator": "Diffused light, 마지막 목록 Light-tents 항목",
+      "verdict": "supported",
+      "notes": "The tool list explicitly includes light tents wrapped around the object."
+    },
+    {
+      "concept_key": "white-balance-neutralization",
+      "field": "중성_기준",
+      "source_id": "sony-white-balance",
+      "locator": "도입 첫 문단",
+      "verdict": "supported",
+      "notes": "Sony defines compensation for light color so white objects appear white."
+    },
+    {
+      "concept_key": "white-balance-neutralization",
+      "field": "자동_보정",
+      "source_id": "sony-white-balance",
+      "locator": "Auto white balance (AWB), 첫 문장",
+      "verdict": "supported",
+      "notes": "The AWB section states automatic adjustment according to recognized scenes."
+    },
+    {
+      "concept_key": "white-balance-neutralization",
+      "field": "프리셋_선택",
+      "source_id": "sony-white-balance",
+      "locator": "Changing the white balance setting, 첫 문단",
+      "verdict": "supported",
+      "notes": "The setting-change section permits manual presets when AWB does not give expected color."
+    },
+    {
+      "concept_key": "incident-light-meter-reading",
+      "field": "미터_위치",
+      "source_id": "sekonic-metering-mistakes",
+      "locator": "Shooting in Snow, I used a Sekonic 문단",
+      "verdict": "supported",
+      "notes": "Shooting in Snow requires the dome in the same light as the scene."
+    },
+    {
+      "concept_key": "incident-light-meter-reading",
+      "field": "돔_방향",
+      "source_id": "sekonic-metering-mistakes",
+      "locator": "Shooting in Snow, The dome 문장",
+      "verdict": "supported",
+      "notes": "That paragraph explicitly points the dome toward the camera lens."
+    },
+    {
+      "concept_key": "incident-light-meter-reading",
+      "field": "반사율_영향",
+      "source_id": "sekonic-metering-mistakes",
+      "locator": "Shooting in Fog, Instead 문단",
+      "verdict": "supported",
+      "notes": "Shooting in Fog says incident mode is not influenced by fog reflectance. Procedure claims only; no meter reading performed."
+    },
+    {
+      "concept_key": "reflected-spot-metering-target",
+      "field": "창문_영향",
+      "source_id": "sekonic-metering-mistakes",
+      "locator": "Bright Windows, 첫 문단",
+      "verdict": "supported",
+      "notes": "Bright Windows explains built-in metering influenced by daylight and subject underexposure."
+    },
+    {
+      "concept_key": "reflected-spot-metering-target",
+      "field": "표적_선택",
+      "source_id": "sekonic-metering-mistakes",
+      "locator": "Bright Windows, 둘째 문단 첫 두 문장",
+      "verdict": "supported",
+      "notes": "The next paragraph specifies camera position, the subject itself, and a 1-degree spot angle. Source specification, not measured angle."
+    },
+    {
+      "concept_key": "reflected-spot-metering-target",
+      "field": "노출_절충",
+      "source_id": "sekonic-metering-mistakes",
+      "locator": "Bright Windows, Detail outside 문장",
+      "verdict": "supported",
+      "notes": "The same paragraph sacrifices outside detail unless HDR or fill flash is used."
+    },
+    {
+      "concept_key": "rembrandt-portrait-light",
+      "field": "빛_형태",
+      "source_id": "profoto-rembrandt",
+      "locator": "도입 첫 문장",
+      "verdict": "supported",
+      "notes": "The introduction specifies a small light triangle on the cheek opposite the source. FS-0106 is the general existing concept; left/right guide examples are not added as new concepts."
+    },
+    {
+      "concept_key": "rembrandt-portrait-light",
+      "field": "높이_조정",
+      "source_id": "profoto-rembrandt",
+      "locator": "Step 3",
+      "verdict": "supported",
+      "notes": "Step 3 raises the light to push shadows down."
+    },
+    {
+      "concept_key": "rembrandt-portrait-light",
+      "field": "측면_조정",
+      "source_id": "profoto-rembrandt",
+      "locator": "Step 4",
+      "verdict": "supported",
+      "notes": "Step 4 moves the light sideways until nose and cheek shadows join. Text checked; photographs not visually assessed."
+    },
+    {
+      "concept_key": "butterfly-portrait-light",
+      "field": "광원_위치",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Butterfly light, 첫 문장",
+      "verdict": "supported",
+      "notes": "Classic covers places the main light above and directly behind the camera. Existing CRAFT-lighting-d11cff447d68 resolves once."
+    },
+    {
+      "concept_key": "butterfly-portrait-light",
+      "field": "그림자_형태",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Butterfly light, 첫 문장",
+      "verdict": "supported",
+      "notes": "The same sentence names the butterfly-shaped shadow under the nose."
+    },
+    {
+      "concept_key": "butterfly-portrait-light",
+      "field": "촬영_위치",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Butterfly light, 둘째 문장",
+      "verdict": "supported",
+      "notes": "The next sentence puts the photographer underneath the light."
+    },
+    {
+      "concept_key": "loop-portrait-light",
+      "field": "광원_방향",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Loop light, 첫 문장",
+      "verdict": "supported",
+      "notes": "The source states approximately 45 degrees in front of and above the subject; source guidance, not measurement. FS-0105 is the general existing concept."
+    },
+    {
+      "concept_key": "loop-portrait-light",
+      "field": "그림자_형태",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Loop light, 둘째 문장",
+      "verdict": "supported",
+      "notes": "The source describes a nose shadow looping down at an angle onto the cheek."
+    },
+    {
+      "concept_key": "loop-portrait-light",
+      "field": "밝은_영역",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Loop light, 셋째 문장",
+      "verdict": "supported",
+      "notes": "The same paragraph says most of the face remains lit. Left/right guide variants are not additional batch concepts."
+    },
+    {
+      "concept_key": "short-portrait-light",
+      "field": "주광_면",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Short light, 첫 문장",
+      "verdict": "supported",
+      "notes": "Classic covers defines the farther face side receiving main light."
+    },
+    {
+      "concept_key": "short-portrait-light",
+      "field": "가까운_면",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Short light, 첫 문장",
+      "verdict": "supported",
+      "notes": "The same definition gives the nearer face side less light."
+    },
+    {
+      "concept_key": "short-portrait-light",
+      "field": "면적_효과",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Patterns of light, John chose short light 문단",
+      "verdict": "supported",
+      "notes": "Patterns of light explicitly places more of the face in shadow; distinct from broad lighting, not merely a renamed variant."
+    },
+    {
+      "concept_key": "broad-portrait-light",
+      "field": "주광_면",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Broad light, 첫 문장",
+      "verdict": "supported",
+      "notes": "Classic covers defines the camera-facing face side receiving most light."
+    },
+    {
+      "concept_key": "broad-portrait-light",
+      "field": "밝은_면적",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Patterns of light, To shoot Cara 문단 둘째 문장",
+      "verdict": "supported",
+      "notes": "Patterns of light explicitly illuminates a larger part of the face."
+    },
+    {
+      "concept_key": "broad-portrait-light",
+      "field": "출처_사례",
+      "source_id": "profoto-russo-patterns",
+      "locator": "Classic covers > Broad light, 둘째 문장",
+      "verdict": "supported",
+      "notes": "Classic covers explicitly identifies John Russo using broad light for Ben Affleck. This is a caption/text attribution, not photo inspection."
+    },
+    {
+      "concept_key": "clamshell-reflector-light",
+      "field": "광원_구성",
+      "source_id": "westcott-eyelighter",
+      "locator": "Description > Stunning Clamshell Lighting with a Single Light",
+      "verdict": "supported",
+      "notes": "The manufacturer explicitly describes single-source clamshell use of Eyelighter 3. Existing CRAFT-lighting-c46e34319d57 enrichment is product-specific."
+    },
+    {
+      "concept_key": "clamshell-reflector-light",
+      "field": "흰색_반사면",
+      "source_id": "westcott-eyelighter",
+      "locator": "Get More Looks with 3 Reflective Surfaces > White Fabric",
+      "verdict": "supported",
+      "notes": "Full public HTML White Fabric paragraph confirms subtle fill and retained chin/nose shadows; abbreviated extract omitted this section."
+    },
+    {
+      "concept_key": "clamshell-reflector-light",
+      "field": "은색_반사면",
+      "source_id": "westcott-eyelighter",
+      "locator": "Get More Looks with 3 Reflective Surfaces > Silver Fabric",
+      "verdict": "supported",
+      "notes": "Full public HTML Silver Fabric paragraph confirms specular light and filling almost all chin/nose shadows. No image-based observation inferred."
+    },
+    {
+      "concept_key": "color-correction-gels",
+      "field": "CTB_변환",
+      "source_id": "rosco-filter-facts",
+      "locator": "인쇄 p.9 Cinegel 표, 3202 행 DESCRIPTION",
+      "verdict": "supported",
+      "notes": "Visually checked printed p.9 row 3202 DESCRIPTION: 3200 K to 5500 K."
+    },
+    {
+      "concept_key": "color-correction-gels",
+      "field": "CTO_변환",
+      "source_id": "rosco-filter-facts",
+      "locator": "인쇄 p.9 Cinegel 표, 3407 행 DESCRIPTION",
+      "verdict": "supported",
+      "notes": "Visually checked printed p.9 row 3407 DESCRIPTION: 6500 K to 3200 K; not a generic 5500 K CTO claim."
+    },
+    {
+      "concept_key": "color-correction-gels",
+      "field": "CTB_투과율",
+      "source_id": "rosco-filter-facts",
+      "locator": "인쇄 p.9 Cinegel 표, 3202 행 TRANS.",
+      "verdict": "supported",
+      "notes": "Visually checked the same 3202 row TRANS. column: 36 percent and minus 1.5 stops. Source specification, not measurement."
+    }
+  ],
+  "accepted_count": 16,
+  "shortfall": 4,
+  "shortfall_reason": "16 accepted concepts: 6 existing-entry enrichments and 10 proposed new metadata concepts; 48 accepted source-claim fields. Full-record title/target audit rejects four records: window-soft-light (softness unsupported), left-side-light (left orientation and 90 degrees unsupported), rear-separation-rim-light (left-side geometry unsupported), colored-background-neutral-subject (neutral-skin requirement unsupported). Generic window directions, side illumination, separation roles and background treatment do not validate those more specific titles. Authored guides, text drafts and summary disclaimers do not supply independent evidence. All four are absent from accepted keys and accepted-field checks. Producer title/fact/target revisions require a fresh staging SHA and new review; staging is unchanged here. Other 16 decisions remain unchanged. No acquired media, new observations or measurements."
+}

@@ -1,0 +1,59 @@
+{
+  "job_id": "hair-N07",
+  "status": "generated",
+  "generation_thread_id": "01a18d5d-4eef-7ba2-b55b-c8226e345540",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d5d-4eef-7ba2-b55b-c8226e345540",
+  "before_source_files": [],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-N07-six-photo-cleanup.txt",
+  "prompt": "Edit the single supplied photo composite for hair-N07. This is a minimal cleanup pass on the existing working photograph, not a new hairstyle generation.\n\nPreserve the complete rear head, both ears, neck, gray shirt, lighting, framing, and background. Preserve every existing hair structure and its location exactly: all six distinct straight-back braids, all six hanging tails, and all six black elastics. Keep the four outer braid/tail structures unchanged. Keep the two central braid/tail structures separate; do not merge them, remove them, add a seventh, or turn six into five.\n\nMake only subtle photographic cleanup along the central vertical-strip seams: blend the visible joins and duplicated patches of skin/scalp texture so they read as one continuous natural surface, matching the surrounding skin tone, lighting, grain, and focus. Do not reshape the head, scalp, hairline, braids, tails, or elastics. Do not regenerate or replace the head. Preserve the existing real-photo appearance and composition.\n\nUse this one input image only as the edit target. No additional references. Output one edited photorealistic image only, with no labels, text, diagram, collage panels, or added objects. The target is still an unaccepted working composite; the generated edit itself must be the result reviewed for acceptance.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-six-row-photo-layout.png"
+  ],
+  "reference_sha256": [
+    "051a2f87f19f47456d6d8707956178dddd8c423c495e028f57b462400c2ad587"
+  ],
+  "source_image": {
+    "path": "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-six-row-photo-layout.png",
+    "sha256": "051a2f87f19f47456d6d8707956178dddd8c423c495e028f57b462400c2ad587",
+    "width": 1024,
+    "height": 1536,
+    "format": "png",
+    "role": "sole edit target; unaccepted working photo composite"
+  },
+  "path": "public/generated/frame-assets/hair-N07.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d5d-4eef-7ba2-b55b-c8226e345540/exec-90216182-26ea-47f4-975c-8b537ea14987.png",
+  "sha256": "ba396fd59986f42f65ff001772638cb3a3eea9dc2a452e6b4f8d932b43b78989",
+  "width": 1024,
+  "height": 1536,
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "tool": "Codex built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; six-count and preservation checks pass",
+    "input_count_check": {
+      "distinct_braids": 6,
+      "distinct_tails": 6,
+      "distinct_black_elastics": 6,
+      "basis": "visually inspected sole input composite before generation"
+    },
+    "required_output_count": {
+      "distinct_braids": 6,
+      "distinct_tails": 6,
+      "distinct_black_elastics": 6
+    },
+    "output_count_check": {
+      "distinct_braids": 6,
+      "distinct_tails": 6,
+      "distinct_black_elastics": 6,
+      "result": "pass",
+      "basis": "visually counted in the actual native generation result"
+    },
+    "preservation_and_cleanup": "The four outer braids and tails remain distinct; both central braid/tail structures remain separate. Rear head, both ears, neck, shirt, framing, and background are retained. Central strip texture reads more continuous with reduced seam/duplication artifacts.",
+    "observation": "Actual Codex built-in image_gen result inspected at full resolution; dimensions are 1024x1536."
+  }
+}

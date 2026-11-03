@@ -1,0 +1,34 @@
+{
+  "job_id": "expression-C04",
+  "status": "generated",
+  "generation_thread_id": "01a18db5-e84d-7861-b5fe-c246a758d4a3",
+  "source_directory": "/home/declan/.codex/generated_images/01a18db5-e84d-7861-b5fe-c246a758d4a3",
+  "before_source_files": [
+    "exec-9538321f-f4b7-43f4-80c5-5951b1f74bab.png"
+  ],
+  "prompt": "FRAME authored synthetic reference. Job: expression-C04; concept: 오른쪽 입꼬리 미소 도착 상태.\nClass: creative; domain: expression; entry: FS-0028.\nParent entry IDs: [\"GEN-asset-expression-E07\",\"GEN-asset-expression-E00\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Use ONLY the neutral E00 image, never a bilateral-smile reference. Make a small local edit at the IMAGE-LEFT mouth corner (SUBJECT RIGHT): move that corner slightly upward, around eight pixels in the 1024-wide image as an uncalibrated art target. Hold the IMAGE-RIGHT corner at the exact neutral baseline height. Keep mouth center, lip width, brows, eyes, head and identity unchanged. Show clear ONE-sided asymmetry, not a bilateral smile, pucker or mirror flip. No emotion diagnosis.\nCamera / visible region: frontal full face, arrival state B only. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 facial structure, pores, marks, hair, makeup and framing; allow only named action, gaze and the C08 head roll.\nChange only: Lift only the subject-right mouth corner slightly, leaving the subject-left corner close to E00. Keep head frontal and eyes at lens; this asymmetry is not evidence of contempt.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; The specified brow, eye, lip and jaw combination is visible in the single arrival state.; Do not assert emotional diagnosis or a verified transition from a still.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "reference_sha256": [
+    "a9bf81117a682fa947960bf81b0c32d815e095b86a40ae6cb5102f5c7d2bfafb"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "path": "public/generated/frame-assets/expression-C04.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18db5-e84d-7861-b5fe-c246a758d4a3/exec-b99902d8-46fd-42c5-b2e9-7028ba6cfd51.png",
+  "sha256": "76e07d71601c0e1c203dcc66bb0e409aa0d58912d90638416688a4d4ef025206",
+  "width": 1024,
+  "height": 1536,
+  "tool": "Codex built-in image_gen",
+  "model": "not exposed",
+  "prompt_snapshot": "data/asset-production/.history/prompts/expression-C04-native.txt",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Inspected the actual 1024x1536 output against the sole neutral E00 input. The IMAGE-LEFT corner (subject-right) is lifted while the IMAGE-RIGHT corner stays near its neutral baseline; the mouth center and lip width remain close to E00. Identity mark, gaze, frontal pose, crop, hair and lighting remain consistent. No emotion diagnosis."
+  }
+}

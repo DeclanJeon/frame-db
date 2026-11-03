@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-L08-A",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-L08-A.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-e49acced-3dbf-4dd6-af8c-207a62c6e73b.png",
+  "sha256": "9448c810c8cce6b504d04960c144f0871519c199cab905e02fae75c06b5cc276",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L08-A; concept: 주근깨 보존 광대 반사.\nClass: creative; domain: makeup; entry: GEN-asset-makeup-L08-A.\nParent entry IDs: [\"FS-0040\",\"CRAFT-makeup-144e623f091c\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-L08\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-L08\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L08 photograph of identity A. Add only small cheekbone reflection patches without changing the visibility of any freckles actually present in E00, skin coverage or cheek pigment. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown ears chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.\nChange only: Add only small cheekbone reflection patches; preserve the visibility of actual E00 skin marks, coverage and cheek pigment without adding freckles.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Actual E00 skin marks, including any existing freckles, retain positions and visibility; only cheekbone reflectance increases.; Compare against the actual accepted parent input, not a separately invented face.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-L08.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Identity, pore detail, cheek mole and framing match makeup-L08/E00. Small localized cheekbone highlight patches are visible; skin marks remain visible and there are no new freckles."
+  }
+}

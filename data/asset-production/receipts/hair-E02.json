@@ -1,0 +1,20 @@
+{
+  "job_id": "hair-E02",
+  "status": "generated",
+  "path": "public/generated/frame-assets/hair-E02.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-d4242a62-9e03-4684-8f88-479698470575.png",
+  "sha256": "77dafafb770ffc6dfdf31938ab34cd79d53feea2d639a40e0972133002630b95",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E02; concept: 크루 커트.\nClass: base; domain: hair; entry: CRAFT-hair-95f1771af91c.\nParent entry IDs: []\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E01\"]\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Use a short graduated crew cut: the top is longer at the front and becomes shorter toward the crown; neatly blended short sides and nape remain below the top envelope. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Use a short graduated crew cut: the top is longer at the front and becomes shorter toward the crown; neatly blended short sides and nape remain below the top envelope..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Top length decreases toward crown; no long comb-over fringe.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nReference roles: Image 1 (hair-E01.png) is the accepted identity B face and hairline anchor. Preserve face, skin marks, scalp curvature, camera, crop, and lighting; use it as the visual identity anchor.",
+  "reference_paths": [
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "generated; provisional visual pass",
+    "observations": "Viewed the full image at 1024x1536. Identity B face, warm skin tone and cheek mole remain consistent with E01; neutral gray background and gray shirt match. Hair is a compact graduated crew cut with slightly longer front top, shorter crown and blended sides; subject-left ear and nape are visible. One still, no collage or text. Not final parent acceptance."
+  }
+}

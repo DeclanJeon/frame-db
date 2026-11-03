@@ -1,0 +1,884 @@
+{
+  "schema_version": 1,
+  "category_id": "space",
+  "collector": "space-primary-collector-st_01a18b04",
+  "collected_at": "2026-10-30T04:20:06.624698+00:00",
+  "sources": [
+    {
+      "source_id": "ada-2010",
+      "url": "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
+      "title": "2010 ADA Standards for Accessible Design",
+      "publisher": "U.S. Department of Justice",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "§§403.5.1, 403.5.3, 404.2.3; §§603.2.1, 603.3, 606.2; §§810.5.1–810.5.3 (각 예외 포함). 미국 2010 표준의 한정된 치수 참고이며 한국 법규나 모든 세트의 의무 규격으로 일반화하지 않는다.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "U.S. Department of Justice / 2010 ADA Standards for Accessible Design에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "osha-workstation",
+      "url": "https://www.osha.gov/etools/computer-workstations",
+      "title": "eTools: Computer Workstations",
+      "publisher": "Occupational Safety and Health Administration",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Introduction, component/posture goals and final disclaimer: eTools do not create new OSHA requirements.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "Occupational Safety and Health Administration / eTools: Computer Workstations에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "osha-environment",
+      "url": "https://www.osha.gov/etools/computer-workstations/workstation-environment",
+      "title": "eTools: Computer Workstations - Workstation Environment",
+      "publisher": "Occupational Safety and Health Administration",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Environment Quick Tips; Lighting > Possible Solutions, window blinds and reorientation bullets.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "Occupational Safety and Health Administration / eTools: Computer Workstations - Workstation Environment에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nyc-plaza",
+      "url": "https://www.nyc.gov/html/dot/html/pedestrians/nyc-plaza-program.shtml",
+      "title": "Pedestrian Plazas",
+      "publisher": "New York City Department of Transportation",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Opening three paragraphs below Pedestrian Plazas heading.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "New York City Department of Transportation / Pedestrian Plazas에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nyc-open-streets",
+      "url": "https://www.nyc.gov/html/dot/html/pedestrians/openstreets.shtml",
+      "title": "Open Streets",
+      "publisher": "New York City Department of Transportation",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Opening program description; Overview partner list; Full Closure: Schools paragraph.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "New York City Department of Transportation / Open Streets에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nws-twilight",
+      "url": "https://www.weather.gov/lmk/twilight-types",
+      "title": "Twilight Types",
+      "publisher": "National Weather Service, Louisville, KY",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Three Types of Twilight: general definition and Civil Twilight bullet (including absent fog or other restrictions).",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "National Weather Service, Louisville, KY / Twilight Types에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nps-pahayokee",
+      "url": "https://www.nps.gov/ever/planyourvisit/pa-hay-okee-overlook.htm",
+      "title": "Pa-hay-okee Overlook",
+      "publisher": "National Park Service, Everglades National Park",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Trail Length; Trail Description; Wheelchair Accessible. Page updated March 6, 2026.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "National Park Service, Everglades National Park / Pa-hay-okee Overlook에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nps-mori",
+      "url": "https://planning.nps.gov/projectHome.cfm?projectID=51095",
+      "title": "Trail System Accessible Improvements, Mori Point",
+      "publisher": "National Park Service, Golden Gate National Recreation Area",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "ProjectID 51095, two project-description paragraphs. Proposed work, not a completion report; publication date not shown.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "National Park Service, Golden Gate National Recreation Area / Trail System Accessible Improvements, Mori Point에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nps-dingmans",
+      "url": "https://www.nps.gov/dewa/planyourvisit/dingmans-creek-trail.htm",
+      "title": "Dingmans Creek Trail",
+      "publisher": "National Park Service, Delaware Water Gap National Recreation Area",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Closure banner; Basic Details; Trail Desctription. Page updated May 28, 2025. Conflicting .3/.03-mile accessibility statements are not adopted.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "National Park Service, Delaware Water Gap National Recreation Area / Dingmans Creek Trail에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "nps-congaree",
+      "url": "https://www.nps.gov/cong/planyourvisit/trail-information.htm",
+      "title": "Trail Information",
+      "publisher": "National Park Service, Congaree National Park",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "PLEASE READ flooding notice; introductory floodplain paragraph; Boardwalk Trail paragraph. Page updated July 10, 2026; listed conditions are not a site inspection.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "National Park Service, Congaree National Park / Trail Information에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "disney-modeling",
+      "url": "https://www.disneyanimation.com/process/modeling/",
+      "title": "Modeling",
+      "publisher": "Walt Disney Animation Studios",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Opening paragraph; Environment Models; Collaborative Efforts; copyright footer.",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.disneyanimation.com/process/modeling/",
+        "scope": "페이지 하단은 Disney Enterprises의 권리 유보를 명시한다. 공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "Walt Disney Animation Studios / Modeling에 귀속한다. © 2026 Disney Enterprises, Inc. All Rights Reserved."
+      }
+    },
+    {
+      "source_id": "disney-layout",
+      "url": "https://www.disneyanimation.com/process/layout/",
+      "title": "Layout & Final Layout",
+      "publisher": "Walt Disney Animation Studios",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Opening description; The Process; Layout Finaling; copyright footer.",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.disneyanimation.com/process/layout/",
+        "scope": "페이지 하단은 Disney Enterprises의 권리 유보를 명시한다. 공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "Walt Disney Animation Studios / Layout & Final Layout에 귀속한다. © 2026 Disney Enterprises, Inc. All Rights Reserved."
+      }
+    },
+    {
+      "source_id": "procyc-cyc",
+      "url": "https://www.procyc.com/about-pro-cyc/",
+      "title": "About Pro Cyc",
+      "publisher": "Pro Cyc",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "WHAT IS A CYC? and Understanding the Photography Cyclorama Wall & Its Design paragraphs.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "Pro Cyc / About Pro Cyc에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "procyc-white",
+      "url": "https://www.procyc.com/products/cyclorama-white-studio-paint/",
+      "title": "Cyclorama White™ Studio Paint",
+      "publisher": "Pro Cyc",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:06.624698+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Flat White for Seamless Studio Backgrounds; Best for list. Manufacturer description, not independent performance testing.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 텍스트를 짧게 요약하는 근거로만 사용했다. 이미지·영상·도면·모델·전체 본문의 복제, 상업 재배포 및 AI 업로드 허락은 확보하지 않았다. 미디어 취득·검사는 하지 않았다.",
+        "attribution": "Pro Cyc / Cyclorama White™ Studio Paint에 귀속한다. 미디어별 권리자·라이선스와 별도 표시 조건은 미확인이다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "accessible-lavatory-mirror",
+      "title_ko": "세면대와 거울",
+      "subtype": "주거·위생 공간",
+      "summary": "미국 ADA의 세면대·거울 공간 조건을 참고한다. 한국 규격 판정은 아니다.",
+      "facts": [
+        {
+          "field": "회전_공간",
+          "value": "ADA §603은 실내 회전 공간을 요구한다.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§603.2.1 Turning Space",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "세면대_접근",
+          "value": "§606의 일반 규정은 전면 접근과 무릎·발끝 공간을 요구한다(예외 별도).",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§606.2 Clear Floor Space and Exceptions",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "거울_높이",
+          "value": "세면대 위 거울 반사면 하단: 바닥에서 최대 1015 mm.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§603.3 Mirrors",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "세면대",
+        "거울",
+        "공간 구조",
+        "미국 ADA"
+      ],
+      "existing_entry_id": "CRAFT-space-203fd587feba",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "accessible-corridor-door",
+      "title_ko": "긴 복도와 문",
+      "subtype": "실내 동선",
+      "summary": "미국 ADA의 통로·문 치수 참고다. 원래 가이드의 문 간격은 검증하지 않았다.",
+      "facts": [
+        {
+          "field": "통로_폭",
+          "value": "보행면 일반 최소폭은 915 mm이며 축소 예외가 있다.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§403.5.1 Clear Width and Exception",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문_폭",
+          "value": "여닫이문은 90도 개방 상태에서 일반 최소 유효폭 815 mm.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§404.2.3 Clear Width",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "교행_배치",
+          "value": "폭 1525 mm 미만 경로의 교행 공간 간격은 최대 61 m.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§403.5.3 Passing Spaces",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "복도",
+        "문",
+        "공간 구조",
+        "미국 ADA"
+      ],
+      "existing_entry_id": "CRAFT-space-41908e531d77",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "rail-platform-vehicle-interface",
+      "title_ko": "지하철 승강장",
+      "subtype": "교통·승강장",
+      "summary": "미국 ADA의 승강장 경계 참고다. 국내 역이나 화면의 실측값은 아니다.",
+      "facts": [
+        {
+          "field": "경사_조건",
+          "value": "일반 경사 상한은 모든 방향 1:48; 기존 선로 등 평행방향 예외가 있다.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§810.5.1 Slope and Exception",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "경계_표면",
+          "value": "스크린·가드 없는 탑승 가장자리는 공용 구역 전장에 감지 경고면을 둔다.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§810.5.2 Detectable Warnings",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "차량_접속",
+          "value": "역 승강장 위치는 해당 차량과 조정한다.",
+          "evidence": {
+            "source_id": "ada-2010",
+            "locator": "§810.5.3 Platform and Vehicle Floor Coordination",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "승강장",
+        "경계",
+        "공간 구조",
+        "미국 ADA"
+      ],
+      "existing_entry_id": "CRAFT-space-b432a566f581",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "home-computer-workstation",
+      "title_ko": "작은 홈 오피스",
+      "subtype": "주거·작업 공간",
+      "summary": "OSHA 작업대 지침을 홈 오피스 배치의 참고로 연결한다. 특정 방의 치수·책장·문 위치는 미확인이다.",
+      "facts": [
+        {
+          "field": "사용자_맞춤",
+          "value": "모든 사람에게 맞는 단 하나의 자세나 구성요소 배치는 없다고 설명한다.",
+          "evidence": {
+            "source_id": "osha-workstation",
+            "locator": "Introduction: no single correct posture or arrangement",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "환기_배치",
+          "value": "적절한 공기 순환을 유지하고 냉방 토출구 바로 아래 좌석을 피하도록 권한다.",
+          "evidence": {
+            "source_id": "osha-environment",
+            "locator": "Environment Quick Tips: air circulation and air conditioning vents bullets",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "창과_화면",
+          "value": "창에서 들어오는 밝은 빛이 화면과 직각을 이루도록 작업대 방향을 바꾸는 방법을 제시한다.",
+          "evidence": {
+            "source_id": "osha-environment",
+            "locator": "Lighting > Possible Solutions: Reorient the workstation bullet",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "홈 오피스",
+        "창",
+        "이용 목적",
+        "시간·환경 조건"
+      ],
+      "existing_entry_id": "CRAFT-space-d66388ab52ea",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "pedestrian-public-plaza",
+      "title_ko": "보행자 공공 광장",
+      "subtype": "도시·공공 공간",
+      "summary": "NYC DOT가 직접 운영하는 광장 프로그램의 공간 구성과 관리 방식 사례다.",
+      "facts": [
+        {
+          "field": "공간_전환",
+          "value": "기존 거리 공간을 사람들이 모이는 공공 공간으로 바꾼다.",
+          "evidence": {
+            "source_id": "nyc-plaza",
+            "locator": "Opening paragraph: reclaimed streets",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공간_요소",
+          "value": "의자·테이블·파라솔·식재·공공미술·조명 등을 포함할 수 있다.",
+          "evidence": {
+            "source_id": "nyc-plaza",
+            "locator": "Third opening paragraph: amenities",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "운영_주체",
+          "value": "지역 단체와 협력하며 광장 파트너가 운영·관리를 담당한다.",
+          "evidence": {
+            "source_id": "nyc-plaza",
+            "locator": "Second opening paragraph: plaza partners",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "광장",
+        "좌석",
+        "공간 구조",
+        "이용 목적"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "programmed-open-street",
+      "title_ko": "도시 보행자 거리",
+      "subtype": "도시·가로",
+      "summary": "NYC DOT Open Streets를 보행자 거리의 운영 사례로 보강한다. 원래 가이드의 차도·입구 배치는 미검증이다.",
+      "facts": [
+        {
+          "field": "이용_목적",
+          "value": "프로그램은 보행·자전거 이동, 지역 문화 활동과 학교 이용 등을 지원한다.",
+          "evidence": {
+            "source_id": "nyc-open-streets",
+            "locator": "Opening program description",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "운영_참여",
+          "value": "지역 단체·교육기관·상인 집단·종교시설 등이 협력 파트너로 열거된다.",
+          "evidence": {
+            "source_id": "nyc-open-streets",
+            "locator": "Overview: partners list",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "학교앞_조건",
+          "value": "학교형 전면 폐쇄는 차량을 일시 통제해 교문 앞을 야외 학습·점심·행사 등의 공간으로 쓴다.",
+          "evidence": {
+            "source_id": "nyc-open-streets",
+            "locator": "Types of Open Streets > Full Closure: Schools",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "보행자 거리",
+        "차량 통제",
+        "이용 목적"
+      ],
+      "existing_entry_id": "CRAFT-space-20468a43d85e",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "urban-civil-twilight-street",
+      "title_ko": "도시의 저녁 거리",
+      "subtype": "도시·시간 조건",
+      "summary": "NWS의 시민박명 정의로 저녁 거리의 환경 조건을 보강한다. 가로등·도시 배치와 현장 밝기는 미측정이다.",
+      "facts": [
+        {
+          "field": "박명_정의",
+          "value": "일출 전·일몰 후 대기가 태양에 부분적으로 밝아지는 시간이다.",
+          "evidence": {
+            "source_id": "nws-twilight",
+            "locator": "Three Types of Twilight: introductory paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "저녁_경계",
+          "value": "저녁 시민박명은 일몰부터 태양의 기하학적 중심이 지평선 아래 6도에 이를 때까지다.",
+          "evidence": {
+            "source_id": "nws-twilight",
+            "locator": "Civil Twilight: evening begins at sunset and ends at 6 degrees",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가시성_제약",
+          "value": "안개 등 시야 제한이 없으면 지평선·지상 물체가 보이며 많은 경우 인공조명이 필요하지 않다고 설명한다.",
+          "evidence": {
+            "source_id": "nws-twilight",
+            "locator": "Civil Twilight: absent fog or other restrictions clause",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "저녁",
+        "박명",
+        "시간·환경 조건"
+      ],
+      "existing_entry_id": "FS-0121",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "wetland-observation-boardwalk",
+      "title_ko": "Pa-hay-okee 습지 전망 보드워크",
+      "subtype": "자연·습지 전망 시설",
+      "summary": "NPS의 Pa-hay-okee 장소 설명에 근거한 실제 습지 전망 시설 사례다. 일반 공원길 가이드와는 구별한다.",
+      "facts": [
+        {
+          "field": "공간_구조",
+          "value": "보드워크 순환로에 높인 전망 플랫폼이 놓인다.",
+          "evidence": {
+            "source_id": "nps-pahayokee",
+            "locator": "Trail Description",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "배경_조망",
+          "value": "플랫폼에서 풀의 강이라 불리는 경관을 넓게 바라보도록 설명한다.",
+          "evidence": {
+            "source_id": "nps-pahayokee",
+            "locator": "Trail Description: river of grass vistas",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "왕복_거리",
+          "value": "페이지가 안내하는 왕복 거리는 0.16마일(260 m)이다.",
+          "evidence": {
+            "source_id": "nps-pahayokee",
+            "locator": "Trail Length",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "습지",
+        "전망대",
+        "공간 구조",
+        "깊이·배경"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "accessible-coastal-trail",
+      "title_ko": "Mori Point 해안길 접근성 개선 계획",
+      "subtype": "자연·해안 계획 사례",
+      "summary": "NPS의 Mori Point 계획 문서를 요약한다. 공사 완료·현장 접근 가능성을 확인한 기록이 아니다.",
+      "facts": [
+        {
+          "field": "대상_구간",
+          "value": "Old Mori Road와 Mori Coastal Trails의 약 1600피트 구간을 개선 대상으로 제안한다.",
+          "evidence": {
+            "source_id": "nps-mori",
+            "locator": "Project description, first paragraph, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "기존_표면",
+          "value": "문서는 기존 노면이 대체로 느슨하고 불안정하며 접근성 횡단경사 기준을 충족하지 않는다고 설명한다.",
+          "evidence": {
+            "source_id": "nps-mori",
+            "locator": "Project description, first paragraph, second sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "계획_내용",
+          "value": "재포장·배수 개선·침식 저감을 계획한다.",
+          "evidence": {
+            "source_id": "nps-mori",
+            "locator": "Project description, first paragraph, final sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "해안길",
+        "노면",
+        "공간 구조",
+        "시간·환경 조건",
+        "계획 문서"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "forest-waterfall-boardwalk",
+      "title_ko": "Dingmans Creek 숲속 폭포 보드워크",
+      "subtype": "자연·폭포 탐방 시설",
+      "summary": "NPS의 숲·폭포 동선 사례다. 접근거리 .3/.03마일 표기가 충돌해 채택하지 않았고, 폐쇄 공지를 함께 남긴다.",
+      "facts": [
+        {
+          "field": "숲_환경",
+          "value": "보드워크는 진달래류 관목에 둘러싸이고 헴록·활엽수 수관 아래를 지난다.",
+          "evidence": {
+            "source_id": "nps-dingmans",
+            "locator": "Trail Desctription: first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "동선_목적지",
+          "value": "길은 Silverthread Falls와 Dingmans Falls 두 폭포로 이어진다.",
+          "evidence": {
+            "source_id": "nps-dingmans",
+            "locator": "Trail Desctription: second sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "편도_길이",
+          "value": "Basic Details가 안내하는 길이는 편도 0.4마일이다.",
+          "evidence": {
+            "source_id": "nps-dingmans",
+            "locator": "Basic Details: Trail Length",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "이용_공지",
+          "value": "확인한 페이지는 교량 교체·탐방로 재건으로 2025-05-12부터 보행·차량·자전거 통행 금지를 공지한다. 이후 현장 재개방 여부는 미확인이다.",
+          "evidence": {
+            "source_id": "nps-dingmans",
+            "locator": "Closure banner above Basic Details; page last updated May 28, 2025",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "숲",
+        "폭포",
+        "깊이·배경",
+        "시간·환경 조건"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "congaree-floodplain-boardwalk",
+      "title_ko": "Congaree 범람원 숲 보드워크",
+      "subtype": "자연·범람원 시설",
+      "summary": "NPS의 Congaree 보드워크를 범람원 숲 공간 사례로 기록한다. 일반 호숫가와 동일 개념으로 연결하지 않는다.",
+      "facts": [
+        {
+          "field": "공간_구조",
+          "value": "방문자센터 언덕에서 시작하는 고가 구간이 오래된 저지대 활엽수림으로 이어진다.",
+          "evidence": {
+            "source_id": "nps-congaree",
+            "locator": "Boardwalk Trail paragraph: bluff to old-growth bottomland hardwood forest",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "경로_거리",
+          "value": "안내된 왕복 거리는 약 2.6마일이며 거리는 통행 가능 상태를 전제로 한다.",
+          "evidence": {
+            "source_id": "nps-congaree",
+            "locator": "Park Trails preamble and Boardwalk Trail: Round Trip Distance",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "환경_조건",
+          "value": "안내문은 고가 보드워크 등 일부 예외를 제외한 탐방로의 주기적 침수를 경고하며 매번 페이지에 반영되지는 않는다고 밝힌다.",
+          "evidence": {
+            "source_id": "nps-congaree",
+            "locator": "PLEASE READ: flooding notice",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "범람원",
+        "고가 통로",
+        "공간 구조",
+        "깊이·배경",
+        "시간·환경 조건"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "environment-model-assembly",
+      "title_ko": "환경 모델 조립",
+      "subtype": "세트·환경 모델링",
+      "summary": "Disney Animation이 설명한 환경 제작 공정이다. 실제 촬영 세트의 실측·파일 제공을 뜻하지 않는다.",
+      "facts": [
+        {
+          "field": "환경_구성",
+          "value": "자연 지형·건축·식생·차량·소품 모델이 환경 구성 요소로 제시된다.",
+          "evidence": {
+            "source_id": "disney-modeling",
+            "locator": "Environment Models",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "제작_입력",
+          "value": "모델링 팀은 비주얼 개발 아티스트의 콘셉트 아트를 캐릭터와 화면 속 세계로 옮긴다.",
+          "evidence": {
+            "source_id": "disney-modeling",
+            "locator": "Opening paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공간_인계",
+          "value": "환경 모델러는 Visual Development·Layout·Look Development 부서와 협업한다.",
+          "evidence": {
+            "source_id": "disney-modeling",
+            "locator": "Collaborative Efforts: Environment Modelers sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "환경 모델링",
+        "세트",
+        "공간 구조",
+        "이용 목적"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "virtual-set-layout-staging",
+      "title_ko": "가상 세트 레이아웃과 스테이징",
+      "subtype": "세트·레이아웃",
+      "summary": "Disney Animation은 레이아웃에서 모델링 에셋으로 보드의 첫 3D 장면을 구성하고 최종 공간 연속성을 다듬는다고 설명한다.",
+      "facts": [
+        {
+          "field": "입력_구조",
+          "value": "편집자가 영화 형태로 엮은 스토리보드를 전달받아 캐릭터·세트·소품으로 첫 3D 표현을 만든다.",
+          "evidence": {
+            "source_id": "disney-layout",
+            "locator": "The Process: first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "초기_세트",
+          "value": "기존 에셋이 없을 때 초기 단계에서 자체 세트·소품을 모델링하고 임시 효과·조명을 놓기도 한다.",
+          "evidence": {
+            "source_id": "disney-layout",
+            "locator": "The Process: second paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "공간_연속성",
+          "value": "애니메이션 이후 Layout Finaling에서 세트 구도와 연속성을 완성하고 주변 샷과의 연결을 확정한다.",
+          "evidence": {
+            "source_id": "disney-layout",
+            "locator": "Layout Finaling",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "레이아웃",
+        "가상 세트",
+        "공간 구조",
+        "깊이·배경"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "white-cyclorama",
+      "title_ko": "화이트 사이클로라마",
+      "subtype": "스튜디오·연속 배경",
+      "summary": "Pro Cyc의 배경 구조 설명과 백색 도료 용도에 근거한다. 제조사 설명이며 개별 세트의 그림자·성능을 관찰한 것은 아니다.",
+      "facts": [
+        {
+          "field": "배경_구조",
+          "value": "사이클로라마는 곡면 벽을 이용해 끝없는 공간처럼 보이게 하는 사진·영상 배경이다.",
+          "evidence": {
+            "source_id": "procyc-cyc",
+            "locator": "WHAT IS A CYC?",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "경계_연결",
+          "value": "코브라는 곡면 부재가 벽·바닥 등의 직각 교차부를 잇는다.",
+          "evidence": {
+            "source_id": "procyc-cyc",
+            "locator": "Understanding the Photography Cyclorama Wall & Its Design: coves",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "백색_표면",
+          "value": "제조사는 Cyclorama White를 연속 백색 배경용 초무광 백색 도료로 설명한다.",
+          "evidence": {
+            "source_id": "procyc-white",
+            "locator": "Flat White for Seamless Studio Backgrounds; Product details",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "이용_목적",
+          "value": "해당 도료의 용도로 하이키 사진·영상, 제품 촬영·전자상거래 스튜디오 등을 열거한다.",
+          "evidence": {
+            "source_id": "procyc-white",
+            "locator": "Best for",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "화이트",
+        "사이클로라마",
+        "공간 구조",
+        "깊이·배경",
+        "이용 목적"
+      ],
+      "existing_entry_id": "CRAFT-space-90d9c62ee10f",
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": "실제 본문을 재열람해 지지되는 14개 개념만 남겼다(목표 20개 대비 6개 부족). 기존 초안의 접근 불가 UFC·교통 진정 자료, 중복 작업대 변형 및 근거가 부정확한 항목은 채택하지 않았다. NPS의 막힌 주소는 읽을 수 있는 공식 대체 페이지로 교체했다. 수치·이용 조건을 수정하고 한 페이지 재서술량을 제한했으며, 특정 공원 사례를 일반 공원·호숫가 가이드와 같은 항목으로 강제 연결하지 않았다. 추가 세트 유형은 각각 3개 사실의 원문 검증이 끝나지 않아 채우지 않았다."
+}

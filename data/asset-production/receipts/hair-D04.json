@@ -1,0 +1,29 @@
+{
+  "job_id": "hair-D04",
+  "status": "generated",
+  "generation_thread_id": "01a18d6d-4875-7853-a70e-99dda2a16655",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d6d-4875-7853-a70e-99dda2a16655",
+  "before_source_files": [],
+  "path": "public/generated/frame-assets/hair-D04.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d6d-4875-7853-a70e-99dda2a16655/exec-40fbcf09-1530-4a26-9757-88c9030a816e.png",
+  "sha256": "01c4de9e2e5ff7d4fc933488736e1dcfcc25c84af8f9c2ee0d2bc7402602918a",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-D04-left-pin-camera-native.txt",
+  "prompt": "Create one photorealistic, single-frame diagnostic reference photograph of the same fictional adult woman, identity A, using the actual accepted expression-E00 image as the only visual reference and identity anchor. Preserve her facial proportions, medium warm-brown skin, dark-brown eyes, natural asymmetry, and the existing small mole on her subject-left cheek. Keep her dark hair and natural hairline realistic.\n\nHair: one sleek, smooth low chignon gathered into a single compact knot at the nape. The complete knot is visible. Place exactly one small, simple dark hair pin immediately behind the same visible subject-left ear, close beside the knot. No other pins, clips, jewelry, loose tail, or loose temple wisps.\n\nCamera and laterality are critical: a close side three-quarter view from the subject's LEFT side. Her nose points toward IMAGE LEFT. Show her actual subject-left cheek and its mole, and show her actual LEFT EAR on IMAGE RIGHT, with that ear fully visible. The single pin must sit just behind that same visible left ear, also on image-right, beside the low nape knot. Keep the nose/face in the left part of frame and the visible ear, pin, and knot in the right/back part of frame. This is a left-side view, not a right-side view. Preserve the subject's actual anatomy and orientation; do not mirror or flip the image.\n\nFrame the full ear, pin, and entire knot with clear margin; include enough face to verify the subject-left cheek mole. Matte neutral-gray studio background, plain gray top, broad soft neutral light, fixed neutral white balance and exposure. One view only, no collage, labels, text, watermark, extra accessories, extra pins, or invented facial marks. Output PNG, 1024 x 1536.",
+  "requested_dimensions": {
+    "format": "png",
+    "width": 1024,
+    "height": 1536
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "worker",
+    "provisional_decision": "accept",
+    "observations": "Actual subject-left cheek mole is visible and the nose points toward image-left. The actual left ear is fully visible on image-right; exactly one small dark pin sits behind that same ear beside one fully visible smooth low nape knot. No right-side pin, extra pin, loose tail, or mirror flip is visible. Matte gray background and top with soft neutral studio lighting. Image is 1024 x 1536."
+  }
+}

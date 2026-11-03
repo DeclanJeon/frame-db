@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "category_id": "sound",
+  "collector": "omo-sound-collector-st_01a18b25",
+  "collected_at": "2026-10-30T05:03:03.758Z",
+  "sources": [
+    {
+      "source_id": "columbia-diegetic",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/diegetic-sound/",
+      "title": "Columbia Film Language Glossary: Diegetic Sound",
+      "publisher": "Columbia University, Center for Teaching and Learning",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "용어 제목 아래 정의 문단. 영화 클립과 Richard Peña의 해설은 재생하지 않음.",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "About의 Copyrights and Permissions는 교육·학술 목적 외 이용을 승인하지 않는다고 명시한다. 이 배치는 짧은 사실 메타데이터와 출처 링크만 기록한다. 영화 클립·해설·캡처의 재배포나 상업 이용 허락은 확보하지 않았다.",
+        "attribution": "Columbia University와 원문 URL을 유지한다. 클립의 별도 배급 출처는 MGM Home Entertainment이며, 해설자 Richard Peña를 정의 문단의 단독 저자로 추정하지 않는다."
+      }
+    },
+    {
+      "source_id": "columbia-nondiegetic",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/non-diegetic-sound/",
+      "title": "Columbia Film Language Glossary: Non-Diegetic Sound",
+      "publisher": "Columbia University, Center for Teaching and Learning",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "용어 제목 아래 정의 문단. Lawrence of Arabia 클립은 재생하지 않음.",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "About의 Copyrights and Permissions는 교육·학술 목적 외 이용을 승인하지 않는다고 명시한다. 짧은 사실 정리와 링크에 한정하며, 영화 클립·음악·해설의 재배포 허락은 확보하지 않았다.",
+        "attribution": "Columbia University와 원문 URL을 유지한다. 페이지의 영화 배급 출처 Columbia TriStar Home Video를 대학 텍스트의 저작자와 혼동하지 않는다."
+      }
+    },
+    {
+      "source_id": "adobe-sfx",
+      "url": "https://www.adobe.com/creativecloud/video/discover/sfx-for-video.html",
+      "title": "How to add sound effects to videos.",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Types of sound effects의 번호 1~4 및 Other styles of sound effects의 Glitch 항목.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문을 읽었으나 기사·이미지·예제 음원의 복제·재배포 허락은 확인하지 않았다. 문서의 무료·royalty-free 자료 소개를 개별 파일의 이용 허락으로 전사하지 않는다. 미디어 취득·재생 없음.",
+        "attribution": "Adobe와 원문 URL 기록. 개별 저자 및 미디어별 추가 크레딧·라이선스 의무 미확인."
+      }
+    },
+    {
+      "source_id": "adobe-cuts",
+      "url": "https://www.adobe.com/creativecloud/video/post-production/cuts-in-film",
+      "title": "Explore different types of cuts in film with Adobe Premiere.",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "J cuts and L cuts using sound transition의 세 문단; How to use different types of cuts in film effectively의 대화 편집 항목.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문만 열람. 기사·이미지·영상 예제의 복제·재배포·상업 이용 허락 미확인. 예제 영상 재생이나 미디어 취득 없음.",
+        "attribution": "Adobe와 원문 URL 기록. 기사 개별 저자와 예제별 추가 권리 조건 미확인."
+      }
+    },
+    {
+      "source_id": "izotope-roomtone",
+      "url": "https://www.izotope.com/community/blog/basics-of-room-tone-audio-editing",
+      "title": "The Basics of Room Tone in Audio Editing",
+      "publisher": "iZotope",
+      "authors": ["Nick Messitte"],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "2021-10-13 기사. What is room tone? 및 Why is it important to consider room tone in music/dialogue editing?; How do you use room tone to your advantage?의 두 방 녹음 사례 설명.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 기사 텍스트만 확인. 내장 SoundCloud·Spotify 예제의 청취·취득·재배포 없음. 기사와 예제 음원의 재사용 허락 미확인. 과거 RX 버전 언급을 현재 제품 검증으로 보지 않는다.",
+        "attribution": "Nick Messitte, iZotope, 원문 URL과 발행일 기록. 예제 작품과 음원의 추가 권리 조건 미확인."
+      }
+    },
+    {
+      "source_id": "adobe-ducking",
+      "url": "https://helpx.adobe.com/lt/premiere-pro/how-to/automatic-audio-ducking.html",
+      "title": "Automatic audio ducking",
+      "publisher": "Adobe",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "영어로 제공된 본문: What you learned; Ducking settings; Generate keyframes; Adjust keyframes. /lt/ 경로의 인터페이스 일부는 리투아니아어.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 튜토리얼 본문만 확인. 동영상과 ZIP 실습 파일은 재생·다운로드하지 않았다. 본문·실습 파일·영상의 재배포 허락 및 현재 설치 버전에서의 동작은 미확인.",
+        "attribution": "Adobe와 실제 열람한 /lt/ 원문 URL 기록. 개별 저자와 실습 미디어별 라이선스 미확인."
+      }
+    },
+    {
+      "source_id": "izotope-matching",
+      "url": "https://s3.amazonaws.com/izotopedownloads/docs/dialogue-match/en/matching-dialogue/index.html",
+      "title": "Matching Dialogue - Dialogue Match Help Documentation",
+      "publisher": "iZotope",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Dialogue Match 1.0.0, ©2019. Creating a Match의 단계 1~3 및 Match with a Dry Apply To Profile.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 공식 문서가 링크한 배포 호스트의 공개 본문. 소프트웨어나 샘플을 취득·실행하지 않았다. 문서·스크린샷·음원 재사용 허락 미확인. 1.0.0 문서의 설명이며 현행 판매·지원 여부를 뜻하지 않는다.",
+        "attribution": "iZotope, Dialogue Match 1.0.0, 2019 및 원문 URL 기록. 문서·미디어별 추가 이용 조건 미확인."
+      }
+    },
+    {
+      "source_id": "izotope-reverb",
+      "url": "https://s3.amazonaws.com/izotopedownloads/docs/dialogue-match/en/reverb/index.html",
+      "title": "Reverb - Dialogue Match Help Documentation",
+      "publisher": "iZotope",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Dialogue Match 1.0.0, ©2019. Overview 및 Advanced View > Reverb parameters > Reverb Tail의 Time 행.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 문서에서 연결된 공개 배포 본문만 확인. 문서·스크린샷·음원의 복제·재배포 허락 미확인. 예제 재생·소프트웨어 실행 없음. 과거 1.0.0 문서의 기능 설명으로 한정한다.",
+        "attribution": "iZotope, Dialogue Match 1.0.0, 2019 및 원문 URL 기록. 추가 이용 조건 미확인."
+      }
+    },
+    {
+      "source_id": "shure-recording",
+      "url": "https://www.shure.com/damfiles/default/global/documents/publications/en/performance-production/microphone_techniques_for_recording_english.pdf-bb0469316afdb6118691d2f3f5e3ff01.pdf",
+      "title": "Microphone Techniques for Recording",
+      "publisher": "Shure Incorporated",
+      "authors": ["Gino Sigismondi", "Rick Waller", "Tim Vear"],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "인쇄 p.29(PDF 29번째 쪽) Sound Transmission > Reflection; 인쇄 p.34 Glossary > Echo; 인쇄 p.39 About the Authors.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 공개 PDF의 텍스트를 읽었다. 무료 배포 안내를 FRAME_DB의 PDF·도표·사진 재배포 허락으로 확장하지 않는다. 음원 취득·청취·측정 없음.",
+        "attribution": "Shure Incorporated와 저자 3명 및 쪽수·원문 URL 기록. 재배포에 필요한 허락과 개별 사진 크레딧 조건 미확인."
+      }
+    },
+    {
+      "source_id": "ni-subtractive",
+      "url": "https://www.native-instruments.com/blogs/blog/subtractive-synthesis",
+      "title": "What is subtractive synthesis?",
+      "publisher": "Native Instruments",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "화면 표시일 2023-03-01. 합성 정의의 첫 두 문단; How does a subtractive synthesizer work? > Envelopes > Attack, Decay, Sustain, Release.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 공개 본문만 확인했다. 화면 표시일은 2023-03-01이나 구조화 데이터의 발행일은 2026-10-18, 수정일은 2023-03-01로 충돌해 발행일을 확정하지 않는다. 기사·도표·음악의 재배포 허락 미확인. 소프트웨어 실행이나 음원 청취·취득 없음.",
+        "attribution": "Native Instruments와 원문 URL 기록. 페이지의 작성자 표시는 Native Instruments이며 개인 필자는 확인되지 않는다. 제3자 음원별 권리 의무 미확인."
+      }
+    },
+    {
+      "source_id": "yamaha-bartok",
+      "url": "https://hub.yamaha.com/strings/s-how-to/eight-spooky-string-techniques/",
+      "title": "Eight Spooky String Techniques",
+      "publisher": "Yamaha",
+      "authors": ["Jenelle Spencer"],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "2025-10-20 기사, 번호 2 THE BARTOK SNAP 문단.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 교육 본문의 연주법 설명만 확인. 링크된 YouTube 영상은 재생·취득하지 않았다. 기사·사진·연주 영상·음원의 재배포 허락 미확인.",
+        "attribution": "Jenelle Spencer, Yamaha, 발행일 및 원문 URL 기록. 링크된 연주 사례의 별도 권리 의무 미확인."
+      }
+    },
+    {
+      "source_id": "audacity-noise",
+      "url": "https://www.audacityteam.org/manual/generators/noise/",
+      "title": "Noise | Audacity Manual",
+      "publisher": "Audacity / Muse Group & contributors",
+      "authors": [],
+      "checked_at": "2026-10-30T05:03:03.758Z",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Generators > Noise의 소개, Controls, Notes. 페이지 갱신 표시 2026-10-29.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공식 공개 매뉴얼 본문만 확인. 프로그램의 오픈소스 여부에서 문서·스크린샷·오디오 재배포 권리를 추론하지 않는다. 노이즈 생성·청취·측정 없음; 생성물 권리 조건도 검증하지 않았다.",
+        "attribution": "Audacity / Muse Group & contributors와 원문 URL·문서 갱신일 기록. 개별 문서 저자 및 재사용 조건 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "diegetic-sound",
+      "title_ko": "이야기 세계 안의 소리",
+      "subtype": "서사적 소리 분류",
+      "summary": "Columbia는 소리의 이야기 내부 기원을 기준으로 다이에제틱 사운드를 설명한다.",
+      "facts": [
+        {"field": "기원", "value": "영화의 이야기 세계에서 발생하는 소리다.", "evidence": {"source_id": "columbia-diegetic", "locator": "정의 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "음성·사물 범위", "value": "등장인물의 목소리와 이야기 속 사물의 소리가 포함된다.", "evidence": {"source_id": "columbia-diegetic", "locator": "정의 문단 두 번째 문장의 예시", "kind": "source_claim"}},
+        {"field": "음악의 조건", "value": "이야기 안의 라디오나 악기에서 나오는 음악도 해당한다.", "evidence": {"source_id": "columbia-diegetic", "locator": "정의 문단의 라디오·악기 예시", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["서사", "소리 출처"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "non-diegetic-sound",
+      "title_ko": "이야기 세계 밖의 소리",
+      "subtype": "서사적 소리 분류",
+      "summary": "Columbia는 이야기 외부에서 기원하는 소리를 논다이에제틱으로 구분한다.",
+      "facts": [
+        {"field": "기원", "value": "이야기 세계 밖에서 기원하는 소리다.", "evidence": {"source_id": "columbia-nondiegetic", "locator": "정의 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "내레이션 관계", "value": "이야기 세계에 나타나지 않는 내레이션은 통상 이 범주다.", "evidence": {"source_id": "columbia-nondiegetic", "locator": "정의 문단 두 번째 문장", "kind": "source_claim"}},
+        {"field": "음악 관계", "value": "영화의 음악 트랙은 보통 이 범주로 설명된다.", "evidence": {"source_id": "columbia-nondiegetic", "locator": "정의 문단 마지막 문장; Usually 한정", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["서사", "배경음악"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "isolated-sound-effects",
+      "title_ko": "개별 일상 효과음",
+      "subtype": "효과음 유형",
+      "summary": "Adobe의 일상 소음 효과음 분류다.",
+      "facts": [
+        {"field": "대상", "value": "일상에서 듣는 소음.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 1", "kind": "source_claim"}},
+        {"field": "예시", "value": "경적·개 짖음·착암기.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 1 예시", "kind": "source_claim"}},
+        {"field": "조달 설명", "value": "효과음 라이브러리에서 통상 찾기 쉽다.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 1 라이브러리 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["효과음", "일상 소음"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "specialty-sound-effects",
+      "title_ko": "특수 창작 효과음",
+      "subtype": "효과음 유형",
+      "summary": "Adobe의 작품별 창작 효과음 분류다.",
+      "facts": [
+        {"field": "제작 범위", "value": "특정 작품을 위해 새로 만든다.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 2 첫 문장", "kind": "source_claim"}},
+        {"field": "주요 장르", "value": "판타지·공상과학에서 자주 사용된다.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 2 장르 설명", "kind": "source_claim"}},
+        {"field": "가상 음원 예시", "value": "용의 포효·광선검 소리.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 2 현실에 없는 소리 예시", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["효과음", "가상 음원"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "environmental-ambience",
+      "title_ko": "환경 배경음",
+      "subtype": "앰비언스",
+      "summary": "Adobe는 환경별 배경음을 앰비언스로 분류한다.",
+      "facts": [
+        {"field": "역할", "value": "주어진 환경의 배경 소리.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 4 첫 문장", "kind": "source_claim"}},
+        {"field": "공간 차이", "value": "거리·숲·사무실마다 배경음이 다르다.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 4 공간 예시", "kind": "source_claim"}},
+        {"field": "부재의 효과", "value": "없으면 장면이 부자연스러울 수 있다.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 4 장면의 자연스러움 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["환경음", "공간"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "glitch-sound-effects",
+      "title_ko": "글리치 효과음",
+      "subtype": "효과음 유형",
+      "summary": "Adobe는 기술 오작동 모사를 글리치로 설명한다.",
+      "facts": [
+        {"field": "모사 대상", "value": "오작동하는 기술 장치.", "evidence": {"source_id": "adobe-sfx", "locator": "기타 스타일의 Glitch 항목 첫 절", "kind": "source_claim"}},
+        {"field": "시간적 단절 예시", "value": "레코드·CD의 재생 튐.", "evidence": {"source_id": "adobe-sfx", "locator": "기타 스타일의 Glitch 항목 skipping 예시", "kind": "source_claim"}},
+        {"field": "표현 기능", "value": "녹음의 손상·열화를 암시한다.", "evidence": {"source_id": "adobe-sfx", "locator": "기타 스타일의 Glitch 항목 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["효과음", "오작동"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "foley-sound",
+      "title_ko": "화면 동작에 맞춘 폴리",
+      "subtype": "폴리",
+      "summary": "Adobe는 동작 동기화 녹음을 폴리로 설명한다.",
+      "facts": [
+        {"field": "시간 관계", "value": "화면 동작에 소리를 맞춘다.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 3 동기화 설명", "kind": "source_claim"}},
+        {"field": "녹음 예시", "value": "자갈 걷기를 직접 재현해 녹음한다.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 3 자갈 발걸음 예시", "kind": "source_claim"}},
+        {"field": "명칭 유래", "value": "초기 효과음 제작자 Jack Foley.", "evidence": {"source_id": "adobe-sfx", "locator": "소리 유형 번호 3 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["폴리", "동기화"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "j-cut-audio-lead",
+      "title_ko": "J컷으로 다음 공간 예고",
+      "subtype": "오디오 전환",
+      "summary": "Adobe는 다음 샷의 소리를 먼저 겹치는 J컷을 설명한다. 기존 공간 예고 가이드에 시간 관계의 근거를 보강한다.",
+      "facts": [
+        {"field": "시간 관계", "value": "다음 샷의 오디오를 현재 샷에서 먼저 듣는다.", "evidence": {"source_id": "adobe-cuts", "locator": "J/L 소리 전환 절의 세 번째 문단, J컷 정의", "kind": "source_claim"}},
+        {"field": "명칭 기준", "value": "편집에서 오디오와 비디오 트랙이 겹치는 모양에서 이름을 얻는다.", "evidence": {"source_id": "adobe-cuts", "locator": "J/L 소리 전환 절의 세 번째 문단, 트랙 모양 설명", "kind": "source_claim"}},
+        {"field": "장면 연결 예시", "value": "달리는 인물 화면에 기차 기적을 먼저 놓고 기차 화면으로 전환해 두 샷을 연결한다.", "evidence": {"source_id": "adobe-cuts", "locator": "J/L 소리 전환 절의 두 번째 문단, 열차 예시", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["J컷", "오디오 선행"],
+      "existing_entry_id": "CRAFT-sound-eed5b2f3dcec",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "l-cut-audio-carryover",
+      "title_ko": "L컷으로 감정 이어가기",
+      "subtype": "오디오 전환",
+      "summary": "Adobe는 앞 샷의 소리가 다음 샷에 남는 L컷을 설명한다. 감정 효과를 측정한 결과가 아닌 편집 원리다.",
+      "facts": [
+        {"field": "시간 관계", "value": "앞 샷의 소리가 다음 샷 위로 이어진다.", "evidence": {"source_id": "adobe-cuts", "locator": "J/L 소리 전환 절의 세 번째 문단, L컷 정의", "kind": "source_claim"}},
+        {"field": "명칭 기준", "value": "오디오·비디오 트랙의 겹침 모양을 가리킨다.", "evidence": {"source_id": "adobe-cuts", "locator": "J/L 소리 전환 절의 세 번째 문단, 공통 명칭 설명", "kind": "source_claim"}},
+        {"field": "대화 적용", "value": "Adobe는 J/L컷의 장면 간 오디오 겹침을 자연스러운 대화 흐름에 활용하도록 설명한다.", "evidence": {"source_id": "adobe-cuts", "locator": "효과적 컷 사용 절의 대화용 J/L컷 항목", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["L컷", "오디오 지속"],
+      "existing_entry_id": "CRAFT-sound-f9a2aee1aaed",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "replacement-dialogue-roomtone-match",
+      "title_ko": "음성 교체부 룸톤 매칭",
+      "subtype": "오디오 수정",
+      "summary": "Nick Messitte는 다른 장소에서 녹음한 구절에 원래 장소의 룸톤을 더하는 방법을 설명한다. 내장 음원은 청취하지 않았다.",
+      "facts": [
+        {"field": "환경 구성", "value": "룸톤은 공간의 재료와 기존 배경 소음의 영향을 받는 녹음 환경의 자연 소음이다.", "evidence": {"source_id": "izotope-roomtone", "locator": "What is room tone? 첫 두 문단", "kind": "source_claim"}},
+        {"field": "편집 문제", "value": "룸톤이 갑자기 사라지면 인위적인 편집을 알아차리기 쉽다고 설명한다.", "evidence": {"source_id": "izotope-roomtone", "locator": "Why is it important to consider room tone in music/dialogue editing? 첫 설명 문단", "kind": "source_claim"}},
+        {"field": "매칭 방법", "value": "다른 세션의 녹음 아래 원래 장소의 룸톤을 놓아 편집 차이를 감추는 방법을 제시한다.", "evidence": {"source_id": "izotope-roomtone", "locator": "What is room tone? 마지막 문단 및 다음 절의 룸톤 레이어 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["룸톤", "교체 대사", "환경 연속성"],
+      "existing_entry_id": "CRAFT-sound-ee279dbc08f6",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "dialogue-priority-mix",
+      "title_ko": "대사 우선 믹스",
+      "subtype": "믹스",
+      "summary": "Adobe의 공개 튜토리얼은 대사 구간에서 배경 음악을 낮추는 덕킹을 설명한다. 기존 믹스 가이드에 이 구체적인 방법을 보강한다.",
+      "facts": [
+        {"field": "기능", "value": "대사 중 음악 음량을 자동으로 낮추도록 키프레임을 만든다.", "evidence": {"source_id": "adobe-ducking", "locator": "What you learned 설명과 Generate keyframes", "kind": "source_claim"}},
+        {"field": "감쇠 조건", "value": "덕킹을 유발할 오디오 종류와 반응 민감도, 음량 감소량을 정할 수 있다.", "evidence": {"source_id": "adobe-ducking", "locator": "Ducking settings의 첫 세 항목", "kind": "source_claim"}},
+        {"field": "시간 변화", "value": "음량 단계 사이 페이드 길이를 설정하고 생성된 키프레임을 수동 조정할 수 있다.", "evidence": {"source_id": "adobe-ducking", "locator": "Ducking settings의 마지막 항목 및 Adjust keyframes 첫 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["믹스", "대사", "덕킹"],
+      "existing_entry_id": "CRAFT-sound-4f9787964252",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "reverberant-space-continuity",
+      "title_ko": "공간 잔향의 연속성",
+      "subtype": "믹스",
+      "summary": "iZotope의 Dialogue Match 1.0.0 문서는 기준 대사의 잔향 공간을 다른 녹음에 맞추는 방식을 설명한다. 소프트웨어 실행이나 매칭 결과 검증은 하지 않았다.",
+      "facts": [
+        {"field": "매칭 기준", "value": "기준 녹음과 적용할 녹음의 프로파일을 수집해 EQ·잔향·환경음을 비교하고 처리한다.", "evidence": {"source_id": "izotope-matching", "locator": "Creating a Match 단계 1~3", "kind": "source_claim"}},
+        {"field": "적용 한계", "value": "문서는 건조한 적용 대상과 잔향 있는 기준의 조합이 유리하며, 처리가 잔향을 제거하지 않고 더하기만 한다고 명시한다.", "evidence": {"source_id": "izotope-matching", "locator": "Match with a Dry Apply To Profile", "kind": "source_claim"}},
+        {"field": "감쇠 시간 조절", "value": "Reverb Tail의 Time은 잔향 꼬리 감쇠 시간을 밀리초 단위로 조절한다.", "evidence": {"source_id": "izotope-reverb", "locator": "Advanced View > Reverb parameters > Reverb Tail 표의 Time 행", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["잔향", "공간 연속성", "기준 매칭"],
+      "existing_entry_id": "CRAFT-sound-ed186e9af69e",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "acoustic-echo",
+      "title_ko": "반사에 의한 에코",
+      "subtype": "공간 음향",
+      "summary": "Shure는 충분히 늦게 돌아와 별개의 반복으로 들리는 반사음을 에코로 설명한다. 지연 수치는 출처 설명이지 이번 배치의 측정값이 아니다.",
+      "facts": [
+        {"field": "발생 원인", "value": "멀리 있는 반사면에 의해 간접음이 지연된다.", "evidence": {"source_id": "shure-recording", "locator": "인쇄 p.29 Sound Transmission > Reflection의 Echo 문단", "kind": "source_claim"}},
+        {"field": "시간적 지각", "value": "청자는 이를 직접음의 뚜렷한 반복으로 듣는다.", "evidence": {"source_id": "shure-recording", "locator": "인쇄 p.29 Echo 정의 마지막 절", "kind": "source_claim"}},
+        {"field": "문서의 지연 설명", "value": "용어집은 약 50밀리초보다 긴 지연을 별개의 반복으로 들리는 조건으로 설명한다.", "evidence": {"source_id": "shure-recording", "locator": "인쇄 p.34 Glossary > Echo; about 한정 유지", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["에코", "반사", "시간 지연"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "room-standing-waves",
+      "title_ko": "실내 정재파",
+      "subtype": "공간 음향",
+      "summary": "Shure는 평행한 벽 사이 반사와 특정 주파수의 보강을 정재파로 설명한다.",
+      "facts": [
+        {"field": "공간 조건", "value": "방의 평행한 벽 사이 거리와 관련된 특정 주파수에서 발생한다.", "evidence": {"source_id": "shure-recording", "locator": "인쇄 p.29 Reflection의 Standing waves 첫 문장", "kind": "source_claim"}},
+        {"field": "보강 관계", "value": "원음과 반사음이 서로 보강되는 현상으로 설명된다.", "evidence": {"source_id": "shure-recording", "locator": "인쇄 p.29 Standing waves 두 번째 문장", "kind": "source_claim"}},
+        {"field": "주파수 경향", "value": "긴 파장과 흡수의 어려움 때문에 통상 저주파에서 나타난다고 설명한다.", "evidence": {"source_id": "shure-recording", "locator": "인쇄 p.29 Standing waves 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["정재파", "실내", "저주파"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "adsr-amplitude-envelope",
+      "title_ko": "ADSR 음량 엔벌로프",
+      "subtype": "음색·시간 변화",
+      "summary": "Native Instruments는 음의 시작·유지·종료를 네 단계 엔벌로프로 설명한다.",
+      "facts": [
+        {"field": "어택", "value": "무음에서 초기 최고치까지 걸리는 시간이며, 길면 서서히 시작한다.", "evidence": {"source_id": "ni-subtractive", "locator": "Envelopes > Attack 문단", "kind": "source_claim"}},
+        {"field": "디케이", "value": "초기 어택 최고치 이후 소리가 줄어드는 속도를 정한다.", "evidence": {"source_id": "ni-subtractive", "locator": "Envelopes > Decay 문단", "kind": "source_claim"}},
+        {"field": "서스테인", "value": "음 중간의 유지 음량을 정하며, 다른 단계와 달리 시간이 아닌 데시벨로 설명된다.", "evidence": {"source_id": "ni-subtractive", "locator": "Envelopes > Sustain 문단", "kind": "source_claim"}},
+        {"field": "릴리스", "value": "건반에서 손을 뗀 뒤 음이 남는 시간을 정한다.", "evidence": {"source_id": "ni-subtractive", "locator": "Envelopes > Release 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["음량", "엔벌로프", "시간 변화"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "subtractive-synthesis",
+      "title_ko": "감산 합성 음색",
+      "subtype": "음악·합성 음원",
+      "summary": "Native Instruments는 풍부한 파형을 만든 뒤 성분을 덜어내며 음색을 다듬는 감산 합성을 설명한다.",
+      "facts": [
+        {"field": "음원", "value": "오실레이터가 배음이 풍부한 파형을 만든다.", "evidence": {"source_id": "ni-subtractive", "locator": "What is subtractive synthesis? 첫 문단", "kind": "source_claim"}},
+        {"field": "음색 구성", "value": "필터와 엔벌로프 같은 요소로 원래 파형을 다듬는다.", "evidence": {"source_id": "ni-subtractive", "locator": "What is subtractive synthesis? 첫 문단의 구성 요소", "kind": "source_claim"}},
+        {"field": "시간 변화", "value": "주파수와 음량을 시간에 따라 변화시켜 기본 파형을 개성 있는 소리로 만든다.", "evidence": {"source_id": "ni-subtractive", "locator": "What is subtractive synthesis? 두 번째 문단", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["음악", "신시사이저", "감산 합성"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "bartok-snap-pizzicato",
+      "title_ko": "바르토크 스냅 피치카토",
+      "subtype": "음악·현악 효과",
+      "summary": "Jenelle Spencer의 Yamaha 교육 글은 현을 강하게 뜯어 지판에 부딪치게 하는 피치카토를 설명한다.",
+      "facts": [
+        {"field": "주법 계열", "value": "피치카토의 한 종류다.", "evidence": {"source_id": "yamaha-bartok", "locator": "번호 2 THE BARTOK SNAP 첫 절", "kind": "source_claim"}},
+        {"field": "발음 과정", "value": "현을 강하게 뜯어 놓으면 지판에 튕겨 부딪친다.", "evidence": {"source_id": "yamaha-bartok", "locator": "번호 2 첫 문장의 plucking 및 fingerboard 설명", "kind": "source_claim"}},
+        {"field": "강도 설명", "value": "글은 이 주법을 큰 소리가 나는 피치카토로 묘사한다.", "evidence": {"source_id": "yamaha-bartok", "locator": "번호 2 첫 문장의 loud 표현; 청취 관찰 아님", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["음악", "현악", "피치카토"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "white-noise",
+      "title_ko": "화이트 노이즈",
+      "subtype": "합성 소음",
+      "summary": "Audacity 매뉴얼은 화이트 노이즈의 주파수 분포와 밝은 소리 성격을 설명한다.",
+      "facts": [
+        {"field": "주파수 분포", "value": "모든 주파수에서 같은 전력을 갖는다.", "evidence": {"source_id": "audacity-noise", "locator": "Notes의 White noise 문장", "kind": "source_claim"}},
+        {"field": "음색 설명", "value": "밝고 쉭쉭거리는 성격으로 묘사된다.", "evidence": {"source_id": "audacity-noise", "locator": "Notes의 White noise 음색 설명", "kind": "source_claim"}},
+        {"field": "기능", "value": "다른 노이즈 색상들과 함께 마스킹·시험 및 합성 효과음의 재료로 소개된다.", "evidence": {"source_id": "audacity-noise", "locator": "Noise 제목 아래 소개 문단의 용도 목록", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["노이즈", "화이트", "마스킹"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "pink-noise",
+      "title_ko": "핑크 노이즈",
+      "subtype": "합성 소음",
+      "summary": "Audacity 매뉴얼은 옥타브당 같은 전력을 갖는 핑크 노이즈를 설명한다.",
+      "facts": [
+        {"field": "주파수 분포", "value": "옥타브마다 같은 전력을 갖는다.", "evidence": {"source_id": "audacity-noise", "locator": "Notes의 Pink noise 문장", "kind": "source_claim"}},
+        {"field": "음색 설명", "value": "더 균형 있게 들리는 것으로 묘사된다.", "evidence": {"source_id": "audacity-noise", "locator": "Notes의 Pink noise 음색 설명", "kind": "source_claim"}},
+        {"field": "효과음 재료", "value": "노이즈 생성기는 합성 타악기와 바람·바다 효과음의 원재료 용도로 소개된다.", "evidence": {"source_id": "audacity-noise", "locator": "Noise 제목 아래 소개 문단; 핑크만의 배타적 용도는 아님", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["노이즈", "핑크", "합성 효과음"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "brownian-noise",
+      "title_ko": "브라우니안 노이즈",
+      "subtype": "합성 소음",
+      "summary": "Audacity 매뉴얼은 브라우니안 노이즈의 낮은 울림과 고역 감소를 설명한다.",
+      "facts": [
+        {"field": "다른 이름", "value": "레드 또는 브라운 노이즈라고도 부른다.", "evidence": {"source_id": "audacity-noise", "locator": "Notes의 Brownian noise 별칭", "kind": "source_claim"}},
+        {"field": "주파수 분포", "value": "소개된 세 종류 중 고역 방향으로 가장 빨리 감소한다.", "evidence": {"source_id": "audacity-noise", "locator": "Notes의 Brownian noise 롤오프 비교", "kind": "source_claim"}},
+        {"field": "음색 설명", "value": "깊고 낮게 우르릉거리는 소리로 묘사된다.", "evidence": {"source_id": "audacity-noise", "locator": "Notes의 Brownian noise 마지막 음색 설명", "kind": "source_claim"}}
+      ],
+      "proposals": [],
+      "tags": ["노이즈", "브라운", "저역"],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": "개념 수 부족 없음: 20개 개념, source_claim 사실 61개, 실제 열람한 1차 본문 12개와 별도 Columbia 권리 안내. 기존 sound ID 5개를 보강하고 나머지 15개는 기존의 구체적 장면 가이드와 다른 일반 개념이다. 기존 카페·비·발걸음 가이드를 일반 앰비언스·폴리와 강제 매칭하지 않았다. BBC 아카이브는 사용하지 않고 공개 교육·제조사 본문으로 자료원을 확장했다. Dialogue Match는 과거 1.0.0 공식 문서로 한정하며 판매·지원 상태를 주장하지 않는다. 모든 음색·효과·수치는 출처 주장이고 직접 관찰·측정·창작 제안은 0개다. 미디어 후보·취득·청취·파일 검사·DB 반영은 0개이며 파일별 음량·길이·루프·이용 허락은 미확인이다. Columbia의 교육·학술 외 사용 제한과 기타 출처의 미확인 재사용 권리를 유지한다. 독립 검수나 원격 반영 완료를 뜻하지 않는다."
+}

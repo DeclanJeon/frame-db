@@ -1,0 +1,1137 @@
+{
+  "schema_version": 1,
+  "category_id": "hair",
+  "collector": "hair-primary-collector-frame-db-444eb549",
+  "collected_at": "2026-10-29T20:38:49.936669+00:00",
+  "sources": [
+    {
+      "source_id": "lp-curtain",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs",
+      "title": "Try the Trend: Curtain Bangs",
+      "publisher": "L’Oréal Paris",
+      "authors": [
+        "Beauty Magazine"
+      ],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "커튼뱅 정의 L35; 스타일링 L95–99; 하이 포니테일 L129–133; 레트로 웨이브 L152–156 (열람 본문 행 기준)",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "lp-asymmetric",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob",
+      "title": "How to Rock an Asymmetrical Bob",
+      "publisher": "L’Oréal Paris",
+      "authors": [],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "비대칭 보브 조언 2·4·5, L28–39",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "dyson-wolf",
+      "url": "https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut",
+      "title": "Styling the Wolf Cut: How to Achieve This On-Trend Hairstyle",
+      "publisher": "Dyson",
+      "authors": [],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "울프 커트 정의 L63–65; 길이별 설명 L73–82; 드라이 L94–100",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "Dyson 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "lp-dutch",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair",
+      "title": "How to Dutch Braid Your Hair",
+      "publisher": "L’Oréal Paris",
+      "authors": [],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "더치 브레이드 방법, 단계 2–4, L32–40",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "lp-wavy",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair",
+      "title": "16 of the Best Haircuts for Wavy Hair",
+      "publisher": "L’Oréal Paris",
+      "authors": [
+        "Kaitlin Clapinski"
+      ],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "웨이브 커트 목록 4번 L60–64; 6번 L70–74; 11번 L94–97. 문서 제목 태그는 21개로 표시되지만 본문 제목·목록의 16개 표기를 기록함.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "lp-fine",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair",
+      "title": "25 Hairstyles for Fine Hair",
+      "publisher": "L’Oréal Paris",
+      "authors": [],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "가는 모발 스타일 목록 2번 L25–28; 4번 L32–34; 7번 L41–42",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "lp-buzz",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men",
+      "title": "Just Shave It: 10 Buzz Cut Hairstyles For Men",
+      "publisher": "L’Oréal Paris",
+      "authors": [],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "버즈 커트 정의 L25–30; 크루 커트 설명과 스타일링 L63–66",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "lp-wet",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look",
+      "title": "How To Master the Wet Hair Look In 5 Simple Steps",
+      "publisher": "L’Oréal Paris",
+      "authors": [
+        "Roberto Rodriguez"
+      ],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "웻 룩 만드는 방법 단계 1–5, L113–130",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "davines-wet",
+      "url": "https://us.davines.com/blogs/news/how-to-get-the-wet-hair-look",
+      "title": "How to Get the Wet Hair Look with the Best Products",
+      "publisher": "Davines",
+      "authors": [],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "웻 룩 단계 중 축축한 모발로 시작하기 L498–500; FAQ의 웻 룩 정의 L594–596",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "Davines 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "redken-winter",
+      "url": "https://www.redken.com/blog/best-winter-haircuts-trends.html",
+      "title": "BEST WINTER HAIRCUTS FOR EVERY HAIR TYPE THIS SEASON",
+      "publisher": "Redken",
+      "authors": [
+        "The Redken Team"
+      ],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "짧은 커트 설명 L248; 울프·버터플라이 L286–288; 빅시 L290–292. 갱신일 2026-10-06. 유행·효과를 독립 측정한 자료가 아니라 브랜드 설명임.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "Redken 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "haircom-french",
+      "url": "https://www.hair.com/french-bob.html",
+      "title": "20 of the Best French Bob Hairstyles To Try This Season",
+      "publisher": "Hair.com / L’Oréal Professional Products Division",
+      "authors": [
+        "Gillian Fuller"
+      ],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "프렌치 보브의 정의·일반 보브와 차이·레이어 L106–114; 길이 유지 L120–122",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "Hair.com / L’Oréal Professional Products Division 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "haircom-blunt",
+      "url": "https://www.hair.com/blunt-bob-with-bangs.html",
+      "title": "Blunt Bob With Bangs: 19 Ways To Own The Look In 2025",
+      "publisher": "Hair.com / L’Oréal Professional Products Division",
+      "authors": [
+        "Hair.com"
+      ],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "블런트 보브 정의 L103–112; 턱 길이 변형 L195–197. 갱신일은 2026-09-01이지만 본문에는 2023년·제목에는 2025년 표기가 남아 있어 최신 유행 주장은 사용하지 않음.",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "Hair.com / L’Oréal Professional Products Division 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    },
+    {
+      "source_id": "ghd-slick",
+      "url": "https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight",
+      "title": "SLICK BACK STRAIGHT",
+      "publisher": "ghd / Jemella Ltd",
+      "authors": [],
+      "checked_at": "2026-10-29T20:38:49.936669+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "중앙 가르마 단계 2 L213–216; 뿌리에서 끝으로 펴기 단계 4 L224–227; 귀 뒤 정돈 단계 7 L240–244; 고정 단계 8 L246–249",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "attribution": "ghd / Jemella Ltd 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "curtain-bangs",
+      "title_ko": "커튼뱅 미디엄",
+      "subtype": "레이어·앞머리",
+      "summary": "L’Oréal Paris는 커튼뱅을 광대 부근의 긴 층진 앞머리로 설명한다.",
+      "facts": [
+        {
+          "field": "앞머리_형태",
+          "value": "긴 앞머리를 층지게 자른다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "정의 문단 L35",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "앞머리_도달점",
+          "value": "광대 윗부분 부근에 닿는 길이로 설명한다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "정의 문단 L35",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가르마",
+          "value": "주로 중앙 가르마와 함께 착용한다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "정의 문단 L35",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "앞머리",
+        "레이어",
+        "중앙가르마"
+      ],
+      "existing_entry_id": "FS-0006",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "high-ponytail",
+      "title_ko": "하이 포니테일",
+      "subtype": "스타일링과 보존 조건",
+      "summary": "L’Oréal Paris는 커튼뱅과 함께 정수리에 묶는 포니테일 방법을 소개한다.",
+      "facts": [
+        {
+          "field": "결합_앞머리",
+          "value": "커튼뱅과 조합하는 스타일로 제시한다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "스타일 목록 2번 L129–133",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "준비_순서",
+          "value": "앞머리를 먼저 드라이해 모양을 잡는다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "스타일 목록 2번 L133",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "묶는_위치",
+          "value": "정수리에서 포니테일로 모은다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "스타일 목록 2번 L133",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "포니테일",
+        "업스타일"
+      ],
+      "existing_entry_id": "FS-0004",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "roller-barrel-waves",
+      "title_ko": "여성 굵은 배럴 웨이브",
+      "subtype": "가르마·컬",
+      "summary": "L’Oréal Paris의 레트로 웨이브 절에서 롤러 세팅과 건조 조건을 보강한다.",
+      "facts": [
+        {
+          "field": "세팅_준비",
+          "value": "볼륨 무스를 바른 뒤 대략 90%까지 드라이한다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "스타일 목록 5번 L155",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "롤러_섹션",
+          "value": "1–2인치 섹션을 롤러에 감아 클립으로 고정한다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "스타일 목록 5번 L155",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "해제_조건",
+          "value": "모발이 완전히 마른 뒤 롤러를 제거한다.",
+          "evidence": {
+            "source_id": "lp-curtain",
+            "locator": "스타일 목록 5번 L156",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "웨이브",
+        "롤러",
+        "건조조건"
+      ],
+      "existing_entry_id": "CRAFT-hair-9bc2665c1374",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "asymmetrical-bob",
+      "title_ko": "여성 비대칭 보브",
+      "subtype": "길이·커트",
+      "summary": "L’Oréal Paris는 좌우 길이 차이와 가르마 배치를 비대칭 보브의 비교 요소로 제시한다.",
+      "facts": [
+        {
+          "field": "좌우_길이",
+          "value": "한쪽이 반대쪽보다 길다.",
+          "evidence": {
+            "source_id": "lp-asymmetric",
+            "locator": "조언 2, L30",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "길이_전환",
+          "value": "각도를 주어 좌우 길이가 점진적으로 이어지게 하는 방법을 권한다.",
+          "evidence": {
+            "source_id": "lp-asymmetric",
+            "locator": "조언 2, L30",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가르마_배치",
+          "value": "깊은 옆가르마 쪽에 긴 모발을 두는 방법을 소개한다.",
+          "evidence": {
+            "source_id": "lp-asymmetric",
+            "locator": "조언 5, L39",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "보브",
+        "비대칭",
+        "옆가르마"
+      ],
+      "existing_entry_id": "CRAFT-hair-fae7b816d152",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "wolf-cut",
+      "title_ko": "남성 소프트 울프 커트",
+      "subtype": "레이어·앞머리",
+      "summary": "Dyson의 울프 커트 설명으로 층과 볼륨을 보강한다. 출처는 남성 전용 규격을 제시하지 않는다.",
+      "facts": [
+        {
+          "field": "레이어_구조",
+          "value": "강한 층 구분을 특징으로 설명한다.",
+          "evidence": {
+            "source_id": "dyson-wolf",
+            "locator": "울프 커트 정의 L65",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "볼륨_위치",
+          "value": "정수리 쪽에 볼륨이 집중된다.",
+          "evidence": {
+            "source_id": "dyson-wolf",
+            "locator": "울프 커트 정의 L65",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "끝_질감",
+          "value": "가볍고 흐트러진 끝을 특징으로 든다.",
+          "evidence": {
+            "source_id": "dyson-wolf",
+            "locator": "울프 커트 정의 L65",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "드라이_조건",
+          "value": "뿌리를 들어 말리고 끝을 과하게 매끈하게 펴지 않도록 권한다.",
+          "evidence": {
+            "source_id": "dyson-wolf",
+            "locator": "드라이 절 L100",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "울프커트",
+        "레이어",
+        "정수리볼륨"
+      ],
+      "existing_entry_id": "CRAFT-hair-9eb96d64ed83",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "dutch-braid",
+      "title_ko": "여성 더치 브레이드",
+      "subtype": "스타일링과 보존 조건",
+      "summary": "L’Oréal Paris의 세 갈래 교차 순서와 고정 방법을 기록한다.",
+      "facts": [
+        {
+          "field": "시작_분할",
+          "value": "헤어라인의 시작 섹션을 같은 크기의 세 갈래로 나눈다.",
+          "evidence": {
+            "source_id": "lp-dutch",
+            "locator": "단계 2, L34",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "교차_방향",
+          "value": "오른쪽과 왼쪽 가닥을 차례로 중앙 가닥 아래로 교차한다.",
+          "evidence": {
+            "source_id": "lp-dutch",
+            "locator": "단계 3, L37",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "모발_추가",
+          "value": "진행하면서 좌우 가닥에 모발을 점차 더한다.",
+          "evidence": {
+            "source_id": "lp-dutch",
+            "locator": "단계 3, L37",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "끝_고정",
+          "value": "남은 길이를 세 갈래로 땋고 고무줄로 고정한다.",
+          "evidence": {
+            "source_id": "lp-dutch",
+            "locator": "단계 4, L40",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "브레이드",
+        "세갈래",
+        "교차방향"
+      ],
+      "existing_entry_id": "CRAFT-hair-2c3c47d0ace7",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "long-layers",
+      "title_ko": "롱 레이어드",
+      "subtype": "레이어·앞머리",
+      "summary": "L’Oréal Paris는 긴 길이를 유지하면서 층을 넣는 방법과 끝 관리 주기를 설명한다.",
+      "facts": [
+        {
+          "field": "길이_보존",
+          "value": "긴 길이를 유지하면서 층을 더하는 커트로 설명한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 11번 L97",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "층의_역할",
+          "value": "레이어가 모발의 움직임과 자연 질감 강조에 도움을 준다고 설명한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 11번 L97",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "끝_관리",
+          "value": "갈라진 끝 정리를 위해 6–8주 간격의 트리밍을 권한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 11번 L97",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "롱헤어",
+        "레이어",
+        "유지관리"
+      ],
+      "existing_entry_id": "FS-0002",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "layered-lob",
+      "title_ko": "여성 어깨 길이 로브",
+      "subtype": "길이·커트",
+      "summary": "L’Oréal Paris의 긴 보브 변형으로 레이어드 로브의 길이와 질감 설명을 보강한다.",
+      "facts": [
+        {
+          "field": "길이_기준",
+          "value": "쇄골에 스치는 길이의 긴 보브로 소개한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 4번 L64",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "층의_질감",
+          "value": "끊어지는 듯한 층진 질감을 제시한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 4번 L64",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "볼륨_설명",
+          "value": "웨이브 모발에서 층이 볼륨과 탄력을 더한다고 설명한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 4번 L64",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "로브",
+        "보브",
+        "웨이브"
+      ],
+      "existing_entry_id": "CRAFT-hair-fcee59be5f4f",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "wispy-bangs",
+      "title_ko": "위스피 앞머리",
+      "subtype": "레이어·앞머리",
+      "summary": "L’Oréal Paris는 가볍고 긴 앞머리를 웨이브 모발과 조합하는 방법을 소개한다.",
+      "facts": [
+        {
+          "field": "앞머리_밀도",
+          "value": "길고 가벼운 앞머리로 설명한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 6번 L74",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "얼굴_주변",
+          "value": "얼굴을 감싸며 웨이브 질감을 드러내는 형태로 제시한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 6번 L74",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정리_방법",
+          "value": "클립으로 뒤로 고정하거나 나머지 모발에 숨길 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "lp-wavy",
+            "locator": "목록 6번 L74",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "앞머리",
+        "가벼운질감"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "tousled-pixie",
+      "title_ko": "픽시 커트",
+      "subtype": "길이·커트",
+      "summary": "L’Oréal Paris는 짧은 픽시에 가닥별 질감을 만드는 방법을 설명한다.",
+      "facts": [
+        {
+          "field": "기본_길이",
+          "value": "아주 짧은 커트로 설명한다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 4번 L33",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "스타일링_재료",
+          "value": "포마드로 가닥별 흐트러진 질감을 만들도록 권한다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 4번 L33",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가닥_처리",
+          "value": "손끝의 소량 제품을 개별 섹션에 바르고 서로 다른 방향으로 정리한다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 4번 L34",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "픽시",
+        "숏헤어",
+        "텍스처"
+      ],
+      "existing_entry_id": "FS-0005",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "nape-chignon",
+      "title_ko": "여성 시뇽 업스타일",
+      "subtype": "스타일링과 보존 조건",
+      "summary": "L’Oréal Paris의 낮은 시뇽 예시에서 위치와 가르마, 제품 적용 부위를 기록한다.",
+      "facts": [
+        {
+          "field": "매듭_위치",
+          "value": "목덜미에 놓인 낮은 번으로 설명한다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 7번 L42",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "가르마",
+          "value": "가운데 가르마를 사용한 예시다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 7번 L42",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "제품_적용",
+          "value": "뿌리 바로 아래의 윗부분 모발에 소량 젤을 펴 바르도록 권한다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 7번 L42",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시뇽",
+        "로우번",
+        "중앙가르마"
+      ],
+      "existing_entry_id": "CRAFT-hair-29e4256f3668",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "blunt-fringe",
+      "title_ko": "블런트 앞머리",
+      "subtype": "레이어·앞머리",
+      "summary": "L’Oréal Paris는 눈썹 부근의 일자 앞머리를 가는 모발의 스타일 예시로 든다.",
+      "facts": [
+        {
+          "field": "도달_높이",
+          "value": "눈썹에 닿는 앞머리 길이를 제시한다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 2번 L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "끝선_형태",
+          "value": "앞머리 끝을 직선으로 자른다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 2번 L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "밀도_설명",
+          "value": "고른 끝선이 더 풍성해 보이게 한다는 브랜드 설명이다.",
+          "evidence": {
+            "source_id": "lp-fine",
+            "locator": "목록 2번 L27",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "앞머리",
+        "일자커트"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "buzz-cut",
+      "title_ko": "버즈 커트",
+      "subtype": "길이·커트",
+      "summary": "L’Oréal Paris는 버즈 커트의 길이 범위와 클리퍼 도구를 설명한다. 수치는 출처 주장이다.",
+      "facts": [
+        {
+          "field": "길이_범위",
+          "value": "1/8–1/2인치 정도를 남기는 짧은 커트로 설명한다.",
+          "evidence": {
+            "source_id": "lp-buzz",
+            "locator": "정의 절 L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "커트_도구",
+          "value": "가드가 달린 전기 클리퍼를 사용한다.",
+          "evidence": {
+            "source_id": "lp-buzz",
+            "locator": "정의 절 L27",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "길이_분포",
+          "value": "보통 전체 길이가 균일하지만 일부만 짧게 자르는 변형도 있다고 설명한다.",
+          "evidence": {
+            "source_id": "lp-buzz",
+            "locator": "정의 절 L28",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "버즈",
+        "클리퍼",
+        "숏헤어"
+      ],
+      "existing_entry_id": "FS-0011",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "crew-cut",
+      "title_ko": "남성 크루 커트",
+      "subtype": "길이·커트",
+      "summary": "L’Oréal Paris의 크루 커트 설명과 버즈 결합 예시를 구별해 기록한다.",
+      "facts": [
+        {
+          "field": "측후면_길이",
+          "value": "크루 커트는 뒤와 옆이 짧다고 설명한다.",
+          "evidence": {
+            "source_id": "lp-buzz",
+            "locator": "목록 7번 L65, 크루 커트 설명 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "윗머리_차이",
+          "value": "윗부분에는 앞머리처럼 보이는 짧지만 눈에 띄는 길이를 남긴다.",
+          "evidence": {
+            "source_id": "lp-buzz",
+            "locator": "목록 7번 L65, 크루 커트 설명 문장",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "앞머리_정리",
+          "value": "소개된 버즈 결합 예시에서는 포마드나 페이스트로 앞부분을 정리한다.",
+          "evidence": {
+            "source_id": "lp-buzz",
+            "locator": "목록 7번 스타일 조언 L66",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "크루커트",
+        "숏헤어",
+        "길이대비"
+      ],
+      "existing_entry_id": "CRAFT-hair-95f1771af91c",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "wet-look",
+      "title_ko": "젖은 헤어 질감",
+      "subtype": "스타일링과 보존 조건",
+      "summary": "L’Oréal Paris와 Davines는 실제 흠뻑 젖은 상태와 제품으로 만드는 웻 룩을 구별한다.",
+      "facts": [
+        {
+          "field": "시작_수분",
+          "value": "물이 떨어지지 않는 축축한 상태에서 시작하도록 권한다.",
+          "evidence": {
+            "source_id": "lp-wet",
+            "locator": "방법 단계 1, L117–118",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "제품_분포",
+          "value": "젤을 뿌리부터 펴 바르되 끝에 과하게 바르면 뻣뻣해질 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "lp-wet",
+            "locator": "방법 단계 2, L120–121",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "고정_마무리",
+          "value": "마지막에 헤어스프레이를 사용해 형태를 유지하도록 권한다.",
+          "evidence": {
+            "source_id": "lp-wet",
+            "locator": "방법 단계 5, L129–130",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "질감의_정의",
+          "value": "고광택 제품으로 갓 씻은 듯한 축축한 외관을 만드는 스타일이라고 설명한다.",
+          "evidence": {
+            "source_id": "davines-wet",
+            "locator": "FAQ 웻 룩 정의 L594–596",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "웻룩",
+        "광택",
+        "스타일유지"
+      ],
+      "existing_entry_id": "FS-0014",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "butterfly-cut",
+      "title_ko": "버터플라이 커트",
+      "subtype": "레이어·앞머리",
+      "summary": "Redken은 얼굴을 감싸는 층과 긴 길이를 함께 쓰는 버터플라이 커트를 설명한다.",
+      "facts": [
+        {
+          "field": "레이어_위치",
+          "value": "얼굴 주변에 뚜렷한 층을 배치한다.",
+          "evidence": {
+            "source_id": "redken-winter",
+            "locator": "울프·버터플라이 절 L288",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "길이_보존",
+          "value": "전체 길이를 유지하는 커트로 설명한다.",
+          "evidence": {
+            "source_id": "redken-winter",
+            "locator": "울프·버터플라이 절 L288",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "스타일_변형",
+          "value": "층을 뒤로 넘겨 짧은 커트 같은 인상을 만들 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "redken-winter",
+            "locator": "울프·버터플라이 절 L288",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "버터플라이",
+        "레이어",
+        "페이스프레이밍"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "bixie-cut",
+      "title_ko": "빅시 커트",
+      "subtype": "길이·커트",
+      "summary": "Redken은 빅시를 픽시와 보브 사이의 짧은 커트로 설명한다.",
+      "facts": [
+        {
+          "field": "커트_구성",
+          "value": "픽시와 보브를 결합한 형태로 설명한다.",
+          "evidence": {
+            "source_id": "redken-winter",
+            "locator": "짧은 커트 설명 L248",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "길이_비교",
+          "value": "픽시보다 길이를 더 남기는 선택지다.",
+          "evidence": {
+            "source_id": "redken-winter",
+            "locator": "짧은 커트 설명 L248",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "얼굴목_윤곽",
+          "value": "얼굴과 목 주변에 길이와 부드러움을 더 남긴다.",
+          "evidence": {
+            "source_id": "redken-winter",
+            "locator": "빅시 절 L292",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "빅시",
+        "픽시",
+        "보브"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "french-bob",
+      "title_ko": "여성 프렌치 보브",
+      "subtype": "길이·커트",
+      "summary": "Hair.com은 프렌치 보브를 턱선 부근 길이와 앞머리, 부드러운 층으로 설명한다.",
+      "facts": [
+        {
+          "field": "길이_기준",
+          "value": "보통 턱선 부근 또는 그보다 조금 위에서 끝난다.",
+          "evidence": {
+            "source_id": "haircom-french",
+            "locator": "길이 설명 L126–128",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "앞머리_결합",
+          "value": "전통적인 프렌치 보브에는 앞머리가 특징적으로 포함된다.",
+          "evidence": {
+            "source_id": "haircom-french",
+            "locator": "일반 보브와 차이 L109–111",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "레이어_구성",
+          "value": "부드럽고 미세한 층으로 볼륨과 형태를 만든다고 설명한다.",
+          "evidence": {
+            "source_id": "haircom-french",
+            "locator": "레이어 설명 L112–114",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "길이_유지",
+          "value": "성장 속도에 따라 4–6주마다 다듬도록 권한다.",
+          "evidence": {
+            "source_id": "haircom-french",
+            "locator": "유지관리 절 L120–122",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "프렌치보브",
+        "턱선",
+        "앞머리"
+      ],
+      "existing_entry_id": "CRAFT-hair-3c739a641a37",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "chin-blunt-bob",
+      "title_ko": "여성 턱선 블런트 보브",
+      "subtype": "길이·커트",
+      "summary": "Hair.com의 블런트 보브 정의와 턱 길이 변형을 기존 가이드에 연결한다.",
+      "facts": [
+        {
+          "field": "길이_분포",
+          "value": "기본 블런트 커트는 둘레를 같은 길이로 자른다.",
+          "evidence": {
+            "source_id": "haircom-blunt",
+            "locator": "블런트 정의 L103–105",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "끝선_형태",
+          "value": "끝을 직선으로 자르고 층을 넣지 않는 보브로 설명한다.",
+          "evidence": {
+            "source_id": "haircom-blunt",
+            "locator": "일반 보브와 차이 L110–112",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "턱선_변형",
+          "value": "턱 길이로 자르는 변형을 별도로 제시한다.",
+          "evidence": {
+            "source_id": "haircom-blunt",
+            "locator": "턱 길이 변형 L195–197",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "블런트보브",
+        "원랭스",
+        "턱선"
+      ],
+      "existing_entry_id": "CRAFT-hair-172e978476d9",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "slick-back",
+      "title_ko": "슬릭백",
+      "subtype": "가르마·컬",
+      "summary": "ghd의 슬릭백 스트레이트 튜토리얼에서 중앙 가르마와 귀 뒤 정돈, 고정을 기록한다.",
+      "facts": [
+        {
+          "field": "가르마_예시",
+          "value": "이 튜토리얼은 중앙 가르마에서 시작한다.",
+          "evidence": {
+            "source_id": "ghd-slick",
+            "locator": "단계 2, L213–216",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정돈_방향",
+          "value": "빗으로 모발을 귀 뒤쪽으로 매끈하게 정돈한다.",
+          "evidence": {
+            "source_id": "ghd-slick",
+            "locator": "단계 7, L240–244",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "형태_유지",
+          "value": "정돈한 부분에 고정용 헤어스프레이를 뿌린다.",
+          "evidence": {
+            "source_id": "ghd-slick",
+            "locator": "단계 8, L246–249",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "슬릭백",
+        "중앙가르마",
+        "고정"
+      ],
+      "existing_entry_id": "FS-0009",
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

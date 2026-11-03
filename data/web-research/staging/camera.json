@@ -1,0 +1,1106 @@
+{
+  "schema_version": 1,
+  "category_id": "camera",
+  "collector": "omo-camera-primary-collector-20261030",
+  "collected_at": "2026-10-30T04:20:22+00:00",
+  "sources": [
+    {
+      "source_id": "columbia-long-shot",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/long-shot/",
+      "title": "Columbia Film Language Glossary: Long Shot",
+      "publisher": "Columbia Center for Teaching & Learning, Columbia University",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Term: Long Shot; 첫 정의 문단",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 외 사용은 허가되지 않았다고 명시한다. 짧은 사실 요약·링크만 기록하며 미디어 재사용 권리는 확보하지 않았다.",
+        "attribution": "Columbia University CTL. 개별 정의 저자는 미확인; 클립·해설 권리는 별도다."
+      }
+    },
+    {
+      "source_id": "columbia-medium-shot",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/medium-shot/",
+      "title": "Columbia Film Language Glossary: Medium Shot",
+      "publisher": "Columbia Center for Teaching & Learning, Columbia University",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Term: Medium Shot; 첫 정의 문단",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 외 사용은 허가되지 않았다고 명시한다. 짧은 사실 요약·링크만 기록하며 미디어 재사용 권리는 확보하지 않았다.",
+        "attribution": "Columbia University CTL. 개별 정의 저자는 미확인; 클립·해설 권리는 별도다."
+      }
+    },
+    {
+      "source_id": "columbia-close-up",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/close-up/",
+      "title": "Columbia Film Language Glossary: Close-Up",
+      "publisher": "Columbia Center for Teaching & Learning, Columbia University",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Term: Close-Up; 첫 정의 문단",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 외 사용은 허가되지 않았다고 명시한다. 짧은 사실 요약·링크만 기록하며 미디어 재사용 권리는 확보하지 않았다.",
+        "attribution": "Columbia University CTL. 개별 정의 저자는 미확인; 클립·해설 권리는 별도다."
+      }
+    },
+    {
+      "source_id": "columbia-point-of-view",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/point-of-view/",
+      "title": "Columbia Film Language Glossary: Point of View",
+      "publisher": "Columbia Center for Teaching & Learning, Columbia University",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Term: Point of View; 첫 정의 문단",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 외 사용은 허가되지 않았다고 명시한다. 짧은 사실 요약·링크만 기록하며 미디어 재사용 권리는 확보하지 않았다.",
+        "attribution": "Columbia University CTL. 개별 정의 저자는 미확인; 클립·해설 권리는 별도다."
+      }
+    },
+    {
+      "source_id": "columbia-high-angle-shot",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/high-angle-shot/",
+      "title": "Columbia Film Language Glossary: High-Angle Shot",
+      "publisher": "Columbia Center for Teaching & Learning, Columbia University",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Term: High-Angle Shot; 첫 정의 문단; 해석 논의 문단 3–4",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 외 사용은 허가되지 않았다고 명시한다. 짧은 사실 요약·링크만 기록하며 미디어 재사용 권리는 확보하지 않았다.",
+        "attribution": "Columbia University CTL. 개별 정의 저자는 미확인; 클립·해설 권리는 별도다."
+      }
+    },
+    {
+      "source_id": "columbia-low-angle-shot",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/low-angle-shot/",
+      "title": "Columbia Film Language Glossary: Low-Angle Shot",
+      "publisher": "Columbia Center for Teaching & Learning, Columbia University",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Term: Low-Angle Shot; 첫 정의 문단",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 외 사용은 허가되지 않았다고 명시한다. 짧은 사실 요약·링크만 기록하며 미디어 재사용 권리는 확보하지 않았다.",
+        "attribution": "Columbia University CTL. 개별 정의 저자는 미확인; 클립·해설 권리는 별도다."
+      }
+    },
+    {
+      "source_id": "columbia-deep-focus",
+      "url": "https://filmglossary.ccnmtl.columbia.edu/term/deep-focus/",
+      "title": "Columbia Film Language Glossary: Deep Focus",
+      "publisher": "Columbia Center for Teaching & Learning, Columbia University",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Term: Deep Focus; 첫 정의 문단",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://filmglossary.ccnmtl.columbia.edu/about/",
+        "scope": "교육·학술 외 사용은 허가되지 않았다고 명시한다. 짧은 사실 요약·링크만 기록하며 미디어 재사용 권리는 확보하지 않았다.",
+        "attribution": "Columbia University CTL. 개별 정의 저자는 미확인; 클립·해설 권리는 별도다."
+      }
+    },
+    {
+      "source_id": "film-education-terminology",
+      "url": "https://cw.filmeducation.org/resources/secondary/teaching_with_film/film_in_the_classroom/terminology/",
+      "title": "Film in the Classroom: Terminology",
+      "publisher": "Film Education",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Terminology > Shot type; 항목 2(미디엄), 4(주관 시점), 6(로우앵글)",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문을 읽고 샷 유형 정의만 짧게 요약했다. 본문·이미지·영상의 복제, 편집, 재배포 또는 상업 이용 허락은 확인하지 않았다.",
+        "attribution": "Film Education의 Terminology 페이지에 귀속한다. 개인 저자와 삽입 매체 권리자는 확인되지 않았다."
+      }
+    },
+    {
+      "source_id": "nikon-composition-guidelines",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-easy-composition-guidelines",
+      "title": "5 Easy Composition Guidelines",
+      "publisher": "Nikon USA",
+      "authors": [
+        "Diane Berkenfeld"
+      ],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 §1 삼분할; §2 수평선; §3 방향 여백; §4 유도선 (절 순서)",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 교육 본문의 구도 설명만 짧게 요약했다. 예시 사진, 그리드 도해와 본문 재배포 권리는 확인하지 않았고 미디어를 취득하지 않았다.",
+        "attribution": "Nikon USA와 페이지에 표시된 Diane Berkenfeld에 귀속한다. 개별 사진의 크레딧과 이용 조건은 별도이며 이번 배치에서 사용하지 않았다."
+      }
+    },
+    {
+      "source_id": "nikon-understanding-focal-length",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/understanding-focal-length",
+      "title": "Understanding Focal Length",
+      "publisher": "Nikon USA",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "What is Lens Focal Length, 첫 두 문단; 본문 표시 개정: December 2025",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 교육 본문에서 초점거리·화각·배율과 렌즈 범위 설명만 요약했다. 사진, 도표, 영상과 본문 재배포 허락은 확인하지 않았다.",
+        "attribution": "Nikon USA의 Understanding Focal Length 페이지에 귀속한다. 페이지에 개인 본문 저자가 명시되지 않아 추정하지 않았다."
+      }
+    },
+    {
+      "source_id": "sony-lens-basics",
+      "url": "https://www.sony.com/electronics/support/articles/00268239",
+      "title": "Lens basics",
+      "publisher": "Sony USA",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "§1 두 번째 소절 ¶1–3: 렌즈별 화각; §2 환산 설명 두 문단",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 지원 본문의 짧은 요약·링크만 기록했다. 미디어 재배포 허락은 미확인이다. 1.5배 환산은 이 Sony 문서의 APS-C 조건에 한정한다.",
+        "attribution": "Sony USA의 Lens basics 지원 문서에 귀속한다. 문서에 개인 저자가 표시되지 않아 추정하지 않았다."
+      }
+    },
+    {
+      "source_id": "nikon-maximum-aperture",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/understanding-maximum-aperture",
+      "title": "Understanding Maximum Aperture",
+      "publisher": "Nikon USA",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "본문 §1 조리개 정의, §2 심도 관계, §5 선택 기준, §6 인물 촬영; 절 제목 순서 기준",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 교육 본문의 조리개와 피사계 심도 설명만 요약했다. 도해, 사진, 제품 이미지와 본문 재배포 권리는 확인하지 않았다.",
+        "attribution": "Nikon USA의 Understanding Maximum Aperture 페이지에 귀속한다. 개인 본문 저자는 표시되지 않았다."
+      }
+    },
+    {
+      "source_id": "nikon-close-framing",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/creatively-photographing-objects-up-close",
+      "title": "Creatively Photographing Objects Up Close",
+      "publisher": "Nikon USA",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "제목 뒤 본문 ¶1 주제 선택, ¶2 촬영 위치·각도·초점거리와 방해 요소 제외",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제조사 교육 본문의 프레이밍 설명만 짧게 요약했다. 예시 사진과 본문 재배포 권리는 확인하지 않았고 미디어를 취득하거나 관찰 사실로 기록하지 않았다.",
+        "attribution": "Nikon USA의 Creatively Photographing Objects Up Close 페이지에 귀속한다. 개인 본문 저자는 표시되지 않았다."
+      }
+    },
+    {
+      "source_id": "nikon-close-up-conditions",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/taking-close-up-photos",
+      "title": "Taking Close-up Photos",
+      "publisher": "Nikon USA",
+      "authors": [],
+      "checked_at": "2026-10-30T04:20:22+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "꽃·소품 근접 촬영 소제목 아래 ¶2 렌즈 선택·최단 촬영 거리; Z 시리즈 안내 직전",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 교육 본문만 읽었다. 예시 사진 미검사·미취득; 사진·본문 재배포 허락은 미확인이다.",
+        "attribution": "Nikon USA. 개인 본문 저자는 확인되지 않았다."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "long-shot-establishing",
+      "title_ko": "공간을 포함하는 롱 숏",
+      "subtype": "샷 크기",
+      "summary": "Columbia는 전신과 주변 환경을 담는 롱 숏의 설정 기능을 설명한다.",
+      "facts": [
+        {
+          "field": "인물 범위",
+          "value": "인물 전신이 프레임 안에 들어가는 샷 크기다.",
+          "evidence": {
+            "source_id": "columbia-long-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "환경 범위",
+          "value": "인물 주변의 환경 일부를 함께 보여준다.",
+          "evidence": {
+            "source_id": "columbia-long-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "설정 기능",
+          "value": "장면 시작의 설정 숏은 거리를 둔 롱 숏일 수 있다.",
+          "evidence": {
+            "source_id": "columbia-long-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "롱 숏",
+        "설정 숏",
+        "전신",
+        "환경"
+      ],
+      "existing_entry_id": "CRAFT-camera-701516115185",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "medium-shot-waist-up",
+      "title_ko": "허리 위 미디엄 숏",
+      "subtype": "샷 크기",
+      "summary": "Columbia·Film Education은 미디엄 숏의 인물 범위와 배경을 설명한다.",
+      "facts": [
+        {
+          "field": "프레이밍 경계",
+          "value": "인물을 보통 허리 위부터 프레이밍한다.",
+          "evidence": {
+            "source_id": "columbia-medium-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "배경 포함",
+          "value": "몸통과 함께 일부 배경을 보여준다.",
+          "evidence": {
+            "source_id": "film-education-terminology",
+            "locator": "Terminology > Shot type, 항목 2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "인물 수",
+          "value": "한 프레임에 여러 인물을 포함할 수 있다.",
+          "evidence": {
+            "source_id": "columbia-medium-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "미디엄 숏",
+        "허리 위",
+        "몸통",
+        "배경"
+      ],
+      "existing_entry_id": "CRAFT-camera-b4a5870c5f61",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "close-up-face-or-object",
+      "title_ko": "얼굴 또는 물체 클로즈업",
+      "subtype": "샷 크기",
+      "summary": "Columbia는 클로즈업을 얼굴·물체의 크게 보이는 세부로 설명한다.",
+      "facts": [
+        {
+          "field": "얼굴 크기",
+          "value": "얼굴이 화면의 대부분을 차지할 수 있다.",
+          "evidence": {
+            "source_id": "columbia-close-up",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "물체 세부",
+          "value": "물체를 크게 보여 세부를 드러낼 수 있다.",
+          "evidence": {
+            "source_id": "columbia-close-up",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "촬영 방식",
+          "value": "피사체 가까이에서 촬영하거나 망원 렌즈로 구성할 수 있다.",
+          "evidence": {
+            "source_id": "columbia-close-up",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "클로즈업",
+        "얼굴",
+        "물체",
+        "세부"
+      ],
+      "existing_entry_id": "CRAFT-camera-9a561451ba8d",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "point-of-view-shot",
+      "title_ko": "인물 시점의 주관 숏",
+      "subtype": "초점거리·시점",
+      "summary": "Columbia·Film Education은 주관 숏을 인물의 시점과 연결한다.",
+      "facts": [
+        {
+          "field": "시점 주체",
+          "value": "카메라 시점이 특정 인물의 관점을 대표한다.",
+          "evidence": {
+            "source_id": "columbia-point-of-view",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시선 연결",
+          "value": "아이 라인 매치의 변형으로 설명된다.",
+          "evidence": {
+            "source_id": "columbia-point-of-view",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "교육적 해석",
+          "value": "Film Education은 인물에 공감하게 하는 한 방식으로 설명한다.",
+          "evidence": {
+            "source_id": "film-education-terminology",
+            "locator": "Terminology > Shot type, 항목 4",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "POV",
+        "주관 숏",
+        "인물 시점",
+        "관점"
+      ],
+      "existing_entry_id": "CRAFT-camera-e9dec3c78a83",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "high-angle-shot",
+      "title_ko": "눈높이 위의 하이앵글",
+      "subtype": "초점거리·시점",
+      "summary": "Columbia는 하이앵글의 위치와 맥락에 따른 해석 차이를 설명한다.",
+      "facts": [
+        {
+          "field": "카메라 높이",
+          "value": "카메라는 피사체의 눈높이보다 높은 위치에 놓인다.",
+          "evidence": {
+            "source_id": "columbia-high-angle-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "촬영 방향",
+          "value": "카메라는 피사체를 향해 아래쪽으로 본다.",
+          "evidence": {
+            "source_id": "columbia-high-angle-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "해석 조건",
+          "value": "앵글의 의미는 영화의 맥락과 시각 스타일에 따라 달라질 수 있다.",
+          "evidence": {
+            "source_id": "columbia-high-angle-shot",
+            "locator": "해석 논의 문단 3–4: 지위 해석의 조건과 단순화 경고",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "하이앵글",
+        "높은 시점",
+        "내려다보기"
+      ],
+      "existing_entry_id": "CRAFT-camera-ab6cc67d38ef",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "low-angle-shot",
+      "title_ko": "눈높이 아래의 로우앵글",
+      "subtype": "초점거리·시점",
+      "summary": "Columbia·Film Education은 로우앵글의 위치와 교육적 해석을 설명한다.",
+      "facts": [
+        {
+          "field": "카메라 높이",
+          "value": "카메라는 피사체의 눈높이보다 낮은 위치에 놓인다.",
+          "evidence": {
+            "source_id": "columbia-low-angle-shot",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "촬영 방향",
+          "value": "카메라는 피사체를 향해 위쪽으로 본다.",
+          "evidence": {
+            "source_id": "film-education-terminology",
+            "locator": "Terminology > Shot type, 항목 6",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "교육적 해석",
+          "value": "Film Education은 피사체가 강하게 보일 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "film-education-terminology",
+            "locator": "Terminology > Shot type, 항목 6",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "로우앵글",
+        "낮은 시점",
+        "올려다보기"
+      ],
+      "existing_entry_id": "CRAFT-camera-75a8e070884f",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "focal-length-angle-of-view",
+      "title_ko": "초점거리와 화각의 관계",
+      "subtype": "초점거리·시점",
+      "summary": "Nikon은 초점거리와 화각·배율의 관계를 설명한다.",
+      "facts": [
+        {
+          "field": "표시 단위",
+          "value": "초점거리는 보통 밀리미터 단위로 표시된다.",
+          "evidence": {
+            "source_id": "nikon-understanding-focal-length",
+            "locator": "첫 소제목 아래 ¶1–2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "짧은 초점거리",
+          "value": "같은 촬영 포맷에서 짧아질수록 화각은 넓고 배율은 낮다.",
+          "evidence": {
+            "source_id": "nikon-understanding-focal-length",
+            "locator": "첫 소제목 아래 ¶1–2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "긴 초점거리",
+          "value": "같은 촬영 포맷에서 길어질수록 화각은 좁고 배율은 높다.",
+          "evidence": {
+            "source_id": "nikon-understanding-focal-length",
+            "locator": "첫 소제목 아래 ¶1–2",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "초점거리",
+        "화각",
+        "배율",
+        "렌즈"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "wide-angle-lens-view",
+      "title_ko": "광각 렌즈의 넓은 화각",
+      "subtype": "초점거리·시점",
+      "summary": "Sony의 동일 인물 크기 광각 비교다.",
+      "facts": [
+        {
+          "field": "초점거리 특성",
+          "value": "짧은 초점거리 계열이다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "화각 특성",
+          "value": "표준보다 넓은 화각이다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "동일 피사체 크기 비교",
+          "value": "인물 크기를 맞추면 배경이 넓고 원근이 강조된다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "광각"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "standard-lens-view",
+      "title_ko": "표준 렌즈의 기준 화각",
+      "subtype": "초점거리·시점",
+      "summary": "Sony의 표준 렌즈 기준이다.",
+      "facts": [
+        {
+          "field": "대표 초점거리",
+          "value": "약 50mm로 설명한다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "대표 화각",
+          "value": "화각을 약 47도로 제시한다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시야 비교",
+          "value": "이 문서는 사람의 시야와 비슷하다고 설명한다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "표준 렌즈"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "telephoto-lens-view",
+      "title_ko": "망원 렌즈의 좁은 화각",
+      "subtype": "초점거리·시점",
+      "summary": "Sony의 동일 인물 크기 망원 비교다.",
+      "facts": [
+        {
+          "field": "초점거리 특성",
+          "value": "긴 초점거리 계열이다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "화각 특성",
+          "value": "광각·표준보다 좁은 화각이다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "배경 관계",
+          "value": "인물 크기를 맞추면 배경이 적고 가까워 보인다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §1 두 번째 소절 ¶1–3",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "망원"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "aps-c-equivalent-focal-length",
+      "title_ko": "소니 APS-C 환산 화각",
+      "subtype": "촬영 조건·버전",
+      "summary": "Sony의 APS-C 환산 조건이다.",
+      "facts": [
+        {
+          "field": "센서 영향",
+          "value": "센서 크기에 따라 같은 렌즈의 화각이 달라진다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §2 센서 예시 뒤 환산 설명 두 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "50밀리미터 예시",
+          "value": "50mm는 APS-C에서 약 75mm 상당 화각이다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §2 센서 예시 뒤 환산 설명 두 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "환산 방식",
+          "value": "이 문서의 35mm 환산은 초점거리×약 1.5다.",
+          "evidence": {
+            "source_id": "sony-lens-basics",
+            "locator": "본문 §2 센서 예시 뒤 환산 설명 두 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "APS-C",
+        "환산 화각"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "shallow-depth-of-field",
+      "title_ko": "얕은 피사계 심도와 선택 초점",
+      "subtype": "촬영 조건·버전",
+      "summary": "Nikon은 선택 초점으로 인물과 주변을 분리하는 방법을 설명한다.",
+      "facts": [
+        {
+          "field": "선명 범위",
+          "value": "피사체 또는 그 일부만 선명하게 남긴다.",
+          "evidence": {
+            "source_id": "nikon-maximum-aperture",
+            "locator": "본문 §6 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "조리개 조건",
+          "value": "큰 개구·낮은 f값으로 얕은 심도를 만든다.",
+          "evidence": {
+            "source_id": "nikon-maximum-aperture",
+            "locator": "본문 §6 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "구도 기능",
+          "value": "주변과 분리하여 피사체로 주의를 유도한다고 설명한다.",
+          "evidence": {
+            "source_id": "nikon-maximum-aperture",
+            "locator": "본문 §5–6 각 ¶1",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "얕은 피사계 심도",
+        "선택 초점",
+        "배경 흐림",
+        "조리개"
+      ],
+      "existing_entry_id": "CRAFT-camera-4708502513da",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "deep-focus-depth-of-field",
+      "title_ko": "전경과 배경을 유지하는 딥 포커스",
+      "subtype": "촬영 조건·버전",
+      "summary": "Columbia는 딥 포커스의 선명 범위와 광학 조건을 설명한다.",
+      "facts": [
+        {
+          "field": "선명 영역",
+          "value": "전경·중경·먼 배경을 동시에 선명하게 담는다.",
+          "evidence": {
+            "source_id": "columbia-deep-focus",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "렌즈 조건",
+          "value": "상대적으로 넓은 화각의 렌즈를 사용한다.",
+          "evidence": {
+            "source_id": "columbia-deep-focus",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "조리개 조건",
+          "value": "작은 조리개로 큰 피사계 심도를 만든다.",
+          "evidence": {
+            "source_id": "columbia-deep-focus",
+            "locator": "첫 정의 문단",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "딥 포커스",
+        "큰 피사계 심도",
+        "전경",
+        "배경"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "close-focusing-lens-distance-conditions",
+      "title_ko": "근접 촬영의 렌즈·거리 조건",
+      "subtype": "촬영 조건·버전",
+      "summary": "Nikon은 근접 촬영에서 렌즈의 최단 촬영 거리를 확인하도록 안내한다.",
+      "facts": [
+        {
+          "field": "거리 한계",
+          "value": "최단 촬영 거리보다 가까우면 선명하게 촬영할 수 없다.",
+          "evidence": {
+            "source_id": "nikon-close-up-conditions",
+            "locator": "꽃·소품 촬영 소제목 아래 ¶2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "줌 렌즈 조건",
+          "value": "근접 촬영 가능한 NIKKOR 줌은 망원단 사용을 안내한다.",
+          "evidence": {
+            "source_id": "nikon-close-up-conditions",
+            "locator": "꽃·소품 촬영 소제목 아래 ¶2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전용 렌즈 선택",
+          "value": "더 가까운 초점 능력에는 Micro-NIKKOR를 제안한다.",
+          "evidence": {
+            "source_id": "nikon-close-up-conditions",
+            "locator": "꽃·소품 촬영 소제목 아래 ¶2",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "근접 촬영",
+        "최단 촬영 거리",
+        "렌즈 선택"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "aperture-depth-of-field",
+      "title_ko": "조리개 값과 피사계 심도",
+      "subtype": "촬영 조건·버전",
+      "summary": "Nikon은 조리개 개구와 f값·심도의 관계를 설명한다.",
+      "facts": [
+        {
+          "field": "조리개 정의",
+          "value": "조리개는 빛이 통과하는 렌즈 다이어프램의 개구다.",
+          "evidence": {
+            "source_id": "nikon-maximum-aperture",
+            "locator": "본문 §1 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "낮은 f값",
+          "value": "낮은 f값은 더 큰 개구와 더 얕은 피사계 심도에 대응한다.",
+          "evidence": {
+            "source_id": "nikon-maximum-aperture",
+            "locator": "본문 §2 ¶2–3",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "높은 f값",
+          "value": "높은 f값은 더 작은 개구와 더 깊은 피사계 심도에 대응한다.",
+          "evidence": {
+            "source_id": "nikon-maximum-aperture",
+            "locator": "본문 §2 ¶2–3",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "조리개",
+        "f값",
+        "피사계 심도",
+        "노출"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "rule-of-thirds-grid",
+      "title_ko": "삼분할 격자의 교차점 배치",
+      "subtype": "프레이밍",
+      "summary": "Nikon의 삼분할 배치 지침이다.",
+      "facts": [
+        {
+          "field": "격자 구조",
+          "value": "가로·세로 삼등분 격자를 상상한다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §1 ¶2–5",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "피사체 위치",
+          "value": "피사체를 교차점 부근에 둔다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §1 ¶2–5",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정렬 보조",
+          "value": "격자는 수평·수직 정렬도 돕는다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §1 ¶2–5",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "삼분할"
+      ],
+      "existing_entry_id": "CRAFT-camera-0f959f8cd31b",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "look-room-action-room",
+      "title_ko": "시선·진행 방향 여백",
+      "subtype": "프레이밍",
+      "summary": "Nikon의 방향 여백 지침이다.",
+      "facts": [
+        {
+          "field": "시선 방향",
+          "value": "사람·동물을 프레임 안쪽으로 향하게 한다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §3 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "움직임 방향",
+          "value": "진행 방향에 더 많은 공간을 남긴다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §3 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "설명된 기능",
+          "value": "관객에게 이동 방향의 감각을 준다고 설명한다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §3 ¶1",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "시선 여백"
+      ],
+      "existing_entry_id": "CRAFT-camera-5e328bec5d60",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "leading-lines-composition",
+      "title_ko": "시선을 이끄는 선 구도",
+      "subtype": "프레이밍",
+      "summary": "Nikon의 선을 이용한 구도 설명이다.",
+      "facts": [
+        {
+          "field": "선의 기능",
+          "value": "선으로 화면 속 시선을 이끈다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §4 ¶1–2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "초점 지점 연결",
+          "value": "중요한 지점으로 시선을 유도한다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §4 ¶1–2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "선의 형태",
+          "value": "직선 외에 곡선도 활용한다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §4 ¶1–2",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "리딩 라인"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "horizon-line-placement",
+      "title_ko": "수평선 배치와 반사 예외",
+      "subtype": "프레이밍",
+      "summary": "Nikon의 수평선 배치 지침이다.",
+      "facts": [
+        {
+          "field": "일반 배치",
+          "value": "일반적으로 수평선을 중앙 위·아래에 둔다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §2 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "중앙 예외",
+          "value": "반사 장면은 중앙 배치도 가능하다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §2 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반사 배치의 이유",
+          "value": "중앙 배치는 위 장면과 아래 반사를 대응시킨다.",
+          "evidence": {
+            "source_id": "nikon-composition-guidelines",
+            "locator": "본문 §2 ¶1",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "수평선",
+        "반사"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "selective-framing-remove-distractions",
+      "title_ko": "방해 요소를 줄이는 선택적 프레이밍",
+      "subtype": "프레이밍",
+      "summary": "Nikon은 주제를 정하고 방해 요소를 제외하는 프레이밍을 설명한다.",
+      "facts": [
+        {
+          "field": "주제 확인",
+          "value": "프레이밍 전에 사진의 주 피사체가 무엇인지 정한다.",
+          "evidence": {
+            "source_id": "nikon-close-framing",
+            "locator": "제목 뒤 본문 ¶1",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "구도 변수",
+          "value": "위치, 카메라 각도와 초점거리를 바꾸며 구도를 비교한다.",
+          "evidence": {
+            "source_id": "nikon-close-framing",
+            "locator": "제목 뒤 본문 ¶2",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "제외 기준",
+          "value": "방해 요소를 프레임에서 제외해 주 피사체를 분명하게 한다.",
+          "evidence": {
+            "source_id": "nikon-close-framing",
+            "locator": "제목 뒤 본문 ¶2",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "선택적 프레이밍",
+        "방해 요소",
+        "주 피사체",
+        "구도"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

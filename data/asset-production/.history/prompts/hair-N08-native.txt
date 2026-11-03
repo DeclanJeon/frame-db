@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: hair-N08; concept: 두 가닥 로프 로우 테일.
+Class: base; domain: hair; entry: GEN-asset-hair-N08.
+Parent entry IDs: ["CRAFT-hair-b81cfe2d0898","FS-0004"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E18","expression-E00"]
+Reference roles: {"expression-E00":"identity","hair-E18":"identity"}
+Input images: hair-E18 (identity reference); expression-E00 (identity reference).
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Gather long dark-brown hair at the nape with one black elastic. Twist two sections individually clockwise as viewed from attachment toward tips, then wrap them together counterclockwise; show two distinct strands and one end elastic. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: rear three-quarter attachment and rope-crossing view. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.
+Change only: Gather long dark-brown hair at the nape with one black elastic. Twist two sections individually clockwise as viewed from attachment toward tips, then wrap them together counterclockwise; show two distinct strands and one end elastic.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Two sections wrap opposite to their own twists; no third plait strand.; Compare against the named basis; the new structural coverage must be visibly different.
+Output: {"format":"png","height":1536,"width":1024}

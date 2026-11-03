@@ -1,0 +1,660 @@
+{
+  "schema_version": 1,
+  "category_id": "delivery",
+  "input_sha256": "18806fdcba030902424fffe5accd19aa2c01085cd487175a929eed7c145459d6",
+  "reviewer": "omo-delivery-independent-reviewer-st_01a18b3c",
+  "reviewed_at": "2026-10-30T05:20:15+00:00",
+  "accepted_concept_keys": [
+    "youtube-upload-encoding",
+    "frame-rate",
+    "youtube-sdr-color",
+    "youtube-hdr-signaling",
+    "ebu-r128-programme-loudness",
+    "subrip-youtube-delivery",
+    "webvtt-file-structure",
+    "automatic-caption-review",
+    "netflix-us-sdh",
+    "netflix-korean-translation-subtitles",
+    "subtitle-event-duration",
+    "subtitle-semantic-line-breaks",
+    "subtitle-positioning",
+    "prerecorded-accessibility-captions",
+    "landscape-video",
+    "vertical-short-form",
+    "forced-narrative-subtitles",
+    "prores-4444-alpha",
+    "netflix-imf-package-delivery",
+    "dcp-composition-playlist"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "yt-encoding",
+      "url": "https://support.google.com/youtube/answer/1722171?hl=en",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Container; Audio codec; Video codec; Frame rate; Color Space, lines 19–47 and 95–111",
+      "rights_checked": true,
+      "notes": "Reopened Google public help text: partner scope, MP4/H.264/48 kHz, source FPS and deinterlacing, BT.709 and range handling match. No named author shown. Unknown media rights retained; public access is not reuse permission."
+    },
+    {
+      "source_id": "yt-hdr",
+      "url": "https://support.google.com/youtube/answer/7126552?hl=en",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Upload HDR videos; Upload requirements, lines 25 and 42–45",
+      "rights_checked": true,
+      "notes": "Read HDR metadata requirement and bit-depth/primaries/EOTF rows. Summary is YouTube-specific, not a measured grade. No named author shown. Rights remain unknown; no media permission or acquisition inferred."
+    },
+    {
+      "source_id": "ebu-r128",
+      "url": "https://tech.ebu.ch/publications/r128",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Recommendation description; All versions; footer, lines 24, 32, 56, 101",
+      "rights_checked": true,
+      "notes": "Read recommendation description and November 2023 version 5.0 row, not the linked PDF. EBU copyright/all-rights-reserved footer supports restricted status. Loudness target is not dialogue intelligibility or a measured file result."
+    },
+    {
+      "source_id": "yt-subtitle-files",
+      "url": "https://support.google.com/youtube/answer/2734698?hl=en",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Basic file formats, SubRip row, line 27",
+      "rights_checked": true,
+      "notes": "Read SubRip extension, plain UTF-8 and basic-only/no-markup limitation. These are YouTube support limits, not the whole format specification. No author credit shown. Unknown rights retained; no sample or media copied."
+    },
+    {
+      "source_id": "w3c-webvtt",
+      "url": "https://www.w3.org/TR/webvtt1/",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Document header/status and §4.1, lines 2, 21–33, 43–45, 842–848",
+      "rights_checked": true,
+      "notes": "Confirmed editor Gary Katsevman, 20 May 2026 Candidate Recommendation Draft, UTF-8/text-vtt and optional BOM then signature. Header links permissive document terms; those terms were not evaluated as a media grant. Conservative unknown media rights retained, not a claim that no document license exists."
+    },
+    {
+      "source_id": "yt-auto-captions",
+      "url": "https://support.google.com/youtube/answer/6373554?hl=en",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Opening Note; Automatic captions on long-form videos and Shorts, lines 20–25",
+      "rights_checked": true,
+      "notes": "Read review/correction instruction, recognition-error causes and audio-complexity-dependent processing. No actual captions inspected. No named author shown. Unknown media rights retained; no playback or acquisition."
+    },
+    {
+      "source_id": "netflix-us",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/217350977-English-USA-Timed-Text-Style-Guide",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Section I SDH; I.2; I.6; I.14; footer, lines 14–26, 73–75, 202–205, 690",
+      "rights_checked": true,
+      "notes": "Confirmed U.S. English SDH scope and each numeric/speaker rule, distinct from translated subtitles. Netflix rights-reserved footer does not establish media reuse permission; unknown authorization retained. No account, example video or subtitle file inspected."
+    },
+    {
+      "source_id": "netflix-ko",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/216001127-Korean-Timed-Text-Style-Guide",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Section I scope; I.2; I.8; I.15; footer, lines 15–25, 87–94, 205–208, 675",
+      "rights_checked": true,
+      "notes": "Read Korean interlingual scope, character counting/speed and plot-pertinent forced-narrative rules. These are not arbitrary language variants: the English SDH and Korean translation deliverables have different requirements. Rights-reserved footer; reuse authorization remains unknown. No vendor portal opened."
+    },
+    {
+      "source_id": "netflix-general",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/215758617-Timed-Text-Style-Guide-General-Requirements",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Introduction; §1 Duration; §4 Line Treatment; §5 Positioning, lines 15–48",
+      "rights_checked": true,
+      "notes": "Read scope and all duration, line-break and positioning claims. Existing IDs CRAFT-delivery-c8f0fb92a4ca and CRAFT-delivery-48619f865049 each occur once in delivery and correctly identify enrichment targets. No contrast measurement inferred. Public text is not media permission; unknown authorization retained."
+    },
+    {
+      "source_id": "w3c-captions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "SC1.2.2 Level A; Success Criterion; Intent; footer, lines 21, 31–36, 336–337",
+      "rights_checked": true,
+      "notes": "Read the exception and caption content requirements in this informative WCAG 2.2 explanation. Not a legal or project compliance certification. Footer links permissive terms, not independently evaluated as a third-party media grant; conservative unknown media rights retained."
+    },
+    {
+      "source_id": "yt-aspect",
+      "url": "https://support.google.com/youtube/answer/6375112?hl=en",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Computer: How your video will display; Recommended resolution & aspect ratios, lines 23–34",
+      "rights_checked": true,
+      "notes": "Read computer 16:9 baseline, 1080p dimensions and no-baked-padding recommendation. FS-0186 exists once in delivery and is the matching landscape-video enrichment target. No named author shown; media rights unknown, no actual video inspection."
+    },
+    {
+      "source_id": "yt-shorts",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Eligibility for three-minute Shorts > Standard YouTube channels, lines 23–28",
+      "rights_checked": true,
+      "notes": "Read square/vertical, three-minute and inclusive 15 October 2024 rule. Separate artist-channel date is not substituted. FS-0185 exists once and is the original short-form target; no safe-area values inferred. No named author shown; rights unknown and no media acquired."
+    },
+    {
+      "source_id": "apple-prores",
+      "url": "https://www.apple.com/final-cut-pro/docs/Apple_ProRes.pdf",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "April 2022 white paper, printed p.18 Alpha Channel Support and p.23 copyright",
+      "rights_checked": true,
+      "notes": "Read PDF text for both codecs, blending role and exact alpha encoding through 16 bits; not a whole-image mathematical-losslessness claim. Printed p.23 reserves Apple rights, supporting restricted status. No local PDF authored/downloaded as media; no encode/decode experiment."
+    },
+    {
+      "source_id": "netflix-imf",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/16082027231507-New-IMF-Delivery-Workflow",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "New IMF Delivery Workflow, body paragraphs 1 and 3–4, lines 13, 17–18; footer line 30",
+      "rights_checked": true,
+      "notes": "Read dated 24 April 2023 workflow account, IMP/CPL selection, request pairing and unexpected-track warning. Historical public description only; no Backlot session or actual delivery tested. Rights-reserved footer does not grant reuse; unknown authorization retained."
+    },
+    {
+      "source_id": "dci-draft",
+      "url": "https://dcss.dcimovies.com/latest/dcss.html",
+      "checked_at": "2026-10-30T05:20:15+00:00",
+      "access": "public_body",
+      "locator": "Header and Notice; §5.2.3 Packaging Concepts; §5.4.2 File Format, lines 2–20, 1153–1158, 1337–1339",
+      "rights_checked": true,
+      "notes": "Confirmed build eb76caa, 1 March 2023 discussion draft, not a final/current delivery standard. Read CPL sequence, version/language and signed-XML requirements. Notice limits reproduction grant to members/suppliers and directs others to obtain permission; restricted status retained. No diagrams/media copied."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "youtube-upload-encoding",
+      "field": "컨테이너",
+      "source_id": "yt-encoding",
+      "locator": "Container, L23–26",
+      "verdict": "supported",
+      "notes": "Container heading identifies MP4 as the recommendation."
+    },
+    {
+      "concept_key": "youtube-upload-encoding",
+      "field": "영상_코덱",
+      "source_id": "yt-encoding",
+      "locator": "Video codec, L33–35",
+      "verdict": "supported",
+      "notes": "Video codec subsection pairs H.264 with progressive scan and High Profile."
+    },
+    {
+      "concept_key": "youtube-upload-encoding",
+      "field": "오디오_샘플률",
+      "source_id": "yt-encoding",
+      "locator": "Audio codec, L28–31",
+      "verdict": "supported",
+      "notes": "Audio codec subsection lists a 48 kHz sample rate."
+    },
+    {
+      "concept_key": "frame-rate",
+      "field": "원본_대응",
+      "source_id": "yt-encoding",
+      "locator": "Frame rate, L42–44",
+      "verdict": "supported",
+      "notes": "Frame rate section requires recorded and uploaded rates to match. Original FS-0187 occurs once; this is enrichment, not a second FPS concept."
+    },
+    {
+      "concept_key": "frame-rate",
+      "field": "예시_프레임률",
+      "source_id": "yt-encoding",
+      "locator": "Frame rate, L46",
+      "verdict": "supported",
+      "notes": "The common-rate list contains all six values and explicitly allows other rates."
+    },
+    {
+      "concept_key": "frame-rate",
+      "field": "인터레이스_처리",
+      "source_id": "yt-encoding",
+      "locator": "Frame rate, L47",
+      "verdict": "supported",
+      "notes": "The section explicitly instructs deinterlacing before upload."
+    },
+    {
+      "concept_key": "youtube-sdr-color",
+      "field": "권장_색공간",
+      "source_id": "yt-encoding",
+      "locator": "Recommended color space for SDR uploads, L95–101",
+      "verdict": "supported",
+      "notes": "The SDR recommendation names BT.709. This concerns signal metadata, not original shot-matching or skin/product color guides."
+    },
+    {
+      "concept_key": "youtube-sdr-color",
+      "field": "미지정_TRC",
+      "source_id": "yt-encoding",
+      "locator": "Color Space > When/YouTube Action, L105",
+      "verdict": "supported",
+      "notes": "The action table maps unspecified TRC to BT.709."
+    },
+    {
+      "concept_key": "youtube-sdr-color",
+      "field": "레인지_변환",
+      "source_id": "yt-encoding",
+      "locator": "Color Space > Note, L111",
+      "verdict": "supported",
+      "notes": "The note states conversion from full to limited range."
+    },
+    {
+      "concept_key": "youtube-hdr-signaling",
+      "field": "색_비트깊이",
+      "source_id": "yt-hdr",
+      "locator": "Upload requirements > Color depth, L42",
+      "verdict": "supported",
+      "notes": "The upload table permits the two recorded bit depths."
+    },
+    {
+      "concept_key": "youtube-hdr-signaling",
+      "field": "원색",
+      "source_id": "yt-hdr",
+      "locator": "Upload requirements > Color primaries, L43",
+      "verdict": "supported",
+      "notes": "The primaries row names Rec.2020."
+    },
+    {
+      "concept_key": "youtube-hdr-signaling",
+      "field": "전달함수",
+      "source_id": "yt-hdr",
+      "locator": "Upload requirements > EOTF, L45",
+      "verdict": "supported",
+      "notes": "The EOTF row lists PQ or HLG under Rec.2100."
+    },
+    {
+      "concept_key": "youtube-hdr-signaling",
+      "field": "메타데이터",
+      "source_id": "yt-hdr",
+      "locator": "Upload HDR videos, L25",
+      "verdict": "supported",
+      "notes": "Upload instructions require HDR metadata in codec or container."
+    },
+    {
+      "concept_key": "ebu-r128-programme-loudness",
+      "field": "프로그램_음량",
+      "source_id": "ebu-r128",
+      "locator": "본문 Recommendation 설명, L32",
+      "verdict": "supported",
+      "notes": "The public description recommends the recorded negative LUFS target, not a reviewer measurement."
+    },
+    {
+      "concept_key": "ebu-r128-programme-loudness",
+      "field": "기술_지표",
+      "source_id": "ebu-r128",
+      "locator": "본문 Recommendation 설명, L32",
+      "verdict": "supported",
+      "notes": "Both recorded loudness descriptors appear together in the recommendation."
+    },
+    {
+      "concept_key": "ebu-r128-programme-loudness",
+      "field": "문서_버전",
+      "source_id": "ebu-r128",
+      "locator": "본문 Version 5.0 및 All versions 표, L32, L56",
+      "verdict": "supported",
+      "notes": "Description and version table agree on version 5.0 and November 2023."
+    },
+    {
+      "concept_key": "subrip-youtube-delivery",
+      "field": "확장자",
+      "source_id": "yt-subtitle-files",
+      "locator": "Basic file formats > SubRip 행, L27",
+      "verdict": "supported",
+      "notes": "The SubRip row gives the .srt extension."
+    },
+    {
+      "concept_key": "subrip-youtube-delivery",
+      "field": "문자_인코딩",
+      "source_id": "yt-subtitle-files",
+      "locator": "Basic file formats > SubRip 행, L27",
+      "verdict": "supported",
+      "notes": "The same row requires plain UTF-8."
+    },
+    {
+      "concept_key": "subrip-youtube-delivery",
+      "field": "스타일_지원",
+      "source_id": "yt-subtitle-files",
+      "locator": "Basic file formats > SubRip 행, L27",
+      "verdict": "supported",
+      "notes": "That row limits support to basic files and excludes style markup."
+    },
+    {
+      "concept_key": "webvtt-file-structure",
+      "field": "본문_인코딩",
+      "source_id": "w3c-webvtt",
+      "locator": "§4.1, L844",
+      "verdict": "supported",
+      "notes": "Section 4.1 requires UTF-8 body encoding."
+    },
+    {
+      "concept_key": "webvtt-file-structure",
+      "field": "미디어_타입",
+      "source_id": "w3c-webvtt",
+      "locator": "§4.1, L844",
+      "verdict": "supported",
+      "notes": "Section 4.1 assigns text/vtt."
+    },
+    {
+      "concept_key": "webvtt-file-structure",
+      "field": "파일_시작",
+      "source_id": "w3c-webvtt",
+      "locator": "§4.1 구성 요소 1–2, L846–848",
+      "verdict": "supported",
+      "notes": "Ordered components 1 and 2 give optional BOM followed by WEBVTT."
+    },
+    {
+      "concept_key": "automatic-caption-review",
+      "field": "교정_필요",
+      "source_id": "yt-auto-captions",
+      "locator": "도입 Note 및 본문, L20, L25",
+      "verdict": "supported",
+      "notes": "Opening note and long-form section instruct review and correction. No real caption QC claimed."
+    },
+    {
+      "concept_key": "automatic-caption-review",
+      "field": "오인식_요인",
+      "source_id": "yt-auto-captions",
+      "locator": "도입 Note, L20",
+      "verdict": "supported",
+      "notes": "The note lists mispronunciation, accent, dialect and background noise."
+    },
+    {
+      "concept_key": "automatic-caption-review",
+      "field": "생성_시점",
+      "source_id": "yt-auto-captions",
+      "locator": "Automatic captions on long-form videos and Shorts, L24",
+      "verdict": "supported",
+      "notes": "Long-form section allows delayed availability and ties time to audio complexity."
+    },
+    {
+      "concept_key": "netflix-us-sdh",
+      "field": "행_문자수",
+      "source_id": "netflix-us",
+      "locator": "I.2 Character Limitation, L24–26",
+      "verdict": "supported",
+      "notes": "Section I.2 gives the recorded per-line limit in SDH scope."
+    },
+    {
+      "concept_key": "netflix-us-sdh",
+      "field": "두_화자",
+      "source_id": "netflix-us",
+      "locator": "I.6 Dual Speakers/Multiple Events, L73–75",
+      "verdict": "supported",
+      "notes": "Section I.6 specifies no-space hyphen and one speaker per line."
+    },
+    {
+      "concept_key": "netflix-us-sdh",
+      "field": "읽기_속도",
+      "source_id": "netflix-us",
+      "locator": "I.14 Reading Speed Limits, L202–205",
+      "verdict": "supported",
+      "notes": "Section I.14 gives the recorded adult/child maxima."
+    },
+    {
+      "concept_key": "netflix-korean-translation-subtitles",
+      "field": "행_문자수",
+      "source_id": "netflix-ko",
+      "locator": "I.2 Character Limitation, L22–24",
+      "verdict": "supported",
+      "notes": "Section I.2 gives the recorded Korean interlingual line limit."
+    },
+    {
+      "concept_key": "netflix-korean-translation-subtitles",
+      "field": "반자_계산",
+      "source_id": "netflix-ko",
+      "locator": "I.2 Character Limitation, L25",
+      "verdict": "supported",
+      "notes": "Section I.2 assigns half-character counting to all three recorded categories."
+    },
+    {
+      "concept_key": "netflix-korean-translation-subtitles",
+      "field": "읽기_속도",
+      "source_id": "netflix-ko",
+      "locator": "I.15 Reading Speed Limits, L205–208",
+      "verdict": "supported",
+      "notes": "Section I.15 gives both recorded adult/child speed limits."
+    },
+    {
+      "concept_key": "subtitle-event-duration",
+      "field": "최소_시간",
+      "source_id": "netflix-general",
+      "locator": "§1 Duration, L18",
+      "verdict": "supported",
+      "notes": "Section 1 states five-sixths of a second minimum per event."
+    },
+    {
+      "concept_key": "subtitle-event-duration",
+      "field": "최대_시간",
+      "source_id": "netflix-general",
+      "locator": "§1 Duration, L19",
+      "verdict": "supported",
+      "notes": "Section 1 states the seven-second maximum per event."
+    },
+    {
+      "concept_key": "subtitle-event-duration",
+      "field": "적용_범위",
+      "source_id": "netflix-general",
+      "locator": "도입부, L15",
+      "verdict": "supported",
+      "notes": "Introduction includes Originals/non-Originals, exceptions, and companion language/timing/file guidelines."
+    },
+    {
+      "concept_key": "subtitle-semantic-line-breaks",
+      "field": "최대_행수",
+      "source_id": "netflix-general",
+      "locator": "§4 Line Treatment, L28–30",
+      "verdict": "supported",
+      "notes": "Section 4 sets the two-line ceiling. Matching original semantic-line-break guide is explicitly linked."
+    },
+    {
+      "concept_key": "subtitle-semantic-line-breaks",
+      "field": "접속사_경계",
+      "source_id": "netflix-general",
+      "locator": "§4 Line Treatment, L34–37",
+      "verdict": "supported",
+      "notes": "Section 4 lists a break before conjunctions, not after them."
+    },
+    {
+      "concept_key": "subtitle-semantic-line-breaks",
+      "field": "인명_보존",
+      "source_id": "netflix-general",
+      "locator": "§4 Line Treatment, L38–41",
+      "verdict": "supported",
+      "notes": "Section 4 forbids splitting first and last names."
+    },
+    {
+      "concept_key": "subtitle-positioning",
+      "field": "가로_정렬",
+      "source_id": "netflix-general",
+      "locator": "§5 Positioning, L47",
+      "verdict": "supported",
+      "notes": "Section 5 requires center justification. Matching original placement guide is explicitly linked."
+    },
+    {
+      "concept_key": "subtitle-positioning",
+      "field": "세로_위치",
+      "source_id": "netflix-general",
+      "locator": "§5 Positioning, L47",
+      "verdict": "supported",
+      "notes": "Section 5 allows top/bottom placement and the Japanese vertical exception."
+    },
+    {
+      "concept_key": "subtitle-positioning",
+      "field": "화면_문자_중첩",
+      "source_id": "netflix-general",
+      "locator": "§5 Positioning, L48",
+      "verdict": "supported",
+      "notes": "Section 5 prioritizes avoiding onscreen-text overlap and readability where unavoidable."
+    },
+    {
+      "concept_key": "prerecorded-accessibility-captions",
+      "field": "제공_범위",
+      "source_id": "w3c-captions",
+      "locator": "Success Criterion, L31–33",
+      "verdict": "supported",
+      "notes": "Success Criterion contains the clearly-labeled text-alternative exception."
+    },
+    {
+      "concept_key": "prerecorded-accessibility-captions",
+      "field": "비대사_정보",
+      "source_id": "w3c-captions",
+      "locator": "Intent, L36",
+      "verdict": "supported",
+      "notes": "Intent includes meaningful non-speech sound information."
+    },
+    {
+      "concept_key": "prerecorded-accessibility-captions",
+      "field": "화자_정보",
+      "source_id": "w3c-captions",
+      "locator": "Intent, L36",
+      "verdict": "supported",
+      "notes": "Intent explicitly includes identifying the speaker. Not an inspected video."
+    },
+    {
+      "concept_key": "landscape-video",
+      "field": "기본_화면비",
+      "source_id": "yt-aspect",
+      "locator": "How your video will display, L23",
+      "verdict": "supported",
+      "notes": "Computer subsection specifies the standard 16:9 ratio."
+    },
+    {
+      "concept_key": "landscape-video",
+      "field": "HD_해상도",
+      "source_id": "yt-aspect",
+      "locator": "Recommended resolution & aspect ratios, L29–34",
+      "verdict": "supported",
+      "notes": "The default-ratio resolution list gives 1920 by 1080 for 1080p."
+    },
+    {
+      "concept_key": "landscape-video",
+      "field": "패딩_처리",
+      "source_id": "yt-aspect",
+      "locator": "How your video will display, L26",
+      "verdict": "supported",
+      "notes": "The display subsection recommends avoiding embedded padding/black bars."
+    },
+    {
+      "concept_key": "vertical-short-form",
+      "field": "대상_화면비",
+      "source_id": "yt-shorts",
+      "locator": "Eligibility for three-minute Shorts > Standard YouTube channels, L24",
+      "verdict": "supported",
+      "notes": "Standard-channel rule covers both square and vertical aspect ratios."
+    },
+    {
+      "concept_key": "vertical-short-form",
+      "field": "길이_상한",
+      "source_id": "yt-shorts",
+      "locator": "Eligibility for three-minute Shorts > Standard YouTube channels, L24",
+      "verdict": "supported",
+      "notes": "That same eligibility rule caps duration at three minutes."
+    },
+    {
+      "concept_key": "vertical-short-form",
+      "field": "업로드_기준일",
+      "source_id": "yt-shorts",
+      "locator": "Eligibility for three-minute Shorts > Standard YouTube channels, L24",
+      "verdict": "supported",
+      "notes": "The body explicitly says on or after 15 October 2024, so the inclusive date is correct."
+    },
+    {
+      "concept_key": "forced-narrative-subtitles",
+      "field": "포함_조건",
+      "source_id": "netflix-ko",
+      "locator": "I.8 On-screen Text, L87–88",
+      "verdict": "supported",
+      "notes": "Section I.8 limits onscreen-text forced narratives to plot-pertinent information."
+    },
+    {
+      "concept_key": "forced-narrative-subtitles",
+      "field": "중복_제거",
+      "source_id": "netflix-ko",
+      "locator": "I.8 On-screen Text, L91",
+      "verdict": "supported",
+      "notes": "Section I.8 instructs deletion of identical or dialogue-covered redundancy."
+    },
+    {
+      "concept_key": "forced-narrative-subtitles",
+      "field": "대사_분리",
+      "source_id": "netflix-ko",
+      "locator": "I.8 On-screen Text, L94",
+      "verdict": "supported",
+      "notes": "Section I.8 forbids combining forced narrative and dialogue in one subtitle."
+    },
+    {
+      "concept_key": "prores-4444-alpha",
+      "field": "지원_코덱",
+      "source_id": "apple-prores",
+      "locator": "인쇄 p.18, L493–495",
+      "verdict": "supported",
+      "notes": "Printed p.18 explicitly gives optional alpha support to both recorded codecs."
+    },
+    {
+      "concept_key": "prores-4444-alpha",
+      "field": "합성_용도",
+      "source_id": "apple-prores",
+      "locator": "인쇄 p.18, L498–501",
+      "verdict": "supported",
+      "notes": "Printed p.18 defines the proportion used to blend foreground and background pixels."
+    },
+    {
+      "concept_key": "prores-4444-alpha",
+      "field": "알파_정밀도",
+      "source_id": "apple-prores",
+      "locator": "인쇄 p.18, L505–515",
+      "verdict": "supported",
+      "notes": "Printed p.18 specifies lossless alpha through 16 bits, separately from image-channel encoding."
+    },
+    {
+      "concept_key": "netflix-imf-package-delivery",
+      "field": "선택_단위",
+      "source_id": "netflix-imf",
+      "locator": "본문 세 번째 설명 문단, L17",
+      "verdict": "supported",
+      "notes": "Body paragraph 3 describes default single IMP and CPL selection per delivery."
+    },
+    {
+      "concept_key": "netflix-imf-package-delivery",
+      "field": "요청_연결",
+      "source_id": "netflix-imf",
+      "locator": "마지막 본문 문단, L18",
+      "verdict": "supported",
+      "notes": "Final body paragraph pairs IMP contents with existing source requests."
+    },
+    {
+      "concept_key": "netflix-imf-package-delivery",
+      "field": "예상외_트랙",
+      "source_id": "netflix-imf",
+      "locator": "마지막 본문 문단, L18",
+      "verdict": "supported",
+      "notes": "Final body paragraph promises an on-page alert for unexpected new tracks, not a tested account result."
+    },
+    {
+      "concept_key": "dcp-composition-playlist",
+      "field": "재생_목록_역할",
+      "source_id": "dci-draft",
+      "locator": "§5.2.3 Packaging Concepts, L1153–1158",
+      "verdict": "supported",
+      "notes": "Section 5.2.3 explains track order, playback and synchronization information."
+    },
+    {
+      "concept_key": "dcp-composition-playlist",
+      "field": "버전별_목록",
+      "source_id": "dci-draft",
+      "locator": "§5.2.3 Packaging Concepts, L1158",
+      "verdict": "supported",
+      "notes": "Section 5.2.3 explicitly separates playlists by version or language audio track."
+    },
+    {
+      "concept_key": "dcp-composition-playlist",
+      "field": "목록_파일_형식",
+      "source_id": "dci-draft",
+      "locator": "§5.4.2 File Format, L1337–1339",
+      "verdict": "supported",
+      "notes": "Section 5.4.2 requires secure signed text XML in this explicitly identified draft."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": ""
+}

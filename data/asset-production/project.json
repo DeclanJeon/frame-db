@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "project_id": "frame-assets-20261030-v1",
+  "work_order": "docs/ASSET_EXPANSION_WORK_ORDER.md",
+  "planned_unique_images": 147,
+  "planned_reference_slots": 148,
+  "status": "production_started",
+  "history_policy": "Append-only actual submissions and outcomes; not approval evidence.",
+  "image_tool": "generate_image extension; actual invocation identity recorded with results",
+  "generation_defaults": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "output_format": "png",
+    "n": 1
+  }
+}

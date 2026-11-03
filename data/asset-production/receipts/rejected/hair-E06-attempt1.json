@@ -1,0 +1,21 @@
+{
+  "job_id": "hair-E06",
+  "status": "rejected",
+  "path": null,
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18bfe-75a6-7c01-b4c1-07e2fdda697e/exec-392e67ec-eaf8-43fc-adc7-acd4eb7db065.png",
+  "sha256": "916f65f5fdac9a848b277fbd2a3101c9780f0745728201bcff588ee7f4b9eae2",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: hair-E06; concept: 소프트 픽시.\nClass: base; domain: hair; entry: FS-0005.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use a soft shaped pixie with a slightly longer textured top, short sides clearing the ears and a short neat nape. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.\nChange only: Use a soft shaped pixie with a slightly longer textured top, short sides clearing the ears and a short neat nape..\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Both ear region and short nape transition remain readable.; All defining ends, attachment and the named ear/nape region are visible.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nConcrete reference roles: Image 1 (expression-E00.png) is the accepted identity A face and skin-mark anchor; preserve identity, camera, crop, background and lighting while changing only the named hair geometry.",
+  "reference_paths": [
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "rejected; geometry mismatch",
+    "observations": "Viewed the 1024x1536 image. Identity A and neutral gray setup are visible, but the hair remains long and tied back, with no pixie, short ear-clearing sides or neat short nape. Rejected for geometry mismatch; do not use as a derivative parent."
+  },
+  "archive_note": "Prior failed/rejected attempt retained; not parent-accepted. New targeted attempt is authorized separately."
+}

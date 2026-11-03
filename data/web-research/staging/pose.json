@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "category_id": "pose",
+  "collector": "pose-collector-st_01a18ad4",
+  "collected_at": "2026-10-30T03:24:57.789419+00:00",
+  "shortfall_reason": "20개 구별되는 개념, 부족분 0개. 기존 동일 분류 5개 ID를 보강 대상으로 지정했다. NHS의 운동 자세 설명과 Canon 저자의 촬영 지침을 해당 맥락의 source_claim으로만 수록했다. 개인별 운동 처방이나 보편적인 촬영 효과 검증이 아니다. 실제 무게중심 좌표·관절각·촬영 결과·미디어 권리는 미확인이다. 직접 관찰·측정·창작 제안·미디어 후보는 0개다. Adobe 후보는 robots.txt의 자동 접근 제한 확인 후 제외했고 CMU mocap/MMAC는 접근하지 않았다. Canon robots.txt는 웹 도구로 확인되지 않았으므로 크롤 허가를 주장하지 않는다. 시드·Drive·DB 반영 및 미디어 취득은 수행하지 않았다.",
+  "sources": [
+    {
+      "source_id": "nhs-balance",
+      "url": "https://www.nhs.uk/live-well/exercise/balance-exercises/",
+      "title": "Balance exercises",
+      "publisher": "NHS",
+      "authors": [],
+      "checked_at": "2026-10-30T03:24:57.789419+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Sideways walking; Simple grapevine; Heel-to-toe walk; One-leg stand; Step-up, 각 A–C 지침. Page last reviewed: 7 November 2023.",
+      "rights": {"status": "unknown", "evidence_url": null, "scope": "공개 본문만 확인했다. robots.txt의 일반 규칙에서 이 경로의 금지는 발견하지 못했다. 이미지·도해·본문의 복제, 상업 재배포, AI 업로드 권리는 확인하지 않았다. 미디어 취득 없음.", "attribution": "본문 발행자 NHS. 이미지에는 Shot by NHS Choices 크레딧이 있으나 이미지 미검사이며 재사용 조건은 미확인."}
+    },
+    {
+      "source_id": "nhs-strength",
+      "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/",
+      "title": "Strength exercises",
+      "publisher": "NHS",
+      "authors": [],
+      "checked_at": "2026-10-30T03:24:57.789419+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Sit-to-stand; Mini-squats; Calf raises; Sideways leg lift; Leg extension; Wall press-up; Biceps curls, 각 A–C 지침. Page last reviewed: 28 February 2024.",
+      "rights": {"status": "unknown", "evidence_url": null, "scope": "공개 운동 지침을 짧은 사실 메타데이터로만 정리했다. robots.txt의 일반 규칙에서 이 경로의 금지는 발견하지 못했다. 사진·영상·본문 재배포 허락은 미확인. 미디어 취득 없음.", "attribution": "NHS 발행. 페이지 이미지 크레딧은 Shot by NHS Choices. 별도 저자 및 미디어 이용 조건은 미확인."}
+    },
+    {
+      "source_id": "nhs-flexibility",
+      "url": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/",
+      "title": "Flexibility exercises",
+      "publisher": "NHS",
+      "authors": [],
+      "checked_at": "2026-10-30T03:24:57.789419+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Neck rotation; Neck stretch; Sideways bend; Calf stretch, 각 A–C 지침. Page last reviewed: 20 November 2023.",
+      "rights": {"status": "unknown", "evidence_url": null, "scope": "공개 본문 열람만 확인했다. robots.txt의 일반 규칙에서 이 경로의 금지는 발견하지 못했다. 사진·본문의 상업 재사용, 재배포 및 개인 권리는 미확인. 미디어 취득 없음.", "attribution": "NHS 발행. 이미지 크레딧 Shot by NHS Choices는 권리 허락의 증빙으로 사용하지 않는다."}
+    },
+    {
+      "source_id": "nhs-sitting",
+      "url": "https://www.nhs.uk/live-well/exercise/sitting-exercises/",
+      "title": "Sitting exercises",
+      "publisher": "NHS",
+      "authors": [],
+      "checked_at": "2026-10-30T03:24:57.789419+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Upper-body twist A–C; Hip marching A–C. Page last reviewed: 18 January 2024.",
+      "rights": {"status": "unknown", "evidence_url": null, "scope": "공개 본문을 읽었으며 robots.txt의 일반 규칙에서 이 경로의 금지는 발견하지 못했다. 텍스트·이미지 복제나 상업 미디어 사용 허가는 확인하지 않았다. 이미지 다운로드·검사 없음.", "attribution": "NHS 발행. 이미지 크레딧 Shot by NHS Choices. 별도 라이선스 및 제3자 권리는 미확인."}
+    },
+    {
+      "source_id": "canon-portrait-posing",
+      "url": "https://www.usa.canon.com/learning/training-articles/training-articles-list/posing-tips-for-successful-portraits",
+      "title": "Posing Tips for Successful Portraits",
+      "publisher": "Canon U.S.A., Inc.",
+      "authors": ["Laura Tillinghast"],
+      "checked_at": "2026-10-30T03:24:57.789419+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Jun 12, 2018; How to Direct Your Subject, 벽/난간 기대기 문단과 Standing poses로 시작하는 체중 이동 문단.",
+      "rights": {"status": "unknown", "evidence_url": null, "scope": "저자의 공식 교육 본문을 공개 열람했다. 사진 복제·상업 재배포·인물 권리·AI 업로드 허락은 미확인이다. robots.txt는 웹 도구에서 접근 불가였으며 자동 수집 허가를 추정하지 않는다. 추가 크롤·미디어 취득 없음.", "attribution": "Laura Tillinghast / Canon U.S.A., Inc. 페이지는 CDLC 기고자가 보상받는 대변인임을 고지한다. 별도 재사용 조건은 미확인."}
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "sideways-walking",
+      "title_ko": "발을 모으며 옆으로 걷기",
+      "subtype": "서기·측방 이동",
+      "summary": "NHS가 설명한 측방 보행 자세.",
+      "facts": [
+        {"field": "시작_자세", "value": "두 발을 모으고 무릎을 약간 굽힌다.", "evidence": {"source_id": "nhs-balance", "locator": "Sideways walking A", "kind": "source_claim"}},
+        {"field": "발_이동", "value": "한 발을 옆으로 옮긴 뒤 반대발을 모은다.", "evidence": {"source_id": "nhs-balance", "locator": "Sideways walking B–C", "kind": "source_claim"}},
+        {"field": "골반_조건", "value": "걸을 때 골반이 처지지 않도록 한다.", "evidence": {"source_id": "nhs-balance", "locator": "Sideways walking, A–C 뒤 주의 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["측방이동", "두발"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "grapevine-cross-step",
+      "title_ko": "발을 교차하는 옆걸음",
+      "subtype": "서기·교차 보행",
+      "summary": "NHS의 교차 보행 예시.",
+      "facts": [
+        {"field": "이동_유형", "value": "발을 교차하며 옆으로 걷는다.", "evidence": {"source_id": "nhs-balance", "locator": "Simple grapevine 도입 문장", "kind": "source_claim"}},
+        {"field": "발_순서", "value": "오른발을 왼발 위로 교차한 뒤 왼발을 모은다.", "evidence": {"source_id": "nhs-balance", "locator": "Simple grapevine A–B", "kind": "source_claim"}},
+        {"field": "보조_접촉", "value": "필요하면 손가락을 벽에 댄다.", "evidence": {"source_id": "nhs-balance", "locator": "Simple grapevine, A–B 뒤 안정성 안내", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["교차보행", "벽보조"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "heel-to-toe-walk",
+      "title_ko": "뒤꿈치와 발끝을 잇는 보행",
+      "subtype": "서기·일렬 보행",
+      "summary": "NHS의 일렬 보행 지침.",
+      "facts": [
+        {"field": "발_정렬", "value": "오른뒤꿈치를 왼발끝 바로 앞 바닥에 놓는다.", "evidence": {"source_id": "nhs-balance", "locator": "Heel-to-toe walk A", "kind": "source_claim"}},
+        {"field": "시선", "value": "좌우 발을 바꾸어도 계속 앞을 본다.", "evidence": {"source_id": "nhs-balance", "locator": "Heel-to-toe walk B", "kind": "source_claim"}},
+        {"field": "지지_조건", "value": "필요하면 손가락으로 벽을 짚는다.", "evidence": {"source_id": "nhs-balance", "locator": "Heel-to-toe walk B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["일렬보행", "시선", "벽보조"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "wall-supported-one-leg-stand",
+      "title_ko": "벽을 짚고 한 발 서기",
+      "subtype": "서기·한발 지지",
+      "summary": "NHS의 벽 보조 균형 자세.",
+      "facts": [
+        {"field": "손_접촉", "value": "벽을 향해 팔을 뻗고 손끝을 댄다.", "evidence": {"source_id": "nhs-balance", "locator": "One-leg stand A", "kind": "source_claim"}},
+        {"field": "다리_지지", "value": "왼다리를 들고 반대 무릎은 약간 굽힌다.", "evidence": {"source_id": "nhs-balance", "locator": "One-leg stand B", "kind": "source_claim"}},
+        {"field": "골반_정렬", "value": "골반을 수평으로 유지한다.", "evidence": {"source_id": "nhs-balance", "locator": "One-leg stand B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["한발지지", "벽보조"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "step-up",
+      "title_ko": "계단 오르기",
+      "subtype": "이동·단차 지지",
+      "summary": "NHS의 낮은 단 오르내리기 예시.",
+      "facts": [
+        {"field": "보조_구조", "value": "난간이나 벽 가까이의 단을 사용한다.", "evidence": {"source_id": "nhs-balance", "locator": "Step-up 도입 지침", "kind": "source_claim"}},
+        {"field": "접지_순서", "value": "오른발로 오른 뒤 왼발을 같은 단에 모은다.", "evidence": {"source_id": "nhs-balance", "locator": "Step-up A–B", "kind": "source_claim"}},
+        {"field": "복귀_조건", "value": "다시 내려와 시작 위치로 돌아간다.", "evidence": {"source_id": "nhs-balance", "locator": "Step-up C", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["계단", "접지", "난간"], "existing_entry_id": "FS-0076", "media_candidates": []
+    },
+    {
+      "concept_key": "sit-to-stand",
+      "title_ko": "여성 의자에서 일어나기",
+      "subtype": "앉기·서기 전환",
+      "summary": "NHS의 기립 지침(성별 비한정).",
+      "facts": [
+        {"field": "시작_자세", "value": "의자 끝에서 발을 골반 너비로 벌린다.", "evidence": {"source_id": "nhs-strength", "locator": "Sit-to-stand A", "kind": "source_claim"}},
+        {"field": "몸통_방향", "value": "상체를 조금 앞으로 기울인다.", "evidence": {"source_id": "nhs-strength", "locator": "Sit-to-stand A", "kind": "source_claim"}},
+        {"field": "지지_전환", "value": "팔 대신 다리로 천천히 일어선다.", "evidence": {"source_id": "nhs-strength", "locator": "Sit-to-stand B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["의자", "기립"], "existing_entry_id": "CRAFT-pose-e1cf2bc9d07d", "media_candidates": []
+    },
+    {
+      "concept_key": "chair-supported-mini-squat",
+      "title_ko": "의자를 짚는 얕은 스쿼트",
+      "subtype": "서기·무릎 굽힘",
+      "summary": "NHS의 보조 스쿼트.",
+      "facts": [
+        {"field": "손_지지", "value": "의자 등받이에 손을 얹는다.", "evidence": {"source_id": "nhs-strength", "locator": "Mini-squats A", "kind": "source_claim"}},
+        {"field": "발_간격", "value": "발은 골반 너비로 둔다.", "evidence": {"source_id": "nhs-strength", "locator": "Mini-squats A", "kind": "source_claim"}},
+        {"field": "몸통_정렬", "value": "무릎을 굽혀도 등은 곧게 유지한다.", "evidence": {"source_id": "nhs-strength", "locator": "Mini-squats B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["의자보조", "무릎굴곡"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "chair-supported-calf-raise",
+      "title_ko": "의자를 짚고 뒤꿈치 들기",
+      "subtype": "서기·앞발 지지",
+      "summary": "NHS의 뒤꿈치들기.",
+      "facts": [
+        {"field": "손_지지", "value": "의자 등받이에 손을 댄다.", "evidence": {"source_id": "nhs-strength", "locator": "Calf raises A", "kind": "source_claim"}},
+        {"field": "발_동작", "value": "두 뒤꿈치를 바닥에서 든다.", "evidence": {"source_id": "nhs-strength", "locator": "Calf raises B", "kind": "source_claim"}},
+        {"field": "적용_범위", "value": "편안한 범위에서 천천히 움직인다.", "evidence": {"source_id": "nhs-strength", "locator": "Calf raises B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["뒤꿈치들기", "의자보조"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "chair-supported-side-leg-lift",
+      "title_ko": "의자를 짚고 다리 옆으로 들기",
+      "subtype": "서기·측방 다리 들기",
+      "summary": "NHS의 측방다리들기.",
+      "facts": [
+        {"field": "손_지지", "value": "의자 등받이에 손을 댄다.", "evidence": {"source_id": "nhs-strength", "locator": "Sideways leg lift A", "kind": "source_claim"}},
+        {"field": "다리_방향", "value": "오른다리를 옆으로 든다.", "evidence": {"source_id": "nhs-strength", "locator": "Sideways leg lift B", "kind": "source_claim"}},
+        {"field": "골반_조건", "value": "등·골반을 곧게 두고 오른쪽으로 기울지 않는다.", "evidence": {"source_id": "nhs-strength", "locator": "Sideways leg lift B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["측방다리", "의자보조"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "chair-supported-back-leg-extension",
+      "title_ko": "의자를 짚고 곧은 다리 뒤로 들기",
+      "subtype": "서기·후방 다리 들기",
+      "summary": "NHS의 후방다리들기.",
+      "facts": [
+        {"field": "손_지지", "value": "의자 등받이에 손을 댄다.", "evidence": {"source_id": "nhs-strength", "locator": "Leg extension A", "kind": "source_claim"}},
+        {"field": "다리_형태", "value": "왼다리를 곧게 펴 뒤로 든다.", "evidence": {"source_id": "nhs-strength", "locator": "Leg extension B", "kind": "source_claim"}},
+        {"field": "허리_조건", "value": "다리를 들며 허리를 젖히지 않는다.", "evidence": {"source_id": "nhs-strength", "locator": "Leg extension B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["후방다리", "의자보조"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "wall-press-up",
+      "title_ko": "벽 짚고 팔 굽히기",
+      "subtype": "서기·벽 밀기",
+      "summary": "NHS의 벽팔굽힘.",
+      "facts": [
+        {"field": "벽_거리", "value": "벽에서 팔 길이만큼 떨어져 선다.", "evidence": {"source_id": "nhs-strength", "locator": "Wall press-up A", "kind": "source_claim"}},
+        {"field": "손_접촉", "value": "가슴 높이에 손바닥을 대고 손가락은 위로 둔다.", "evidence": {"source_id": "nhs-strength", "locator": "Wall press-up A", "kind": "source_claim"}},
+        {"field": "팔_정렬", "value": "등을 곧게 두고 팔꿈치를 몸 옆에서 굽힌다.", "evidence": {"source_id": "nhs-strength", "locator": "Wall press-up B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["벽지지", "팔굽힘"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "standing-biceps-curl",
+      "title_ko": "서서 가벼운 중량 팔 굽히기",
+      "subtype": "서기·중량 접촉",
+      "summary": "NHS의 중량팔굽힘.",
+      "facts": [
+        {"field": "발_간격", "value": "발을 골반 너비로 벌린다.", "evidence": {"source_id": "nhs-strength", "locator": "Biceps curls A", "kind": "source_claim"}},
+        {"field": "손_접촉", "value": "가벼운 중량이나 물병을 든다.", "evidence": {"source_id": "nhs-strength", "locator": "Biceps curls A", "kind": "source_claim"}},
+        {"field": "팔_경로", "value": "팔을 몸 옆에 두고 중량을 어깨까지 올린다.", "evidence": {"source_id": "nhs-strength", "locator": "Biceps curls B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["중량", "팔굽힘", "서기"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "seated-neck-rotation",
+      "title_ko": "앉아서 고개 좌우로 돌리기",
+      "subtype": "앉기·목 회전",
+      "summary": "NHS가 제시한 목 회전 자세.",
+      "facts": [
+        {"field": "시작_자세", "value": "상체를 세우고 어깨를 내린다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Neck rotation A", "kind": "source_claim"}},
+        {"field": "초기_시선", "value": "시작할 때 정면을 본다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Neck rotation A", "kind": "source_claim"}},
+        {"field": "회전_방향", "value": "편안한 범위에서 왼어깨 쪽으로 돌린 뒤 오른쪽도 반복한다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Neck rotation B–C", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["목회전", "시선", "앉기"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "seated-neck-side-stretch",
+      "title_ko": "어깨를 잡고 목 옆으로 기울이기",
+      "subtype": "앉기·목 측굴",
+      "summary": "NHS의 어깨 고정 목 기울임.",
+      "facts": [
+        {"field": "몸통_자세", "value": "앉아서 상체를 세우고 정면을 본다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Neck stretch A", "kind": "source_claim"}},
+        {"field": "손_접촉", "value": "오른손으로 왼어깨를 내려 잡는다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Neck stretch A", "kind": "source_claim"}},
+        {"field": "목_방향", "value": "어깨를 고정하고 머리를 오른쪽으로 기울인다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Neck stretch B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["목측굴", "어깨접촉"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "standing-sideways-bend",
+      "title_ko": "서서 팔을 내리며 옆으로 굽히기",
+      "subtype": "서기·몸통 측굴",
+      "summary": "NHS의 선 자세 측굴 예시.",
+      "facts": [
+        {"field": "발_간격", "value": "발을 골반 너비로 벌리고 선다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Sideways bend A", "kind": "source_claim"}},
+        {"field": "팔_시작점", "value": "양팔을 몸 옆에 둔다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Sideways bend A", "kind": "source_claim"}},
+        {"field": "측굴_경로", "value": "왼팔을 몸 옆으로 내려보낸 뒤 오른팔도 반복한다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Sideways bend B–C", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["몸통측굴", "서기"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "wall-supported-calf-stretch",
+      "title_ko": "벽 짚고 뒷다리 종아리 늘이기",
+      "subtype": "서기·앞뒤 발 배치",
+      "summary": "NHS의 벽 보조 종아리 자세.",
+      "facts": [
+        {"field": "손_지지", "value": "안정을 위해 벽에 손을 댄다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Calf stretch A", "kind": "source_claim"}},
+        {"field": "다리_배치", "value": "오른다리를 굽히고 왼다리를 곧게 뒤로 뺀다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Calf stretch A", "kind": "source_claim"}},
+        {"field": "발_접촉", "value": "두 발바닥을 바닥에 두고 왼뒤꿈치를 유지한다.", "evidence": {"source_id": "nhs-flexibility", "locator": "Calf stretch A–B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["벽보조", "앞뒤발", "뒤꿈치접지"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "seated-upper-body-twist",
+      "title_ko": "앉아서 상체 비틀기",
+      "subtype": "앉기·몸통 회전",
+      "summary": "NHS의 앉은 회전 예시를 기존 개념에 연결한다.",
+      "facts": [
+        {"field": "발_지지", "value": "상체를 세우고 발바닥을 바닥에 둔다.", "evidence": {"source_id": "nhs-sitting", "locator": "Upper-body twist A", "kind": "source_claim"}},
+        {"field": "팔_접촉", "value": "팔을 교차해 양어깨에 손을 댄다.", "evidence": {"source_id": "nhs-sitting", "locator": "Upper-body twist A", "kind": "source_claim"}},
+        {"field": "골반_조건", "value": "골반을 움직이지 않고 상체를 왼쪽으로 돌린다.", "evidence": {"source_id": "nhs-sitting", "locator": "Upper-body twist B", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["몸통회전", "앉기", "발접지"], "existing_entry_id": "pose-full_single_P079", "media_candidates": []
+    },
+    {
+      "concept_key": "seated-hip-marching",
+      "title_ko": "의자에서 무릎 번갈아 들기",
+      "subtype": "앉기·다리 들기",
+      "summary": "NHS의 앉은 제자리 다리 들기.",
+      "facts": [
+        {"field": "등_접촉", "value": "상체를 세우되 등받이에 기대지 않는다.", "evidence": {"source_id": "nhs-sitting", "locator": "Hip marching A", "kind": "source_claim"}},
+        {"field": "손_지지", "value": "의자 양옆을 잡는다.", "evidence": {"source_id": "nhs-sitting", "locator": "Hip marching A", "kind": "source_claim"}},
+        {"field": "다리_형태", "value": "왼무릎을 굽힌 채 다리를 들고 반대쪽도 반복한다.", "evidence": {"source_id": "nhs-sitting", "locator": "Hip marching B–C", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["의자", "무릎들기", "손지지"], "existing_entry_id": null, "media_candidates": []
+    },
+    {
+      "concept_key": "relaxed-standing-weight-shift",
+      "title_ko": "편안한 체중 이동",
+      "subtype": "서기·체중 이동",
+      "summary": "Canon의 Laura Tillinghast가 설명한 촬영용 체중 이동.",
+      "facts": [
+        {"field": "카메라_관계", "value": "정면에서 경직될 때 몸을 카메라에서 약간 틀도록 안내한다.", "evidence": {"source_id": "canon-portrait-posing", "locator": "How to Direct Your Subject, Standing poses 문단 첫 두 문장", "kind": "source_claim"}},
+        {"field": "체중_배치", "value": "앞다리에 체중을 모두 싣는 예시를 제시한다.", "evidence": {"source_id": "canon-portrait-posing", "locator": "How to Direct Your Subject, Standing poses 문단", "kind": "source_claim"}},
+        {"field": "대체_지지", "value": "뒷다리로 체중을 옮기는 변형도 설명한다.", "evidence": {"source_id": "canon-portrait-posing", "locator": "How to Direct Your Subject, Standing poses 문단 마지막 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["체중이동", "카메라방향", "서기"], "existing_entry_id": "FS-0065", "media_candidates": []
+    },
+    {
+      "concept_key": "wall-supported-relaxed-lean",
+      "title_ko": "남성 낮은 벽에 기대기",
+      "subtype": "서기·구조물 기대기",
+      "summary": "Canon 저자의 일반적인 기대기 지침을 연결한다. 성별·벽 높이는 출처가 한정하지 않는다.",
+      "facts": [
+        {"field": "적용_상황", "value": "피사체가 긴장하거나 어색할 때 기대는 자세를 사용한다고 설명한다.", "evidence": {"source_id": "canon-portrait-posing", "locator": "How to Direct Your Subject, When a subject is especially nervous 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "지지_대상", "value": "근처 벽이나 난간에 기대도록 한다.", "evidence": {"source_id": "canon-portrait-posing", "locator": "How to Direct Your Subject, When a subject is especially nervous 문단 첫 문장", "kind": "source_claim"}},
+        {"field": "팔_변형", "value": "손을 주머니에 느슨하게 넣거나 가슴 앞에서 편하게 교차하는 예시가 있다.", "evidence": {"source_id": "canon-portrait-posing", "locator": "How to Direct Your Subject, 기대기 문단 Good arm poses 문장", "kind": "source_claim"}}
+      ],
+      "proposals": [], "tags": ["벽기대기", "난간", "팔이완"], "existing_entry_id": "CRAFT-pose-482f8df207e4", "media_candidates": []
+    }
+  ]
+}

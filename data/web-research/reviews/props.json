@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "category_id": "props",
+  "input_sha256": "3cbb6db25749fe522ae72f0f8611c449c0ced555374e7df8aea914b0b812edc0",
+  "reviewer": "omo-independent-props-reviewer-st_01a18af4",
+  "reviewed_at": "2026-10-30T04:00:20.797459+00:00",
+  "accepted_concept_keys": [
+    "camera-battery-latch-insertion",
+    "camera-memory-card-click-eject",
+    "camera-lens-bayonet-mount",
+    "camera-two-hand-supported-grip",
+    "camera-shutter-half-full-press",
+    "brick-separator-studded-plate-lever",
+    "brick-separator-cross-hole-push",
+    "brick-separator-smooth-tile-pry",
+    "earbud-case-open-status",
+    "earbud-case-wireless-placement",
+    "earbud-case-cable-connection",
+    "aeropress-pour-steep-plunge",
+    "ballpoint-knock-and-writing",
+    "ballpoint-refill-replacement"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "nikon-battery",
+      "url": "https://onlinemanual.nikonimglib.com/z7II_z6II/en/03_first_step_03.html",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "Inserting the Battery, opening bullets and Removing the Battery; lines 218-228",
+      "rights_checked": true,
+      "notes": "Reopened Nikon manual text: power-off, latch insertion and removal match. Manufacturer-specific instructions, not observed performance. Public access supplies no media reuse permission; unknown rights retained."
+    },
+    {
+      "source_id": "nikon-card",
+      "url": "https://onlinemanual.nikonimglib.com/z7II_z6II/en/03_first_step_04.html",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "Inserting Memory Cards and Removing Memory Cards; lines 222-237",
+      "rights_checked": true,
+      "notes": "Reopened Nikon text: straight insertion and click, lamp check, power-off and press-to-eject match. No illustrated orientation inferred. Unknown reuse rights retained."
+    },
+    {
+      "source_id": "nikon-lens",
+      "url": "https://onlinemanual.nikonimglib.com/z7II_z6II/en/03_first_step_05.html",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "Attaching a Lens and Detaching Lenses; lines 226-251",
+      "rights_checked": true,
+      "notes": "Reopened Nikon text for caps, marks, rotation, contact warning and release. No illustrated rotation direction inferred. Unknown reuse rights retained."
+    },
+    {
+      "source_id": "nikon-shoot",
+      "url": "https://onlinemanual.nikonimglib.com/z7II_z6II/en/04_basic_photography_and_playback_01.html",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "Taking Photographs (auto mode), Ready the camera and steps 6-7; lines 237-272",
+      "rights_checked": true,
+      "notes": "Reopened Nikon text for hand support, elbows and shutter stages. Grip and shutter actuation are distinct interactions, neither duplicates the existing strap guide. Unknown reuse rights retained."
+    },
+    {
+      "source_id": "lego-separator",
+      "url": "https://www.lego.com/en-us/service/help-topics/article/lego-classic-brick-separator",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "How to use the Brick Separator; first plate list 1-3, Technic cross-hole list 1-3, No studs? No problem! list 1-3; lines 627-655",
+      "rights_checked": true,
+      "notes": "Reopened LEGO instructional text. Plate levering, cross-hole pushing and smooth-tile prying use distinct contact geometry, not label variants. No GIF inspected or acquired. Unknown media reuse rights retained."
+    },
+    {
+      "source_id": "apple-charge",
+      "url": "https://support.apple.com/en-us/119912",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "Charge your case, Check the charge status and Learn about the status light; lines 49-106",
+      "rights_checked": true,
+      "notes": "Reopened Apple body for lid/status, wireless placement and cable connection. Eight seconds is a manufacturer claim, not measurement. Existing case-opening ID matches; charging operations are distinct. Unknown reuse rights retained; public support access grants no media license."
+    },
+    {
+      "source_id": "aeropress-process",
+      "url": "https://aeropress.com/pages/how-it-works",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "What is the AeroPress 3 in 1 Brewing Method? Steps 1-3; lines 52-75",
+      "rights_checked": true,
+      "notes": "Reopened manufacturer text; ordered pouring, steeping and plunging support the attributed summary. Repeated responsive sections counted once. Taste/efficacy not independently verified. Unknown reuse rights retained."
+    },
+    {
+      "source_id": "pilot-oil-ballpoint-care",
+      "url": "https://www.pilot.co.jp/support/warranty/en/warranty_assets/pdf/oil_ballpointpen_en.pdf",
+      "checked_at": "2026-10-30T04:00:20.797459+00:00",
+      "access": "public_body",
+      "locator": "Document 2501, p.1 Standard ballpoint pen: How to use and How to replace the empty refill, Figs.1,3-4; p.2 Remarks",
+      "rights_checked": true,
+      "notes": "Reopened official PDF text and viewed both rendered pages. Page layout confirms standard-pen refill instructions despite interleaved extraction. Existing knock/writing ID matches; refill replacement is distinct. No physical pen observed. No open license established; unknown rights retained; no acquired-media claim."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "camera-battery-latch-insertion",
+      "field": "power_state",
+      "source_id": "nikon-battery",
+      "locator": "Inserting the Battery, opening sentence",
+      "verdict": "supported",
+      "notes": "Opening bullet explicitly requires power-off."
+    },
+    {
+      "concept_key": "camera-battery-latch-insertion",
+      "field": "insertion_contact",
+      "source_id": "nikon-battery",
+      "locator": "Inserting the Battery, insertion paragraph before Removing the Battery",
+      "verdict": "supported",
+      "notes": "Insertion bullet names orange latch and slide-to-lock contact."
+    },
+    {
+      "concept_key": "camera-battery-latch-insertion",
+      "field": "release_sequence",
+      "source_id": "nikon-battery",
+      "locator": "Removing the Battery, paragraph",
+      "verdict": "supported",
+      "notes": "Removal paragraph gives cover, latch-release and manual removal sequence."
+    },
+    {
+      "concept_key": "camera-memory-card-click-eject",
+      "field": "power_state",
+      "source_id": "nikon-card",
+      "locator": "Inserting Memory Cards, opening instructions",
+      "verdict": "supported",
+      "notes": "Opening bullet requires power-off."
+    },
+    {
+      "concept_key": "camera-memory-card-click-eject",
+      "field": "insertion_endpoint",
+      "source_id": "nikon-card",
+      "locator": "Inserting Memory Cards, slide it straight instruction",
+      "verdict": "supported",
+      "notes": "Straight insertion and click are textual; orientation remains illustration-dependent."
+    },
+    {
+      "concept_key": "camera-memory-card-click-eject",
+      "field": "ejection_sequence",
+      "source_id": "nikon-card",
+      "locator": "Removing Memory Cards, paragraph",
+      "verdict": "supported",
+      "notes": "Removal paragraph specifies lamp check before power-off and push-ejection."
+    },
+    {
+      "concept_key": "camera-lens-bayonet-mount",
+      "field": "initial_state",
+      "source_id": "nikon-lens",
+      "locator": "Attaching a Lens, camera-off and remove-caps instructions",
+      "verdict": "supported",
+      "notes": "Power-off and both initial caps are explicit."
+    },
+    {
+      "concept_key": "camera-lens-bayonet-mount",
+      "field": "mount_contact",
+      "source_id": "nikon-lens",
+      "locator": "Attaching a Lens, align mounting marks and rotate instructions",
+      "verdict": "supported",
+      "notes": "Mounting text supports marks, rotation and sensor/contact warning."
+    },
+    {
+      "concept_key": "camera-lens-bayonet-mount",
+      "field": "detachment_sequence",
+      "source_id": "nikon-lens",
+      "locator": "Detaching Lenses, both paragraphs",
+      "verdict": "supported",
+      "notes": "Detaching paragraphs support held release button, rotation and replacement caps."
+    },
+    {
+      "concept_key": "camera-two-hand-supported-grip",
+      "field": "right_hand_contact",
+      "source_id": "nikon-shoot",
+      "locator": "Ready the camera, holding paragraph",
+      "verdict": "supported",
+      "notes": "Ready-the-camera paragraph assigns the grip to the right hand."
+    },
+    {
+      "concept_key": "camera-two-hand-supported-grip",
+      "field": "left_hand_support",
+      "source_id": "nikon-shoot",
+      "locator": "Ready the camera, cradling clause",
+      "verdict": "supported",
+      "notes": "Same paragraph assigns body-or-lens support to the left hand."
+    },
+    {
+      "concept_key": "camera-two-hand-supported-grip",
+      "field": "elbow_position",
+      "source_id": "nikon-shoot",
+      "locator": "Ready the camera, elbows clause",
+      "verdict": "supported",
+      "notes": "Same paragraph places elbows against chest sides."
+    },
+    {
+      "concept_key": "camera-shutter-half-full-press",
+      "field": "first_press",
+      "source_id": "nikon-shoot",
+      "locator": "Press the shutter-release button halfway to focus",
+      "verdict": "supported",
+      "notes": "Step 6 specifies half-press focusing."
+    },
+    {
+      "concept_key": "camera-shutter-half-full-press",
+      "field": "focus_feedback",
+      "source_id": "nikon-shoot",
+      "locator": "Halfway focus instruction, first feedback paragraph",
+      "verdict": "supported",
+      "notes": "Step 6 feedback states green focus point on successful focus."
+    },
+    {
+      "concept_key": "camera-shutter-half-full-press",
+      "field": "second_press",
+      "source_id": "nikon-shoot",
+      "locator": "Smoothly press the shutter-release button the rest of the way down",
+      "verdict": "supported",
+      "notes": "Step 7 specifies smooth completion of shutter press."
+    },
+    {
+      "concept_key": "brick-separator-studded-plate-lever",
+      "field": "tool_contact",
+      "source_id": "lego-separator",
+      "locator": "First plate-removal list, step 1",
+      "verdict": "supported",
+      "notes": "First plate list step 1 specifies front contact with two studs."
+    },
+    {
+      "concept_key": "brick-separator-studded-plate-lever",
+      "field": "support_and_motion",
+      "source_id": "lego-separator",
+      "locator": "First plate-removal list, step 2",
+      "verdict": "supported",
+      "notes": "Step 2 specifies downward back pressure and stabilizing the build."
+    },
+    {
+      "concept_key": "brick-separator-studded-plate-lever",
+      "field": "separation_mechanism",
+      "source_id": "lego-separator",
+      "locator": "First plate-removal list, step 3",
+      "verdict": "supported",
+      "notes": "Step 3 identifies the front underside slope as separation mechanism."
+    },
+    {
+      "concept_key": "brick-separator-cross-hole-push",
+      "field": "object_support",
+      "source_id": "lego-separator",
+      "locator": "Technic cross-hole list, step 1",
+      "verdict": "supported",
+      "notes": "Cross-hole step 1 requires secure support."
+    },
+    {
+      "concept_key": "brick-separator-cross-hole-push",
+      "field": "alignment",
+      "source_id": "lego-separator",
+      "locator": "Technic cross-hole list, step 2",
+      "verdict": "supported",
+      "notes": "Step 2 explicitly aligns the T-segment with the cross-hole."
+    },
+    {
+      "concept_key": "brick-separator-cross-hole-push",
+      "field": "exit_path",
+      "source_id": "lego-separator",
+      "locator": "Technic cross-hole list, step 3",
+      "verdict": "supported",
+      "notes": "Step 3 describes entry and opposite-side exit."
+    },
+    {
+      "concept_key": "brick-separator-smooth-tile-pry",
+      "field": "edge_contact",
+      "source_id": "lego-separator",
+      "locator": "No studs? No problem! list, step 1",
+      "verdict": "supported",
+      "notes": "Tile step 1 specifies reverse LEGO-marked edge at tile/stud gap."
+    },
+    {
+      "concept_key": "brick-separator-smooth-tile-pry",
+      "field": "lever_motion",
+      "source_id": "lego-separator",
+      "locator": "No studs? No problem! list, step 2",
+      "verdict": "supported",
+      "notes": "Step 2 states opposite-side pressure and lever action."
+    },
+    {
+      "concept_key": "brick-separator-smooth-tile-pry",
+      "field": "support_and_endpoint",
+      "source_id": "lego-separator",
+      "locator": "No studs? No problem! list, steps 2–3",
+      "verdict": "supported",
+      "notes": "Steps 2-3 specify stabilization and tile release."
+    },
+    {
+      "concept_key": "earbud-case-open-status",
+      "field": "opening_action",
+      "source_id": "apple-charge",
+      "locator": "Check the charge status, iPhone/iPad and Mac lists, step 1",
+      "verdict": "supported",
+      "notes": "Device status lists begin with lid opening or earbud removal."
+    },
+    {
+      "concept_key": "earbud-case-open-status",
+      "field": "occupied_case_state",
+      "source_id": "apple-charge",
+      "locator": "Learn about the status light, If your AirPods are in their case when you open the lid paragraph",
+      "verdict": "supported",
+      "notes": "Status-light paragraph explicitly conditions earbud status on occupied open case."
+    },
+    {
+      "concept_key": "earbud-case-open-status",
+      "field": "empty_case_state",
+      "source_id": "apple-charge",
+      "locator": "Learn about the status light, When your AirPods aren’t in their case paragraph",
+      "verdict": "supported",
+      "notes": "Following paragraph assigns empty-case light to case charge."
+    },
+    {
+      "concept_key": "earbud-case-wireless-placement",
+      "field": "compatible_case",
+      "source_id": "apple-charge",
+      "locator": "Charge your case, wireless charging opening bullet",
+      "verdict": "supported",
+      "notes": "Wireless subsection explicitly names compatible case and charger types."
+    },
+    {
+      "concept_key": "earbud-case-wireless-placement",
+      "field": "placement_state",
+      "source_id": "apple-charge",
+      "locator": "Charge your case, wireless charging opening bullet, placement instruction",
+      "verdict": "supported",
+      "notes": "Same bullet specifies light-up placement with closed lid."
+    },
+    {
+      "concept_key": "earbud-case-wireless-placement",
+      "field": "initial_feedback",
+      "source_id": "apple-charge",
+      "locator": "Charge your case, wireless charging opening bullet, status light sentence",
+      "verdict": "supported",
+      "notes": "Eight-second display is explicitly stated, not independently timed."
+    },
+    {
+      "concept_key": "earbud-case-cable-connection",
+      "field": "connector_choice",
+      "source_id": "apple-charge",
+      "locator": "Charge your case, Connect a Lightning cable or USB-C cable bullet",
+      "verdict": "supported",
+      "notes": "Cable subsection conditions Lightning or USB-C on case model."
+    },
+    {
+      "concept_key": "earbud-case-cable-connection",
+      "field": "connection_sequence",
+      "source_id": "apple-charge",
+      "locator": "Charge your case, cable connection bullet, Then connect sentence",
+      "verdict": "supported",
+      "notes": "Text orders case connection before USB power connection."
+    },
+    {
+      "concept_key": "earbud-case-cable-connection",
+      "field": "contents_condition",
+      "source_id": "apple-charge",
+      "locator": "Charge your case, You can charge your case with or without your AirPods inside bullet",
+      "verdict": "supported",
+      "notes": "Separate bullet permits charging with or without earbuds."
+    },
+    {
+      "concept_key": "aeropress-pour-steep-plunge",
+      "field": "pour_stage",
+      "source_id": "aeropress-process",
+      "locator": "Step 1: Pour-Over, first two bullets",
+      "verdict": "supported",
+      "notes": "Step 1 supports wetting/aeration and stirring attribution."
+    },
+    {
+      "concept_key": "aeropress-pour-steep-plunge",
+      "field": "immersion_stage",
+      "source_id": "aeropress-process",
+      "locator": "Step 2: Fast Immersion, first bullet",
+      "verdict": "supported",
+      "notes": "Step 2 explicitly describes steeping and extraction."
+    },
+    {
+      "concept_key": "aeropress-pour-steep-plunge",
+      "field": "plunger_and_filter",
+      "source_id": "aeropress-process",
+      "locator": "Step 3: Air Pressure & Micro-Filtration, first two bullets",
+      "verdict": "supported",
+      "notes": "Step 3 supports plunger pressure and paper microfiltration."
+    },
+    {
+      "concept_key": "ballpoint-knock-and-writing",
+      "field": "extension_action",
+      "source_id": "pilot-oil-ballpoint-care",
+      "locator": "p.1, Standard ballpoint pen > Retractable and Cap Slide Type > How to use (1)",
+      "verdict": "supported",
+      "notes": "Page 1 use step 1 explicitly describes pressed tip extension/locking."
+    },
+    {
+      "concept_key": "ballpoint-knock-and-writing",
+      "field": "retraction_action",
+      "source_id": "pilot-oil-ballpoint-care",
+      "locator": "p.1, Standard ballpoint pen > Retractable and Cap Slide Type > How to use (2)",
+      "verdict": "supported",
+      "notes": "Use step 2 explicitly describes pressed retraction."
+    },
+    {
+      "concept_key": "ballpoint-knock-and-writing",
+      "field": "writing_orientation",
+      "source_id": "pilot-oil-ballpoint-care",
+      "locator": "p.2, Remarks: To prevent ink leakage, never write with the tip upwards",
+      "verdict": "supported",
+      "notes": "Page 2 Remarks explicitly warns against tip-up writing."
+    },
+    {
+      "concept_key": "ballpoint-refill-replacement",
+      "field": "opening_action",
+      "source_id": "pilot-oil-ballpoint-care",
+      "locator": "p.1, How to replace the empty refill, Fig.3, step (1)",
+      "verdict": "supported",
+      "notes": "Page 1 refill step 1 supports unscrewing barrel, verified in layout."
+    },
+    {
+      "concept_key": "ballpoint-refill-replacement",
+      "field": "contents_transition",
+      "source_id": "pilot-oil-ballpoint-care",
+      "locator": "p.1, How to replace the empty refill, Figs.3–4, steps (2)–(3)",
+      "verdict": "supported",
+      "notes": "Refill steps 2-3 support removal then insertion, not observed handling."
+    },
+    {
+      "concept_key": "ballpoint-refill-replacement",
+      "field": "closing_action",
+      "source_id": "pilot-oil-ballpoint-care",
+      "locator": "p.1, How to replace the empty refill, Fig.4, step (4)",
+      "verdict": "supported",
+      "notes": "Refill step 4 explicitly requires firm barrel-to-cap reassembly."
+    }
+  ],
+  "accepted_count": 14,
+  "shortfall": 6,
+  "shortfall_reason": "14/20 distinct concepts accepted after reopening all eight cited primary documents and checking all 42 source_claim fields, titles, summaries and category fit. No rejected submitted concepts. Batch contains only 14; six further concepts were not supplied or independently verified, and source exhaustion is not claimed. Compared all 22 original props entries: earbud-case-open-status enriches CRAFT-props-15fb6618f7a4 and ballpoint-knock-and-writing enriches CRAFT-props-90fa3123e071, each existing ID occurring once; twelve other interactions have no same-concept original match. No wording-derived duplicates identified. All rights remain unknown; no permission inferred from access. Zero proposals, observations, measurements or media candidates; zero media acquired. This is a partial metadata batch, not target completion, DB publication or media acquisition."
+}

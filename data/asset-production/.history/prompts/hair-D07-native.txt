@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: hair-D07; concept: 로우 테이퍼 텍스처 퀴프.
+Class: creative; domain: hair; entry: GEN-asset-hair-D07.
+Parent entry IDs: ["CRAFT-hair-da40e02a2fb4","CRAFT-hair-fe251591d0aa","CRAFT-hair-cc453bee8e0a"]
+One fictional adult subject, identity B. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E03","hair-E01"]
+Reference roles: {"hair-E01":"identity B","hair-E03":"hair geometry"}
+Input images: Image 1: hair-E03, top and side geometry; Image 2: hair-E01, identity B anchor.
+Observable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Using E03 top and side geometry, refine only a low transition around ears and nape and lift the front into a modest textured quiff; retain subject-left part and dry matte finish. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: front three-quarter showing subject-left ear transition and front lift. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep parent hair geometry, color, hairline, density and length landmarks outside the declared delta.
+Change only: Using E03 top and side geometry, refine only a low transition around ears and nape and lift the front into a modest textured quiff; retain subject-left part and dry matte finish.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Transition stays low; front lift does not stretch skull.; One diagnostic view only, not a sequence or collage.
+Output: {"format":"png","height":1536,"width":1024}

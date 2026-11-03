@@ -1,0 +1,21 @@
+{
+  "job_id": "makeup-G02",
+  "status": "generated",
+  "path": "public/generated/frame-assets/makeup-G02.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-0d30-7731-8137-a21cd10d0a61/exec-5ba008cf-eb18-4857-b5e0-1589e159bb38.png",
+  "sha256": "8b9105a4c46fccaac263a64e102d8d5d030fbc1863eb96770cb5d52798ca352a",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-G02; concept: 균일 스터블.\nClass: base; domain: makeup; entry: FS-0161.\nParent entry IDs: [\"CRAFT-makeup-263c281ae2c9\"]\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-G01\",\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\",\"makeup-G01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Use uniform short beard stubble with a 1 mm visual appearance target, retaining the B growth-density map. Set a tidy cheek boundary from sideburn toward mouth corner and a neckline following below the jaw; do not claim a measured hair length. Keep the hair-E01 buzz haircut and the same shallow three-quarter view as G01. Retain a relaxed mouth and plain gray collarless top; use the G01 thin correction level throughout. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: shallow front three-quarter showing lip line both cheek edges and neck. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep the B face, cheek mole and buzz haircut; use the same beard growth geography across all beard comparisons.\nChange only: Use uniform short beard stubble with a 1 mm visual appearance target, retaining the B growth-density map. Set a tidy cheek boundary from sideburn toward mouth corner and a neckline following below the jaw; do not claim a measured hair length.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Short projecting stubble reads across jaw, cheeks and upper lip; pores remain visible.; Grooming changes hair state, not skin tone, face proportions or lighting.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-G01.png",
+    "public/generated/frame-assets/hair-E01.png"
+  ],
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Same B identity, pose, haircut, skin texture and mole as hair-E01/G01. Even short stubble is clearly visible across upper lip, cheeks, jaw and chin; facial geometry and expression remain consistent."
+  }
+}

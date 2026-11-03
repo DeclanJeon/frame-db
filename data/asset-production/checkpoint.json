@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "planned_unique_images": 147,
+  "planned_reference_slots": 148,
+  "parent_accepted_images": 147,
+  "published_snapshot": {
+    "accepted_images": 147,
+    "entries": 2814,
+    "guide_coverage": 2814,
+    "media_rows": 3061,
+    "api_origin": "http://127.0.0.1:5190",
+    "all_11_export_tables_match_composed_seed": true
+  },
+  "checks": {
+    "data_tests": 105,
+    "data_tests_exit": 0,
+    "typecheck_exit": 0,
+    "build_exit": 0,
+    "normalization_idempotent": true,
+    "generated_http_hash_checks": 147,
+    "generated_http_failures": 0
+  },
+  "remaining_job_ids": [],
+  "verification_file": "data/asset-production/verification.json"
+}

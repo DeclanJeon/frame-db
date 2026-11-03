@@ -1,0 +1,60 @@
+{
+  "job_id": "expression-C08",
+  "status": "rejected",
+  "generation_thread_id": "01a18d12-7ca7-7c90-8fe1-01cd0a78fb58",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d12-7ca7-7c90-8fe1-01cd0a78fb58",
+  "before_source_files": [
+    "exec-0975971f-1b22-4a4e-b181-06ece4546991.png",
+    "exec-1dfa70e2-2a80-4f2e-b246-6c5d9aae11d3.png",
+    "exec-251872ca-8055-4ac0-aeb7-0ad6fb32e162.png",
+    "exec-2d24f934-ed40-4fcb-b59b-d75332af2632.png",
+    "exec-335bbef1-191f-489f-8962-63696d8a4d24.png",
+    "exec-343a5436-45ab-4d4e-94c8-ab526a38d114.png",
+    "exec-3889fe48-dbbf-4cc0-bfee-8f7da3f280bf.png",
+    "exec-3fdc1ceb-c052-4e8b-9bb1-18af67ff15dc.png",
+    "exec-4e2a6ed1-e289-42f3-b358-7c77a81b7698.png",
+    "exec-55ed78c3-9bc8-456f-a0b4-b77bf06b56c3.png",
+    "exec-60289dfd-0e30-4436-b0cd-945b7b18ce8e.png",
+    "exec-60fdc695-5e90-43a0-8e5c-9a60de86a167.png",
+    "exec-81869e78-a199-4842-8577-f9e8e14e7a9e.png",
+    "exec-90ba380b-3fd7-4f9d-ab33-0638397e67f7.png",
+    "exec-b28b5aee-c779-4a7c-af62-9fa4223639b9.png",
+    "exec-b6e60f93-f8e2-4ca1-8997-cb04dbce221d.png",
+    "exec-beb0c48b-a382-4999-b2fb-41d05a656fb2.png",
+    "exec-c06aa3d2-746e-4abd-a27b-40d6a55fbc36.png",
+    "exec-c5052c65-10b7-4a32-91c2-b1c3c0d57852.png",
+    "exec-c51a81e3-7863-4640-9886-4461e4fb8bf4.png",
+    "exec-c5f97f6f-08cb-4b8a-91f0-6f40125734bc.png",
+    "exec-d08d4e61-eb85-4f64-b0b6-9c67097e4973.png",
+    "exec-df4e8aa1-8782-4e8d-8f38-94069822602e.png",
+    "exec-dff91121-e0f4-4e3a-91b2-59fa741f433a.png",
+    "exec-f21d630f-ebbb-48e1-96cc-c17b8018c343.png",
+    "exec-f698ae98-c530-402a-ac94-3b98062a0070.png",
+    "exec-fbb86c17-92f2-44fc-8ede-17859fce76e1.png"
+  ],
+  "prompt": "FRAME authored synthetic reference. Job: expression-C08; concept: 오른쪽 눈썹 고개 기울임 도착 상태.\nClass: creative; domain: expression; entry: FS-0023.\nParent entry IDs: [\"GEN-asset-expression-E02\",\"GEN-asset-expression-E00\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E02-subtle\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"expression-E02-subtle\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use accepted E00 as the face input and the listed action references as shape guidance. Raise only the subject-right eyebrow and tilt the head approximately five degrees toward subject-right as an uncalibrated appearance target. Keep eyes at lens, mouth relaxed, and no head yaw. Render arrival state B only: no start frame, no before/after layout, no inferred breath, blink, response order, duration or genuine emotional state. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, arrival state B only, slight subject-right roll. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 facial structure, pores, marks, hair, makeup and framing; allow only named action, gaze and the C08 head roll.\nChange only: Raise only the subject-right eyebrow and tilt the head approximately five degrees toward subject-right as an uncalibrated appearance target. Keep eyes at lens, mouth relaxed, and no head yaw.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; The specified brow, eye, lip and jaw combination is visible in the single arrival state.; Do not assert emotional diagnosis or a verified transition from a still.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nInput images: Image 1: action geometry reference for expression-E02-subtle at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E02-subtle.png; Image 2: identity anchor, actual accepted identity A at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png. Use E00 for identity and brow reference only for asymmetry guidance; keep eyes at lens and no head yaw.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E02-subtle.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "path": "public/generated/frame-assets/expression-C08.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d12-7ca7-7c90-8fe1-01cd0a78fb58/exec-52e7db27-563b-465b-8e8e-de042e3d46ae.png",
+  "sha256": "60e562442b5a88552d92bf4f7dcbf590b5ae13a3ea15a263e8b654f313d12218",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Inspected the actual full-resolution 1024x1536 image. Subject-right brow (image-left) is clearly raised asymmetrically, with a small head tilt and no obvious yaw; eyes remain lens-directed and mouth relaxed. Identity and cheek mole remain consistent with E00."
+  },
+  "parent_rejection": {
+    "reason": "Correct subject-right eyebrow raise, but crown/chin and interpupillary slope show subject-left/viewer-right head roll, opposite target.",
+    "reviewers": "parent direct image review and independent read-only visual QA task st_01a18da4"
+  }
+}

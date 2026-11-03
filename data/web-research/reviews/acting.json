@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "category_id": "acting",
+  "input_sha256": "8cb0c31906b6e9734b2c284c4f70264ec4b06e39ff97dd045793caa75376c8c6",
+  "reviewer": "acting-independent-reviewer-st_01a18afd",
+  "reviewed_at": "2026-10-30T04:10:25.597936+00:00",
+  "accepted_concept_keys": [
+    "scene-objective",
+    "given-circumstances",
+    "sensory-awareness",
+    "physical-stage-business",
+    "objective-change-beat",
+    "motivation-for-action",
+    "motivated-action-arc",
+    "tactic-selection-and-change",
+    "listen-then-react",
+    "actor-camera-blocking",
+    "performance-scale-for-frame",
+    "physical-tension-levels",
+    "ensemble-walk-stop-look-run"
+  ],
+  "rejected": [
+    {
+      "concept_key": "persuading-partner",
+      "reason": "Example-derived duplicate of retained tactic-selection-and-change. https://schooltheatre.org/tactics/?campaign=687125, tactic definition/curfew example and One important thing about tactics paragraph: all three fields illustrate the same obstacle-overcoming tactic selection and response-driven change. The facts and existing persuasion-guide ID CRAFT-acting-c221173dfdfe are supported, but a worked example must not inflate the distinct concept count. No unsupported fact or media observation is alleged; consolidate as an application in a later producer revision, not a second concept here."
+    },
+    {
+      "concept_key": "release-muscular-tension",
+      "reason": "Incorrect semantic enrichment target despite supported exercise facts. https://www.nyfa.edu/student-resources/developing-your-core-acting-technique/, 1. Relaxation, describes an actor preparation exercise (lying down and counted breathing). Original CRAFT-acting-4df817143b1c, 긴장한 몸이 풀리기, specifies a performed character-state transition through jaw/shoulder/hand release while preserving appearance. Matching the Korean label does not establish the same concept. The source does not support that specific transition. Reject unchanged record; reviewer cannot remove its existing_entry_id or retitle staging. Breathing counts remain source claims, not measurements; no medical efficacy or performance inspection verified."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "prosser-terms",
+      "url": "https://thomasprosseractorsstudio.com/acting-terms",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "GIVEN CIRCUMSTANCES; SENSORY AWARENESS; PHYSICAL ACTIONS; OBJECTIVES",
+      "rights_checked": true,
+      "notes": "Independently reopened the studio instructional body, including all four cited headings and final author/contact area. Footer names Thomas Prosser; no explicit article byline distinguishes authorship, so institutional credit is retained, not invented authorship. All four concepts are distinct instructional tools, not door/smoke/hug example variants. Public access establishes no reuse license; unknown rights and no media acquisition remain appropriate."
+    },
+    {
+      "source_id": "nwtw-character",
+      "url": "https://www.nwtw.org/home/insights/the-actors-role-in-play-production-building-a-character-creating-a-role",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "Beats; Objective, Obstacle, Intention, Motivation; Plotting Actions",
+      "rights_checked": true,
+      "notes": "Read Ciji Guerin byline and the Beats, Objective/Obstacle/Intention/Motivation, and Plotting Actions sections. Definitions, causal motivation and linked action arc are distinct concepts. Compared all 22 original acting entries: objective-change-beat correctly enriches CRAFT-acting-26635d0f2ec2; broader analysis concepts do not match scenario-specific guides. No explicit reuse grant established; rights stay unknown, photos not inspected or acquired."
+    },
+    {
+      "source_id": "jory-tactics",
+      "url": "https://schooltheatre.org/tactics/?campaign=687125",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "Tactics definition; curfew example; paragraphs beginning Now, you obviously and The actions",
+      "rights_checked": true,
+      "notes": "Read Jon Jory byline, tactic definition, complete curfew example and rehearsal discussion. The curfew persuasion example instantiates the same retained tactic-selection/change method; it is not an additional independently countable concept. Its existing ID is a real persuasion guide but does not remove within-batch example inflation. Unknown article/dialogue/image reuse rights retained; no performance or image inspection."
+    },
+    {
+      "source_id": "miller-listening",
+      "url": "https://schooltheatre.org/listeningandreacting/",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "Three kinds of listening, three category paragraphs",
+      "rights_checked": true,
+      "notes": "Read Bruce Miller byline and all three numbered listening categories. Script preparation, attention to partner and multisensory response support one integrated listening concept, not three separate concepts. Matches existing CRAFT-acting-dee4b8360731; does not verify original guide timing in any actual take. Unknown rights retained; no exercises performed or media acquired."
+    },
+    {
+      "source_id": "marshall-blocking",
+      "url": "https://www.nyfa.edu/film-school-blog/the-5-stages-of-blocking-a-scene/",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "Five-part shoot list; blocking definition; five blocking tips",
+      "rights_checked": true,
+      "notes": "Read Peter D. Marshall attribution, five-part shoot list, blocking definition and five tips. These are combined in one blocking concept rather than five stage-derived records. No exact match to the original seated or sound-stop scenario guides. Copyright footer is visible, but no specific reuse permission was established; unknown rights remain conservative, not open media authorization."
+    },
+    {
+      "source_id": "napa-frame",
+      "url": "https://napagc.squarespace.com/napablog/tip-acting-for-film",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "Keep It Natural; Know Your Frame",
+      "rights_checked": true,
+      "notes": "Read Kim Reynolds byline and Keep It Natural / Know Your Frame body on the NAPA institutional page. Advice is attributed pedagogy, not measured audience response or an observed film sample. No same-concept original entry found. No explicit article/image reuse grant established; unknown rights retained, no media inspected."
+    },
+    {
+      "source_id": "nyfa-technique",
+      "url": "https://www.nyfa.edu/student-resources/developing-your-core-acting-technique/",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "1. Relaxation",
+      "rights_checked": true,
+      "notes": "Read full 1. Relaxation section: the three factual statements accurately describe an actor preparation exercise; numeric breathing counts are source claims, not reviewer measurements. Rejected its concept-to-original match: actor preparation is not the performed tension-release state transition specified by CRAFT-acting-4df817143b1c. Copyright footer is present; no reuse license or medical efficacy established; rights remain unknown."
+    },
+    {
+      "source_id": "drama-tension",
+      "url": "https://dramaresource.com/seven-levels-of-tension/",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "Opening adaptation disclaimer; numbered tension states 1–7; slow transition practice paragraph",
+      "rights_checked": true,
+      "notes": "Read opening adaptation caveat, seven numbered states and gradual-practice paragraph; footer credits David Farmer. Treat this page as primary evidence of its own adapted exercise, not Lecoq original doctrine or experimentally validated physiology. One scale concept only; no individual level counted separately. Unknown rights retained; copyright and video embeds do not authorize reuse. No linked video played."
+    },
+    {
+      "source_id": "rsc-moving",
+      "url": "https://www.rsc.org.uk/blogs/whispers-from-the-wings/archive/starting-to-move",
+      "checked_at": "2026-10-30T04:10:25.597936+00:00",
+      "access": "public_body",
+      "locator": "Whisper #120; paragraph beginning I introduce some ensemble movement",
+      "rights_checked": true,
+      "notes": "Read Whisper #120, Ayse Tashkiran attribution and first-person ensemble session account for The Provoked Wife. Read photo credit Pete Le May / RSC and separate image licensing link, not a permission grant. Four actions and participation sequence remain one exercise concept; no duplication with individual sound-triggered stopping guide. Unknown rights retained; photographs and performance not inspected or acquired."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "scene-objective",
+      "field": "목표_대상",
+      "source_id": "prosser-terms",
+      "locator": "OBJECTIVES, first sentence",
+      "verdict": "supported",
+      "notes": "Definition concerns a desired result from another character, not an emotion label."
+    },
+    {
+      "concept_key": "scene-objective",
+      "field": "행동과의_관계",
+      "source_id": "prosser-terms",
+      "locator": "OBJECTIVES, last sentence",
+      "verdict": "supported",
+      "notes": "Final sentence explicitly connects playable actions to achieving an objective."
+    },
+    {
+      "concept_key": "scene-objective",
+      "field": "구체화_사례",
+      "source_id": "prosser-terms",
+      "locator": "OBJECTIVES, pat on the head or a hug example",
+      "verdict": "supported",
+      "notes": "Hug is explicitly an example; it remains a field inside this objective concept, not an extra concept."
+    },
+    {
+      "concept_key": "given-circumstances",
+      "field": "작품_이전",
+      "source_id": "prosser-terms",
+      "locator": "GIVEN CIRCUMSTANCES, first question",
+      "verdict": "supported",
+      "notes": "First question asks about events before the play begins."
+    },
+    {
+      "concept_key": "given-circumstances",
+      "field": "장면_이전",
+      "source_id": "prosser-terms",
+      "locator": "GIVEN CIRCUMSTANCES, second question",
+      "verdict": "supported",
+      "notes": "Second question separately asks about events preceding each scene."
+    },
+    {
+      "concept_key": "given-circumstances",
+      "field": "정보_구성",
+      "source_id": "prosser-terms",
+      "locator": "GIVEN CIRCUMSTANCES, final two sentences",
+      "verdict": "supported",
+      "notes": "Closing sentences assign unavailable history to actor/director construction; not historical fact about a real person."
+    },
+    {
+      "concept_key": "sensory-awareness",
+      "field": "감각_범위",
+      "source_id": "prosser-terms",
+      "locator": "SENSORY AWARENESS, first sentence",
+      "verdict": "supported",
+      "notes": "Opening sentence permits use of all five senses in stage acting."
+    },
+    {
+      "concept_key": "sensory-awareness",
+      "field": "환경_예시",
+      "source_id": "prosser-terms",
+      "locator": "SENSORY AWARENESS, second sentence",
+      "verdict": "supported",
+      "notes": "Smoke and temperature examples are textual training examples, not inspected performances."
+    },
+    {
+      "concept_key": "sensory-awareness",
+      "field": "선택_기준",
+      "source_id": "prosser-terms",
+      "locator": "SENSORY AWARENESS, to fit the requirements in a scene",
+      "verdict": "supported",
+      "notes": "Requirement clause conditions sensory recreation on the scene; no universal effect inferred."
+    },
+    {
+      "concept_key": "physical-stage-business",
+      "field": "용어_범위",
+      "source_id": "prosser-terms",
+      "locator": "PHYSICAL ACTIONS, first sentence",
+      "verdict": "supported",
+      "notes": "Opening definition equates character activities with stage business."
+    },
+    {
+      "concept_key": "physical-stage-business",
+      "field": "행동_대조",
+      "source_id": "prosser-terms",
+      "locator": "PHYSICAL ACTIONS, door example",
+      "verdict": "supported",
+      "notes": "Gentle versus forceful door closing is the actual textual comparison."
+    },
+    {
+      "concept_key": "physical-stage-business",
+      "field": "전달_대상",
+      "source_id": "prosser-terms",
+      "locator": "PHYSICAL ACTIONS, final clause",
+      "verdict": "supported",
+      "notes": "Closing clause attributes emotional communication to action quality for partners and audience; no measured audience effect."
+    },
+    {
+      "concept_key": "objective-change-beat",
+      "field": "분석_단위",
+      "source_id": "nwtw-character",
+      "locator": "Beats, For our purposes paragraph",
+      "verdict": "supported",
+      "notes": "Definition is explicitly local to this company, not a universal beat standard. Correct existing ID and title match confirmed."
+    },
+    {
+      "concept_key": "objective-change-beat",
+      "field": "목표_경계",
+      "source_id": "nwtw-character",
+      "locator": "Beats, Beats are often designated paragraph",
+      "verdict": "supported",
+      "notes": "Objective attainment or failure is explicitly listed as a possible boundary."
+    },
+    {
+      "concept_key": "objective-change-beat",
+      "field": "기타_경계",
+      "source_id": "nwtw-character",
+      "locator": "Beats, Beats are often designated paragraph",
+      "verdict": "supported",
+      "notes": "Tactic, leading-character and topic changes appear in the boundary list; not separate padded concepts."
+    },
+    {
+      "concept_key": "motivation-for-action",
+      "field": "동기_질문",
+      "source_id": "nwtw-character",
+      "locator": "Objective, Obstacle, Intention, Motivation; Motivation definition",
+      "verdict": "supported",
+      "notes": "Definition separates why the character wants something from the objective itself."
+    },
+    {
+      "concept_key": "motivation-for-action",
+      "field": "추론_근거",
+      "source_id": "nwtw-character",
+      "locator": "A character’s motivation is a bit more difficult paragraph",
+      "verdict": "supported",
+      "notes": "Paragraph identifies objectives, intentions, tactics and actions as clues to inferred motivation."
+    },
+    {
+      "concept_key": "motivation-for-action",
+      "field": "분석_규모",
+      "source_id": "nwtw-character",
+      "locator": "Finding the character’s objective paragraph",
+      "verdict": "supported",
+      "notes": "The paragraph explicitly names beat, scene and story analysis scales."
+    },
+    {
+      "concept_key": "motivated-action-arc",
+      "field": "배열_범위",
+      "source_id": "nwtw-character",
+      "locator": "Plotting Actions, first paragraph",
+      "verdict": "supported",
+      "notes": "Opening paragraph describes plotting individual actions across beats and scenes."
+    },
+    {
+      "concept_key": "motivated-action-arc",
+      "field": "연결_원리",
+      "source_id": "nwtw-character",
+      "locator": "Plotting Actions, As an actor works paragraph",
+      "verdict": "supported",
+      "notes": "Subsequent paragraph links motivated actions to construction of a character arc, distinct from the reason for one action."
+    },
+    {
+      "concept_key": "motivated-action-arc",
+      "field": "사전_탐색",
+      "source_id": "nwtw-character",
+      "locator": "Plotting Actions, As an actor works paragraph, last sentence",
+      "verdict": "supported",
+      "notes": "Final sentence explicitly discusses pre-play experiences and shared character history as beat-choice research."
+    },
+    {
+      "concept_key": "tactic-selection-and-change",
+      "field": "전술_기능",
+      "source_id": "jory-tactics",
+      "locator": "That concludes our review paragraph",
+      "verdict": "supported",
+      "notes": "Definition describes means of overcoming obstacles to obtain a desired outcome."
+    },
+    {
+      "concept_key": "tactic-selection-and-change",
+      "field": "비트와의_관계",
+      "source_id": "jory-tactics",
+      "locator": "Now, you obviously paragraph",
+      "verdict": "supported",
+      "notes": "Paragraph explicitly allows multiple tactics within one beat."
+    },
+    {
+      "concept_key": "tactic-selection-and-change",
+      "field": "선택의_제약",
+      "source_id": "jory-tactics",
+      "locator": "Now, you obviously paragraph; The actions paragraph",
+      "verdict": "supported",
+      "notes": "Both cited paragraphs constrain choices by text and allow rehearsal adjustment with partners or director. Retained as the general method; rejected its separate curfew-example record."
+    },
+    {
+      "concept_key": "listen-then-react",
+      "field": "사전_준비",
+      "source_id": "miller-listening",
+      "locator": "Three kinds of listening, An actor must be able to listen to the script paragraph",
+      "verdict": "supported",
+      "notes": "First category connects script homework to moments reacting to new verbal or nonverbal information. Existing entry identity verified."
+    },
+    {
+      "concept_key": "listen-then-react",
+      "field": "상대_주의",
+      "source_id": "miller-listening",
+      "locator": "Three kinds of listening, An actor listening on stage paragraph",
+      "verdict": "supported",
+      "notes": "Second category requires attention to what the scene partner says and manner of delivery."
+    },
+    {
+      "concept_key": "listen-then-react",
+      "field": "감각_범위",
+      "source_id": "miller-listening",
+      "locator": "Three kinds of listening, An actor must be able to listen with all her senses paragraph",
+      "verdict": "supported",
+      "notes": "Third category includes seeing, hearing and reacting to partner/environment information beyond dialogue. No reaction latency measured."
+    },
+    {
+      "concept_key": "actor-camera-blocking",
+      "field": "배치_대상",
+      "source_id": "marshall-blocking",
+      "locator": "Every film shoot list, 1. Block",
+      "verdict": "supported",
+      "notes": "First list item identifies actor placement and initial camera position."
+    },
+    {
+      "concept_key": "actor-camera-blocking",
+      "field": "배우_참여",
+      "source_id": "marshall-blocking",
+      "locator": "Five important blocking tips, item 2",
+      "verdict": "supported",
+      "notes": "Second tip explicitly invites actors to demonstrate before director suggestions."
+    },
+    {
+      "concept_key": "actor-camera-blocking",
+      "field": "제작_순서",
+      "source_id": "marshall-blocking",
+      "locator": "Every film shoot list, items 1–5",
+      "verdict": "supported",
+      "notes": "All five named stages appear in order. Kept as one attributed workflow, not universal scheduling evidence."
+    },
+    {
+      "concept_key": "performance-scale-for-frame",
+      "field": "클로즈업",
+      "source_id": "napa-frame",
+      "locator": "Know Your Frame",
+      "verdict": "supported",
+      "notes": "Frame advice contrasts small close-up motion with wider framing; source recommendation only."
+    },
+    {
+      "concept_key": "performance-scale-for-frame",
+      "field": "와이드_샷",
+      "source_id": "napa-frame",
+      "locator": "Know Your Frame",
+      "verdict": "supported",
+      "notes": "Same paragraph explicitly assigns whole-body storytelling to a wide shot."
+    },
+    {
+      "concept_key": "performance-scale-for-frame",
+      "field": "표현_주의",
+      "source_id": "napa-frame",
+      "locator": "Keep It Natural",
+      "verdict": "supported",
+      "notes": "Natural-performance advice contrasts screen response with projection to the rear of a theatre; no quantified response inferred."
+    },
+    {
+      "concept_key": "physical-tension-levels",
+      "field": "단계_범위",
+      "source_id": "drama-tension",
+      "locator": "Numbered levels 1–7",
+      "verdict": "supported",
+      "notes": "All seven summarized labels correspond to the numbered list; a single adapted training scale, not seven concepts."
+    },
+    {
+      "concept_key": "physical-tension-levels",
+      "field": "적용_제약",
+      "source_id": "drama-tension",
+      "locator": "Opening paragraphs: The following are my suggestions; There can of course be as many or as few",
+      "verdict": "supported",
+      "notes": "Opening expressly presents personal suggestions and permits altering level count and interpretation."
+    },
+    {
+      "concept_key": "physical-tension-levels",
+      "field": "연습_진행",
+      "source_id": "drama-tension",
+      "locator": "Paragraph beginning There can of course, Train your actors sentences",
+      "verdict": "supported",
+      "notes": "Practice paragraph recommends gradual progression before scene exploration; a source recommendation, not a performed exercise."
+    },
+    {
+      "concept_key": "ensemble-walk-stop-look-run",
+      "field": "행동_구성",
+      "source_id": "rsc-moving",
+      "locator": "I introduce some ensemble movement paragraph, first sentence",
+      "verdict": "supported",
+      "notes": "First sentence explicitly identifies four ensemble movement elements."
+    },
+    {
+      "concept_key": "ensemble-walk-stop-look-run",
+      "field": "참여_확장",
+      "source_id": "rsc-moving",
+      "locator": "I introduce some ensemble movement paragraph, It starts with two sentence",
+      "verdict": "supported",
+      "notes": "Second sentence gives two, four, eight and eventual whole-company participation. Numbers are reported source claims only."
+    },
+    {
+      "concept_key": "ensemble-walk-stop-look-run",
+      "field": "공간_경로",
+      "source_id": "rsc-moving",
+      "locator": "I introduce some ensemble movement paragraph, travelling across the space down the centre",
+      "verdict": "supported",
+      "notes": "Same sentence describes the company travelling across the space through its centre; no path coordinates, speed or inspected footage asserted."
+    }
+  ],
+  "accepted_count": 13,
+  "shortfall": 7,
+  "shortfall_reason": "13/20 distinct publishable concepts accepted from 15 submitted; shortfall 7 = five absent target concepts plus two rejected submitted records. All nine cited public primary bodies and all 45 submitted factual fields were compared, with 39 supported fields retained; rejected records are not accepted despite individually supported text because of example duplication or incorrect original-entry matching. No producer repairs, seed changes, media acquisition, performance viewing, measurements or rights grants occurred. Two accepted records enrich existing acting IDs; eleven are distinct metadata concepts. No padding to target and no claim of complete category population."
+}

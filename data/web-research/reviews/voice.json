@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "category_id": "voice",
+  "input_sha256": "356ccb736b9770fd38ab35b017bf62c64a04b385fd8cf8a5d4cf8e9425c539b1",
+  "reviewer": "voice-independent-primary-reviewer-st_01a18b20",
+  "reviewed_at": "2026-10-30T04:52:45.347104+00:00",
+  "accepted_concept_keys": [
+    "vctk-standardized-recording",
+    "vctk-accent-text-controls",
+    "identity-versus-emotional-performance",
+    "microphone-proximity-effect",
+    "microphone-direction-and-colouration",
+    "vocal-pop-filter",
+    "consistent-vocal-microphone-distance",
+    "vocal-room-reflection-control"
+  ],
+  "rejected": [
+    {
+      "concept_key": "roughness-perception",
+      "reason": "Independent body verification incomplete at https://www.asha.org/practice-portal/clinical-topics/voice-disorders/ sections Auditory-Perceptual Assessment / opening paragraph and Voice Quality / roughness. Public webfetch extraction returned references only; HTML output truncated before the cited sections, and direct urllib retrieval returned HTTP 403. Therefore definition, subjective assessment and task fields were not independently inspected. No inference from the producer or general knowledge; unverified, not demonstrated false. No staging repair or access bypass."
+    },
+    {
+      "concept_key": "pitch-and-frequency-range",
+      "reason": "Cannot independently inspect all three cited fields at https://www.asha.org/practice-portal/clinical-topics/voice-disorders/ sections Voice Quality / pitch and Acoustic Assessment / Vocal frequency / mean and minimum/maximum vocal F0. Extracted content was references-only, HTML was truncated, direct retrieval HTTP 403. An HTTP 200 or bibliographic reference cannot verify the definition, averaging method, Hz unit or sustainable extrema. Reject unchanged record as unverified."
+    },
+    {
+      "concept_key": "loudness-and-spl-range",
+      "reason": "Cannot independently inspect all three cited fields at https://www.asha.org/practice-portal/clinical-topics/voice-disorders/ sections Voice Quality / loudness and Acoustic Assessment / Vocal amplitude / habitual and minimum/maximum SPL. References-only extraction and truncated HTML do not expose those passages; direct request returned HTTP 403. Perceptual correspondence, dB description and sustainable extrema remain unverified. No reviewer measurement performed."
+    },
+    {
+      "concept_key": "forward-resonance-sensation",
+      "reason": "Cannot independently inspect https://www.asha.org/practice-portal/clinical-topics/voice-disorders/ section Resonant Voice Therapy / definition and opening sentence: references-only extraction, truncated HTML and HTTP 403 on direct retrieval. All three source-claim fields remain unverified. Original CRAFT-voice-2c2f97ccc09c resolves once and correctly avoids a duplicate new entry, but that match is not source evidence. Its brightness direction is also not verified; no audio or anatomical measurement inspected."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "vctk-092",
+      "url": "https://datashare.ed.ac.uk/items/30e7453c-9ea8-48b4-8e18-f96d0dc62928/full",
+      "checked_at": "2026-10-30T04:52:45.347104+00:00",
+      "access": "public_body",
+      "locator": "dc.description.abstract, paragraphs on speakers, text selection, recording setup, conversion and exceptions; dc.creator; dc.identifier.citation; dc.rights",
+      "rights_checked": true,
+      "notes": "Read full repository metadata body with direct urllib and HTMLParser after webfetch shortened the abstract; compared all eight fields against dc.description.abstract, not only HTML meta tags. Title, three creators and 2019 citation agree. dc.rights explicitly identifies CC BY 4.0; independently read https://creativecommons.org/licenses/by/4.0/ terms and Notices: credit, license link and changes notice apply; privacy/publicity/moral rights are not cleared. No inference of independent newspaper-text rights. Recording conditions and text/accent controls are distinct concepts, not speaker variants. No archive or audio opened."
+    },
+    {
+      "source_id": "ravdess-100",
+      "url": "https://zenodo.org/api/records/1188976",
+      "checked_at": "2026-10-30T04:52:45.347104+00:00",
+      "access": "public_body",
+      "locator": "metadata.title; metadata.creators; metadata.version; metadata.description / File naming convention / Filename identifiers and License information; metadata.license.id",
+      "rights_checked": true,
+      "notes": "Web open produced no usable content; independent HTTPS webfetch of this exact API URL returned readable original JSON. Read metadata.description, not merely status or file listing. Version 1.0.0 and both creators agree. Filename schema supports three fields. metadata.license.id and License information specify cc-by-nc-sa-4.0 despite abbreviated Attribution wording elsewhere; commercial licensing is separate. Read https://creativecommons.org/licenses/by-nc-sa/4.0/ terms and Notices; attribution, noncommercial and share-alike limits retained. Existing CRAFT-voice-bcb95d86dcee resolves once. Acceptance enriches identity/performance separation only, not the original guide's invariant-timbre instruction or measured emotional limits. No media requested."
+    },
+    {
+      "source_id": "shure-direction",
+      "url": "https://www.shure.com/en-US/insights/microphone-directionality-polar-pattern-basics",
+      "checked_at": "2026-10-30T04:52:45.347104+00:00",
+      "access": "public_body",
+      "locator": "What Is Microphone Directionality?; Unidirectional Microphones; Other Things to Consider When Using Unidirectional Mics / Proximity effect and Off-axis colouration",
+      "rights_checked": true,
+      "notes": "Reopened manufacturer's article body and compared six fields. Exact page title and Shure publisher agree. No individual author established. No reuse grant established for article, photographs or diagrams; unknown rights retained. Proximity-related bass response and angular/off-axis response are distinct recording variables, not duplicate speaker identities. Distance consistency in the other article is a separate continuity condition. No diagrams or audio inspected or acquired."
+    },
+    {
+      "source_id": "shure-recording",
+      "url": "https://www.shure.com/en-EU/insights/how-to-record-and-mix-vocals",
+      "checked_at": "2026-10-30T04:52:45.347104+00:00",
+      "access": "public_body",
+      "locator": "Choosing the Right Vocal Microphone / Condenser Microphones for Vocals; Vocal Mic Positioning & Distance; Improving Room Acoustics for Vocal Recording / Hang a Duvet",
+      "rights_checked": true,
+      "notes": "Reopened full manufacturer guidance and compared nine fields. Byline is corporate Shure Incorporated, not an identified individual; publisher/title agree. Pop filtering, distance continuity and room reflections are distinct recording conditions within the voice specification's scope. Numbers and recommendations remain attributed source claims, not reviewer measurements or tested outcomes. Unknown media rights retained; public access does not authorize reproduction. No sample heard, media fetched or recording performed."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "vctk-standardized-recording",
+      "field": "공간",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / All speech data was recorded paragraph",
+      "verdict": "supported",
+      "notes": "Repository states identical setup in Edinburgh's hemi-anechoic chamber; Korean description agrees."
+    },
+    {
+      "concept_key": "vctk-standardized-recording",
+      "field": "마이크",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / recording setup",
+      "verdict": "supported",
+      "notes": "Both model identifiers agree with the setup paragraph."
+    },
+    {
+      "concept_key": "vctk-standardized-recording",
+      "field": "원녹음과_배포",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / recording setup and conversion",
+      "verdict": "supported",
+      "notes": "96 kHz/24-bit capture and 48 kHz/16-bit conversion match; no reviewer signal analysis."
+    },
+    {
+      "concept_key": "vctk-standardized-recording",
+      "field": "예외",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / technical issues parenthesis",
+      "verdict": "supported",
+      "notes": "The two cited speaker IDs and MKH 800 exception agree."
+    },
+    {
+      "concept_key": "vctk-accent-text-controls",
+      "field": "화자_범위",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / first sentence",
+      "verdict": "supported",
+      "notes": "110 English speakers and accent variation are repository claims, not inspected identities."
+    },
+    {
+      "concept_key": "vctk-accent-text-controls",
+      "field": "공통_자료",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / text selection paragraph",
+      "verdict": "supported",
+      "notes": "Both shared reading materials are explicitly common across speakers."
+    },
+    {
+      "concept_key": "vctk-accent-text-controls",
+      "field": "개별_자료",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / Each speaker has a different set",
+      "verdict": "supported",
+      "notes": "Speaker-specific newspaper selections match, unlike the shared passages."
+    },
+    {
+      "concept_key": "vctk-accent-text-controls",
+      "field": "전사_결손",
+      "source_id": "vctk-092",
+      "locator": "dc.description.abstract / final transcript availability sentence",
+      "verdict": "supported",
+      "notes": "109 transcript sets and p315 disk-loss explanation match; actual files not inspected."
+    },
+    {
+      "concept_key": "identity-versus-emotional-performance",
+      "field": "배우_식별",
+      "source_id": "ravdess-100",
+      "locator": "File naming convention / Actor and Emotion identifiers",
+      "verdict": "supported",
+      "notes": "API metadata.description lists actor 01-24 separately from emotion. Supports label separation, not invariant timbre."
+    },
+    {
+      "concept_key": "identity-versus-emotional-performance",
+      "field": "강도_축",
+      "source_id": "ravdess-100",
+      "locator": "Filename identifiers / Emotional intensity",
+      "verdict": "supported",
+      "notes": "Normal/strong codes and the neutral exception are explicit in the API description."
+    },
+    {
+      "concept_key": "identity-versus-emotional-performance",
+      "field": "대사와_반복",
+      "source_id": "ravdess-100",
+      "locator": "Filename identifiers / Statement and Repetition",
+      "verdict": "supported",
+      "notes": "Statement and repetition occupy separate identifiers. No performance listened to or emotional tolerance measured."
+    },
+    {
+      "concept_key": "microphone-proximity-effect",
+      "field": "대상",
+      "source_id": "shure-direction",
+      "locator": "Other Things to Consider / Proximity effect",
+      "verdict": "supported",
+      "notes": "Proximity paragraph specifies unidirectional microphones."
+    },
+    {
+      "concept_key": "microphone-proximity-effect",
+      "field": "거리_반응",
+      "source_id": "shure-direction",
+      "locator": "Other Things to Consider / Proximity effect",
+      "verdict": "supported",
+      "notes": "Closer placement increases bass response in the stated context."
+    },
+    {
+      "concept_key": "microphone-proximity-effect",
+      "field": "출처_조정안",
+      "source_id": "shure-direction",
+      "locator": "Other Things to Consider / Proximity effect / final clause",
+      "verdict": "supported",
+      "notes": "Both distance and EQ options are manufacturer recommendations, not reviewer-tested fixes."
+    },
+    {
+      "concept_key": "microphone-direction-and-colouration",
+      "field": "지향성_정의",
+      "source_id": "shure-direction",
+      "locator": "What Is Microphone Directionality? / definition",
+      "verdict": "supported",
+      "notes": "Sensitivity relative to arrival angle matches the definition."
+    },
+    {
+      "concept_key": "microphone-direction-and-colouration",
+      "field": "전방_수음",
+      "source_id": "shure-direction",
+      "locator": "Unidirectional Microphones / opening paragraph",
+      "verdict": "supported",
+      "notes": "Front-facing maximum sensitivity matches."
+    },
+    {
+      "concept_key": "microphone-direction-and-colouration",
+      "field": "축외_변화",
+      "source_id": "shure-direction",
+      "locator": "Other Things to Consider / Off-axis colouration",
+      "verdict": "supported",
+      "notes": "Angular response variation especially affecting high frequencies matches; no new speaker inferred."
+    },
+    {
+      "concept_key": "vocal-pop-filter",
+      "field": "용도",
+      "source_id": "shure-recording",
+      "locator": "Condenser Microphones for Vocals / pop filter paragraph",
+      "verdict": "supported",
+      "notes": "Condenser-vocal context and plosive-reduction recommendation match."
+    },
+    {
+      "concept_key": "vocal-pop-filter",
+      "field": "발음_예",
+      "source_id": "shure-recording",
+      "locator": "Condenser Microphones for Vocals / pop filter paragraph",
+      "verdict": "supported",
+      "notes": "Both named consonants agree."
+    },
+    {
+      "concept_key": "vocal-pop-filter",
+      "field": "설치_설명",
+      "source_id": "shure-recording",
+      "locator": "Condenser Microphones for Vocals / pop filter paragraph",
+      "verdict": "supported",
+      "notes": "Front placement and airflow-control explanation match; no pronunciation correction claimed."
+    },
+    {
+      "concept_key": "consistent-vocal-microphone-distance",
+      "field": "출발_거리",
+      "source_id": "shure-recording",
+      "locator": "Vocal Mic Positioning & Distance / second paragraph",
+      "verdict": "supported",
+      "notes": "10-20 cm matches a starting recommendation for most singers, not a universal rule."
+    },
+    {
+      "concept_key": "consistent-vocal-microphone-distance",
+      "field": "유지_권고",
+      "source_id": "shure-recording",
+      "locator": "Vocal Mic Positioning & Distance / Most importantly paragraph",
+      "verdict": "supported",
+      "notes": "Constant performance distance is expressly recommended."
+    },
+    {
+      "concept_key": "consistent-vocal-microphone-distance",
+      "field": "변동_영향",
+      "source_id": "shure-recording",
+      "locator": "Vocal Mic Positioning & Distance / Most importantly paragraph",
+      "verdict": "supported",
+      "notes": "All three listed consequences of sudden movement agree; none measured here."
+    },
+    {
+      "concept_key": "vocal-room-reflection-control",
+      "field": "반사_수음",
+      "source_id": "shure-recording",
+      "locator": "Improving Room Acoustics for Vocal Recording / first paragraph",
+      "verdict": "supported",
+      "notes": "Direct vocal plus room-reflection capture matches."
+    },
+    {
+      "concept_key": "vocal-room-reflection-control",
+      "field": "장비_한계",
+      "source_id": "shure-recording",
+      "locator": "Improving Room Acoustics / second paragraph",
+      "verdict": "supported",
+      "notes": "Equipment-only upgrading limitation matches."
+    },
+    {
+      "concept_key": "vocal-room-reflection-control",
+      "field": "출처_흡음안",
+      "source_id": "shure-recording",
+      "locator": "Improving Room Acoustics / Hang a Duvet",
+      "verdict": "supported",
+      "notes": "Absorption behind the singer is the article's suggestion, not a performed experiment."
+    }
+  ],
+  "accepted_count": 8,
+  "shortfall": 12,
+  "shortfall_reason": "Partial result: 8/20 accepted, 4/12 submitted concepts rejected as independently unverified, and 8 concepts never submitted; target shortfall 12. Compared all 26 accepted source_claim fields with four readable primary bodies and license limitations. ASHA yielded references-only extraction, truncated HTML and HTTP 403 on direct retrieval; its 12 cited fields were NOT independently inspected. No ASHA public_body source check or supported evidence checks claimed. Producer content cannot be repaired within reviewer scope; replacement readable evidence requires a new staging batch and SHA. Accepted result is one existing-ID enrichment and seven distinct metadata concepts; compared all 32 original voice entries for aliases. Recording versus reading controls, proximity versus directionality versus continuity, and plosive versus reflection control are distinct, not wording-derived variants. Invariant-timbre instructions remain unvalidated; RAVDESS acceptance covers label separation only. No Korean speaker facts, heard timbres, measured F0/SPL, voice IDs, audio observations, acquired media or commercial RAVDESS permission established. Zero proposals and media candidates. No count padding, staging repair or seed/Drive modification. Not full target population or media acquisition."
+}

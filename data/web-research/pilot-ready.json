@@ -1,0 +1,1916 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "scope": "local_reviewed_hair_makeup_pilot_no_remote_publication",
+  "verified_at": "2026-10-29T21:19:31.969Z",
+  "dataset_version": "frame-reference-db-20261029-v3.3-verified-drive-web-70ad38027d308279371006d46cf6edc0929ebdd59a3f88f8a1858173949c0e6f",
+  "dataset_revision": "web-70ad38027d308279371006d46cf6edc0929ebdd59a3f88f8a1858173949c0e6f",
+  "reproduce": [
+    "python3 scripts/data/web_research.py stage-reviewed --categories hair,makeup",
+    "python3 scripts/data/normalize.py --drive",
+    "pnpm test:data",
+    "pnpm exec tsc --noEmit",
+    "pnpm build"
+  ],
+  "counts": {
+    "original_entries_preserved": 2485,
+    "total_entries": 2489,
+    "new_entries": 4,
+    "enriched_original_entries": 34,
+    "accepted_concepts": 38,
+    "target_concepts": 40,
+    "shortfall": 2,
+    "reviewed_source_claim_facts": 120,
+    "attributable_web_source_rows": 31,
+    "original_prompt_templates": 2485,
+    "original_media_rows": 2914,
+    "verified_drive_files_preserved": 7167,
+    "web_media_acquired": 0,
+    "web_media_visually_reviewed": 0
+  },
+  "categories": [
+    {
+      "accepted_concepts": 18,
+      "added_entries": 2,
+      "category_id": "hair",
+      "enriched_entries": 16,
+      "input_sha256": "80aff9bcf6335af10e0736e52f325b299b4105243911bf3d309257e68cd4af60",
+      "media_candidates_only": true,
+      "media_downloaded": 0,
+      "media_visual_reviewed": 0,
+      "reviewed_facts": 58,
+      "shortfall": 2,
+      "shortfall_reason": "Partial result: 18 of 20 distinct staged concepts accepted; 2 short of target. Butterfly-cut and bixie-cut lack independently readable cited Redken paragraphs (section fetch timeouts; direct fetch HTTP 403); no unsupported fields were repaired or waived. Of 18 accepted concepts, 16 enrich exactly identified existing hair entries and 2 are distinct metadata-only fringe concepts (wispy-bangs and blunt-fringe), not 18 newly acquired media or necessarily 18 new DB rows. All 58 accepted fields are attributed source_claim facts; there are zero observations, measurements, proposals and media candidates. Rights remain unknown for all 12 checked sources. Original 2,485 entries and 7,167 verified Drive-file baseline are not new acquisition and were not modified or re-certified by this review. Staging and active seed were not changed; no ingestion was performed.",
+      "category": "hair",
+      "total": 47,
+      "reviewed": 18,
+      "facts": 58,
+      "sources": 12,
+      "filterChecks": [
+        {
+          "source_id": "web-source-20c7bda6bc0a184079461fad",
+          "url": "https://www.hair.com/blunt-bob-with-bangs.html",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-f6920a6f628a8bfad4a3c163",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair",
+          "total": 3
+        },
+        {
+          "source_id": "web-source-c7efb8bca9b01734ed75aac5",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-46d3c921e0e38710a8b30b45",
+          "url": "https://www.hair.com/french-bob.html",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-6a2556598d0b2520f737fe51",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men",
+          "total": 2
+        },
+        {
+          "source_id": "web-source-f409eeec53712d0cad36e12e",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs",
+          "total": 3
+        },
+        {
+          "source_id": "web-source-df43496ab4339ff794665724",
+          "url": "https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-6ce76b06cff26dcbe6b08ce5",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-7f45f78c86e6d54861a66012",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair",
+          "total": 3
+        },
+        {
+          "source_id": "web-source-1097defd3d1746ad936890c8",
+          "url": "https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-aa4adbaf7806f64405422224",
+          "url": "https://us.davines.com/blogs/news/how-to-get-the-wet-hair-look",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-d9c05fb4924ce729574e9a91",
+          "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look",
+          "total": 1
+        }
+      ],
+      "new_entries": [
+        "web-hair-68d919205a8f0c5b8449114f",
+        "web-hair-df04af7fd49cc3139c8d4d20"
+      ]
+    },
+    {
+      "accepted_concepts": 20,
+      "added_entries": 2,
+      "category_id": "makeup",
+      "enriched_entries": 18,
+      "input_sha256": "218978321dc75ba5992b7c2eeb015d6075b53224a26264a8204966d8b6612864",
+      "media_candidates_only": true,
+      "media_downloaded": 0,
+      "media_visual_reviewed": 0,
+      "reviewed_facts": 62,
+      "shortfall": 0,
+      "shortfall_reason": "No concept-count shortfall: 20 supported metadata concepts (18 enrich existing entries; 2 distinct new concepts). All 62 facts are attributed source claims, with no observations, measurements, proposals or media candidates. Zero media acquired/reviewed; filming conditions, visual results and reusable-media rights remain unverified. This is an independent review, not DB population or media acquisition.",
+      "category": "makeup",
+      "total": 42,
+      "reviewed": 20,
+      "facts": 62,
+      "sources": 19,
+      "filterChecks": [
+        {
+          "source_id": "web-source-c3cdb7d90240545f89fea8cb",
+          "url": "https://www.glossier.com/en-au/products/balm-dotcom?variant=46731566088437",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-1f79ffe446a90e999ef2a918",
+          "url": "https://www.maccosmetics.ca/powder-kiss-lipstick",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-7ff0f6d03d052f2bda88db96",
+          "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/how-to-shave-3-day-stubble-beard",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-b91d417c0fea517d682a3609",
+          "url": "https://www.opi.com/blog/nail-trends/the-easiest-diy-french-tip-manicure",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-4348b1a14023371607b1c467",
+          "url": "https://www.charlottetilbury.com/ca/secrets/how-to-apply-eyeliner-winged-liner",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-7a0460d3d09f4b9c7a419669",
+          "url": "https://www.maccosmetics.com/products/pro-longwear-paint-pot",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-b45561bd30e1ce71f3680122",
+          "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/short-boxed-beard",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-a5c58ad43f6f0b64daffcaeb",
+          "url": "https://www.bobbibrowncosmetics.com/product/14018/106004/makeup/face/corrector-concealer/skin-full-cover-concealer/fh22",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-e9b4a666e4a09330d3cec457",
+          "url": "https://www.charlottetilbury.com/us/product/full-fat-lashes-glossy-black",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-bfe9a957d1065b5b854fdfbe",
+          "url": "https://www.maccosmetics.com/products/strobe-cream",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-13596a90610840cbbf33b6d0",
+          "url": "https://www.bobbibrowncosmetics.ca/product/14019/118723/makeup/face/powder/sheer-finish-pressed-powder",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-ceaca8dc0c23e7042f8bf108",
+          "url": "https://www.charlottetilbury.com/eu/secrets/how-to-apply-red-lipstick",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-2d6324a3671984d810c4dcc9",
+          "url": "https://www.charlottetilbury.com/us/secrets/apply-new-smokey-eye-beauty-palette",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-1d09067aec29ebc20496fa35",
+          "url": "https://www.benefitcosmetics.com/en-us/product/precisely-my-brow-eyebrow-pencil-PRECI.html",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-8a0fb29841953f1dfbf0eb5d",
+          "url": "https://www.charlottetilbury.com/us/secrets/how-to-blend-contour-makeup",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-9a021fcd82efd26c5b6778e1",
+          "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shape-your-mustache",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-c0315f713b5336517901d546",
+          "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/trim-your-beard-at-home",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-4f87277e76cdd3b2ae84ec94",
+          "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shave-your-face",
+          "total": 1
+        },
+        {
+          "source_id": "web-source-b811d8556eda9f20c6b5a2c8",
+          "url": "https://www.charlottetilbury.com/us/secrets/how-to-bronze-sculpt-glow",
+          "total": 2
+        }
+      ],
+      "new_entries": [
+        "web-makeup-7ebfc9110e807662eaed1177",
+        "web-makeup-f9a56bc3899a404b6248a36b"
+      ]
+    }
+  ],
+  "preservation": {
+    "proof": "tests/database_integrity.py reconstructs all original inputs with verified Drive checks; every original identity/status/non-details field, original details, prompt/authorship row, tag, relation and media mapping is compared exactly; foreign keys and owner-scoped unique collections remain tested",
+    "original_gallery_references": {
+      "pose": 1439,
+      "costume": 1407,
+      "grouped_pose_entries": 288
+    },
+    "drive_evidence": "Existing 7167-file manifest/index/audit matches file IDs, byte lengths and SHA-256; no media downloaded or newly reverified remotely during this pilot",
+    "actual_local_db_export": {
+      "media_rows": 2914,
+      "all_media_urls_are_drive_api": true,
+      "unique_entry_ids": 2489,
+      "variants": 2914,
+      "prompts": 2485
+    }
+  },
+  "source_links": [
+    {
+      "source_id": "web-source-1097defd3d1746ad936890c8",
+      "name": "ghd / Jemella Ltd · SLICK BACK STRAIGHT",
+      "url": "https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight",
+      "rights": {
+        "attribution": "ghd / Jemella Ltd 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-13596a90610840cbbf33b6d0",
+      "name": "Bobbi Brown Cosmetics Canada · Sheer Finish Pressed Powder",
+      "url": "https://www.bobbibrowncosmetics.ca/product/14019/118723/makeup/face/powder/sheer-finish-pressed-powder",
+      "rights": {
+        "attribution": "출처 표기: Bobbi Brown Cosmetics Canada. 사진별 저작자·라이선스 의무는 미확인.",
+        "evidence_url": null,
+        "scope": "공개 제품 설명만 근거로 사용했다. 사진·본문 재배포 허락은 미확인이고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-1d09067aec29ebc20496fa35",
+      "name": "Benefit Cosmetics · Precisely, My Brow Pencil",
+      "url": "https://www.benefitcosmetics.com/en-us/product/precisely-my-brow-eyebrow-pencil-PRECI.html",
+      "rights": {
+        "attribution": "출처 표기: Benefit Cosmetics, Precisely, My Brow Pencil. 개별 사진 저작자·라이선스 의무는 미확인.",
+        "evidence_url": null,
+        "scope": "공식 FAQ 본문만 열람했다. 전후 사진의 촬영 조건·보정 여부를 검사하지 않았으며 사진 재사용 허락은 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-1f79ffe446a90e999ef2a918",
+      "name": "M·A·C Cosmetics Canada · Powder Kiss LP NOAM",
+      "url": "https://www.maccosmetics.ca/powder-kiss-lipstick",
+      "rights": {
+        "attribution": "출처 표기: M·A·C Cosmetics Canada, Powder Kiss. 팁의 개인 저자·사진 권리자·재사용 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "제조사 아티스트 팁의 본문만 읽었다. 특정 틴트 제형의 효과나 미디어 재사용 허락은 확인하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-20c7bda6bc0a184079461fad",
+      "name": "Hair.com / L’Oréal Professional Products Division · Blunt Bob With Bangs: 19 Ways To Own The Look In 2025",
+      "url": "https://www.hair.com/blunt-bob-with-bangs.html",
+      "rights": {
+        "attribution": "Hair.com / L’Oréal Professional Products Division 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-2d6324a3671984d810c4dcc9",
+      "name": "Charlotte Tilbury Beauty · How to Apply NEW! Smokey Eye Beauty Palette",
+      "url": "https://www.charlottetilbury.com/us/secrets/apply-new-smokey-eye-beauty-palette",
+      "rights": {
+        "attribution": "출처 표기: Charlotte Tilbury, How to Apply NEW! Smokey Eye Beauty Palette. 이미지·영상별 권리 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "2018년 팔레트 교육 본문으로 기법만 요약한다. 제품의 현재 판매 상태나 촬영 재현성은 주장하지 않는다. 영상·사진 재사용 허락은 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-4348b1a14023371607b1c467",
+      "name": "Charlotte Tilbury Beauty · How To Apply Eyeliner Winged Liner",
+      "url": "https://www.charlottetilbury.com/ca/secrets/how-to-apply-eyeliner-winged-liner",
+      "rights": {
+        "attribution": "출처 표기: Charlotte Tilbury, How To Apply Eyeliner Winged Liner. 모델 초상·사진·영상 이용 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "구체적인 적용 절차가 있는 공식 텍스트를 사용했다. 영상 시청·캡처나 모델 이미지 검수를 하지 않았다. 재사용 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-46d3c921e0e38710a8b30b45",
+      "name": "Hair.com / L’Oréal Professional Products Division · 20 of the Best French Bob Hairstyles To Try This Season",
+      "url": "https://www.hair.com/french-bob.html",
+      "rights": {
+        "attribution": "Hair.com / L’Oréal Professional Products Division 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-4f87277e76cdd3b2ae84ec94",
+      "name": "Gillette · How to Shave Your Face: Step-by-step guide for Men",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shave-your-face",
+      "rights": {
+        "attribution": "출처 표기: Gillette, How to Shave Your Face. 사진·영상 저작자와 재사용 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "제조사의 면도 절차 설명만 기록했다. 실제 면도·피부 반응 검사나 촬영 비교를 수행하지 않았다. 미디어·원문 재사용 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-6a2556598d0b2520f737fe51",
+      "name": "L’Oréal Paris · Just Shave It: 10 Buzz Cut Hairstyles For Men",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men",
+      "rights": {
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-6ce76b06cff26dcbe6b08ce5",
+      "name": "L’Oréal Paris · How to Rock an Asymmetrical Bob",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob",
+      "rights": {
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-7a0460d3d09f4b9c7a419669",
+      "name": "M·A·C Cosmetics · Pro Longwear Paint Pot",
+      "url": "https://www.maccosmetics.com/products/pro-longwear-paint-pot",
+      "rights": {
+        "attribution": "출처 표기: M·A·C Cosmetics, Pro Longwear Paint Pot. 사진 저작자와 라이선스는 미확인.",
+        "evidence_url": null,
+        "scope": "제조사가 명시한 제형·색·사용법만 기록했다. 지속력 실험이나 이미지 검수는 하지 않았다. 사진·텍스트 재배포 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-7f45f78c86e6d54861a66012",
+      "name": "L’Oréal Paris · 16 of the Best Haircuts for Wavy Hair",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair",
+      "rights": {
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-7ff0f6d03d052f2bda88db96",
+      "name": "Gillette · How to Maintain the 3-Day Stubble Beard (Scruff Look)",
+      "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/how-to-shave-3-day-stubble-beard",
+      "rights": {
+        "attribution": "출처 표기: Gillette, How to Maintain the 3-Day Stubble Beard. 사진·영상 저작자와 별도 허락은 미확인.",
+        "evidence_url": null,
+        "scope": "제조사 스타일 안내 텍스트만 열람했다. 길이는 제조사의 권장 범위이지 수집자의 측정값이 아니다. 사진·영상 재사용 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-8a0fb29841953f1dfbf0eb5d",
+      "name": "Charlotte Tilbury Beauty · How To Blend Contour Makeup",
+      "url": "https://www.charlottetilbury.com/us/secrets/how-to-blend-contour-makeup",
+      "rights": {
+        "attribution": "출처 표기: Charlotte Tilbury, How To Blend Contour Makeup. 별도 미디어 크레딧과 라이선스는 미확인.",
+        "evidence_url": null,
+        "scope": "저자 명시 공식 교육 본문만 요약했다. 이미지·영상·본문의 재게시나 제3자 업로드 권한은 확인하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-9a021fcd82efd26c5b6778e1",
+      "name": "Gillette · How to Shape Your Mustache",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shape-your-mustache",
+      "rights": {
+        "attribution": "출처 표기: Gillette, How to Shape Your Mustache; 소개된 이발사: Jason Schneidman. 영상·사진 권리는 미확인.",
+        "evidence_url": null,
+        "scope": "Jason Schneidman의 시연을 소개하는 공개 단계별 본문만 사용했다. 삽입 영상은 시청하지 않았고 재사용 허락도 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-a5c58ad43f6f0b64daffcaeb",
+      "name": "Bobbi Brown Cosmetics · Skin Full Cover Concealer",
+      "url": "https://www.bobbibrowncosmetics.com/product/14018/106004/makeup/face/corrector-concealer/skin-full-cover-concealer/fh22",
+      "rights": {
+        "attribution": "출처 표기: Bobbi Brown Cosmetics, Skin Full Cover Concealer. 미디어 권리자와 재사용 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "읽을 수 있는 제조사 본문으로 차단된 다른 컨실러 안내를 대체했다. 공개 열람을 사진·텍스트 복제나 상업 이용 허락으로 보지 않는다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-aa4adbaf7806f64405422224",
+      "name": "Davines · How to Get the Wet Hair Look with the Best Products",
+      "url": "https://us.davines.com/blogs/news/how-to-get-the-wet-hair-look",
+      "rights": {
+        "attribution": "Davines 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-b45561bd30e1ce71f3680122",
+      "name": "Gillette · Short Boxed Beard Style – How to Trim, Shape & Maintain the look",
+      "url": "https://gillette.com/en-us/shaving-tips/facial-hair-styles/short-boxed-beard",
+      "rights": {
+        "attribution": "출처 표기: Gillette, Short Boxed Beard Style. 이미지·영상의 제작자 및 재사용 의무는 미확인.",
+        "evidence_url": null,
+        "scope": "스타일 형태와 손질 설명의 본문만 요약한다. 얼굴형별 효과·미디어 결과는 검증하지 않았다. 사진·영상 재사용 허락은 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-b811d8556eda9f20c6b5a2c8",
+      "name": "Charlotte Tilbury Beauty · How To Sculpt, Bronze + Glow: Save a Magical 45%* with Charlotte’s Sculpt, Bronze and Glow Kit",
+      "url": "https://www.charlottetilbury.com/us/secrets/how-to-bronze-sculpt-glow",
+      "rights": {
+        "attribution": "출처 표기: Charlotte Tilbury, How To Sculpt, Bronze + Glow. 사진별 권리와 재사용 의무는 미확인.",
+        "evidence_url": null,
+        "scope": "제품 판매를 겸한 저자 교육 설명이다. 할인·효능을 검증하거나 이미지를 취득하지 않았다. 미디어와 원문 재사용 허락은 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-b91d417c0fea517d682a3609",
+      "name": "OPI · The Easiest DIY French Tip Manicure",
+      "url": "https://www.opi.com/blog/nail-trends/the-easiest-diy-french-tip-manicure",
+      "rights": {
+        "attribution": "출처 표기: OPI, The Easiest DIY French Tip Manicure. 개별 사진·삽입 게시물의 저작자와 재사용 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "GELement 시스템을 대상으로 한 제조사 텍스트 절차다. 경화·내구성 시험이나 다른 시스템 적용 검증은 하지 않았다. 사진·영상 재사용 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-bfe9a957d1065b5b854fdfbe",
+      "name": "M·A·C Cosmetics · Strobe Cream | Moisturizer + Highlighter",
+      "url": "https://www.maccosmetics.com/products/strobe-cream",
+      "rights": {
+        "attribution": "출처 표기: M·A·C Cosmetics, Strobe Cream. 개별 사진 저작자와 재사용 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "공개 제품 본문을 열람했다. 텍스트·이미지의 재배포 및 상업 이용 허락은 확인하지 않았다. 이미지 파일 취득·검수와 영상 시청은 하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-c0315f713b5336517901d546",
+      "name": "Gillette · How To Trim and Edge Your Beard at Home",
+      "url": "https://gillette.com/en-us/shaving-tips/how-to-shave/trim-your-beard-at-home",
+      "rights": {
+        "attribution": "출처 표기: Gillette; 풀비어드 볼 경계 조언: Faheem Alexander. 별도 미디어 저작자와 이용 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "공식 Barber Council 본문을 읽었다. 조언자로 Faheem Alexander와 Josh Pereira가 표시되지만 페이지 전체 저자로 추정하지 않는다. 사진·영상 재사용 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-c3cdb7d90240545f89fea8cb",
+      "name": "Glossier · Balm Dotcom",
+      "url": "https://www.glossier.com/en-au/products/balm-dotcom?variant=46731566088437",
+      "rights": {
+        "attribution": "출처 표기: Glossier, Balm Dotcom, Original. 이미지 저작자와 재사용·초상권 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "공개 HTML의 Original 선택 설명과 사용법을 읽었다. 페이지의 이미지 주소는 요청하지 않았으며 사진·본문 재배포 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-c7efb8bca9b01734ed75aac5",
+      "name": "L’Oréal Paris · How to Dutch Braid Your Hair",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair",
+      "rights": {
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-ceaca8dc0c23e7042f8bf108",
+      "name": "Charlotte Tilbury Beauty · How To Apply Red Lipstick",
+      "url": "https://www.charlottetilbury.com/eu/secrets/how-to-apply-red-lipstick",
+      "rights": {
+        "attribution": "출처 표기: Charlotte Tilbury, How To Apply Red Lipstick. 모델·사진·영상 권리는 별도 미확인.",
+        "evidence_url": null,
+        "scope": "저자의 레드 립 적용법을 텍스트로만 요약했다. 지속 시간·효능 실험은 수행하지 않았다. 미디어·원문 재사용 권리는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-d9c05fb4924ce729574e9a91",
+      "name": "L’Oréal Paris · How To Master the Wet Hair Look In 5 Simple Steps",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look",
+      "rights": {
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-df43496ab4339ff794665724",
+      "name": "Dyson · Styling the Wolf Cut: How to Achieve This On-Trend Hairstyle",
+      "url": "https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut",
+      "rights": {
+        "attribution": "Dyson 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-e9b4a666e4a09330d3cec457",
+      "name": "Charlotte Tilbury Beauty · Full Fat Lashes - Buildable Volumising Mascara",
+      "url": "https://www.charlottetilbury.com/us/product/full-fat-lashes-glossy-black",
+      "rights": {
+        "attribution": "출처 표기: Charlotte Tilbury Beauty, Full Fat Lashes. 별도 사진 저작자·권리 조건은 미확인.",
+        "evidence_url": null,
+        "scope": "읽을 수 있는 정규 제품 URL의 사용법을 사용했다. 시간 초과한 다른 URL은 출처로 채택하지 않았다. 미디어 재사용 허락·전후 결과는 미확인.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-f409eeec53712d0cad36e12e",
+      "name": "L’Oréal Paris · Try the Trend: Curtain Bangs",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs",
+      "rights": {
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    },
+    {
+      "source_id": "web-source-f6920a6f628a8bfad4a3c163",
+      "name": "L’Oréal Paris · 25 Hairstyles for Fine Hair",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair",
+      "rights": {
+        "attribution": "L’Oréal Paris 원문에 귀속한다. 개별 사진·제3자 자료의 권리자와 재사용 조건은 미확인이다.",
+        "evidence_url": null,
+        "scope": "공개 본문을 읽고 짧은 사실 요약과 링크만 기록했다. 사진·영상·본문의 복제, 편집, 재배포 및 AI 업로드 허락은 확인하지 않았고 미디어는 취득하지 않았다.",
+        "status": "unknown"
+      }
+    }
+  ],
+  "idempotence": {
+    "passed": true,
+    "seed_sha256": "0fc1f6c4efeb3aae1318e850b7a2b2829bb3a3ef6e66c95f3a37ee7b94f5a5f5",
+    "revision_file_sha256": "e56427cada97bc171875e1952da1b20fceefa5bf51ffe9064d08cd0ecd678b8b",
+    "output": "IDEMPOTENT_SEED_AND_REVISION",
+    "method": "Compared exact sha256sum output before and after repeating stage-reviewed and normalize --drive. Repeated API bootstrap returned complete immediately; status counts stayed 2489/1699 external/214 text/576 guides.",
+    "revision_regressions": "Rejected-only/review-only edits and empty reviewed categories do not change dataset_revision; changed accepted fact does. All exact envelope hashes remain checked."
+  },
+  "checks": {
+    "commands": [
+      {
+        "command": "python3 scripts/data/web_research.py stage-reviewed --categories hair,makeup && python3 scripts/data/normalize.py --drive && pnpm test:data",
+        "exit_code": 0,
+        "output": "status: completed exit_code: 0\n{\"dataset_revision\": \"web-70ad38027d308279371006d46cf6edc0929ebdd59a3f88f8a1858173949c0e6f\", \"files\": [{\"category_id\": \"hair\", \"sha256\": \"1e08b4a254f7095c6958fbcd8ddea896a02984b9cb793b491275ffe3a11ab0f4\"}, {\"category_id\": \"makeup\", \"sha256\": \"58027e7679d7b378de322ec51dafc85f0dfeb0098823b545ef3f6cc369649459\"}], \"schema_version\": 1}\n{\"categories\": 29, \"sources\": 34, \"entries\": 2489, \"variants\": 2914, \"media_assets\": 2914, \"tags\": 3171, \"entry_tags\": 36502, \"prompt_templates\": 2485, \"entry_relations\": 832, \"skill_mappings\": 29, \"import_batches\": 4}\ndistinct source references: 2846\n$ node --test tests/gallery_sync.test.mjs tests/drive_media.test.mjs && python3 tests/database_integrity.py && python3 tests/drive_pack_test.py && python3 tests/web_pack_test.py\n✔ serves a manifest image from Drive without forwarding cookies (5.860314ms)\n✔ does not fetch unknown or malformed asset IDs (0.76979ms)\n✔ does not serve a Drive sign-in HTML response as an image (1.020311ms)\n✔ reports Drive rate limiting without an original-host fallback (0.871829ms)\n✔ returns a conditional cache response without fetching Drive (0.77028ms)\n✔ returns an explicit gateway error on a connection failure (0.766159ms)\n✔ forwards HEAD and returns image headers without a response body (0.699111ms)\n✔ extracts JSON without executing source JavaScript (2.316356ms)\n✔ preserves all source fields and all three costume representations (0.527022ms)\n✔ rejects missing fields and cross-origin resource URLs (0.368064ms)\n✔ archives duplicate resource URLs only once outside public assets (2.474896ms)\n✔ rejects archive paths outside known image directories (0.373791ms)\n✔ detects image signatures and rejects HTML error bodies (0.429873ms)\nℹ tests 13\nℹ suites 0\nℹ pass 13\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 122.359296\n................\n----------------------------------------------------------------------\nRan 16 tests in 1.939s\n\nOK\n{\"categories\": 29, \"sources\": 3, \"entries\": 2485, \"variants\": 2914, \"media_assets\": 2914, \"tags\": 3171, \"entry_tags\": 36502, \"prompt_templates\": 2485, \"entry_relations\": 832, \"skill_mappings\": 29, \"import_batches\": 2}\ndistinct source references: 2846\n.....\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK\ntest_count_when_more_than_twenty_is_rejected (__main__.BatchValidation.test_count_when_more_than_twenty_is_rejected) ... ok\ntest_duplicates_when_normalized_or_attributed_are_rejected (__main__.BatchValidation.test_duplicates_when_normalized_or_attributed_are_rejected) ... ok\ntest_json_when_duplicate_properties_or_nonfinite_is_rejected (__main__.BatchValidation.test_json_when_duplicate_properties_or_nonfinite_is_rejected) ... ok\ntest_malformed_evidence_when_required_information_missing_is_rejected (__main__.BatchValidation.test_malformed_evidence_when_required_information_missing_is_rejected) ... ok\ntest_media_counter_when_injected_is_rejected (__main__.BatchValidation.test_media_counter_when_injected_is_rejected) ... ok\ntest_observation_measurement_and_proposal_when_explicit_are_distinct (__main__.BatchValidation.test_observation_measurement_and_proposal_when_explicit_are_distinct) ... ok\ntest_partial_batch_when_supported_is_valid (__main__.BatchValidation.test_partial_batch_when_supported_is_valid) ... ok\ntest_rights_when_claimed_without_evidence_is_rejected (__main__.BatchValidation.test_rights_when_claimed_without_evidence_is_rejected) ... ok\ntest_source_when_blocked_indexed_nonprimary_or_nocrawl_is_rejected (__main__.BatchValidation.test_source_when_blocked_indexed_nonprimary_or_nocrawl_is_rejected) ... ok\ntest_unknown_category_when_supplied_is_rejected (__main__.BatchValidation.test_unknown_category_when_supplied_is_rejected) ... ok\ntest_ambiguous_titles_when_present_fail_without_mutating_seed (__main__.MetadataMerge.test_ambiguous_titles_when_present_fail_without_mutating_seed) ... ok\ntest_distinct_batches_when_applied_sequentially_keep_import_attribution_stable (__main__.MetadataMerge.test_distinct_batches_when_applied_sequentially_keep_import_attribution_stable) ... ok\ntest_enrichment_when_explicit_preserves_identity_authorship_and_media (__main__.MetadataMerge.test_enrichment_when_explicit_preserves_identity_authorship_and_media) ... ok\ntest_existing_title_when_matching_is_enriched_without_new_identity (__main__.MetadataMerge.test_existing_title_when_matching_is_enriched_without_new_identity) ... ok\ntest_forged_approval_when_sha_invalid_is_revalidated (__main__.MetadataMerge.test_forged_approval_when_sha_invalid_is_revalidated) ... ok\ntest_invalid_target_or_duplicate_category_when_merged_preserves_input (__main__.MetadataMerge.test_invalid_target_or_duplicate_category_when_merged_preserves_input) ... ok\ntest_merge_when_repeated_and_reordered_is_idempotent (__main__.MetadataMerge.test_merge_when_repeated_and_reordered_is_idempotent) ... ok\ntest_new_metadata_when_loaded_in_real_relational_schema_has_valid_foreign_keys (__main__.MetadataMerge.test_new_metadata_when_loaded_in_real_relational_schema_has_valid_foreign_keys) ... ok\ntest_new_reference_when_reviewed_has_no_media_or_generated_authorship (__main__.MetadataMerge.test_new_reference_when_reviewed_has_no_media_or_generated_authorship) ... ok\ntest_normalization_when_approvals_missing_never_writes_seed (__main__.MetadataMerge.test_normalization_when_approvals_missing_never_writes_seed) ... ok\ntest_real_seed_when_enriched_preserves_all_original_rows_and_drive_files (__main__.MetadataMerge.test_real_seed_when_enriched_preserves_all_original_rows_and_drive_files) ... ok\ntest_rejected_record_when_reviewed_never_merges (__main__.MetadataMerge.test_rejected_record_when_reviewed_never_merges) ... ok\ntest_candidate_when_separate_source_unchecked_is_rejected (__main__.ReviewValidation.test_candidate_when_separate_source_unchecked_is_rejected) ... ok\ntest_empty_batch_when_shortfall_disclosed_is_valid (__main__.ReviewValidation.test_empty_batch_when_shortfall_disclosed_is_valid) ... ok\ntest_review_when_checks_or_independence_missing_is_rejected (__main__.ReviewValidation.test_review_when_checks_or_independence_missing_is_rejected) ... ok\ntest_review_when_staging_bytes_change_is_rejected (__main__.ReviewValidation.test_review_when_staging_bytes_change_is_rejected) ... ok\ntest_cli_when_category_unknown_or_input_missing_fails (__main__.StagingCLI.test_cli_when_category_unknown_or_input_missing_fails) ... ok\ntest_literal_validation_commands_when_invalid_fail (__main__.StagingCLI.test_literal_validation_commands_when_invalid_fail) ... ok\ntest_literal_validation_commands_when_valid_pass (__main__.StagingCLI.test_literal_validation_commands_when_valid_pass) ... ok\ntest_load_when_accepted_bytes_tampered_fails (__main__.StagingCLI.test_load_when_accepted_bytes_tampered_fails) ... ok\ntest_load_when_source_input_or_review_changes_fails (__main__.StagingCLI.test_load_when_source_input_or_review_changes_fails) ... ok\ntest_revision_when_empty_reviewed_category_added_is_unchanged (__main__.StagingCLI.test_revision_when_empty_reviewed_category_added_is_unchanged) ... ok\ntest_revision_when_only_review_or_rejected_content_changes_is_stable (__main__.StagingCLI.test_revision_when_only_review_or_rejected_content_changes_is_stable) ... ok\ntest_stage_all_when_all_categories_reviewed_passes (__main__.StagingCLI.test_stage_all_when_all_categories_reviewed_passes) ... ok\ntest_stage_all_when_category_missing_fails_before_any_write (__main__.StagingCLI.test_stage_all_when_category_missing_fails_before_any_write) ... ok\ntest_stage_categories_when_valid_is_deterministic_and_loadable (__main__.StagingCLI.test_stage_categories_when_valid_is_deterministic_and_loadable) ... ok\ntest_stage_when_category_selection_duplicate_is_rejected (__main__.StagingCLI.test_stage_when_category_selection_duplicate_is_rejected) ... ok\ntest_stage_when_second_review_invalid_does_not_partially_write (__main__.StagingCLI.test_stage_when_second_review_invalid_does_not_partially_write) ... ok\n\n----------------------------------------------------------------------\nRan 38 tests in 3.164s\n\nOK\n{\"categories\": 29, \"sources\": 3, \"entries\": 2485, \"variants\": 2914, \"media_assets\": 2914, \"tags\": 3171, \"entry_tags\": 36502, \"prompt_templates\": 2485, \"entry_relations\": 832, \"skill_mappings\": 29, \"import_batches\": 2}\ndistinct source references: 2846"
+      },
+      {
+        "command": "pnpm exec tsc --noEmit && pnpm build",
+        "exit_code": 0,
+        "output_excerpt": "✓ built in 1.36s\n✓ built in 216ms\n✓ built in 3.51s\n✓ built in 1.71s\n✓ built in 587ms\nBuild complete. Run `vinext start` to start the production server."
+      }
+    ],
+    "tests": {
+      "node": 13,
+      "integrity": 16,
+      "drive_pack": 5,
+      "web_pack": 38,
+      "total": 72,
+      "failed": 0
+    },
+    "diagnostics": "Language-server requests unavailable (missing basedpyright/biome and TypeScript daemon timeout); no dependencies installed. Required tsc and Python/Node tests pass.",
+    "resolved_runtime_failure": {
+      "observed": "bootstrap step 2 returned 503: D1_ERROR: statement too long: SQLITE_TOOBIG",
+      "fix": "Bound-parameter INSERT/UPSERT batches capped at 100 bindings instead of embedding large reviewed documents in SQL",
+      "reverified": "All 11 real bootstrap stages succeeded, then all category/detail/source checks passed"
+    }
+  },
+  "api_evidence": {
+    "base_url": "http://127.0.0.1:43243",
+    "database_mode": "task-owned local D1 only",
+    "bootstrap_steps": [
+      {
+        "complete": false,
+        "step": 1,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 2,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 3,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 4,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 5,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 6,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 7,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 8,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 9,
+        "total": 11
+      },
+      {
+        "complete": false,
+        "step": 10,
+        "total": 11
+      },
+      {
+        "complete": true,
+        "step": 11,
+        "total": 11
+      }
+    ],
+    "status": {
+      "version": "frame-reference-db-20261029-v3.3-verified-drive-web-70ad38027d308279371006d46cf6edc0929ebdd59a3f88f8a1858173949c0e6f",
+      "counts": {
+        "total": 2489,
+        "external": 1699,
+        "text": 214,
+        "guides": 576
+      },
+      "webReviewed": 38,
+      "mediaDrive": 2914,
+      "originalEntries": 2485
+    },
+    "requests": [
+      {
+        "path": "/api/bootstrap?step=0",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=1",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=2",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=3",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=4",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=5",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=6",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=7",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=8",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=9",
+        "status": 200
+      },
+      {
+        "path": "/api/bootstrap?step=10",
+        "status": 200
+      },
+      {
+        "path": "/api/status",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-172e978476d9",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-29e4256f3668",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-2c3c47d0ace7",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-3c739a641a37",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-95f1771af91c",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-9bc2665c1374",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-9eb96d64ed83",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-fae7b816d152",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-hair-fcee59be5f4f",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0002",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0004",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0005",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0006",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0009",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0011",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0014",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/web-hair-68d919205a8f0c5b8449114f",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/web-hair-df04af7fd49cc3139c8d4d20",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-20c7bda6bc0a184079461fad&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-f6920a6f628a8bfad4a3c163&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-c7efb8bca9b01734ed75aac5&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-46d3c921e0e38710a8b30b45&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-6a2556598d0b2520f737fe51&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-f409eeec53712d0cad36e12e&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-df43496ab4339ff794665724&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-6ce76b06cff26dcbe6b08ce5&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-7f45f78c86e6d54861a66012&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-1097defd3d1746ad936890c8&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-aa4adbaf7806f64405422224&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=hair&source=web-source-d9c05fb4924ce729574e9a91&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-144e623f091c",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-1f808c195aa3",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-263c281ae2c9",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-2a95075e4ba3",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-2dc747ea56a9",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-33eae62caae4",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-41c83b63e6a1",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-5b543f32849d",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/CRAFT-makeup-9e6745f7b961",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0031",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0032",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0034",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0035",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0038",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0039",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0162",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0163",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/FS-0164",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/web-makeup-7ebfc9110e807662eaed1177",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/web-makeup-f9a56bc3899a404b6248a36b",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-c3cdb7d90240545f89fea8cb&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-1f79ffe446a90e999ef2a918&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-7ff0f6d03d052f2bda88db96&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-b91d417c0fea517d682a3609&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-4348b1a14023371607b1c467&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-7a0460d3d09f4b9c7a419669&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-b45561bd30e1ce71f3680122&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-a5c58ad43f6f0b64daffcaeb&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-e9b4a666e4a09330d3cec457&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-bfe9a957d1065b5b854fdfbe&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-13596a90610840cbbf33b6d0&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-ceaca8dc0c23e7042f8bf108&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-2d6324a3671984d810c4dcc9&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-1d09067aec29ebc20496fa35&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-8a0fb29841953f1dfbf0eb5d&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-9a021fcd82efd26c5b6778e1&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-c0315f713b5336517901d546&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-4f87277e76cdd3b2ae84ec94&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=makeup&source=web-source-b811d8556eda9f20c6b5a2c8&limit=60",
+        "status": 200
+      },
+      {
+        "path": "/api/catalog?category=pose&limit=1",
+        "status": 200
+      },
+      {
+        "path": "/api/entries/pose-full_sexy_P001",
+        "status": 200
+      },
+      {
+        "path": "/api/export/all",
+        "status": 200
+      }
+    ],
+    "accepted_detail_rows_checked": 38,
+    "all_120_facts_equal_staging": true,
+    "source_filters_checked": 31,
+    "details": [
+      {
+        "id": "CRAFT-hair-172e978476d9",
+        "category": "hair",
+        "title": "여성 턱선 블런트 보브",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.hair.com/blunt-bob-with-bangs.html"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "블런트 정의 L103–105",
+            "source_id": "haircom-blunt"
+          },
+          "field": "길이_분포",
+          "value": "기본 블런트 커트는 둘레를 같은 길이로 자른다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-29e4256f3668",
+        "category": "hair",
+        "title": "여성 시뇽 업스타일",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "목록 7번 L42",
+            "source_id": "lp-fine"
+          },
+          "field": "매듭_위치",
+          "value": "목덜미에 놓인 낮은 번으로 설명한다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-2c3c47d0ace7",
+        "category": "hair",
+        "title": "여성 더치 브레이드",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "단계 2, L34",
+            "source_id": "lp-dutch"
+          },
+          "field": "시작_분할",
+          "value": "헤어라인의 시작 섹션을 같은 크기의 세 갈래로 나눈다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-3c739a641a37",
+        "category": "hair",
+        "title": "여성 프렌치 보브",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.hair.com/french-bob.html"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "길이 설명 L126–128",
+            "source_id": "haircom-french"
+          },
+          "field": "길이_기준",
+          "value": "보통 턱선 부근 또는 그보다 조금 위에서 끝난다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-95f1771af91c",
+        "category": "hair",
+        "title": "남성 크루 커트",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "목록 7번 L65, 크루 커트 설명 문장",
+            "source_id": "lp-buzz"
+          },
+          "field": "측후면_길이",
+          "value": "크루 커트는 뒤와 옆이 짧다고 설명한다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-9bc2665c1374",
+        "category": "hair",
+        "title": "여성 굵은 배럴 웨이브",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "스타일 목록 5번 L155",
+            "source_id": "lp-curtain"
+          },
+          "field": "세팅_준비",
+          "value": "볼륨 무스를 바른 뒤 대략 90%까지 드라이한다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-9eb96d64ed83",
+        "category": "hair",
+        "title": "남성 소프트 울프 커트",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "울프 커트 정의 L65",
+            "source_id": "dyson-wolf"
+          },
+          "field": "레이어_구조",
+          "value": "강한 층 구분을 특징으로 설명한다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-fae7b816d152",
+        "category": "hair",
+        "title": "여성 비대칭 보브",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "조언 2, L30",
+            "source_id": "lp-asymmetric"
+          },
+          "field": "좌우_길이",
+          "value": "한쪽이 반대쪽보다 길다."
+        }
+      },
+      {
+        "id": "CRAFT-hair-fcee59be5f4f",
+        "category": "hair",
+        "title": "여성 어깨 길이 로브",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "목록 4번 L64",
+            "source_id": "lp-wavy"
+          },
+          "field": "길이_기준",
+          "value": "쇄골에 스치는 길이의 긴 보브로 소개한다."
+        }
+      },
+      {
+        "id": "FS-0002",
+        "category": "hair",
+        "title": "롱 레이어드",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "목록 11번 L97",
+            "source_id": "lp-wavy"
+          },
+          "field": "길이_보존",
+          "value": "긴 길이를 유지하면서 층을 더하는 커트로 설명한다."
+        }
+      },
+      {
+        "id": "FS-0004",
+        "category": "hair",
+        "title": "하이 포니테일",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "스타일 목록 2번 L129–133",
+            "source_id": "lp-curtain"
+          },
+          "field": "결합_앞머리",
+          "value": "커튼뱅과 조합하는 스타일로 제시한다."
+        }
+      },
+      {
+        "id": "FS-0005",
+        "category": "hair",
+        "title": "픽시 커트",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "목록 4번 L33",
+            "source_id": "lp-fine"
+          },
+          "field": "기본_길이",
+          "value": "아주 짧은 커트로 설명한다."
+        }
+      },
+      {
+        "id": "FS-0006",
+        "category": "hair",
+        "title": "커튼뱅 미디엄",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "정의 문단 L35",
+            "source_id": "lp-curtain"
+          },
+          "field": "앞머리_형태",
+          "value": "긴 앞머리를 층지게 자른다."
+        }
+      },
+      {
+        "id": "FS-0009",
+        "category": "hair",
+        "title": "슬릭백",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "단계 2, L213–216",
+            "source_id": "ghd-slick"
+          },
+          "field": "가르마_예시",
+          "value": "이 튜토리얼은 중앙 가르마에서 시작한다."
+        }
+      },
+      {
+        "id": "FS-0011",
+        "category": "hair",
+        "title": "버즈 커트",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "정의 절 L27",
+            "source_id": "lp-buzz"
+          },
+          "field": "길이_범위",
+          "value": "1/8–1/2인치 정도를 남기는 짧은 커트로 설명한다."
+        }
+      },
+      {
+        "id": "FS-0014",
+        "category": "hair",
+        "title": "젖은 헤어 질감",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://us.davines.com/blogs/news/how-to-get-the-wet-hair-look",
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "방법 단계 1, L117–118",
+            "source_id": "lp-wet"
+          },
+          "field": "시작_수분",
+          "value": "물이 떨어지지 않는 축축한 상태에서 시작하도록 권한다."
+        }
+      },
+      {
+        "id": "web-hair-68d919205a8f0c5b8449114f",
+        "category": "hair",
+        "title": "위스피 앞머리",
+        "status": "external",
+        "source_id": "web-source-7f45f78c86e6d54861a66012",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "목록 6번 L74",
+            "source_id": "lp-wavy"
+          },
+          "field": "앞머리_밀도",
+          "value": "길고 가벼운 앞머리로 설명한다."
+        }
+      },
+      {
+        "id": "web-hair-df04af7fd49cc3139c8d4d20",
+        "category": "hair",
+        "title": "블런트 앞머리",
+        "status": "external",
+        "source_id": "web-source-f6920a6f628a8bfad4a3c163",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "목록 2번 L27",
+            "source_id": "lp-fine"
+          },
+          "field": "도달_높이",
+          "value": "눈썹에 닿는 앞머리 길이를 제시한다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-144e623f091c",
+        "category": "makeup",
+        "title": "클리어 립밤",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.glossier.com/en-au/products/balm-dotcom?variant=46731566088437"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Original 선택 설명: js-product-form-variant-title",
+            "source_id": "makeup-glossier-balm"
+          },
+          "field": "색·향",
+          "value": "Glossier는 Balm Dotcom Original을 무향·무색으로 표시한다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-1f808c195aa3",
+        "category": "makeup",
+        "title": "블러 처리한 틴트 립",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.maccosmetics.ca/powder-kiss-lipstick"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "ARTIST TIPS FROM BACKSTAGE, The Ombré Effect",
+            "source_id": "makeup-mac-blurlip"
+          },
+          "field": "색 배치",
+          "value": "옴브레 팁은 입술 가장자리에 밝은 색, 중앙에 더 짙은 색을 배치한다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-263c281ae2c9",
+        "category": "makeup",
+        "title": "남성 자연스러운 스터블",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://gillette.com/en-us/shaving-tips/facial-hair-styles/how-to-shave-3-day-stubble-beard"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "TL;DR / Quick Answer, Trim to 1–3 mm evenly 항목",
+            "source_id": "makeup-gillette-stubble"
+          },
+          "field": "권장 길이",
+          "value": "제조사는 스터블을 고르게 1–3 mm로 다듬는 범위를 제시한다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-2a95075e4ba3",
+        "category": "makeup",
+        "title": "프렌치 네일",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.opi.com/blog/nail-trends/the-easiest-diy-french-tip-manicure"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Step 3: Color",
+            "source_id": "makeup-opi-french"
+          },
+          "field": "바탕색·도포",
+          "value": "중성 분홍 계열인 Made Ya Blush 같은 색을 얇게 한 겹 바르는 예시를 제시한다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-2dc747ea56a9",
+        "category": "makeup",
+        "title": "소프트 윙 아이라인",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.charlottetilbury.com/ca/secrets/how-to-apply-eyeliner-winged-liner"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "How to Apply Pencil Eyeliner for a Smokey Winged Eyeiner Look, Step 1",
+            "source_id": "makeup-ct-wing"
+          },
+          "field": "적용 부위",
+          "value": "펜슬을 위 속눈썹 선 가까이에 그어 피부 틈이 드러나지 않게 하는 방법을 제시한다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-33eae62caae4",
+        "category": "makeup",
+        "title": "단색 크림 섀도",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.maccosmetics.com/products/pro-longwear-paint-pot"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Summary",
+            "source_id": "makeup-mac-paintpot"
+          },
+          "field": "사용 형태",
+          "value": "Paint Pot은 단독 또는 다른 제품과 함께 쓸 수 있는 크림 섀도 겸 아이 프라이머로 설명된다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-41c83b63e6a1",
+        "category": "makeup",
+        "title": "남성 쇼트 박스 비어드",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://gillette.com/en-us/shaving-tips/facial-hair-styles/short-boxed-beard"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Introduction",
+            "source_id": "makeup-gillette-boxed"
+          },
+          "field": "외곽 형태",
+          "value": "선명한 볼·목 경계와 정돈된 사각 실루엣을 갖는 스타일로 설명한다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-5b543f32849d",
+        "category": "makeup",
+        "title": "국소 컨실러 보정",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.bobbibrowncosmetics.com/product/14018/106004/makeup/face/corrector-concealer/skin-full-cover-concealer/fh22"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "What it is",
+            "source_id": "makeup-bobbi-concealer"
+          },
+          "field": "커버리지",
+          "value": "Skin Full Cover Concealer는 제조사 설명상 풀 커버리지 제품이다."
+        }
+      },
+      {
+        "id": "CRAFT-makeup-9e6745f7b961",
+        "category": "makeup",
+        "title": "분리된 내추럴 속눈썹",
+        "status": "guide",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.charlottetilbury.com/us/product/full-fat-lashes-glossy-black"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "How to apply, 항목 1 첫 문장",
+            "source_id": "makeup-ct-mascara"
+          },
+          "field": "적용 전 상태",
+          "value": "속눈썹을 컬링한 뒤 안쪽 눈구석에서 마스카라를 시작하도록 안내한다."
+        }
+      },
+      {
+        "id": "FS-0031",
+        "category": "makeup",
+        "title": "내추럴 윤광",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.maccosmetics.com/products/strobe-cream"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Summary",
+            "source_id": "makeup-mac-strobe"
+          },
+          "field": "제형",
+          "value": "M·A·C는 Strobe Cream을 보습제와 하이라이터를 겸하는 제품으로 설명한다."
+        }
+      },
+      {
+        "id": "FS-0032",
+        "category": "makeup",
+        "title": "소프트 매트",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.bobbibrowncosmetics.ca/product/14019/118723/makeup/face/powder/sheer-finish-pressed-powder"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "What it is; How it works",
+            "source_id": "makeup-bobbi-powder"
+          },
+          "field": "마감",
+          "value": "제조사는 Sheer Finish Pressed Powder를 피부를 매트하게 하고 소프트 포커스 표현을 주는 세팅 파우더로 설명한다."
+        }
+      },
+      {
+        "id": "FS-0034",
+        "category": "makeup",
+        "title": "클래식 레드 립",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.charlottetilbury.com/eu/secrets/how-to-apply-red-lipstick"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Step 1: Hydrate lips with lip oil",
+            "source_id": "makeup-ct-redlip"
+          },
+          "field": "적용 전 상태",
+          "value": "레드 립스틱 전에 립 오일로 입술을 준비하는 방법을 제시한다."
+        }
+      },
+      {
+        "id": "FS-0035",
+        "category": "makeup",
+        "title": "스모키 이브닝",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.charlottetilbury.com/us/secrets/apply-new-smokey-eye-beauty-palette"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Application Tips, Step 1",
+            "source_id": "makeup-ct-smoky"
+          },
+          "field": "바탕 적용",
+          "value": "Brighten 색을 블렌더 브러시로 눈꺼풀 전체에 얇게 펴는 단계로 시작한다."
+        }
+      },
+      {
+        "id": "FS-0038",
+        "category": "makeup",
+        "title": "내추럴 브로우",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.benefitcosmetics.com/en-us/product/precisely-my-brow-eyebrow-pencil-PRECI.html"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "FAQ: Can I use Precisely, My Brow Pencil for sparse or over-tweezed brows?",
+            "source_id": "makeup-benefit-brow"
+          },
+          "field": "적용 대상",
+          "value": "제조사는 가늘거나 빈 곳이 있는 눈썹을 털 모양 선으로 채우는 용도를 설명한다."
+        }
+      },
+      {
+        "id": "FS-0039",
+        "category": "makeup",
+        "title": "소프트 컨투어",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.charlottetilbury.com/us/secrets/how-to-blend-contour-makeup"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "How To Blend Contour on your Cheekbones, 첫 문장",
+            "source_id": "makeup-ct-contour"
+          },
+          "field": "적용 부위",
+          "value": "볼 컨투어를 광대 아래의 오목한 부위에 놓도록 안내한다."
+        }
+      },
+      {
+        "id": "FS-0162",
+        "category": "makeup",
+        "title": "정돈된 콧수염",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shape-your-mustache"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Step 1: Trim your mustache",
+            "source_id": "makeup-gillette-mustache"
+          },
+          "field": "시작 길이",
+          "value": "가장 긴 빗 부착물로 시작해 콧수염의 부피를 줄이도록 안내한다."
+        }
+      },
+      {
+        "id": "FS-0163",
+        "category": "makeup",
+        "title": "풀비어드",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://gillette.com/en-us/shaving-tips/how-to-shave/trim-your-beard-at-home"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Step 2: Take down the length of your beard",
+            "source_id": "makeup-gillette-fullbeard"
+          },
+          "field": "길이 조정",
+          "value": "처음에는 예상보다 긴 빗 부착물로 시작하고 다음 패스에서 더 짧은 것으로 바꾸며 목표 길이에 맞추도록 안내한다."
+        }
+      },
+      {
+        "id": "FS-0164",
+        "category": "makeup",
+        "title": "면도한 얼굴",
+        "status": "text",
+        "source_id": "studio",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://gillette.com/en-us/shaving-tips/how-to-shave/how-to-shave-your-face"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "Step 1: Hydrate your face",
+            "source_id": "makeup-gillette-shave"
+          },
+          "field": "면도 전 상태",
+          "value": "털이 부드러워진 샤워 직후나 샤워 중 면도를 권한다."
+        }
+      },
+      {
+        "id": "web-makeup-7ebfc9110e807662eaed1177",
+        "category": "makeup",
+        "title": "웜톤 브론저",
+        "status": "external",
+        "source_id": "web-source-b811d8556eda9f20c6b5a2c8",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.charlottetilbury.com/us/secrets/how-to-bronze-sculpt-glow"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "How To Bronze and Sculpt, Bronzer 문단",
+            "source_id": "makeup-ct-bronze-glow"
+          },
+          "field": "색 선택",
+          "value": "피부보다 약간 짙은 웜톤 색을 브론저로 선택하도록 안내한다."
+        }
+      },
+      {
+        "id": "web-makeup-f9a56bc3899a404b6248a36b",
+        "category": "makeup",
+        "title": "광대 국소 하이라이트",
+        "status": "external",
+        "source_id": "web-source-b811d8556eda9f20c6b5a2c8",
+        "assets": 0,
+        "reviewed": 1,
+        "source_urls": [
+          "https://www.charlottetilbury.com/us/secrets/how-to-bronze-sculpt-glow"
+        ],
+        "sample_fact": {
+          "evidence": {
+            "kind": "source_claim",
+            "locator": "3. Highlighter + Blush, dot precisely onto the cheekbones 절",
+            "source_id": "makeup-ct-bronze-glow"
+          },
+          "field": "적용 부위",
+          "value": "쿠션 어플리케이터로 광대에 정확히 점을 찍는 방법을 제시한다."
+        }
+      }
+    ]
+  },
+  "visual_evidence": {
+    "method": "Actual production preview rendered with a fresh credential-free Bun.WebView browser; screenshots viewed inline without acquiring source media",
+    "viewports": [
+      1440,
+      390
+    ],
+    "surfaces": [
+      "enriched hair detail FS-0006 desktop",
+      "new makeup reference web-makeup-7ebfc9110e807662eaed1177 mobile",
+      "source-filtered hair catalog (3 rows, 35 source options) desktop",
+      "31 metadata-only publisher source panels desktop",
+      "coverage import cards desktop and mobile",
+      "new hair reference web-hair-df04af7fd49cc3139c8d4d20 mobile under dark preference"
+    ],
+    "horizontal_overflow": false,
+    "source_links_readable": true,
+    "explicit_no_acquired_media_labels": true,
+    "third_party_image_candidates_loaded": false,
+    "design": "Existing styling preserved; dark preference retains the existing fixed light design"
+  },
+  "cleanup": {
+    "owned_preview_stopped": true,
+    "owned_browser_closed": true,
+    "other_processes_stopped": false
+  },
+  "limits": {
+    "partial": true,
+    "hair_rejected_concepts": [
+      "butterfly-cut",
+      "bixie-cut"
+    ],
+    "reason": "Cited Redken paragraphs not independently readable; rejected records and their unused source were not applied.",
+    "rights": "All accepted sources retain unknown media rights; public text access does not establish redistribution rights.",
+    "remote_deployment": false,
+    "remote_db_writes": false,
+    "paid_services": false,
+    "media_transfers": false
+  },
+  "forward_integration_follow_up": {
+    "verified_at": "2026-10-29T21:21:36.399Z",
+    "change": "test_no_fake_media derives expected text count from apply_web(self.base,self.approved), retaining exact 214-text original baseline and 68-diagram checks; seed equality and original identity/status/authorship protections are unchanged.",
+    "baseline_clarification": "Reconstructing the original inputs yields 214 text entries. The four new pilot rows use external status, not text.",
+    "command": "pnpm test:data",
+    "exit_code": 0,
+    "output": "status: completed exit_code: 0\n$ node --test tests/gallery_sync.test.mjs tests/drive_media.test.mjs && python3 tests/database_integrity.py && python3 tests/drive_pack_test.py && python3 tests/web_pack_test.py\n✔ serves a manifest image from Drive without forwarding cookies (5.126141ms)\n✔ does not fetch unknown or malformed asset IDs (0.628153ms)\n✔ does not serve a Drive sign-in HTML response as an image (0.797588ms)\n✔ reports Drive rate limiting without an original-host fallback (0.610762ms)\n✔ returns a conditional cache response without fetching Drive (0.618165ms)\n✔ returns an explicit gateway error on a connection failure (0.55ms)\n✔ forwards HEAD and returns image headers without a response body (0.562572ms)\n✔ extracts JSON without executing source JavaScript (2.238833ms)\n✔ preserves all source fields and all three costume representations (0.520317ms)\n✔ rejects missing fields and cross-origin resource URLs (0.351162ms)\n✔ archives duplicate resource URLs only once outside public assets (0.66426ms)\n✔ rejects archive paths outside known image directories (0.34334ms)\n✔ detects image signatures and rejects HTML error bodies (0.311353ms)\nℹ tests 13\nℹ suites 0\nℹ pass 13\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 128.380244\n................\n----------------------------------------------------------------------\nRan 16 tests in 2.051s\n\nOK\n{\"categories\": 29, \"sources\": 3, \"entries\": 2485, \"variants\": 2914, \"media_assets\": 2914, \"tags\": 3171, \"entry_tags\": 36502, \"prompt_templates\": 2485, \"entry_relations\": 832, \"skill_mappings\": 29, \"import_batches\": 2}\ndistinct source references: 2846\n.....\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK\ntest_count_when_more_than_twenty_is_rejected (__main__.BatchValidation.test_count_when_more_than_twenty_is_rejected) ... ok\ntest_duplicates_when_normalized_or_attributed_are_rejected (__main__.BatchValidation.test_duplicates_when_normalized_or_attributed_are_rejected) ... ok\ntest_json_when_duplicate_properties_or_nonfinite_is_rejected (__main__.BatchValidation.test_json_when_duplicate_properties_or_nonfinite_is_rejected) ... ok\ntest_malformed_evidence_when_required_information_missing_is_rejected (__main__.BatchValidation.test_malformed_evidence_when_required_information_missing_is_rejected) ... ok\ntest_media_counter_when_injected_is_rejected (__main__.BatchValidation.test_media_counter_when_injected_is_rejected) ... ok\ntest_observation_measurement_and_proposal_when_explicit_are_distinct (__main__.BatchValidation.test_observation_measurement_and_proposal_when_explicit_are_distinct) ... ok\ntest_partial_batch_when_supported_is_valid (__main__.BatchValidation.test_partial_batch_when_supported_is_valid) ... ok\ntest_rights_when_claimed_without_evidence_is_rejected (__main__.BatchValidation.test_rights_when_claimed_without_evidence_is_rejected) ... ok\ntest_source_when_blocked_indexed_nonprimary_or_nocrawl_is_rejected (__main__.BatchValidation.test_source_when_blocked_indexed_nonprimary_or_nocrawl_is_rejected) ... ok\ntest_unknown_category_when_supplied_is_rejected (__main__.BatchValidation.test_unknown_category_when_supplied_is_rejected) ... ok\ntest_ambiguous_titles_when_present_fail_without_mutating_seed (__main__.MetadataMerge.test_ambiguous_titles_when_present_fail_without_mutating_seed) ... ok\ntest_distinct_batches_when_applied_sequentially_keep_import_attribution_stable (__main__.MetadataMerge.test_distinct_batches_when_applied_sequentially_keep_import_attribution_stable) ... ok\ntest_enrichment_when_explicit_preserves_identity_authorship_and_media (__main__.MetadataMerge.test_enrichment_when_explicit_preserves_identity_authorship_and_media) ... ok\ntest_existing_title_when_matching_is_enriched_without_new_identity (__main__.MetadataMerge.test_existing_title_when_matching_is_enriched_without_new_identity) ... ok\ntest_forged_approval_when_sha_invalid_is_revalidated (__main__.MetadataMerge.test_forged_approval_when_sha_invalid_is_revalidated) ... ok\ntest_invalid_target_or_duplicate_category_when_merged_preserves_input (__main__.MetadataMerge.test_invalid_target_or_duplicate_category_when_merged_preserves_input) ... ok\ntest_merge_when_repeated_and_reordered_is_idempotent (__main__.MetadataMerge.test_merge_when_repeated_and_reordered_is_idempotent) ... ok\ntest_new_metadata_when_loaded_in_real_relational_schema_has_valid_foreign_keys (__main__.MetadataMerge.test_new_metadata_when_loaded_in_real_relational_schema_has_valid_foreign_keys) ... ok\ntest_new_reference_when_reviewed_has_no_media_or_generated_authorship (__main__.MetadataMerge.test_new_reference_when_reviewed_has_no_media_or_generated_authorship) ... ok\ntest_normalization_when_approvals_missing_never_writes_seed (__main__.MetadataMerge.test_normalization_when_approvals_missing_never_writes_seed) ... ok\ntest_real_seed_when_enriched_preserves_all_original_rows_and_drive_files (__main__.MetadataMerge.test_real_seed_when_enriched_preserves_all_original_rows_and_drive_files) ... ok\ntest_rejected_record_when_reviewed_never_merges (__main__.MetadataMerge.test_rejected_record_when_reviewed_never_merges) ... ok\ntest_candidate_when_separate_source_unchecked_is_rejected (__main__.ReviewValidation.test_candidate_when_separate_source_unchecked_is_rejected) ... ok\ntest_empty_batch_when_shortfall_disclosed_is_valid (__main__.ReviewValidation.test_empty_batch_when_shortfall_disclosed_is_valid) ... ok\ntest_review_when_checks_or_independence_missing_is_rejected (__main__.ReviewValidation.test_review_when_checks_or_independence_missing_is_rejected) ... ok\ntest_review_when_staging_bytes_change_is_rejected (__main__.ReviewValidation.test_review_when_staging_bytes_change_is_rejected) ... ok\ntest_cli_when_category_unknown_or_input_missing_fails (__main__.StagingCLI.test_cli_when_category_unknown_or_input_missing_fails) ... ok\ntest_literal_validation_commands_when_invalid_fail (__main__.StagingCLI.test_literal_validation_commands_when_invalid_fail) ... ok\ntest_literal_validation_commands_when_valid_pass (__main__.StagingCLI.test_literal_validation_commands_when_valid_pass) ... ok\ntest_load_when_accepted_bytes_tampered_fails (__main__.StagingCLI.test_load_when_accepted_bytes_tampered_fails) ... ok\ntest_load_when_source_input_or_review_changes_fails (__main__.StagingCLI.test_load_when_source_input_or_review_changes_fails) ... ok\ntest_revision_when_empty_reviewed_category_added_is_unchanged (__main__.StagingCLI.test_revision_when_empty_reviewed_category_added_is_unchanged) ... ok\ntest_revision_when_only_review_or_rejected_content_changes_is_stable (__main__.StagingCLI.test_revision_when_only_review_or_rejected_content_changes_is_stable) ... ok\ntest_stage_all_when_all_categories_reviewed_passes (__main__.StagingCLI.test_stage_all_when_all_categories_reviewed_passes) ... ok\ntest_stage_all_when_category_missing_fails_before_any_write (__main__.StagingCLI.test_stage_all_when_category_missing_fails_before_any_write) ... ok\ntest_stage_categories_when_valid_is_deterministic_and_loadable (__main__.StagingCLI.test_stage_categories_when_valid_is_deterministic_and_loadable) ... ok\ntest_stage_when_category_selection_duplicate_is_rejected (__main__.StagingCLI.test_stage_when_category_selection_duplicate_is_rejected) ... ok\ntest_stage_when_second_review_invalid_does_not_partially_write (__main__.StagingCLI.test_stage_when_second_review_invalid_does_not_partially_write) ... ok\n\n----------------------------------------------------------------------\nRan 38 tests in 3.097s\n\nOK\n{\"categories\": 29, \"sources\": 3, \"entries\": 2485, \"variants\": 2914, \"media_assets\": 2914, \"tags\": 3171, \"entry_tags\": 36502, \"prompt_templates\": 2485, \"entry_relations\": 832, \"skill_mappings\": 29, \"import_batches\": 2}\ndistinct source references: 2846",
+    "tests_passed": 72,
+    "production_evidence": "The production code, dataset and revision are unchanged by this test-only correction. Existing successful typecheck/build, all 38 reviewed detail checks, all 31 real source filters, 120 exact facts and viewed desktop/mobile UI evidence in this record remain applicable."
+  },
+  "artifact_sha256": {
+    "scripts/data/web_pack.py": "14e4ff6c06c6479a99fe5a280059543fb0cefaeec7b2b669ea290205ecd641f1",
+    "scripts/data/normalize.py": "516a4ab6137c6ad4668a7aaa6d9536d726758ae259cff6bc93fc939ed553211f",
+    "lib/database.ts": "28ac96e18c1c76d1e5713405c4fa8901eab2ab31814dcfcc7c7abf50468fbfca",
+    "app/catalog.tsx": "1b92dbcabf2c0a727d0db6555f444789e970406771cef5c8bf2acaa4725d89e0",
+    "tests/web_pack_test.py": "08b2752f6dec780e8b203523095fdc3b8cd64639ef27770c9ed6b415356681f1",
+    "tests/database_integrity.py": "bbb73f90cf89b7b3663067937e563b2b1974c92b74697ce7936730f0806d2f22",
+    "package.json": "815c8c877bb93c3ea20815037b3bfe8fb33308ce2652ed74a2cf2fb807ccb5b4",
+    "docs/WEB_DB_INGEST_CONTRACT.md": "ba3014cb9da4a3bc8be3defb9a353e8c868410d28b35a286c977e55ce7f526e3",
+    "data/database-seed.json": "0fc1f6c4efeb3aae1318e850b7a2b2829bb3a3ef6e66c95f3a37ee7b94f5a5f5",
+    "data/web-research/revision.json": "e56427cada97bc171875e1952da1b20fceefa5bf51ffe9064d08cd0ecd678b8b",
+    "data/web-research/accepted/hair.json": "1e08b4a254f7095c6958fbcd8ddea896a02984b9cb793b491275ffe3a11ab0f4",
+    "data/web-research/accepted/makeup.json": "58027e7679d7b378de322ec51dafc85f0dfeb0098823b545ef3f6cc369649459"
+  }
+}

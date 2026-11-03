@@ -1,0 +1,26 @@
+{
+  "job_id": "hair-N06",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": ["exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png"],
+  "path": "public/generated/frame-assets/hair-N06.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png",
+  "sha256": "59929736148adba86e4f4c1250099c700a2a377e64394833f4b01375337bb439",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "worker",
+    "provisional_decision": "accept",
+    "observations": "Visible square scalp sections with separate root-to-end braids and individual black elastics; no scalp-length cornrow rails. Identity and neutral studio framing match references."
+  },
+  "requested_dimensions": {"width": 1024, "height": 1536, "format": "png"},
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E23.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-N06-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-N06; concept: 사각 섹션 박스 브레이드.\nClass: base; domain: hair; entry: GEN-asset-hair-N06.\nParent entry IDs: [\"CRAFT-hair-b81cfe2d0898\",\"CRAFT-hair-2c3c47d0ace7\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nInput images: Image 1: hair-E23, identity reference; Image 2: expression-E00, identity reference.\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Partition the scalp into a fixed regular square grid, six sections across the widest crown row. From each section hang one separate medium-width three-strand dark-brown braid to the shoulders; show scalp squares and all ends without adding scalp-length connected rows. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: elevated rear three-quarter square-parting and full-ends view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.\nChange only: Partition the scalp into a fixed regular square grid, six sections across the widest crown row. From each section hang one separate medium-width three-strand dark-brown braid to the shoulders; show scalp squares and all ends without adding scalp-length connected rows.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Individual root-to-end braids emerge from square sections; no cornrow rails.; Compare against the named basis; the new structural coverage must be visibly different.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}"
+}

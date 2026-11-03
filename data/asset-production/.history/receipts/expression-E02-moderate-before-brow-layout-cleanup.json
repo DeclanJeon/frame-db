@@ -1,0 +1,31 @@
+{
+  "job_id": "expression-E02-moderate",
+  "status": "rejected",
+  "generation_thread_id": "01a18db5-e84d-7861-b5fe-c246a758d4a3",
+  "source_directory": "/home/declan/.codex/generated_images/01a18db5-e84d-7861-b5fe-c246a758d4a3",
+  "before_source_files": [],
+  "prompt": "FRAME authored synthetic reference. Job: expression-E02-moderate; concept: 눈썹 바깥 상승 중.\nClass: base; domain: expression; entry: GEN-asset-expression-E02.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E02-subtle\"]\nReference roles: {\"expression-E02-subtle\":\"identity\"}\nObservable direction: Edit the actual E02-subtle input, not a newly invented or surprised face. Retouch ONLY the outermost thirds/tips of both eyebrows upward by a small additional amount, roughly one narrow brow-hair band (about four pixels in this 1024-wide image as an uncalibrated art target). Keep the smooth existing brow curvature, INNER brow heads, glabella, eyelids, mouth and all other pixels near their input positions. Do not lift the inner heads, sharpen either arch into a rooftop, widen eyes or create forehead surprise creases. The result is a restrained increment above the subtle outer-tail condition, not maximum amplitude.\nCamera / visible region: frontal controlled full face, head yaw pitch roll neutral. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Inner brow heads, eyelids, cheeks, lip corners and jaw remain at E00.; Keep E00 identity, skin marks, original eye and lip dimensions, hair, makeup and neutral head orientation.\nChange only: Raise the outer portions of both brows while keeping the inner brow heads near the E00 position.; Larger action amplitude than the same-action subtle image, on the same face.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Outer brow tails rise without turning the entire brow into a different shape.; Compare E00, subtle and moderate together; reject indistinguishable intensities and record unintended coupled actions.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E02-subtle.png"
+  ],
+  "reference_sha256": [
+    "a2480ac09e272c6bead34392b30839f6ecfbd189537e975cfdd19bb46fe08705"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18db5-e84d-7861-b5fe-c246a758d4a3/exec-9538321f-f4b7-43f4-80c5-5951b1f74bab.png",
+  "prompt_snapshot": "data/asset-production/.history/prompts/expression-E02-moderate-native.txt",
+  "sha256": "f719dd0e8168a095afdcf3b6ba0ab9172fd7efc52c65c52e70e434d0d2f10f5c",
+  "width": 1024,
+  "height": 1536,
+  "tool": "Codex built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "rejected",
+    "observations": "Inspected the actual 1024x1536 output against the sole E02-subtle input. Identity, mole, crop and background are consistent, but both inner brow heads rise conspicuously and the arches become more angular along with the outer tails. This violates the local edit boundary and unchanged inner-head requirement; no canonical PNG was copied."
+  }
+}

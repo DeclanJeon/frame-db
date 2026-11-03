@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "category_id": "costume",
+  "input_sha256": "0c19cdb6d5fc8e8d8ad0ae60e20de07d05377b81cc7536c17f5c01285bcdc315",
+  "reviewer": "omo-costume-independent-reviewer-20261030-st01a18adf",
+  "reviewed_at": "2026-10-30T03:38:07+00:00",
+  "accepted_concept_keys": [
+    "mens-navy-single-breasted-suit",
+    "mens-charcoal-double-breasted-suit",
+    "mens-tuxedo",
+    "three-piece-suit",
+    "autumn-trench",
+    "summer-linen",
+    "mens-overshirt-layer",
+    "mens-winter-peacoat",
+    "mens-summer-polo-outfit",
+    "womens-denim-jumpsuit",
+    "italian-round-gown-1795",
+    "running-training-outfit",
+    "silk-jersey-wrap-dress",
+    "miyake-pleated-dress-trouser-ensemble-1995"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "mw-suit-types",
+      "url": "https://www.menswearhouse.com/blog/all-about-mens-suits/types-of-suits/",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Single-Breasted Suit; Double-Breasted Suit; Tuxedo; Three-Piece Suit, L43–64",
+      "rights_checked": true,
+      "notes": "브랜드가 발행한 네 절의 앞여밈·구성·코디 설명을 직접 비교했다. 단추 구조 둘과 턱시도·스리피스는 구별되는 개념이다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "burberry-trench",
+      "url": "https://int.burberry.com/c/burberry-world/heritage/trench-coat/",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "The Trench Coat L336; Heritage Trench Coats paragraph L339",
+      "rights_checked": true,
+      "notes": "개버딘·벨트·견장·체크 안감·Waterloo 설명을 확인했다. 브랜드 사례이며 기존 베이지·데님·로퍼 조합의 검증은 아니다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "cos-linen",
+      "url": "https://www.cos.com/en-us/features/styling/how-to-style-linen",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Summer linen outfits L58–64; How to style a linen shirt L100–103; The best colours to wear with linen L126–128",
+      "rights_checked": true,
+      "notes": "실루엣·탱크톱 레이어·중성색·자연 구김의 네 주장을 확인했다. 착용·비침·혼용률 실험은 없다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "ct-overshirt",
+      "url": "https://www.charlestyrwhitt.com/us/how-to-style-an-overshirt.html",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "What is an overshirt? L290–309; Overshirt with t-shirt & 5 pocket pants L338–347; byline L282–284",
+      "rights_checked": true,
+      "notes": "본문과 Charles Tyrwhitt 명의·2026-07-27 날짜를 확인했다. JS 경고 외에 실질적인 기사 본문이 읽혔다. 체크 무늬나 기존 데님의 실제 검수가 아니다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "schott-740",
+      "url": "https://www.schottnyc.com/products/740-the-original-navy-pea-coat",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Overview product list L295–301 and Style 740 manufacturer paragraph L303",
+      "rights_checked": true,
+      "notes": "제조사 목록과 바로 다음 혼용률 문장을 직접 확인했다. 아래 고객 리뷰의 사양·경험은 근거에서 제외했다. 기존 가이드 의복이 740임을 주장하지 않는다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "lacoste-polo",
+      "url": "https://www.lacoste.com/us/how-to-wear-a-polo-shirt-with-style.html",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Choosing the right fit for your outfit L15–20; Styling a polo shirt for casual and more refined occasions L21–24",
+      "rights_checked": true,
+      "notes": "핏 대비·테일러드 치노/가죽 구두·밝은 여름 톤의 브랜드 조언을 확인했다. 페이지의 피케 설명을 기존 니트 폴로 소재에 전이하지 않았다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "levis-jumpsuit",
+      "url": "https://levis.com.au/collections/women-jumpsuits-and-overalls",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Playing with Layers — How to Style a Denim Jumpsuit, current L475–484; How do you wear a denim jumpsuit with a jacket?, current L502–506",
+      "rights_checked": true,
+      "notes": "목록의 안쪽 티셔츠·대조 톤 데님과 FAQ의 긴 A라인 코트/트렌치를 읽었다. 재조회에서 줄 번호가 L484–510에서 L480–506으로 이동했지만 절과 문장은 유지된다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "met-round-gown",
+      "url": "https://www.metmuseum.org/art/collection/search/81127",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Round gown commentary L29; Public Domain label L32; Artwork Details L52–57",
+      "rights_checked": true,
+      "notes": "해설과 ca.1795·Italian·silk/linen·1979.20a–e, g를 읽었다. Public Domain 표시는 확인했지만 개별 이미지 표시를 해설문 전체에 확장하지 않는다. 혼합 범위 source의 unknown은 보수적으로 유지한다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "rei-running",
+      "url": "https://www.rei.com/learn/expert-advice/running-clothing.html",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Warm-weather running clothes L35; Running Clothing Features L44–50; byline L26",
+      "rights_checked": true,
+      "notes": "더운 날 의복 조합·흡습 정의·속건 소재 예를 읽었다. David Gleisner 및 2025-11-13 갱신 표기를 확인했다. 영상 재생·성능 실험은 하지 않았다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "dvf-jeanne",
+      "url": "https://www.dvf.com/products/new-jeanne-wrap-dress-in-quatrefoil-black",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Jeanne Silk Jersey Wrap Dress, Quatrefoil Black introduction L230–238; Description L318–326; Fabric & Care L331–333",
+      "rights_checked": true,
+      "notes": "제품의 실제 소개·Description·Fabric & Care를 읽었다. 랩/벨트·실크 100%·칼라/소매·무릎 위 길이/흑백 배색이 모두 있다. 사이즈표나 다른 제품으로 보충하지 않았다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    },
+    {
+      "source_id": "met-miyake-ensemble",
+      "url": "https://www.metmuseum.org/art/collection/search/649884",
+      "checked_at": "2026-10-30T03:38:07+00:00",
+      "access": "public_body",
+      "locator": "Ensemble commentary L29–30; image restriction L33; Artwork Details L49–55",
+      "rights_checked": true,
+      "notes": "Issey Miyake·1995·2014.226a, b 및 해설·폴리에스터 필드를 읽었다. 이미지를 확대·전체화면·다운로드할 수 없다는 명시가 있다. 이를 무제한 공개 이미지로 취급하지 않고 unknown 및 무취득을 유지한다. 권리 검토는 해당 본문의 표시와 수집된 unknown 범위를 대조한 것이다. 원문 전체·사진 재배포, 상업 이용·초상/디자인 권리의 허락은 확보하지 않았다. 공개 열람을 라이선스로 추정하지 않으며 미디어 취득·시각 검수는 0건이다."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "mens-navy-single-breasted-suit",
+      "field": "단추_배열",
+      "source_id": "mw-suit-types",
+      "locator": "Single-Breasted Suit, L45 첫 문장",
+      "verdict": "supported",
+      "notes": "Single-Breasted Suit의 한 줄 단추 설명과 일치한다. 기존 네이비 색의 검증으로 확대하지 않는다."
+    },
+    {
+      "concept_key": "mens-navy-single-breasted-suit",
+      "field": "앞판_겹침",
+      "source_id": "mw-suit-types",
+      "locator": "Single-Breasted Suit, L45 첫 문장",
+      "verdict": "supported",
+      "notes": "같은 첫 문장의 좁은 앞판 겹침과 일치한다. 치수 측정이 아니다."
+    },
+    {
+      "concept_key": "mens-navy-single-breasted-suit",
+      "field": "투버튼_위치",
+      "source_id": "mw-suit-types",
+      "locator": "Single-Breasted Suit, L45 두 번째 문장",
+      "verdict": "supported",
+      "notes": "두 번째 문장의 1·2·3개 단추 및 현대 투버튼 표준이라는 판매사 주장과 일치한다."
+    },
+    {
+      "concept_key": "mens-charcoal-double-breasted-suit",
+      "field": "앞판_너비",
+      "source_id": "mw-suit-types",
+      "locator": "Double-Breasted Suit, L51 첫 문장",
+      "verdict": "supported",
+      "notes": "Double-Breasted Suit 첫 문장의 넓게 겹친 앞판과 일치한다."
+    },
+    {
+      "concept_key": "mens-charcoal-double-breasted-suit",
+      "field": "단추_배열",
+      "source_id": "mw-suit-types",
+      "locator": "Double-Breasted Suit, L51 첫 문장",
+      "verdict": "supported",
+      "notes": "같은 문장의 평행한 두 단추 줄과 일치한다."
+    },
+    {
+      "concept_key": "mens-charcoal-double-breasted-suit",
+      "field": "여밈_방향",
+      "source_id": "mw-suit-types",
+      "locator": "Double-Breasted Suit, L51 두 번째 문장",
+      "verdict": "supported",
+      "notes": "두 번째 문장의 왼쪽 앞판이 몸통을 가로질러 오른쪽에서 잠긴다는 설명과 일치한다."
+    },
+    {
+      "concept_key": "mens-tuxedo",
+      "field": "새틴_배치",
+      "source_id": "mw-suit-types",
+      "locator": "Tuxedo, L58 첫 문장",
+      "verdict": "supported",
+      "notes": "Tuxedo 첫 문장은 라펠·단추·바지 외측 솔기 줄의 새틴을 모두 명시한다."
+    },
+    {
+      "concept_key": "mens-tuxedo",
+      "field": "허리_조합",
+      "source_id": "mw-suit-types",
+      "locator": "Tuxedo, L58 두 번째 문장",
+      "verdict": "supported",
+      "notes": "두 번째 문장은 서스펜더와 커머번드 또는 베스트를 벨트 대신 쓰는 조합을 명시한다."
+    },
+    {
+      "concept_key": "mens-tuxedo",
+      "field": "셔츠_타이_신발",
+      "source_id": "mw-suit-types",
+      "locator": "Tuxedo, Styling tip, L61",
+      "verdict": "supported",
+      "notes": "Styling tip은 흰 셔츠·검은 실크 보타이·페이턴트 구두를 권한다. 출처의 조언이지 검수자의 창작 제안이나 보장 효과가 아니다."
+    },
+    {
+      "concept_key": "three-piece-suit",
+      "field": "의복_구성",
+      "source_id": "mw-suit-types",
+      "locator": "Three-Piece Suit, L64 첫 문장",
+      "verdict": "supported",
+      "notes": "Three-Piece Suit는 재킷·바지·웨이스트코트를 세 구성품으로 열거한다. 단추 배열 개념과 구별된다."
+    },
+    {
+      "concept_key": "three-piece-suit",
+      "field": "원단_통일",
+      "source_id": "mw-suit-types",
+      "locator": "Three-Piece Suit, L64 첫 문장",
+      "verdict": "supported",
+      "notes": "첫 문장은 세 구성품의 원단이 같음을 명시한다."
+    },
+    {
+      "concept_key": "three-piece-suit",
+      "field": "베스트_겹침",
+      "source_id": "mw-suit-types",
+      "locator": "Three-Piece Suit, L64 두 번째 문장",
+      "verdict": "supported",
+      "notes": "두 번째 문장은 재킷 안의 베스트가 바지 허리밴드를 덮는다고 명시한다."
+    },
+    {
+      "concept_key": "autumn-trench",
+      "field": "원단_사례",
+      "source_id": "burberry-trench",
+      "locator": "The Trench Coat, L336",
+      "verdict": "supported",
+      "notes": "The Trench Coat의 개버딘 설명과 일치한다. Burberry 사례에 한정한다."
+    },
+    {
+      "concept_key": "autumn-trench",
+      "field": "외부_디테일",
+      "source_id": "burberry-trench",
+      "locator": "Heritage Trench Coats 문단, L339",
+      "verdict": "supported",
+      "notes": "Heritage Trench Coats 문단이 벨트와 견장을 직접 열거한다."
+    },
+    {
+      "concept_key": "autumn-trench",
+      "field": "안감_무늬",
+      "source_id": "burberry-trench",
+      "locator": "Heritage Trench Coats 문단, L339",
+      "verdict": "supported",
+      "notes": "같은 문단의 Burberry Check lining과 일치한다."
+    },
+    {
+      "concept_key": "autumn-trench",
+      "field": "핏_변형",
+      "source_id": "burberry-trench",
+      "locator": "Heritage Trench Coats 문단 마지막 문장, L339",
+      "verdict": "supported",
+      "notes": "같은 문단은 Waterloo를 relaxed로 소개한다. 독립적인 실물 핏 관찰이 아니다."
+    },
+    {
+      "concept_key": "summer-linen",
+      "field": "여름_실루엣",
+      "source_id": "cos-linen",
+      "locator": "Summer linen outfits, L60",
+      "verdict": "supported",
+      "notes": "Summer linen outfits는 오버사이즈 셔츠와 와이드 팬츠를 여유로운 실루엣의 예로 든다."
+    },
+    {
+      "concept_key": "summer-linen",
+      "field": "셔츠_레이어링",
+      "source_id": "cos-linen",
+      "locator": "How to style a linen shirt, L102 첫 문장",
+      "verdict": "supported",
+      "notes": "How to style a linen shirt 첫 문장은 탱크톱 위에 셔츠를 열어 입도록 권한다."
+    },
+    {
+      "concept_key": "summer-linen",
+      "field": "톤온톤_배색",
+      "source_id": "cos-linen",
+      "locator": "The best colours to wear with linen, L128",
+      "verdict": "supported",
+      "notes": "The best colours to wear with linen은 기록된 여섯 중성색과 tonal look을 명시한다."
+    },
+    {
+      "concept_key": "summer-linen",
+      "field": "구김_표현",
+      "source_id": "cos-linen",
+      "locator": "Summer linen outfits, L64",
+      "verdict": "supported",
+      "notes": "Summer linen outfits는 자연 구김이 편안한 인상을 더한다고 설명한다. 성능 측정이 아닌 COS의 표현이다."
+    },
+    {
+      "concept_key": "mens-overshirt-layer",
+      "field": "실루엣_여유",
+      "source_id": "ct-overshirt",
+      "locator": "What is an overshirt?, L292",
+      "verdict": "supported",
+      "notes": "What is an overshirt?는 더 곧은 커트와 레이어링 여유를 명시한다."
+    },
+    {
+      "concept_key": "mens-overshirt-layer",
+      "field": "아이템_조합",
+      "source_id": "ct-overshirt",
+      "locator": "Overshirt with t-shirt & 5 pocket pants, L340",
+      "verdict": "supported",
+      "notes": "Overshirt with t-shirt & 5 pocket pants 첫 문장에 열린 오버셔츠·무지 티셔츠·파이브포켓 팬츠가 모두 있다."
+    },
+    {
+      "concept_key": "mens-overshirt-layer",
+      "field": "티셔츠_색",
+      "source_id": "ct-overshirt",
+      "locator": "Overshirt with t-shirt & 5 pocket pants, L342",
+      "verdict": "supported",
+      "notes": "같은 절의 다음 문장은 흰색·회색·네이비·에크루를 열거한다."
+    },
+    {
+      "concept_key": "mens-overshirt-layer",
+      "field": "밑단_비례",
+      "source_id": "ct-overshirt",
+      "locator": "같은 절 tip, L347",
+      "verdict": "supported",
+      "notes": "같은 절 tip은 티셔츠가 눈에 띄게 아래로 나오면 오버셔츠를 길게 또는 티셔츠를 짧게 고르라고 한다."
+    },
+    {
+      "concept_key": "mens-winter-peacoat",
+      "field": "모델_소재_사례",
+      "source_id": "schott-740",
+      "locator": "Overview 목록 다음 Style 740 is an 80/20 wool/nylon blend 문장",
+      "verdict": "supported",
+      "notes": "Overview 바로 뒤의 제조사 문장은 Style 740의 울/나일론 80/20을 명시한다. 고객 후기에서 가져온 수치가 아니며 모든 피코트의 사양으로 확대하지 않는다."
+    },
+    {
+      "concept_key": "mens-winter-peacoat",
+      "field": "안감_사례",
+      "source_id": "schott-740",
+      "locator": "Overview 목록 Nylon Quilted Lining",
+      "verdict": "supported",
+      "notes": "Overview의 나일론 퀼팅 안감 항목과 일치한다."
+    },
+    {
+      "concept_key": "mens-winter-peacoat",
+      "field": "포켓_사례",
+      "source_id": "schott-740",
+      "locator": "Overview 목록 Hand Warmer Pockets 및 Two Inside Chest Pockets",
+      "verdict": "supported",
+      "notes": "Overview에서 보온 포켓과 내부 가슴 포켓 두 개를 각각 확인했다."
+    },
+    {
+      "concept_key": "mens-winter-peacoat",
+      "field": "등판_사례",
+      "source_id": "schott-740",
+      "locator": "Overview 목록 Vented Back",
+      "verdict": "supported",
+      "notes": "Overview의 등판 트임 항목과 일치한다. 사진 관찰이 아닌 제조사 기재다."
+    },
+    {
+      "concept_key": "mens-summer-polo-outfit",
+      "field": "핏_대비",
+      "source_id": "lacoste-polo",
+      "locator": "Choosing the right fit for your outfit, L17",
+      "verdict": "supported",
+      "notes": "Choosing the right fit for your outfit의 가까운 핏/여유로운 커트 대비와 일치한다. 인상은 브랜드 설명에 한정한다."
+    },
+    {
+      "concept_key": "mens-summer-polo-outfit",
+      "field": "포멀_조합",
+      "source_id": "lacoste-polo",
+      "locator": "Styling a polo shirt for casual and more refined occasions, L23",
+      "verdict": "supported",
+      "notes": "Styling a polo shirt for casual and more refined occasions는 테일러드 치노와 가죽 구두를 권한다."
+    },
+    {
+      "concept_key": "mens-summer-polo-outfit",
+      "field": "여름_색_조언",
+      "source_id": "lacoste-polo",
+      "locator": "Styling a polo shirt for casual and more refined occasions, L23",
+      "verdict": "supported",
+      "notes": "같은 문단이 밝은 톤과 여름 실루엣을 연결한다. 기존 니트 폴로 소재를 피케라고 입증하지 않는다."
+    },
+    {
+      "concept_key": "womens-denim-jumpsuit",
+      "field": "안쪽_레이어",
+      "source_id": "levis-jumpsuit",
+      "locator": "Playing with Layers, 첫 번째 목록 항목 L484",
+      "verdict": "supported",
+      "notes": "Playing with Layers 첫 목록은 점프수트 안의 반소매·긴소매 티셔츠를 명시한다."
+    },
+    {
+      "concept_key": "womens-denim-jumpsuit",
+      "field": "데님_배색",
+      "source_id": "levis-jumpsuit",
+      "locator": "Playing with Layers, 두 번째 목록 항목 L485",
+      "verdict": "supported",
+      "notes": "두 번째 목록은 다른 톤의 데님 재킷 또는 셔츠를 위에 겹치도록 권한다."
+    },
+    {
+      "concept_key": "womens-denim-jumpsuit",
+      "field": "코트_실루엣",
+      "source_id": "levis-jumpsuit",
+      "locator": "How do you wear a denim jumpsuit with a jacket?, L510",
+      "verdict": "supported",
+      "notes": "How do you wear a denim jumpsuit with a jacket? 답변은 맞는 핏의 점프수트 위 긴 A라인 코트·트렌치를 제시한다. 현재 추출 L506으로 이동했으나 인용한 절과 문장은 존재한다."
+    },
+    {
+      "concept_key": "italian-round-gown-1795",
+      "field": "허리_실루엣",
+      "source_id": "met-round-gown",
+      "locator": "소장품 해설 첫 문단 high-waisted dress 절, L29",
+      "verdict": "supported",
+      "notes": "소장품 해설 첫 문단의 높은 허리선 설명과 일치한다. 날짜 ca. 1795 및 Italian도 본문·Artwork Details에서 확인했다."
+    },
+    {
+      "concept_key": "italian-round-gown-1795",
+      "field": "앙상블_구성",
+      "source_id": "met-round-gown",
+      "locator": "소장품 해설 첫 문단 constitute a new anatomy 문장, L29",
+      "verdict": "supported",
+      "notes": "같은 문단은 드레스·스펜서·코르셋·분리 소매를 열거한다."
+    },
+    {
+      "concept_key": "italian-round-gown-1795",
+      "field": "기록_소재",
+      "source_id": "met-round-gown",
+      "locator": "Artwork Details, Medium, L55",
+      "verdict": "supported",
+      "notes": "Artwork Details의 Medium은 실크·리넨이다. 어느 부위에 쓰였는지는 추정하지 않는다."
+    },
+    {
+      "concept_key": "running-training-outfit",
+      "field": "더운날_조합",
+      "source_id": "rei-running",
+      "locator": "Warm-weather running clothes, L35",
+      "verdict": "supported",
+      "notes": "Warm-weather running clothes는 쇼츠·상의 및/또는 스포츠 브라·양말로 충분할 수 있다고 설명한다."
+    },
+    {
+      "concept_key": "running-training-outfit",
+      "field": "흡습_설명",
+      "source_id": "rei-running",
+      "locator": "Running Clothing Features, Moisture wicking, L48",
+      "verdict": "supported",
+      "notes": "Running Clothing Features의 Moisture wicking은 피부에서 땀을 이동시키는 것으로 설명한다. 제품 성능의 독립 실험이 아니다."
+    },
+    {
+      "concept_key": "running-training-outfit",
+      "field": "속건_소재_예",
+      "source_id": "rei-running",
+      "locator": "Running Clothing Features, Quick drying, L50",
+      "verdict": "supported",
+      "notes": "Quick drying은 폴리에스터·나일론을 빠르게 마르는 소재의 예로 든다. 출처 주장으로만 채택한다."
+    },
+    {
+      "concept_key": "silk-jersey-wrap-dress",
+      "field": "여밈_구조",
+      "source_id": "dvf-jeanne",
+      "locator": "Description 목록 True wrap front 및 Self tie belt",
+      "verdict": "supported",
+      "notes": "해당 Quatrefoil Black 제품 Description에서 랩 앞여밈과 직접 묶는 벨트 두 항목을 확인했다."
+    },
+    {
+      "concept_key": "silk-jersey-wrap-dress",
+      "field": "소재_구성",
+      "source_id": "dvf-jeanne",
+      "locator": "Fabric & Care, Crafted from silk jersey 문장 및 100% Silk",
+      "verdict": "supported",
+      "notes": "Fabric & Care에서 실크 저지 설명과 실크 100%를 확인했다. 혼용률은 제조사 주장이지 검수자 측정이 아니다."
+    },
+    {
+      "concept_key": "silk-jersey-wrap-dress",
+      "field": "칼라_소매",
+      "source_id": "dvf-jeanne",
+      "locator": "Description 목록 Pointed collar 및 Long sleeves",
+      "verdict": "supported",
+      "notes": "Description의 뾰족한 칼라·긴소매 두 항목과 일치한다."
+    },
+    {
+      "concept_key": "silk-jersey-wrap-dress",
+      "field": "길이_배색",
+      "source_id": "dvf-jeanne",
+      "locator": "제품 소개 Made from silk jersey 문단 마지막 절",
+      "verdict": "supported",
+      "notes": "제품 소개 문단이 무릎 위 길이와 검정·흰색 Quatrefoil을 명시한다. 다른 색상·시즌이나 사진에서 추정한 내용이 아니다."
+    },
+    {
+      "concept_key": "miyake-pleated-dress-trouser-ensemble-1995",
+      "field": "아이템_실루엣",
+      "source_id": "met-miyake-ensemble",
+      "locator": "소장품 해설 두 번째 문단, L30",
+      "verdict": "supported",
+      "notes": "해설 두 번째 문단은 A라인 드레스·바지 앙상블을 명시한다. 1995·소장번호도 Artwork Details에서 확인했다."
+    },
+    {
+      "concept_key": "miyake-pleated-dress-trouser-ensemble-1995",
+      "field": "밑단_형상",
+      "source_id": "met-miyake-ensemble",
+      "locator": "소장품 해설 두 번째 문단 curved, pointed hem 절, L30",
+      "verdict": "supported",
+      "notes": "같은 문단은 앞뒤의 곡선형 뾰족한 밑단을 명시한다. 실제 사진 관찰값이 아니다."
+    },
+    {
+      "concept_key": "miyake-pleated-dress-trouser-ensemble-1995",
+      "field": "소재",
+      "source_id": "met-miyake-ensemble",
+      "locator": "Artwork Details, Medium, L53",
+      "verdict": "supported",
+      "notes": "Artwork Details의 Medium은 폴리에스터다."
+    },
+    {
+      "concept_key": "miyake-pleated-dress-trouser-ensemble-1995",
+      "field": "주름_공정",
+      "source_id": "met-miyake-ensemble",
+      "locator": "소장품 해설 첫 문단 garment pleating 정의, L29",
+      "verdict": "supported",
+      "notes": "해설 첫 문단은 직물이 아니라 의복에 주름을 넣는 공정으로 정의한다. 공정을 실행하거나 내구성을 시험한 것은 아니다."
+    }
+  ],
+  "accepted_count": 14,
+  "shortfall": 6,
+  "shortfall_reason": "목표 20개 중 실제 채택 14개, 거절 0개, 미수집 6개인 부분 충원이다. 11개 원출처 본문을 독립 재열람하고 48개 source_claim 필드를 대조했다. 10개는 기존 동일 제목·분류 ID가 각각 정확히 한 번 존재하는 보강, 4개는 별도 구성/특정 소장품·제품 개념이다. 1,447개 기존 의상 항목을 대상으로 제목·원제·설명 및 새 개념의 명칭·식별자를 대조했으며 새 4개에 같은 개념을 특정하는 항목은 찾지 못했다. 단일/더블 앞여밈과 스리피스 구성 축은 구별되며 색상·번역·URL만으로 개념을 늘리지 않았다. 기존 가이드의 색·소재·조합 전체를 외부 검증한 것으로 확대하지 않는다. 관찰·측정·미디어 후보·다운로드·업로드·DB 반영은 0건이다. 수집되지 않은 6개를 이번 검수에서 발명하거나 대체하지 않았고 목표 달성으로 보고하지 않는다."
+}

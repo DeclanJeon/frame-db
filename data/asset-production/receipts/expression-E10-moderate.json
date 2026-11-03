@@ -1,0 +1,45 @@
+{
+  "job_id": "expression-E10-moderate",
+  "status": "generated",
+  "generation_thread_id": "01a18d12-7ca7-7c90-8fe1-01cd0a78fb58",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d12-7ca7-7c90-8fe1-01cd0a78fb58",
+  "before_source_files": [
+    "exec-0975971f-1b22-4a4e-b181-06ece4546991.png",
+    "exec-1dfa70e2-2a80-4f2e-b246-6c5d9aae11d3.png",
+    "exec-2d24f934-ed40-4fcb-b59b-d75332af2632.png",
+    "exec-335bbef1-191f-489f-8962-63696d8a4d24.png",
+    "exec-343a5436-45ab-4d4e-94c8-ab526a38d114.png",
+    "exec-3fdc1ceb-c052-4e8b-9bb1-18af67ff15dc.png",
+    "exec-90ba380b-3fd7-4f9d-ab33-0638397e67f7.png",
+    "exec-b28b5aee-c779-4a7c-af62-9fa4223639b9.png",
+    "exec-b6e60f93-f8e2-4ca1-8997-cb04dbce221d.png",
+    "exec-beb0c48b-a382-4999-b2fb-41d05a656fb2.png",
+    "exec-c06aa3d2-746e-4abd-a27b-40d6a55fbc36.png",
+    "exec-c51a81e3-7863-4640-9886-4461e4fb8bf4.png",
+    "exec-c5f97f6f-08cb-4b8a-91f0-6f40125734bc.png",
+    "exec-d08d4e61-eb85-4f64-b0b6-9c67097e4973.png",
+    "exec-f21d630f-ebbb-48e1-96cc-c17b8018c343.png",
+    "exec-f698ae98-c530-402a-ac94-3b98062a0070.png"
+  ],
+  "prompt": "FRAME authored synthetic reference. Job: expression-E10-moderate; concept: 입술 압박 중.\nClass: base; domain: expression; entry: GEN-asset-expression-E10.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"expression-E10-subtle\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"expression-E10-subtle\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted expression-E00 face as the actual identity input. Press the upper and lower lips together, flattening the contact line without opening the mouth or changing underlying lip anatomy. Use a clearly larger but still moderate departure than the accepted subtle image of this same action; no extreme distortion. Keep both eyes aimed at the lens, the hair tied back and the full crown, ears, chin and shoulders visible. These are authored relative intensities, not certified FACS grades or internal-emotion labels. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal controlled full face, head yaw pitch roll neutral. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Brows, eyes, cheeks, lip-corner position and jaw height stay near E00.; Keep E00 identity, skin marks, original eye and lip dimensions, hair, makeup and neutral head orientation.\nChange only: Press the upper and lower lips together, flattening the contact line without opening the mouth or changing underlying lip anatomy.; Larger action amplitude than the same-action subtle image, on the same face.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Lip contact pressure is readable; no teeth or open gap.; Compare E00, subtle and moderate together; reject indistinguishable intensities and record unintended coupled actions.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nInput images: Image 1: same-look and same-action subtle geometry reference at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E10-subtle.png; Image 2: identity anchor, actual accepted identity A at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png. Preserve original lip anatomy and mouth closure; make the upper/lower lip compression stronger than the subtle reference.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E10-subtle.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "path": "public/generated/frame-assets/expression-E10-moderate.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d12-7ca7-7c90-8fe1-01cd0a78fb58/exec-60fdc695-5e90-43a0-8e5c-9a60de86a167.png",
+  "sha256": "502eba138f17c68b66cd94d057de93d637c1b2dd8ad83408085f8ebee867ea05",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated",
+    "observations": "Inspected the actual full-resolution 1024x1536 image. Upper and lower lips are pressed together with a visibly flatter contact line than E10-subtle; mouth remains closed and original anatomy is retained. Eyes, brows, identity, mole, hair, frontal crop and studio background remain consistent with E00."
+  }
+}

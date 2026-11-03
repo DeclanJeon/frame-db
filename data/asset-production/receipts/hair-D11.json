@@ -1,0 +1,41 @@
+{
+  "job_id": "hair-D11",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [
+    "exec-01895a84-b45a-4729-bb9b-f0a1b6a05973.png",
+    "exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+    "exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png",
+    "exec-56d0e7af-6ef9-4308-821b-8f1ef6acd076.png",
+    "exec-930dd740-f24a-4d0d-805f-b98a1b6d66a2.png",
+    "exec-939eff12-1913-4a9e-ab36-546ba0cbc307.png",
+    "exec-94588f8a-f4db-4a40-ae1f-d6663816a129.png",
+    "exec-99d3024b-a7d4-4c83-82e1-ebc7f7e0b325.png",
+    "exec-a646dd30-df27-4a2e-af5b-55cedcfcaf02.png",
+    "exec-bb1b24ea-e6e3-4d8f-a5b4-3fac01484557.png",
+    "exec-d5285726-62fb-4002-a8f8-dfaf89ea1568.png",
+    "exec-de6f8ae4-6ce3-4c69-984a-cf4bd5b4dd12.png",
+    "exec-e441ae64-8205-4bee-845d-aa0d987eb0f3.png",
+    "exec-fd42b12d-4e36-4078-8108-e24424404248.png"
+  ],
+  "path": "public/generated/frame-assets/hair-D11.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-b3012510-65f9-4fff-b864-53fc818738e8.png",
+  "sha256": "7e8f07832d799bcc7c58deb7f2e3bb3d8a70af6e7df50b7d0a312be2b77838da",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {"reviewer":"worker","provisional_decision":"accept","observations":"Hair-E12 supplied centerpart geometry and hair-E01 supplied B identity; hood rests behind the neck, all strands stay outside fabric, and one shoulder-length compression state is visible."},
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1536,
+    "width": 1024
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E12.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E01.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-D11-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-D11; concept: 후드 해제 직후 눌린 어깨 머리.\nClass: creative; domain: hair; entry: GEN-asset-hair-D11.\nParent entry IDs: [\"CRAFT-hair-e0695130136f\",\"CRAFT-hair-4c22870f9fb5\",\"CRAFT-hair-1011c8796893\"]\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E12\",\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity\",\"hair-E12\":\"geometry\"}\nInput images: Image 1: hair-E12, straight centerpart geometry only; Image 2: hair-E01, identity B anchor.\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Adapt the straight centerpart geometry of E12 to identity B and shoulder length. Show one released-hood compression still: hood rests behind the neck, with a shallow compressed band in the shoulder-length hair above it. Keep all strands outside fabric; no hood-on or recovery frame. Use the B face anchor for identity, not the A model in the geometric basis. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: rear three-quarter showing hood behind neck and entire hair ends. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Use hair-E12 only for straight centerpart geometry; identity, skin marks and head proportions come from hair-E01.\nChange only: Adapt the straight centerpart geometry of E12 to identity B and shoulder length. Show one released-hood compression still: hood rests behind the neck, with a shallow compressed band in the shoulder-length hair above it. Keep all strands outside fabric; no hood-on or recovery frame. Use the B face anchor for identity, not the A model in the geometric basis.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Hood down behind neck; hair outside fabric; compression visible in one state.; One diagnostic view only, not a sequence or collage.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}"
+}

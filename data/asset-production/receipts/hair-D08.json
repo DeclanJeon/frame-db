@@ -1,0 +1,38 @@
+{
+  "job_id": "hair-D08",
+  "status": "generated",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [
+    "exec-01895a84-b45a-4729-bb9b-f0a1b6a05973.png",
+    "exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+    "exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png",
+    "exec-56d0e7af-6ef9-4308-821b-8f1ef6acd076.png",
+    "exec-939eff12-1913-4a9e-ab36-546ba0cbc307.png",
+    "exec-94588f8a-f4db-4a40-ae1f-d6663816a129.png",
+    "exec-99d3024b-a7d4-4c83-82e1-ebc7f7e0b325.png",
+    "exec-bb1b24ea-e6e3-4d8f-a5b4-3fac01484557.png",
+    "exec-d5285726-62fb-4002-a8f8-dfaf89ea1568.png",
+    "exec-de6f8ae4-6ce3-4c69-984a-cf4bd5b4dd12.png",
+    "exec-e441ae64-8205-4bee-845d-aa0d987eb0f3.png"
+  ],
+  "path": "public/generated/frame-assets/hair-D08.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-930dd740-f24a-4d0d-805f-b98a1b6d66a2.png",
+  "sha256": "9ac49c01e685c591e3fab8341aad6addc4c6d1720e457626154bd331ebf430d6",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {"reviewer":"worker","provisional_decision":"accept","observations":"Rounded swept-back pompadour volume is larger than E03; subject-left part, side lengths and dry matte texture remain."},
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1536,
+    "width": 1024
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E03.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E01.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-D08-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-D08; concept: 소프트 매트 퐁파두르.\nClass: creative; domain: hair; entry: GEN-asset-hair-D08.\nParent entry IDs: [\"CRAFT-hair-da40e02a2fb4\",\"CRAFT-hair-394c6f009336\",\"CRAFT-hair-fbf36354c32d\"]\nOne fictional adult subject, identity B. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E03\",\"hair-E01\"]\nReference roles: {\"hair-E01\":\"identity B\",\"hair-E03\":\"hair geometry\"}\nInput images: Image 1: hair-E03, cut geometry; Image 2: hair-E01, identity B anchor.\nObservable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Using E03 cut geometry, increase the swept-back front envelope into a rounded soft pompadour with a dry matte finish; keep the subject-left part and side lengths. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter showing subject-left part and full front volume. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep parent hair geometry, color, hairline, density and length landmarks outside the declared delta.\nChange only: Using E03 cut geometry, increase the swept-back front envelope into a rounded soft pompadour with a dry matte finish; keep the subject-left part and side lengths.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Larger swept-back envelope than E03 without skull elongation or wet shine.; One diagnostic view only, not a sequence or collage.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}"
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "gesture-H03",
+  "status": "rejected",
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H03; concept: 열린 손 방향 지시.\nClass: base; domain: gesture; entry: CRAFT-gesture-f34847c81aae.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"makeup-N01\":\"hand anchor\",\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Extend the right hand with open palm upward and fingers aligned toward an empty target area on subject-left; show that target area in frame without adding arrows or text. Keep the wrist aligned with the forearm. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: Extend the right hand with open palm upward and fingers aligned toward an empty target area on subject-left; show that target area in frame without adding arrows or text. Keep the wrist aligned with the forearm.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Open palm and finger axis indicate the same visible empty area; no imposed politeness claim.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: hand anchor, actual accepted A right hand at public/generated/frame-assets/makeup-N01.png; preserve hand proportions, skin tone, visible mark and short natural nails. Image 2: identity anchor, accepted identity A photograph at public/generated/frame-assets/expression-E00.png; preserve A's face identity, skin undertone, cheek mole and hair.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1024,
+    "width": 1536
+  },
+  "path": "public/generated/frame-assets/gesture-H03.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-a029-7393-9952-bc860b013981/exec-9f6da89b-50c4-4b34-a63a-885fd10e7c3b.png",
+  "sha256": "a03ca16aa8fb28177b258d0298907ef9460f6d87c0626cb03e7524c7782de158",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; parent review required",
+    "observations": "Inspected the actual 1536x1024 PNG. A's subject-right hand is extended palm-up toward the subject-left empty area visible on image right. Four fingers align toward the target area and the thumb sits along the near edge; the open hand and wrist continue into an unbroken forearm leading back to the subject-right arm. A's face and cheek mole remain visible. No arrow, text, prop, contact or motion trail."
+  },
+  "parent_rejection": {
+    "reviewer": "parent direct full-image inspection",
+    "reason": "The visible presenting arm comes from the subject-left shoulder, but this job explicitly requires the right hand extending across toward subject-left.",
+    "image_archive": "data/asset-production/rejected/gesture-H03-attempt1.png"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "hair-N07",
+  "status": "rejected",
+  "generation_thread_id": "01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075",
+  "before_source_files": [
+    "exec-2d8ee961-14b5-4c29-8f4c-c2b7c102b70f.png",
+    "exec-3bf07542-f2ee-4a5c-bf86-b0f6222c427a.png"
+  ],
+  "path": "public/generated/frame-assets/hair-N07.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d13-0d85-71f0-80fc-2b14e64a0075/exec-bb1b24ea-e6e3-4d8f-a5b4-3fac01484557.png",
+  "sha256": "6a9245c9da762764a6e0bac1b42f0d737521ffbdb81f4a0b0a12f059ce83c6f1",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "requested_dimensions": {
+    "format": "png",
+    "width": 1024,
+    "height": 1536
+  },
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/hair-E23.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-N07-native.txt",
+  "prompt": "FRAME authored synthetic reference. Job: hair-N07; concept: 여섯 줄 스트레이트백 콘로우.\nClass: base; domain: hair; entry: GEN-asset-hair-N07.\nParent entry IDs: [\"CRAFT-hair-2c3c47d0ace7\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E23\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"hair-E23\":\"identity\"}\nInput images: hair-E23 (identity reference); expression-E00 (identity reference).\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Create exactly six close-to-scalp straight-back dark-brown cornrows, each following a fixed front-to-nape path with visible scalp separation; show the short continuing tails and their black end elastics. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: elevated rear three-quarter scalp-path and full-ends view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.\nChange only: Create exactly six close-to-scalp straight-back dark-brown cornrows, each following a fixed front-to-nape path with visible scalp separation; show the short continuing tails and their black end elastics.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Exactly six separated scalp rows, not box-grid hanging braids.; Compare against the named basis; the new structural coverage must be visibly different.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\n",
+  "qa": {
+    "reviewer": "worker",
+    "provisional_decision": "reject",
+    "observations": "Only four separated scalp cornrows are visible, while the requirement is exactly six; full tails and elastics are visible."
+  }
+}

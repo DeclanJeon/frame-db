@@ -1,0 +1,32 @@
+{
+  "job_id": "expression-E02-moderate",
+  "status": "rejected",
+  "generation_thread_id": "01a18dc6-54b5-7390-bc6f-0deed65c2da2",
+  "source_directory": "/home/declan/.codex/generated_images/01a18dc6-54b5-7390-bc6f-0deed65c2da2",
+  "before_source_files": [],
+  "prompt": "FRAME authored synthetic reference. Job: expression-E02-moderate; concept: restrained outer-brow increment cleanup.\nClass: base; domain: expression; entry: GEN-asset-expression-E02.\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: []\nReference roles: {}\nAuxiliary image input (not an accepted output job): {\"path\":\"public/generated/frame-assets/controls/expression-E02-outer-brow-layout.png\",\"role\":\"edit_base\",\"derived_from\":\"public/generated/frame-assets/expression-E02-subtle.png\",\"sha256\":\"d8c9f5637b475b56b4c342336d20a96ad23505469621b05bd53ea5117a6cbcb5\"}\nObservable direction: The sole working input already contains the required restrained outer-brow increment, prepared from expression-E02-subtle with inner brow heads fixed. Make only a minimal photorealistic cleanup of interpolation texture along the lateral eyebrow/skin edges. Keep every existing brow position and curve exactly in place, including both fixed inner heads and raised outer tails. Preserve the eyes, glabella, mouth, face proportions, crop, identity marks, hair, lighting and background from the input. Do not enhance the pose, raise whole arches, sharpen peaks, add surprise creases, or move inner heads. The target is a readable restrained increment relative to expression-E02-subtle, not maximum amplitude. Output one natural photo with no diagram, labels or collage.\nCamera / visible region: frontal controlled full face, head yaw pitch roll neutral. Keep every defining feature inside the frame.\nPreserve: Keep the prepared input's complete face geometry and all non-target regions unchanged; naturalize only lateral interpolation texture.\nChange only: Subtle photorealistic texture blending at lateral eyebrow/skin edges while preserving all current brow geometry.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks: Compare with expression-E02-subtle for a readable restrained outer-brow increment. Reject any change to brow positions/curves, inner heads, face geometry, pose or other features.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}\nInput images: Image 1: sole auxiliary edit_base, the prepared outer-brow layout photo at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/expression-E02-outer-brow-layout.png. No other image input is provided to this E02 call.\nBROW-LAYOUT-CLEANUP SUFFIX: This is a texture-naturalization pass only. Hold the established brow layout pixel-for-pixel in position and curve; retain fixed inner heads and the restrained raised outer tails. Blend only lateral interpolation texture into natural eyebrow hairs and skin. Do not alter expression amplitude, brow height, arch, peak, spacing, eyes, glabella, facial geometry, crop or pose.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/expression-E02-outer-brow-layout.png"
+  ],
+  "reference_sha256": [
+    "d8c9f5637b475b56b4c342336d20a96ad23505469621b05bd53ea5117a6cbcb5"
+  ],
+  "path": "public/generated/frame-assets/expression-E02-moderate.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18dc6-54b5-7390-bc6f-0deed65c2da2/exec-13ea8db7-69f3-4b90-9b37-5858fa9e569d.png",
+  "sha256": "1e2ec52f6aafda3b9b8a11a63a402e29090f5932ec357f7f994e40a6a67cf279",
+  "width": 1024,
+  "height": 1536,
+  "tool": "Codex built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "rejected",
+    "observations": "Inspected the actual 1024x1536 output against the sole edit_base input and compared the brow action with expression-E02-subtle. Identity, cheek mole, framing and brow layout are retained, and the restrained outer-tail rise remains readable. However, the output adds conspicuous artificial, etched skin texture across the forehead and cheeks, far beyond the requested lateral eyebrow/skin interpolation cleanup. It therefore fails the only-texture-cleanup requirement."
+  },
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "prompt_snapshot": "data/asset-production/.history/prompts/expression-E02-moderate-native.txt"
+}

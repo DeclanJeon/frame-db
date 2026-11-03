@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <title>Authored two-dimensional composition control, not a final reference image</title>
+  <defs>
+    <pattern id="braid" width="46" height="38" patternUnits="userSpaceOnUse">
+      <rect width="46" height="38" fill="#49362c"/>
+      <path d="M0 0L46 19L0 38M46 0L0 19L46 38" fill="none" stroke="#8c6f59" stroke-width="5"/>
+    </pattern>
+  </defs>
+  <rect width="1024" height="1536" fill="#d7d7d7"/>
+  <path d="M145 1536V1190Q175 1080 430 1040H594Q849 1080 879 1190V1536Z" fill="#85878a"/>
+  <rect x="425" y="760" width="174" height="360" rx="70" fill="#b3a39a"/>
+  <ellipse cx="187" cy="596" rx="36" ry="74" fill="#b3a39a"/>
+  <ellipse cx="837" cy="596" rx="36" ry="74" fill="#b3a39a"/>
+  <ellipse cx="512" cy="518" rx="340" ry="380" fill="#aaa09a" stroke="#75675e" stroke-width="8"/>
+  <path d="M512 144V850" stroke="#e4ddd7" stroke-width="12"/>
+  <g fill="none" stroke="#49362c" stroke-width="50" stroke-linecap="round">
+    <path d="M310 240C265 340 225 550 225 820V1240"/>
+    <path d="M410 190C385 360 340 570 340 840V1260"/>
+    <path d="M480 170C475 390 455 570 455 860V1280"/>
+    <path d="M544 170C549 390 569 570 569 860V1280"/>
+    <path d="M614 190C639 360 684 570 684 840V1260"/>
+    <path d="M714 240C759 340 799 550 799 820V1240"/>
+  </g>
+  <g fill="url(#braid)">
+    <rect x="202" y="820" width="46" height="420" rx="22"/>
+    <rect x="317" y="840" width="46" height="420" rx="22"/>
+    <rect x="432" y="860" width="46" height="420" rx="22"/>
+    <rect x="546" y="860" width="46" height="420" rx="22"/>
+    <rect x="661" y="840" width="46" height="420" rx="22"/>
+    <rect x="776" y="820" width="46" height="420" rx="22"/>
+  </g>
+  <g fill="#151515">
+    <rect x="200" y="1230" width="50" height="14" rx="5"/>
+    <rect x="315" y="1250" width="50" height="14" rx="5"/>
+    <rect x="430" y="1270" width="50" height="14" rx="5"/>
+    <rect x="544" y="1270" width="50" height="14" rx="5"/>
+    <rect x="659" y="1250" width="50" height="14" rx="5"/>
+    <rect x="774" y="1230" width="50" height="14" rx="5"/>
+  </g>
+</svg>

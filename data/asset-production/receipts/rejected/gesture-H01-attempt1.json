@@ -1,0 +1,30 @@
+{
+  "job_id": "gesture-H01",
+  "status": "rejected",
+  "path": "public/generated/frame-assets/gesture-H01.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-a029-7393-9952-bc860b013981/exec-f07f4957-3a36-4164-ad2f-ed56dc22019f.png",
+  "sha256": "b3f076dfb6ae58ff0a555396366f988bf60bc9decbc5f99b0c7ae6e78537b809",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H01; concept: 오른손 작은 인사.\nClass: base; domain: gesture; entry: FS-0080.\nParent entry IDs: [\"CRAFT-gesture-8c93799bff88\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity\",\"makeup-N01\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Raise the subject-right hand beside the upper chest with the palm facing an off-camera partner on subject-left and fingers relaxed and slightly separated. Keep wrist and forearm continuous; no repeated waving or universal greeting meaning is claimed. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: Raise the subject-right hand beside the upper chest with the palm facing an off-camera partner on subject-left and fingers relaxed and slightly separated. Keep wrist and forearm continuous; no repeated waving or universal greeting meaning is claimed.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Palm orientation and five relaxed digits are readable; no motion trail.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: hand anchor, actual accepted A right hand at public/generated/frame-assets/makeup-N01.png; preserve hand proportions, skin tone, mark and short natural nails. Image 2: identity anchor, accepted identity A photograph at public/generated/frame-assets/expression-E00.png; preserve A's face identity, skin undertone, cheek mole and hair.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; parent review required",
+    "observations": "Inspected the actual 1536x1024 PNG. One raised hand is shown beside the upper chest with the palm facing outward; thumb plus four separate fingers are visible, with distinct digit chains and short natural nails. The wrist continues into a visible forearm and arm on the subject-right side. No contact or prop is present, and no motion trail appears. Face retains A's cheek mole and dark hair against the gray studio background."
+  },
+  "parent_rejection": {
+    "reviewer": "parent direct full-image inspection",
+    "reason": "Palm faces the camera rather than the specified off-camera partner on subject-left; side-directed palm orientation is not demonstrated.",
+    "image_archive": "data/asset-production/rejected/gesture-H01-attempt1.png"
+  }
+}

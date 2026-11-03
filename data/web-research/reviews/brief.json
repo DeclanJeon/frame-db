@@ -1,0 +1,607 @@
+{
+  "schema_version": 1,
+  "category_id": "brief",
+  "input_sha256": "02097db25d1d071eca52c3382c39c98e19ff84431bfc837a21c6a37720bc2301",
+  "reviewer": "omo-independent-brief-reviewer-20261030",
+  "reviewed_at": "2026-10-30T05:35:10.694969+00:00",
+  "accepted_concept_keys": [
+    "deliverable-scope",
+    "audience-viewing-context",
+    "single-communication-message",
+    "format-purpose-fit",
+    "brand-fixed-elements",
+    "brand-voice-character-tone",
+    "concept-alternative-testing",
+    "audience-need-question",
+    "opening-attention",
+    "creative-resource-constraints",
+    "unconfirmed-assumptions",
+    "brief-change-impact",
+    "draft-versus-final-review",
+    "campaign-success-levels",
+    "brief-stakeholder-alignment",
+    "audience-journey-planning",
+    "brand-presence-timing",
+    "call-to-action-design",
+    "audience-segmentation",
+    "communication-behaviour-barriers"
+  ],
+  "rejected": [],
+  "source_checks": [
+    {
+      "source_id": "rab-creative-brief",
+      "url": "https://www.rab.com/academylms/content/handouts/CreativeBriefTemplate.pdf",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "PDF p.1: Single Point/Message; Reasons to Believe; Response/Net Takeaway; Measures of Success; Deliverables and Timing",
+      "rights_checked": true,
+      "notes": "Read extracted text and viewed the page. RAB identity and all five sections match. No reuse grant identified; unknown rights retained. No PDF redistribution or media acquisition authorized."
+    },
+    {
+      "source_id": "gov-user-needs",
+      "url": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "When to research / discovery bullets 1-3; Writing user needs / personal perspective; Validating user needs / bullets 2-3; footer",
+      "rights_checked": true,
+      "notes": "Read body, credited community and footer. Footer explicitly applies OGL v3.0 except exceptions. Linked National Archives terms returned 403; detailed terms not verified. Crown attribution retained; no logo or third-party media permission inferred."
+    },
+    {
+      "source_id": "google-video-abcd",
+      "url": "https://support.google.com/google-ads/answer/14783551?hl=en-1",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "Core ABCDs / Attention, Branding, Direction; ABCDs of YouTube Shorts / Attention, Branding",
+      "rights_checked": true,
+      "notes": "Read actual help sections, not linked videos. Values are Google recommendations, not measured performance or universal guarantees. Unknown reuse rights retained; no video inspected or acquired."
+    },
+    {
+      "source_id": "mozilla-trademark",
+      "url": "https://www.mozilla.org/en-US/foundation/trademarks/policy/",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "When do I need specific permission; General Guidelines / Do 1, Do not affiliation and final bullet; Open Source Project Guidelines",
+      "rights_checked": true,
+      "notes": "Read policy body. Restricted status accurately describes trademark use, not a blanket ban on factual summaries. Code licensing does not grant trademark rights. Policy-text reuse remains unknown; no logo acquired."
+    },
+    {
+      "source_id": "mailchimp-voice-tone",
+      "url": "https://styleguide.mailchimp.com/voice-and-tone/",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "Introduction; Tone; A note about Freddie",
+      "rights_checked": true,
+      "notes": "Read stable voice, reader-emotion tone adjustment and non-speaking mascot passages. Mailchimp-specific rules, not universal character psychology. Unknown text and mascot reuse rights retained."
+    },
+    {
+      "source_id": "design-council-diamond",
+      "url": "https://www.designcouncil.org.uk/resources/the-double-diamond/",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "How to use the Double Diamond / DISCOVER, DEVELOP, DELIVER; diagram licence notice",
+      "rights_checked": true,
+      "notes": "Read three stages and adjacent diagram licence. CC BY 4.0 notice is not extended to all prose or photographs. Used prose retains unknown rights. No diagram acquired."
+    },
+    {
+      "source_id": "atlassian-project-poster",
+      "url": "https://www.atlassian.com/team-playbook/plays/project-poster?tab=instructions",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "3. Validation / assumption validation, research decisions and documentation updates",
+      "rights_checked": true,
+      "notes": "Read all validation paragraphs. Independent research papers linked elsewhere were not verified. Website reuse rights remain unknown; PDF licence not transferred to this page."
+    },
+    {
+      "source_id": "atlassian-it-impacts",
+      "url": "https://www.atlassian.com/dam/jcr:8c751070-fc3d-4d45-bb89-729d74f04315/IT-Project-Poster-Template.pdf",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "PDF p.1 footer; p.2 Project Impacts, Milestones and Team tables",
+      "rights_checked": true,
+      "notes": "Read both pages and visually checked table columns. Footer states CC BY-NC-SA 4.0; restricted status is conservative, not commercial clearance. No full template reproduced or acquired as media."
+    },
+    {
+      "source_id": "cdc-index-use",
+      "url": "https://www.cdc.gov/ccindex/tool/how-to-use.html",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "Drafting New Materials 1, 3, 4 item 6; Reviewing Draft Materials 1; Reviewing Finished Materials 1-2",
+      "rights_checked": true,
+      "notes": "Read actual HTML instructions including fresh reviewers after revision. Claims concern CDC health communication procedures, not completed FRAME_DB testing. Linked PDF not used. Unknown reuse rights retained; government hosting does not clear third-party assets."
+    },
+    {
+      "source_id": "gcs-oasis",
+      "url": "https://www.communications.gov.uk/publication/oasis-planning-government-communications/",
+      "checked_at": "2026-10-30T05:35:10.694969+00:00",
+      "access": "public_body",
+      "locator": "Segment your audience; Understand behaviour change; Customer journey mapping 1-3,5; Delivery plan; Scoring and evaluation / three Os",
+      "rights_checked": true,
+      "notes": "Read each named section. Procedures and categories are source claims, not measured campaign results. Unknown rights retained; no government-wide media licence assumed and no member content accessed."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "deliverable-scope",
+      "field": "산출물_규격",
+      "source_id": "rab-creative-brief",
+      "locator": "PDF p.1: 납품물·일정 항목의 제작 대상 예시",
+      "verdict": "supported",
+      "notes": "Deliverables and Timing names spot lengths and digital units."
+    },
+    {
+      "concept_key": "deliverable-scope",
+      "field": "일정_범위",
+      "source_id": "rab-creative-brief",
+      "locator": "PDF p.1: 납품물·일정 항목의 괄호 속 단계 목록",
+      "verdict": "supported",
+      "notes": "Same section enumerates idea, approvals, revisions, production and activation."
+    },
+    {
+      "concept_key": "deliverable-scope",
+      "field": "수용_지표",
+      "source_id": "rab-creative-brief",
+      "locator": "PDF p.1: 성공 척도 항목의 목표 대비 효과 질문",
+      "verdict": "supported",
+      "notes": "Measures of Success compares campaign metrics against stated objectives."
+    },
+    {
+      "concept_key": "audience-viewing-context",
+      "field": "관객_정의",
+      "source_id": "gov-user-needs",
+      "locator": "조사 시점 절: 탐색 단계 첫째 항목",
+      "verdict": "supported",
+      "notes": "Discovery bullet 1 identifies likely users and their tasks."
+    },
+    {
+      "concept_key": "audience-viewing-context",
+      "field": "현재_접점",
+      "source_id": "gov-user-needs",
+      "locator": "조사 시점 절: 탐색 단계 둘째 항목",
+      "verdict": "supported",
+      "notes": "Discovery bullet 2 asks about existing services and channels."
+    },
+    {
+      "concept_key": "audience-viewing-context",
+      "field": "문제_상황",
+      "source_id": "gov-user-needs",
+      "locator": "조사 시점 절: 탐색 단계 셋째 항목",
+      "verdict": "supported",
+      "notes": "Discovery bullet 3 asks about experienced problems and frustrations."
+    },
+    {
+      "concept_key": "single-communication-message",
+      "field": "메시지_기능",
+      "source_id": "rab-creative-brief",
+      "locator": "PDF p.1: 단일 메시지 항목의 질문",
+      "verdict": "supported",
+      "notes": "Single Point/Message asks for the central idea prompting action."
+    },
+    {
+      "concept_key": "single-communication-message",
+      "field": "신뢰_근거",
+      "source_id": "rab-creative-brief",
+      "locator": "PDF p.1: 믿을 근거 항목의 구체적 혜택·속성 예시",
+      "verdict": "supported",
+      "notes": "Reasons to Believe lists benefits, attributes and brand truths."
+    },
+    {
+      "concept_key": "single-communication-message",
+      "field": "의도된_반응",
+      "source_id": "rab-creative-brief",
+      "locator": "PDF p.1: 기대 반응 항목",
+      "verdict": "supported",
+      "notes": "Response/Net Takeaway asks for the intended advertising reaction."
+    },
+    {
+      "concept_key": "format-purpose-fit",
+      "field": "형식별_구분",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 ABCD와 Shorts ABCD의 별도 절",
+      "verdict": "supported",
+      "notes": "Core and Shorts guidance occupy separate substantive sections."
+    },
+    {
+      "concept_key": "format-purpose-fit",
+      "field": "숏폼_가독성",
+      "source_id": "google-video-abcd",
+      "locator": "Shorts 절: 주의 항목의 마지막 지침",
+      "verdict": "supported",
+      "notes": "Shorts Attention recommends tight framing for viewing ease."
+    },
+    {
+      "concept_key": "format-purpose-fit",
+      "field": "숏폼_브랜딩",
+      "source_id": "google-video-abcd",
+      "locator": "Shorts 절: 브랜드 항목의 소개 문장",
+      "verdict": "supported",
+      "notes": "Shorts Branding calls for branding organic to the story."
+    },
+    {
+      "concept_key": "brand-fixed-elements",
+      "field": "주변_여백",
+      "source_id": "mozilla-trademark",
+      "locator": "일반 지침: 허용 목록의 첫 항목",
+      "verdict": "supported",
+      "notes": "General Do list requires adequate spacing around Mozilla logos."
+    },
+    {
+      "concept_key": "brand-fixed-elements",
+      "field": "변형_금지",
+      "source_id": "mozilla-trademark",
+      "locator": "일반 지침: 금지 목록의 마지막 항목",
+      "verdict": "supported",
+      "notes": "Final prohibition covers modification, abbreviation and combination with other elements."
+    },
+    {
+      "concept_key": "brand-fixed-elements",
+      "field": "보증_오인",
+      "source_id": "mozilla-trademark",
+      "locator": "일반 지침: 금지 목록의 제휴·후원·승인 문장",
+      "verdict": "supported",
+      "notes": "Affiliation, sponsorship, endorsement and approval must not be falsely implied."
+    },
+    {
+      "concept_key": "brand-voice-character-tone",
+      "field": "보이스_일관성",
+      "source_id": "mailchimp-voice-tone",
+      "locator": "도입: Mailchimp의 보이스는 매일 크게 변하지 않는다는 문단",
+      "verdict": "supported",
+      "notes": "Introduction says Mailchimp voice changes little between days."
+    },
+    {
+      "concept_key": "brand-voice-character-tone",
+      "field": "상황별_톤",
+      "source_id": "mailchimp-voice-tone",
+      "locator": "독자의 심리 상태를 고려하라는 톤 문단",
+      "verdict": "supported",
+      "notes": "Tone section explicitly adjusts tone to reader emotional state."
+    },
+    {
+      "concept_key": "brand-voice-character-tone",
+      "field": "캐릭터_발화_제약",
+      "source_id": "mailchimp-voice-tone",
+      "locator": "마지막 문단: Freddie의 비언어적 행동과 발화 금지",
+      "verdict": "supported",
+      "notes": "Freddie section prohibits writing dialogue in the non-speaking mascot voice."
+    },
+    {
+      "concept_key": "concept-alternative-testing",
+      "field": "문제_이해",
+      "source_id": "design-council-diamond",
+      "locator": "사용법: DISCOVER 문단",
+      "verdict": "supported",
+      "notes": "DISCOVER requires understanding affected people rather than assuming problems."
+    },
+    {
+      "concept_key": "concept-alternative-testing",
+      "field": "대안_확장",
+      "source_id": "design-council-diamond",
+      "locator": "사용법: DEVELOP 문단",
+      "verdict": "supported",
+      "notes": "DEVELOP expands alternatives and includes collaborative design."
+    },
+    {
+      "concept_key": "concept-alternative-testing",
+      "field": "후보_선별",
+      "source_id": "design-council-diamond",
+      "locator": "사용법: DELIVER 문단",
+      "verdict": "supported",
+      "notes": "DELIVER tests small-scale alternatives, discards failures and improves survivors."
+    },
+    {
+      "concept_key": "audience-need-question",
+      "field": "관객_언어",
+      "source_id": "gov-user-needs",
+      "locator": "요구 작성 절: 예시 뒤의 개인 관점 문단",
+      "verdict": "supported",
+      "notes": "Writing user needs requires personal perspective and familiar user language."
+    },
+    {
+      "concept_key": "audience-need-question",
+      "field": "근거_기준",
+      "source_id": "gov-user-needs",
+      "locator": "요구 검증 절: 둘째 기준",
+      "verdict": "supported",
+      "notes": "Validation bullet 2 demands research evidence rather than assumptions."
+    },
+    {
+      "concept_key": "audience-need-question",
+      "field": "문제_우선",
+      "source_id": "gov-user-needs",
+      "locator": "요구 검증 절: 셋째 기준",
+      "verdict": "supported",
+      "notes": "Validation bullet 3 prioritizes user problems over particular solutions."
+    },
+    {
+      "concept_key": "opening-attention",
+      "field": "진입_속도",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 주의 항목의 첫 지침",
+      "verdict": "supported",
+      "notes": "Core Attention recommends faster entry into the central story."
+    },
+    {
+      "concept_key": "opening-attention",
+      "field": "요소_경쟁",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 주의 항목의 둘째 지침",
+      "verdict": "supported",
+      "notes": "Audio and text should reinforce rather than compete."
+    },
+    {
+      "concept_key": "opening-attention",
+      "field": "화면_조건",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 주의 항목의 셋째 지침",
+      "verdict": "supported",
+      "notes": "Core Attention recommends bright, high-contrast visuals across devices."
+    },
+    {
+      "concept_key": "creative-resource-constraints",
+      "field": "자원_배분",
+      "source_id": "gcs-oasis",
+      "locator": "실행 절: Delivery plan 문단",
+      "verdict": "supported",
+      "notes": "Delivery plan specifies resource allocation and delivery timescales."
+    },
+    {
+      "concept_key": "creative-resource-constraints",
+      "field": "인력_가용성",
+      "source_id": "atlassian-it-impacts",
+      "locator": "PDF p.2: Team 표의 가용성 주석 열",
+      "verdict": "supported",
+      "notes": "Team availability notes request staffing candidates and potential blockers."
+    },
+    {
+      "concept_key": "creative-resource-constraints",
+      "field": "일정_의존성",
+      "source_id": "atlassian-it-impacts",
+      "locator": "PDF p.2: Milestones 표의 의존성과 제공일 열",
+      "verdict": "supported",
+      "notes": "Milestones table requests dependencies and estimated availability dates."
+    },
+    {
+      "concept_key": "unconfirmed-assumptions",
+      "field": "가정_검증",
+      "source_id": "atlassian-project-poster",
+      "locator": "검증 단계 3번: 첫 문단",
+      "verdict": "supported",
+      "notes": "Validation opening explicitly identifies assumptions requiring validation."
+    },
+    {
+      "concept_key": "unconfirmed-assumptions",
+      "field": "결정_유보",
+      "source_id": "atlassian-project-poster",
+      "locator": "검증 단계 3번: 조사로 해법·우선순위를 확인하는 문단",
+      "verdict": "supported",
+      "notes": "Unconfirmed solutions require revisiting problems or brainstorming alternatives."
+    },
+    {
+      "concept_key": "unconfirmed-assumptions",
+      "field": "근거_갱신",
+      "source_id": "atlassian-project-poster",
+      "locator": "검증 단계 3번: 조사 요약과 링크 갱신 문단",
+      "verdict": "supported",
+      "notes": "Validation closing requests research summaries and supporting documentation links."
+    },
+    {
+      "concept_key": "brief-change-impact",
+      "field": "영향_대상",
+      "source_id": "atlassian-it-impacts",
+      "locator": "PDF p.2: 영향 표의 시스템·팀 열",
+      "verdict": "supported",
+      "notes": "Project Impacts identifies affected systems or teams and impact type."
+    },
+    {
+      "concept_key": "brief-change-impact",
+      "field": "영향_등급",
+      "source_id": "atlassian-it-impacts",
+      "locator": "PDF p.2: 영향 표의 등급 선택 열",
+      "verdict": "supported",
+      "notes": "Impact rating column explicitly provides high, medium and low."
+    },
+    {
+      "concept_key": "brief-change-impact",
+      "field": "변경_설명",
+      "source_id": "atlassian-it-impacts",
+      "locator": "PDF p.2: 영향 표의 설명 열",
+      "verdict": "supported",
+      "notes": "Description column requests a summary of impact or change."
+    },
+    {
+      "concept_key": "draft-versus-final-review",
+      "field": "초안_검토",
+      "source_id": "cdc-index-use",
+      "locator": "초안 검토 절: 1번",
+      "verdict": "supported",
+      "notes": "Draft review step 1 sends blank score sheets with drafts."
+    },
+    {
+      "concept_key": "draft-versus-final-review",
+      "field": "완성본_검토",
+      "source_id": "cdc-index-use",
+      "locator": "완성 자료 검토 절: 1번",
+      "verdict": "supported",
+      "notes": "Finished review step 1 requires two independent scorers."
+    },
+    {
+      "concept_key": "draft-versus-final-review",
+      "field": "수정본_재검토",
+      "source_id": "cdc-index-use",
+      "locator": "완성 자료 검토 절: 2번",
+      "verdict": "supported",
+      "notes": "Finished review step 2 requires at least two new independent reviewers."
+    },
+    {
+      "concept_key": "campaign-success-levels",
+      "field": "도달_성과",
+      "source_id": "gcs-oasis",
+      "locator": "평가 절: 세 가지 O 목록의 첫 항목",
+      "verdict": "supported",
+      "notes": "Outputs cover communication reach and audience experience."
+    },
+    {
+      "concept_key": "campaign-success-levels",
+      "field": "인식_성과",
+      "source_id": "gcs-oasis",
+      "locator": "평가 절: 세 가지 O 목록의 둘째 항목",
+      "verdict": "supported",
+      "notes": "Outtakes cover thoughts, feelings and intended actions."
+    },
+    {
+      "concept_key": "campaign-success-levels",
+      "field": "행동_성과",
+      "source_id": "gcs-oasis",
+      "locator": "평가 절: 세 가지 O 목록의 셋째 항목",
+      "verdict": "supported",
+      "notes": "Outcomes cover actual observed responses and behaviour change."
+    },
+    {
+      "concept_key": "brief-stakeholder-alignment",
+      "field": "관계자_범위",
+      "source_id": "cdc-index-use",
+      "locator": "작성 지침: 1번의 최종 자료에 영향력을 가진 사람",
+      "verdict": "supported",
+      "notes": "Drafting step 1 names experts, supervisors and clearance officials."
+    },
+    {
+      "concept_key": "brief-stakeholder-alignment",
+      "field": "초기_합의_항목",
+      "source_id": "cdc-index-use",
+      "locator": "작성 지침: 3번의 첫 네 질문",
+      "verdict": "supported",
+      "notes": "Step 3 covers audience, health literacy, objective and message."
+    },
+    {
+      "concept_key": "brief-stakeholder-alignment",
+      "field": "표현_갈등_기준",
+      "source_id": "cdc-index-use",
+      "locator": "작성 지침: 3번 뒤의 이견 해결 항목",
+      "verdict": "supported",
+      "notes": "Step 3 subparagraph resolves expression disagreements through audience understanding."
+    },
+    {
+      "concept_key": "audience-journey-planning",
+      "field": "여정_범위",
+      "source_id": "gcs-oasis",
+      "locator": "관객 여정 매핑: 1번",
+      "verdict": "supported",
+      "notes": "Journey step 1 scopes whose journey and which behaviours."
+    },
+    {
+      "concept_key": "audience-journey-planning",
+      "field": "단계_연결",
+      "source_id": "gcs-oasis",
+      "locator": "관객 여정 매핑: 2번",
+      "verdict": "supported",
+      "notes": "Journey step 2 maps awareness through action."
+    },
+    {
+      "concept_key": "audience-journey-planning",
+      "field": "전략_반영",
+      "source_id": "gcs-oasis",
+      "locator": "관객 여정 매핑: 3·5번",
+      "verdict": "supported",
+      "notes": "Journey steps 3 and 5 connect barriers to messaging refinement."
+    },
+    {
+      "concept_key": "brand-presence-timing",
+      "field": "등장_시점",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 브랜드 항목의 첫 지침",
+      "verdict": "supported",
+      "notes": "Core Branding recommends brand presence from beginning throughout."
+    },
+    {
+      "concept_key": "brand-presence-timing",
+      "field": "청각_보강",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 브랜드 항목의 둘째 지침",
+      "verdict": "supported",
+      "notes": "Core Branding recommends audio mentions reinforcing on-screen brand visuals."
+    },
+    {
+      "concept_key": "brand-presence-timing",
+      "field": "에셋_선택",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 브랜드 항목의 셋째 지침",
+      "verdict": "supported",
+      "notes": "Core Branding selects varied assets fitting message and objective."
+    },
+    {
+      "concept_key": "call-to-action-design",
+      "field": "행동_명시",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 행동 지시 항목의 첫 지침",
+      "verdict": "supported",
+      "notes": "Core Direction explicitly asks viewers to take a specific action."
+    },
+    {
+      "concept_key": "call-to-action-design",
+      "field": "음성_보강",
+      "source_id": "google-video-abcd",
+      "locator": "핵심 원칙: 행동 지시 항목의 둘째 지침",
+      "verdict": "supported",
+      "notes": "Core Direction reinforces the on-screen CTA through voice-over."
+    },
+    {
+      "concept_key": "call-to-action-design",
+      "field": "문장_태",
+      "source_id": "cdc-index-use",
+      "locator": "작성 지침: 4번의 능동태 점검 항목 #6",
+      "verdict": "supported",
+      "notes": "CDC drafting step 4 item 6 checks active-voice messages and CTAs."
+    },
+    {
+      "concept_key": "audience-segmentation",
+      "field": "이용_기준",
+      "source_id": "gcs-oasis",
+      "locator": "관객 세분화 절: 이용 방식 기준",
+      "verdict": "supported",
+      "notes": "Usage segmentation groups current interactions with products or services."
+    },
+    {
+      "concept_key": "audience-segmentation",
+      "field": "문화_기준",
+      "source_id": "gcs-oasis",
+      "locator": "관객 세분화 절: 문화 기준",
+      "verdict": "supported",
+      "notes": "Cultural segmentation includes values, beliefs and community identity."
+    },
+    {
+      "concept_key": "audience-segmentation",
+      "field": "복합_기준",
+      "source_id": "gcs-oasis",
+      "locator": "관객 세분화 절: 복수 변수 결합 기준",
+      "verdict": "supported",
+      "notes": "Multiple-variable segmentation combines approaches for greater precision."
+    },
+    {
+      "concept_key": "communication-behaviour-barriers",
+      "field": "능력_장벽",
+      "source_id": "gcs-oasis",
+      "locator": "행동 변화 이해 절: 첫 문단의 능력 정의",
+      "verdict": "supported",
+      "notes": "Behaviour section includes awareness, knowledge and skills within capability."
+    },
+    {
+      "concept_key": "communication-behaviour-barriers",
+      "field": "동기_장벽",
+      "source_id": "gcs-oasis",
+      "locator": "행동 변화 이해 절: 첫 문단의 동기 정의",
+      "verdict": "supported",
+      "notes": "Behaviour section includes beliefs, attitudes and habits within motivation."
+    },
+    {
+      "concept_key": "communication-behaviour-barriers",
+      "field": "기회_한계",
+      "source_id": "gcs-oasis",
+      "locator": "행동 변화 이해 절: 둘째 문단의 기회 장벽",
+      "verdict": "supported",
+      "notes": "Opportunity barriers include time and money beyond communications alone."
+    }
+  ],
+  "accepted_count": 20,
+  "shortfall": 0,
+  "shortfall_reason": "No numerical shortfall: 20 distinct metadata concepts, 60 source-claim facts; zero observations, measurements, proposals or media candidates. Thirteen records explicitly enrich 13 unique original brief entries; seven are distinct additions. All 16 original brief entries were compared. Audience profiling, needs formulation, segmentation, journey mapping and COM-B barriers address distinct planning operations rather than label variants; campaign evaluation levels differ from a single message or CTA. Brand appearance timing differs from brand asset restrictions. All titles, summaries, tags and mappings were checked for scope. Broad original guide titles are enrichment anchors, not claims that the sources substantiate every original instruction. No seed ingestion or media acquisition performed; media rights not cleared."
+}

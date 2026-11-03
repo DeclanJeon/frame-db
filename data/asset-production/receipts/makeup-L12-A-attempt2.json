@@ -1,0 +1,35 @@
+{
+  "job_id": "makeup-L12-A",
+  "attempt": 2,
+  "status": "generated",
+  "generation_thread_id": "01a18d21-1209-7440-9eda-3469359764be",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d21-1209-7440-9eda-3469359764be",
+  "before_source_files": [
+    "exec-46acfc4c-af5b-4e7b-896c-6e1b1fa03e09.png",
+    "exec-6292693d-52f6-4080-a952-c667bb656d3b.png"
+  ],
+  "submitted_prompt": "FRAME authored synthetic reference. Job: makeup-L12-A; concept: 컨투어 농도 약화.\nClass: creative; domain: makeup; entry: GEN-asset-makeup-L12-A.\nParent entry IDs: [\"GEN-asset-makeup-L12\",\"FS-0039\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files: Image 1: makeup-L12 is the edit target and must remain the same photograph except for the named makeup delta. Image 2: expression-E00 is the identity anchor.\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L12 photograph of identity A. Reduce only the contour pigment density below the cheekbones; keep highlight intensity, placement and original bone geometry unchanged. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown, ears, chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks. Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background. Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.\nChange only: Reduce only the contour pigment density below the cheekbones; keep highlight intensity, placement and original bone geometry unchanged.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks: contour is weaker; highlight intensity and placement are unchanged; jaw and cheekbone geometry are identical; compare directly against the actual accepted makeup-L12 input.\nOutput: one PNG, 1024x1536.",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/makeup-L12.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "path": "public/generated/frame-assets/makeup-L12-A.png",
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d21-1209-7440-9eda-3469359764be/exec-1d0721c2-dd5c-4f68-841d-50ba46f18c97.png",
+  "sha256": "b0a6a561614a443b47333339713ec72411e21e947cd54317217b2e1907f382c5",
+  "width": 1024,
+  "height": 1536,
+  "tool": "codex built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "generated; parent review required",
+    "observations": "Compared visually with the viewed makeup-L12 parent. The output keeps the frontal pose, crop, lens gaze, hair, clothing, cheek mole, and broad lighting closely matched. Contour shading below the cheekbones appears reduced; cheekbone highlight placement and facial geometry appear retained. Minor generative texture differences remain; parent should make final acceptance."
+  },
+  "produced_project_path": "public/generated/frame-assets/makeup-L12-A-attempt2.png",
+  "prompt": "FRAME authored synthetic reference. Job: makeup-L12-A; concept: 컨투어 농도 약화.\nClass: creative; domain: makeup; entry: GEN-asset-makeup-L12-A.\nParent entry IDs: [\"GEN-asset-makeup-L12\",\"FS-0039\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files: Image 1: makeup-L12 is the edit target and must remain the same photograph except for the named makeup delta. Image 2: expression-E00 is the identity anchor.\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Edit the accepted makeup-L12 photograph of identity A. Reduce only the contour pigment density below the cheekbones; keep highlight intensity, placement and original bone geometry unchanged. Match its head pose, relaxed lips, lens gaze, hair, clothing, light and crop exactly. Do not create the B derivative recipe. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: frontal full face, complete crown, ears, chin and upper shoulders. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks. Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background. Keep every parent makeup region outside the named delta, as well as its skin marks, pigment boundaries and facial geometry.\nChange only: Reduce only the contour pigment density below the cheekbones; keep highlight intensity, placement and original bone geometry unchanged.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks: contour is weaker; highlight intensity and placement are unchanged; jaw and cheekbone geometry are identical; compare directly against the actual accepted makeup-L12 input.\nOutput: one PNG, 1024x1536."
+}

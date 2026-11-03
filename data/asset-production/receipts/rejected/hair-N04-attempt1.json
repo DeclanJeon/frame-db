@@ -1,0 +1,22 @@
+{
+  "job_id": "hair-N04",
+  "status": "failed",
+  "path": null,
+  "generation_source_path": null,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "failure": "Native image_gen rejected relative reference paths before generation: AbsolutePathBuf deserialized without a base path. No image was produced.",
+  "prompt": "FRAME authored synthetic reference. Job: hair-N04; concept: 둥근 타이트 코일 실루엣.\nClass: base; domain: hair; entry: GEN-asset-hair-N04.\nParent entry IDs: [\"CRAFT-hair-db6e266cbccc\"]\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"hair-E16\",\"expression-E00\"]\nReference roles: {\"expression-E00\":\"identity anchor\",\"hair-E16\":\"same-look parent and coil geometry\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Arrange tightly coiled dark-brown strands into a compact rounded crown and side envelope above a clear nape. Maintain individually varied tight coils, without straightening or repeating identical corkscrews. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: front three-quarter with nape visible. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep natural hairline, dark-brown color and the accepted face and scalp dimensions; show complete ends.\nChange only: Arrange tightly coiled dark-brown strands into a compact rounded crown and side envelope above a clear nape. Maintain individually varied tight coils, without straightening or repeating identical corkscrews.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Compact round envelope and tight varied coils differ from shoulder-length small curls.; Compare against the named basis; the new structural coverage must be visibly different.\nOutput: {\"format\":\"png\",\"height\":1536,\"width\":1024}",
+  "reference_paths": [
+    "public/generated/frame-assets/hair-E16.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "width": 1024,
+  "height": 1536,
+  "qa": {
+    "reviewer": "Codex worker",
+    "provisional_decision": "failed; route error before generation",
+    "observations": "The native tool rejected relative reference paths before an image was produced. No output was inspected or saved."
+  },
+  "archive_note": "Prior failed/rejected attempt retained; not parent-accepted. New targeted attempt is authorized separately."
+}

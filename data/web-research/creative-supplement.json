@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "status": "draft_pending_independent_review",
+  "kind": "proposal",
+  "authorship": "FRAME 작성 창작 보완",
+  "created_at": "2026-10-30",
+  "scope": "기존 항목의 설명 보강만 수행한다. 새 개념·미디어·웹 검증 사실을 추가하지 않는다.",
+  "basis_policy": "basis는 수집 자료에서 참고한 개념이다. 아래 연출·비교 조건을 원출처가 검증했다는 뜻은 아니다. 확정되지 않은 색·위치·수치는 제작 시 선택할 변수다.",
+  "records": [
+    {
+      "entry_id": "FS-0001",
+      "category_id": "hair",
+      "basis": ["hair/chin-blunt-bob", "hair/curtain-bangs"],
+      "directions": ["턱 아래 끝선과 앞머리의 시작·끝 위치를 기준 상태로 기록한다.", "귀 뒤로 넘긴 쪽과 풀어 둔 쪽을 구분하고 정면·측면 설명을 같은 끝선에 맞춘다.", "앞머리와 귀 뒤 정돈만 바꾸고 보브 길이·헤어라인은 유지한다."]
+    },
+    {
+      "entry_id": "FS-0003",
+      "category_id": "hair",
+      "basis": ["hair/nape-chignon"],
+      "directions": ["목덜미 묶음의 중심과 좌우 폭, 풀어 둔 잔머리 구역을 먼저 기록한다.", "뒤통수의 번과 얼굴 주변 잔머리를 별도 변수로 다룬다.", "시뇽 설명을 참고한 느슨한 번 연출안이며 실제 고정력이나 유지 시간을 보장하지 않는다."]
+    },
+    {
+      "entry_id": "FS-0007",
+      "category_id": "hair",
+      "basis": ["hair/slick-back"],
+      "directions": ["6:4 가르마가 인물 기준 어느 쪽인지 명시하고 화면 좌우와 구분한다.", "앞머리 뿌리 볼륨과 귀 노출을 별도로 기록한다.", "수집된 빗질·정돈 개념을 참고하는 창작안이다. 이 항목의 자연스러운 마감을 유지하며, 슬릭백에 특정 광택이나 젖은 상태가 따른다고 가정하지 않는다."]
+    },
+    {
+      "entry_id": "FS-0008",
+      "category_id": "hair",
+      "basis": ["hair/crew-cut"],
+      "directions": ["짧은 앞머리·매트한 질감·정돈된 옆머리를 기준 조건으로 기록한다. 앞머리 진행 방향은 기준 설명에 없으므로 작업 시 선택할 변수로 둔다.", "윗머리 가닥 묶음의 굵기와 간격을 창작 변수로 두고, 전체 길이는 같은 상태에서 성긴 질감안과 촘촘한 질감안을 비교한다.", "수집된 크루 커트의 부위별 길이 구분은 비교 기준으로만 참고한다. 질감안을 고를 때 매트한 반사와 옆머리 경계가 유지되는지 확인하며 커트 이름이나 앞머리 방향이 다른 새 항목을 만들지 않는다."]
+    },
+    {
+      "entry_id": "FS-0010",
+      "category_id": "hair",
+      "basis": ["hair/roller-barrel-waves", "hair/layered-lob"],
+      "directions": ["귀를 덮는 범위와 웨이브 굴곡이 시작되는 높이를 고정한다.", "좌우 컬 방향과 끝선의 퍼짐을 따로 기술한다.", "수집된 웨이브·길이 개념의 응용안이며 특정 도구로 같은 결과가 나온다는 실험 주장이 아니다."]
+    },
+    {
+      "entry_id": "FS-0012",
+      "category_id": "hair",
+      "basis": ["hair/nape-chignon", "hair/high-ponytail"],
+      "directions": ["어깨 길이의 풀린 상태와 목 뒤 묶인 상태를 구분해 설명한다.", "묶음 높이와 접힌 모발 끝의 노출 여부를 기록해 로우 포니테일과 구별한다.", "번 크기와 잔머리만 연출 변수로 두고 모발 총길이와 헤어라인은 바꾸지 않는다."]
+    },
+    {
+      "entry_id": "FS-0013",
+      "category_id": "hair",
+      "basis": ["motion/hair-follow-through", "motion/hair-wind-shadowing"],
+      "directions": ["측면 바람의 방향을 인물 기준으로 기록하고 움직이는 모발 구역을 지정한다.", "전체 모발이 흐르는 이 항목과 앞머리만 움직이는 기존 가이드를 구별한다.", "바람 시작·방향 유지·정지 후 정착을 설명하되 실제 물리 시뮬레이션이나 실측 시간으로 표시하지 않는다."]
+    },
+    {
+      "entry_id": "FS-0033",
+      "category_id": "makeup",
+      "basis": ["makeup/single-cream-eyeshadow", "makeup/clear-lip-balm", "makeup/cheekbone-highlight"],
+      "directions": ["피치 치크·브라운 눈매·촉촉한 입술을 하나의 전체 조합으로 기술하고 단품 블러셔 항목과 구별한다.", "치크 경계, 눈매의 짙기, 입술 반사를 독립 변수로 기록한다.", "색 조합과 적용 범위는 FRAME 창작안이며 원출처가 이 조합을 제안했다는 뜻은 아니다."]
+    },
+    {
+      "entry_id": "FS-0036",
+      "category_id": "makeup",
+      "basis": ["makeup/targeted-concealer", "makeup/natural-sparse-brow-fill", "makeup/clear-lip-balm"],
+      "directions": ["톤 차이를 정리할 부위·눈썹의 빈 구역·입술의 광택 범위를 구분한다.", "피부 전체를 같은 색으로 덮지 않고 기존 특징을 남기는 방향으로 조합한다.", "세 개 수집 개념을 참고한 전체 그루밍 제안이며 효과나 지속력 검증은 아니다."]
+    },
+    {
+      "entry_id": "FS-0037",
+      "category_id": "makeup",
+      "basis": ["makeup/soft-matte-complexion", "makeup/targeted-concealer"],
+      "directions": ["이마·코의 광택을 줄일 구역과 남길 볼의 반사를 분리한다.", "비교 시 조명 방향·노출·화이트밸런스를 동일 조건으로 지정한다.", "매트 강도만 바꾸고 점·주근깨·피부결은 유지하는 촬영용 제안으로 기록한다."]
+    },
+    {
+      "entry_id": "FS-0040",
+      "category_id": "makeup",
+      "basis": ["makeup/targeted-concealer", "makeup/natural-dewy-complexion"],
+      "directions": ["코와 볼의 원래 주근깨 구역을 보존 영역으로 먼저 지정한다.", "보정이 필요한 주변 색 차이만 별도 구역에 표시하고 점을 새로 만들거나 지우지 않는다.", "얇은 베이스와 국소 보정의 응용안이며 실제 피부 관찰이나 제품별 커버력 측정은 아니다."]
+    },
+    {
+      "entry_id": "FS-0161",
+      "category_id": "makeup",
+      "basis": ["makeup/natural-stubble", "makeup/short-boxed-beard"],
+      "directions": ["입술 위·볼·턱의 길이와 연결 구역을 구분해 적는다.", "전체 짧은 수염의 상태 기록으로 보강하고 스터블·쇼트 박스 비어드 이름의 복제 항목을 만들지 않는다.", "입술과 턱의 경계는 기준 상태에 맞추며 실제 트리밍 길이는 적용 시 별도 지정한다."]
+    },
+    {
+      "entry_id": "FS-0165",
+      "category_id": "makeup",
+      "basis": ["makeup/french-manicure"],
+      "directions": ["자유연 길이와 자연 손톱의 색·반사를 손가락별로 기록한다.", "수집된 손톱 바닥·끝선 구분을 참고하되 프렌치 팁이나 색을 추가하지 않는다.", "좌우 손과 손가락을 구별하는 상태 기록이며 손톱 건강 평가가 아니다."]
+    },
+    {
+      "entry_id": "FS-0166",
+      "category_id": "makeup",
+      "basis": ["makeup/french-manicure"],
+      "directions": ["누드 색상과 투명도·마감을 분리해 선택한다.", "손가락별 길이와 끝 모양은 기준 상태에 맞추고 흰 프렌치 팁은 추가하지 않는다.", "피부색과 손톱색 비교는 같은 조명·노출에서 한다는 제작 조건을 기록한다."]
+    },
+    {
+      "entry_id": "FS-0167",
+      "category_id": "makeup",
+      "basis": ["makeup/french-manicure"],
+      "directions": ["왼손·오른손의 엄지부터 새끼손가락까지 색·장식·끝선 위치를 각각 적는다.", "장식 없는 손톱은 없음으로 명시하고 화면 반전을 손 기준과 혼동하지 않는다.", "색과 장식의 배치는 창작안이며 수집된 프렌치 네일의 관찰 결과로 표시하지 않는다."]
+    },
+    {
+      "entry_id": "FS-0168",
+      "category_id": "makeup",
+      "basis": ["makeup/targeted-concealer"],
+      "directions": ["타투가 있는 부위는 국소 보정에서 제외할 보존 영역으로 지정한다.", "도안·인물 기준 좌우·주변 랜드마크·가림 상태를 한 묶음으로 기록한다.", "국소 적용 개념을 응용한 연속성 제안이며 실제 타투 도안·피부 위치를 검사했다는 뜻은 아니다."]
+    }
+  ]
+}

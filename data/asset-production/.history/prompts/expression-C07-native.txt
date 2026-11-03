@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: expression-C07; concept: 내려온 눈꺼풀 도착 상태.
+Class: creative; domain: expression; entry: FS-0026.
+Parent entry IDs: ["GEN-asset-expression-E00"]
+One fictional adult subject, identity A. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["expression-E00"]
+Reference roles: {"expression-E00":"identity anchor, actual accepted identity A"}
+Observable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Use accepted E00 as the face input and the listed action references as shape guidance. Lower the upper eyelids a little while leaving eyes open and the jaw relaxed, lips lightly closed and brows neutral. Keep gaze toward lens; no dark circles or physical fatigue diagnosis. Render arrival state B only: no start frame, no before/after layout, no inferred breath, blink, response order, duration or genuine emotional state. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: frontal full face, arrival state B only. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep E00 facial structure, pores, marks, hair, makeup and framing; allow only named action, gaze and the C08 head roll.
+Change only: Lower the upper eyelids a little while leaving eyes open and the jaw relaxed, lips lightly closed and brows neutral. Keep gaze toward lens; no dark circles or physical fatigue diagnosis.
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; The specified brow, eye, lip and jaw combination is visible in the single arrival state.; Do not assert emotional diagnosis or a verified transition from a still.
+Output: {"format":"png","height":1536,"width":1024}
+Input images: Image 1: identity anchor, actual accepted identity A at /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png. Preserve identity and change only upper eyelid position; keep eyes open, jaw relaxed and gaze at lens.

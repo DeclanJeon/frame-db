@@ -1,0 +1,16 @@
+FRAME authored synthetic reference. Job: hair-E17; concept: 블렌디드 사이드 컬리 탑.
+Class: base; domain: hair; entry: CRAFT-hair-385eb0bfe856.
+Parent entry IDs: []
+One fictional adult subject, identity B. No web photograph identity inputs.
+Use actual accepted reference files for these jobs: ["hair-E01"]
+Reference roles: {"hair-E01":"identity"}
+Observable direction: Create one photorealistic reference photograph of a fictional adult man, identity B. Keep a compact curly top with small defined curls over short smoothly blended sides and nape; retain natural hairline and scalp shape. Show the complete crown, nape and longest tips; use a torso crop for long hair rather than cropping the ends. Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.
+Camera / visible region: front three-quarter showing subject-left ear and nape. Keep every defining feature inside the frame.
+Neutral background, controlled soft neutral lighting, detailed diagnostic photograph.
+Preserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Retain the accepted identity and natural hairline; keep dark-brown hair and realistic scalp curvature.
+Change only: Keep a compact curly top with small defined curls over short smoothly blended sides and nape; retain natural hairline and scalp shape..
+No collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.
+A still does not verify timing, physical measurements, emotion or unseen geometry.
+Acceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Short sides blend into the curly top; do not invent an undercut disconnect.; All defining ends, attachment and the named ear/nape region are visible.
+Output: {"format":"png","height":1536,"width":1024}
+Concrete reference roles: Image 1 (hair-E01.png) is the accepted identity B face and hairline anchor. Preserve face, marks, camera, crop and lighting while changing only the specified hair geometry.

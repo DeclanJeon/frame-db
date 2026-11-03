@@ -1,0 +1,37 @@
+{
+  "job_id": "hair-N07",
+  "status": "rejected",
+  "generation_thread_id": "01a18d49-b986-7122-8013-7aef00533698",
+  "source_directory": "/home/declan/.codex/generated_images/01a18d49-b986-7122-8013-7aef00533698",
+  "before_source_files": [],
+  "prompt_snapshot": "data/asset-production/.history/prompts/hair-N07-native-six-lane-control.txt",
+  "prompt": "Use case: photorealistic-natural\nAsset type: one photorealistic synthetic diagnostic reference photograph for hair-N07\nPrimary request: Create one natural photorealistic rear head and scalp reference photograph of the same fictional adult woman, identity A. Show exactly six real, close-to-scalp dark-brown straight-back cornrows, three on each side of a center part, with six distinct full tails and six black elastics. Make every row follow the second reference's six-lane topology from front hairline/crown toward the nape, with visible natural scalp separation. Preserve the complete rows, tails and elastics in frame.\nInput images: Image 1, /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png — appearance and identity A only: preserve the woman's facial proportions, medium warm-brown skin, dark-brown eyes, natural asymmetry and subject-left cheek mole, while keeping her face out of this rear-view frame. Image 2, /home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-six-rows.png — layout and count only: use only its six-lane topology, with three lanes on each side and six distinct tails/elastics. Do not copy its diagram style, hatching, colors, outlines or flat geometry.\nScene/backdrop: matte neutral-gray studio background.\nSubject: natural human scalp and dark-brown hair, photographed from behind; show the full crown, nape, six cornrow tails and elastics.\nStyle/medium: photorealistic natural studio reference photography with real hair texture, scalp separation and plausible braiding.\nComposition/framing: centered elevated rear view that reveals the scalp paths and all six full tails; no face or profile visible; include margin around the complete diagnostic region.\nLighting/mood: broad soft neutral key and fill, fixed exposure and white balance, clean even visibility.\nColor palette: natural dark-brown hair, natural skin tone, neutral gray background and plain gray top.\nMaterials/textures: individually readable natural hair strands and close-to-scalp cornrow texture; six small black end elastics.\nConstraints: exactly six straight-back cornrows, three per side, and exactly six distinct tails with elastics. Preserve identity A's appearance from Image 1. Image 2 governs count and layout only. One state only. No face, profile, labels, text, logo, watermark, split screen or collage.\nAvoid: illustration, diagram, hatching, flat geometry, invented extra rows or tails, box-grid hanging braids, obscured or cropped tails, extra subjects, jewelry or props.\nOutput: PNG, 1024x1536 pixels.\n",
+  "reference_paths": [
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/expression-E00.png",
+    "/home/declan/Documents/Projects/Products/01_Persnal_Work/FRAME_DB/public/generated/frame-assets/controls/hair-N07-six-rows.png"
+  ],
+  "reference_sha256": [
+    "a9bf81117a682fa947960bf81b0c32d815e095b86a40ae6cb5102f5c7d2bfafb",
+    "fdd9a5b11545adc218359ab5f1696eeb8ffea4955368a96c5d325866a99f2551"
+  ],
+  "requested_dimensions": {
+    "width": 1024,
+    "height": 1536,
+    "format": "png"
+  },
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "path": null,
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18d49-b986-7122-8013-7aef00533698/exec-b8f72209-c960-491c-88fc-4f8b28e9af35.png",
+  "sha256": "63730c26e926fb53f10a18b2e16929224539280119977735163761fac2dd0657",
+  "width": 1024,
+  "height": 1536,
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "rejected",
+    "visible_cornrow_rows": 5,
+    "visible_distinct_tails": 5,
+    "visible_black_elastics": 5,
+    "observation": "The rear-view image is photorealistic and shows five separated straight-back scalp rows, each continuing into one distinct tail with a black elastic. It does not meet the requested six rows, six tails and six elastics. The generated file is rejected and was not copied into the project output directory."
+  }
+}

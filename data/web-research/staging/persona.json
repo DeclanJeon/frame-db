@@ -1,0 +1,946 @@
+{
+  "schema_version": 1,
+  "category_id": "persona",
+  "collector": "omo-persona-collector-st_01a18af9",
+  "collected_at": "2026-10-30T04:04:28.381285+00:00",
+  "sources": [
+    {
+      "source_id": "dnd-personality-2014",
+      "url": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "title": "Chapter 4: Personality and Background",
+      "publisher": "Wizards of the Coast / D&D Beyond",
+      "authors": [],
+      "checked_at": "2026-10-30T04:04:28.381285+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "2014 Basic Rules, Chapter 4; Contrasting Characters L99–109; Alignment L142–145; Personal Characteristics L201–235; Backgrounds L248–251",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "공개 규칙 본문의 짧은 사실 요약만 기록. 2014 판본이며 최신 규칙이라는 주장이 아니다. 이 페이지 전체를 SRD 공개 라이선스 대상으로 간주하지 않는다. 삽화·캐릭터·원문 복제 및 상업 재배포 허락은 미확인.",
+        "attribution": "Wizards of the Coast / D&D Beyond, Chapter 4 및 2014 판본과 원문 링크를 유지. 재사용 라이선스와 추가 표시 의무는 미확인."
+      }
+    },
+    {
+      "source_id": "pixar-inside-out",
+      "url": "https://www.pixar.com/inside-out",
+      "title": "Inside Out",
+      "publisher": "Pixar Animation Studios",
+      "authors": [],
+      "checked_at": "2026-10-30T04:04:28.381285+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "The Characters: Joy, Sadness, Anger, Disgust, Fear, Bing Bong",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "제작사의 가상 캐릭터 소개 텍스트만 짧게 요약. 영화 시청·이미지 검사·미디어 취득은 하지 않았다. 캐릭터·사진·영상 복제, 개작, 상업 이용 허락은 미확인. 인간 심리의 실증적 분류가 아니다.",
+        "attribution": "Pixar Animation Studios와 Inside Out의 각 캐릭터 소개 및 원문 링크를 표시. 미디어 재사용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "weiland-dimensional-characters",
+      "url": "https://www.helpingwritersbecomeauthors.com/common-writing-mistakes-pt-51-one-dimensional-characters/",
+      "title": "Most Common Writing Mistakes, Pt. 51: One-Dimensional Characters",
+      "publisher": "Helping Writers Become Authors",
+      "authors": [
+        "K.M. Weiland"
+      ],
+      "checked_at": "2026-10-30T04:04:28.381285+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "4 Quick Ways to Avoid One-Dimensional Characters > 3. Create Multi-Faceted Details",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "저자가 제시한 창작론을 짧게 귀속 요약. 글 전체·번역문·영화 스틸의 복제 허락은 미확인. 작가의 설명을 실증된 성격 진단으로 취급하지 않는다.",
+        "attribution": "K.M. Weiland, Helping Writers Become Authors, 글 제목·절과 원문 링크를 유지. 추가 이용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "weiland-inner-conflict",
+      "url": "https://www.helpingwritersbecomeauthors.com/your-characters-inner-conflict-want-vs-want/",
+      "title": "Creating Your Character's Inner Conflict: Want vs. Need",
+      "publisher": "Helping Writers Become Authors",
+      "authors": [
+        "K.M. Weiland"
+      ],
+      "checked_at": "2026-10-30T04:04:28.381285+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "The Thing Your Character Wants: What Is It Really?; The Thing Your Character Needs: What Is It Really?",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "작가 자신의 캐릭터 변화 모델과 작품 해석만 귀속 요약. URL의 want-vs-want와 달리 실제 페이지 제목은 Want vs. Need이다. 원문·도표·영화 이미지 재사용 권리는 미확인. 실제 인물 진단에 적용하지 않는다.",
+        "attribution": "K.M. Weiland, Helping Writers Become Authors, 실제 페이지 제목과 원문 링크를 유지. 추가 이용 조건은 미확인."
+      }
+    },
+    {
+      "source_id": "openlearn-fiction-character",
+      "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=1622&printable=1",
+      "title": "Start writing fiction: View as single page",
+      "publisher": "The Open University / OpenLearn",
+      "authors": [
+        "Candida Clark"
+      ],
+      "checked_at": "2026-10-30T04:04:28.381285+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "1.2 Activity 2 and Discussion L65–83; 1.3 Activity 6 Discussion L183–191; 1.4 Activity 8 and Discussion L199–214; Acknowledgements L610–618",
+      "rights": {
+        "status": "restricted",
+        "evidence_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=1622&printable=1",
+        "scope": "Acknowledgements는 제3자·별도 표시 자료를 제외한 수업 본문에 CC BY-NC-SA 4.0을 명시한다. 상업 DB의 원문·이미지 복제 허락으로 확대하지 않는다. 공개 printable 본문의 짧은 귀속 요약만 사용하며 403인 연결 발췌문은 근거로 쓰지 않았다. 미디어 취득·음원 청취 없음.",
+        "attribution": "The Open University, Candida Clark, Start writing fiction. 적용 대상의 재사용 시 저자·출처·CC BY-NC-SA 4.0 링크·변경 고지 및 비상업·동일조건 준수가 필요하다. 제3자 자료는 별도 권리 확인 대상."
+      }
+    },
+    {
+      "source_id": "evilhat-aspect-labels",
+      "url": "https://evilhat.com/fate-on-roll20-part-2-aspects/",
+      "title": "Fate on Roll20, Part 2: Aspects",
+      "publisher": "Evil Hat Productions",
+      "authors": [],
+      "checked_at": "2026-10-30T04:04:28.381285+00:00",
+      "access": "public_body",
+      "primary": true,
+      "locator": "Aspect Types and Labels, L13–36, especially Fate Core/Fate Accelerated L19 and individual-sheet labels L33",
+      "rights": {
+        "status": "unknown",
+        "evidence_url": null,
+        "scope": "게임 발행사의 공개 설명 본문만 읽고 짧게 요약했다. 이 블로그 전체에 Fate SRD 라이선스를 추정 적용하지 않는다. 원문·화면·삽화의 복제 및 상업 재배포 허락은 미확인. Roll20 접속·조작이나 미디어 취득은 하지 않았다.",
+        "attribution": "Evil Hat Productions, Fate on Roll20, Part 2: Aspects 및 원문 링크를 유지. 개인 저자와 추가 이용 조건은 미확인."
+      }
+    }
+  ],
+  "records": [
+    {
+      "concept_key": "specific-personality-traits",
+      "title_ko": "구체적인 성격 특성",
+      "subtype": "개성 설계",
+      "summary": "D&D 2014의 가상 모험가 설계 지침.",
+      "facts": [
+        {
+          "field": "설계 단위",
+          "value": "두 특성을 부여한다.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Personal Characteristics > Personality Traits, first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "기술 기준",
+          "value": "형용사보다 구체적인 자기 설명.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Personality Traits, smart versus Candlekeep example",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정보 범위",
+          "value": "취향·성취·두려움·버릇.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Personality Traits, second paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "motivating-ideals",
+      "title_ko": "행동을 이끄는 이상",
+      "subtype": "동기·가치",
+      "summary": "D&D 2014의 가상 모험가 설계 지침.",
+      "facts": [
+        {
+          "field": "가치",
+          "value": "도덕·윤리 원칙.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Personal Characteristics > Ideals, first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "목표 범위",
+          "value": "인생 목표와 핵심 신념.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Ideals, first paragraph, life goals and belief system",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "판단 질문",
+          "value": "무엇을 위해 희생하는가.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Ideals, second paragraph, sacrifices question",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "bonds-as-motivators",
+      "title_ko": "유대가 만드는 동기",
+      "subtype": "관계·갈등",
+      "summary": "D&D 2014의 가상 모험가 설계 지침.",
+      "facts": [
+        {
+          "field": "연결 대상",
+          "value": "인물·장소·사건과의 연결.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Personal Characteristics > Bonds, first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "위협 조건",
+          "value": "위협받으면 자기 이익에 반하기도 한다.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Bonds, first paragraph, threatened bonds",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "변화 가능성",
+          "value": "모험 중 새 유대도 생긴다.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Bonds, final paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "exploitable-character-flaws",
+      "title_ko": "이익을 거스르게 하는 결함",
+      "subtype": "취약점·갈등",
+      "summary": "D&D 2014의 가상 모험가 설계 지침.",
+      "facts": [
+        {
+          "field": "결함 유형",
+          "value": "악덕·강박·공포·약점.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Personal Characteristics > Flaws, opening",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "갈등 기능",
+          "value": "타인이 악용해 파멸이나 불리한 행동을 유도할 수 있다.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Flaws, exploit to bring you to ruin",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "구별 기준",
+          "value": "단순한 부정적 특성보다 중대하다.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Flaws, more significant than negative personality traits",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "fictional-moral-alignment",
+      "title_ko": "가상 인물의 가치 성향 축",
+      "subtype": "가치 분류",
+      "summary": "D&D 2014의 가상 모험가 설계 지침.",
+      "facts": [
+        {
+          "field": "분류 축",
+          "value": "도덕성과 질서에 대한 태도.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Alignment, first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "조합 수",
+          "value": "두 축으로 아홉 성향.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Alignment, first paragraph, nine alignments",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "행동 한계",
+          "value": "개인차가 크다.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Alignment, second paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "background-transition-to-adventure",
+      "title_ko": "과거에서 모험으로의 전환",
+      "subtype": "배경·동기",
+      "summary": "D&D 2014의 가상 모험가 설계 지침.",
+      "facts": [
+        {
+          "field": "배경 기능",
+          "value": "출신·세계 내 위치.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Backgrounds, first paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "전환 질문",
+          "value": "왜 이전 생활을 떠났는가.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Backgrounds, second paragraph, what changed",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "차별화 질문",
+          "value": "같은 배경에서 무엇이 다른가.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Backgrounds, second paragraph, ordinary people",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "differentiate-cast-with-shared-type",
+      "title_ko": "같은 성격 유형의 캐스트 구분",
+      "subtype": "캐스트 차별화",
+      "summary": "D&D(2014)의 대비 사례.",
+      "facts": [
+        {
+          "field": "공통 역할",
+          "value": "티카와 아르테미스는 인간 전사.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Tika and Artemis: Contrasting Characters, closing paragraph (L109)",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "서로 다른 가치",
+          "value": "생명 존중 대 권력 추구.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Tika and Artemis: Personal Characteristics, ideals paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "서로 다른 유대",
+          "value": "여관에 대한 애착 대 경쟁자와의 경쟁.",
+          "evidence": {
+            "source_id": "dnd-personality-2014",
+            "locator": "Tika and Artemis: Personal Characteristics, bond paragraphs",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [],
+      "existing_entry_id": "CRAFT-persona-5283e45cb298",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "inside-out-joy",
+      "title_ko": "기쁨이의 행복 유지 동기",
+      "subtype": "가상 캐릭터 사례",
+      "summary": "Pixar의 가상 인물 설정이며 실제 심리 유형이 아니다.",
+      "facts": [
+        {
+          "field": "목표",
+          "value": "라일리를 행복하게 유지한다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Joy, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "문제 해석",
+          "value": "도전을 기회로 여긴다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Joy, challenges sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "정서 조건",
+          "value": "라일리가 행복하면 자신도 행복하다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Joy, final sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "동기",
+        "Inside Out"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "inside-out-sadness",
+      "title_ko": "슬픔이의 도움 욕구와 어려움",
+      "subtype": "가상 캐릭터 사례",
+      "summary": "Pixar의 가상 인물 설정이며 실제 심리 유형이 아니다.",
+      "facts": [
+        {
+          "field": "관계의 문제",
+          "value": "다른 감정들은 역할을 이해하지 못한다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Sadness, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "욕구",
+          "value": "더 낙관적이고 도움이 되고 싶다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Sadness, second sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "내적 장애물",
+          "value": "긍정적으로 지내기가 어렵다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Sadness, second sentence, difficulty being positive",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "갈등",
+        "Inside Out"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "inside-out-anger",
+      "title_ko": "버럭이의 공정성과 폭발 반응",
+      "subtype": "가상 캐릭터 사례",
+      "summary": "Pixar의 가상 인물 설정이며 실제 심리 유형이 아니다.",
+      "facts": [
+        {
+          "field": "가치",
+          "value": "라일리에게 공정해야 한다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Anger, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "촉발 조건",
+          "value": "계획대로 안 되면 폭발한다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Anger, second sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "반응 성향",
+          "value": "과잉 반응하며 인내심이 적다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Anger, final sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "조건부 행동",
+        "Inside Out"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "inside-out-disgust",
+      "title_ko": "까칠이의 보호 기준",
+      "subtype": "가상 캐릭터 사례",
+      "summary": "Pixar의 가상 인물 설정이며 실제 심리 유형이 아니다.",
+      "facts": [
+        {
+          "field": "보호 목적",
+          "value": "신체적·사회적 독으로부터 라일리를 보호한다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Disgust, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "주의 대상",
+          "value": "접촉하는 사람·장소·물건을 살핀다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Disgust, second sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "고정 기준",
+          "value": "자기 기준을 낮추지 않는다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Disgust, final sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "가치",
+        "Inside Out"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "inside-out-fear",
+      "title_ko": "소심이의 안전 우선 판단",
+      "subtype": "가상 캐릭터 사례",
+      "summary": "Pixar의 가상 인물 설정이며 실제 심리 유형이 아니다.",
+      "facts": [
+        {
+          "field": "목표",
+          "value": "라일리를 안전하게 보호한다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Fear, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "일상 행동",
+          "value": "일상 활동의 위험을 평가한다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Fear, second sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "판단 편향",
+          "value": "거의 모든 활동을 위험하게 본다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Fear, final sentence",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "안전",
+        "Inside Out"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "inside-out-bing-bong",
+      "title_ko": "빙봉의 잊히지 않으려는 동기",
+      "subtype": "가상 캐릭터 사례",
+      "summary": "Pixar의 가상 인물 설정이며 실제 심리 유형이 아니다.",
+      "facts": [
+        {
+          "field": "관계",
+          "value": "라일리의 상상 속 친구.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Bing Bong, first sentence",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "역할 상실",
+          "value": "라일리가 네 살이 된 뒤 일거리가 없다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Bing Bong, final sentence, out of work since four",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "욕구",
+          "value": "라일리가 자라도 뒤처지고 싶지 않다.",
+          "evidence": {
+            "source_id": "pixar-inside-out",
+            "locator": "The Characters > Bing Bong, final sentence, not left behind",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "관계",
+        "Inside Out"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "strength-and-weakness-shared-root",
+      "title_ko": "강점과 약점의 같은 뿌리",
+      "subtype": "캐릭터 깊이",
+      "summary": "Weiland의 강점·약점 연결론으로 기존 가이드를 보강한다.",
+      "facts": [
+        {
+          "field": "양면성 설계",
+          "value": "좋은 특성의 나쁜 면과 그 반대편을 찾도록 권한다.",
+          "evidence": {
+            "source_id": "weiland-dimensional-characters",
+            "locator": "3. Create Multi-Faceted Details, good trait and bad paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "동기 탐색",
+          "value": "운동선수라는 설정 뒤에 부모 인정이나 자기 가치 증명 등의 이유를 질문한다.",
+          "evidence": {
+            "source_id": "weiland-dimensional-characters",
+            "locator": "3. Create Multi-Faceted Details, star athlete paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "내적 갈등",
+          "value": "중요한 두 특성·신념의 우위 다툼을 캐릭터 변화의 중심으로 설명한다.",
+          "evidence": {
+            "source_id": "weiland-dimensional-characters",
+            "locator": "3. Create Multi-Faceted Details, heart of character arcs paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "강점",
+        "약점",
+        "작가의 창작론"
+      ],
+      "existing_entry_id": "CRAFT-persona-c5a5d1823081",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "want-versus-need",
+      "title_ko": "표면적 욕구와 내적 필요",
+      "subtype": "동기·변화",
+      "summary": "Weiland 모델에서 욕구와 필요는 동일하지 않으며, 욕구 자체가 항상 악한 것도 아니다.",
+      "facts": [
+        {
+          "field": "욕구의 기능",
+          "value": "욕구를 줄거리를 전진시키는 목표에 연결한다.",
+          "evidence": {
+            "source_id": "weiland-inner-conflict",
+            "locator": "The Thing Your Character Wants: What Is It Really?, opening paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "필요의 기능",
+          "value": "필요를 이야기의 주제적 가치와 진실에 연결한다.",
+          "evidence": {
+            "source_id": "weiland-inner-conflict",
+            "locator": "The Thing Your Character Needs: What Is It Really?, opening paragraph",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "단순화의 한계",
+          "value": "추구하는 대상이 좋아도 동기가 잘못될 수 있다고 설명한다.",
+          "evidence": {
+            "source_id": "weiland-inner-conflict",
+            "locator": "The Thing Your Character Wants: What Is It Really?, paragraph beginning However, even more often",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "욕구",
+        "필요",
+        "작가의 창작론"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "ghost-and-misbelief",
+      "title_ko": "과거의 상처와 잘못된 신념",
+      "subtype": "배경·신념·갈등",
+      "summary": "Weiland가 설명한 Ghost와 Lie의 연결. 실제 사람의 과거사를 추정하는 도구는 아니다.",
+      "facts": [
+        {
+          "field": "신념의 기원",
+          "value": "과거의 Ghost가 내적 결핍이나 장애를 만든다는 모델이다.",
+          "evidence": {
+            "source_id": "weiland-inner-conflict",
+            "locator": "The Thing Your Character Wants: What Is It Really?, paragraph beginning At the root of the Lie",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "당사자의 해석",
+          "value": "인물은 자기 오해를 문제보다 해결책으로 받아들일 수 있다.",
+          "evidence": {
+            "source_id": "weiland-inner-conflict",
+            "locator": "The Thing Your Character Wants: What Is It Really?, paragraph ending he sees it as the answer",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "저자의 작품 해석",
+          "value": "루크가 아버지처럼 되어야 가치 있다고 믿는 것이 조급한 모험욕을 부추긴다고 해석한다.",
+          "evidence": {
+            "source_id": "weiland-inner-conflict",
+            "locator": "The Thing Your Character Wants: What Is It Really?, Luke Skywalker's Lie paragraph",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "과거",
+        "신념",
+        "작가의 작품 해석"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "contradiction-against-stereotype",
+      "title_ko": "고정관념을 뒤집는 인물의 모순",
+      "subtype": "입체 인물·모순",
+      "summary": "OpenLearn은 고정관념과 어긋나는 면으로 인물을 입체화하는 실습을 제시한다.",
+      "facts": [
+        {
+          "field": "입체화 방법",
+          "value": "인물의 모순을 보여주는 방법을 제시한다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.2 Round and flat characters, Activity 2 introduction, L70",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "대비 사례",
+          "value": "꼼꼼한 관리자가 집에서는 어질러 놓는 예다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.2 Activity 2, Examples, L78",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "시점 재검토",
+          "value": "거리를 둔 묘사는 인물 자신의 목소리로 다시 써 보게 한다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.2 Activity 2, Discussion, L83",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "가상 인물",
+        "모순",
+        "고정관념"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "multiaxis-character-outline",
+      "title_ko": "다축 캐릭터 개요",
+      "subtype": "캐릭터 설계 범위",
+      "summary": "OpenLearn의 개요 실습은 몸·내면·관계·이력을 구분한다.",
+      "facts": [
+        {
+          "field": "신체 축",
+          "value": "나이·걸음걸이·목소리 등을 기록한다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.3 Activity 6, Discussion, Physical/biological, L188",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "심리 축",
+          "value": "기질·태도·자기 인식 등을 다룬다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.3 Activity 6, Discussion, Psychological, L189",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "관계와 이력 축",
+          "value": "관계·가치와 주요 생애 사건도 별도로 다룬다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.3 Activity 6, Discussion, Interpersonal/cultural and Personal history, L190–191",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "가상 인물",
+        "설계 범위",
+        "가치"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    },
+    {
+      "concept_key": "habit-as-narrative-information",
+      "title_ko": "습관을 서사 정보로 사용",
+      "subtype": "행동 습관",
+      "summary": "OpenLearn으로 기존 가이드의 습관 묘사 부분만 보강한다. 습관 변화의 원인은 여기서 입증하지 않는다.",
+      "facts": [
+        {
+          "field": "행동 표현",
+          "value": "반복 행동으로 성격을 보여주게 한다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.4 Portraying a character, Activity 8, L210",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "교차 표현",
+          "value": "동일 인물을 요약·외모·습관·장면 발화로 표현한다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.4 Activity 8, L206–211",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "일관성 확인",
+          "value": "각 표현을 비교해 설정 모순이 없는지 확인한다.",
+          "evidence": {
+            "source_id": "openlearn-fiction-character",
+            "locator": "1.4 Activity 8, Discussion, L214",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "행동 습관",
+        "가상 인물",
+        "일관성"
+      ],
+      "existing_entry_id": "CRAFT-persona-223de4cb1984",
+      "media_candidates": []
+    },
+    {
+      "concept_key": "fate-aspect-identity-and-trouble",
+      "title_ko": "Fate의 정체성과 곤경 어스펙트",
+      "subtype": "게임 캐릭터 설계",
+      "summary": "Evil Hat이 설명하는 Fate의 캐릭터 측면 기록 구조다.",
+      "facts": [
+        {
+          "field": "기본 측면",
+          "value": "Fate Core와 Accelerated는 High Concept와 Trouble에서 시작한다.",
+          "evidence": {
+            "source_id": "evilhat-aspect-labels",
+            "locator": "Aspect Types and Labels, L19–21",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "추가 측면",
+          "value": "생성 중이나 플레이 중 다른 측면을 최대 셋 더 만든다.",
+          "evidence": {
+            "source_id": "evilhat-aspect-labels",
+            "locator": "Aspect Types and Labels, L19",
+            "kind": "source_claim"
+          }
+        },
+        {
+          "field": "설정별 구분",
+          "value": "War of Ashes에는 Faction Aspect도 포함된다.",
+          "evidence": {
+            "source_id": "evilhat-aspect-labels",
+            "locator": "Aspect Types and Labels, L23–25",
+            "kind": "source_claim"
+          }
+        }
+      ],
+      "proposals": [],
+      "tags": [
+        "Fate",
+        "가상 인물",
+        "정체성",
+        "갈등"
+      ],
+      "existing_entry_id": null,
+      "media_candidates": []
+    }
+  ],
+  "shortfall_reason": ""
+}

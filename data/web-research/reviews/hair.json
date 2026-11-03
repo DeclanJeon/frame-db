@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "category_id": "hair",
+  "input_sha256": "80aff9bcf6335af10e0736e52f325b299b4105243911bf3d309257e68cd4af60",
+  "reviewer": "hair-independent-reviewer-st_01a18966",
+  "reviewed_at": "2026-10-29T20:47:56.182Z",
+  "accepted_concept_keys": [
+    "curtain-bangs",
+    "high-ponytail",
+    "roller-barrel-waves",
+    "asymmetrical-bob",
+    "wolf-cut",
+    "dutch-braid",
+    "long-layers",
+    "layered-lob",
+    "wispy-bangs",
+    "tousled-pixie",
+    "nape-chignon",
+    "blunt-fringe",
+    "buzz-cut",
+    "crew-cut",
+    "wet-look",
+    "french-bob",
+    "chin-blunt-bob",
+    "slick-back"
+  ],
+  "rejected": [
+    {
+      "concept_key": "butterfly-cut",
+      "reason": "Cannot independently verify the three staged fields against their exact cited primary section: https://www.redken.com/blog/best-winter-haircuts-trends.html > wolf/butterfly section, staging L288. Initial web open exposed site chrome/header only in the returned excerpt; repeated section opens/find requests timed out, and a direct public-body fetch returned HTTP 403 with empty extracted text. I did not read the butterfly paragraph and cannot certify face-framing layers, retained length or a tucked-back short-cut appearance from this source. A readable butterfly section exists at the separately cited L’Oréal wavy-hair URL, but it does not establish all these exact fields or replace the staged Redken evidence without producer revision and a new hash. Rejected individually for insufficient accessible cited evidence, not because the concept is known false. No rights or successful-body check is fabricated for Redken."
+    },
+    {
+      "concept_key": "bixie-cut",
+      "reason": "Cannot independently verify the three staged fields against https://www.redken.com/blog/best-winter-haircuts-trends.html > short cuts / Bixie, staging L248 and L290–292. The initial returned excerpt contained site chrome, requested article sections/finds timed out, and direct fetch returned HTTP 403 with empty extracted text. I did not read the cited pixie/bob combination, longer-than-pixie comparison or face/neck softness description. A distinct label and valid JSON are not evidence, nor proof against a wording-derived pixie variant. No replacement primary paragraph supporting all three fields was inspected; producer evidence revision is required. Rejected individually with rights still unverified, not promoted to a checked public_body source."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "lp-curtain",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156)",
+      "rights_checked": true,
+      "notes": "Reopened the actual L’Oréal Paris article; title, Beauty Magazine byline and May 14, 2024 date are visible. Verified the three concepts separately, not as differently worded duplicates. Curtain bangs enrich FS-0006; high ponytail enriches FS-0004; roller-set retro/bombshell waves enrich CRAFT-hair-9bc2665c1374 rather than create a roller variant row. The medium length and female label are inherited guide context, not additional source findings. The 90% drying estimate and 1–2-inch sections are publisher instructions, not reviewer measurements. The article credits IG/@hairbylessan and contains third-party embeds; no image or embedded media was inspected or acquired. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "lp-asymmetric",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "ASYMMETRICAL BOB TIP #2: ANGLE IT; TIP #5: WEAR IT WITH A DEEP SIDE PART (L28–30, L37–39)",
+      "rights_checked": true,
+      "notes": "Read both cited paragraphs on the publisher’s article. H1 matches the stored title; HTML title uses 10 Styling Tips For Asymmetrical Bobs. August 29, 2019 is visible; no latest-trend claim accepted. The record enriches the existing asymmetric bob guide CRAFT-hair-fae7b816d152, not a separate translated concept. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "dyson-wolf",
+      "url": "https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "What is a wolf cut?; Blow-drying the wolf cut (L63–65, L94–100)",
+      "rights_checked": true,
+      "notes": "Read Dyson’s definition and drying instructions, with March 18, 2026 date and matching title. All four fields describe the generic wolf cut; they do not establish male-only dimensions or a separately measured soft variant. The summary explicitly preserves that limitation. Existing guide CRAFT-hair-9eb96d64ed83 receives contextual enrichment only; no new male/soft concept is counted. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "lp-dutch",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "How To Dutch Braid Your Hair > Step #2: Section Your Hair; Step #3: Anchor Your Braid; Step #4: Repeat (L32–40)",
+      "rights_checked": true,
+      "notes": "Read the publisher’s full numbered procedure, not merely its title. The under-centre crossings distinguish this technique from the other existing side braid guide. Existing_entry_id CRAFT-hair-2c3c47d0ace7 matches the actual Dutch braid guide. H1 and May 01, 2021 date visible. The page separately credits photographer Becca Solovay; this is a photo credit, not evidence of a reusable licensed image. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "lp-wavy",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers",
+      "rights_checked": true,
+      "notes": "Initial web open exposed the article header/byline, but subsequent section requests timed out. A direct public-body markdown fetch of the exact URL succeeded, and all three complete relevant sections were read. H1/list say 16, while the HTML title says 21; Kaitlin Clapinski and August 15, 2024 are visible. Long layers enrich FS-0002; collarbone-length layered lob enriches CRAFT-hair-fcee59be5f4f, not a new length variant. Wispy bangs are a separately named airy fringe, not a spelling variant of curtain bangs or blunt fringe; no exact same concept exists in the 45 originals. The 6–8-week interval is attributed advice, not measurement. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "lp-fine",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47)",
+      "rights_checked": true,
+      "notes": "Read all three actual sections. H1 is 25 Hairstyles for Fine Hair; August 16, 2019 visible, with no article byline identified. Header/nav changes shifted numeric lines by four relative to staging; the numbered section locators remain unambiguous. Tousled pixie enriches FS-0005 without making a texture-only new row. Nape chignon enriches the smooth-knotted CRAFT-hair-29e4256f3668 guide; FS-0003 describes a loose low bun with flyaways, so it is not treated as a second new acquired concept. Blunt fringe is a separately named straight-cut fringe; the source’s fuller appearance claim remains explicitly attributed, not a measured density gain. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "lp-buzz",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "WHAT IS A BUZZ CUT?; 10 BUZZ CUT HAIRSTYLES FOR MEN > 7. CREW CUT BUZZ CUT > The look / Style tip",
+      "rights_checked": true,
+      "notes": "Read the definition on web open, then the exact primary URL via a successful public markdown fetch after section requests timed out. Read the entire crew-cut combination paragraph and style tip. The paragraph distinguishes generic crew-cut top/back/sides from its extra-short buzz combination; the record retains that distinction. Buzz cut enriches FS-0011 and crew cut enriches CRAFT-hair-95f1771af91c. These are independently defined structures, not two spellings for the same concept. The 1/8–1/2-inch range is the article’s definition, not a universal specification or measurement. H1 and November 20, 2020 date are visible. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "lp-wet",
+      "url": "https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "How To Get the Wet Hair Look > 1. Start with damp hair; 2. Apply gel to your roots and lengths; 5. Keep the style in place with hair spray (L113–130)",
+      "rights_checked": true,
+      "notes": "Read the actual three steps. H1, Roberto Rodriguez byline and April 03, 2025 date match the metadata. Damp rather than dripping hair, root-down gel application and limited gel at ends, and spray finishing are attributed styling instructions. Wet look enriches FS-0014. CRAFT-hair-4b4ae3ff143b is a more specifically slick styling guide; no additional row or acquired wet-look media is created. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "davines-wet",
+      "url": "https://us.davines.com/blogs/news/how-to-get-the-wet-hair-look",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "FAQ > What exactly is “wet look” hair? (L594–596)",
+      "rights_checked": true,
+      "notes": "Read the actual FAQ definition on the Davines-owned page, not a search extract. It independently corroborates a high-shine product-created appearance resembling freshly washed damp hair. The record retains both publishers’ provenance without turning them into a second wet-look concept. Title matches the stored title; no named article author was established from the inspected section. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "haircom-french",
+      "url": "https://www.hair.com/french-bob.html",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "What Is the Difference Between a Bob and a French Bob?; Does a French Bob Have Layers?; Is a French Bob High Maintenance?; How Short Is a French Bob? (L109–128)",
+      "rights_checked": true,
+      "notes": "Despite generic offline/JavaScript warnings in the site chrome, the actual full article paragraphs were accessible and read. Matching H1, Gillian Fuller/L’Oréal Professional Products Division byline, August 29, 2024 date visible. Distinguishes soft-layered traditional French bob with fringe from the unlayered blunt bob; enriches CRAFT-hair-3c739a641a37. The 4–6-week recommendation is conditional on growth speed, not a measured guarantee. Individual photos have separate Instagram credits; those credits confer no FRAME_DB reuse permission. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "haircom-blunt",
+      "url": "https://www.hair.com/blunt-bob-with-bangs.html",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "What is a blunt cut bob?; What is the difference between a bob and a blunt bob?; The Best Ways To Try A Blunt Bob With Bangs > Chin Length (L103–112, L195–197)",
+      "rights_checked": true,
+      "notes": "Actual article paragraphs were read despite generic offline/JavaScript site chrome. Matching H1, Hair.com/L’Oréal Professional Products Division attribution visible. Date says September 1, 2026, title says 2025 and body mentions 2023; no current-trend assertions accepted. Same-length/no-layer straight perimeter and explicitly named chin-length example support enrichment of CRAFT-hair-172e978476d9, not a separate length-derived new concept. Individual photos have third-party credits and are not licensed by this review. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    },
+    {
+      "source_id": "ghd-slick",
+      "url": "https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight",
+      "checked_at": "2026-10-29T20:47:56.182Z",
+      "access": "public_body",
+      "locator": "SLICK BACK STRAIGHT > STEP BY STEPS > STEP 2 PART HAIR DOWN THE CENTRE & SECTION; STEP 7 SMOOTH THE HAIR BEHIND THE EAR; STEP 8 FINISH WITH GHD PERFECT ENDING - FINAL FIX HAIRSPRAY (current L236–272)",
+      "rights_checked": true,
+      "notes": "Read the actual ghd Australia tutorial steps and its introduction. Navigation changes shift the staging numeric line offsets; the named step numbers and text still resolve precisely. All fields describe this particular centre-parted tutorial, not a claim that every slick-back has a centre part. Enriches FS-0009; no centre-part or accessory variant is counted. Footer identifies © Jemella Ltd 2026. Text read only; step images not inspected or acquired. Rights review: staging unknown status is retained. Public reading and factual summarization do not establish reproduction, adaptation, redistribution, commercial, personality or AI-upload rights. No explicit reuse permission was verified; this is not a license grant. No media candidate, download, upload, visual inspection or acquired-media count is present."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "concept_key": "curtain-bangs",
+      "field": "앞머리_형태",
+      "source_id": "lp-curtain",
+      "locator": "정의 문단 L35",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). Definition identifies a long, layered fringe."
+    },
+    {
+      "concept_key": "curtain-bangs",
+      "field": "앞머리_도달점",
+      "source_id": "lp-curtain",
+      "locator": "정의 문단 L35",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). Definition places the fringe around the top of the cheekbones."
+    },
+    {
+      "concept_key": "curtain-bangs",
+      "field": "가르마",
+      "source_id": "lp-curtain",
+      "locator": "정의 문단 L35",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). Definition says the style is typically worn with a middle part."
+    },
+    {
+      "concept_key": "high-ponytail",
+      "field": "결합_앞머리",
+      "source_id": "lp-curtain",
+      "locator": "스타일 목록 2번 L129–133",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). Named high-ponytail section explicitly pairs it with curtain bangs."
+    },
+    {
+      "concept_key": "high-ponytail",
+      "field": "준비_순서",
+      "source_id": "lp-curtain",
+      "locator": "스타일 목록 2번 L133",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). The procedure blow-dries the fringe into place before gathering the hair."
+    },
+    {
+      "concept_key": "high-ponytail",
+      "field": "묶는_위치",
+      "source_id": "lp-curtain",
+      "locator": "스타일 목록 2번 L133",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). The gathering point is the crown of the head."
+    },
+    {
+      "concept_key": "roller-barrel-waves",
+      "field": "세팅_준비",
+      "source_id": "lp-curtain",
+      "locator": "스타일 목록 5번 L155",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). Retro waves specifies volumizing mousse followed by rough-drying to about 90%; this is a source estimate, not an independently measured water content."
+    },
+    {
+      "concept_key": "roller-barrel-waves",
+      "field": "롤러_섹션",
+      "source_id": "lp-curtain",
+      "locator": "스타일 목록 5번 L155",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). The procedure specifies wrapping 1–2-inch hair sections around rollers and clipping them. The size refers to hair sections, not roller diameter."
+    },
+    {
+      "concept_key": "roller-barrel-waves",
+      "field": "해제_조건",
+      "source_id": "lp-curtain",
+      "locator": "스타일 목록 5번 L156",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-get-curtain-bangs; independently read section: What Are Curtain Bangs?; 5 Hairstyles That Look Amazing with Curtain Bangs > 2. High ponytail; 5. Retro waves (body L35, L129–133, L152–156). The next paragraph removes rollers after the lengths are completely dry. This is a publisher instruction, not a measured drying-time claim."
+    },
+    {
+      "concept_key": "asymmetrical-bob",
+      "field": "좌우_길이",
+      "source_id": "lp-asymmetric",
+      "locator": "조언 2, L30",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob; independently read section: ASYMMETRICAL BOB TIP #2: ANGLE IT; TIP #5: WEAR IT WITH A DEEP SIDE PART (L28–30, L37–39). Tip #2 defines one side as longer."
+    },
+    {
+      "concept_key": "asymmetrical-bob",
+      "field": "길이_전환",
+      "source_id": "lp-asymmetric",
+      "locator": "조언 2, L30",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob; independently read section: ASYMMETRICAL BOB TIP #2: ANGLE IT; TIP #5: WEAR IT WITH A DEEP SIDE PART (L28–30, L37–39). Tip #2 recommends an angled, gradual transition between sides rather than an abrupt geometric cut."
+    },
+    {
+      "concept_key": "asymmetrical-bob",
+      "field": "가르마_배치",
+      "source_id": "lp-asymmetric",
+      "locator": "조언 5, L39",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/how-to-rock-an-asymmetrical-bob; independently read section: ASYMMETRICAL BOB TIP #2: ANGLE IT; TIP #5: WEAR IT WITH A DEEP SIDE PART (L28–30, L37–39). Tip #5 places the longer side on the deeper side of a deep side part."
+    },
+    {
+      "concept_key": "wolf-cut",
+      "field": "레이어_구조",
+      "source_id": "dyson-wolf",
+      "locator": "울프 커트 정의 L65",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut; independently read section: What is a wolf cut?; Blow-drying the wolf cut (L63–65, L94–100). Dyson’s definition explicitly identifies strong layers."
+    },
+    {
+      "concept_key": "wolf-cut",
+      "field": "볼륨_위치",
+      "source_id": "dyson-wolf",
+      "locator": "울프 커트 정의 L65",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut; independently read section: What is a wolf cut?; Blow-drying the wolf cut (L63–65, L94–100). The same definition concentrates volume at the top of the head."
+    },
+    {
+      "concept_key": "wolf-cut",
+      "field": "끝_질감",
+      "source_id": "dyson-wolf",
+      "locator": "울프 커트 정의 L65",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut; independently read section: What is a wolf cut?; Blow-drying the wolf cut (L63–65, L94–100). The definition identifies light, frayed tips and an untamed look."
+    },
+    {
+      "concept_key": "wolf-cut",
+      "field": "드라이_조건",
+      "source_id": "dyson-wolf",
+      "locator": "드라이 절 L100",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.dyson.com/discover/news/latest/how-to-style-a-wolf-cut; independently read section: What is a wolf cut?; Blow-drying the wolf cut (L63–65, L94–100). The blow-drying section lifts roots away from the head and advises against over-smoothing the ends."
+    },
+    {
+      "concept_key": "dutch-braid",
+      "field": "시작_분할",
+      "source_id": "lp-dutch",
+      "locator": "단계 2, L34",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair; independently read section: How To Dutch Braid Your Hair > Step #2: Section Your Hair; Step #3: Anchor Your Braid; Step #4: Repeat (L32–40). Step #2 divides the initial hairline section into three equally sized strands."
+    },
+    {
+      "concept_key": "dutch-braid",
+      "field": "교차_방향",
+      "source_id": "lp-dutch",
+      "locator": "단계 3, L37",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair; independently read section: How To Dutch Braid Your Hair > Step #2: Section Your Hair; Step #3: Anchor Your Braid; Step #4: Repeat (L32–40). Step #3 crosses right under middle, then left under the new middle; the changing middle strand is preserved by the recorded alternating procedure."
+    },
+    {
+      "concept_key": "dutch-braid",
+      "field": "모발_추가",
+      "source_id": "lp-dutch",
+      "locator": "단계 3, L37",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair; independently read section: How To Dutch Braid Your Hair > Step #2: Section Your Hair; Step #3: Anchor Your Braid; Step #4: Repeat (L32–40). Step #3 gradually adds hair to left and right strands as braiding continues."
+    },
+    {
+      "concept_key": "dutch-braid",
+      "field": "끝_고정",
+      "source_id": "lp-dutch",
+      "locator": "단계 4, L40",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/braid-hairstyles/how-to-dutch-braid-hair; independently read section: How To Dutch Braid Your Hair > Step #2: Section Your Hair; Step #3: Anchor Your Braid; Step #4: Repeat (L32–40). Step #4 finishes the remaining length in a three-strand plait and secures it with an elastic."
+    },
+    {
+      "concept_key": "long-layers",
+      "field": "길이_보존",
+      "source_id": "lp-wavy",
+      "locator": "목록 11번 L97",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 11 describes adding layers without sacrificing length."
+    },
+    {
+      "concept_key": "long-layers",
+      "field": "층의_역할",
+      "source_id": "lp-wavy",
+      "locator": "목록 11번 L97",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 11 attributes movement and enhancement of natural texture to layering; no independent effect measurement is asserted."
+    },
+    {
+      "concept_key": "long-layers",
+      "field": "끝_관리",
+      "source_id": "lp-wavy",
+      "locator": "목록 11번 L97",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 11 recommends trims for split ends once every six to eight weeks; the number is publisher advice."
+    },
+    {
+      "concept_key": "layered-lob",
+      "field": "길이_기준",
+      "source_id": "lp-wavy",
+      "locator": "목록 4번 L64",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 4 explicitly describes a collarbone-skimming long bob. This adds sourced context to the existing shoulder-length guide rather than overwriting its original instructions."
+    },
+    {
+      "concept_key": "layered-lob",
+      "field": "층의_질감",
+      "source_id": "lp-wavy",
+      "locator": "목록 4번 L64",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 4 explicitly calls the lob choppy and layered."
+    },
+    {
+      "concept_key": "layered-lob",
+      "field": "볼륨_설명",
+      "source_id": "lp-wavy",
+      "locator": "목록 4번 L64",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 4 attributes extra volume and bounce to the layered wavy lob; this remains a brand claim."
+    },
+    {
+      "concept_key": "wispy-bangs",
+      "field": "앞머리_밀도",
+      "source_id": "lp-wavy",
+      "locator": "목록 6번 L74",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 6 describes long, airy bangs."
+    },
+    {
+      "concept_key": "wispy-bangs",
+      "field": "얼굴_주변",
+      "source_id": "lp-wavy",
+      "locator": "목록 6번 L74",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 6 says they frame the face and highlight wavy strands."
+    },
+    {
+      "concept_key": "wispy-bangs",
+      "field": "정리_방법",
+      "source_id": "lp-wavy",
+      "locator": "목록 6번 L74",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/haircuts-for-wavy-hair; independently read section: 16 Haircut Ideas for Wavy Hair > 4. Long layered lob; 6. Wispy bangs; 11. Long layers. Section 6 explicitly offers clipping them back or hiding them with the remaining hair."
+    },
+    {
+      "concept_key": "tousled-pixie",
+      "field": "기본_길이",
+      "source_id": "lp-fine",
+      "locator": "목록 4번 L33",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). Section #4 calls the pixie super-short (current L37, rather than the staging L33 after header shift)."
+    },
+    {
+      "concept_key": "tousled-pixie",
+      "field": "스타일링_재료",
+      "source_id": "lp-fine",
+      "locator": "목록 4번 L33",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). Section #4 styles individual pieces with pomade to create the tousled effect (current L37)."
+    },
+    {
+      "concept_key": "tousled-pixie",
+      "field": "가닥_처리",
+      "source_id": "lp-fine",
+      "locator": "목록 4번 L34",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). The next paragraph applies a small fingertip amount to individual sections, styling in random directions (current L38)."
+    },
+    {
+      "concept_key": "nape-chignon",
+      "field": "매듭_위치",
+      "source_id": "lp-fine",
+      "locator": "목록 7번 L42",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). Section #7 describes a low-bun chignon placed at the nape (current L46)."
+    },
+    {
+      "concept_key": "nape-chignon",
+      "field": "가르마",
+      "source_id": "lp-fine",
+      "locator": "목록 7번 L42",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). The same paragraph explicitly uses a centre-parted chignon example, not a universal requirement."
+    },
+    {
+      "concept_key": "nape-chignon",
+      "field": "제품_적용",
+      "source_id": "lp-fine",
+      "locator": "목록 7번 L42",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). The paragraph applies a bit of gel to the upper hair just below the root; this is text instruction, not an inspected image observation."
+    },
+    {
+      "concept_key": "blunt-fringe",
+      "field": "도달_높이",
+      "source_id": "lp-fine",
+      "locator": "목록 2번 L27",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). Section #2 uses eyebrow-grazing fringe (current L31)."
+    },
+    {
+      "concept_key": "blunt-fringe",
+      "field": "끝선_형태",
+      "source_id": "lp-fine",
+      "locator": "목록 2번 L27",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). The same paragraph explicitly cuts bangs in a straight line."
+    },
+    {
+      "concept_key": "blunt-fringe",
+      "field": "밀도_설명",
+      "source_id": "lp-fine",
+      "locator": "목록 2번 L27",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/hairstyles-for-fine-hair; independently read section: FINE HAIRSTYLE #2: BLUNT BANGS; #4: TOUSLED PIXIE; #7: LOW-BUN CHIGNON (current body L29–38, L45–47). The paragraph claims evenly distributed density creates a fuller appearance. The Korean value accurately labels this as the brand’s explanation, not increased actual follicle density."
+    },
+    {
+      "concept_key": "buzz-cut",
+      "field": "길이_범위",
+      "source_id": "lp-buzz",
+      "locator": "정의 절 L27",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men; independently read section: WHAT IS A BUZZ CUT?; 10 BUZZ CUT HAIRSTYLES FOR MEN > 7. CREW CUT BUZZ CUT > The look / Style tip. The definition states one-eighth to half an inch remaining. The record correctly uses source_claim, not measurement."
+    },
+    {
+      "concept_key": "buzz-cut",
+      "field": "커트_도구",
+      "source_id": "lp-buzz",
+      "locator": "정의 절 L27",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men; independently read section: WHAT IS A BUZZ CUT?; 10 BUZZ CUT HAIRSTYLES FOR MEN > 7. CREW CUT BUZZ CUT > The look / Style tip. The definition describes electric clippers with attachments called guards."
+    },
+    {
+      "concept_key": "buzz-cut",
+      "field": "길이_분포",
+      "source_id": "lp-buzz",
+      "locator": "정의 절 L28",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men; independently read section: WHAT IS A BUZZ CUT?; 10 BUZZ CUT HAIRSTYLES FOR MEN > 7. CREW CUT BUZZ CUT > The look / Style tip. The following paragraph says usually uniform all around while permitting close cutting only in selected spots."
+    },
+    {
+      "concept_key": "crew-cut",
+      "field": "측후면_길이",
+      "source_id": "lp-buzz",
+      "locator": "목록 7번 L65, 크루 커트 설명 문장",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men; independently read section: WHAT IS A BUZZ CUT?; 10 BUZZ CUT HAIRSTYLES FOR MEN > 7. CREW CUT BUZZ CUT > The look / Style tip. In section 7, the description of the latter (crew cut) explicitly gives a short back and sides."
+    },
+    {
+      "concept_key": "crew-cut",
+      "field": "윗머리_차이",
+      "source_id": "lp-buzz",
+      "locator": "목록 7번 L65, 크루 커트 설명 문장",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men; independently read section: WHAT IS A BUZZ CUT?; 10 BUZZ CUT HAIRSTYLES FOR MEN > 7. CREW CUT BUZZ CUT > The look / Style tip. The generic crew-cut sentence retains visible cropped top length intended to emulate bangs."
+    },
+    {
+      "concept_key": "crew-cut",
+      "field": "앞머리_정리",
+      "source_id": "lp-buzz",
+      "locator": "목록 7번 스타일 조언 L66",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/short-hairstyles/buzz-cut-styles-for-men; independently read section: WHAT IS A BUZZ CUT?; 10 BUZZ CUT HAIRSTYLES FOR MEN > 7. CREW CUT BUZZ CUT > The look / Style tip. The combination style’s separate tip uses pomade or paste through the bangs. The record correctly limits this advice to the featured buzz/crew combination."
+    },
+    {
+      "concept_key": "wet-look",
+      "field": "시작_수분",
+      "source_id": "lp-wet",
+      "locator": "방법 단계 1, L117–118",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look; independently read section: How To Get the Wet Hair Look > 1. Start with damp hair; 2. Apply gel to your roots and lengths; 5. Keep the style in place with hair spray (L113–130). Step 1 starts with damp rather than soaking/dripping strands."
+    },
+    {
+      "concept_key": "wet-look",
+      "field": "제품_분포",
+      "source_id": "lp-wet",
+      "locator": "방법 단계 2, L120–121",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look; independently read section: How To Get the Wet Hair Look > 1. Start with damp hair; 2. Apply gel to your roots and lengths; 5. Keep the style in place with hair spray (L113–130). Step 2 works gel from roots downward and warns excess gel at ends can look stiff."
+    },
+    {
+      "concept_key": "wet-look",
+      "field": "고정_마무리",
+      "source_id": "lp-wet",
+      "locator": "방법 단계 5, L129–130",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.lorealparisusa.com/beauty-magazine/hair-style/hairstyle-trends/wet-hair-look; independently read section: How To Get the Wet Hair Look > 1. Start with damp hair; 2. Apply gel to your roots and lengths; 5. Keep the style in place with hair spray (L113–130). Step 5 finishes with hair spray to help keep the look intact; no guaranteed duration is inferred."
+    },
+    {
+      "concept_key": "wet-look",
+      "field": "질감의_정의",
+      "source_id": "davines-wet",
+      "locator": "FAQ 웻 룩 정의 L594–596",
+      "verdict": "supported",
+      "notes": "Primary URL: https://us.davines.com/blogs/news/how-to-get-the-wet-hair-look; independently read section: FAQ > What exactly is “wet look” hair? (L594–596). Davines FAQ defines a high-shine sleek style mimicking freshly washed damp hair using styling products; this is definition text, not a photograph inspection."
+    },
+    {
+      "concept_key": "french-bob",
+      "field": "길이_기준",
+      "source_id": "haircom-french",
+      "locator": "길이 설명 L126–128",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.hair.com/french-bob.html; independently read section: What Is the Difference Between a Bob and a French Bob?; Does a French Bob Have Layers?; Is a French Bob High Maintenance?; How Short Is a French Bob? (L109–128). How Short Is a French Bob? explicitly says at or slightly above the jawline."
+    },
+    {
+      "concept_key": "french-bob",
+      "field": "앞머리_결합",
+      "source_id": "haircom-french",
+      "locator": "일반 보브와 차이 L109–111",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.hair.com/french-bob.html; independently read section: What Is the Difference Between a Bob and a French Bob?; Does a French Bob Have Layers?; Is a French Bob High Maintenance?; How Short Is a French Bob? (L109–128). The comparison with a standard bob identifies fringe as defining for the traditional French bob."
+    },
+    {
+      "concept_key": "french-bob",
+      "field": "레이어_구성",
+      "source_id": "haircom-french",
+      "locator": "레이어 설명 L112–114",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.hair.com/french-bob.html; independently read section: What Is the Difference Between a Bob and a French Bob?; Does a French Bob Have Layers?; Is a French Bob High Maintenance?; How Short Is a French Bob? (L109–128). Does a French Bob Have Layers? identifies soft/subtle layers and attributes volume and shape to them."
+    },
+    {
+      "concept_key": "french-bob",
+      "field": "길이_유지",
+      "source_id": "haircom-french",
+      "locator": "유지관리 절 L120–122",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.hair.com/french-bob.html; independently read section: What Is the Difference Between a Bob and a French Bob?; Does a French Bob Have Layers?; Is a French Bob High Maintenance?; How Short Is a French Bob? (L109–128). Maintenance section recommends trims every four to six weeks depending on growth speed. No independently measured interval is asserted."
+    },
+    {
+      "concept_key": "chin-blunt-bob",
+      "field": "길이_분포",
+      "source_id": "haircom-blunt",
+      "locator": "블런트 정의 L103–105",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.hair.com/blunt-bob-with-bangs.html; independently read section: What is a blunt cut bob?; What is the difference between a bob and a blunt bob?; The Best Ways To Try A Blunt Bob With Bangs > Chin Length (L103–112, L195–197). Definition says a blunt cut is the same length all around."
+    },
+    {
+      "concept_key": "chin-blunt-bob",
+      "field": "끝선_형태",
+      "source_id": "haircom-blunt",
+      "locator": "일반 보브와 차이 L110–112",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.hair.com/blunt-bob-with-bangs.html; independently read section: What is a blunt cut bob?; What is the difference between a bob and a blunt bob?; The Best Ways To Try A Blunt Bob With Bangs > Chin Length (L103–112, L195–197). Comparison section says straight-line ends with no layers."
+    },
+    {
+      "concept_key": "chin-blunt-bob",
+      "field": "턱선_변형",
+      "source_id": "haircom-blunt",
+      "locator": "턱 길이 변형 L195–197",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.hair.com/blunt-bob-with-bangs.html; independently read section: What is a blunt cut bob?; What is the difference between a bob and a blunt bob?; The Best Ways To Try A Blunt Bob With Bangs > Chin Length (L103–112, L195–197). Chin Length is a separately titled example in the same article. It supports the existing chin-length guide, not a newly counted length variant."
+    },
+    {
+      "concept_key": "slick-back",
+      "field": "가르마_예시",
+      "source_id": "ghd-slick",
+      "locator": "단계 2, L213–216",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight; independently read section: SLICK BACK STRAIGHT > STEP BY STEPS > STEP 2 PART HAIR DOWN THE CENTRE & SECTION; STEP 7 SMOOTH THE HAIR BEHIND THE EAR; STEP 8 FINISH WITH GHD PERFECT ENDING - FINAL FIX HAIRSPRAY (current L236–272). Step 2 places hair in a middle parting. The value correctly limits this to this tutorial."
+    },
+    {
+      "concept_key": "slick-back",
+      "field": "정돈_방향",
+      "source_id": "ghd-slick",
+      "locator": "단계 7, L240–244",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight; independently read section: SLICK BACK STRAIGHT > STEP BY STEPS > STEP 2 PART HAIR DOWN THE CENTRE & SECTION; STEP 7 SMOOTH THE HAIR BEHIND THE EAR; STEP 8 FINISH WITH GHD PERFECT ENDING - FINAL FIX HAIRSPRAY (current L236–272). Step 7 uses the tail comb to smooth hair behind the ear."
+    },
+    {
+      "concept_key": "slick-back",
+      "field": "형태_유지",
+      "source_id": "ghd-slick",
+      "locator": "단계 8, L246–249",
+      "verdict": "supported",
+      "notes": "Primary URL: https://www.ghdhair.com/au/hairstyles/straight/how-to-slick-back-straight; independently read section: SLICK BACK STRAIGHT > STEP BY STEPS > STEP 2 PART HAIR DOWN THE CENTRE & SECTION; STEP 7 SMOOTH THE HAIR BEHIND THE EAR; STEP 8 FINISH WITH GHD PERFECT ENDING - FINAL FIX HAIRSPRAY (current L236–272). Step 8 mists the area with final-fix hairspray. No hold-time or independently tested performance is asserted."
+    }
+  ],
+  "accepted_count": 18,
+  "shortfall": 2,
+  "shortfall_reason": "Partial result: 18 of 20 distinct staged concepts accepted; 2 short of target. Butterfly-cut and bixie-cut lack independently readable cited Redken paragraphs (section fetch timeouts; direct fetch HTTP 403); no unsupported fields were repaired or waived. Of 18 accepted concepts, 16 enrich exactly identified existing hair entries and 2 are distinct metadata-only fringe concepts (wispy-bangs and blunt-fringe), not 18 newly acquired media or necessarily 18 new DB rows. All 58 accepted fields are attributed source_claim facts; there are zero observations, measurements, proposals and media candidates. Rights remain unknown for all 12 checked sources. Original 2,485 entries and 7,167 verified Drive-file baseline are not new acquisition and were not modified or re-certified by this review. Staging and active seed were not changed; no ingestion was performed."
+}

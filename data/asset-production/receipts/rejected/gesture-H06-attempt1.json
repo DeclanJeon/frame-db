@@ -1,0 +1,26 @@
+{
+  "job_id": "gesture-H06",
+  "status": "rejected",
+  "prompt": "FRAME authored synthetic reference. Job: gesture-H06; concept: 세 손가락 컵 손잡이 그립.\nClass: base; domain: gesture; entry: CRAFT-gesture-e81aca01031f.\nParent entry IDs: []\nOne fictional adult subject, identity A. No web photograph identity inputs.\nUse actual accepted reference files for these jobs: [\"makeup-N01\",\"expression-E00\"]\nReference roles: {\"makeup-N01\":\"hand anchor\",\"expression-E00\":\"identity\"}\nObservable direction: Create one photorealistic reference photograph of the same fictional adult woman, identity A, from the actual accepted expression-E00 anchor. Keep her medium warm-brown skin, dark-brown eyes, oval face, natural asymmetry and subject-left cheek mole; do not impose ethnicity or invent extra skin marks. Hold one plain empty ceramic mug by its subject-right handle: right index, middle and ring fingers inside the generously sized handle, thumb on the outer upper handle and little finger outside. Keep the left hand resting separately on the tabletop. Use A as the primary actor and the accepted makeup-N01 hand as the hand-identity reference; retain short natural nails. Frame all participating hands, their wrists and traceable arms, while keeping prop contacts detailed enough to inspect.  Use a matte neutral-gray studio background, broad soft neutral key and fill, fixed exposure and white balance, and a plain gray top unless a specified prop requires a jacket. Frame the complete diagnostic region with margin; render one state only, with no text, logo, watermark, split screen or collage.\nCamera / visible region: wide shallow oblique upper-body forearm and hand contact view. Keep every defining feature inside the frame.\nNeutral background, controlled soft neutral lighting, detailed diagnostic photograph.\nPreserve: Keep the accepted identity: facial proportions, iris color, skin undertone, pores, natural asymmetry and fixed skin marks.; Keep the camera, crop, exposure, neutral white balance, broad soft studio lighting and matte gray background matched to the comparison reference.; Keep A hand proportions, nail shapes, skin tone and marks established by makeup-N01.; Preserve named hand ownership, prop count, material, contact surface and overlap order.\nChange only: Hold one plain empty ceramic mug by its subject-right handle: right index, middle and ring fingers inside the generously sized handle, thumb on the outer upper handle and little finger outside. Keep the left hand resting separately on the tabletop.\nNo collage, labels, watermark, packaging substitution, mirrored duplicate or invented motion.\nA still does not verify timing, physical measurements, emotion or unseen geometry.\nAcceptance checks (not yet performed): Inspect the actual full-resolution output before accepting it; this job is a plan, not a completed QA result.; Three named fingers fit inside the same intact handle; thumb and little finger remain outside.; Trace every visible digit through its joints to the correct palm, wrist and arm; distinguish occlusion from missing anatomy.; Reject floating grip, fused hands, object penetration and an unreadable contact surface; a still does not verify motion.\nOutput: {\"format\":\"png\",\"height\":1024,\"width\":1536}\nInput images: Image 1: hand anchor, accepted A hand at public/generated/frame-assets/makeup-N01.png; retain proportions, skin tone, visible mark and short natural nails. Image 2: identity anchor, accepted A face at public/generated/frame-assets/expression-E00.png; retain face, skin tone, cheek mole and hair.",
+  "reference_paths": [
+    "public/generated/frame-assets/makeup-N01.png",
+    "public/generated/frame-assets/expression-E00.png"
+  ],
+  "requested_dimensions": {
+    "format": "png",
+    "height": 1024,
+    "width": 1536
+  },
+  "generation_source_path": "/home/declan/.codex/generated_images/01a18c0a-a029-7393-9952-bc860b013981/exec-1cdadde1-f643-4cc5-beb4-87e159d3306b.png",
+  "sha256": "/home/declan/.codex/generated_images/01a18c0a-a029-7393-9952-bc860b013981/exec-1cdadde1-f643-4cc5-beb4-87e159d3306b.png:",
+  "width": 1536,
+  "height": 1024,
+  "tool": "codex CLI built-in image_gen",
+  "model": "not exposed",
+  "qa": {
+    "reviewer": "Codex",
+    "provisional_decision": "rejected; no project PNG copied",
+    "observations": "Inspected the actual 1536x1024 PNG. One hand holds the mug at its subject-right handle and the other rests separately on the tabletop; both arms are present. The handle opening is too narrow to establish the required three separate index, middle and ring fingers inside it, and the thumb and little finger cannot be distinguished as remaining outside. Named digit-to-handle contacts are therefore not auditable."
+  },
+  "archive_note": "Prior failed/rejected attempt retained; not parent-accepted. New targeted attempt is authorized separately."
+}
